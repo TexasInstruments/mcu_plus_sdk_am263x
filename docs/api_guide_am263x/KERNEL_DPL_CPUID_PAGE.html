@@ -92,29 +92,29 @@ $(document).ready(function(){initNavTree('KERNEL_DPL_CPUID_PAGE.html',''); initR
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md913">Features Supported</a></li>
-<li class="level1"><a href="#autotoc_md914">Features NOT Supported</a></li>
-<li class="level1"><a href="#autotoc_md915">Important Usage Guidelines</a></li>
-<li class="level1"><a href="#autotoc_md916">Example Usage</a></li>
-<li class="level1"><a href="#autotoc_md917">API</a></li>
+<ul><li class="level1"><a href="#autotoc_md923">Features Supported</a></li>
+<li class="level1"><a href="#autotoc_md924">Features NOT Supported</a></li>
+<li class="level1"><a href="#autotoc_md925">Important Usage Guidelines</a></li>
+<li class="level1"><a href="#autotoc_md926">Example Usage</a></li>
+<li class="level1"><a href="#autotoc_md927">API</a></li>
 </ul>
 </div>
 <div class="textblock"><p><a class="anchor" id="md_components_kernel_dpl_CpuIdP"></a></p>
-<h1><a class="anchor" id="autotoc_md913"></a>
+<h1><a class="anchor" id="autotoc_md923"></a>
 Features Supported</h1>
 <ul>
 <li>APIs to get R5F Cluster Id and Core Id.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md914"></a>
+<h1><a class="anchor" id="autotoc_md924"></a>
 Features NOT Supported</h1>
 <p>NA</p>
-<h1><a class="anchor" id="autotoc_md915"></a>
+<h1><a class="anchor" id="autotoc_md925"></a>
 Important Usage Guidelines</h1>
 <ul>
 <li>Refer to ARMv7-R architecture manual for more details</li>
 <li>API should be used in priviledge mode only.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md916"></a>
+<h1><a class="anchor" id="autotoc_md926"></a>
 Example Usage</h1>
 <p>Include the below file to access the APIs, </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="CpuIdP_8h.html">kernel/dpl/CpuIdP.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;drivers/hw_include/cslr_soc.h&gt;</span></div>
@@ -131,18 +131,18 @@ Example Usage</h1>
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-</div><!-- fragment --> <h1><a class="anchor" id="autotoc_md917"></a>
+</div><!-- fragment --> <h1><a class="anchor" id="autotoc_md927"></a>
 API</h1>
 <p><a class="el" href="group__KERNEL__DPL__CPU.html">APIs for CPU ID</a> </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
-<div class="ttc" id="acslr__soc__defines_8h_html_a0c6b4c880365e1d8f53bbd9bf87e3704"><div class="ttname"><a href="cslr__soc__defines_8h.html#a0c6b4c880365e1d8f53bbd9bf87e3704">CSL_ARM_R5_CLUSTER_GROUP_ID_0</a></div><div class="ttdeci">#define CSL_ARM_R5_CLUSTER_GROUP_ID_0</div><div class="ttdoc">R5 Cluster Group ID0.</div><div class="ttdef"><b>Definition:</b> cslr_soc_defines.h:183</div></div>
+<div class="ttc" id="acslr__soc__defines_8h_html_a0c6b4c880365e1d8f53bbd9bf87e3704"><div class="ttname"><a href="cslr__soc__defines_8h.html#a0c6b4c880365e1d8f53bbd9bf87e3704">CSL_ARM_R5_CLUSTER_GROUP_ID_0</a></div><div class="ttdeci">#define CSL_ARM_R5_CLUSTER_GROUP_ID_0</div><div class="ttdoc">R5 Cluster Group ID0.</div><div class="ttdef"><b>Definition:</b> cslr_soc_defines.h:184</div></div>
 <div class="ttc" id="astructCSL__ArmR5CPUInfo_html_aa1632ed76b18974e7d5bef84ea28031c"><div class="ttname"><a href="structCSL__ArmR5CPUInfo.html#aa1632ed76b18974e7d5bef84ea28031c">CSL_ArmR5CPUInfo::grpId</a></div><div class="ttdeci">uint32_t grpId</div><div class="ttdef"><b>Definition:</b> CpuIdP.h:62</div></div>
 <div class="ttc" id="astructCSL__ArmR5CPUInfo_html"><div class="ttname"><a href="structCSL__ArmR5CPUInfo.html">CSL_ArmR5CPUInfo</a></div><div class="ttdoc">Structure containing the CPU Info such as CPU ID and Cluster Group ID.</div><div class="ttdef"><b>Definition:</b> CpuIdP.h:57</div></div>
 <div class="ttc" id="aCpuIdP_8h_html"><div class="ttname"><a href="CpuIdP_8h.html">CpuIdP.h</a></div></div>
 <div class="ttc" id="astructCSL__ArmR5CPUInfo_html_ab61fb01301da2a638345c5cb8be309ca"><div class="ttname"><a href="structCSL__ArmR5CPUInfo.html#ab61fb01301da2a638345c5cb8be309ca">CSL_ArmR5CPUInfo::cpuID</a></div><div class="ttdeci">uint32_t cpuID</div><div class="ttdef"><b>Definition:</b> CpuIdP.h:58</div></div>
-<div class="ttc" id="acslr__soc__defines_8h_html_a162c05886a817c800439d22527292bf2"><div class="ttname"><a href="cslr__soc__defines_8h.html#a162c05886a817c800439d22527292bf2">CSL_ARM_R5_CPU_ID_0</a></div><div class="ttdeci">#define CSL_ARM_R5_CPU_ID_0</div><div class="ttdoc">R5 Core ID0.</div><div class="ttdef"><b>Definition:</b> cslr_soc_defines.h:195</div></div>
+<div class="ttc" id="acslr__soc__defines_8h_html_a162c05886a817c800439d22527292bf2"><div class="ttname"><a href="cslr__soc__defines_8h.html#a162c05886a817c800439d22527292bf2">CSL_ARM_R5_CPU_ID_0</a></div><div class="ttdeci">#define CSL_ARM_R5_CPU_ID_0</div><div class="ttdoc">R5 Core ID0.</div><div class="ttdef"><b>Definition:</b> cslr_soc_defines.h:196</div></div>
 <div class="ttc" id="agroup__KERNEL__DPL__CPU_html_ga37f9706ca6c8fc4baef0985ad2c9e042"><div class="ttname"><a href="group__KERNEL__DPL__CPU.html#ga37f9706ca6c8fc4baef0985ad2c9e042">CSL_armR5GetCpuID</a></div><div class="ttdeci">void CSL_armR5GetCpuID(CSL_ArmR5CPUInfo *cpuInfo)</div><div class="ttdoc">Get the cluster group and CPU ID for current R5 Core.</div></div>
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->

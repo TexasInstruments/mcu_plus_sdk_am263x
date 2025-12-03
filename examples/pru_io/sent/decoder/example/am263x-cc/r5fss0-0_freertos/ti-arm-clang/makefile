@@ -36,8 +36,8 @@ ifeq ($(DEVICE_TYPE), HS)
 endif
 
 FILES_common := \
-	sent_decoder.c \
 	main.c \
+	sent_decoder.c \
 	ti_drivers_config.c \
 	ti_drivers_open_close.c \
 	ti_board_config.c \
@@ -60,6 +60,8 @@ INCLUDES_common := \
 	-I${MCU_PLUS_SDK_PATH}/source/kernel/freertos/config/am263x/r5f \
 	-I${MCU_PLUS_SDK_PATH}/source/pru_io/driver \
 	-I${MCU_PLUS_SDK_PATH}/examples/pru_io/sent/decoder/example \
+	-I${MCU_PLUS_SDK_PATH}/examples/pru_io/sent/decoder/firmware/pru0/am263x-cc \
+	-I${MCU_PLUS_SDK_PATH}/examples/pru_io/sent/decoder/firmware/pru1/am263x-cc \
 	-Igenerated \
 
 DEFINES_common := \
@@ -102,11 +104,14 @@ LNK_FILES_common = \
 LIBS_PATH_common = \
 	-Wl,-i${MCU_PLUS_SDK_PATH}/source/kernel/freertos/lib \
 	-Wl,-i${MCU_PLUS_SDK_PATH}/source/drivers/lib \
+	-Wl,-i${MCU_PLUS_SDK_PATH}/source/board/lib \
+	-Wl,-i${MCU_PLUS_SDK_PATH}/source/pru_io/lib \
 	-Wl,-i${CG_TOOL_ROOT}/lib \
 
 LIBS_common = \
 	-lfreertos.am263x.r5f.ti-arm-clang.${ConfigName}.lib \
 	-ldrivers.am263x.r5f.ti-arm-clang.freertos.${ConfigName}.lib \
+	-lboard.am263x.r5f.ti-arm-clang.freertos.${ConfigName}.lib \
 	-llibc.a \
 	-llibsysbm.a \
 
@@ -120,12 +125,15 @@ LFLAGS_common = \
 LIBS_NAME = \
 	freertos.am263x.r5f.ti-arm-clang.${ConfigName}.lib \
 	drivers.am263x.r5f.ti-arm-clang.freertos.${ConfigName}.lib \
+	board.am263x.r5f.ti-arm-clang.freertos.${ConfigName}.lib \
 	libc.a \
 	libsysbm.a \
 
 LIBS_PATH_NAME = \
 	${MCU_PLUS_SDK_PATH}/source/kernel/freertos/lib \
 	${MCU_PLUS_SDK_PATH}/source/drivers/lib \
+	${MCU_PLUS_SDK_PATH}/source/board/lib \
+	${MCU_PLUS_SDK_PATH}/source/pru_io/lib \
 	${CG_TOOL_ROOT}/lib \
 
 FILES := $(FILES_common) $(FILES_$(PROFILE))

@@ -84,6 +84,7 @@ var group__DRV__QSPI__MODULE =
     [ "QSPI_getHandle", "group__DRV__QSPI__MODULE.html#ga7abf12320af4df4096677c4a355a02ca", null ],
     [ "QSPI_getInputClk", "group__DRV__QSPI__MODULE.html#gaf55858a05c9f61da9ad705059c6e5020", null ],
     [ "QSPI_readMemMapMode", "group__DRV__QSPI__MODULE.html#ga6466fe94253ee22d728409ca52357e8c", null ],
+    [ "QSPI_readConfigMode", "group__DRV__QSPI__MODULE.html#ga76eae97f37aa537590cb6c8967a7dde7", null ],
     [ "QSPI_writeCmd", "group__DRV__QSPI__MODULE.html#gae84861505dc2b319aa8920c451117521", null ],
     [ "QSPI_writeConfigMode", "group__DRV__QSPI__MODULE.html#gaf6cec49280fb8972a39aa54da1d1cb84", null ],
     [ "QSPI_writeConfigModeIntr", "group__DRV__QSPI__MODULE.html#ga5ae1a3f4eec8e62c942bf08031ea778e", null ],

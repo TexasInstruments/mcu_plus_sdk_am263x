@@ -92,14 +92,14 @@ $(document).ready(function(){initNavTree('DRIVERS_GPMC_PAGE.html',''); initResiz
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><ul><li class="level2"><a href="#autotoc_md1052">System Configuration Overview</a></li>
+<ul><ul><li class="level2"><a href="#autotoc_md1062">System Configuration Overview</a></li>
 </ul>
-<li class="level1"><a href="#autotoc_md1053">Features Supported</a></li>
-<li class="level1"><a href="#autotoc_md1054">SysConfig Features</a></li>
-<li class="level1"><a href="#autotoc_md1055">Features NOT Supported</a></li>
-<li class="level1"><a href="#autotoc_md1056">GPMC Overview</a></li>
-<li class="level1"><a href="#autotoc_md1057">Example Usage</a></li>
-<li class="level1"><a href="#autotoc_md1058">API</a></li>
+<li class="level1"><a href="#autotoc_md1063">Features Supported</a></li>
+<li class="level1"><a href="#autotoc_md1064">SysConfig Features</a></li>
+<li class="level1"><a href="#autotoc_md1065">Features NOT Supported</a></li>
+<li class="level1"><a href="#autotoc_md1066">GPMC Overview</a></li>
+<li class="level1"><a href="#autotoc_md1067">Example Usage</a></li>
+<li class="level1"><a href="#autotoc_md1068">API</a></li>
 </ul>
 </div>
 <div class="textblock"><p><a class="anchor" id="md_components_drivers_gpmc"></a></p>
@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('DRIVERS_GPMC_PAGE.html',''); initResiz
 <li>NAND flash</li>
 <li>Pseudo-SRAM devices</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md1052"></a>
+<h2><a class="anchor" id="autotoc_md1062"></a>
 System Configuration Overview</h2>
 <ul>
 <li>Currently enabled for Memory Type: PSRAM (Pseudo Static Random Access Memory)</li>
@@ -117,7 +117,7 @@ System Configuration Overview</h2>
 <li>Memory Part Number: IS67WVE4M16EBLL-70BLA1</li>
 <li>Memory Capacity: 16Mb (8 MB)</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md1053"></a>
+<h1><a class="anchor" id="autotoc_md1063"></a>
 Features Supported</h1>
 <ul>
 <li>16-bit wide data path to external memory device</li>
@@ -131,7 +131,7 @@ Features Supported</h1>
 <li>Support bus turnaround</li>
 <li>32-bit interconnect target interface which supports non-wrapping and wrapping burst of up to 16x32 bits</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md1054"></a>
+<h1><a class="anchor" id="autotoc_md1064"></a>
 SysConfig Features</h1>
 <dl class="section note"><dt>Note</dt><dd>It is strongly recommend to use SysConfig where it is available instead of using direct SW API calls. This will help simplify the SW application and also catch common mistakes early in the development cycle.</dd></dl>
 <ul>
@@ -139,13 +139,13 @@ SysConfig Features</h1>
 <li>Set interrupt trigger type</li>
 <li>Configuring pinmux based on selected pin</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md1055"></a>
+<h1><a class="anchor" id="autotoc_md1065"></a>
 Features NOT Supported</h1>
 <ul>
 <li>Interupt mode is not supported.</li>
 <li>Interface to NAND-like devices are not supported.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md1056"></a>
+<h1><a class="anchor" id="autotoc_md1066"></a>
 GPMC Overview</h1>
 <p>The GPMC basic programming model offers maximum flexibility to support various access protocols for each of the four configurable chip-selects. Use optimal chip-select settings, based on the characteristics of the external device:</p><ul>
 <li>Different protocols can be selected to support generic asynchronous or synchronous random-access devices (NOR flash, SRAM) or to support specific NAND devices.</li>
@@ -175,7 +175,7 @@ GPMC FUNCTIONAL BLOCK DIAGRAM</div></div>
 </li>
 </ul>
 <p>The GPMC can access various external devices. The flexible programming model allows a wide range of attached device types and access schemes. Based on the programmed configuration bit fields stored in the GPMC registers, the GPMC can generate the timing of all control signals depending on the attached device and access type. Given the chip-select decoding and its associated configuration registers, the GPMC selects the appropriate control signal timing for the device type</p>
-<h1><a class="anchor" id="autotoc_md1057"></a>
+<h1><a class="anchor" id="autotoc_md1067"></a>
 Example Usage</h1>
 <p>Include the below file to access the APIs </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;drivers/gpmc.h&gt;</span></div>
@@ -185,7 +185,7 @@ Example Usage</h1>
 <div class="line">    gGpmcHandle = <a class="code" href="group__DRV__GPMC__MODULE.html#gae3bcb5e923271322de00c6e0da81a9e4">GPMC_open</a>(0, &amp;gpmcParams);</div>
 <div class="line">    <a class="code" href="group__KERNEL__DPL__DEBUG.html#ga552e9055ca7eab5fe6c224c6cd5a9d4c">DebugP_assert</a>(gGpmcHandle != NULL);</div>
 </div><!-- fragment --><p> GPMC Instance Close </p><div class="fragment"><div class="line">    <a class="code" href="group__DRV__GPMC__MODULE.html#ga7ea9dfb52286461c0e982cc67dced01a">GPMC_close</a>(gGpmcHandle);</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md1058"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md1068"></a>
 API</h1>
 <p><a class="el" href="group__DRV__GPMC__MODULE.html">APIs for GPMC</a> </p>
 </div></div><!-- contents -->

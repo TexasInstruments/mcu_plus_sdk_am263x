@@ -136,8 +136,11 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga758179322fdc315f6bd2eeceac166870"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function de-initializes the QSPI module in DMA Mode.  <a href="group__DRV__QSPI__LLD__MODULE.html#ga758179322fdc315f6bd2eeceac166870">More...</a><br /></td></tr>
 <tr class="separator:ga758179322fdc315f6bd2eeceac166870"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga37d6c98607e20a1c5d0a72f127e5bbfc"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DRV__QSPI__LLD__MODULE.html#ga37d6c98607e20a1c5d0a72f127e5bbfc">QSPI_lld_readCmd</a> (<a class="el" href="group__DRV__QSPI__LLD__MODULE.html#ga6924091b7671646853e7b24488f91ad6">QSPILLD_Handle</a> hQspi, <a class="el" href="structQSPILLD__WriteCmdParams.html">QSPILLD_WriteCmdParams</a> *writeMsg)</td></tr>
-<tr class="memdesc:ga37d6c98607e20a1c5d0a72f127e5bbfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to send specific commands and receive related data from flash in configuration mode.  <a href="group__DRV__QSPI__LLD__MODULE.html#ga37d6c98607e20a1c5d0a72f127e5bbfc">More...</a><br /></td></tr>
+<tr class="memdesc:ga37d6c98607e20a1c5d0a72f127e5bbfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to send specific commands and receive related data from flash in configuration mode This API is typically used for reading flash information such as manufacturer ID, SFDP data.  <a href="group__DRV__QSPI__LLD__MODULE.html#ga37d6c98607e20a1c5d0a72f127e5bbfc">More...</a><br /></td></tr>
 <tr class="separator:ga37d6c98607e20a1c5d0a72f127e5bbfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5ee9238aacda52ac2f5f323bbbd2df8a"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DRV__QSPI__LLD__MODULE.html#ga5ee9238aacda52ac2f5f323bbbd2df8a">QSPI_lld_readData</a> (<a class="el" href="group__DRV__QSPI__LLD__MODULE.html#ga6924091b7671646853e7b24488f91ad6">QSPILLD_Handle</a> hQspi, <a class="el" href="structQSPILLD__WriteCmdParams.html">QSPILLD_WriteCmdParams</a> *writeMsg)</td></tr>
+<tr class="memdesc:ga5ee9238aacda52ac2f5f323bbbd2df8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to send specific commands and receive related data from flash in configuration mode This API is intended to read data with and without dummy cycles based on condition whether dummy bits are required or not, set from syscfg-gui.  <a href="group__DRV__QSPI__LLD__MODULE.html#ga5ee9238aacda52ac2f5f323bbbd2df8a">More...</a><br /></td></tr>
+<tr class="separator:ga5ee9238aacda52ac2f5f323bbbd2df8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaaedfb30be02ecea339c840d300526744"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DRV__QSPI__LLD__MODULE.html#gaaedfb30be02ecea339c840d300526744">QSPI_lld_readCmdIntr</a> (<a class="el" href="group__DRV__QSPI__LLD__MODULE.html#ga6924091b7671646853e7b24488f91ad6">QSPILLD_Handle</a> hQspi, const <a class="el" href="structQSPILLD__WriteCmdParams.html">QSPILLD_WriteCmdParams</a> *msg)</td></tr>
 <tr class="memdesc:gaaedfb30be02ecea339c840d300526744"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to send specific commands and receive related data from flash in interrupt mode.  <a href="group__DRV__QSPI__LLD__MODULE.html#gaaedfb30be02ecea339c840d300526744">More...</a><br /></td></tr>
 <tr class="separator:gaaedfb30be02ecea339c840d300526744"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -216,6 +219,15 @@ Macros</h2></td></tr>
 <tr class="memitem:ga75a5c04cc129684c44221d8325eab35d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DRV__QSPI__LLD__MODULE.html#ga75a5c04cc129684c44221d8325eab35d">QSPI_MAX_WORD_LENGTH</a>&#160;&#160;&#160;(128U)</td></tr>
 <tr class="memdesc:ga75a5c04cc129684c44221d8325eab35d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum QSPI Word length.  <a href="group__DRV__QSPI__LLD__MODULE.html#ga75a5c04cc129684c44221d8325eab35d">More...</a><br /></td></tr>
 <tr class="separator:ga75a5c04cc129684c44221d8325eab35d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3adc9d375bb96eed74c4a807130a9d6c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DRV__QSPI__LLD__MODULE.html#ga3adc9d375bb96eed74c4a807130a9d6c">QSPI_NUM_OF_DUMMY_BITS_ZERO</a>&#160;&#160;&#160;(0U)</td></tr>
+<tr class="memdesc:ga3adc9d375bb96eed74c4a807130a9d6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of Dummy Bits for QSPI read.  <a href="group__DRV__QSPI__LLD__MODULE.html#ga3adc9d375bb96eed74c4a807130a9d6c">More...</a><br /></td></tr>
+<tr class="separator:ga3adc9d375bb96eed74c4a807130a9d6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga012311074732d95e5fcc07071065aea6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DRV__QSPI__LLD__MODULE.html#ga012311074732d95e5fcc07071065aea6">QSPI_CMD_ADDR_DUMMY_BYTES_LEN</a>&#160;&#160;&#160;(5U)</td></tr>
+<tr class="memdesc:ga012311074732d95e5fcc07071065aea6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of CMD, Address and Dummy bytes in SPI words for quad read.  <a href="group__DRV__QSPI__LLD__MODULE.html#ga012311074732d95e5fcc07071065aea6">More...</a><br /></td></tr>
+<tr class="separator:ga012311074732d95e5fcc07071065aea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacebccd8a36d647482f49696423ca7b42"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DRV__QSPI__LLD__MODULE.html#gacebccd8a36d647482f49696423ca7b42">QSPI_MAX_FRAME_LENGTH</a>&#160;&#160;&#160;(4096U)</td></tr>
+<tr class="memdesc:gacebccd8a36d647482f49696423ca7b42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum frame length for QSPI transfer.  <a href="group__DRV__QSPI__LLD__MODULE.html#gacebccd8a36d647482f49696423ca7b42">More...</a><br /></td></tr>
+<tr class="separator:gacebccd8a36d647482f49696423ca7b42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Chip Selects</h2></td></tr>
@@ -353,6 +365,9 @@ LLD (Low Level Driver) Transaction states</h2></td></tr>
 <tr class="memitem:ga45ea6b4474d5f184d07d49386b0f3678"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DRV__QSPI__LLD__MODULE.html#ga45ea6b4474d5f184d07d49386b0f3678">QSPI_STATE_NON_BLOCK</a>&#160;&#160;&#160;(5U)</td></tr>
 <tr class="memdesc:ga45ea6b4474d5f184d07d49386b0f3678"><td class="mdescLeft">&#160;</td><td class="mdescRight">This transaction state indicates Don't Block for read completion.  <a href="group__DRV__QSPI__LLD__MODULE.html#ga45ea6b4474d5f184d07d49386b0f3678">More...</a><br /></td></tr>
 <tr class="separator:ga45ea6b4474d5f184d07d49386b0f3678"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3b8785a896fdbb19ff4ec4e47bd2a62b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DRV__QSPI__LLD__MODULE.html#ga3b8785a896fdbb19ff4ec4e47bd2a62b">QSPI_STATE_WRITE_DUMMY_CYCLES</a>&#160;&#160;&#160;(6U)</td></tr>
+<tr class="memdesc:ga3b8785a896fdbb19ff4ec4e47bd2a62b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This transaction state indicates writing dummy cycles functionality.  <a href="group__DRV__QSPI__LLD__MODULE.html#ga3b8785a896fdbb19ff4ec4e47bd2a62b">More...</a><br /></td></tr>
+<tr class="separator:ga3b8785a896fdbb19ff4ec4e47bd2a62b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 QSPI Driver Initialization Structure</h2></td></tr>
@@ -959,6 +974,70 @@ QSPI Driver Initialization Structure</h2></td></tr>
 
 </div>
 </div>
+<a id="ga3b8785a896fdbb19ff4ec4e47bd2a62b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3b8785a896fdbb19ff4ec4e47bd2a62b">&#9670;&nbsp;</a></span>QSPI_STATE_WRITE_DUMMY_CYCLES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define QSPI_STATE_WRITE_DUMMY_CYCLES&#160;&#160;&#160;(6U)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This transaction state indicates writing dummy cycles functionality. </p>
+
+</div>
+</div>
+<a id="ga3adc9d375bb96eed74c4a807130a9d6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3adc9d375bb96eed74c4a807130a9d6c">&#9670;&nbsp;</a></span>QSPI_NUM_OF_DUMMY_BITS_ZERO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define QSPI_NUM_OF_DUMMY_BITS_ZERO&#160;&#160;&#160;(0U)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Number of Dummy Bits for QSPI read. </p>
+
+</div>
+</div>
+<a id="ga012311074732d95e5fcc07071065aea6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga012311074732d95e5fcc07071065aea6">&#9670;&nbsp;</a></span>QSPI_CMD_ADDR_DUMMY_BYTES_LEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define QSPI_CMD_ADDR_DUMMY_BYTES_LEN&#160;&#160;&#160;(5U)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Size of CMD, Address and Dummy bytes in SPI words for quad read. </p>
+
+</div>
+</div>
+<a id="gacebccd8a36d647482f49696423ca7b42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacebccd8a36d647482f49696423ca7b42">&#9670;&nbsp;</a></span>QSPI_MAX_FRAME_LENGTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define QSPI_MAX_FRAME_LENGTH&#160;&#160;&#160;(4096U)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Maximum frame length for QSPI transfer. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="gaf6923a052696ce8d6e02a79c75ca9226"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaf6923a052696ce8d6e02a79c75ca9226">&#9670;&nbsp;</a></span>QSPI_DmaHandle</h2>
@@ -1253,7 +1332,45 @@ QSPI Driver Initialization Structure</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Function to send specific commands and receive related data from flash in configuration mode. </p>
+<p>Function to send specific commands and receive related data from flash in configuration mode This API is typically used for reading flash information such as manufacturer ID, SFDP data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hQspi</td><td><a class="el" href="group__DRV__QSPI__LLD__MODULE.html#ga6924091b7671646853e7b24488f91ad6">QSPILLD_Handle</a> of QSPI instance. </td></tr>
+    <tr><td class="paramname">writeMsg</td><td>Pointer to a structure <a class="el" href="structQSPILLD__WriteCmdParams.html" title="QSPI Transaction Info.">QSPILLD_WriteCmdParams</a> contains read command OPCODE, flash memory address, buffer to store the response from flash and buffer length</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__DRV__QSPI__LLD__MODULE.html#ga81afaa822cc1afa0947892f38bfae730" title="Return status when the API execution was successful.">QSPI_SYSTEM_SUCCESS</a> if command read was successful; else error on failure </dd></dl>
+
+</div>
+</div>
+<a id="ga5ee9238aacda52ac2f5f323bbbd2df8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5ee9238aacda52ac2f5f323bbbd2df8a">&#9670;&nbsp;</a></span>QSPI_lld_readData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t QSPI_lld_readData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__DRV__QSPI__LLD__MODULE.html#ga6924091b7671646853e7b24488f91ad6">QSPILLD_Handle</a>&#160;</td>
+          <td class="paramname"><em>hQspi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structQSPILLD__WriteCmdParams.html">QSPILLD_WriteCmdParams</a> *&#160;</td>
+          <td class="paramname"><em>writeMsg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function to send specific commands and receive related data from flash in configuration mode This API is intended to read data with and without dummy cycles based on condition whether dummy bits are required or not, set from syscfg-gui. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">hQspi</td><td><a class="el" href="group__DRV__QSPI__LLD__MODULE.html#ga6924091b7671646853e7b24488f91ad6">QSPILLD_Handle</a> of QSPI instance. </td></tr>

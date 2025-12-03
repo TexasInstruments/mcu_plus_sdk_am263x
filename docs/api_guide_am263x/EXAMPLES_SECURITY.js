@@ -1,371 +1,371 @@
 var EXAMPLES_SECURITY =
 [
     [ "DTHE AES CBC-128", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3259", [
-        [ "Build the aes cbc 128 example", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3260", null ]
+      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3316", [
+        [ "Build the aes cbc 128 example", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3317", null ]
       ] ],
-      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3261", [
-        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3262", [
-          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3263", null ],
-          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3264", null ],
-          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3265", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3266", null ]
+      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3318", [
+        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3319", [
+          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3320", null ],
+          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3321", null ],
+          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3322", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3323", null ]
         ] ],
-        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3267", [
-          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3268", null ],
-          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3269", null ],
-          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3270", null ],
-          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3271", null ],
-          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3272", null ],
-          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3273", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3274", null ]
+        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3324", [
+          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3325", null ],
+          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3326", null ],
+          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3327", null ],
+          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3328", null ],
+          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3329", null ],
+          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3330", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3331", null ]
         ] ]
       ] ],
-      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3275", null ]
+      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_CBC_128.html#autotoc_md3332", null ]
     ] ],
     [ "DTHE AES CBC-256", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3276", [
-        [ "Build the aes cbc 256 example", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3277", null ]
+      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3333", [
+        [ "Build the aes cbc 256 example", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3334", null ]
       ] ],
-      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3278", [
-        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3279", [
-          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3280", null ],
-          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3281", null ],
-          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3282", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3283", null ]
+      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3335", [
+        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3336", [
+          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3337", null ],
+          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3338", null ],
+          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3339", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3340", null ]
         ] ],
-        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3284", [
-          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3285", null ],
-          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3286", null ],
-          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3287", null ],
-          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3288", null ],
-          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3289", null ],
-          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3290", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3291", null ]
+        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3341", [
+          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3342", null ],
+          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3343", null ],
+          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3344", null ],
+          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3345", null ],
+          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3346", null ],
+          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3347", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3348", null ]
         ] ]
       ] ],
-      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3292", null ]
+      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_CBC_256.html#autotoc_md3349", null ]
     ] ],
     [ "DTHE AES ECB-128", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3327", [
-        [ "Build the aes ecb 128 example", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3328", null ]
+      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3384", [
+        [ "Build the aes ecb 128 example", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3385", null ]
       ] ],
-      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3329", [
-        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3330", [
-          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3331", null ],
-          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3332", null ],
-          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3333", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3334", null ]
+      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3386", [
+        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3387", [
+          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3388", null ],
+          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3389", null ],
+          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3390", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3391", null ]
         ] ],
-        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3335", [
-          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3336", null ],
-          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3337", null ],
-          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3338", null ],
-          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3339", null ],
-          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3340", null ],
-          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3341", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3342", null ]
+        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3392", [
+          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3393", null ],
+          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3394", null ],
+          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3395", null ],
+          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3396", null ],
+          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3397", null ],
+          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3398", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3399", null ]
         ] ]
       ] ],
-      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3343", null ]
+      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_ECB_128.html#autotoc_md3400", null ]
     ] ],
     [ "DTHE AES ECB-256", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3344", [
-        [ "Build the aes ecb 256 example", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3345", null ]
+      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3401", [
+        [ "Build the aes ecb 256 example", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3402", null ]
       ] ],
-      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3346", [
-        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3347", [
-          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3348", null ],
-          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3349", null ],
-          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3350", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3351", null ]
+      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3403", [
+        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3404", [
+          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3405", null ],
+          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3406", null ],
+          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3407", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3408", null ]
         ] ],
-        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3352", [
-          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3353", null ],
-          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3354", null ],
-          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3355", null ],
-          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3356", null ],
-          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3357", null ],
-          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3358", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3359", null ]
+        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3409", [
+          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3410", null ],
+          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3411", null ],
+          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3412", null ],
+          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3413", null ],
+          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3414", null ],
+          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3415", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3416", null ]
         ] ]
       ] ],
-      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3360", null ]
+      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_ECB_256.html#autotoc_md3417", null ]
     ] ],
     [ "DTHE AES CTR", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3429", [
-        [ "Build the aes cbc 128 example", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3430", null ]
+      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3486", [
+        [ "Build the aes cbc 128 example", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3487", null ]
       ] ],
-      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3431", [
-        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3432", [
-          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3433", null ],
-          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3434", null ],
-          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3435", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3436", null ]
+      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3488", [
+        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3489", [
+          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3490", null ],
+          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3491", null ],
+          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3492", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3493", null ]
         ] ],
-        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3437", [
-          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3438", null ],
-          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3439", null ],
-          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3440", null ],
-          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3441", null ],
-          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3442", null ],
-          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3443", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3444", null ]
+        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3494", [
+          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3495", null ],
+          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3496", null ],
+          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3497", null ],
+          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3498", null ],
+          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3499", null ],
+          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3500", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3501", null ]
         ] ]
       ] ],
-      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3445", null ]
+      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_CTR.html#autotoc_md3502", null ]
     ] ],
     [ "DTHE AES CFB", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3446", [
-        [ "Build the aes cfb 128 example", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3447", null ]
+      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3503", [
+        [ "Build the aes cfb 128 example", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3504", null ]
       ] ],
-      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3448", [
-        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3449", [
-          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3450", null ],
-          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3451", null ],
-          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3452", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3453", null ]
+      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3505", [
+        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3506", [
+          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3507", null ],
+          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3508", null ],
+          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3509", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3510", null ]
         ] ],
-        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3454", [
-          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3455", null ],
-          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3456", null ],
-          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3457", null ],
-          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3458", null ],
-          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3459", null ],
-          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3460", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3461", null ]
+        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3511", [
+          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3512", null ],
+          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3513", null ],
+          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3514", null ],
+          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3515", null ],
+          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3516", null ],
+          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3517", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3518", null ]
         ] ]
       ] ],
-      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3462", null ]
+      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_CFB.html#autotoc_md3519", null ]
     ] ],
     [ "DTHE AES GCM", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3395", [
-        [ "Build the aes cbc 128 example", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3396", null ]
+      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3452", [
+        [ "Build the aes cbc 128 example", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3453", null ]
       ] ],
-      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3397", [
-        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3398", [
-          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3399", null ],
-          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3400", null ],
-          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3401", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3402", null ]
+      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3454", [
+        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3455", [
+          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3456", null ],
+          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3457", null ],
+          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3458", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3459", null ]
         ] ],
-        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3403", [
-          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3404", null ],
-          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3405", null ],
-          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3406", null ],
-          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3407", null ],
-          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3408", null ],
-          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3409", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3410", null ]
+        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3460", [
+          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3461", null ],
+          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3462", null ],
+          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3463", null ],
+          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3464", null ],
+          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3465", null ],
+          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3466", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3467", null ]
         ] ]
       ] ],
-      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3411", null ]
+      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_GCM.html#autotoc_md3468", null ]
     ] ],
     [ "DTHE AES STREAMING", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3412", [
-        [ "Build the aes cmac 256 example", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3413", null ]
+      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3469", [
+        [ "Build the aes cmac 256 example", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3470", null ]
       ] ],
-      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3414", [
-        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3415", [
-          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3416", null ],
-          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3417", null ],
-          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3418", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3419", null ]
+      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3471", [
+        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3472", [
+          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3473", null ],
+          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3474", null ],
+          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3475", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3476", null ]
         ] ],
-        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3420", [
-          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3421", null ],
-          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3422", null ],
-          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3423", null ],
-          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3424", null ],
-          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3425", null ],
-          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3426", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3427", null ]
+        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3477", [
+          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3478", null ],
+          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3479", null ],
+          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3480", null ],
+          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3481", null ],
+          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3482", null ],
+          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3483", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3484", null ]
         ] ]
       ] ],
-      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3428", null ]
+      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_STREAMING.html#autotoc_md3485", null ]
     ] ],
     [ "DTHE AES CMAC-128", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3361", [
-        [ "Build the aes cmac 128 example", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3362", null ]
+      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3418", [
+        [ "Build the aes cmac 128 example", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3419", null ]
       ] ],
-      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3363", [
-        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3364", [
-          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3365", null ],
-          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3366", null ],
-          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3367", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3368", null ]
+      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3420", [
+        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3421", [
+          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3422", null ],
+          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3423", null ],
+          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3424", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3425", null ]
         ] ],
-        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3369", [
-          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3370", null ],
-          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3371", null ],
-          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3372", null ],
-          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3373", null ],
-          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3374", null ],
-          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3375", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3376", null ]
+        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3426", [
+          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3427", null ],
+          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3428", null ],
+          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3429", null ],
+          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3430", null ],
+          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3431", null ],
+          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3432", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3433", null ]
         ] ]
       ] ],
-      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3377", null ]
+      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_128.html#autotoc_md3434", null ]
     ] ],
     [ "DTHE AES CMAC-256", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3378", [
-        [ "Build the aes cmac 256 example", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3379", null ]
+      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3435", [
+        [ "Build the aes cmac 256 example", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3436", null ]
       ] ],
-      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3380", [
-        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3381", [
-          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3382", null ],
-          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3383", null ],
-          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3384", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3385", null ]
+      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3437", [
+        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3438", [
+          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3439", null ],
+          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3440", null ],
+          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3441", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3442", null ]
         ] ],
-        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3386", [
-          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3387", null ],
-          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3388", null ],
-          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3389", null ],
-          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3390", null ],
-          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3391", null ],
-          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3392", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3393", null ]
+        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3443", [
+          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3444", null ],
+          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3445", null ],
+          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3446", null ],
+          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3447", null ],
+          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3448", null ],
+          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3449", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3450", null ]
         ] ]
       ] ],
-      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3394", null ]
+      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_CMAC_256.html#autotoc_md3451", null ]
     ] ],
     [ "DTHE SHA 256", "EXAMPLES_DRIVERS_DTHE_SHA_256.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3463", [
-        [ "Build the sha 256 example", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3464", null ]
+      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3520", [
+        [ "Build the sha 256 example", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3521", null ]
       ] ],
-      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3465", [
-        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3466", [
-          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3467", null ],
-          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3468", null ],
-          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3469", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3470", null ]
+      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3522", [
+        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3523", [
+          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3524", null ],
+          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3525", null ],
+          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3526", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3527", null ]
         ] ],
-        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3471", [
-          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3472", null ],
-          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3473", null ],
-          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3474", null ],
-          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3475", null ],
-          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3476", null ],
-          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3477", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3478", null ]
+        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3528", [
+          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3529", null ],
+          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3530", null ],
+          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3531", null ],
+          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3532", null ],
+          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3533", null ],
+          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3534", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3535", null ]
         ] ]
       ] ],
-      [ "See Also", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3479", null ]
+      [ "See Also", "EXAMPLES_DRIVERS_DTHE_SHA_256.html#autotoc_md3536", null ]
     ] ],
     [ "DTHE SHA 512", "EXAMPLES_DRIVERS_DTHE_SHA_512.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3480", [
-        [ "Build the sha 512 example", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3481", null ]
+      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3537", [
+        [ "Build the sha 512 example", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3538", null ]
       ] ],
-      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3482", [
-        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3483", [
-          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3484", null ],
-          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3485", null ],
-          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3486", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3487", null ]
+      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3539", [
+        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3540", [
+          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3541", null ],
+          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3542", null ],
+          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3543", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3544", null ]
         ] ],
-        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3488", [
-          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3489", null ],
-          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3490", null ],
-          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3491", null ],
-          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3492", null ],
-          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3493", null ],
-          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3494", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3495", null ]
+        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3545", [
+          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3546", null ],
+          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3547", null ],
+          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3548", null ],
+          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3549", null ],
+          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3550", null ],
+          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3551", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3552", null ]
         ] ]
       ] ],
-      [ "See Also", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3496", null ]
+      [ "See Also", "EXAMPLES_DRIVERS_DTHE_SHA_512.html#autotoc_md3553", null ]
     ] ],
     [ "DTHE HMAC SHA 256", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3497", [
-        [ "Build the hmac sha 256 example", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3498", null ]
+      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3554", [
+        [ "Build the hmac sha 256 example", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3555", null ]
       ] ],
-      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3499", [
-        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3500", [
-          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3501", null ],
-          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3502", null ],
-          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3503", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3504", null ]
+      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3556", [
+        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3557", [
+          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3558", null ],
+          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3559", null ],
+          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3560", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3561", null ]
         ] ],
-        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3505", [
-          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3506", null ],
-          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3507", null ],
-          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3508", null ],
-          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3509", null ],
-          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3510", null ],
-          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3511", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3512", null ]
+        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3562", [
+          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3563", null ],
+          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3564", null ],
+          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3565", null ],
+          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3566", null ],
+          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3567", null ],
+          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3568", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3569", null ]
         ] ]
       ] ],
-      [ "See Also", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3513", null ]
+      [ "See Also", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_256.html#autotoc_md3570", null ]
     ] ],
     [ "DTHE HMAC SHA 512", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3514", [
-        [ "Build the hmac sha 512 example", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3515", null ]
+      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3571", [
+        [ "Build the hmac sha 512 example", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3572", null ]
       ] ],
-      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3516", [
-        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3517", [
-          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3518", null ],
-          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3519", null ],
-          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3520", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3521", null ]
+      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3573", [
+        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3574", [
+          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3575", null ],
+          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3576", null ],
+          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3577", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3578", null ]
         ] ],
-        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3522", [
-          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3523", null ],
-          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3524", null ],
-          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3525", null ],
-          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3526", null ],
-          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3527", null ],
-          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3528", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3529", null ]
+        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3579", [
+          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3580", null ],
+          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3581", null ],
+          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3582", null ],
+          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3583", null ],
+          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3584", null ],
+          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3585", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3586", null ]
         ] ]
       ] ],
-      [ "See Also", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3530", null ]
+      [ "See Also", "EXAMPLES_DRIVERS_DTHE_HMAC_SHA_512.html#autotoc_md3587", null ]
     ] ],
     [ "DTHE AES CCM-128", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3293", [
-        [ "Build the aes ccm 128 example", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3294", null ]
+      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3350", [
+        [ "Build the aes ccm 128 example", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3351", null ]
       ] ],
-      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3295", [
-        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3296", [
-          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3297", null ],
-          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3298", null ],
-          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3299", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3300", null ]
+      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3352", [
+        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3353", [
+          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3354", null ],
+          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3355", null ],
+          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3356", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3357", null ]
         ] ],
-        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3301", [
-          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3302", null ],
-          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3303", null ],
-          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3304", null ],
-          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3305", null ],
-          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3306", null ],
-          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3307", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3308", null ]
+        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3358", [
+          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3359", null ],
+          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3360", null ],
+          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3361", null ],
+          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3362", null ],
+          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3363", null ],
+          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3364", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3365", null ]
         ] ]
       ] ],
-      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3309", null ]
+      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_CCM_128.html#autotoc_md3366", null ]
     ] ],
     [ "DTHE AES CCM-256", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3310", [
-        [ "Build the aes ccm 256 example", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3311", null ]
+      [ "Introduction", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3367", [
+        [ "Build the aes ccm 256 example", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3368", null ]
       ] ],
-      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3312", [
-        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3313", [
-          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3314", null ],
-          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3315", null ],
-          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3316", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3317", null ]
+      [ "Steps to Run through ROM Boot flow", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3369", [
+        [ "Via SBL_uart bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3370", [
+          [ "Build sbl_uart", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3371", null ],
+          [ "Set board for UART boot", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3372", null ],
+          [ "Run UART_bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3373", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3374", null ]
         ] ],
-        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3318", [
-          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3319", null ],
-          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3320", null ],
-          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3321", null ],
-          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3322", null ],
-          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3323", null ],
-          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3324", null ],
-          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3325", null ]
+        [ "Via SBL_qspi bootloader", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3375", [
+          [ "Build sbl_qspi", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3376", null ],
+          [ "Build sbl_uart_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3377", null ],
+          [ "Set UART boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3378", null ],
+          [ "Edit default_sbl_qspi.cfg to include the correct images", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3379", null ],
+          [ "Run UART_uniflash", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3380", null ],
+          [ "Set QSPI boot mode", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3381", null ],
+          [ "Sample output", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3382", null ]
         ] ]
       ] ],
-      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3326", null ]
+      [ "See Also", "EXAMPLES_DRIVERS_DTHE_AES_CCM_256.html#autotoc_md3383", null ]
     ] ]
 ];
