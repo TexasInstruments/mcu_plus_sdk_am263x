@@ -1,7 +1,7 @@
 {
     "name": "MCU_PLUS_SDK_AM263x",
     "displayName": "MCU+ SDK for AM263x",
-    "version": "11.00.00",
+    "version": "11.01.00",
     "documentationPath": "../docs",
     "includePaths": [
         "../source/sysconfig",
