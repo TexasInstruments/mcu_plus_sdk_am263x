@@ -1,5 +1,45 @@
 var RELEASE_NOTES_PAGE =
 [
+    [ "Release Notes 11.01.00", "RELEASE_NOTES_11_01_00_PAGE.html", [
+      [ "New in this Release", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md467", null ],
+      [ "Device and Validation Information", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md468", null ],
+      [ "Dependent Tools and Compiler Information", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md469", null ],
+      [ "Key Features", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md470", [
+        [ "Experimental Features", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md471", null ],
+        [ "OS Kernel", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md472", null ],
+        [ "Driver Porting Layer (DPL)", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md473", null ],
+        [ "Secondary Bootloader (SBL)", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md474", null ],
+        [ "SOC Device Drivers", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md475", null ],
+        [ "Board Device Drivers", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md476", null ],
+        [ "CMSIS", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md477", null ],
+        [ "Ethernet and Networking", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md478", null ],
+        [ "Demos", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md479", null ],
+        [ "Safety Diagnostic Library", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md480", null ]
+      ] ],
+      [ "Fixed Issues", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md481", null ],
+      [ "Known Issues", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md482", null ],
+      [ "Errata", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md483", null ],
+      [ "Limitations", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md484", null ],
+      [ "Upgrade and Compatibility Information", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md485", [
+        [ "Compiling examples in MacOS machines", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md486", null ],
+        [ "RPRC Image format is Deprecated and Corresponding SBL's are also removed from SDK", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md487", null ],
+        [ "Module clock configuration through Clock Tree", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md488", null ],
+        [ "Migrating back from CCS Theia to CCS Eclipse", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md489", [
+          [ "Importing and Building in Eclipse", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md490", null ],
+          [ "CCS SBL Loading", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md491", null ]
+        ] ],
+        [ "Migrating examples to 11.00.00 from older versions", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md492", [
+          [ "Makefile Changes", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md493", [
+            [ "Library Name change on makefile and CCS projects", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md494", null ],
+            [ "OS define on makefile and CCS projects", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md495", null ]
+          ] ]
+        ] ],
+        [ "SDL PBIST Self test", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md496", null ],
+        [ "Compiler Options", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md497", null ],
+        [ "SOC Device Drivers", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md498", null ],
+        [ "Ethernet and Networking", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md499", null ]
+      ] ]
+    ] ],
     [ "Release Notes 11.00.00", "RELEASE_NOTES_11_00_00_PAGE.html", [
       [ "New in this Release", "RELEASE_NOTES_11_00_00_PAGE.html#autotoc_md434", null ],
       [ "Device and Validation Information", "RELEASE_NOTES_11_00_00_PAGE.html#autotoc_md435", null ],

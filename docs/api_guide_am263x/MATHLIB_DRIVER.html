@@ -92,27 +92,27 @@ $(document).ready(function(){initNavTree('MATHLIB_DRIVER.html',''); initResizabl
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md1592">MATHLIB</a><ul><li class="level2"><a href="#autotoc_md1593">Introduction</a></li>
-<li class="level2"><a href="#autotoc_md1594">Features Supported</a></li>
-<li class="level2"><a href="#autotoc_md1595">Features Not Supported</a></li>
+<ul><li class="level1"><a href="#autotoc_md1632">MATHLIB</a><ul><li class="level2"><a href="#autotoc_md1633">Introduction</a></li>
+<li class="level2"><a href="#autotoc_md1634">Features Supported</a></li>
+<li class="level2"><a href="#autotoc_md1635">Features Not Supported</a></li>
 <li class="level2"><a href="#MATHLIB_ADDITIONAL_REFERENCES">Additional References</a></li>
-<li class="level2"><a href="#autotoc_md1596">API</a></li>
+<li class="level2"><a href="#autotoc_md1636">API</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md1597">FastRTS library</a><ul><li class="level2"><a href="#autotoc_md1598">Features Supported</a></li>
-<li class="level2"><a href="#autotoc_md1599">Features Not Supported</a></li>
-<li class="level2"><a href="#autotoc_md1600">API</a></li>
+<li class="level1"><a href="#autotoc_md1637">FastRTS library</a><ul><li class="level2"><a href="#autotoc_md1638">Features Supported</a></li>
+<li class="level2"><a href="#autotoc_md1639">Features Not Supported</a></li>
+<li class="level2"><a href="#autotoc_md1640">API</a></li>
 </ul>
 </li>
 </ul>
 </div>
 <div class="textblock"><p><a class="anchor" id="md_components_mathlib_mathlib_driver"></a> </p>
-<h1><a class="anchor" id="autotoc_md1592"></a>
+<h1><a class="anchor" id="autotoc_md1632"></a>
 MATHLIB</h1>
-<h2><a class="anchor" id="autotoc_md1593"></a>
+<h2><a class="anchor" id="autotoc_md1633"></a>
 Introduction</h2>
 <p>Trigonometric functions are commonly used in real-time control applications, particularly within the inner loops of control algorithms, where speed and accuracy is essential. The performance of trigonometric functions is a key careabout for designers of these systems as it can have a significant impact on the overall performance of the system. Until recently, trignometric functions based on lookup tables were considered faster than the polynomial-based methods; however, with the inclusion of floating-point units (FPUs) and faster clock speeds, polynomial-based approximations have gained favor. TI has developed C functions of the most commonly used trigonometric functions using these polynomial-based methods and has optimized them for TI's Arm®-based microcontrollers (MCUs) and microprocessors (MPUs).</p>
-<h2><a class="anchor" id="autotoc_md1594"></a>
+<h2><a class="anchor" id="autotoc_md1634"></a>
 Features Supported</h2>
 <p>Supports Below trignometric functions (ti_arm_trig):</p>
 <ul>
@@ -124,19 +124,19 @@ Features Supported</h2>
 <li>Arctangent</li>
 <li>Arctangent2</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md1595"></a>
+<h2><a class="anchor" id="autotoc_md1635"></a>
 Features Not Supported</h2>
 <p>NA</p>
 <h2><a class="anchor" id="MATHLIB_ADDITIONAL_REFERENCES"></a>
 Additional References</h2>
 <p><a href="https://www.ti.com/lit/pdf/sprad27">App Note: Optimized Trigonometric Functions on TI Arm Cores</a></p>
-<h2><a class="anchor" id="autotoc_md1596"></a>
+<h2><a class="anchor" id="autotoc_md1636"></a>
 API</h2>
 <p><a class="el" href="group__DRV__MATHLIB__MODULE.html">APIs for MATHLIB</a></p>
-<h1><a class="anchor" id="autotoc_md1597"></a>
+<h1><a class="anchor" id="autotoc_md1637"></a>
 FastRTS library</h1>
 <p>Addintionally, TI also offers a traditional Look-up Table based trigonometric functions for users needing the most optimized operation with the trade-off of increase data size (3344Bytes of LUT stored in .trigData). It also bypasses some limitations of the aforementioned TI Arm Trig libary such as the limited input range of 0 - 2PI for sine/cosine functions. Furthermore, the Fast Run-Time-Support (FastRTS) library also offers an optimized math operation of logs and exponents.</p>
-<h2><a class="anchor" id="autotoc_md1598"></a>
+<h2><a class="anchor" id="autotoc_md1638"></a>
 Features Supported</h2>
 <p>Supports Below trignometric and math functions (fastrts):</p>
 <ul>
@@ -150,10 +150,10 @@ Features Supported</h2>
 <li>Log (base of e)</li>
 <li>Exponent (base of e)</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md1599"></a>
+<h2><a class="anchor" id="autotoc_md1639"></a>
 Features Not Supported</h2>
 <p>NA</p>
-<h2><a class="anchor" id="autotoc_md1600"></a>
+<h2><a class="anchor" id="autotoc_md1640"></a>
 API</h2>
 <p><a class="el" href="group__DRV__FASTRTS__MODULE.html">APIs for MATHLIB</a> </p>
 </div></div><!-- contents -->
