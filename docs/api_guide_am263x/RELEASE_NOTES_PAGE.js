@@ -35,9 +35,11 @@ var RELEASE_NOTES_PAGE =
           ] ]
         ] ],
         [ "SDL PBIST Self test", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md496", null ],
-        [ "Compiler Options", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md497", null ],
-        [ "SOC Device Drivers", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md498", null ],
-        [ "Ethernet and Networking", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md499", null ]
+        [ "SDL STC Configuration", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md497", null ],
+        [ "SDL Handler API name update", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md498", null ],
+        [ "Compiler Options", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md499", null ],
+        [ "SOC Device Drivers", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md500", null ],
+        [ "Ethernet and Networking", "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md501", null ]
       ] ]
     ] ],
     [ "Release Notes 11.00.00", "RELEASE_NOTES_11_00_00_PAGE.html", [

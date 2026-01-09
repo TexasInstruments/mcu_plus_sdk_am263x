@@ -92,16 +92,16 @@ $(document).ready(function(){initNavTree('SMART_PLACEMENT_LINKER_CHANGE.html',''
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md810">Introduction</a></li>
-<li class="level1"><a href="#autotoc_md811">Linker changes</a></li>
+<ul><li class="level1"><a href="#autotoc_md812">Introduction</a></li>
+<li class="level1"><a href="#autotoc_md813">Linker changes</a></li>
 </ul>
 </div>
 <div class="textblock"><p><a class="anchor" id="md_developer_guides_add_smart_placement_sections"></a></p>
-<h1><a class="anchor" id="autotoc_md810"></a>
+<h1><a class="anchor" id="autotoc_md812"></a>
 Introduction</h1>
 <p>To make smart placement functional (<a class="el" href="SMART_PLACEMENT.html">Smart Placement</a>), linker script needs to be changed to account new section that compiler generates.</p>
 <p>This page will show what changes needs to be done.</p>
-<h1><a class="anchor" id="autotoc_md811"></a>
+<h1><a class="anchor" id="autotoc_md813"></a>
 Linker changes</h1>
 <p>Linker will aggregate all function input sections into designated output sections while sorting the placement of input sections based on the given priority. Following code can be added in the linker file to inorder to do that.</p>
 <pre class="fragment">SECTIONS

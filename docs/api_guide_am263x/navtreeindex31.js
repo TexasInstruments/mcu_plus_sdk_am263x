@@ -1,5 +1,13 @@
 var NAVTREEINDEX31 =
 {
+"group__DRV__EPWM__MODULE.html#ggab9ce8ab0b76a22827a2e5265adf66fbdaf49ed4e5332aa27f3f1974613780b4a2":[18,7,7,286,3],
+"group__DRV__EPWM__MODULE.html#ggab9eb8bde56b193bf14988a8ad1ddeb6fa0b50caba7c3e65884356d5f581e930b3":[18,7,7,259,7],
+"group__DRV__EPWM__MODULE.html#ggab9eb8bde56b193bf14988a8ad1ddeb6fa1dc31f0524952fa6ca7df388fc44cfbf":[18,7,7,259,2],
+"group__DRV__EPWM__MODULE.html#ggab9eb8bde56b193bf14988a8ad1ddeb6fa1edeb2db703a5df9b6c0bad744fbadf0":[18,7,7,259,5],
+"group__DRV__EPWM__MODULE.html#ggab9eb8bde56b193bf14988a8ad1ddeb6fa32041d142acbd8aadf50cffccc753485":[18,7,7,259,13],
+"group__DRV__EPWM__MODULE.html#ggab9eb8bde56b193bf14988a8ad1ddeb6fa42472426873745b5bdf7b8d62e010e54":[18,7,7,259,14],
+"group__DRV__EPWM__MODULE.html#ggab9eb8bde56b193bf14988a8ad1ddeb6fa5835745eaccc445a63067c952061b6d4":[18,7,7,259,6],
+"group__DRV__EPWM__MODULE.html#ggab9eb8bde56b193bf14988a8ad1ddeb6fa626bc87245a941828ff59f6d214902d6":[18,7,7,259,10],
 "group__DRV__EPWM__MODULE.html#ggab9eb8bde56b193bf14988a8ad1ddeb6fa67482aded1a4ef93dbe2a9c1de8171c4":[18,7,7,259,0],
 "group__DRV__EPWM__MODULE.html#ggab9eb8bde56b193bf14988a8ad1ddeb6faa0d94793e0d3b7671491025f6fd2d59f":[18,7,7,259,9],
 "group__DRV__EPWM__MODULE.html#ggab9eb8bde56b193bf14988a8ad1ddeb6faa378c121c074b191e95e0a8d6c8c2267":[18,7,7,259,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX31 =
 "group__DRV__EQEP__MODULE.html#gac9b1f1a3e68938688dfe473a7efd33b3":[18,7,8,21],
 "group__DRV__EQEP__MODULE.html#gaca28a097caedd9e5623d2404888cc9ca":[18,7,8,84],
 "group__DRV__EQEP__MODULE.html#gacbc6eb43dbd510c35636155744a8b2f0":[18,7,8,14],
-"group__DRV__EQEP__MODULE.html#gacc660346f799ebae82fcf2186ed48cef":[18,7,8,18],
-"group__DRV__EQEP__MODULE.html#gace6eacaf8731c212937269360c20de07":[18,7,8,6],
-"group__DRV__EQEP__MODULE.html#gad36204dbbb3ba201f122f1e741deafbb":[18,7,8,8],
-"group__DRV__EQEP__MODULE.html#gad3b2ab72eae292bddeb1a31cd50aebd4":[18,7,8,3],
-"group__DRV__EQEP__MODULE.html#gad5ab2bce7ba238f47e2cb488080e2d81":[18,7,8,68],
-"group__DRV__EQEP__MODULE.html#gad7de34d73c83b353e0d13fad1c3610a0":[18,7,8,38],
-"group__DRV__EQEP__MODULE.html#gad91945dfa5dd3a26fd0fb7d6f36de435":[18,7,8,23],
-"group__DRV__EQEP__MODULE.html#gadc650c7570cc1d3b8e24f9006e878b54":[18,7,8,78],
-"group__DRV__EQEP__MODULE.html#gadec3038f4d3b85abec37fa41764a81a8":[18,7,8,10]
+"group__DRV__EQEP__MODULE.html#gacc660346f799ebae82fcf2186ed48cef":[18,7,8,18]
 };

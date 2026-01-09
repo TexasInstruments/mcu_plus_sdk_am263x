@@ -92,31 +92,31 @@ $(document).ready(function(){initNavTree('ENET_CPSW_AVTP.html',''); initResizabl
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md630">Pre-requisites</a></li>
-<li class="level1"><a href="#autotoc_md631">Introduction</a></li>
-<li class="level1"><a href="#autotoc_md632">Demo and Examples</a></li>
-<li class="level1"><a href="#autotoc_md633">TSN Stack</a><ul><li class="level2"><a href="#autotoc_md634">Compilation</a></li>
-<li class="level2"><a href="#autotoc_md635">Modules</a></li>
-<li class="level2"><a href="#autotoc_md636">Stack Initialization</a></li>
-<li class="level2"><a href="#autotoc_md637">Logging</a></li>
-<li class="level2"><a href="#autotoc_md638">Starting uniconf and gPtp and avtp applications</a></li>
-<li class="level2"><a href="#autotoc_md639">Applications Deinitialization</a></li>
+<ul><li class="level1"><a href="#autotoc_md632">Pre-requisites</a></li>
+<li class="level1"><a href="#autotoc_md633">Introduction</a></li>
+<li class="level1"><a href="#autotoc_md634">Demo and Examples</a></li>
+<li class="level1"><a href="#autotoc_md635">TSN Stack</a><ul><li class="level2"><a href="#autotoc_md636">Compilation</a></li>
+<li class="level2"><a href="#autotoc_md637">Modules</a></li>
+<li class="level2"><a href="#autotoc_md638">Stack Initialization</a></li>
+<li class="level2"><a href="#autotoc_md639">Logging</a></li>
+<li class="level2"><a href="#autotoc_md640">Starting uniconf and gPtp and avtp applications</a></li>
+<li class="level2"><a href="#autotoc_md641">Applications Deinitialization</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md640">Integration</a><ul><li class="level2"><a href="#autotoc_md641">Source integration</a></li>
-<li class="level2"><a href="#autotoc_md642">Uniconf configuration</a></li>
-<li class="level2"><a href="#autotoc_md643">GPTP configuration parameters</a></li>
-<li class="level2"><a href="#autotoc_md644">AVTP configuration parameters</a><ul><li class="level3"><a href="#autotoc_md645">AVTP Applications list</a></li>
-<li class="level3"><a href="#autotoc_md646">Configuration parameters</a></li>
+<li class="level1"><a href="#autotoc_md642">Integration</a><ul><li class="level2"><a href="#autotoc_md643">Source integration</a></li>
+<li class="level2"><a href="#autotoc_md644">Uniconf configuration</a></li>
+<li class="level2"><a href="#autotoc_md645">GPTP configuration parameters</a></li>
+<li class="level2"><a href="#autotoc_md646">AVTP configuration parameters</a><ul><li class="level3"><a href="#autotoc_md647">AVTP Applications list</a></li>
+<li class="level3"><a href="#autotoc_md648">Configuration parameters</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md647">See Also</a></li>
+<li class="level1"><a href="#autotoc_md649">See Also</a></li>
 </ul>
 </div>
 <div class="textblock"><p><a class="anchor" id="md_components_networking_enet_cpsw_avtp_apiguide"></a></p>
-<h1><a class="anchor" id="autotoc_md630"></a>
+<h1><a class="anchor" id="autotoc_md632"></a>
 Pre-requisites</h1>
 <p>Reader are expected to have basic knowledge on below IEEE specifications:</p><ul>
 <li>Standard ethernet (IEEE 802.1)</li>
@@ -126,18 +126,18 @@ Pre-requisites</h1>
 <li>Frame Preemption (IEEE 802.1Qbu)</li>
 <li>IEEE Standard for a Transport Protocol for Time-Sensitive Applications in Bridged Local Area Networks (IEEE Std 1722™-2016)</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md631"></a>
+<h1><a class="anchor" id="autotoc_md633"></a>
 Introduction</h1>
 <p>This guide is intended to enhance user's understanding of the AVB stack and provide guidance on how to seamlessly integrate AVB modules into their own applications.</p>
-<h1><a class="anchor" id="autotoc_md632"></a>
+<h1><a class="anchor" id="autotoc_md634"></a>
 Demo and Examples</h1>
 <p><a class="el" href="EXAMPLES_ENET_CPSW_AVTP.html">Ethernet AVTP Example</a></p>
-<h1><a class="anchor" id="autotoc_md633"></a>
+<h1><a class="anchor" id="autotoc_md635"></a>
 TSN Stack</h1>
-<h2><a class="anchor" id="autotoc_md634"></a>
+<h2><a class="anchor" id="autotoc_md636"></a>
 Compilation</h2>
 <p>The compilation of library is similar with <a class="el" href="ENET_CPSW_TSN_GPTP.html">Ethernet TSN and gPTP Stack - API and Integration Guide</a>.</p>
-<h2><a class="anchor" id="autotoc_md635"></a>
+<h2><a class="anchor" id="autotoc_md637"></a>
 Modules</h2>
 <p>The TSN Stack library is composed of the following source modules:</p>
 <table class="markdownTable">
@@ -154,13 +154,13 @@ Modules</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">l2/conl2  </td><td class="markdownTableBodyNone"><code>&lt;mcu_plus_sdk&gt;/source/networking/tsn/tsn-stack/tsn_l2</code>  </td><td class="markdownTableBodyNone">Implementation of the IEEE Std 1722™-2016 AVTP   </td></tr>
 </table>
-<h2><a class="anchor" id="autotoc_md636"></a>
+<h2><a class="anchor" id="autotoc_md638"></a>
 Stack Initialization</h2>
 <p>Refer <a class="el" href="ENET_CPSW_TSN_GPTP.html#ENET_CPSW_TSN_STACK_INITIALIZATION">Stack Initialization</a> section</p>
-<h2><a class="anchor" id="autotoc_md637"></a>
+<h2><a class="anchor" id="autotoc_md639"></a>
 Logging</h2>
 <p>Refer <a class="el" href="ENET_CPSW_TSN_GPTP.html#ENET_CPSW_TSN_LOGGING">Logging</a> section</p>
-<h2><a class="anchor" id="autotoc_md638"></a>
+<h2><a class="anchor" id="autotoc_md640"></a>
 Starting uniconf and gPtp and avtp applications</h2>
 <p>Refer <a class="el" href="ENET_CPSW_TSN_GPTP.html#ENET_CPSW_TSN_UNICONF_INITIALIZATION">Starting uniconf and gPTP</a> section.</p>
 <p>This function will start:</p><ul>
@@ -168,23 +168,23 @@ Starting uniconf and gPtp and avtp applications</h2>
 <li>Initial uniconf DB after uniconf is finished by uniconf runtime config or yang config file.</li>
 <li>After uniconf and DB initialization is finished, gptp task and avtp task are able to start</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md639"></a>
+<h2><a class="anchor" id="autotoc_md641"></a>
 Applications Deinitialization</h2>
 <p>Refer <a class="el" href="ENET_CPSW_TSN_GPTP.html#ENET_CPSW_TSN_STACK_DEINITIALIZATION">TSN Deinitialization</a> section</p>
-<h1><a class="anchor" id="autotoc_md640"></a>
+<h1><a class="anchor" id="autotoc_md642"></a>
 Integration</h1>
-<h2><a class="anchor" id="autotoc_md641"></a>
+<h2><a class="anchor" id="autotoc_md643"></a>
 Source integration</h2>
 <p>Refer <a class="el" href="ENET_CPSW_TSN_GPTP.html#ENET_CPSW_TSN_SOURCE_INTEGRATION">Source integration</a> section</p>
-<h2><a class="anchor" id="autotoc_md642"></a>
+<h2><a class="anchor" id="autotoc_md644"></a>
 Uniconf configuration</h2>
 <p>Refer <a class="el" href="ENET_CPSW_TSN_GPTP.html#ENET_CPSW_TSN_UNICONF_CONFIGURATION">Uniconf configuration</a> section</p>
-<h2><a class="anchor" id="autotoc_md643"></a>
+<h2><a class="anchor" id="autotoc_md645"></a>
 GPTP configuration parameters</h2>
 <p>Refer <a class="el" href="ENET_CPSW_TSN_GPTP.html#ENET_CPSW_TSN_YANG_CONFIG_PARAMS">gPTP Yang Config Parameters</a> section</p>
-<h2><a class="anchor" id="autotoc_md644"></a>
+<h2><a class="anchor" id="autotoc_md646"></a>
 AVTP configuration parameters</h2>
-<h3><a class="anchor" id="autotoc_md645"></a>
+<h3><a class="anchor" id="autotoc_md647"></a>
 AVTP Applications list</h3>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -194,14 +194,14 @@ AVTP Applications list</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">aafpcmtalker_app  </td><td class="markdownTableBodyNone"><code>&lt;mcu_plus_sdk&gt;/source/networking/enet/core/examples/tsn/aafpcmtalker_app</code>  </td><td class="markdownTableBodyNone">AVTP AAF PCM Talker Example Application   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md646"></a>
+<h3><a class="anchor" id="autotoc_md648"></a>
 Configuration parameters</h3>
 <p>Refer to <code>&lt;mcu_plus_sdk&gt;/source/networking/enet/core/examples/tsn/avtp_init.c</code>, the avtp talker/listener can only be actived with following definitions in project files.</p><ul>
 <li>Use <code>#define AAF_PCM_ENABLED=1</code> to enable aaf pcm task. This has to be enabled for both AAF PCM Talker and Listener.</li>
 <li>Use <code>#define AAF_PCM_LISTENER_ENABLE=1</code> to enable aap pcm listener app</li>
 </ul>
 <p>By default, aafpcmtalker_app and aafpcmlistener are configured to send and receive one stream with stream ID <code>00:01:02:03:04:05:00:00</code></p>
-<h1><a class="anchor" id="autotoc_md647"></a>
+<h1><a class="anchor" id="autotoc_md649"></a>
 See Also</h1>
 <p><a class="el" href="NETWORKING.html">Ethernet And Networking</a> </p>
 </div></div><!-- contents -->

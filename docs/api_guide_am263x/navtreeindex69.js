@@ -1,5 +1,16 @@
 var NAVTREEINDEX69 =
 {
+"structUART__Config.html":[18,7,43,4],
+"structUART__Config.html#ad1f3c2f4bb26260bce455d0bc6e2fa93":[18,7,43,4,1],
+"structUART__Config.html#af0fb8720eda80ff8367baa6b343bbe90":[18,7,43,4,0],
+"structUART__ExtendedParams.html":[18,7,42,2],
+"structUART__ExtendedParams.html#a8e268de44b1fab4659eef6aaa8c234e3":[18,7,42,2,0],
+"structUART__Object.html":[18,7,43,3],
+"structUART__Object.html#a04fe1ef9531eb6305a7d2911591077e9":[18,7,43,3,8],
+"structUART__Object.html#a07c47521b7a62aba0ed657e4237b7a66":[18,7,43,3,9],
+"structUART__Object.html#a080a1feda381a06023ffcfc00e5ecf98":[18,7,43,3,19],
+"structUART__Object.html#a0fc64e5629b69a8c1509a64dcd414b31":[18,7,43,3,18],
+"structUART__Object.html#a30f4645e7e0935b0d6e11383e11e9ee2":[18,7,43,3,14],
 "structUART__Object.html#a3e5a2b21da49b25fa755d0cc06db2aef":[18,7,43,3,20],
 "structUART__Object.html#a4006a41115821630adbad6d9c173df73":[18,7,43,3,1],
 "structUART__Object.html#a4706c02fe2439395349ae11e79a060a1":[18,7,43,3,6],

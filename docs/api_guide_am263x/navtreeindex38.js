@@ -1,5 +1,13 @@
 var NAVTREEINDEX38 =
 {
+"group__DRV__PINMUX__MODULE.html#ga3f5466ec2fff23c5a32558a2c35ec51d":[18,7,31,175],
+"group__DRV__PINMUX__MODULE.html#ga416b7b8c652a8c2abc8a5ce6510f7b4d":[18,7,31,172],
+"group__DRV__PINMUX__MODULE.html#ga4266076e2805a36ead10e9ec44199136":[18,7,31,25],
+"group__DRV__PINMUX__MODULE.html#ga43996fc2d7d2271c806aa0cc84aa9aad":[18,7,31,146],
+"group__DRV__PINMUX__MODULE.html#ga4404fa9d51d7119930035ee8df0e6f09":[18,7,31,74],
+"group__DRV__PINMUX__MODULE.html#ga4421720954fb63180cfaf1b617c8bfdd":[18,7,31,19],
+"group__DRV__PINMUX__MODULE.html#ga4458936b94e9b02719dde0858848e5c5":[18,7,31,101],
+"group__DRV__PINMUX__MODULE.html#ga4568054d663e9874af0088f1e965df1b":[18,7,31,2],
 "group__DRV__PINMUX__MODULE.html#ga45867e53ab8e918075929ec92ae5272c":[18,7,31,169],
 "group__DRV__PINMUX__MODULE.html#ga466337a1d467c682ea56cdcf40ea8c1d":[18,7,31,76],
 "group__DRV__PINMUX__MODULE.html#ga478049b26a0cd6d3bcf260dc43f27caf":[18,7,31,70],
@@ -241,13 +249,5 @@ var NAVTREEINDEX38 =
 "group__DRV__QSPI__LLD__MODULE.html#ga7ecd3f4ab9b69dbbaeec3c6a8bc3945f":[18,7,35,53],
 "group__DRV__QSPI__LLD__MODULE.html#ga81afaa822cc1afa0947892f38bfae730":[18,7,35,27],
 "group__DRV__QSPI__LLD__MODULE.html#ga8312fe0cd7014a131f7fbeb36b713955":[18,7,35,72],
-"group__DRV__QSPI__LLD__MODULE.html#ga84c13b5d5ec5e56a2ef6f353055c1d3a":[18,7,35,32],
-"group__DRV__QSPI__LLD__MODULE.html#ga8982b3c70f5d5c674e3c5c5c6d123fd0":[18,7,35,64],
-"group__DRV__QSPI__LLD__MODULE.html#ga8eeb1f59983a73187ec287e59f7f474e":[18,7,35,57],
-"group__DRV__QSPI__LLD__MODULE.html#ga8face941afb4a1abc68cec0812ef93f3":[18,7,35,66],
-"group__DRV__QSPI__LLD__MODULE.html#ga98f9d00c8fa6dc2beb5fa79454b7200a":[18,7,35,70],
-"group__DRV__QSPI__LLD__MODULE.html#ga9cf00ff499cd68dff088545495234339":[18,7,35,14],
-"group__DRV__QSPI__LLD__MODULE.html#ga9e474ea310d16cc61ffae0a043b0bb76":[18,7,35,20],
-"group__DRV__QSPI__LLD__MODULE.html#gaa16e598dd2ffc522a7cda6e130a9d033":[18,7,35,69],
-"group__DRV__QSPI__LLD__MODULE.html#gaae1b48abfc4992351a30eb8efe196c99":[18,7,35,30]
+"group__DRV__QSPI__LLD__MODULE.html#ga84c13b5d5ec5e56a2ef6f353055c1d3a":[18,7,35,32]
 };

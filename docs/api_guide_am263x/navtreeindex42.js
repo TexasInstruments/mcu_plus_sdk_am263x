@@ -1,5 +1,13 @@
 var NAVTREEINDEX42 =
 {
+"group__DRV__UART__LLD__MODULE.html#ga7eecd010647d0c21a3dbc5daa7a25804":[18,7,42,148],
+"group__DRV__UART__LLD__MODULE.html#ga804955392185adcb7405a8a8cfc10a54":[18,7,42,104],
+"group__DRV__UART__LLD__MODULE.html#ga80961574944bb5eff6b5bf6c79059e97":[18,7,42,138],
+"group__DRV__UART__LLD__MODULE.html#ga837d4a507fe0e8ed4c9640a41c7a203a":[18,7,42,22],
+"group__DRV__UART__LLD__MODULE.html#ga844b1163817ff8204d18e42c8d00ab88":[18,7,42,65],
+"group__DRV__UART__LLD__MODULE.html#ga84d87c6b7395303eb9b029cf99d33b8a":[18,7,42,23],
+"group__DRV__UART__LLD__MODULE.html#ga85bb2c415d3561488da33149dc92aa67":[18,7,42,91],
+"group__DRV__UART__LLD__MODULE.html#ga863e03d89baa31b2351338559f780ca1":[18,7,42,95],
 "group__DRV__UART__LLD__MODULE.html#ga88bfffce2da1b1bd721f7767d18e46ae":[18,7,42,119],
 "group__DRV__UART__LLD__MODULE.html#ga89e5e9452da69f8995785673d9ee6940":[18,7,42,36],
 "group__DRV__UART__LLD__MODULE.html#ga8b05925a3cbd5ad02fbbdc52affec699":[18,7,42,97],
@@ -241,13 +249,5 @@ var NAVTREEINDEX42 =
 "group__ENETPHY__DP83TC812.html#gabde753c7197877822d4c914276d8fc32":[18,4,0,13,5,9],
 "group__ENETPHY__DP83TC812.html#gadda778941cb2a6be92d7bb34e2678269":[18,4,0,13,5,7],
 "group__ENETPHY__DP83TC812.html#gaf2bafb2f641e7c114ab763bce42a12a8":[18,4,0,13,5,6],
-"group__ENETPHY__DP83TC812.html#gga593ccc6f6c1b5bccecfdde1f1c805064a77b38eff9641dc38bef5ecd8ffac079a":[18,4,0,13,5,1,0],
-"group__ENETPHY__DP83TC812.html#gga593ccc6f6c1b5bccecfdde1f1c805064a9fa8c1ba1e0c1055a4c35e722b7e7cdb":[18,4,0,13,5,1,2],
-"group__ENETPHY__DP83TC812.html#gga593ccc6f6c1b5bccecfdde1f1c805064ad425583d1a13e5928b65f013c117cbbc":[18,4,0,13,5,1,1],
-"group__ENETPHY__DP83TG720.html":[18,4,0,13,6],
-"group__ENETPHY__DP83TG720.html#ga0a91fef5d713e39788daaa55c5e08bc3":[18,4,0,13,6,2],
-"group__ENETPHY__DP83TG720.html#ga0c9a24219d683e86ed8b5a8feacb6266":[18,4,0,13,6,8],
-"group__ENETPHY__DP83TG720.html#ga0cf190a0cb1090e1ea0ec786fe723664":[18,4,0,13,6,6],
-"group__ENETPHY__DP83TG720.html#ga3a7610038d6083e47cde03de5826be5a":[18,4,0,13,6,9],
-"group__ENETPHY__DP83TG720.html#ga6af2f833dc221847f9c5363d1e73b280":[18,4,0,13,6,1]
+"group__ENETPHY__DP83TC812.html#gga593ccc6f6c1b5bccecfdde1f1c805064a77b38eff9641dc38bef5ecd8ffac079a":[18,4,0,13,5,1,0]
 };
