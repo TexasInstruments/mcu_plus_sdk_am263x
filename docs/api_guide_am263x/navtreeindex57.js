@@ -1,5 +1,10 @@
 var NAVTREEINDEX57 =
 {
+"structCpswStats__HostPort__Ng.html#a5d6bd992da59634b03bd94a84277bdd8":[18,4,0,9,0,2,12],
+"structCpswStats__HostPort__Ng.html#a62845fcb9baff5e364451798e7595141":[18,4,0,9,0,2,30],
+"structCpswStats__HostPort__Ng.html#a66499db1cdb45ebcda70d0640bfa7fba":[18,4,0,9,0,2,52],
+"structCpswStats__HostPort__Ng.html#a67b3c94af8386ce482396fbfb3dff329":[18,4,0,9,0,2,45],
+"structCpswStats__HostPort__Ng.html#a71f9a20a2c20af782a8c9c3279d0288c":[18,4,0,9,0,2,47],
 "structCpswStats__HostPort__Ng.html#a74c90ccbc22a52bcb9526234e527f02f":[18,4,0,9,0,2,7],
 "structCpswStats__HostPort__Ng.html#a74f954dd7fe01f039e327d75f0c396f6":[18,4,0,9,0,2,26],
 "structCpswStats__HostPort__Ng.html#a76c0bec481c2514326c01f0065075f38":[18,4,0,9,0,2,14],
@@ -244,10 +249,5 @@ var NAVTREEINDEX57 =
 "structCpsw__TxShortIpgCfg.html#a557ac66e8d1f860da37f2ebd9c62f023":[18,4,0,6,0,9,2],
 "structCpsw__TxShortIpgCfg.html#a7aba8f44ba12f1e88aae6136efacff21":[18,4,0,6,0,9,1],
 "structCpsw__TxShortIpgCfg.html#ac347a3578c3e2d7c5644b6d6219264dc":[18,4,0,6,0,9,0],
-"structCpsw__VlanCfg.html":[18,4,0,6,0,10],
-"structCpsw__VlanCfg.html#a05f3575e74cc1845106b17920a5c668f":[18,4,0,6,0,10,3],
-"structCpsw__VlanCfg.html#a3b16a2f401ac70853cc8ce3cc4ab576c":[18,4,0,6,0,10,1],
-"structCpsw__VlanCfg.html#a41938176da7d35d22f36d0521f278183":[18,4,0,6,0,10,2],
-"structCpsw__VlanCfg.html#ae2ef52fca4ea370f754a01f1547716a3":[18,4,0,6,0,10,0],
-"structDFSR.html":[18,2,6,6]
+"structCpsw__VlanCfg.html":[18,4,0,6,0,10]
 };

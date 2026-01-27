@@ -1,5 +1,10 @@
 var NAVTREEINDEX60 =
 {
+"structEnetTas__MaxSDUTable.html":[18,4,0,10,2],
+"structEnetTas__MaxSDUTable.html#a9fd88c77a7487ecf296c978add06ac68":[18,4,0,10,2,0],
+"structEnetTas__SetAdminListInArgs.html":[18,4,0,10,5],
+"structEnetTas__SetAdminListInArgs.html#a11e5ef5ce0cc9bad4fad5cf9a91c0ae1":[18,4,0,10,5,1],
+"structEnetTas__SetAdminListInArgs.html#ac3cc8e5396da01b75d06639b43048b55":[18,4,0,10,5,0],
 "structEnetTas__SetStateInArgs.html":[18,4,0,10,6],
 "structEnetTas__SetStateInArgs.html#a077d944a8c8b30138621c8ec2607df04":[18,4,0,10,6,1],
 "structEnetTas__SetStateInArgs.html#ab316768c3c85cf4c28c189443f805f0c":[18,4,0,10,6,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX60 =
 "structGPMC__timingParams.html#ade8bb8c99b45d9604ffaba6cbbe637ea":[18,7,13,5,12],
 "structGPMC__timingParams.html#af1335eff67459098e90f13dcdaa84d16":[18,7,13,5,11],
 "structGPMC__timingParams.html#afc9e0ca949fc1d58df057a869aa91b81":[18,7,13,5,13],
-"structHeapBlockLink__t.html":[18,2,7,1],
-"structHeapBlockLink__t.html#a6fadaf4b88353110be19f6963d58ba95":[18,2,7,1,0],
-"structHeapBlockLink__t.html#a7f67677a9549f860a2e1df0ee24ec36e":[18,2,7,1,1],
-"structHeapP__MemStats.html":[18,2,7,0],
-"structHeapP__MemStats.html#a35fdfacccd35055846a489925c194efb":[18,2,7,0,2],
-"structHeapP__MemStats.html#a5173e1666f7910504d5f70f0185663ad":[18,2,7,0,5]
+"structHeapBlockLink__t.html":[18,2,7,1]
 };

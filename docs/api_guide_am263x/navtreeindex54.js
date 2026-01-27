@@ -1,5 +1,10 @@
 var NAVTREEINDEX54 =
 {
+"group__xtimer.html#gad69eb8f53037632c4cdefb4ba1c19e3b":[18,11,7,17],
+"group__xtimer.html#gae4233d0f78b7d372c7802ef76ad4784a":[18,11,7,15],
+"index.html":[],
+"index.html":[0],
+"index.html#MIGRATION_INFORMATION":[0,1],
 "index.html#autotoc_md0":[0,0],
 "index.html#autotoc_md1":[0,2],
 "index.html#autotoc_md2":[0,3],
@@ -244,10 +249,5 @@ var NAVTREEINDEX54 =
 "structCSL__ArmR5CPUInfo.html":[18,2,0,0],
 "structCSL__ArmR5CPUInfo.html#aa1632ed76b18974e7d5bef84ea28031c":[18,2,0,0,1],
 "structCSL__ArmR5CPUInfo.html#ab61fb01301da2a638345c5cb8be309ca":[18,2,0,0,0],
-"structCacheP__Config.html":[18,2,1,0],
-"structCacheP__Config.html#abb29240aa814f3a0b8b8a901ebf53f64":[18,2,1,0,1],
-"structCacheP__Config.html#abe3f1be9e71411c0abcfadc30f35d230":[18,2,1,0,0],
-"structClockP__Config.html":[18,2,2,0],
-"structClockP__Config.html#a2bea5ba5e3f70226fe86fa4a89f602d1":[18,2,2,0,1],
-"structClockP__Config.html#a2d0fff43df4331ca91dd5034c4c48dcf":[18,2,2,0,6]
+"structCacheP__Config.html":[18,2,1,0]
 };

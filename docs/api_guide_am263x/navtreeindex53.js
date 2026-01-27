@@ -1,5 +1,10 @@
 var NAVTREEINDEX53 =
 {
+"group__network.html#ga51e4ec3b74c70b584e710269a7c48f35":[18,11,1,31],
+"group__network.html#ga58e6937cdfb48f8bc18e1c12fb396f07":[18,11,1,11],
+"group__network.html#ga5b20c5dee067c04d7720b9180823bbc0":[18,11,1,24],
+"group__network.html#ga5cf18b7b587fdad9456f353a7a1fa814":[18,11,1,52],
+"group__network.html#ga5fae993350afa39bf880e6dc6d6e7494":[18,11,1,35],
 "group__network.html#ga627e4a5a8efcf2edb6766432f5d85ac3":[18,11,1,68],
 "group__network.html#ga64d2ab6ebadc5ab7864effdaa5b464f8":[18,11,1,44],
 "group__network.html#ga6f2c6468681e75e7b7cb4b043bb2c34f":[18,11,1,28],
@@ -244,10 +249,5 @@ var NAVTREEINDEX53 =
 "group__xtimer.html#ga91ea8075e67d5caefd0334d0ddc8f654":[18,11,7,7],
 "group__xtimer.html#ga95b729f9d14f8c5431bed67152f4a5b8":[18,11,7,8],
 "group__xtimer.html#gaaf4c980ee38ac1113f0e217d61fdc18e":[18,11,7,1],
-"group__xtimer.html#gabc716d68e28b749deb531c1a4bd49742":[18,11,7,3],
-"group__xtimer.html#gad69eb8f53037632c4cdefb4ba1c19e3b":[18,11,7,17],
-"group__xtimer.html#gae4233d0f78b7d372c7802ef76ad4784a":[18,11,7,15],
-"index.html":[0],
-"index.html":[],
-"index.html#MIGRATION_INFORMATION":[0,1]
+"group__xtimer.html#gabc716d68e28b749deb531c1a4bd49742":[18,11,7,3]
 };

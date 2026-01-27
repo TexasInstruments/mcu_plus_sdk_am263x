@@ -1,5 +1,10 @@
 var NAVTREEINDEX56 =
 {
+"structCpswAle__SetPortStateInArgs.html":[18,4,0,1,0,14],
+"structCpswAle__SetPortStateInArgs.html#ada5c345bc9ef261c7de9b25911eaf1e0":[18,4,0,1,0,14,0],
+"structCpswAle__SetPortStateInArgs.html#afed9ed7c93ac587e8c07e40e0eaac255":[18,4,0,1,0,14,1],
+"structCpswAle__SetUcastEntryInArgs.html":[18,4,0,1,0,2],
+"structCpswAle__SetUcastEntryInArgs.html#a1bc63982bd1c106020bd19c0213eb2cb":[18,4,0,1,0,2,0],
 "structCpswAle__SetUcastEntryInArgs.html#af4aaed5102ce443ba56abef58f6f59f1":[18,4,0,1,0,2,1],
 "structCpswAle__TrunkCfg.html":[18,4,0,1,0,21],
 "structCpswAle__TrunkCfg.html#a2004f5c32ebe30246a818414fddcf112":[18,4,0,1,0,21,3],
@@ -244,10 +249,5 @@ var NAVTREEINDEX56 =
 "structCpswStats__HostPort__Ng.html#a4fef11f1d923c095450975c8f79ee39c":[18,4,0,9,0,2,1],
 "structCpswStats__HostPort__Ng.html#a509ea1206731afe2f4902b8184122fc6":[18,4,0,9,0,2,41],
 "structCpswStats__HostPort__Ng.html#a52e576af92e28245583685864b18689c":[18,4,0,9,0,2,39],
-"structCpswStats__HostPort__Ng.html#a561e4a93a505f196f7343c3f6f139f27":[18,4,0,9,0,2,24],
-"structCpswStats__HostPort__Ng.html#a5d6bd992da59634b03bd94a84277bdd8":[18,4,0,9,0,2,12],
-"structCpswStats__HostPort__Ng.html#a62845fcb9baff5e364451798e7595141":[18,4,0,9,0,2,30],
-"structCpswStats__HostPort__Ng.html#a66499db1cdb45ebcda70d0640bfa7fba":[18,4,0,9,0,2,52],
-"structCpswStats__HostPort__Ng.html#a67b3c94af8386ce482396fbfb3dff329":[18,4,0,9,0,2,45],
-"structCpswStats__HostPort__Ng.html#a71f9a20a2c20af782a8c9c3279d0288c":[18,4,0,9,0,2,47]
+"structCpswStats__HostPort__Ng.html#a561e4a93a505f196f7343c3f6f139f27":[18,4,0,9,0,2,24]
 };

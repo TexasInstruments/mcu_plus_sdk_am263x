@@ -1,5 +1,11 @@
 var NAVTREEINDEX66 =
 {
+"structMpuP__RegionConfig.html#a98fc521219d2dbd3a793e91947c929fd":[18,2,8,1,2],
+"structNvmOtpRead__t.html":[18,7,14,2],
+"structNvmOtpRead__t.html#a2a95199e7ce2f4a3dc0e1c4e6bd10e00":[18,7,14,2,1],
+"structNvmOtpRead__t.html#a353803d37077762c61e623b50b789ab1":[18,7,14,2,2],
+"structNvmOtpRead__t.html#a571eb786ba88a2d052c831bac3f5bcd9":[18,7,14,2,0],
+"structNvmOtpRowCount__t.html":[18,7,14,4],
 "structNvmOtpRowCount__t.html#a5b8fbe952a36f539af19e9538623bc0d":[18,7,14,4,1],
 "structNvmOtpRowCount__t.html#a8119948c52eecdc11c7309ba8d0fcb55":[18,7,14,4,0],
 "structNvmOtpRowCount__t.html#a984bfff2d473d11a02b346e71e9f6260":[18,7,14,4,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX66 =
 "structQSPI__Object.html#a059c4d91ce148cc061ababc4a08c08a6":[18,7,34,5,7],
 "structQSPI__Object.html#a0866c646a8071a57898c7c3ad8f2325d":[18,7,34,5,8],
 "structQSPI__Object.html#a0b7cc2d0cf3955de553219be2175af67":[18,7,34,5,16],
-"structQSPI__Object.html#a0d281fe244310d5b55b21cd4f114a279":[18,7,34,5,1],
-"structQSPI__Object.html#a1552642610edd244d5df0d5b31b0d193":[18,7,34,5,9],
-"structQSPI__Object.html#a5ae1170ac0c30b72dca84fd28ef70887":[18,7,34,5,4],
-"structQSPI__Object.html#a612372da80b5ea8f91641d2c5d5ef087":[18,7,34,5,14],
-"structQSPI__Object.html#a69957f2817e2811b47734f7ab08542f1":[18,7,34,5,17],
-"structQSPI__Object.html#a9a45b12a51073361d764199dd622f993":[18,7,34,5,13],
-"structQSPI__Object.html#aa2784aac232611ca16a3fb577cd8e2de":[18,7,34,5,3]
+"structQSPI__Object.html#a0d281fe244310d5b55b21cd4f114a279":[18,7,34,5,1]
 };
