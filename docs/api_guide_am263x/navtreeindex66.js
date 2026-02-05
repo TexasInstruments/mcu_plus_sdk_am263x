@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"structMpuP__RegionConfig.html#a74b67bda8cc6a87e70cfc0479fd6aa87":[18,2,8,1,0],
 "structMpuP__RegionConfig.html#a98fc521219d2dbd3a793e91947c929fd":[18,2,8,1,2],
 "structNvmOtpRead__t.html":[18,7,14,2],
 "structNvmOtpRead__t.html#a2a95199e7ce2f4a3dc0e1c4e6bd10e00":[18,7,14,2,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "structQSPI__Object.html":[18,7,34,5],
 "structQSPI__Object.html#a059c4d91ce148cc061ababc4a08c08a6":[18,7,34,5,7],
 "structQSPI__Object.html#a0866c646a8071a57898c7c3ad8f2325d":[18,7,34,5,8],
-"structQSPI__Object.html#a0b7cc2d0cf3955de553219be2175af67":[18,7,34,5,16],
-"structQSPI__Object.html#a0d281fe244310d5b55b21cd4f114a279":[18,7,34,5,1]
+"structQSPI__Object.html#a0b7cc2d0cf3955de553219be2175af67":[18,7,34,5,16]
 };

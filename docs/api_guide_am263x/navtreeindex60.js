@@ -158,7 +158,8 @@ var NAVTREEINDEX60 =
 "structFlash__NandConfig.html#af151e797eaf119f15c9ecce04aebe7fa":[18,1,1,0,11],
 "structFlash__NandConfig.html#af65ff3790948df048400a56d9684c83d":[18,1,1,0,5],
 "structFlash__Params.html":[18,1,1,2],
-"structFlash__Params.html#adbf8c9b96aeeeca61ee090ea1d0fe554":[18,1,1,2,1],
+"structFlash__Params.html#ad72dcfc0daca45ca650db45b1b31ee1d":[18,1,1,2,1],
+"structFlash__Params.html#adbf8c9b96aeeeca61ee090ea1d0fe554":[18,1,1,2,2],
 "structFlash__Params.html#af84f256d7f327843ed0ea6abdd7a59c8":[18,1,1,2,0],
 "structGPMC__AddrRegion.html":[18,7,13,3],
 "structGPMC__AddrRegion.html#a81c14c90e58a2d8d26f49b509d960e8c":[18,7,13,3,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "structGPMC__timingParams.html#adcedc701f9745d6d1b811af7fcb0c6f0":[18,7,13,5,9],
 "structGPMC__timingParams.html#ade8bb8c99b45d9604ffaba6cbbe637ea":[18,7,13,5,12],
 "structGPMC__timingParams.html#af1335eff67459098e90f13dcdaa84d16":[18,7,13,5,11],
-"structGPMC__timingParams.html#afc9e0ca949fc1d58df057a869aa91b81":[18,7,13,5,13],
-"structHeapBlockLink__t.html":[18,2,7,1]
+"structGPMC__timingParams.html#afc9e0ca949fc1d58df057a869aa91b81":[18,7,13,5,13]
 };

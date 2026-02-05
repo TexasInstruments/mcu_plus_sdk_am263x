@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"structHeapBlockLink__t.html":[18,2,7,1],
 "structHeapBlockLink__t.html#a6fadaf4b88353110be19f6963d58ba95":[18,2,7,1,0],
 "structHeapBlockLink__t.html#a7f67677a9549f860a2e1df0ee24ec36e":[18,2,7,1,1],
 "structHeapP__MemStats.html":[18,2,7,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "structICSS__EMAC__IoctlCmd.html#a4648aa0bdba23604f14d3bf6bb92f0a2":[18,4,2,12,1],
 "structICSS__EMAC__IoctlCmd.html#ad67605a4e90b4673fb1acfda7283ef12":[18,4,2,12,0],
 "structICSS__EMAC__Params.html":[18,4,2,9],
-"structICSS__EMAC__Params.html#a1b8dfdce3840440dc7c255721f87ed84":[18,4,2,9,5],
-"structICSS__EMAC__Params.html#a280842cf08318e629f28d47f274e6c16":[18,4,2,9,8]
+"structICSS__EMAC__Params.html#a1b8dfdce3840440dc7c255721f87ed84":[18,4,2,9,5]
 };
