@@ -92,9 +92,9 @@ var EXAMPLES_DRIVERS =
     [ "ADC PPB Delay", "EXAMPLES_DRIVERS_ADC_PPB_DELAY.html", [
       [ "Introduction", "EXAMPLES_DRIVERS_ADC_PPB_DELAY.html#autotoc_md2092", [
         [ "Example Description", "EXAMPLES_DRIVERS_ADC_PPB_DELAY.html#autotoc_md2093", [
-          [ "Sample Output", "EXAMPLES_SENT_DECODER.html#autotoc_md3344", null ],
-          [ "Sample Output", "EXAMPLES_SENT_ENCODER.html#autotoc_md3351", null ],
-          [ "Sample Output", "EXAMPLES_SENT_DECODER_PRUICSS_IEP_ECAP.html#autotoc_md3358", null ],
+          [ "Sample Output", "EXAMPLES_SENT_DECODER.html#autotoc_md3352", null ],
+          [ "Sample Output", "EXAMPLES_SENT_ENCODER.html#autotoc_md3359", null ],
+          [ "Sample Output", "EXAMPLES_SENT_DECODER_PRUICSS_IEP_ECAP.html#autotoc_md3366", null ],
           [ "Note", "EXAMPLES_DRIVERS_ADC_PPB_DELAY.html#autotoc_md2094", null ]
         ] ],
         [ "SOC Configurations", "EXAMPLES_DRIVERS_ADC_PPB_DELAY.html#autotoc_md2095", null ],
@@ -927,9 +927,9 @@ var EXAMPLES_DRIVERS =
       [ "Steps to Run the Example", "EXAMPLES_HSM_SERVICES.html#autotoc_md2649", null ]
     ] ],
     [ "MPU Firewall Service DEMO", "EXAMPLES_MPU_FIREWALL_SERVICES_DEMO.html", [
-      [ "Introduction", "EXAMPLES_MPU_FIREWALL_SERVICES_DEMO.html#autotoc_md2780", null ],
+      [ "Introduction", "EXAMPLES_MPU_FIREWALL_SERVICES_DEMO.html#autotoc_md2788", null ],
       [ "Supported Combinations", "EXAMPLES_MPU_FIREWALL_SERVICES_DEMO.html#EXAMPLES_MPU_FIREWALL_SERVICES_DEMO_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_MPU_FIREWALL_SERVICES_DEMO.html#autotoc_md2781", null ]
+      [ "Steps to Run the Example", "EXAMPLES_MPU_FIREWALL_SERVICES_DEMO.html#autotoc_md2789", null ]
     ] ],
     [ "I2C Led Blink", "EXAMPLES_DRIVERS_I2C_LED_BLINK.html", [
       [ "Introduction", "EXAMPLES_DRIVERS_I2C_LED_BLINK.html#autotoc_md2588", null ],
@@ -1133,33 +1133,47 @@ var EXAMPLES_DRIVERS =
       [ "See Also", "EXAMPLES_DRIVERS_LIN_RESPONDER_READ_HLD.html#autotoc_md2686", null ],
       [ "Sample Output", "EXAMPLES_DRIVERS_LIN_RESPONDER_READ_HLD.html#autotoc_md2687", null ]
     ] ],
+    [ "LIN Responder Read Adapt Baud Rate HLD", "EXAMPLES_DRIVERS_LIN_RESPONDER_READ_ADAPT_BAUD_HLD.html", [
+      [ "Introduction", "EXAMPLES_DRIVERS_LIN_RESPONDER_READ_ADAPT_BAUD_HLD.html#autotoc_md2688", null ],
+      [ "Supported Combinations", "EXAMPLES_DRIVERS_LIN_RESPONDER_READ_ADAPT_BAUD_HLD.html#EXAMPLES_DRIVERS_LIN_RESPONDER_READ_ADAPT_BAUD_HLD_COMBOS", null ],
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_LIN_RESPONDER_READ_ADAPT_BAUD_HLD.html#autotoc_md2689", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_LIN_RESPONDER_READ_ADAPT_BAUD_HLD.html#autotoc_md2690", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_LIN_RESPONDER_READ_ADAPT_BAUD_HLD.html#autotoc_md2691", null ]
+    ] ],
+    [ "LIN Responder LLD", "EXAMPLES_DRIVERS_LIN_RESPONDER_LLD.html", [
+      [ "Introduction", "EXAMPLES_DRIVERS_LIN_RESPONDER_LLD.html#autotoc_md2692", null ],
+      [ "Supported Combinations", "EXAMPLES_DRIVERS_LIN_RESPONDER_LLD.html#EXAMPLES_DRIVERS_LIN_RESPONDER_LLD_COMBOS", null ],
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_LIN_RESPONDER_LLD.html#autotoc_md2693", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_LIN_RESPONDER_LLD.html#autotoc_md2694", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_LIN_RESPONDER_LLD.html#autotoc_md2695", null ]
+    ] ],
     [ "MCAN External Read Write", "EXAMPLES_DRIVERS_MCAN_EXTERNAL_READ_WRITE.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_MCAN_EXTERNAL_READ_WRITE.html#autotoc_md2688", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_MCAN_EXTERNAL_READ_WRITE.html#autotoc_md2696", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_MCAN_EXTERNAL_READ_WRITE.html#EXAMPLES_DRIVERS_MCAN_EXTERNAL_READ_WRITE_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCAN_EXTERNAL_READ_WRITE.html#autotoc_md2689", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_MCAN_EXTERNAL_READ_WRITE.html#autotoc_md2690", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_MCAN_EXTERNAL_READ_WRITE.html#autotoc_md2691", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCAN_EXTERNAL_READ_WRITE.html#autotoc_md2697", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_MCAN_EXTERNAL_READ_WRITE.html#autotoc_md2698", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_MCAN_EXTERNAL_READ_WRITE.html#autotoc_md2699", null ]
     ] ],
     [ "MCAN Loopback Interrupt", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_INTERRUPT.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_INTERRUPT.html#autotoc_md2692", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_INTERRUPT.html#autotoc_md2700", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_INTERRUPT.html#EXAMPLES_DRIVERS_MCAN_LOOPBACK_INTERRUPT_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_INTERRUPT.html#autotoc_md2693", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_INTERRUPT.html#autotoc_md2694", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_INTERRUPT.html#autotoc_md2695", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_INTERRUPT.html#autotoc_md2701", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_INTERRUPT.html#autotoc_md2702", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_INTERRUPT.html#autotoc_md2703", null ]
     ] ],
     [ "MCAN Loopback Polling", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_POLLING.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_POLLING.html#autotoc_md2696", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_POLLING.html#autotoc_md2704", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_POLLING.html#EXAMPLES_DRIVERS_MCAN_LOOPBACK_POLLING_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_POLLING.html#autotoc_md2697", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_POLLING.html#autotoc_md2698", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_POLLING.html#autotoc_md2699", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_POLLING.html#autotoc_md2705", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_POLLING.html#autotoc_md2706", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_POLLING.html#autotoc_md2707", null ]
     ] ],
     [ "MCAN Loopback DMA", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_DMA.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_DMA.html#autotoc_md2700", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_DMA.html#autotoc_md2708", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_DMA.html#EXAMPLES_DRIVERS_MCAN_LOOPBACK_DMA_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_DMA.html#autotoc_md2701", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_DMA.html#autotoc_md2702", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_DMA.html#autotoc_md2703", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_DMA.html#autotoc_md2709", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_DMA.html#autotoc_md2710", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_MCAN_LOOPBACK_DMA.html#autotoc_md2711", null ]
     ] ],
     [ "CANFD Loopback DMA", "EXAMPLES_DRIVERS_CANFD_LOOPBACK_DMA.html", [
       [ "Introduction", "EXAMPLES_DRIVERS_CANFD_LOOPBACK_DMA.html#autotoc_md2261", null ],
@@ -1197,137 +1211,137 @@ var EXAMPLES_DRIVERS =
       [ "Sample Output", "EXAMPLES_DRIVERS_CANFD_LOOPBACK_INTERRUPT_STANDARD_EXTENDED_EXAMPLE.html#autotoc_md2272", null ]
     ] ],
     [ "MCSPI External Loopback", "EXAMPLES_DRIVERS_MCSPI_EXTERNAL_LOOPBACK.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_MCSPI_EXTERNAL_LOOPBACK.html#autotoc_md2704", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_MCSPI_EXTERNAL_LOOPBACK.html#autotoc_md2712", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_MCSPI_EXTERNAL_LOOPBACK.html#EXAMPLES_DRIVERS_MCSPI_EXTERNAL_LOOPBACK_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCSPI_EXTERNAL_LOOPBACK.html#autotoc_md2705", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_MCSPI_EXTERNAL_LOOPBACK.html#autotoc_md2706", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_MCSPI_EXTERNAL_LOOPBACK.html#autotoc_md2707", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCSPI_EXTERNAL_LOOPBACK.html#autotoc_md2713", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_MCSPI_EXTERNAL_LOOPBACK.html#autotoc_md2714", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_MCSPI_EXTERNAL_LOOPBACK.html#autotoc_md2715", null ]
     ] ],
     [ "MCSPI Loopback", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK.html#autotoc_md2708", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK.html#autotoc_md2716", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK.html#EXAMPLES_DRIVERS_MCSPI_LOOPBACK_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK.html#autotoc_md2709", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK.html#autotoc_md2710", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK.html#autotoc_md2711", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK.html#autotoc_md2717", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK.html#autotoc_md2718", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK.html#autotoc_md2719", null ]
     ] ],
     [ "MCSPI Loopback DMA", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_DMA.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_DMA.html#autotoc_md2712", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_DMA.html#autotoc_md2720", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_DMA.html#EXAMPLES_DRIVERS_MCSPI_LOOPBACK_DMA_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_DMA.html#autotoc_md2713", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_DMA.html#autotoc_md2714", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_DMA.html#autotoc_md2715", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_DMA.html#autotoc_md2721", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_DMA.html#autotoc_md2722", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_DMA.html#autotoc_md2723", null ]
     ] ],
     [ "MCSPI Performance 8 Bit", "EXAMPLES_DRIVERS_MCSPI_PERFORMANCE_8BIT.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_MCSPI_PERFORMANCE_8BIT.html#autotoc_md2716", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_MCSPI_PERFORMANCE_8BIT.html#autotoc_md2724", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_MCSPI_PERFORMANCE_8BIT.html#EXAMPLES_DRIVERS_MCSPI_PERFORMANCE_8BIT_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCSPI_PERFORMANCE_8BIT.html#autotoc_md2717", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_MCSPI_PERFORMANCE_8BIT.html#autotoc_md2718", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_MCSPI_PERFORMANCE_8BIT.html#autotoc_md2719", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCSPI_PERFORMANCE_8BIT.html#autotoc_md2725", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_MCSPI_PERFORMANCE_8BIT.html#autotoc_md2726", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_MCSPI_PERFORMANCE_8BIT.html#autotoc_md2727", null ]
     ] ],
     [ "MCSPI Performance 32 Bit", "EXAMPLES_DRIVERS_MCSPI_PERFORMANCE_32BIT.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_MCSPI_PERFORMANCE_32BIT.html#autotoc_md2720", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_MCSPI_PERFORMANCE_32BIT.html#autotoc_md2728", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_MCSPI_PERFORMANCE_32BIT.html#EXAMPLES_DRIVERS_MCSPI_PERFORMANCE_32BIT_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCSPI_PERFORMANCE_32BIT.html#autotoc_md2721", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_MCSPI_PERFORMANCE_32BIT.html#autotoc_md2722", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_MCSPI_PERFORMANCE_32BIT.html#autotoc_md2723", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCSPI_PERFORMANCE_32BIT.html#autotoc_md2729", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_MCSPI_PERFORMANCE_32BIT.html#autotoc_md2730", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_MCSPI_PERFORMANCE_32BIT.html#autotoc_md2731", null ]
     ] ],
     [ "MCSPI Loopback DMA LLD", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_DMA_LLD.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_DMA_LLD.html#autotoc_md2724", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_DMA_LLD.html#autotoc_md2732", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_DMA_LLD.html#EXAMPLES_DRIVERS_MCSPI_LOOPBACK_DMA_LLD_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_DMA_LLD.html#autotoc_md2725", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_DMA_LLD.html#autotoc_md2726", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_DMA_LLD.html#autotoc_md2727", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_DMA_LLD.html#autotoc_md2733", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_DMA_LLD.html#autotoc_md2734", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_DMA_LLD.html#autotoc_md2735", null ]
     ] ],
     [ "MCSPI Loopback Interrupt LLD", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_INTERRUPT_LLD.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_INTERRUPT_LLD.html#autotoc_md2728", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_INTERRUPT_LLD.html#autotoc_md2736", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_INTERRUPT_LLD.html#EXAMPLES_DRIVERS_MCSPI_LOOPBACK_INTERRUPT_LLD_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_INTERRUPT_LLD.html#autotoc_md2729", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_INTERRUPT_LLD.html#autotoc_md2730", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_INTERRUPT_LLD.html#autotoc_md2731", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_INTERRUPT_LLD.html#autotoc_md2737", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_INTERRUPT_LLD.html#autotoc_md2738", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_INTERRUPT_LLD.html#autotoc_md2739", null ]
     ] ],
     [ "MCSPI Loopback Polling LLD", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_POLLING_LLD.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_POLLING_LLD.html#autotoc_md2732", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_POLLING_LLD.html#autotoc_md2740", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_POLLING_LLD.html#EXAMPLES_DRIVERS_MCSPI_LOOPBACK_POLLING_LLD_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_POLLING_LLD.html#autotoc_md2733", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_POLLING_LLD.html#autotoc_md2734", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_POLLING_LLD.html#autotoc_md2735", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_POLLING_LLD.html#autotoc_md2741", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_POLLING_LLD.html#autotoc_md2742", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_POLLING_LLD.html#autotoc_md2743", null ]
     ] ],
     [ "MCSPI Loopback Turbo Mode", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_TURBO_MODE.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_TURBO_MODE.html#autotoc_md2736", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_TURBO_MODE.html#autotoc_md2744", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_TURBO_MODE.html#EXAMPLES_DRIVERS_MCSPI_LOOPBACK_TURBO_MODE_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_TURBO_MODE.html#autotoc_md2737", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_TURBO_MODE.html#autotoc_md2738", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_TURBO_MODE.html#autotoc_md2739", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_TURBO_MODE.html#autotoc_md2745", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_TURBO_MODE.html#autotoc_md2746", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_TURBO_MODE.html#autotoc_md2747", null ]
     ] ],
     [ "MCSPI Loopback Multi Instances Multi channels LLD", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_MULTIPLE_INSTANCES_MULTIPLE_CHANNELS_LLD.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_MULTIPLE_INSTANCES_MULTIPLE_CHANNELS_LLD.html#autotoc_md2740", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_MULTIPLE_INSTANCES_MULTIPLE_CHANNELS_LLD.html#autotoc_md2748", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_MULTIPLE_INSTANCES_MULTIPLE_CHANNELS_LLD.html#EXAMPLES_DRIVERS_MCSPI_LOOPBACK_MULTIPLE_INSTANCES_MULTIPLE_CHANNELS_LLD_COMBO", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_MULTIPLE_INSTANCES_MULTIPLE_CHANNELS_LLD.html#autotoc_md2741", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_MULTIPLE_INSTANCES_MULTIPLE_CHANNELS_LLD.html#autotoc_md2742", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_MULTIPLE_INSTANCES_MULTIPLE_CHANNELS_LLD.html#autotoc_md2743", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_MULTIPLE_INSTANCES_MULTIPLE_CHANNELS_LLD.html#autotoc_md2749", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_MULTIPLE_INSTANCES_MULTIPLE_CHANNELS_LLD.html#autotoc_md2750", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_MCSPI_LOOPBACK_MULTIPLE_INSTANCES_MULTIPLE_CHANNELS_LLD.html#autotoc_md2751", null ]
     ] ],
     [ "MMCSD RAW IO", "EXAMPLES_DRIVERS_MMCSD_RAW_IO.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_MMCSD_RAW_IO.html#autotoc_md2748", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_MMCSD_RAW_IO.html#autotoc_md2756", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_MMCSD_RAW_IO.html#EXAMPLES_DRIVERS_MMCSD_RAW_IO_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MMCSD_RAW_IO.html#autotoc_md2749", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_MMCSD_RAW_IO.html#autotoc_md2750", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_MMCSD_RAW_IO.html#autotoc_md2751", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MMCSD_RAW_IO.html#autotoc_md2757", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_MMCSD_RAW_IO.html#autotoc_md2758", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_MMCSD_RAW_IO.html#autotoc_md2759", null ]
     ] ],
     [ "MMCSD FILE IO", "EXAMPLES_DRIVERS_MMCSD_FILE_IO.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_MMCSD_FILE_IO.html#autotoc_md2744", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_MMCSD_FILE_IO.html#autotoc_md2752", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_MMCSD_FILE_IO.html#EXAMPLES_DRIVERS_MMCSD_FILE_IO_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MMCSD_FILE_IO.html#autotoc_md2745", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_MMCSD_FILE_IO.html#autotoc_md2746", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_MMCSD_FILE_IO.html#autotoc_md2747", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MMCSD_FILE_IO.html#autotoc_md2753", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_MMCSD_FILE_IO.html#autotoc_md2754", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_MMCSD_FILE_IO.html#autotoc_md2755", null ]
     ] ],
     [ "MMCSD RAW IO SD INTR LLD", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_SD_INTR_LLD.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_SD_INTR_LLD.html#autotoc_md2752", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_SD_INTR_LLD.html#autotoc_md2760", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_SD_INTR_LLD.html#EXAMPLES_DRIVERS_MMCSD_RAW_IO_SD_INTR_LLD_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_SD_INTR_LLD.html#autotoc_md2753", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_SD_INTR_LLD.html#autotoc_md2754", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_SD_INTR_LLD.html#autotoc_md2755", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_SD_INTR_LLD.html#autotoc_md2761", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_SD_INTR_LLD.html#autotoc_md2762", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_SD_INTR_LLD.html#autotoc_md2763", null ]
     ] ],
     [ "MMCSD RAW IO SD LLD", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_SD_LLD.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_SD_LLD.html#autotoc_md2756", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_SD_LLD.html#autotoc_md2764", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_SD_LLD.html#EXAMPLES_DRIVERS_MMCSD_RAW_IO_SD_LLD_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_SD_LLD.html#autotoc_md2757", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_SD_LLD.html#autotoc_md2758", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_SD_LLD.html#autotoc_md2759", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_SD_LLD.html#autotoc_md2765", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_SD_LLD.html#autotoc_md2766", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_SD_LLD.html#autotoc_md2767", null ]
     ] ],
     [ "MMCSD RAW IO EMMC", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC.html#autotoc_md2760", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC.html#autotoc_md2768", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC.html#EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC.html#autotoc_md2761", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC.html#autotoc_md2762", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC.html#autotoc_md2763", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC.html#autotoc_md2769", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC.html#autotoc_md2770", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC.html#autotoc_md2771", null ]
     ] ],
     [ "MMCSD RAW IO EMMC DMA", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_DMA.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_DMA.html#autotoc_md2768", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_DMA.html#autotoc_md2776", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_DMA.html#EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_DMA_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_DMA.html#autotoc_md2769", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_DMA.html#autotoc_md2770", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_DMA.html#autotoc_md2771", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_DMA.html#autotoc_md2777", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_DMA.html#autotoc_md2778", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_DMA.html#autotoc_md2779", null ]
     ] ],
     [ "MMCSD RAW IO EMMC DMA LLD", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_DMA_LLD.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_DMA_LLD.html#autotoc_md2776", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_DMA_LLD.html#autotoc_md2784", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_DMA_LLD.html#EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_DMA_LLD_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_DMA_LLD.html#autotoc_md2777", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_DMA_LLD.html#autotoc_md2778", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_DMA_LLD.html#autotoc_md2779", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_DMA_LLD.html#autotoc_md2785", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_DMA_LLD.html#autotoc_md2786", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_DMA_LLD.html#autotoc_md2787", null ]
     ] ],
     [ "MMCSD RAW IO EMMC INTR LLD", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_INTR_LLD.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_INTR_LLD.html#autotoc_md2772", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_INTR_LLD.html#autotoc_md2780", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_INTR_LLD.html#EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_INTR_LLD_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_INTR_LLD.html#autotoc_md2773", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_INTR_LLD.html#autotoc_md2774", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_INTR_LLD.html#autotoc_md2775", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_INTR_LLD.html#autotoc_md2781", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_INTR_LLD.html#autotoc_md2782", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_INTR_LLD.html#autotoc_md2783", null ]
     ] ],
     [ "MMCSD RAW IO EMMC LLD", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_LLD.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_LLD.html#autotoc_md2764", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_LLD.html#autotoc_md2772", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_LLD.html#EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_LLD_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_LLD.html#autotoc_md2765", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_LLD.html#autotoc_md2766", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_LLD.html#autotoc_md2767", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_LLD.html#autotoc_md2773", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_LLD.html#autotoc_md2774", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_MMCSD_RAW_IO_EMMC_LLD.html#autotoc_md2775", null ]
     ] ],
     [ "QSPI Flash Diag", "EXAMPLES_DRIVERS_QSPI_FLASH_DIAG.html", [
       [ "Introduction", "EXAMPLES_DRIVERS_QSPI_FLASH_DIAG.html#autotoc_md1965", null ],
@@ -1386,64 +1400,64 @@ var EXAMPLES_DRIVERS =
       [ "Sample Output", "EXAMPLES_DRIVERS_PMU_MULTIEVENT.html#autotoc_md1964", null ]
     ] ],
     [ "RTI LED Blink", "EXAMPLES_DRIVERS_RTI_LED_BLINK.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_RTI_LED_BLINK.html#autotoc_md2783", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_RTI_LED_BLINK.html#autotoc_md2791", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_RTI_LED_BLINK.html#EXAMPLES_DRIVERS_RTI_LED_BLINK_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_RTI_LED_BLINK.html#autotoc_md2784", [
-        [ "AM263X-CC", "EXAMPLES_DRIVERS_RTI_LED_BLINK.html#autotoc_md2785", null ],
-        [ "AM263X-LP", "EXAMPLES_DRIVERS_RTI_LED_BLINK.html#autotoc_md2786", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_RTI_LED_BLINK.html#autotoc_md2792", [
+        [ "AM263X-CC", "EXAMPLES_DRIVERS_RTI_LED_BLINK.html#autotoc_md2793", null ],
+        [ "AM263X-LP", "EXAMPLES_DRIVERS_RTI_LED_BLINK.html#autotoc_md2794", null ]
       ] ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_RTI_LED_BLINK.html#autotoc_md2787", null ]
+      [ "Sample Output", "EXAMPLES_DRIVERS_RTI_LED_BLINK.html#autotoc_md2795", null ]
     ] ],
     [ "SDFM EPWM sync CPU read", "EXAMPLES_DRIVERS_SDFM_EPWM_SYNC_CPUREAD.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_SDFM_EPWM_SYNC_CPUREAD.html#autotoc_md2830", null ],
-      [ "External Connections", "EXAMPLES_DRIVERS_SDFM_EPWM_SYNC_CPUREAD.html#autotoc_md2831", [
-        [ "AM263X-CC or AM263Px-CC or AM261x-SOM", "EXAMPLES_DRIVERS_SDFM_EPWM_SYNC_CPUREAD.html#autotoc_md2832", null ],
-        [ "AM263X-LP", "EXAMPLES_DRIVERS_SDFM_EPWM_SYNC_CPUREAD.html#autotoc_md2833", null ]
+      [ "Introduction", "EXAMPLES_DRIVERS_SDFM_EPWM_SYNC_CPUREAD.html#autotoc_md2838", null ],
+      [ "External Connections", "EXAMPLES_DRIVERS_SDFM_EPWM_SYNC_CPUREAD.html#autotoc_md2839", [
+        [ "AM263X-CC or AM263Px-CC or AM261x-SOM", "EXAMPLES_DRIVERS_SDFM_EPWM_SYNC_CPUREAD.html#autotoc_md2840", null ],
+        [ "AM263X-LP", "EXAMPLES_DRIVERS_SDFM_EPWM_SYNC_CPUREAD.html#autotoc_md2841", null ]
       ] ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_SDFM_EPWM_SYNC_CPUREAD.html#EXAMPLES_DRIVERS_SDFM_EPWM_SYNC_CPUREAD_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_SDFM_EPWM_SYNC_CPUREAD.html#autotoc_md2834", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_SDFM_EPWM_SYNC_CPUREAD.html#autotoc_md2835", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_SDFM_EPWM_SYNC_CPUREAD.html#autotoc_md2836", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_SDFM_EPWM_SYNC_CPUREAD.html#autotoc_md2842", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_SDFM_EPWM_SYNC_CPUREAD.html#autotoc_md2843", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_SDFM_EPWM_SYNC_CPUREAD.html#autotoc_md2844", null ]
     ] ],
     [ "SDFM Filter sync DMA read", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_DMAREAD.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_DMAREAD.html#autotoc_md2837", [
-        [ "External Connections", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_DMAREAD.html#autotoc_md2838", null ],
-        [ "Watch Variables", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_DMAREAD.html#autotoc_md2839", null ],
-        [ "AM263X-CC or AM263PX-CC or AM261x-SOM", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_DMAREAD.html#autotoc_md2840", null ],
-        [ "AM263X-LP or AM263PX-LP", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_DMAREAD.html#autotoc_md2841", null ]
+      [ "Introduction", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_DMAREAD.html#autotoc_md2845", [
+        [ "External Connections", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_DMAREAD.html#autotoc_md2846", null ],
+        [ "Watch Variables", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_DMAREAD.html#autotoc_md2847", null ],
+        [ "AM263X-CC or AM263PX-CC or AM261x-SOM", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_DMAREAD.html#autotoc_md2848", null ],
+        [ "AM263X-LP or AM263PX-LP", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_DMAREAD.html#autotoc_md2849", null ]
       ] ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_DMAREAD.html#EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_DMAREAD_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_DMAREAD.html#autotoc_md2842", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_DMAREAD.html#autotoc_md2843", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_DMAREAD.html#autotoc_md2844", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_DMAREAD.html#autotoc_md2850", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_DMAREAD.html#autotoc_md2851", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_DMAREAD.html#autotoc_md2852", null ]
     ] ],
     [ "SDFM Filter sync CPU read", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD.html#autotoc_md2845", null ],
-      [ "External Connections", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD.html#autotoc_md2846", [
-        [ "AM263X-CC or AM263Px-CC or AM261x-SOM E1", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD.html#autotoc_md2847", null ],
-        [ "AM263X-LP", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD.html#autotoc_md2848", null ]
+      [ "Introduction", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD.html#autotoc_md2853", null ],
+      [ "External Connections", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD.html#autotoc_md2854", [
+        [ "AM263X-CC or AM263Px-CC or AM261x-SOM E1", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD.html#autotoc_md2855", null ],
+        [ "AM263X-LP", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD.html#autotoc_md2856", null ]
       ] ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD.html#EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD.html#autotoc_md2849", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD.html#autotoc_md2850", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD.html#autotoc_md2851", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD.html#autotoc_md2857", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD.html#autotoc_md2858", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD.html#autotoc_md2859", null ]
     ] ],
     [ "SDFM single channel filter sync CPU read", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD_SINGLE_CHANNEL.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD_SINGLE_CHANNEL.html#autotoc_md2852", null ],
-      [ "External Connections", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD_SINGLE_CHANNEL.html#autotoc_md2853", [
-        [ "AM263X-CC or AM263Px-CC or AM261x-SOM", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD_SINGLE_CHANNEL.html#autotoc_md2854", null ],
-        [ "AM263X-LP", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD_SINGLE_CHANNEL.html#autotoc_md2855", null ]
+      [ "Introduction", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD_SINGLE_CHANNEL.html#autotoc_md2860", null ],
+      [ "External Connections", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD_SINGLE_CHANNEL.html#autotoc_md2861", [
+        [ "AM263X-CC or AM263Px-CC or AM261x-SOM", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD_SINGLE_CHANNEL.html#autotoc_md2862", null ],
+        [ "AM263X-LP", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD_SINGLE_CHANNEL.html#autotoc_md2863", null ]
       ] ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD_SINGLE_CHANNEL.html#EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD_COMBOS_SINGLE_CHANNEL", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD_SINGLE_CHANNEL.html#autotoc_md2856", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD_SINGLE_CHANNEL.html#autotoc_md2857", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD_SINGLE_CHANNEL.html#autotoc_md2858", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD_SINGLE_CHANNEL.html#autotoc_md2864", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD_SINGLE_CHANNEL.html#autotoc_md2865", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_SDFM_FILTER_SYNC_CPUREAD_SINGLE_CHANNEL.html#autotoc_md2866", null ]
     ] ],
     [ "Spinlock Example", "EXAMPLE_SPINLOCK.html", [
-      [ "Introduction", "EXAMPLE_SPINLOCK.html#autotoc_md2859", null ],
+      [ "Introduction", "EXAMPLE_SPINLOCK.html#autotoc_md2867", null ],
       [ "Supported Combinations", "EXAMPLE_SPINLOCK.html#EXAMPLE_SPINLOCK_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLE_SPINLOCK.html#autotoc_md2860", null ],
-      [ "Sample Output", "EXAMPLE_SPINLOCK.html#autotoc_md2861", null ]
+      [ "Steps to Run the Example", "EXAMPLE_SPINLOCK.html#autotoc_md2868", null ],
+      [ "Sample Output", "EXAMPLE_SPINLOCK.html#autotoc_md2869", null ]
     ] ],
     [ "UART Echo", "EXAMPLES_DRIVERS_UART_ECHO.html", [
       [ "Introduction", "EXAMPLES_DRIVERS_UART_ECHO.html#autotoc_md1990", null ],
@@ -1513,18 +1527,18 @@ var EXAMPLES_DRIVERS =
       [ "Sample Output", "EXAMPLES_DRIVERS_UART_HLD_LLD_EXTERNAL_LOOPBACK.html#autotoc_md2028", null ]
     ] ],
     [ "Watchdog interrupt mode", "EXAMPLES_DRIVERS_WATCHDOG_INTERRUPT_MODE.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_WATCHDOG_INTERRUPT_MODE.html#autotoc_md2867", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_WATCHDOG_INTERRUPT_MODE.html#autotoc_md2875", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_WATCHDOG_INTERRUPT_MODE.html#EXAMPLES_DRIVERS_WATCHDOG_INTERRUPT_MODE_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_WATCHDOG_INTERRUPT_MODE.html#autotoc_md2868", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_WATCHDOG_INTERRUPT_MODE.html#autotoc_md2869", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_WATCHDOG_INTERRUPT_MODE.html#autotoc_md2870", null ]
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_WATCHDOG_INTERRUPT_MODE.html#autotoc_md2876", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_WATCHDOG_INTERRUPT_MODE.html#autotoc_md2877", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_WATCHDOG_INTERRUPT_MODE.html#autotoc_md2878", null ]
     ] ],
     [ "Watchdog reset mode", "EXAMPLES_DRIVERS_WATCHDOG_RESET_MODE.html", [
-      [ "Introduction", "EXAMPLES_DRIVERS_WATCHDOG_RESET_MODE.html#autotoc_md2862", null ],
+      [ "Introduction", "EXAMPLES_DRIVERS_WATCHDOG_RESET_MODE.html#autotoc_md2870", null ],
       [ "Supported Combinations", "EXAMPLES_DRIVERS_WATCHDOG_RESET_MODE.html#EXAMPLES_DRIVERS_WATCHDOG_RESET_MODE_COMBOS", null ],
-      [ "Supported Combinations", "EXAMPLES_DRIVERS_WATCHDOG_RESET_MODE.html#autotoc_md2863", null ],
-      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_WATCHDOG_RESET_MODE.html#autotoc_md2864", null ],
-      [ "See Also", "EXAMPLES_DRIVERS_WATCHDOG_RESET_MODE.html#autotoc_md2865", null ],
-      [ "Sample Output", "EXAMPLES_DRIVERS_WATCHDOG_RESET_MODE.html#autotoc_md2866", null ]
+      [ "Supported Combinations", "EXAMPLES_DRIVERS_WATCHDOG_RESET_MODE.html#autotoc_md2871", null ],
+      [ "Steps to Run the Example", "EXAMPLES_DRIVERS_WATCHDOG_RESET_MODE.html#autotoc_md2872", null ],
+      [ "See Also", "EXAMPLES_DRIVERS_WATCHDOG_RESET_MODE.html#autotoc_md2873", null ],
+      [ "Sample Output", "EXAMPLES_DRIVERS_WATCHDOG_RESET_MODE.html#autotoc_md2874", null ]
     ] ]
 ];

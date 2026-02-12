@@ -1,5 +1,17 @@
 var NAVTREEINDEX53 =
 {
+"group__network.html#ga28b7d7ad6f3c58f9c9dfc8203682ddaf":[18,11,1,3],
+"group__network.html#ga29336a9db91d4edf47d094a414b36666":[18,11,1,5],
+"group__network.html#ga29441e53411f74f52ae8071c182fc0a8":[18,11,1,6],
+"group__network.html#ga35498e7d305ccd68e981ed2a2e21a86e":[18,11,1,15],
+"group__network.html#ga37e2be3566aad6ed728e6623932937c5":[18,11,1,4],
+"group__network.html#ga3e57968a57fde9e036d3d7c3d3bd3b4e":[18,11,1,64],
+"group__network.html#ga3e74871eb988fc5f6ba3dacd229cda59":[18,11,1,20],
+"group__network.html#ga3eb81ee49130276fc7dad8bd1e240079":[18,11,1,49],
+"group__network.html#ga407cf8a88a08b3af8ad400cfb371a9bc":[18,11,1,14],
+"group__network.html#ga43542b874adc25cc18bc7a5036e702bf":[18,11,1,61],
+"group__network.html#ga49c011564abff8ec3e055c8b046d2cbf":[18,11,1,43],
+"group__network.html#ga4b295403dad3e3f7671c504ecaf0b0b1":[18,11,1,12],
 "group__network.html#ga51e4ec3b74c70b584e710269a7c48f35":[18,11,1,31],
 "group__network.html#ga58e6937cdfb48f8bc18e1c12fb396f07":[18,11,1,11],
 "group__network.html#ga5b20c5dee067c04d7720b9180823bbc0":[18,11,1,24],
@@ -237,17 +249,5 @@ var NAVTREEINDEX53 =
 "group__xtimer.html":[18,11,7],
 "group__xtimer.html#ga11d3c07d2416c716b9f7085a34b22718":[18,11,7,11],
 "group__xtimer.html#ga180da4013d4991c18670dba87e3fbbdc":[18,11,7,10],
-"group__xtimer.html#ga353ad58661f7644bc869e7cc7dcad348":[18,11,7,2],
-"group__xtimer.html#ga4bc758674e272e2bd5f09b3f98e3072d":[18,11,7,5],
-"group__xtimer.html#ga56800a5282c87ea92285fc9dae932045":[18,11,7,6],
-"group__xtimer.html#ga6499845dd630ec4b8fa6481fd5ececaf":[18,11,7,4],
-"group__xtimer.html#ga66b800b2d510e43140cfdc09ce6fbd2a":[18,11,7,13],
-"group__xtimer.html#ga77103a3b5061fabe426484673e966ed5":[18,11,7,16],
-"group__xtimer.html#ga773bfd9aa45ad5e1ff7544db00ff9fc8":[18,11,7,9],
-"group__xtimer.html#ga86ddbf3949826e5ec36dd1bd16b1ec6a":[18,11,7,14],
-"group__xtimer.html#ga90b57457df52a746ee968b4f34bd3760":[18,11,7,12],
-"group__xtimer.html#ga91ea8075e67d5caefd0334d0ddc8f654":[18,11,7,7],
-"group__xtimer.html#ga95b729f9d14f8c5431bed67152f4a5b8":[18,11,7,8],
-"group__xtimer.html#gaaf4c980ee38ac1113f0e217d61fdc18e":[18,11,7,1],
-"group__xtimer.html#gabc716d68e28b749deb531c1a4bd49742":[18,11,7,3]
+"group__xtimer.html#ga353ad58661f7644bc869e7cc7dcad348":[18,11,7,2]
 };

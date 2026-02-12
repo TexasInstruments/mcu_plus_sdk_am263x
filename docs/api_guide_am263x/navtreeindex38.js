@@ -1,5 +1,17 @@
 var NAVTREEINDEX38 =
 {
+"group__DRV__PINMUX__MODULE.html#ga23e6e36cc5d9d9e3f11c5b931bb305b0":[18,7,31,115],
+"group__DRV__PINMUX__MODULE.html#ga271c8f741b1681c70e944f8f5b6ac916":[18,7,31,118],
+"group__DRV__PINMUX__MODULE.html#ga2a45902aeef7e873286a3d75b6a07c86":[18,7,31,53],
+"group__DRV__PINMUX__MODULE.html#ga2bde854670ed28009e2e47fe7dd4df6d":[18,7,31,35],
+"group__DRV__PINMUX__MODULE.html#ga2f034a400f97704451eed4c954a1c48b":[18,7,31,165],
+"group__DRV__PINMUX__MODULE.html#ga308860e97c66fda8cd2d6efd170ad194":[18,7,31,45],
+"group__DRV__PINMUX__MODULE.html#ga31cc0b5849da04cb52be6be9cd946f58":[18,7,31,39],
+"group__DRV__PINMUX__MODULE.html#ga32d0f0e8d196bca34714be1a761b1104":[18,7,31,34],
+"group__DRV__PINMUX__MODULE.html#ga341861797b2125f48233b896a2ec048f":[18,7,31,174],
+"group__DRV__PINMUX__MODULE.html#ga348f005bb3fa5356a87bc4483a1626e7":[18,7,31,95],
+"group__DRV__PINMUX__MODULE.html#ga37240bf87704e2b7ae4fd33df201c562":[18,7,31,17],
+"group__DRV__PINMUX__MODULE.html#ga398854a2a3e0ec0ff3f155e18b567e87":[18,7,31,131],
 "group__DRV__PINMUX__MODULE.html#ga39f4983de37bac820b76643c1a060966":[18,7,31,110],
 "group__DRV__PINMUX__MODULE.html#ga3c71a6885bfdcfa8a86a8eb3e0ec0663":[18,7,31,145],
 "group__DRV__PINMUX__MODULE.html#ga3f5466ec2fff23c5a32558a2c35ec51d":[18,7,31,175],
@@ -237,17 +249,5 @@ var NAVTREEINDEX38 =
 "group__DRV__QSPI__LLD__MODULE.html#ga4b9512924035b79238005600f4b7a6ef":[18,7,35,38],
 "group__DRV__QSPI__LLD__MODULE.html#ga57447c432ff2f650abdb7cb3f7538898":[18,7,35,54],
 "group__DRV__QSPI__LLD__MODULE.html#ga5ee9238aacda52ac2f5f323bbbd2df8a":[18,7,35,61],
-"group__DRV__QSPI__LLD__MODULE.html#ga5f0c95924bb2df8f1642a8dbbc6cba8d":[18,7,35,58],
-"group__DRV__QSPI__LLD__MODULE.html#ga65b8e9c540ca2cecd2f72308c80358ea":[18,7,35,33],
-"group__DRV__QSPI__LLD__MODULE.html#ga6924091b7671646853e7b24488f91ad6":[18,7,35,55],
-"group__DRV__QSPI__LLD__MODULE.html#ga6cf21ac848034336ad3c4e2acf358137":[18,7,35,41],
-"group__DRV__QSPI__LLD__MODULE.html#ga716e71d38d62749eabbad7d9ed13290d":[18,7,35,15],
-"group__DRV__QSPI__LLD__MODULE.html#ga71ed20f238f53918b2b0c3ed758eb3a6":[18,7,35,50],
-"group__DRV__QSPI__LLD__MODULE.html#ga73ae78102d93e32560789fe8db28c746":[18,7,35,73],
-"group__DRV__QSPI__LLD__MODULE.html#ga758179322fdc315f6bd2eeceac166870":[18,7,35,59],
-"group__DRV__QSPI__LLD__MODULE.html#ga75a5c04cc129684c44221d8325eab35d":[18,7,35,26],
-"group__DRV__QSPI__LLD__MODULE.html#ga7dbd4e7a95dcf0759f5af07be220902c":[18,7,35,51],
-"group__DRV__QSPI__LLD__MODULE.html#ga7e5d917102dce2750a0463ec72850b0d":[18,7,35,67],
-"group__DRV__QSPI__LLD__MODULE.html#ga7ecd3f4ab9b69dbbaeec3c6a8bc3945f":[18,7,35,53],
-"group__DRV__QSPI__LLD__MODULE.html#ga81afaa822cc1afa0947892f38bfae730":[18,7,35,27]
+"group__DRV__QSPI__LLD__MODULE.html#ga5f0c95924bb2df8f1642a8dbbc6cba8d":[18,7,35,58]
 };

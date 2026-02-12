@@ -1,5 +1,17 @@
 var NAVTREEINDEX60 =
 {
+"structEnetTas__ConfigStatus.html#aa8429bbbe6fcf17d55eee10f8f85700c":[18,4,0,10,4,0],
+"structEnetTas__ControlList.html":[18,4,0,10,3],
+"structEnetTas__ControlList.html#a7f406efcb3b84f71ada4a61c9b3ea63f":[18,4,0,10,3,0],
+"structEnetTas__ControlList.html#ab3c74ff9df91f1c1bb2df040cfb2be62":[18,4,0,10,3,4],
+"structEnetTas__ControlList.html#ab6866461954473b6dbd7aa9db1f0a11e":[18,4,0,10,3,1],
+"structEnetTas__ControlList.html#afd4da3b610a5ee1f2cae3ab64673c471":[18,4,0,10,3,3],
+"structEnetTas__ControlList.html#afffb7eefd4adf29b44118ed1680ad1c1":[18,4,0,10,3,2],
+"structEnetTas__GateCmdEntry.html":[18,4,0,10,1],
+"structEnetTas__GateCmdEntry.html#a57f99e69caecba000ccd2f335679e5b1":[18,4,0,10,1,1],
+"structEnetTas__GateCmdEntry.html#aff1551bcc2ee532b086dff45c34aef3d":[18,4,0,10,1,0],
+"structEnetTas__GenericInArgs.html":[18,4,0,10,0],
+"structEnetTas__GenericInArgs.html#a17834e505e843f0eb74e881cd9e0a449":[18,4,0,10,0,0],
 "structEnetTas__MaxSDUTable.html":[18,4,0,10,2],
 "structEnetTas__MaxSDUTable.html#a9fd88c77a7487ecf296c978add06ac68":[18,4,0,10,2,0],
 "structEnetTas__SetAdminListInArgs.html":[18,4,0,10,5],
@@ -237,17 +249,5 @@ var NAVTREEINDEX60 =
 "structGPMC__timingParams.html#a815fb3e3d105d512294041d039a366b0":[18,7,13,5,24],
 "structGPMC__timingParams.html#a865040461753969c8454ece0bf60f62a":[18,7,13,5,1],
 "structGPMC__timingParams.html#a942063e2fdb4b149924436bb0bf32ac5":[18,7,13,5,18],
-"structGPMC__timingParams.html#aab140873a7cebc489b0eae8eb230e57f":[18,7,13,5,8],
-"structGPMC__timingParams.html#ab2933c1f2aed2dd31f9ab4fd66810f29":[18,7,13,5,15],
-"structGPMC__timingParams.html#ab99d2d3a554cb13b55ed4586c147b209":[18,7,13,5,14],
-"structGPMC__timingParams.html#aba7ab701e2c7366e9dc920dbecc1ca38":[18,7,13,5,21],
-"structGPMC__timingParams.html#ac2f86c2fd7fb500bdead56d9951e7e3c":[18,7,13,5,19],
-"structGPMC__timingParams.html#ac4f14f034c82a98f270fc605213a5f31":[18,7,13,5,7],
-"structGPMC__timingParams.html#acdd4599199c5dbb0962a1a44f71458f8":[18,7,13,5,4],
-"structGPMC__timingParams.html#ad44b011c178bb2f17743d9e777a05401":[18,7,13,5,23],
-"structGPMC__timingParams.html#ad7536fc362b0bf9c6b08f4ca5a0f305a":[18,7,13,5,22],
-"structGPMC__timingParams.html#adcedc701f9745d6d1b811af7fcb0c6f0":[18,7,13,5,9],
-"structGPMC__timingParams.html#ade8bb8c99b45d9604ffaba6cbbe637ea":[18,7,13,5,12],
-"structGPMC__timingParams.html#af1335eff67459098e90f13dcdaa84d16":[18,7,13,5,11],
-"structGPMC__timingParams.html#afc9e0ca949fc1d58df057a869aa91b81":[18,7,13,5,13]
+"structGPMC__timingParams.html#aab140873a7cebc489b0eae8eb230e57f":[18,7,13,5,8]
 };
