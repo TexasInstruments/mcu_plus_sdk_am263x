@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"structEnetTas__ConfigStatus.html#a982f02ae305abc26358f7efc761ea13f":[18,4,0,10,4,2],
 "structEnetTas__ConfigStatus.html#aa8429bbbe6fcf17d55eee10f8f85700c":[18,4,0,10,4,0],
 "structEnetTas__ControlList.html":[18,4,0,10,3],
 "structEnetTas__ControlList.html#a7f406efcb3b84f71ada4a61c9b3ea63f":[18,4,0,10,3,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "structGPMC__timingParams.html#a7caf580937934428c660d175125953cb":[18,7,13,5,3],
 "structGPMC__timingParams.html#a815fb3e3d105d512294041d039a366b0":[18,7,13,5,24],
 "structGPMC__timingParams.html#a865040461753969c8454ece0bf60f62a":[18,7,13,5,1],
-"structGPMC__timingParams.html#a942063e2fdb4b149924436bb0bf32ac5":[18,7,13,5,18],
-"structGPMC__timingParams.html#aab140873a7cebc489b0eae8eb230e57f":[18,7,13,5,8]
+"structGPMC__timingParams.html#a942063e2fdb4b149924436bb0bf32ac5":[18,7,13,5,18]
 };

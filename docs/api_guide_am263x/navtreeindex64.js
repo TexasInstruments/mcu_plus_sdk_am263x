@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structLLDEnetCfg__t.html#a07d81f86a19d8dd34c7d5115c555302a":[18,3,4,10],
 "structLLDEnetCfg__t.html#a0cd8e0eeb7e38577a937de8a00d0208c":[18,3,4,15],
 "structLLDEnetCfg__t.html#a0de61d36fd81409b3b4e005d9e6bd305":[18,3,4,12],
 "structLLDEnetCfg__t.html#a0e489ca58a285aecc8e9d0e61b14fe58":[18,3,4,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structMCAN__TxEventFIFOElement.html#af0d56e1395039f814c845968b1e5f513":[18,7,24,24,9],
 "structMCAN__TxEventFIFOElement.html#af84c67e5dd7262fb4fbecd062a063eee":[18,7,24,24,4],
 "structMCAN__TxEventFIFOStatus.html":[18,7,24,13],
-"structMCAN__TxEventFIFOStatus.html#a038e1bca07488f28457c89369ca4e9cf":[18,7,24,13,2],
-"structMCAN__TxEventFIFOStatus.html#a4effb7cccf19a8ef3bfcf98d25246672":[18,7,24,13,3]
+"structMCAN__TxEventFIFOStatus.html#a038e1bca07488f28457c89369ca4e9cf":[18,7,24,13,2]
 };

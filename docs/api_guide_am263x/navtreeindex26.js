@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"group__DRV__ENETPHY.html#ga1f5f88ec72a5d6b371a7954131f791fb":[18,4,0,13,59],
 "group__DRV__ENETPHY.html#ga2aeb23504dcc8f2646a7db5ca8256a40":[18,4,0,13,19],
 "group__DRV__ENETPHY.html#ga2f5294c3ffcd261efce2573c32038cbd":[18,4,0,13,71],
 "group__DRV__ENETPHY.html#ga321b990b312722b35a86cf9d09be4e48":[18,4,0,13,47],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "group__DRV__ENET__ICSSG.html#gga2e2b170ba4c7c2f45b86da4bc27898bba284a628b2cc410d41eeb5dd13f62d7a8":[18,4,0,6,1,138,18],
 "group__DRV__ENET__ICSSG.html#gga2e2b170ba4c7c2f45b86da4bc27898bba288c3bea795996bb52af47f54880f6de":[18,4,0,6,1,138,0],
 "group__DRV__ENET__ICSSG.html#gga2e2b170ba4c7c2f45b86da4bc27898bba2b6dc7ef36c17e32257e6c32555109d0":[18,4,0,6,1,138,28],
-"group__DRV__ENET__ICSSG.html#gga2e2b170ba4c7c2f45b86da4bc27898bba2f2c5c7c0c3c75c79a86eb73c652d774":[18,4,0,6,1,138,26],
-"group__DRV__ENET__ICSSG.html#gga2e2b170ba4c7c2f45b86da4bc27898bba32ee6b62c175420fa64983ec9bf6b8d5":[18,4,0,6,1,138,31]
+"group__DRV__ENET__ICSSG.html#gga2e2b170ba4c7c2f45b86da4bc27898bba2f2c5c7c0c3c75c79a86eb73c652d774":[18,4,0,6,1,138,26]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"structEnetCpdma__OpenTxChPrms.html#ae5a6ec768aa63f2b8ff57f935d5c6a49":[18,4,0,0,0,0,5,4],
 "structEnetCpdma__PktInfo.html":[18,4,0,0,0,1,3],
 "structEnetCpdma__PktInfo.html#a0220cf2037ae0782e2a1a4ebd079d12d":[18,4,0,0,0,1,3,7],
 "structEnetCpdma__PktInfo.html#a19a1ef4192dd90c65033153d2ffaeec6":[18,4,0,0,0,1,3,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "structEnetRm__ResourceInfo.html#aed6a2ca6840471e320d24dc40060e65a":[18,4,0,8,0,2],
 "structEnetTas__ConfigStatus.html":[18,4,0,10,4],
 "structEnetTas__ConfigStatus.html#a78eddac209d9894138d1da3864fe5ca5":[18,4,0,10,4,3],
-"structEnetTas__ConfigStatus.html#a85ec84f75224e9b79ada92c92cb941e6":[18,4,0,10,4,1],
-"structEnetTas__ConfigStatus.html#a982f02ae305abc26358f7efc761ea13f":[18,4,0,10,4,2]
+"structEnetTas__ConfigStatus.html#a85ec84f75224e9b79ada92c92cb941e6":[18,4,0,10,4,1]
 };

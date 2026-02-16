@@ -92,30 +92,30 @@ $(document).ready(function(){initNavTree('EXAMPLES_DRIVERS_UART_HLD_LLD_EXTERNAL
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md2022">Introduction</a></li>
-<li class="level1"><a href="#autotoc_md2023">External Connections :</a><ul><li class="level2"><a href="#autotoc_md2024">AM263x-CC E2 :</a></li>
-<li class="level2"><a href="#autotoc_md2025">AM263x-LP :</a></li>
+<ul><li class="level1"><a href="#autotoc_md2023">Introduction</a></li>
+<li class="level1"><a href="#autotoc_md2024">External Connections :</a><ul><li class="level2"><a href="#autotoc_md2025">AM263x-CC E2 :</a></li>
+<li class="level2"><a href="#autotoc_md2026">AM263x-LP :</a></li>
 </ul>
 </li>
 <li class="level1"><a href="#EXAMPLES_DRIVERS_UART_HLD_LLD_EXTERNAL_LOOPBACK_COMBOS">Supported Combinations</a></li>
-<li class="level1"><a href="#autotoc_md2026">Steps to Run the Example</a></li>
-<li class="level1"><a href="#autotoc_md2027">See Also</a></li>
-<li class="level1"><a href="#autotoc_md2028">Sample Output</a></li>
+<li class="level1"><a href="#autotoc_md2027">Steps to Run the Example</a></li>
+<li class="level1"><a href="#autotoc_md2028">See Also</a></li>
+<li class="level1"><a href="#autotoc_md2029">Sample Output</a></li>
 </ul>
 </div>
 <div class="textblock"><p><a class="anchor" id="md_examples_drivers_uart_hld_lld_external_loopback"></a></p>
-<h1><a class="anchor" id="autotoc_md2022"></a>
+<h1><a class="anchor" id="autotoc_md2023"></a>
 Introduction</h1>
 <p>This example demonstrates the UART RX and TX operation from both hld and lld driver APIs by looping the Tx &amp; Rx externally in polling mode of operation.</p>
-<h1><a class="anchor" id="autotoc_md2023"></a>
+<h1><a class="anchor" id="autotoc_md2024"></a>
 External Connections :</h1>
-<h2><a class="anchor" id="autotoc_md2024"></a>
+<h2><a class="anchor" id="autotoc_md2025"></a>
 AM263x-CC E2 :</h2>
 <p>Connect Jumper wires between the following HSEC pins</p><ul>
 <li>UART1_RXD(L3) J24 PIN-19 --&mdash; UART4_TXD(C12) J21 PIN-26</li>
 <li>UART1_TXD(M3) J25 PIN-20 --&mdash; UART4_RXD(D11) J21 PIN-27 </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md2025"></a>
+<h2><a class="anchor" id="autotoc_md2026"></a>
 AM263x-LP :</h2>
 <p>Connect Jumper wires between the following pins</p><ul>
 <li>UART1_RXD(L3) J1/J3 PIN-3 --&mdash; UART4_TXD(C9) J6/J8 PIN-58</li>
@@ -135,17 +135,17 @@ Supported Combinations</h1>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">Example folder  </td><td class="markdownTableBodyNone">examples/drivers/uart/uart_hld_lld_external_loopback   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md2026"></a>
+<h1><a class="anchor" id="autotoc_md2027"></a>
 Steps to Run the Example</h1>
 <ul>
 <li><b>When using CCS projects to build</b>, import the CCS project for the required combination and build it using the CCS project menu (see <a class="el" href="CCS_PROJECTS_PAGE.html">Using SDK with CCS Projects</a>).</li>
 <li><b>When using makefiles to build</b>, note the required combination and build using make command (see <a class="el" href="MAKEFILE_BUILD_PAGE.html">Using SDK with Makefiles</a>)</li>
 <li>Launch a CCS debug session and run the executable, see <a class="el" href="CCS_LAUNCH_PAGE.html">CCS Launch, Load and Run</a></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md2027"></a>
+<h1><a class="anchor" id="autotoc_md2028"></a>
 See Also</h1>
 <p><a class="el" href="DRIVERS_UART_PAGE.html">UART</a></p>
-<h1><a class="anchor" id="autotoc_md2028"></a>
+<h1><a class="anchor" id="autotoc_md2029"></a>
 Sample Output</h1>
 <p>Shown below is a sample output when the application is run, Please note that application prints in CCS console.</p>
 <p>CCS Console: </p><div class="fragment"><div class="line">[UART] example started ...</div>

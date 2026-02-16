@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"structCpsw__SetInterVlanRouteUniEgressOutArgs.html":[18,4,0,6,0,3],
 "structCpsw__SetInterVlanRouteUniEgressOutArgs.html#a7c994e770e9fac063e82181a3d9dd17c":[18,4,0,6,0,3,0],
 "structCpsw__SetInterVlanRouteUniEgressOutArgs.html#ad74280ad8a74e8d7dfd8e9b3345e8814":[18,4,0,6,0,3,1],
 "structCpsw__SetTxShortIpgCfgInArgs.html":[18,4,0,6,0,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "structEnetCpdma__OpenTxChPrms.html#a157ebeb796b2ff14f6b0b9225b221253":[18,4,0,0,0,0,5,3],
 "structEnetCpdma__OpenTxChPrms.html#a2eda8a58f7e15c88551ad34de897369f":[18,4,0,0,0,0,5,0],
 "structEnetCpdma__OpenTxChPrms.html#a5cc3c83febe76501ec98f49bba886e1a":[18,4,0,0,0,0,5,2],
-"structEnetCpdma__OpenTxChPrms.html#a97ef204e1173c3217f2896360b3ca92b":[18,4,0,0,0,0,5,1],
-"structEnetCpdma__OpenTxChPrms.html#ae5a6ec768aa63f2b8ff57f935d5c6a49":[18,4,0,0,0,0,5,4]
+"structEnetCpdma__OpenTxChPrms.html#a97ef204e1173c3217f2896360b3ca92b":[18,4,0,0,0,0,5,1]
 };

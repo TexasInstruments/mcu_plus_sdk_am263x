@@ -1,45 +1,45 @@
 var ICSS_TIMESYNC =
 [
-    [ "Introduction", "ICSS_TIMESYNC.html#autotoc_md1602", null ],
-    [ "Features Supported", "ICSS_TIMESYNC.html#autotoc_md1603", null ],
-    [ "Features not supported", "ICSS_TIMESYNC.html#autotoc_md1604", null ],
-    [ "ICSS TimeSync Design", "ICSS_TIMESYNC.html#autotoc_md1605", null ],
-    [ "Usage", "ICSS_TIMESYNC.html#autotoc_md1606", [
-      [ "Including the header file", "ICSS_TIMESYNC.html#autotoc_md1607", null ],
-      [ "Initializing the Handle", "ICSS_TIMESYNC.html#autotoc_md1608", null ],
-      [ "Enabling/Disabling the Driver", "ICSS_TIMESYNC.html#autotoc_md1609", null ],
-      [ "Updating IP Address", "ICSS_TIMESYNC.html#autotoc_md1610", null ]
+    [ "Introduction", "ICSS_TIMESYNC.html#autotoc_md1603", null ],
+    [ "Features Supported", "ICSS_TIMESYNC.html#autotoc_md1604", null ],
+    [ "Features not supported", "ICSS_TIMESYNC.html#autotoc_md1605", null ],
+    [ "ICSS TimeSync Design", "ICSS_TIMESYNC.html#autotoc_md1606", null ],
+    [ "Usage", "ICSS_TIMESYNC.html#autotoc_md1607", [
+      [ "Including the header file", "ICSS_TIMESYNC.html#autotoc_md1608", null ],
+      [ "Initializing the Handle", "ICSS_TIMESYNC.html#autotoc_md1609", null ],
+      [ "Enabling/Disabling the Driver", "ICSS_TIMESYNC.html#autotoc_md1610", null ],
+      [ "Updating IP Address", "ICSS_TIMESYNC.html#autotoc_md1611", null ]
     ] ],
-    [ "PTP Stack Porting Guide", "ICSS_TIMESYNC.html#autotoc_md1611", [
-      [ "Running Best Main Clock Algorithm", "ICSS_TIMESYNC.html#autotoc_md1612", null ],
-      [ "Getting the current time", "ICSS_TIMESYNC.html#autotoc_md1613", null ],
-      [ "Resetting the driver", "ICSS_TIMESYNC.html#autotoc_md1614", null ],
-      [ "Getting other parameters", "ICSS_TIMESYNC.html#autotoc_md1615", null ]
+    [ "PTP Stack Porting Guide", "ICSS_TIMESYNC.html#autotoc_md1612", [
+      [ "Running Best Main Clock Algorithm", "ICSS_TIMESYNC.html#autotoc_md1613", null ],
+      [ "Getting the current time", "ICSS_TIMESYNC.html#autotoc_md1614", null ],
+      [ "Resetting the driver", "ICSS_TIMESYNC.html#autotoc_md1615", null ],
+      [ "Getting other parameters", "ICSS_TIMESYNC.html#autotoc_md1616", null ]
     ] ],
-    [ "Debug Guide", "ICSS_TIMESYNC.html#autotoc_md1616", null ],
-    [ "API", "ICSS_TIMESYNC.html#autotoc_md1617", null ],
-    [ "See also", "ICSS_TIMESYNC.html#autotoc_md1618", null ],
+    [ "Debug Guide", "ICSS_TIMESYNC.html#autotoc_md1617", null ],
+    [ "API", "ICSS_TIMESYNC.html#autotoc_md1618", null ],
+    [ "See also", "ICSS_TIMESYNC.html#autotoc_md1619", null ],
     [ "ICSS TimeSync Design", "ICSS_TIMESYNC_DESIGN.html", [
-      [ "Terms and Abbreviations", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1619", null ],
-      [ "Timer", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1620", null ],
-      [ "Sync Signal Generation", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1621", null ],
+      [ "Terms and Abbreviations", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1620", null ],
+      [ "Timer", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1621", null ],
+      [ "Sync Signal Generation", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1622", null ],
       [ "Timestamping", "ICSS_TIMESYNC_DESIGN.html#ICSS_TIMESYNC_DESIGN_TIMESTAMPING", null ],
-      [ "State Machine", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1622", null ],
-      [ "Synchronization", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1623", [
-        [ "Determination of Sync Period", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1624", null ]
+      [ "State Machine", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1623", null ],
+      [ "Synchronization", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1624", [
+        [ "Determination of Sync Period", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1625", null ]
       ] ],
-      [ "Delay Calculation", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1625", [
+      [ "Delay Calculation", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1626", [
         [ "Line Delay Calculation for E2E mode", "ICSS_TIMESYNC_DESIGN.html#ICSS_TIMESYNC_LINE_DELAY_CALCULATION", null ],
-        [ "Peer Delay Calculation for P2P mode", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1626", null ]
+        [ "Peer Delay Calculation for P2P mode", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1627", null ]
       ] ],
-      [ "Syntonization", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1627", null ],
-      [ "Reset", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1628", null ],
-      [ "Forwarding Rules", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1629", null ],
-      [ "OS Components", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1630", [
+      [ "Syntonization", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1628", null ],
+      [ "Reset", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1629", null ],
+      [ "Forwarding Rules", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1630", null ],
+      [ "OS Components", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1631", [
         [ "Interrupts", "ICSS_TIMESYNC_DESIGN.html#ICSS_TIMESYNC_DESIGN_INTERRUPTS", null ],
-        [ "Tasks", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1631", null ],
-        [ "Semaphores", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1632", null ],
-        [ "Events", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1633", null ]
+        [ "Tasks", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1632", null ],
+        [ "Semaphores", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1633", null ],
+        [ "Events", "ICSS_TIMESYNC_DESIGN.html#autotoc_md1634", null ]
       ] ]
     ] ]
 ];
