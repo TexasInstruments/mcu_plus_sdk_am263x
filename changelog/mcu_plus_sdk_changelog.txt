@@ -1,1 +1,545 @@
 First commit tracked for mcu_plus_sdk: 16ead2fe236390372ecf086c6f26432a9792cf47
+========================================
+Changes from build on 2026-03-06 05:24:41
+Previous commit: 16ead2fe236390372ecf086c6f26432a9792cf47
+Current commit: ef517dab17f6d56dddff69e94153ed890398bb9e
+========================================
+
+commit ef517dab17f6d56dddff69e94153ed890398bb9e
+Author: Sparsh Kumar <sparsh-kumar@ti.com>
+Date:   Fri Feb 20 16:09:18 2026 +0530
+
+    allsoc: sciclient: use secure context for OPEN_DEBUG_FWLS
+    
+    The Sciclient driver uses non-secure context for
+    TISCI_MSG_OPEN_DEBUG_FWLS which leads to SYSFW
+    returning NACK. Fix this by adding
+    TISCI_MSG_OPEN_DEBUG_FWLS to the list of TISCI
+    messages that requires secure context.
+    
+    Fixes: SITSW-8748
+    
+    Signed-off-by: Sparsh Kumar <sparsh-kumar@ti.com>
+
+ source/drivers/sciclient/sciclient.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 6816011151e7674128f9e2796f1731d38e1a8e7a
+Author: Shivank Sharma <s-sharma6@ti.com>
+Date:   Tue Mar 3 14:09:37 2026 +0530
+
+    am263x: AI: add sensor booster pack
+    
+     - add  sensor booster pack driver
+    
+     - add temperature sensor and imu sensor
+    
+     - add data capture examples with DAP
+    
+    Fixes: MCUSDK-15280
+    
+    Signed-off-by: Shivank Sharma <s-sharma6@ti.com>
+
+ .metadata/.tirex/am263x.content.tirex.json                                  |  64 +++
+ .project/device/project_am263x.js                                           |   4 +-
+ examples/ai/imu_sensor_data_capture/.project/project.js                     |  14 +
+ examples/ai/imu_sensor_data_capture/.project/project_am263x.js              | 124 ++++++
+ .../ai/imu_sensor_data_capture/am263x-lp/r5fss0-0_nortos/example.syscfg     | 288 ++++++++++++
+ examples/ai/imu_sensor_data_capture/am263x-lp/r5fss0-0_nortos/main.c        |  50 +++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec              | 117 +++++
+ .../imu_sensor_data_capture/am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile | 354 +++++++++++++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                    |  14 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       | 108 +++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec             |  17 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                  |   8 +
+ examples/ai/imu_sensor_data_capture/imu_sensor_data_capture.c               | 293 +++++++++++++
+ examples/ai/temp_sensor_data_capture/.project/project.js                    |  14 +
+ examples/ai/temp_sensor_data_capture/.project/project_am263x.js             | 122 ++++++
+ .../ai/temp_sensor_data_capture/am263x-lp/r5fss0-0_nortos/example.syscfg    | 283 ++++++++++++
+ examples/ai/temp_sensor_data_capture/am263x-lp/r5fss0-0_nortos/main.c       |  50 +++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec              | 117 +++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile                         | 354 +++++++++++++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                    |  14 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       | 108 +++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec             |  17 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                  |   8 +
+ examples/ai/temp_sensor_data_capture/temp_sensor_data_capture.c             | 286 ++++++++++++
+ makefile.am263x                                                             |  26 ++
+ makefile_projectspec.am263x                                                 |  26 ++
+ source/board/.project/project_am263x.js                                     |   7 +
+ source/board/makefile.am263x.r5f.ti-arm-clang.freertos                      |   7 +
+ source/board/makefile.am263x.r5f.ti-arm-clang.freertos_mpu                  |   7 +
+ source/board/makefile.am263x.r5f.ti-arm-clang.nortos                        |   7 +
+ source/board/tida010997/humidity_temperature/hdc3020.c                      | 352 +++++++++++++++
+ source/board/tida010997/humidity_temperature/hdc3020.h                      | 268 ++++++++++++
+ source/board/tida010997/imu/bmi270.c                                        | 728 +++++++++++++++++++++++++++++++
+ source/board/tida010997/imu/bmi270.h                                        | 343 +++++++++++++++
+ source/board/tida010997/imu/bmi270_firmware.c                               | 478 ++++++++++++++++++++
+ source/board/tida010997/tida010997.c                                        | 843 ++++++++++++++++++++++++++++++++++++
+ source/board/tida010997/tida010997.h                                        | 297 +++++++++++++
+ 37 files changed, 6216 insertions(+), 1 deletion(-)
+
+commit daf08df3641026f52ce69e4947c8117f2b22af4b
+Author: Shivank Sharma <s-sharma6@ti.com>
+Date:   Wed Feb 25 15:28:17 2026 +0530
+
+    am26x: AI: add feature extraction and dap
+    
+     - add  feature extraction library
+    
+     - add device agent protocol
+    
+     - add feature extraction and dap examples
+    
+    Fixes: MCUSDK-15280
+    
+    Signed-off-by: Shivank Sharma <s-sharma6@ti.com>
+
+ .metadata/.tirex/am261x.content.tirex.json                                  |  388 +++++++++++-
+ .metadata/.tirex/am263px.content.tirex.json                                 |  388 +++++++++++-
+ .metadata/.tirex/am263x.content.tirex.json                                  |  420 ++++++++++++-
+ .project/device/project_am261x.js                                           |   13 +
+ .project/device/project_am263px.js                                          |   13 +
+ .project/device/project_am263x.js                                           |   14 +
+ .project/templates/projectspec_executable.xdt                               |   11 +
+ examples/ai/arc_fault/.project/project.js                                   |   14 +
+ examples/ai/arc_fault/.project/project_am261x.js                            |  155 +++++
+ examples/ai/arc_fault/.project/project_am263px.js                           |  155 +++++
+ examples/ai/arc_fault/.project/project_am263x.js                            |  155 +++++
+ examples/ai/arc_fault/am261x-lp/r5fss0-0_nortos/example.syscfg              |  255 ++++++++
+ examples/ai/arc_fault/am261x-lp/r5fss0-0_nortos/main.c                      |   50 ++
+ .../ai/arc_fault/am261x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec |  133 ++++
+ examples/ai/arc_fault/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile       |  361 +++++++++++
+ examples/ai/arc_fault/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs  |   14 +
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../arc_fault/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec   |   17 +
+ .../ai/arc_fault/am261x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs     |    8 +
+ examples/ai/arc_fault/am263px-lp/r5fss0-0_nortos/example.syscfg             |  254 ++++++++
+ examples/ai/arc_fault/am263px-lp/r5fss0-0_nortos/main.c                     |   50 ++
+ .../arc_fault/am263px-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec   |  133 ++++
+ examples/ai/arc_fault/am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile      |  361 +++++++++++
+ examples/ai/arc_fault/am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs |   14 +
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen      |  108 ++++
+ .../arc_fault/am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec  |   17 +
+ .../ai/arc_fault/am263px-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs    |    8 +
+ examples/ai/arc_fault/am263x-lp/r5fss0-0_nortos/example.syscfg              |  253 ++++++++
+ examples/ai/arc_fault/am263x-lp/r5fss0-0_nortos/main.c                      |   50 ++
+ .../ai/arc_fault/am263x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec |  133 ++++
+ examples/ai/arc_fault/am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile       |  361 +++++++++++
+ examples/ai/arc_fault/am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs  |   14 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../arc_fault/am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec   |   17 +
+ .../ai/arc_fault/am263x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs     |    8 +
+ examples/ai/arc_fault/arc_fault.c                                           |  135 ++++
+ examples/ai/arc_fault/artifacts/mod.a                                       |  Bin 0 -> 62266 bytes
+ examples/ai/arc_fault/artifacts/tvmgen_default.h                            |   97 +++
+ examples/ai/arc_fault/test_vector.c                                         |   57 ++
+ examples/ai/arc_fault/user_input_config.h                                   |   30 +
+ examples/ai/blower_imbalance/.project/project.js                            |   14 +
+ examples/ai/blower_imbalance/.project/project_am261x.js                     |  155 +++++
+ examples/ai/blower_imbalance/.project/project_am263px.js                    |  155 +++++
+ examples/ai/blower_imbalance/.project/project_am263x.js                     |  155 +++++
+ examples/ai/blower_imbalance/am261x-lp/r5fss0-0_nortos/example.syscfg       |  255 ++++++++
+ examples/ai/blower_imbalance/am261x-lp/r5fss0-0_nortos/main.c               |   50 ++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec              |  133 ++++
+ .../ai/blower_imbalance/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile     |  361 +++++++++++
+ .../blower_imbalance/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs   |   14 +
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec             |   17 +
+ .../blower_imbalance/am261x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs |    8 +
+ examples/ai/blower_imbalance/am263px-lp/r5fss0-0_nortos/example.syscfg      |  254 ++++++++
+ examples/ai/blower_imbalance/am263px-lp/r5fss0-0_nortos/main.c              |   50 ++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec             |  133 ++++
+ .../ai/blower_imbalance/am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile    |  361 +++++++++++
+ .../blower_imbalance/am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs  |   14 +
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen      |  108 ++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec            |   17 +
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                 |    8 +
+ examples/ai/blower_imbalance/am263x-lp/r5fss0-0_nortos/example.syscfg       |  253 ++++++++
+ examples/ai/blower_imbalance/am263x-lp/r5fss0-0_nortos/main.c               |   50 ++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec              |  133 ++++
+ .../ai/blower_imbalance/am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile     |  361 +++++++++++
+ .../blower_imbalance/am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs   |   14 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec             |   17 +
+ .../blower_imbalance/am263x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs |    8 +
+ examples/ai/blower_imbalance/artifacts/mod.a                                |  Bin 0 -> 59882 bytes
+ examples/ai/blower_imbalance/artifacts/tvmgen_default.h                     |   97 +++
+ examples/ai/blower_imbalance/blower_imbalance.c                             |  135 ++++
+ examples/ai/blower_imbalance/test_vector.c                                  |   57 ++
+ examples/ai/blower_imbalance/user_input_config.h                            |   29 +
+ examples/ai/dap_default/.project/project.js                                 |   14 +
+ examples/ai/dap_default/.project/project_am263x.js                          |  121 ++++
+ examples/ai/dap_default/am263x-lp/r5fss0-0_nortos/example.syscfg            |  277 +++++++++
+ examples/ai/dap_default/am263x-lp/r5fss0-0_nortos/main.c                    |   50 ++
+ .../dap_default/am263x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec  |  113 ++++
+ examples/ai/dap_default/am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile     |  349 +++++++++++
+ .../ai/dap_default/am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs     |   14 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../dap_default/am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec |   17 +
+ .../ai/dap_default/am263x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs   |    8 +
+ examples/ai/dap_default/dap_default.c                                       |  262 ++++++++
+ examples/ai/fan_blade_anomalydetection/.project/project.js                  |   14 +
+ examples/ai/fan_blade_anomalydetection/.project/project_am261x.js           |  155 +++++
+ examples/ai/fan_blade_anomalydetection/.project/project_am263px.js          |  155 +++++
+ examples/ai/fan_blade_anomalydetection/.project/project_am263x.js           |  155 +++++
+ .../ai/fan_blade_anomalydetection/am261x-lp/r5fss0-0_nortos/example.syscfg  |  255 ++++++++
+ examples/ai/fan_blade_anomalydetection/am261x-lp/r5fss0-0_nortos/main.c     |   50 ++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec              |  133 ++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile                         |  361 +++++++++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                    |   14 +
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec             |   17 +
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                  |    8 +
+ .../ai/fan_blade_anomalydetection/am263px-lp/r5fss0-0_nortos/example.syscfg |  254 ++++++++
+ examples/ai/fan_blade_anomalydetection/am263px-lp/r5fss0-0_nortos/main.c    |   50 ++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec             |  133 ++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile                        |  361 +++++++++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                   |   14 +
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen      |  108 ++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec            |   17 +
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                 |    8 +
+ .../ai/fan_blade_anomalydetection/am263x-lp/r5fss0-0_nortos/example.syscfg  |  253 ++++++++
+ examples/ai/fan_blade_anomalydetection/am263x-lp/r5fss0-0_nortos/main.c     |   50 ++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec              |  133 ++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile                         |  361 +++++++++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                    |   14 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec             |   17 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                  |    8 +
+ examples/ai/fan_blade_anomalydetection/artifacts/mod.a                      |  Bin 0 -> 137316 bytes
+ examples/ai/fan_blade_anomalydetection/artifacts/tvmgen_default.h           |   93 +++
+ examples/ai/fan_blade_anomalydetection/fan_blade_anomalydetection.c         |  161 +++++
+ examples/ai/fan_blade_anomalydetection/test_vector.c                        |   57 ++
+ examples/ai/fan_blade_anomalydetection/user_input_config.h                  |   32 +
+ examples/ai/forecasting_pmsm_rotor_temp/.project/project.js                 |   14 +
+ examples/ai/forecasting_pmsm_rotor_temp/.project/project_am261x.js          |  155 +++++
+ examples/ai/forecasting_pmsm_rotor_temp/.project/project_am263px.js         |  155 +++++
+ examples/ai/forecasting_pmsm_rotor_temp/.project/project_am263x.js          |  155 +++++
+ .../ai/forecasting_pmsm_rotor_temp/am261x-lp/r5fss0-0_nortos/example.syscfg |  255 ++++++++
+ examples/ai/forecasting_pmsm_rotor_temp/am261x-lp/r5fss0-0_nortos/main.c    |   50 ++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec              |  133 ++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile                         |  361 +++++++++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                    |   14 +
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec             |   17 +
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                  |    8 +
+ .../forecasting_pmsm_rotor_temp/am263px-lp/r5fss0-0_nortos/example.syscfg   |  254 ++++++++
+ examples/ai/forecasting_pmsm_rotor_temp/am263px-lp/r5fss0-0_nortos/main.c   |   50 ++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec             |  133 ++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile                        |  361 +++++++++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                   |   14 +
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen      |  108 ++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec            |   17 +
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                 |    8 +
+ .../ai/forecasting_pmsm_rotor_temp/am263x-lp/r5fss0-0_nortos/example.syscfg |  253 ++++++++
+ examples/ai/forecasting_pmsm_rotor_temp/am263x-lp/r5fss0-0_nortos/main.c    |   50 ++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec              |  133 ++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile                         |  361 +++++++++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                    |   14 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec             |   17 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                  |    8 +
+ examples/ai/forecasting_pmsm_rotor_temp/artifacts/mod.a                     |  Bin 0 -> 60328 bytes
+ examples/ai/forecasting_pmsm_rotor_temp/artifacts/tvmgen_default.h          |   86 +++
+ examples/ai/forecasting_pmsm_rotor_temp/forecasting_pmsm_rotor_temp.c       |  135 ++++
+ examples/ai/forecasting_pmsm_rotor_temp/test_vector.c                       |  105 ++++
+ examples/ai/forecasting_pmsm_rotor_temp/user_input_config.h                 |   12 +
+ examples/ai/generic_timeseries_anomalydetection/.project/project.js         |   14 +
+ examples/ai/generic_timeseries_anomalydetection/.project/project_am261x.js  |  155 +++++
+ examples/ai/generic_timeseries_anomalydetection/.project/project_am263px.js |  155 +++++
+ examples/ai/generic_timeseries_anomalydetection/.project/project_am263x.js  |  155 +++++
+ .../am261x-lp/r5fss0-0_nortos/example.syscfg                                |  255 ++++++++
+ .../ai/generic_timeseries_anomalydetection/am261x-lp/r5fss0-0_nortos/main.c |   50 ++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec              |  133 ++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile                         |  361 +++++++++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                    |   14 +
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec             |   17 +
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                  |    8 +
+ .../am263px-lp/r5fss0-0_nortos/example.syscfg                               |  254 ++++++++
+ .../generic_timeseries_anomalydetection/am263px-lp/r5fss0-0_nortos/main.c   |   50 ++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec             |  133 ++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile                        |  361 +++++++++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                   |   14 +
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen      |  108 ++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec            |   17 +
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                 |    8 +
+ .../am263x-lp/r5fss0-0_nortos/example.syscfg                                |  253 ++++++++
+ .../ai/generic_timeseries_anomalydetection/am263x-lp/r5fss0-0_nortos/main.c |   50 ++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec              |  133 ++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile                         |  361 +++++++++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                    |   14 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec             |   17 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                  |    8 +
+ examples/ai/generic_timeseries_anomalydetection/artifacts/mod.a             |  Bin 0 -> 127510 bytes
+ examples/ai/generic_timeseries_anomalydetection/artifacts/tvmgen_default.h  |   93 +++
+ .../generic_timeseries_anomalydetection.c                                   |  161 +++++
+ examples/ai/generic_timeseries_anomalydetection/test_vector.c               |   57 ++
+ examples/ai/generic_timeseries_anomalydetection/user_input_config.h         |   24 +
+ examples/ai/generic_timeseries_classification/.project/project.js           |   14 +
+ examples/ai/generic_timeseries_classification/.project/project_am261x.js    |  155 +++++
+ examples/ai/generic_timeseries_classification/.project/project_am263px.js   |  155 +++++
+ examples/ai/generic_timeseries_classification/.project/project_am263x.js    |  155 +++++
+ .../am261x-lp/r5fss0-0_nortos/example.syscfg                                |  255 ++++++++
+ .../ai/generic_timeseries_classification/am261x-lp/r5fss0-0_nortos/main.c   |   50 ++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec              |  133 ++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile                         |  361 +++++++++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                    |   14 +
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec             |   17 +
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                  |    8 +
+ .../am263px-lp/r5fss0-0_nortos/example.syscfg                               |  254 ++++++++
+ .../ai/generic_timeseries_classification/am263px-lp/r5fss0-0_nortos/main.c  |   50 ++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec             |  133 ++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile                        |  361 +++++++++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                   |   14 +
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen      |  108 ++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec            |   17 +
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                 |    8 +
+ .../am263x-lp/r5fss0-0_nortos/example.syscfg                                |  253 ++++++++
+ .../ai/generic_timeseries_classification/am263x-lp/r5fss0-0_nortos/main.c   |   50 ++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec              |  133 ++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile                         |  361 +++++++++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                    |   14 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec             |   17 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                  |    8 +
+ examples/ai/generic_timeseries_classification/artifacts/mod.a               |  Bin 0 -> 43100 bytes
+ examples/ai/generic_timeseries_classification/artifacts/tvmgen_default.h    |  104 ++++
+ .../generic_timeseries_classification/generic_timeseries_classification.c   |  135 ++++
+ examples/ai/generic_timeseries_classification/test_vector.c                 |   81 +++
+ examples/ai/generic_timeseries_classification/user_input_config.h           |   29 +
+ examples/ai/generic_timeseries_forecasting/.project/project.js              |   14 +
+ examples/ai/generic_timeseries_forecasting/.project/project_am261x.js       |  155 +++++
+ examples/ai/generic_timeseries_forecasting/.project/project_am263px.js      |  155 +++++
+ examples/ai/generic_timeseries_forecasting/.project/project_am263x.js       |  155 +++++
+ .../generic_timeseries_forecasting/am261x-lp/r5fss0-0_nortos/example.syscfg |  255 ++++++++
+ examples/ai/generic_timeseries_forecasting/am261x-lp/r5fss0-0_nortos/main.c |   50 ++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec              |  133 ++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile                         |  361 +++++++++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                    |   14 +
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec             |   17 +
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                  |    8 +
+ .../am263px-lp/r5fss0-0_nortos/example.syscfg                               |  254 ++++++++
+ .../ai/generic_timeseries_forecasting/am263px-lp/r5fss0-0_nortos/main.c     |   50 ++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec             |  133 ++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile                        |  361 +++++++++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                   |   14 +
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen      |  108 ++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec            |   17 +
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                 |    8 +
+ .../generic_timeseries_forecasting/am263x-lp/r5fss0-0_nortos/example.syscfg |  253 ++++++++
+ examples/ai/generic_timeseries_forecasting/am263x-lp/r5fss0-0_nortos/main.c |   50 ++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec              |  133 ++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile                         |  361 +++++++++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                    |   14 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec             |   17 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                  |    8 +
+ examples/ai/generic_timeseries_forecasting/artifacts/mod.a                  |  Bin 0 -> 295136 bytes
+ examples/ai/generic_timeseries_forecasting/artifacts/tvmgen_default.h       |   86 +++
+ examples/ai/generic_timeseries_forecasting/generic_timeseries_forecasting.c |  135 ++++
+ examples/ai/generic_timeseries_forecasting/test_vector.c                    |  105 ++++
+ examples/ai/generic_timeseries_forecasting/user_input_config.h              |   12 +
+ examples/ai/generic_timeseries_regression/.project/project.js               |   14 +
+ examples/ai/generic_timeseries_regression/.project/project_am261x.js        |  155 +++++
+ examples/ai/generic_timeseries_regression/.project/project_am263px.js       |  155 +++++
+ examples/ai/generic_timeseries_regression/.project/project_am263x.js        |  155 +++++
+ .../generic_timeseries_regression/am261x-lp/r5fss0-0_nortos/example.syscfg  |  255 ++++++++
+ examples/ai/generic_timeseries_regression/am261x-lp/r5fss0-0_nortos/main.c  |   50 ++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec              |  133 ++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile                         |  361 +++++++++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                    |   14 +
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec             |   17 +
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                  |    8 +
+ .../generic_timeseries_regression/am263px-lp/r5fss0-0_nortos/example.syscfg |  254 ++++++++
+ examples/ai/generic_timeseries_regression/am263px-lp/r5fss0-0_nortos/main.c |   50 ++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec             |  133 ++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile                        |  361 +++++++++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                   |   14 +
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen      |  108 ++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec            |   17 +
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                 |    8 +
+ .../generic_timeseries_regression/am263x-lp/r5fss0-0_nortos/example.syscfg  |  253 ++++++++
+ examples/ai/generic_timeseries_regression/am263x-lp/r5fss0-0_nortos/main.c  |   50 ++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec              |  133 ++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile                         |  361 +++++++++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                    |   14 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec             |   17 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                  |    8 +
+ examples/ai/generic_timeseries_regression/artifacts/mod.a                   |  Bin 0 -> 68418 bytes
+ examples/ai/generic_timeseries_regression/artifacts/tvmgen_default.h        |  106 ++++
+ examples/ai/generic_timeseries_regression/generic_timeseries_regression.c   |  135 ++++
+ examples/ai/generic_timeseries_regression/test_vector.c                     |  105 ++++
+ examples/ai/generic_timeseries_regression/user_input_config.h               |   15 +
+ examples/ai/hvac_indoor_temp_forecast/.project/project.js                   |   14 +
+ examples/ai/hvac_indoor_temp_forecast/.project/project_am261x.js            |  155 +++++
+ examples/ai/hvac_indoor_temp_forecast/.project/project_am263px.js           |  155 +++++
+ examples/ai/hvac_indoor_temp_forecast/.project/project_am263x.js            |  155 +++++
+ .../ai/hvac_indoor_temp_forecast/am261x-lp/r5fss0-0_nortos/example.syscfg   |  255 ++++++++
+ examples/ai/hvac_indoor_temp_forecast/am261x-lp/r5fss0-0_nortos/main.c      |   50 ++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec              |  133 ++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile                         |  361 +++++++++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                    |   14 +
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec             |   17 +
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                  |    8 +
+ .../ai/hvac_indoor_temp_forecast/am263px-lp/r5fss0-0_nortos/example.syscfg  |  254 ++++++++
+ examples/ai/hvac_indoor_temp_forecast/am263px-lp/r5fss0-0_nortos/main.c     |   50 ++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec             |  133 ++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile                        |  361 +++++++++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                   |   14 +
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen      |  108 ++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec            |   17 +
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                 |    8 +
+ .../ai/hvac_indoor_temp_forecast/am263x-lp/r5fss0-0_nortos/example.syscfg   |  253 ++++++++
+ examples/ai/hvac_indoor_temp_forecast/am263x-lp/r5fss0-0_nortos/main.c      |   50 ++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec              |  133 ++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile                         |  361 +++++++++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                    |   14 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec             |   17 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                  |    8 +
+ examples/ai/hvac_indoor_temp_forecast/artifacts/mod.a                       |  Bin 0 -> 68040 bytes
+ examples/ai/hvac_indoor_temp_forecast/artifacts/tvmgen_default.h            |   86 +++
+ examples/ai/hvac_indoor_temp_forecast/hvac_indoor_temp_forecast.c           |  135 ++++
+ examples/ai/hvac_indoor_temp_forecast/test_vector.c                         |  105 ++++
+ examples/ai/hvac_indoor_temp_forecast/user_input_config.h                   |   12 +
+ examples/ai/motor_fault/.project/project.js                                 |   14 +
+ examples/ai/motor_fault/.project/project_am261x.js                          |  155 +++++
+ examples/ai/motor_fault/.project/project_am263px.js                         |  155 +++++
+ examples/ai/motor_fault/.project/project_am263x.js                          |  155 +++++
+ examples/ai/motor_fault/am261x-lp/r5fss0-0_nortos/example.syscfg            |  255 ++++++++
+ examples/ai/motor_fault/am261x-lp/r5fss0-0_nortos/main.c                    |   50 ++
+ .../motor_fault/am261x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec  |  133 ++++
+ examples/ai/motor_fault/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile     |  361 +++++++++++
+ .../ai/motor_fault/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs     |   14 +
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../motor_fault/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec |   17 +
+ .../ai/motor_fault/am261x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs   |    8 +
+ examples/ai/motor_fault/am263px-lp/r5fss0-0_nortos/example.syscfg           |  254 ++++++++
+ examples/ai/motor_fault/am263px-lp/r5fss0-0_nortos/main.c                   |   50 ++
+ .../motor_fault/am263px-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec |  133 ++++
+ examples/ai/motor_fault/am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile    |  361 +++++++++++
+ .../ai/motor_fault/am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs    |   14 +
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen      |  108 ++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec            |   17 +
+ .../ai/motor_fault/am263px-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs  |    8 +
+ examples/ai/motor_fault/am263x-lp/r5fss0-0_nortos/example.syscfg            |  253 ++++++++
+ examples/ai/motor_fault/am263x-lp/r5fss0-0_nortos/main.c                    |   50 ++
+ .../motor_fault/am263x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec  |  133 ++++
+ examples/ai/motor_fault/am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile     |  361 +++++++++++
+ .../ai/motor_fault/am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs     |   14 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../motor_fault/am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec |   17 +
+ .../ai/motor_fault/am263x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs   |    8 +
+ examples/ai/motor_fault/artifacts/mod.a                                     |  Bin 0 -> 43012 bytes
+ examples/ai/motor_fault/artifacts/tvmgen_default.h                          |  104 ++++
+ examples/ai/motor_fault/motor_fault.c                                       |  135 ++++
+ examples/ai/motor_fault/test_vector.c                                       |  153 +++++
+ examples/ai/motor_fault/user_input_config.h                                 |   29 +
+ examples/ai/torque_measurement/.project/project.js                          |   14 +
+ examples/ai/torque_measurement/.project/project_am261x.js                   |  155 +++++
+ examples/ai/torque_measurement/.project/project_am263px.js                  |  155 +++++
+ examples/ai/torque_measurement/.project/project_am263x.js                   |  155 +++++
+ examples/ai/torque_measurement/am261x-lp/r5fss0-0_nortos/example.syscfg     |  255 ++++++++
+ examples/ai/torque_measurement/am261x-lp/r5fss0-0_nortos/main.c             |   50 ++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec              |  133 ++++
+ .../ai/torque_measurement/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile   |  361 +++++++++++
+ .../torque_measurement/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs |   14 +
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec             |   17 +
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                  |    8 +
+ examples/ai/torque_measurement/am263px-lp/r5fss0-0_nortos/example.syscfg    |  254 ++++++++
+ examples/ai/torque_measurement/am263px-lp/r5fss0-0_nortos/main.c            |   50 ++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec             |  133 ++++
+ .../ai/torque_measurement/am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile  |  361 +++++++++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                   |   14 +
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen      |  108 ++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec            |   17 +
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                 |    8 +
+ examples/ai/torque_measurement/am263x-lp/r5fss0-0_nortos/example.syscfg     |  253 ++++++++
+ examples/ai/torque_measurement/am263x-lp/r5fss0-0_nortos/main.c             |   50 ++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec              |  133 ++++
+ .../ai/torque_measurement/am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile   |  361 +++++++++++
+ .../torque_measurement/am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs |   14 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec             |   17 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                  |    8 +
+ examples/ai/torque_measurement/artifacts/mod.a                              |  Bin 0 -> 69314 bytes
+ examples/ai/torque_measurement/artifacts/tvmgen_default.h                   |   99 +++
+ examples/ai/torque_measurement/test_vector.c                                |  105 ++++
+ examples/ai/torque_measurement/torque_measurement.c                         |  135 ++++
+ examples/ai/torque_measurement/user_input_config.h                          |   15 +
+ examples/ai/washing_machine_load_weighing/.project/project.js               |   14 +
+ examples/ai/washing_machine_load_weighing/.project/project_am261x.js        |  155 +++++
+ examples/ai/washing_machine_load_weighing/.project/project_am263px.js       |  155 +++++
+ examples/ai/washing_machine_load_weighing/.project/project_am263x.js        |  155 +++++
+ .../washing_machine_load_weighing/am261x-lp/r5fss0-0_nortos/example.syscfg  |  255 ++++++++
+ examples/ai/washing_machine_load_weighing/am261x-lp/r5fss0-0_nortos/main.c  |   50 ++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec              |  133 ++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile                         |  361 +++++++++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                    |   14 +
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec             |   17 +
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                  |    8 +
+ .../washing_machine_load_weighing/am263px-lp/r5fss0-0_nortos/example.syscfg |  254 ++++++++
+ examples/ai/washing_machine_load_weighing/am263px-lp/r5fss0-0_nortos/main.c |   50 ++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec             |  133 ++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile                        |  361 +++++++++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                   |   14 +
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen      |  108 ++++
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec            |   17 +
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                 |    8 +
+ .../washing_machine_load_weighing/am263x-lp/r5fss0-0_nortos/example.syscfg  |  253 ++++++++
+ examples/ai/washing_machine_load_weighing/am263x-lp/r5fss0-0_nortos/main.c  |   50 ++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec              |  133 ++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile                         |  361 +++++++++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile.defs                    |   14 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_ccs_bootimage_gen       |  108 ++++
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile_projectspec             |   17 +
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/syscfg_c.rov.xs                  |    8 +
+ examples/ai/washing_machine_load_weighing/artifacts/mod.a                   |  Bin 0 -> 75540 bytes
+ examples/ai/washing_machine_load_weighing/artifacts/tvmgen_default.h        |   86 +++
+ examples/ai/washing_machine_load_weighing/test_vector.c                     |  105 ++++
+ examples/ai/washing_machine_load_weighing/user_input_config.h               |   12 +
+ examples/ai/washing_machine_load_weighing/washing_machine_load_weighing.c   |  135 ++++
+ makefile.am261x                                                             |  176 +++++-
+ makefile.am263px                                                            |  176 +++++-
+ makefile.am263x                                                             |  189 +++++-
+ makefile_projectspec.am261x                                                 |  156 +++++
+ makefile_projectspec.am263px                                                |  156 +++++
+ makefile_projectspec.am263x                                                 |  169 +++++
+ source/ai/.project/project.js                                               |   14 +
+ source/ai/.project/project_am261x.js                                        |   67 ++
+ source/ai/.project/project_am263px.js                                       |   67 ++
+ source/ai/.project/project_am263x.js                                        |   67 ++
+ source/ai/dap/Dap.c                                                         |  535 ++++++++++++++++
+ source/ai/dap/Dap.h                                                         |  255 ++++++++
+ source/ai/dap/Dap_Types.h                                                   |  753 +++++++++++++++++++++++
+ source/ai/dap/dap_core/Dap_Core.c                                           | 1150 +++++++++++++++++++++++++++++++++++
+ source/ai/dap/dap_core/Dap_Core.h                                           |  135 ++++
+ source/ai/dap/dap_interface/Dap_Interface.h                                 |  224 +++++++
+ source/ai/dap/dap_interface/Dap_Interface_Cfg.h                             |   66 ++
+ source/ai/dap/dap_link/Dap_Link.c                                           | 1099 +++++++++++++++++++++++++++++++++
+ source/ai/dap/dap_link/Dap_Link.h                                           |  310 ++++++++++
+ source/ai/feature_extract/feature_extract.c                                 |  429 +++++++++++++
+ source/ai/feature_extract/feature_extract.h                                 |  182 ++++++
+ source/ai/feature_extract/feature_extract_am26.c                            |  109 ++++
+ source/ai/hann/fpu_fft_hann.h                                               |  887 +++++++++++++++++++++++++++
+ source/ai/makefile.am261x.r5f.ti-arm-clang.freertos                         |  129 ++++
+ source/ai/makefile.am261x.r5f.ti-arm-clang.freertos_mpu                     |  129 ++++
+ source/ai/makefile.am261x.r5f.ti-arm-clang.nortos                           |  126 ++++
+ source/ai/makefile.am263px.r5f.ti-arm-clang.freertos                        |  129 ++++
+ source/ai/makefile.am263px.r5f.ti-arm-clang.freertos_mpu                    |  129 ++++
+ source/ai/makefile.am263px.r5f.ti-arm-clang.nortos                          |  126 ++++
+ source/ai/makefile.am263x.r5f.ti-arm-clang.freertos                         |  129 ++++
+ source/ai/makefile.am263x.r5f.ti-arm-clang.freertos_mpu                     |  129 ++++
+ source/ai/makefile.am263x.r5f.ti-arm-clang.nortos                           |  126 ++++
+ 446 files changed, 55008 insertions(+), 15 deletions(-)
+

@@ -1,1 +1,84 @@
 First commit tracked for enet_lld: 485a1a3b9bc2cff9e25741a4072c6b7a26c6eb83
+========================================
+Changes from build on 2026-03-06 05:23:05
+Previous commit: 485a1a3b9bc2cff9e25741a4072c6b7a26c6eb83
+Current commit: b8b36f28761e9dc81efca3f480191c0c6b3b975b
+========================================
+
+commit b8b36f28761e9dc81efca3f480191c0c6b3b975b
+Author: Anoop <anoop.rk@ti.com>
+Date:   Tue Feb 17 14:24:16 2026 +0530
+
+    am275x: c7x: Update c7x stack alignement
+    
+        * Update main.c for gen-buildfiles
+        * Update main file for stack alignment to 16KB
+    
+    Fixes: SITSW-10173
+    
+    Signed-off-by: Anoop <anoop.rk@ti.com>
+
+ .../central_compute/am275x-evm-dp83867/am275x-evm/c75ss0-0_freertos/main.c       | 2 +-
+ .../central_compute/am275x-evm-dp83tg721/am275x-evm/c75ss0-0_freertos/main.c     | 2 +-
+ .../central_compute/am275x-evm-dp83867/am275x-evm/c75ss0-0_freertos/main.c       | 2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 506364da726bce7f082370be1050164d1805a4d6
+Author: raj <r-panganamala@ti.com>
+Date:   Wed Feb 18 17:25:31 2026 +0530
+
+    enet: am62px: Task stack allocation in application layer
+    
+    -Update all main files calling sciServer_init
+    -Define task stacks and configure Sciserver_TirtosCfgPrms_t
+    in application layer
+    
+    Fixes: SITSW-10326
+    
+    Signed-off-by: Raj Panganamala <r-panganamala@ti.com>
+
+ examples/enet_layer2_cpsw_switch/am62px-sk/wkup-r5fss0-0_freertos/main.c         | 20 ++++++++++++++++++--
+ .../enet_cpsw_loopback/loopback_mac_end/am62px-sk/wkup-r5fss0-0_freertos/main.c  | 20 ++++++++++++++++++--
+ .../enet_cpsw_loopback/loopback_phy_end/am62px-sk/wkup-r5fss0-0_freertos/main.c  | 20 ++++++++++++++++++--
+ examples/lwip/enet_cpsw_tcpserver/am62px-sk/wkup-r5fss0-0_freertos/main.c        | 20 ++++++++++++++++++--
+ examples/lwip/enet_lwip_cpsw/am62px-sk/wkup-r5fss0-0_freertos/main.c             | 20 ++++++++++++++++++--
+ examples/tsn/gptp_cpsw_app/am62px-sk/wkup-r5fss0-0_freertos/main.c               | 20 ++++++++++++++++++--
+ examples/tsn/gptp_lwip_cpsw/am62px-sk/wkup-r5fss0-0_freertos/main.c              | 20 ++++++++++++++++++--
+ test/enet_cpsw_iet/loopback_phy_end/am62px-sk/wkup-r5fss0-0_freertos/main.c      | 20 ++++++++++++++++++--
+ 8 files changed, 144 insertions(+), 16 deletions(-)
+
+commit 09cb04479cdf45ba6c5a97d803cdbdf87d43df19
+Author: Souraduti Parui <s-parui@ti.com>
+Date:   Fri Feb 20 10:23:14 2026 +0530
+
+    am62ax: ethfw: ethfw enablement
+    
+    - Enabling Proxy ARP for ethfw
+    
+    - if this function is empty no channel
+      will be allocated for Proxy ARP
+    
+    Fixes: SITSW-9885
+    
+    Signed-off-by: Souraduti Parui <s-parui@ti.com>
+
+ sysconfig/networking/.meta/enet_cpsw/templates/enet_lwipif.c.xdt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 85166b4f051120fb6902ca06261f32dbbb0c6a81
+Author: Souraduti Parui <s-parui@ti.com>
+Date:   Wed Feb 11 17:16:31 2026 +0530
+
+    am62ax: ethfw: enabling linux client
+    
+    - Logic for reading MAC address from
+      EEPROM is removed to free-up eeprom
+      and I2c that is used to access EEPROM
+    
+    Fixes: SITSW-9885
+    
+    Signed-off-by: Souraduti Parui <s-parui@ti.com>
+
+ sysconfig/board/.meta/ethphy_cpsw_icssg/templates/am62ax/enet_board_cfg.c.xdt | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
