@@ -1,5 +1,7 @@
 var NAVTREEINDEX54 =
 {
+"group__xtimer.html#ga11d3c07d2416c716b9f7085a34b22718":[18,11,7,11],
+"group__xtimer.html#ga180da4013d4991c18670dba87e3fbbdc":[18,11,7,10],
 "group__xtimer.html#ga353ad58661f7644bc869e7cc7dcad348":[18,11,7,2],
 "group__xtimer.html#ga4bc758674e272e2bd5f09b3f98e3072d":[18,11,7,5],
 "group__xtimer.html#ga56800a5282c87ea92285fc9dae932045":[18,11,7,6],
@@ -74,6 +76,7 @@ var NAVTREEINDEX54 =
 "structBootloader__Params.html":[18,7,1,0],
 "structBootloader__Params.html#a4205bd11092417e913e877ced1a0ffe7":[18,7,1,0,3],
 "structBootloader__Params.html#a6992dc3b8c23540c3a0c63bae1fe306d":[18,7,1,0,0],
+"structBootloader__Params.html#aa226a365dfdaaa8612fbfe872724dd5a":[18,7,1,0,4],
 "structBootloader__Params.html#acfdb619642a1239ed600963a6d25b02d":[18,7,1,0,2],
 "structBootloader__Params.html#ae5691aac8586b6d4ff6ca5aa31be8484":[18,7,1,0,1],
 "structCANFD__Attrs.html":[18,7,2,12],
@@ -246,8 +249,5 @@ var NAVTREEINDEX54 =
 "structCANFD__OpenParams.html#a9736d7aed21eb1161e04d8a4f2dd74e7":[18,7,2,14,1],
 "structCANFD__OpenParams.html#a98d6f0fc28a12e2b0dc5d6a5cb58b317":[18,7,2,14,7],
 "structCANFD__OpenParams.html#a9c940eb8e35cfaec1e15f59356694ad5":[18,7,2,14,27],
-"structCANFD__OpenParams.html#aa457ac53357998c4ec1a133f039304b8":[18,7,2,14,14],
-"structCANFD__OpenParams.html#aac26a910d7dc43f2c6696aa30081e7e2":[18,7,2,14,22],
-"structCANFD__OpenParams.html#ab3dd6f46ce6a3ffffdac38ed95533903":[18,7,2,14,12],
-"structCANFD__OpenParams.html#ab5f9319f649cbb1de194d697644a2136":[18,7,2,14,0]
+"structCANFD__OpenParams.html#aa457ac53357998c4ec1a133f039304b8":[18,7,2,14,14]
 };

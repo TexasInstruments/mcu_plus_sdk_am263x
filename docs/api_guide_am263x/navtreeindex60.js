@@ -1,5 +1,8 @@
 var NAVTREEINDEX60 =
 {
+"structEnetTas__ConfigStatus.html":[18,4,0,10,4],
+"structEnetTas__ConfigStatus.html#a78eddac209d9894138d1da3864fe5ca5":[18,4,0,10,4,3],
+"structEnetTas__ConfigStatus.html#a85ec84f75224e9b79ada92c92cb941e6":[18,4,0,10,4,1],
 "structEnetTas__ConfigStatus.html#a982f02ae305abc26358f7efc761ea13f":[18,4,0,10,4,2],
 "structEnetTas__ConfigStatus.html#aa8429bbbe6fcf17d55eee10f8f85700c":[18,4,0,10,4,0],
 "structEnetTas__ControlList.html":[18,4,0,10,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX60 =
 "structGPMC__timingParams.html#a6c965c6a1648252120335ecff51664b0":[18,7,13,5,6],
 "structGPMC__timingParams.html#a6d1f8bc55841d78e48ea2d7c26a1c5ee":[18,7,13,5,2],
 "structGPMC__timingParams.html#a728eb51adc2c0642ebeb969a0bf2bbdb":[18,7,13,5,20],
-"structGPMC__timingParams.html#a7caf580937934428c660d175125953cb":[18,7,13,5,3],
-"structGPMC__timingParams.html#a815fb3e3d105d512294041d039a366b0":[18,7,13,5,24],
-"structGPMC__timingParams.html#a865040461753969c8454ece0bf60f62a":[18,7,13,5,1],
-"structGPMC__timingParams.html#a942063e2fdb4b149924436bb0bf32ac5":[18,7,13,5,18]
+"structGPMC__timingParams.html#a7caf580937934428c660d175125953cb":[18,7,13,5,3]
 };

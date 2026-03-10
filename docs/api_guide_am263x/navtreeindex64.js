@@ -1,5 +1,8 @@
 var NAVTREEINDEX64 =
 {
+"structLIN__SciConfigParams.html#a3e61e4f77e0ad848acf5390499bc0ff6":[18,7,20,4,3],
+"structLIN__SciConfigParams.html#adaef92065de32c9894b3b3cfa3281a80":[18,7,20,4,0],
+"structLLDEnetCfg__t.html":[18,3,4],
 "structLLDEnetCfg__t.html#a07d81f86a19d8dd34c7d5115c555302a":[18,3,4,10],
 "structLLDEnetCfg__t.html#a0cd8e0eeb7e38577a937de8a00d0208c":[18,3,4,15],
 "structLLDEnetCfg__t.html#a0de61d36fd81409b3b4e005d9e6bd305":[18,3,4,12],
@@ -246,8 +249,5 @@ var NAVTREEINDEX64 =
 "structMCAN__TxEventFIFOElement.html#a7820706340b7082e75029163010d2930":[18,7,24,24,5],
 "structMCAN__TxEventFIFOElement.html#a98409a38bed2f4bb52893310dd48a811":[18,7,24,24,7],
 "structMCAN__TxEventFIFOElement.html#aec4f85222fca3a416e51847a1cbfb5be":[18,7,24,24,0],
-"structMCAN__TxEventFIFOElement.html#af0d56e1395039f814c845968b1e5f513":[18,7,24,24,9],
-"structMCAN__TxEventFIFOElement.html#af84c67e5dd7262fb4fbecd062a063eee":[18,7,24,24,4],
-"structMCAN__TxEventFIFOStatus.html":[18,7,24,13],
-"structMCAN__TxEventFIFOStatus.html#a038e1bca07488f28457c89369ca4e9cf":[18,7,24,13,2]
+"structMCAN__TxEventFIFOElement.html#af0d56e1395039f814c845968b1e5f513":[18,7,24,24,9]
 };

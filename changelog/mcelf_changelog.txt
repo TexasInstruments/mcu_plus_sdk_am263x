@@ -5,3 +5,39 @@ Recent commit history (last 20 commits):
 c43c01b am26xx: gmac: add gmac lib for mac
 
 Note: Detailed file changes will be shown in subsequent builds when comparing commits
+========================================
+Changes from build on 2026-03-10 19:41:35
+Previous commit: c43c01bfac3a44998f772d204de58b4038b8ffc8
+Current commit: c8b7063656635f127aac2d94c4ce9277ca06f79c
+========================================
+
+commit c8b7063656635f127aac2d94c4ce9277ca06f79c
+Author: Nikhil M Jain <n-jain1@ti.com>
+Date:   Tue Mar 3 17:42:03 2026 +0530
+
+    allsoc: genimage: refactor into SoC-specific variants
+    
+    Split generic genimage.py into SoC-specific implementations
+    (am26x and am64x) with separate module directories. This allows for
+    better SoC-specific customization and maintenance of the multicore ELF
+    image generation tool.
+    
+    Fixes: SITSW-10546
+    
+    Signed-off-by: Nikhil M Jain <n-jain1@ti.com>
+
+ README.md                                     |  11 ++-
+ genimage.py => genimage_am26x.py              |   8 +-
+ genimage_am64x.py                             |  46 ++++++++++
+ {modules => modules_am26x}/args.py            |   3 +
+ {modules => modules_am26x}/crypto_hkdf.py     |   0
+ {modules => modules_am26x}/eccm.py            |   0
+ {modules => modules_am26x}/elf.py             |  11 ++-
+ {modules => modules_am26x}/gmac_w_ccm.py      |   0
+ {modules => modules_am26x}/multicoreelf.py    |   8 +-
+ {modules => modules_am26x}/otfaecc_structs.py |   0
+ modules_am64/args.py                          |  44 ++++++++++
+ modules_am64/elf.py                           | 302 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ modules_am64/multicoreelf.py                  | 104 +++++++++++++++++++++++
+ 13 files changed, 525 insertions(+), 12 deletions(-)
+
