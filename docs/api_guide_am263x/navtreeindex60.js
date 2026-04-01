@@ -1,15 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"structEnetMacPort__EnableEgressTrafficShapingInArgs.html":[18,4,0,3,7],
-"structEnetMacPort__EnableEgressTrafficShapingInArgs.html#a6792701096ffb3b44ac49a4d9ca80ea0":[18,4,0,3,7,0],
-"structEnetMacPort__EnableEgressTrafficShapingInArgs.html#acbebff8d0e78a070648a5266f5b63181":[18,4,0,3,7,1],
-"structEnetMacPort__GenericInArgs.html":[18,4,0,3,3],
-"structEnetMacPort__GenericInArgs.html#aff0e3311b5f2bd8c365bd291032de31b":[18,4,0,3,3,0],
-"structEnetMacPort__GetCreditBasedShaperInArgs.html":[18,4,0,3,9],
-"structEnetMacPort__GetCreditBasedShaperInArgs.html#a0cc10253d39245b65952c9164d488ba3":[18,4,0,3,9,0],
-"structEnetMacPort__GetCreditBasedShaperInArgs.html#a69dba8d4e79795aa95f6c9069f3d756d":[18,4,0,3,9,1],
-"structEnetMacPort__Interface.html":[18,4,0,3,1],
-"structEnetMacPort__Interface.html#a04a2368a6f261fedc2895faa27568e47":[18,4,0,3,1,2],
 "structEnetMacPort__Interface.html#a3db3e6be82433d2f5d6c86d8abd3e93e":[18,4,0,3,1,1],
 "structEnetMacPort__Interface.html#a506724797a467a263c1a1bddcaabf837":[18,4,0,3,1,0],
 "structEnetMacPort__LinkCfg.html":[18,4,0,3,2],
@@ -249,5 +239,15 @@ var NAVTREEINDEX60 =
 "structFirewallIntrReq__t.html#abd0ff8cb914f32f07e8d8769691754b3":[18,7,14,9,0],
 "structFirewallIntrReq__t.html#acf477d8e7189537db3350332c7f95917":[18,7,14,9,1],
 "structFirewallIntrReq__t.html#ad931a180ebba4369b293985f9462ea11":[18,7,14,9,2],
-"structFirewallIntrReq__t.html#ae010c0d59ea37104743b1eba04df8f45":[18,7,14,9,3]
+"structFirewallIntrReq__t.html#ae010c0d59ea37104743b1eba04df8f45":[18,7,14,9,3],
+"structFirewallIntrReq__t.html#aed7702b1f519dbbae14464b4db614c22":[18,7,14,9,4],
+"structFirewallRegionReq__t.html":[18,7,14,7],
+"structFirewallRegionReq__t.html#a48772bfc7d8b5ea9d62cb5146a86e18a":[18,7,14,7,2],
+"structFirewallRegionReq__t.html#a7b548afc2de395afea9c79227610b36a":[18,7,14,7,3],
+"structFirewallRegionReq__t.html#abc11df4b0af4c8174587fc3e27cbaa84":[18,7,14,7,0],
+"structFirewallRegionReq__t.html#ac9c2cc8dbc241cf6f99608d0d47483d4":[18,7,14,7,4],
+"structFirewallRegionReq__t.html#afeeff1bd5891d1826ef4ae47514fbb12":[18,7,14,7,1],
+"structFirewallReq__t.html":[18,7,14,8],
+"structFirewallReq__t.html#a13f059b3ce67788bae334a186eacf743":[18,7,14,8,1],
+"structFirewallReq__t.html#a517b37cdf25d7cd61b2ffe644f15df59":[18,7,14,8,0]
 };

@@ -1,15 +1,5 @@
 var NAVTREEINDEX46 =
 {
-"group__ENET__MOD__TIMESYNC.html#gab00c3816cf482c3a350dd4be9f752386":[18,4,0,11,8],
-"group__ENET__MOD__TIMESYNC.html#gab033668df275adb01f80b68a23b53d70":[18,4,0,11,9],
-"group__ENET__MOD__TIMESYNC.html#gga7e24fd175aef78aaad60a277946fc0c3a224699ffbf72dc6789b58ecdcc1d3343":[18,4,0,11,7,4],
-"group__ENET__MOD__TIMESYNC.html#gga7e24fd175aef78aaad60a277946fc0c3a226c9233c707898fb2ad684edb9efec2":[18,4,0,11,7,3],
-"group__ENET__MOD__TIMESYNC.html#gga7e24fd175aef78aaad60a277946fc0c3a3345157d7e8361949a8744dff1fbf0d2":[18,4,0,11,7,2],
-"group__ENET__MOD__TIMESYNC.html#gga7e24fd175aef78aaad60a277946fc0c3a35f1f0cc0d69eb8f28b0bd3c9c3c31b4":[18,4,0,11,7,10],
-"group__ENET__MOD__TIMESYNC.html#gga7e24fd175aef78aaad60a277946fc0c3a80b3bb354c1f4785385d992ccf71325c":[18,4,0,11,7,8],
-"group__ENET__MOD__TIMESYNC.html#gga7e24fd175aef78aaad60a277946fc0c3a8139ac79479249af584545fea2d4bae6":[18,4,0,11,7,6],
-"group__ENET__MOD__TIMESYNC.html#gga7e24fd175aef78aaad60a277946fc0c3a96ed097b4ead52332d3573804376216a":[18,4,0,11,7,5],
-"group__ENET__MOD__TIMESYNC.html#gga7e24fd175aef78aaad60a277946fc0c3ab2d7e51260ffa669f49b22ff05a30369":[18,4,0,11,7,0],
 "group__ENET__MOD__TIMESYNC.html#gga7e24fd175aef78aaad60a277946fc0c3ac6cf9ab509b4ff2b78df202f38e5c5d3":[18,4,0,11,7,7],
 "group__ENET__MOD__TIMESYNC.html#gga7e24fd175aef78aaad60a277946fc0c3ac827487b78128c6bef5c7caf546c7ca6":[18,4,0,11,7,1],
 "group__ENET__MOD__TIMESYNC.html#gga7e24fd175aef78aaad60a277946fc0c3ad9b80f6a813bf21d812ff98bfc8250c6":[18,4,0,11,7,9],
@@ -249,5 +239,15 @@ var NAVTREEINDEX46 =
 "group__KERNEL__DPL__CLOCK.html#ga1472e46319d23e1557f6cc994d8693d7":[18,2,2,12],
 "group__KERNEL__DPL__CLOCK.html#ga1e89644f6e22bab9026184fbe97ea6f0":[18,2,2,6],
 "group__KERNEL__DPL__CLOCK.html#ga23864de82df797aa5ae6f9d79dbae77e":[18,2,2,8],
-"group__KERNEL__DPL__CLOCK.html#ga269a53b277b945d1abdbf7b247770723":[18,2,2,5]
+"group__KERNEL__DPL__CLOCK.html#ga269a53b277b945d1abdbf7b247770723":[18,2,2,5],
+"group__KERNEL__DPL__CLOCK.html#ga44c15f99499caf08795011fcc8b6db7b":[18,2,2,17],
+"group__KERNEL__DPL__CLOCK.html#ga4e558cf2f30de1d449ba53af5229ee5e":[18,2,2,13],
+"group__KERNEL__DPL__CLOCK.html#ga66107357427c99c759c288dfc097b355":[18,2,2,14],
+"group__KERNEL__DPL__CLOCK.html#ga666e9ded465c969456e6c4ef95e849f4":[18,2,2,4],
+"group__KERNEL__DPL__CLOCK.html#ga686ba37559969d4a69af02147a9b5081":[18,2,2,16],
+"group__KERNEL__DPL__CLOCK.html#ga68bda2526bb3deb7daed34b1f8109cbc":[18,2,2,3],
+"group__KERNEL__DPL__CLOCK.html#ga9e9856925b37c23a38b38342a749a46d":[18,2,2,10],
+"group__KERNEL__DPL__CLOCK.html#ga9f1e99a67f697549e08a65ccb6bcdea2":[18,2,2,15],
+"group__KERNEL__DPL__CLOCK.html#gab6ebabd2de3589d2f3055602764336a4":[18,2,2,2],
+"group__KERNEL__DPL__CLOCK.html#gad335017943bc236cdbf9ee1f7b9619f1":[18,2,2,11]
 };

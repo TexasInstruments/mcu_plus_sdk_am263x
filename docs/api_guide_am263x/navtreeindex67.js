@@ -1,15 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"structPRUICSS__ChannelToHostMap.html#a96e6d205b77283bf649ab655f6f5ec45":[18,7,33,1,0],
-"structPRUICSS__Config.html":[18,7,33,6],
-"structPRUICSS__Config.html#a54ecffe273d6c2e4e639bd471294aac5":[18,7,33,6,0],
-"structPRUICSS__Config.html#ac20c7bf5203e04599c75626524283104":[18,7,33,6,1],
-"structPRUICSS__HwAttrs.html":[18,7,33,5],
-"structPRUICSS__HwAttrs.html#a074d2fa5623f0341638bb96d816de0bb":[18,7,33,5,9],
-"structPRUICSS__HwAttrs.html#a0c85e2d9d1b0c19419d1d8284b279254":[18,7,33,5,6],
-"structPRUICSS__HwAttrs.html#a26f63d4c20f091422fcf617a5737da96":[18,7,33,5,18],
-"structPRUICSS__HwAttrs.html#a2e9f8bca1e01072de30c3651dc84af39":[18,7,33,5,16],
-"structPRUICSS__HwAttrs.html#a3af4aa20137e723d7fd734cbf1d377be":[18,7,33,5,15],
 "structPRUICSS__HwAttrs.html#a4d7bd35c01aa24644a753bdd1a5fefa4":[18,7,33,5,13],
 "structPRUICSS__HwAttrs.html#a4f6ca52e515aa71b066a5ea9d7f2c638":[18,7,33,5,2],
 "structPRUICSS__HwAttrs.html#a7bce7eb0e88ed8d18f8450e482d06d59":[18,7,33,5,3],
@@ -249,5 +239,15 @@ var NAVTREEINDEX67 =
 "structRPMessage__CreateParams.html#abc4380f517b133558f17bf5384e9ecb0":[18,7,19,1,4],
 "structRPMessage__CreateParams.html#ad4e5fe99c906858d45338d428ececf93":[18,7,19,1,0],
 "structRPMessage__Object.html":[18,7,19,0],
-"structRPMessage__Object.html#a23845481c96848dda0a06bbdf0679ed9":[18,7,19,0,6]
+"structRPMessage__Object.html#a23845481c96848dda0a06bbdf0679ed9":[18,7,19,0,6],
+"structRPMessage__Object.html#a36a224ec3a56a65b4e319ab96c92e430":[18,7,19,0,1],
+"structRPMessage__Object.html#a71a88dca67ba1290fc2f8d87e80a4b59":[18,7,19,0,2],
+"structRPMessage__Object.html#a74a07ffcac139b73809505b835d967da":[18,7,19,0,4],
+"structRPMessage__Object.html#aa029b23461dbd0bbdda42b173a40cd2a":[18,7,19,0,3],
+"structRPMessage__Object.html#ad1c21537387b313db093b0ebaaca8fef":[18,7,19,0,7],
+"structRPMessage__Object.html#ad2489c871dbd1add6783b43f4ae51126":[18,7,19,0,0],
+"structRPMessage__Object.html#adb50a7b037bd982658bbf88c4ccc0b5d":[18,7,19,0,5],
+"structRPMessage__Params.html":[18,7,19,2],
+"structRPMessage__Params.html#a2323a73d6a7ea3476b8f0a54db22a0b4":[18,7,19,2,4],
+"structRPMessage__Params.html#a276b47edafb5c8b7645f44e26412cc10":[18,7,19,2,8]
 };

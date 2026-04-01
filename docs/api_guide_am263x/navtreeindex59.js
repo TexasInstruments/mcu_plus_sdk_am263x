@@ -1,15 +1,5 @@
 var NAVTREEINDEX59 =
 {
-"structDebugP__ShmLog.html#a2ac7dedf098308274757485d9a6c1f80":[18,2,4,0,4],
-"structDebugP__ShmLog.html#a7476c7f8d283e21ba1708e99334f315d":[18,2,4,0,0],
-"structDebugP__ShmLog.html#a76bb7200300a5d7d45b18468afaca7a4":[18,2,4,0,3],
-"structDp83822__Cfg.html":[18,4,0,13,1,0],
-"structDp83826__Cfg.html":[18,4,0,13,2,0],
-"structDp83867__Cfg.html":[18,4,0,13,3,0],
-"structDp83867__Cfg.html#a09a0115f267d651c23388ac06ba11f71":[18,4,0,13,3,0,1],
-"structDp83867__Cfg.html#a2e34ea4f47e6a10a4e02ca3e24124588":[18,4,0,13,3,0,2],
-"structDp83867__Cfg.html#a3f09ac7535198de3cf168b270a64a767":[18,4,0,13,3,0,7],
-"structDp83867__Cfg.html#a55a552ee66465dbc10768352ac8ac321":[18,4,0,13,3,0,0],
 "structDp83867__Cfg.html#a569dd8cd8ae913b8fbdd197b9df94ab7":[18,4,0,13,3,0,4],
 "structDp83867__Cfg.html#a6752e13e7e4ae730507d6a13402cfdef":[18,4,0,13,3,0,5],
 "structDp83867__Cfg.html#a798d555a1a75422e9b6b18b82bcc9384":[18,4,0,13,3,0,9],
@@ -249,5 +239,15 @@ var NAVTREEINDEX59 =
 "structEnetDma__TxChStats.html#aa9d8e1888f37db65f23b92ce9aa57fb9":[18,4,0,0,2,3,0],
 "structEnetDma__TxChStats.html#aaf6480dfc59f9ca6fc9a5a94933b8f14":[18,4,0,0,2,3,3],
 "structEnetDma__TxChStats.html#ac2b3c2d458d2a9111f60e5cd1b515179":[18,4,0,0,2,3,4],
-"structEnetDma__initCfg.html":[18,4,0,0,0,0,9]
+"structEnetDma__initCfg.html":[18,4,0,0,0,0,9],
+"structEnetMacPort__EnableEgressTrafficShapingInArgs.html":[18,4,0,3,7],
+"structEnetMacPort__EnableEgressTrafficShapingInArgs.html#a6792701096ffb3b44ac49a4d9ca80ea0":[18,4,0,3,7,0],
+"structEnetMacPort__EnableEgressTrafficShapingInArgs.html#acbebff8d0e78a070648a5266f5b63181":[18,4,0,3,7,1],
+"structEnetMacPort__GenericInArgs.html":[18,4,0,3,3],
+"structEnetMacPort__GenericInArgs.html#aff0e3311b5f2bd8c365bd291032de31b":[18,4,0,3,3,0],
+"structEnetMacPort__GetCreditBasedShaperInArgs.html":[18,4,0,3,9],
+"structEnetMacPort__GetCreditBasedShaperInArgs.html#a0cc10253d39245b65952c9164d488ba3":[18,4,0,3,9,0],
+"structEnetMacPort__GetCreditBasedShaperInArgs.html#a69dba8d4e79795aa95f6c9069f3d756d":[18,4,0,3,9,1],
+"structEnetMacPort__Interface.html":[18,4,0,3,1],
+"structEnetMacPort__Interface.html#a04a2368a6f261fedc2895faa27568e47":[18,4,0,3,1,2]
 };

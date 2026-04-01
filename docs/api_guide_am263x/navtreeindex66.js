@@ -1,15 +1,5 @@
 var NAVTREEINDEX66 =
 {
-"structMCSPI__ChObject.html#a1fbbd357b0ac3bbf4899cbeb2b5b3eb3":[18,7,26,5,2],
-"structMCSPI__ChObject.html#a3a09b7609fe12e9451fe3e4b9520c519":[18,7,26,5,6],
-"structMCSPI__ChObject.html#a3a280a96786c7111a28c5de9080273e1":[18,7,26,5,17],
-"structMCSPI__ChObject.html#a5d183ba286fe0c4f62da6bc52c4caa54":[18,7,26,5,11],
-"structMCSPI__ChObject.html#a62f745efef801652f71aa324ec259f59":[18,7,26,5,16],
-"structMCSPI__ChObject.html#a6ad7ceb26a205935ed4ce77663480625":[18,7,26,5,0],
-"structMCSPI__ChObject.html#a7461a33673726d45b3eec2477d1a7f6a":[18,7,26,5,8],
-"structMCSPI__ChObject.html#a91cc119965f96863de731956dc3110b7":[18,7,26,5,15],
-"structMCSPI__ChObject.html#aa0e573d2c56b10de0063131d844933f9":[18,7,26,5,14],
-"structMCSPI__ChObject.html#aa9b72de047a8402805da245d0f493751":[18,7,26,5,12],
 "structMCSPI__ChObject.html#aaac7d77c9f3d64f580bf5100b5d8bb8f":[18,7,26,5,3],
 "structMCSPI__ChObject.html#aacd855742351960e01a600e4a154e86a":[18,7,26,5,7],
 "structMCSPI__ChObject.html#ad70b6ace4b82262aebc6ef23ac443079":[18,7,26,5,9],
@@ -249,5 +239,15 @@ var NAVTREEINDEX66 =
 "structPMU__EventCfg.html#a159b74cbb41444d51fb15398f9f76566":[18,7,32,1,1],
 "structPMU__EventCfg.html#a873128e1273e37dfc45f7d6efd9e539a":[18,7,32,1,0],
 "structPRUICSS__ChannelToHostMap.html":[18,7,33,1],
-"structPRUICSS__ChannelToHostMap.html#a425122ff47f0919007d69c534bc3f191":[18,7,33,1,1]
+"structPRUICSS__ChannelToHostMap.html#a425122ff47f0919007d69c534bc3f191":[18,7,33,1,1],
+"structPRUICSS__ChannelToHostMap.html#a96e6d205b77283bf649ab655f6f5ec45":[18,7,33,1,0],
+"structPRUICSS__Config.html":[18,7,33,6],
+"structPRUICSS__Config.html#a54ecffe273d6c2e4e639bd471294aac5":[18,7,33,6,0],
+"structPRUICSS__Config.html#ac20c7bf5203e04599c75626524283104":[18,7,33,6,1],
+"structPRUICSS__HwAttrs.html":[18,7,33,5],
+"structPRUICSS__HwAttrs.html#a074d2fa5623f0341638bb96d816de0bb":[18,7,33,5,9],
+"structPRUICSS__HwAttrs.html#a0c85e2d9d1b0c19419d1d8284b279254":[18,7,33,5,6],
+"structPRUICSS__HwAttrs.html#a26f63d4c20f091422fcf617a5737da96":[18,7,33,5,18],
+"structPRUICSS__HwAttrs.html#a2e9f8bca1e01072de30c3651dc84af39":[18,7,33,5,16],
+"structPRUICSS__HwAttrs.html#a3af4aa20137e723d7fd734cbf1d377be":[18,7,33,5,15]
 };

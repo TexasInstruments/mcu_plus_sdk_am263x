@@ -1,15 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"structCpswAle__GetPolicerStatsOutArgs.html#a113e80d118ce31cca08342cb5c40e8e2":[18,4,0,1,0,33,1],
-"structCpswAle__GetPolicerStatsOutArgs.html#a56d29431af6be463eae752c435dc8890":[18,4,0,1,0,33,2],
-"structCpswAle__GetPolicerStatsOutArgs.html#af4143034b71a4c59e4805eaaf2c3ca76":[18,4,0,1,0,33,0],
-"structCpswAle__GetPortMacAddrInArgs.html":[18,4,0,1,0,15],
-"structCpswAle__GetPortMacAddrInArgs.html#a2bf73d53391e7ae1fd23a12eee929264":[18,4,0,1,0,15,1],
-"structCpswAle__GetPortMacAddrInArgs.html#a4749c63d3e24f7708fb3dc74aa7065df":[18,4,0,1,0,15,2],
-"structCpswAle__GetPortMacAddrInArgs.html#aa334e1f53afb7645a615e2e6eaf1e501":[18,4,0,1,0,15,0],
-"structCpswAle__GetPortMacAddrOutArgs.html":[18,4,0,1,0,16],
-"structCpswAle__GetPortMacAddrOutArgs.html#a4b77c1447c87790dd397178020b0ce90":[18,4,0,1,0,16,0],
-"structCpswAle__GetPortMacAddrOutArgs.html#a7413d4810740ce3e8d55f2e893ea5c8b":[18,4,0,1,0,16,1],
 "structCpswAle__GetPortMacAddrOutArgs.html#a9a9a5683acc721c8a429505bf8a882af":[18,4,0,1,0,16,2],
 "structCpswAle__GetUcastEntryOutArgs.html":[18,4,0,1,0,3],
 "structCpswAle__GetUcastEntryOutArgs.html#a42559dfa3412fe4643d65e4cbc425e99":[18,4,0,1,0,3,2],
@@ -249,5 +239,15 @@ var NAVTREEINDEX56 =
 "structCpswCpts__EstEvent.html#ac22dabe374877d0cad2402d7e6009d99":[18,4,0,11,0,2,3],
 "structCpswCpts__EstEvent.html#ae2978aeaff7b4fb80ae7c9b19824a2ff":[18,4,0,11,0,2,2],
 "structCpswCpts__EstEventMatchParams.html":[18,4,0,11,0,1],
-"structCpswCpts__EstEventMatchParams.html#a4780828b44010077c24db0a01cccedc7":[18,4,0,11,0,1,1]
+"structCpswCpts__EstEventMatchParams.html#a4780828b44010077c24db0a01cccedc7":[18,4,0,11,0,1,1],
+"structCpswCpts__EstEventMatchParams.html#a6e791de55645c62d2dc4530395a9e711":[18,4,0,11,0,1,0],
+"structCpswCpts__Event.html":[18,4,0,11,0,0],
+"structCpswCpts__Event.html#a02de60ef6699768bd893b851faefa0c3":[18,4,0,11,0,0,6],
+"structCpswCpts__Event.html#a1eae86224e3a9cd89dc521f67291869d":[18,4,0,11,0,0,2],
+"structCpswCpts__Event.html#a442d6d775a2cb924440d98ae583e9fe4":[18,4,0,11,0,0,4],
+"structCpswCpts__Event.html#a77e1008a1a9e18d79a6eab3e68555185":[18,4,0,11,0,0,1],
+"structCpswCpts__Event.html#aa9917c4ed74f409fe81fbeb491b0cbc3":[18,4,0,11,0,0,3],
+"structCpswCpts__Event.html#af074d870aeafbda93a1147ff969fd8e8":[18,4,0,11,0,0,0],
+"structCpswCpts__Event.html#af149d29241322cddc3dedf7291434d64":[18,4,0,11,0,0,5],
+"structCpswCpts__RegisterHwPushCbInArgs.html":[18,4,0,11,0,4]
 };

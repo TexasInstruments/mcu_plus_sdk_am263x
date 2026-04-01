@@ -1,15 +1,5 @@
 var NAVTREEINDEX43 =
 {
-"group__DRV__UART__LLD__MODULE.html#gad192aa0fbba1cc23c4eeb5f5274a0cb6":[18,7,42,81],
-"group__DRV__UART__LLD__MODULE.html#gad291fd210b4f3e15c43407ffacb10717":[18,7,42,92],
-"group__DRV__UART__LLD__MODULE.html#gad6362792e8e3c1bb1c6f05a0ee862e33":[18,7,42,140],
-"group__DRV__UART__LLD__MODULE.html#gad71ad0a2843a684e37da6529dcbe27ae":[18,7,42,15],
-"group__DRV__UART__LLD__MODULE.html#gad935c8ea716cdab74235982cc8feca0d":[18,7,42,126],
-"group__DRV__UART__LLD__MODULE.html#gada620b673241eb6335a71e75da291716":[18,7,42,13],
-"group__DRV__UART__LLD__MODULE.html#gade5024077937c3e8933a400f42da11b3":[18,7,42,83],
-"group__DRV__UART__LLD__MODULE.html#gae12c09be8379de7d3b601ddd3d6e1a35":[18,7,42,55],
-"group__DRV__UART__LLD__MODULE.html#gae17e233f9fa3c0076f5d252a6c4cc5da":[18,7,42,11],
-"group__DRV__UART__LLD__MODULE.html#gae4e13370dd0b82e24f357753fbeded76":[18,7,42,115],
 "group__DRV__UART__LLD__MODULE.html#gae63605a7661d06bac41588a411dc0201":[18,7,42,59],
 "group__DRV__UART__LLD__MODULE.html#gae65b6ba61b6cc5e7b2e096d19764b6b6":[18,7,42,136],
 "group__DRV__UART__LLD__MODULE.html#gae7e738fd820c1932b2f4b3a3d48d705a":[18,7,42,118],
@@ -249,5 +239,15 @@ var NAVTREEINDEX43 =
 "group__ENETPHY__generic__phy.html#ga524d87a9592bf8b36b8f102aa45c82eb":[18,4,0,13,9,8],
 "group__ENETPHY__generic__phy.html#ga5358eac61ff391b9d3d1b831a6f20865":[18,4,0,13,9,30],
 "group__ENETPHY__generic__phy.html#ga53a2c006efcef5845dd72081419066ba":[18,4,0,13,9,9],
-"group__ENETPHY__generic__phy.html#ga58a113ae9eee43cab7e89d50fdb8572a":[18,4,0,13,9,65]
+"group__ENETPHY__generic__phy.html#ga58a113ae9eee43cab7e89d50fdb8572a":[18,4,0,13,9,65],
+"group__ENETPHY__generic__phy.html#ga5b78c1b9d072376f53186acbf6e5db85":[18,4,0,13,9,70],
+"group__ENETPHY__generic__phy.html#ga5bc32a0ac4e7b8cea3a35d6379de7d8e":[18,4,0,13,9,78],
+"group__ENETPHY__generic__phy.html#ga5bdccedc94b1455cda047a422d22eba4":[18,4,0,13,9,49],
+"group__ENETPHY__generic__phy.html#ga602d307dfe6dbbf35e6b62f0914f5594":[18,4,0,13,9,14],
+"group__ENETPHY__generic__phy.html#ga641a842dc908763304e7933e3e534dd6":[18,4,0,13,9,60],
+"group__ENETPHY__generic__phy.html#ga65a160d6eb95e775b1d8d6616580ee6d":[18,4,0,13,9,59],
+"group__ENETPHY__generic__phy.html#ga662681b5a83535c1ada7ba062ee635f5":[18,4,0,13,9,39],
+"group__ENETPHY__generic__phy.html#ga706fd085624dfc62b0e897abd496ed41":[18,4,0,13,9,76],
+"group__ENETPHY__generic__phy.html#ga70bd583a8ae9a4bef78c519355471094":[18,4,0,13,9,74],
+"group__ENETPHY__generic__phy.html#ga70e060fcad9242f8391b9425c0a77ee0":[18,4,0,13,9,40]
 };

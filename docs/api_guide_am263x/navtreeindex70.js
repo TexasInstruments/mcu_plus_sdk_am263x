@@ -1,15 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"structUART__Params.html#ad0ec88fbf87d33c8836f5903506bf912":[18,7,43,1,12],
-"structUART__Params.html#ad87627573bac5ff0cd3d9560886aa952":[18,7,43,1,20],
-"structUART__Params.html#af4392af9d618d442070cc1dec128b286":[18,7,43,1,10],
-"structUART__Params.html#af54dd52a99d0a545eb9d94afeb282ebe":[18,7,43,1,4],
-"structUART__Params.html#afadb98d0a0ef6e17240bab79306e7828":[18,7,43,1,0],
-"structUART__Params.html#aff705b1e58467893396ae1110f26eb27":[18,7,43,1,16],
-"structUART__Transaction.html":[18,7,42,3],
-"structUART__Transaction.html#a32842a6d05bd3dc31d31a8502da5e190":[18,7,42,3,1],
-"structUART__Transaction.html#a6c4f6bad66a3b2e1ff61e26c7e958686":[18,7,42,3,0],
-"structUART__Transaction.html#a854382b26b213a25665e4176a35b18a5":[18,7,42,3,3],
 "structUART__Transaction.html#a87807cf6f96d87b1cb4107609baeaae9":[18,7,42,3,4],
 "structUART__Transaction.html#aa25597b80a7a7980990841ada040b5bd":[18,7,42,3,2],
 "structUInteger112.html":[18,9,0,6],
