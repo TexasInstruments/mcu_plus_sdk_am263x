@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"group__DRV__MCSPI__LLD__MODULE.html#ga140936915c925cbf2348073ac7e67519":[18,7,26,70],
 "group__DRV__MCSPI__LLD__MODULE.html#ga1447ffe86b17d95258dcad6594a3f0a9":[18,7,26,35],
 "group__DRV__MCSPI__LLD__MODULE.html#ga15e08ffa29ce4f9f979e78bdb2e7134e":[18,7,26,125],
 "group__DRV__MCSPI__LLD__MODULE.html#ga18a0f0705c041e22f8abcdf77cd6e3dd":[18,7,26,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "group__DRV__PINMUX__MODULE.html#ga0d820709af67e153fe325468baeca1d0":[18,7,31,13],
 "group__DRV__PINMUX__MODULE.html#ga0e0d4c2ee6f2b0ed93bcbca9f50e422d":[18,7,31,75],
 "group__DRV__PINMUX__MODULE.html#ga126c5a9b52f0ca0ab93ee36b9316d646":[18,7,31,28],
-"group__DRV__PINMUX__MODULE.html#ga12bd3084d621d0c18c1db498e7f2c02b":[18,7,31,83],
-"group__DRV__PINMUX__MODULE.html#ga15339d399862d77b9055c1deeca65fc4":[18,7,31,105]
+"group__DRV__PINMUX__MODULE.html#ga12bd3084d621d0c18c1db498e7f2c02b":[18,7,31,83]
 };

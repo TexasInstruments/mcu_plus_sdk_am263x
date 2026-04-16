@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"structEnetRm__ResourceInfo.html":[18,4,0,8,0],
 "structEnetRm__ResourceInfo.html#a0a549dc877888817d6aee43713be5cb0":[18,4,0,8,0,4],
 "structEnetRm__ResourceInfo.html#a1018833da2e0120f2d3a00320704f507":[18,4,0,8,0,0],
 "structEnetRm__ResourceInfo.html#a94354ed8c2c70f99a9b8e89f374480af":[18,4,0,8,0,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "structGPMC__nandCmdParams.html#a0a7d4b8144e3eadafb25a9b4a6f56f44":[18,7,13,0,2],
 "structGPMC__nandCmdParams.html#a13b359958cf5f1574b2e7a667d7651cb":[18,7,13,0,6],
 "structGPMC__nandCmdParams.html#a6b6e5d9016168791b2f0565b7eb16efe":[18,7,13,0,0],
-"structGPMC__nandCmdParams.html#a75f69ddba73e1b0cc0532a0e63304fe5":[18,7,13,0,7],
-"structGPMC__nandCmdParams.html#a906a364788df4a7e04660c4409b15b9a":[18,7,13,0,4]
+"structGPMC__nandCmdParams.html#a75f69ddba73e1b0cc0532a0e63304fe5":[18,7,13,0,7]
 };

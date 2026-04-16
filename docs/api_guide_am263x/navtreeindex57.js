@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"structCpswAle__SetPolicerEntryInPartitionInArgs.html#a3918ef7a2510b69b8772b98212a8cee4":[18,4,0,1,0,28,4],
 "structCpswAle__SetPolicerEntryInPartitionInArgs.html#a5cbd5cb77b91a75ef17fa7eb7ef159bc":[18,4,0,1,0,28,0],
 "structCpswAle__SetPolicerEntryInPartitionInArgs.html#a5e71be4915904b6a0763fc207459fb0b":[18,4,0,1,0,28,3],
 "structCpswAle__SetPolicerEntryInPartitionInArgs.html#aa89ea6f9bae19aeee338fc34b760aee1":[18,4,0,1,0,28,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "structCpswStats__HostPort__2g.html#afb938a6a293d1ff421474d8d3af6a6bc":[18,4,0,9,0,0,15],
 "structCpswStats__HostPort__2g.html#affe929037b9832931acaa3909dbb3e58":[18,4,0,9,0,0,40],
 "structCpswStats__HostPort__2g.html#afff63ce85890941e1b99b4c2da6d0008":[18,4,0,9,0,0,24],
-"structCpswStats__HostPort__Ng.html":[18,4,0,9,0,2],
-"structCpswStats__HostPort__Ng.html#a095c16c0e72e8caaec10aebe93eb2a6a":[18,4,0,9,0,2,54]
+"structCpswStats__HostPort__Ng.html":[18,4,0,9,0,2]
 };

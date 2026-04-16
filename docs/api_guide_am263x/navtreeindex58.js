@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"structCpswStats__HostPort__Ng.html#a095c16c0e72e8caaec10aebe93eb2a6a":[18,4,0,9,0,2,54],
 "structCpswStats__HostPort__Ng.html#a0f48429b916f06888c26b6d2718c502c":[18,4,0,9,0,2,32],
 "structCpswStats__HostPort__Ng.html#a2178f26c208378bffe9d26937d444765":[18,4,0,9,0,2,35],
 "structCpswStats__HostPort__Ng.html#a220935790da2d96ab7db6cf33c815d0c":[18,4,0,9,0,2,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "structCpsw__SetInterVlanRouteMultiEgressInArgs.html#a5923c1b00c8478c53185767915642165":[18,4,0,6,0,5,0],
 "structCpsw__SetInterVlanRouteMultiEgressInArgs.html#aa41867caffdc2e3d228e2fec6850e364":[18,4,0,6,0,5,1],
 "structCpsw__SetInterVlanRouteMultiEgressInArgs.html#aa946767322a7a297183c677a1c92362c":[18,4,0,6,0,5,2],
-"structCpsw__SetInterVlanRouteMultiEgressOutArgs.html":[18,4,0,6,0,6],
-"structCpsw__SetInterVlanRouteMultiEgressOutArgs.html#a027664ca10d4d628320e8c72636e24be":[18,4,0,6,0,6,1]
+"structCpsw__SetInterVlanRouteMultiEgressOutArgs.html":[18,4,0,6,0,6]
 };

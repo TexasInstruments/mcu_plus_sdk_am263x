@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"structEnetCpdma__OpenRxChPrms.html":[18,4,0,0,0,0,6],
 "structEnetCpdma__OpenRxChPrms.html#a0961951aa692a7574b8ccb47a8ccef85":[18,4,0,0,0,0,6,4],
 "structEnetCpdma__OpenRxChPrms.html#a22b6580590c5a6c02bd21d1918e749d3":[18,4,0,0,0,0,6,0],
 "structEnetCpdma__OpenRxChPrms.html#a54e62c22d0ef0fbd7baa349ccbe45d91":[18,4,0,0,0,0,6,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "structEnetRm__ResPrms.html":[18,4,0,8,1],
 "structEnetRm__ResPrms.html#a18319e47b19a59eff8e556adf9ade3c4":[18,4,0,8,1,2],
 "structEnetRm__ResPrms.html#ab3e6e5e694a5a18f06347d502a9c3b5a":[18,4,0,8,1,1],
-"structEnetRm__ResPrms.html#aef5c0203b0c02afc893b6adfc6b754e7":[18,4,0,8,1,0],
-"structEnetRm__ResourceInfo.html":[18,4,0,8,0]
+"structEnetRm__ResPrms.html#aef5c0203b0c02afc893b6adfc6b754e7":[18,4,0,8,1,0]
 };

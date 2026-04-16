@@ -1,5 +1,6 @@
 var NAVTREEINDEX36 =
 {
+"group__DRV__LIN__HLD__MODULE.html#ggac490370df0c9f49cdaf783fb61ef0d57aacfd79dca101a77f4cb7c046a4febd67":[18,7,20,27,3],
 "group__DRV__LIN__HLD__MODULE.html#ggac490370df0c9f49cdaf783fb61ef0d57aae12f53754b216f93612982f95e8dd2b":[18,7,20,27,0],
 "group__DRV__LIN__HLD__MODULE.html#ggac490370df0c9f49cdaf783fb61ef0d57ad9da3906bad94396ff387b7b452f3ee0":[18,7,20,27,1],
 "group__DRV__LIN__HLD__MODULE.html#ggacc42f96427a7434e0718cdbebf382242a98d30cea17da0d5851485ce6c911d913":[18,7,20,15,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX36 =
 "group__DRV__LIN__MODULE.html#ggae1d79b06fa835e2ee2893a7fe51cc6eaac032ecd70387c225657ab3c3707390b9":[18,7,21,83,0],
 "group__DRV__MATHLIB__MODULE.html":[18,7,23],
 "group__DRV__MATHLIB__MODULE.html#ga170924646e7ce8ddbbec6b3303dc9618":[18,7,23,8],
-"group__DRV__MATHLIB__MODULE.html#ga1cebffb0fac607073c75801a8cf9bc26":[18,7,23,4],
-"group__DRV__MATHLIB__MODULE.html#ga3f7de18c7e1188511185e3835c766008":[18,7,23,2]
+"group__DRV__MATHLIB__MODULE.html#ga1cebffb0fac607073c75801a8cf9bc26":[18,7,23,4]
 };

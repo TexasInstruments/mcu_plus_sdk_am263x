@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"structLIN__OpenParams.html#a0665ede5c14f1f7df52d1e8a4ac5cfb6":[18,7,20,6,1],
 "structLIN__OpenParams.html#a095fcf89d424dbd5ba8ce622e11ce28f":[18,7,20,6,5],
 "structLIN__OpenParams.html#a0e59ca356da25be67c021ea7e3a7dbd8":[18,7,20,6,0],
 "structLIN__OpenParams.html#a497a9bc703d28c94aa865e8bb36c03a7":[18,7,20,6,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "structMCAN__TxBufElement.html#aa9b414b14157f2f1b1732bc05f3d796d":[18,7,24,20,7],
 "structMCAN__TxBufElement.html#af087e40af98a5c7d3d76036edecd5fcd":[18,7,24,20,8],
 "structMCAN__TxBufElementNoCpy.html":[18,7,24,21],
-"structMCAN__TxBufElementNoCpy.html#a0829f73f295839c27418e159e6f26f27":[18,7,24,21,2],
-"structMCAN__TxBufElementNoCpy.html#a0acbecb714efc290626761fecc0792e0":[18,7,24,21,3]
+"structMCAN__TxBufElementNoCpy.html#a0829f73f295839c27418e159e6f26f27":[18,7,24,21,2]
 };

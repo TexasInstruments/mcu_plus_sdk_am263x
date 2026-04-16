@@ -1,5 +1,6 @@
 var NAVTREEINDEX55 =
 {
+"group__xtimer.html#ga353ad58661f7644bc869e7cc7dcad348":[18,11,7,2],
 "group__xtimer.html#ga4bc758674e272e2bd5f09b3f98e3072d":[18,11,7,5],
 "group__xtimer.html#ga56800a5282c87ea92285fc9dae932045":[18,11,7,6],
 "group__xtimer.html#ga6499845dd630ec4b8fa6481fd5ececaf":[18,11,7,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX55 =
 "structCANFD__OpenParams.html#a9c940eb8e35cfaec1e15f59356694ad5":[18,7,2,14,27],
 "structCANFD__OpenParams.html#aa457ac53357998c4ec1a133f039304b8":[18,7,2,14,14],
 "structCANFD__OpenParams.html#aac26a910d7dc43f2c6696aa30081e7e2":[18,7,2,14,22],
-"structCANFD__OpenParams.html#ab3dd6f46ce6a3ffffdac38ed95533903":[18,7,2,14,12],
-"structCANFD__OpenParams.html#ab5f9319f649cbb1de194d697644a2136":[18,7,2,14,0]
+"structCANFD__OpenParams.html#ab3dd6f46ce6a3ffffdac38ed95533903":[18,7,2,14,12]
 };

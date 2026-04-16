@@ -178,5 +178,6 @@ var ENET_LLD =
       [ "Software Assistance on Transmission side", "ETHERRING_OVERVIEW.html#autotoc_md1523", null ],
       [ "Software Assistance on Reception side", "ETHERRING_OVERVIEW.html#autotoc_md1524", null ],
       [ "Duplicate packet Rejection on Reception side(Duplicate Packet Rejection)", "ETHERRING_OVERVIEW.html#autotoc_md1525", null ]
-    ] ]
+    ] ],
+    [ "Ethernet interface (RGMII / MII) selection", "enet_interface_selection.html", null ]
 ];
