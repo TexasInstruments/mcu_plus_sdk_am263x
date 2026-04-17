@@ -1,5 +1,8 @@
 var NAVTREEINDEX37 =
 {
+"group__DRV__MATHLIB__MODULE.html":[18,7,23],
+"group__DRV__MATHLIB__MODULE.html#ga170924646e7ce8ddbbec6b3303dc9618":[18,7,23,8],
+"group__DRV__MATHLIB__MODULE.html#ga1cebffb0fac607073c75801a8cf9bc26":[18,7,23,4],
 "group__DRV__MATHLIB__MODULE.html#ga3f7de18c7e1188511185e3835c766008":[18,7,23,2],
 "group__DRV__MATHLIB__MODULE.html#ga42ab805dce662daff86c97a8858d7a88":[18,7,23,7],
 "group__DRV__MATHLIB__MODULE.html#ga530c53b1c465a9878db5c9d18920feb9":[18,7,23,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX37 =
 "group__DRV__MCSPI__LLD__MODULE.html#ga07e7c1194b73b2f1ed20562bb3aedd44":[18,7,26,41],
 "group__DRV__MCSPI__LLD__MODULE.html#ga088eb351f75c77491cc0da3d518f3bd4":[18,7,26,86],
 "group__DRV__MCSPI__LLD__MODULE.html#ga0af60b6c01810f584d28b33d3475452d":[18,7,26,72],
-"group__DRV__MCSPI__LLD__MODULE.html#ga0d0439fab12c403796aa8c6e4be07f92":[18,7,26,69],
-"group__DRV__MCSPI__LLD__MODULE.html#ga0d079469a9c669bee03475ec4046f664":[18,7,26,129],
-"group__DRV__MCSPI__LLD__MODULE.html#ga0f21e52de7fd31eb6fdcf2e8e4ecd76f":[18,7,26,85],
-"group__DRV__MCSPI__LLD__MODULE.html#ga10b4f7a1cd024c5173f90d29a01c979d":[18,7,26,99]
+"group__DRV__MCSPI__LLD__MODULE.html#ga0d0439fab12c403796aa8c6e4be07f92":[18,7,26,69]
 };

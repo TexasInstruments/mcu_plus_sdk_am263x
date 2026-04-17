@@ -1,5 +1,13 @@
 var NAVTREEINDEX61 =
 {
+"structEnetRm__ResCfg.html#a060249de4994fa4b50e85b9233937ca9":[18,4,0,8,11,2],
+"structEnetRm__ResCfg.html#a2ef2471c706c266c660b6739d3d50645":[18,4,0,8,11,0],
+"structEnetRm__ResCfg.html#adddefa12afa409bab36d2b975fd5288f":[18,4,0,8,11,1],
+"structEnetRm__ResCfg.html#ae54273010da9be21a4d88cc5068c6a5d":[18,4,0,8,11,3],
+"structEnetRm__ResPrms.html":[18,4,0,8,1],
+"structEnetRm__ResPrms.html#a18319e47b19a59eff8e556adf9ade3c4":[18,4,0,8,1,2],
+"structEnetRm__ResPrms.html#ab3e6e5e694a5a18f06347d502a9c3b5a":[18,4,0,8,1,1],
+"structEnetRm__ResPrms.html#aef5c0203b0c02afc893b6adfc6b754e7":[18,4,0,8,1,0],
 "structEnetRm__ResourceInfo.html":[18,4,0,8,0],
 "structEnetRm__ResourceInfo.html#a0a549dc877888817d6aee43713be5cb0":[18,4,0,8,0,4],
 "structEnetRm__ResourceInfo.html#a1018833da2e0120f2d3a00320704f507":[18,4,0,8,0,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX61 =
 "structGPMC__Transaction.html":[18,7,13,1],
 "structGPMC__Transaction.html#a0061ab8f2eb54cf7bf571c2fd0ceecf8":[18,7,13,1,5],
 "structGPMC__Transaction.html#a10472ac79732b247602bde9902e2ec89":[18,7,13,1,2],
-"structGPMC__Transaction.html#a32de689d3c4dd74723efc0ac3ebed4a4":[18,7,13,1,1],
-"structGPMC__Transaction.html#a4d736b25251d45368c3c309ee7a1026d":[18,7,13,1,3],
-"structGPMC__Transaction.html#a95e785470758a7095a2e0caaa027cff3":[18,7,13,1,4],
-"structGPMC__Transaction.html#ad59eebdc4e2fa7bb7e64e5274f8981cf":[18,7,13,1,0],
-"structGPMC__nandCmdParams.html":[18,7,13,0],
-"structGPMC__nandCmdParams.html#a0a7d4b8144e3eadafb25a9b4a6f56f44":[18,7,13,0,2],
-"structGPMC__nandCmdParams.html#a13b359958cf5f1574b2e7a667d7651cb":[18,7,13,0,6],
-"structGPMC__nandCmdParams.html#a6b6e5d9016168791b2f0565b7eb16efe":[18,7,13,0,0],
-"structGPMC__nandCmdParams.html#a75f69ddba73e1b0cc0532a0e63304fe5":[18,7,13,0,7]
+"structGPMC__Transaction.html#a32de689d3c4dd74723efc0ac3ebed4a4":[18,7,13,1,1]
 };

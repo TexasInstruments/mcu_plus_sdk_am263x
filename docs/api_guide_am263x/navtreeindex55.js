@@ -1,5 +1,8 @@
 var NAVTREEINDEX55 =
 {
+"group__xtimer.html":[18,11,7],
+"group__xtimer.html#ga11d3c07d2416c716b9f7085a34b22718":[18,11,7,11],
+"group__xtimer.html#ga180da4013d4991c18670dba87e3fbbdc":[18,11,7,10],
 "group__xtimer.html#ga353ad58661f7644bc869e7cc7dcad348":[18,11,7,2],
 "group__xtimer.html#ga4bc758674e272e2bd5f09b3f98e3072d":[18,11,7,5],
 "group__xtimer.html#ga56800a5282c87ea92285fc9dae932045":[18,11,7,6],
@@ -45,6 +48,11 @@ var NAVTREEINDEX55 =
 "structAddrTranslateP__RegionConfig.html#a5afd678d14352aa8e4c92d9a0111e4ac":[18,2,10,0,2],
 "structAddrTranslateP__RegionConfig.html#a8a1663e4cad3179f9fafb1512ea6d4c4":[18,2,10,0,1],
 "structAddrTranslateP__RegionConfig.html#a8cc170242f5ae708200c07ab38c80c88":[18,2,10,0,0],
+"structBankSwapReq__t.html":[18,7,14,24],
+"structBankSwapReq__t.html#a0b9acad6ce2fcbb2be0e03ff13d698ef":[18,7,14,24,0],
+"structBankSwapReq__t.html#a6ad6d9f2b61b4c732e86e2589f472ca7":[18,7,14,24,3],
+"structBankSwapReq__t.html#a755f518c6433b007f35dcb2863480051":[18,7,14,24,1],
+"structBankSwapReq__t.html#ac3b64d7f3ef72077f67fa895e0058b61":[18,7,14,24,2],
 "structBootloader__BootImageInfo.html":[18,7,1,4],
 "structBootloader__BootImageInfo.html#a4914929710b6283065945eae62e4120c":[18,7,1,4,0],
 "structBootloader__Config.html":[18,7,1,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX55 =
 "structCANFD__OpenParams.html#a6015b28cab4113f4e90cb6f6c987249e":[18,7,2,14,11],
 "structCANFD__OpenParams.html#a605166451798701f755e70a44184f7ad":[18,7,2,14,3],
 "structCANFD__OpenParams.html#a63bc4f319cbb6a679e84dac046733068":[18,7,2,14,5],
-"structCANFD__OpenParams.html#a6b71cff5f6027a349386347fd4c94c7d":[18,7,2,14,15],
-"structCANFD__OpenParams.html#a6e3787c86a445bb47dd98f75d3bd9df4":[18,7,2,14,16],
-"structCANFD__OpenParams.html#a71a9807602b8801f00b1f874f6c3875f":[18,7,2,14,2],
-"structCANFD__OpenParams.html#a9736d7aed21eb1161e04d8a4f2dd74e7":[18,7,2,14,1],
-"structCANFD__OpenParams.html#a98d6f0fc28a12e2b0dc5d6a5cb58b317":[18,7,2,14,7],
-"structCANFD__OpenParams.html#a9c940eb8e35cfaec1e15f59356694ad5":[18,7,2,14,27],
-"structCANFD__OpenParams.html#aa457ac53357998c4ec1a133f039304b8":[18,7,2,14,14],
-"structCANFD__OpenParams.html#aac26a910d7dc43f2c6696aa30081e7e2":[18,7,2,14,22],
-"structCANFD__OpenParams.html#ab3dd6f46ce6a3ffffdac38ed95533903":[18,7,2,14,12]
+"structCANFD__OpenParams.html#a6b71cff5f6027a349386347fd4c94c7d":[18,7,2,14,15]
 };

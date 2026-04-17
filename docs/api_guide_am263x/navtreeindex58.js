@@ -1,5 +1,13 @@
 var NAVTREEINDEX58 =
 {
+"structCpswStats__HostPort__2g.html#af4e23627511201d6a1eb905b314e52bf":[18,4,0,9,0,0,33],
+"structCpswStats__HostPort__2g.html#af57d1cea2304b906efeccd50dd1d8240":[18,4,0,9,0,0,13],
+"structCpswStats__HostPort__2g.html#af64ca19c528177e59eeaed6cbfbfde29":[18,4,0,9,0,0,44],
+"structCpswStats__HostPort__2g.html#af69b29284bd4a411d105ba8f349f5af9":[18,4,0,9,0,0,27],
+"structCpswStats__HostPort__2g.html#afb938a6a293d1ff421474d8d3af6a6bc":[18,4,0,9,0,0,15],
+"structCpswStats__HostPort__2g.html#affe929037b9832931acaa3909dbb3e58":[18,4,0,9,0,0,40],
+"structCpswStats__HostPort__2g.html#afff63ce85890941e1b99b4c2da6d0008":[18,4,0,9,0,0,24],
+"structCpswStats__HostPort__Ng.html":[18,4,0,9,0,2],
 "structCpswStats__HostPort__Ng.html#a095c16c0e72e8caaec10aebe93eb2a6a":[18,4,0,9,0,2,54],
 "structCpswStats__HostPort__Ng.html#a0f48429b916f06888c26b6d2718c502c":[18,4,0,9,0,2,32],
 "structCpswStats__HostPort__Ng.html#a2178f26c208378bffe9d26937d444765":[18,4,0,9,0,2,35],
@@ -241,13 +249,5 @@ var NAVTREEINDEX58 =
 "structCpsw__InterVlanRouteIngressPktMatchCfg.html#accba47fddd4b3c5ae94ad2e5aa5336d1":[18,4,0,6,0,0,6],
 "structCpsw__MdioLinkStateChangeInfo.html":[18,4,0,6,0,11],
 "structCpsw__MdioLinkStateChangeInfo.html#a229777a008b8bc26ad213a337ce94f36":[18,4,0,6,0,11,4],
-"structCpsw__MdioLinkStateChangeInfo.html#a5f5a2540b8d8aec8367c99bc390cfd4d":[18,4,0,6,0,11,3],
-"structCpsw__MdioLinkStateChangeInfo.html#a90893956d3eb819cbcc111f984aba6ee":[18,4,0,6,0,11,1],
-"structCpsw__MdioLinkStateChangeInfo.html#a9d72ce771f7133ada5c35c0a59b752e2":[18,4,0,6,0,11,2],
-"structCpsw__MdioLinkStateChangeInfo.html#aa6688e01a6a1087be359a19220a60650":[18,4,0,6,0,11,0],
-"structCpsw__SetInterVlanRouteMultiEgressInArgs.html":[18,4,0,6,0,5],
-"structCpsw__SetInterVlanRouteMultiEgressInArgs.html#a5923c1b00c8478c53185767915642165":[18,4,0,6,0,5,0],
-"structCpsw__SetInterVlanRouteMultiEgressInArgs.html#aa41867caffdc2e3d228e2fec6850e364":[18,4,0,6,0,5,1],
-"structCpsw__SetInterVlanRouteMultiEgressInArgs.html#aa946767322a7a297183c677a1c92362c":[18,4,0,6,0,5,2],
-"structCpsw__SetInterVlanRouteMultiEgressOutArgs.html":[18,4,0,6,0,6]
+"structCpsw__MdioLinkStateChangeInfo.html#a5f5a2540b8d8aec8367c99bc390cfd4d":[18,4,0,6,0,11,3]
 };

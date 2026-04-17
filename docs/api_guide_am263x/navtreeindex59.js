@@ -1,5 +1,13 @@
 var NAVTREEINDEX59 =
 {
+"structCpsw__MdioLinkStateChangeInfo.html#a90893956d3eb819cbcc111f984aba6ee":[18,4,0,6,0,11,1],
+"structCpsw__MdioLinkStateChangeInfo.html#a9d72ce771f7133ada5c35c0a59b752e2":[18,4,0,6,0,11,2],
+"structCpsw__MdioLinkStateChangeInfo.html#aa6688e01a6a1087be359a19220a60650":[18,4,0,6,0,11,0],
+"structCpsw__SetInterVlanRouteMultiEgressInArgs.html":[18,4,0,6,0,5],
+"structCpsw__SetInterVlanRouteMultiEgressInArgs.html#a5923c1b00c8478c53185767915642165":[18,4,0,6,0,5,0],
+"structCpsw__SetInterVlanRouteMultiEgressInArgs.html#aa41867caffdc2e3d228e2fec6850e364":[18,4,0,6,0,5,1],
+"structCpsw__SetInterVlanRouteMultiEgressInArgs.html#aa946767322a7a297183c677a1c92362c":[18,4,0,6,0,5,2],
+"structCpsw__SetInterVlanRouteMultiEgressOutArgs.html":[18,4,0,6,0,6],
 "structCpsw__SetInterVlanRouteMultiEgressOutArgs.html#a027664ca10d4d628320e8c72636e24be":[18,4,0,6,0,6,1],
 "structCpsw__SetInterVlanRouteMultiEgressOutArgs.html#a11c8f851e5e582072953b51008aacca8":[18,4,0,6,0,6,0],
 "structCpsw__SetInterVlanRouteUniEgressInArgs.html":[18,4,0,6,0,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX59 =
 "structETHPHY__Fxns.html#a43255508d3a6a6039b2d57a16365a467":[18,1,0,1,2],
 "structETHPHY__Fxns.html#a64cea306569fa24722ed1c86d4e9e9c2":[18,1,0,1,0],
 "structETHPHY__Params.html":[18,1,0,0],
-"structETHPHY__Params.html#af389ecbf2f1215df555b87137f75b3e6":[18,1,0,0,0],
-"structETHPHY__SpeedDuplexConfig.html":[18,1,0,4],
-"structETHPHY__SpeedDuplexConfig.html#a790b1cb3380ad6003d299028b0f64d7e":[18,1,0,4,0],
-"structEdma__IntrObject.html":[18,7,6,8],
-"structEdma__IntrObject.html#a269367fdadf3a52ed34c40def1d18d96":[18,7,6,8,4],
-"structEdma__IntrObject.html#a8ab3ef0a6376c449aaec1e1e548ddfff":[18,7,6,8,1],
-"structEdma__IntrObject.html#aa4dfd3ed797444486f8e40624d635e1c":[18,7,6,8,0],
-"structEdma__IntrObject.html#ac5490e8a31870a8fd5dc7e6b64b4a31c":[18,7,6,8,3],
-"structEdma__IntrObject.html#ad2eec23e992618bb0d6965c8bbb6ca91":[18,7,6,8,2]
+"structETHPHY__Params.html#af389ecbf2f1215df555b87137f75b3e6":[18,1,0,0,0]
 };
