@@ -90,6 +90,17 @@ var NETWORKING =
       ] ],
       [ "See Also", "ENET_CPSW_LLDP.html#autotoc_md631", null ]
     ] ],
+    [ "Enet CLI", "ENET_CLI.html", [
+      [ "Introduction", "ENET_CLI.html#autotoc_md587", null ],
+      [ "Features", "ENET_CLI.html#autotoc_md588", [
+        [ "List of Built-In Commands", "ENET_CLI.html#autotoc_md589", null ]
+      ] ],
+      [ "Demo and Examples", "ENET_CLI.html#autotoc_md590", null ],
+      [ "Usage Guide", "ENET_CLI.html#autotoc_md591", null ],
+      [ "Adding Custom Commands", "ENET_CLI.html#autotoc_md592", [
+        [ "FreeRTOS_Plus_CLI", "ENET_CLI.html#autotoc_md593", null ]
+      ] ]
+    ] ],
     [ "Enet CLI Example", "EXAMPLES_ENET_CLI_APP.html", [
       [ "Introduction", "EXAMPLES_ENET_CLI_APP.html#autotoc_md3351", null ],
       [ "Supported Combinations", "EXAMPLES_ENET_CLI_APP.html#autotoc_md3352", null ],
