@@ -1,5 +1,13 @@
 var NAVTREEINDEX58 =
 {
+"structCpswStats__HostPort__2g.html#a61d37fab079a431cd3ea9c5dcab23652":[17,4,0,9,0,0,4],
+"structCpswStats__HostPort__2g.html#a66ab2dfbe3c59deeab39afe030b40f5e":[17,4,0,9,0,0,50],
+"structCpswStats__HostPort__2g.html#a695916bf94b472af7eab3f4fd1869cc3":[17,4,0,9,0,0,2],
+"structCpswStats__HostPort__2g.html#a6c20f49610b191e4b61083da08e2fdc4":[17,4,0,9,0,0,45],
+"structCpswStats__HostPort__2g.html#a78b31341a69b2da12c380ac16d9daa9e":[17,4,0,9,0,0,36],
+"structCpswStats__HostPort__2g.html#a801a58e92ae764c8f17e6a3e22243b2f":[17,4,0,9,0,0,34],
+"structCpswStats__HostPort__2g.html#a803b6a3607ab59125abf91f5141a7d01":[17,4,0,9,0,0,38],
+"structCpswStats__HostPort__2g.html#a88c023dd6f0bd6512c2468dd9f8cad2b":[17,4,0,9,0,0,49],
 "structCpswStats__HostPort__2g.html#a88e534c6f20490a1cf5df807a297dc69":[17,4,0,9,0,0,5],
 "structCpswStats__HostPort__2g.html#a89229594a1f9c3776fc3ea5437231d4c":[17,4,0,9,0,0,23],
 "structCpswStats__HostPort__2g.html#a8c0b4f985b0046ec75b53e72927f3a30":[17,4,0,9,0,0,29],
@@ -241,13 +249,5 @@ var NAVTREEINDEX58 =
 "structCpsw__Cfg.html#a7d9526dc5f9b25e410eceddcde89b962":[17,4,0,6,0,12,12],
 "structCpsw__Cfg.html#a92a604c28fd5f6e9a5c370fedce64b19":[17,4,0,6,0,12,13],
 "structCpsw__Cfg.html#a9354af0c48fda33aaf5b9d2d11ce6928":[17,4,0,6,0,12,8],
-"structCpsw__Cfg.html#a9f6322f75c00b37cfd4a4876c4ee0f03":[17,4,0,6,0,12,11],
-"structCpsw__Cfg.html#aa661cd352d7cab143343990187960592":[17,4,0,6,0,12,5],
-"structCpsw__Cfg.html#ab58eb5b0e02c839dd383543e05778bdc":[17,4,0,6,0,12,14],
-"structCpsw__Cfg.html#ab83954db77d033afa350afc92b8de6e5":[17,4,0,6,0,12,7],
-"structCpsw__Cfg.html#ad62b7b5c4f099289bc5b0655506ef117":[17,4,0,6,0,12,3],
-"structCpsw__Cfg.html#af31aecf86f4f094f7c96bf7bf7018567":[17,4,0,6,0,12,1],
-"structCpsw__Cfg.html#af847ee39574cd49027beb9691ad69f77":[17,4,0,6,0,12,6],
-"structCpsw__Cfg.html#af9c345f9d9efe883197826b23e399e15":[17,4,0,6,0,12,0],
-"structCpsw__ClearInterVlanRouteMultiEgressInArgs.html":[17,4,0,6,0,7]
+"structCpsw__Cfg.html#a9f6322f75c00b37cfd4a4876c4ee0f03":[17,4,0,6,0,12,11]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX20 =
 {
+"enet_integration_guide_top.html#enet_closeport_sequence":[5,1,5,2,5],
+"enet_integration_guide_top.html#enet_deinit_sequence":[5,1,5,2,7],
+"enet_integration_guide_top.html#enet_init_sequence":[5,1,5,2,0],
+"enet_integration_guide_top.html#enet_integration_in_app":[5,1,5,2],
+"enet_integration_guide_top.html#enet_ioctl_sequence":[5,1,5,2,4],
+"enet_integration_guide_top.html#enet_open_sequence":[5,1,5,2,1],
+"enet_integration_guide_top.html#enet_openport_sequence":[5,1,5,2,2],
+"enet_integration_guide_top.html#enet_pktrxtx_sequence":[5,1,5,2,3],
 "enet_integration_guide_top.html#enetper_specific_handling":[5,1,5,2,8],
 "enet_interface_selection.html":[5,1,14],
 "enet_ioctl_interface.html":[5,1,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX20 =
 "group__BOARD__IO__EXPANDER__TCA6424__MODULE.html#gaea9c08f89e834cbc349c3e689fc21e11":[17,1,4,5],
 "group__BOARD__IO__EXPANDER__TCA6424__MODULE.html#gaf8c3768863b4970ee2eae1ee5bece96b":[17,1,4,10],
 "group__BOARD__LED__MODULE.html":[17,1,3],
-"group__BOARD__LED__MODULE.html#ga0531576afbc2444e2d359ae894ad0020":[17,1,3,16],
-"group__BOARD__LED__MODULE.html#ga0f7a1b03d7a213418786bbc4d73b2838":[17,1,3,6],
-"group__BOARD__LED__MODULE.html#ga3023e172ec2251f4f47c6d2206c9f99e":[17,1,3,12],
-"group__BOARD__LED__MODULE.html#ga6366c208b93cf41c8396913530d14bdf":[17,1,3,15],
-"group__BOARD__LED__MODULE.html#ga7729b0edc0b28507257ed5369c4e7272":[17,1,3,17],
-"group__BOARD__LED__MODULE.html#ga7c1c43e232657b067beecaeb961084b3":[17,1,3,14],
-"group__BOARD__LED__MODULE.html#ga8c55ad8073e10adfe204156e89f232aa":[17,1,3,10],
-"group__BOARD__LED__MODULE.html#ga96dcc05e70380f9446ece198a54c486e":[17,1,3,8],
-"group__BOARD__LED__MODULE.html#ga9d4c7864200910f405c1567fcdebb621":[17,1,3,9]
+"group__BOARD__LED__MODULE.html#ga0531576afbc2444e2d359ae894ad0020":[17,1,3,16]
 };

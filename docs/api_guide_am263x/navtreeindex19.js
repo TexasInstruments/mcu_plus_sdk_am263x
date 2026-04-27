@@ -1,5 +1,13 @@
 var NAVTREEINDEX19 =
 {
+"SDL_ECC_PAGE.html#autotoc_md1748":[15,6,12],
+"SDL_ECC_PAGE.html#autotoc_md1749":[15,6,13],
+"SDL_ESM_PAGE.html":[15,2],
+"SDL_ESM_PAGE.html#autotoc_md1671":[15,2,0],
+"SDL_ESM_PAGE.html#autotoc_md1672":[15,2,1],
+"SDL_ESM_PAGE.html#autotoc_md1673":[15,2,2],
+"SDL_ESM_PAGE.html#autotoc_md1674":[15,2,3],
+"SDL_ESM_PAGE.html#autotoc_md1675":[15,2,4],
 "SDL_ESM_PAGE.html#autotoc_md1676":[15,2,5],
 "SDL_MCRC_PAGE.html":[15,5],
 "SDL_MCRC_PAGE.html#autotoc_md1677":[15,5,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX19 =
 "enet_integration_guide_top.html#autotoc_md1449":[5,1,5,2,2,0],
 "enet_integration_guide_top.html#autotoc_md1450":[5,1,5,2,2,1],
 "enet_integration_guide_top.html#cpsw_integration_guide_intro":[5,1,5,0],
-"enet_integration_guide_top.html#enet_close_sequence":[5,1,5,2,6],
-"enet_integration_guide_top.html#enet_closeport_sequence":[5,1,5,2,5],
-"enet_integration_guide_top.html#enet_deinit_sequence":[5,1,5,2,7],
-"enet_integration_guide_top.html#enet_init_sequence":[5,1,5,2,0],
-"enet_integration_guide_top.html#enet_integration_in_app":[5,1,5,2],
-"enet_integration_guide_top.html#enet_ioctl_sequence":[5,1,5,2,4],
-"enet_integration_guide_top.html#enet_open_sequence":[5,1,5,2,1],
-"enet_integration_guide_top.html#enet_openport_sequence":[5,1,5,2,2],
-"enet_integration_guide_top.html#enet_pktrxtx_sequence":[5,1,5,2,3]
+"enet_integration_guide_top.html#enet_close_sequence":[5,1,5,2,6]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX44 =
 {
+"group__ENETPHY__DP83869.html#gga83baa35ccc93a07f9badf3bb234539dda350f534533a4924c134d29eeccb48908":[17,4,0,13,4,4,12],
+"group__ENETPHY__DP83869.html#gga83baa35ccc93a07f9badf3bb234539dda58942bcd38572f68ae32aaadb42c3558":[17,4,0,13,4,4,13],
+"group__ENETPHY__DP83869.html#gga83baa35ccc93a07f9badf3bb234539dda5b373af4ba5ba663b7169033479a1be4":[17,4,0,13,4,4,11],
+"group__ENETPHY__DP83869.html#gga83baa35ccc93a07f9badf3bb234539dda5e84c640cf54ee165f41c3c8a603e010":[17,4,0,13,4,4,5],
+"group__ENETPHY__DP83869.html#gga83baa35ccc93a07f9badf3bb234539dda70815d59c98f9b2d4280f1bbd903d4b1":[17,4,0,13,4,4,0],
+"group__ENETPHY__DP83869.html#gga83baa35ccc93a07f9badf3bb234539dda98e683c12a8e6b4eaec29c19a90e6b9d":[17,4,0,13,4,4,7],
+"group__ENETPHY__DP83869.html#gga83baa35ccc93a07f9badf3bb234539ddaa770a81da28d406871063b5d46fba359":[17,4,0,13,4,4,10],
+"group__ENETPHY__DP83869.html#gga83baa35ccc93a07f9badf3bb234539ddaca80b7cf0fec7d2ecdd93cdddac698b0":[17,4,0,13,4,4,3],
 "group__ENETPHY__DP83869.html#gga83baa35ccc93a07f9badf3bb234539ddad93c1a098e0210d9c6bc8d14e8b1786f":[17,4,0,13,4,4,6],
 "group__ENETPHY__DP83869.html#gga83baa35ccc93a07f9badf3bb234539ddaee868744f406638080ddc3ee3009bb1c":[17,4,0,13,4,4,9],
 "group__ENETPHY__DP83869.html#gga83baa35ccc93a07f9badf3bb234539ddaef4f77d678df926c0ed4c1fbc8e08b2c":[17,4,0,13,4,4,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX44 =
 "group__ENET__DMA__API.html#gadb612cf11ecabd7af02329388c1fb3b6":[17,4,0,0,30],
 "group__ENET__DMA__API.html#gadfab0cbba3d4592e1046493e6844f8c0":[17,4,0,0,12],
 "group__ENET__DMA__API.html#gae77db8bbb9786f164136024868cf2010":[17,4,0,0,17],
-"group__ENET__DMA__API.html#gae9bbb748627b79bec2da48073c19df82":[17,4,0,0,15],
-"group__ENET__DMA__API.html#gaed9bf83ec4876d164162341965e579ca":[17,4,0,0,3],
-"group__ENET__DMA__API.html#gaede0b3446139bd997c946d3cd5c1b965":[17,4,0,0,34],
-"group__ENET__DMA__API.html#gaeeddc625142eb3f40a3d78ea40b9ec9c":[17,4,0,0,23],
-"group__ENET__DMA__API.html#gaf48624626bc89247bfcfae5a85a2389a":[17,4,0,0,19],
-"group__ENET__DMA__API.html#gafa44d13cb0d52acb89137bc90327ee56":[17,4,0,0,14],
-"group__ENET__DMA__API.html#gafddb72a969f381dfa80bd36285af7c86":[17,4,0,0,61],
-"group__ENET__DMA__PKT__STATS.html":[17,4,0,0,2],
-"group__ENET__MAIN__API.html":[17,4,0,4]
+"group__ENET__DMA__API.html#gae9bbb748627b79bec2da48073c19df82":[17,4,0,0,15]
 };
