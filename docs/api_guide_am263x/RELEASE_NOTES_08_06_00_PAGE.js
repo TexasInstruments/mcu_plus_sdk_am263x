@@ -26,14 +26,14 @@ var RELEASE_NOTES_08_06_00_PAGE =
       [ "Networking", "RELEASE_NOTES_08_06_00_PAGE.html#autotoc_md297", null ]
     ] ],
     [ "EVM Revision E2 support", "RELEASE_NOTES_08_03_00_EVM_REV_E2_SUPPORT_PAGE.html", [
-      [ "Pins for DAC and ADC on CC E2 are as follows", "RELEASE_NOTES_08_03_00_EVM_REV_E2_SUPPORT_PAGE.html#autotoc_md502", null ],
-      [ "Note", "RELEASE_NOTES_08_03_00_EVM_REV_E2_SUPPORT_PAGE.html#autotoc_md503", null ],
-      [ "CMPSS Asynchronous Trip", "RELEASE_NOTES_08_03_00_EVM_REV_E2_SUPPORT_PAGE.html#autotoc_md504", null ],
-      [ "ADC Burst Mode Oversampling", "RELEASE_NOTES_08_03_00_EVM_REV_E2_SUPPORT_PAGE.html#autotoc_md509", null ],
-      [ "ADC Differential Mode", "RELEASE_NOTES_08_03_00_EVM_REV_E2_SUPPORT_PAGE.html#autotoc_md514", null ],
-      [ "ADC Multiple SOC EPWM", "RELEASE_NOTES_08_03_00_EVM_REV_E2_SUPPORT_PAGE.html#autotoc_md518", null ],
-      [ "ADC PPB EPWM Trip", "RELEASE_NOTES_08_03_00_EVM_REV_E2_SUPPORT_PAGE.html#autotoc_md522", null ],
-      [ "ADC SOC Continuous DMA", "RELEASE_NOTES_08_03_00_EVM_REV_E2_SUPPORT_PAGE.html#autotoc_md526", null ],
-      [ "ADC SOC software", "RELEASE_NOTES_08_03_00_EVM_REV_E2_SUPPORT_PAGE.html#autotoc_md530", null ]
+      [ "Pins for DAC and ADC on CC E2 are as follows", "RELEASE_NOTES_08_03_00_EVM_REV_E2_SUPPORT_PAGE.html#autotoc_md537", null ],
+      [ "Note", "RELEASE_NOTES_08_03_00_EVM_REV_E2_SUPPORT_PAGE.html#autotoc_md538", null ],
+      [ "CMPSS Asynchronous Trip", "RELEASE_NOTES_08_03_00_EVM_REV_E2_SUPPORT_PAGE.html#autotoc_md539", null ],
+      [ "ADC Burst Mode Oversampling", "RELEASE_NOTES_08_03_00_EVM_REV_E2_SUPPORT_PAGE.html#autotoc_md544", null ],
+      [ "ADC Differential Mode", "RELEASE_NOTES_08_03_00_EVM_REV_E2_SUPPORT_PAGE.html#autotoc_md549", null ],
+      [ "ADC Multiple SOC EPWM", "RELEASE_NOTES_08_03_00_EVM_REV_E2_SUPPORT_PAGE.html#autotoc_md553", null ],
+      [ "ADC PPB EPWM Trip", "RELEASE_NOTES_08_03_00_EVM_REV_E2_SUPPORT_PAGE.html#autotoc_md557", null ],
+      [ "ADC SOC Continuous DMA", "RELEASE_NOTES_08_03_00_EVM_REV_E2_SUPPORT_PAGE.html#autotoc_md561", null ],
+      [ "ADC SOC software", "RELEASE_NOTES_08_03_00_EVM_REV_E2_SUPPORT_PAGE.html#autotoc_md565", null ]
     ] ]
 ];

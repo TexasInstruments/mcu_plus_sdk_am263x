@@ -92,17 +92,17 @@ $(document).ready(function(){initNavTree('DRIVERS_ADC_PAGE.html',''); initResiza
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md1030">Features Supported</a></li>
-<li class="level1"><a href="#autotoc_md1031">SysConfig Features</a></li>
-<li class="level1"><a href="#autotoc_md1032">Features NOT Supported</a></li>
-<li class="level1"><a href="#autotoc_md1033">Important Usage Guidelines</a></li>
-<li class="level1"><a href="#autotoc_md1034">Example Usage</a></li>
-<li class="level1"><a href="#autotoc_md1035">API</a></li>
+<ul><li class="level1"><a href="#autotoc_md1065">Features Supported</a></li>
+<li class="level1"><a href="#autotoc_md1066">SysConfig Features</a></li>
+<li class="level1"><a href="#autotoc_md1067">Features NOT Supported</a></li>
+<li class="level1"><a href="#autotoc_md1068">Important Usage Guidelines</a></li>
+<li class="level1"><a href="#autotoc_md1069">Example Usage</a></li>
+<li class="level1"><a href="#autotoc_md1070">API</a></li>
 </ul>
 </div>
 <div class="textblock"><p><a class="anchor" id="md_components_drivers_adc_v1"></a></p>
 <p>The ADC driver provides API to configure the ADC module. Below are the high level features supported by the ADC driver.</p>
-<h1><a class="anchor" id="autotoc_md1030"></a>
+<h1><a class="anchor" id="autotoc_md1065"></a>
 Features Supported</h1>
 <ul>
 <li>Each ADC has 6 selectable single ended or 3 selectable differential inputs.</li>
@@ -112,7 +112,7 @@ Features Supported</h1>
 <li>Burst mode.</li>
 <li>Four post processing blocks each with saturating offset calibration, error from setpoint calculation, high, low or zero crossing compare, trigger to sample delay capture.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md1031"></a>
+<h1><a class="anchor" id="autotoc_md1066"></a>
 SysConfig Features</h1>
 <dl class="section note"><dt>Note</dt><dd>It is strongly recommend to use SysConfig where it is available instead of using direct SW API calls. This will help simplify the SW application and also catch common mistakes early in the development cycle.</dd></dl>
 <ul>
@@ -123,18 +123,18 @@ SysConfig Features</h1>
 <li>Configuring Post Processing Blocks.</li>
 <li>Specifying Burst mode trigger and size.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md1032"></a>
+<h1><a class="anchor" id="autotoc_md1067"></a>
 Features NOT Supported</h1>
 <p>NA</p>
-<h1><a class="anchor" id="autotoc_md1033"></a>
+<h1><a class="anchor" id="autotoc_md1068"></a>
 Important Usage Guidelines</h1>
 <ul>
 <li>ADC has a power up time of 500us. Therefore this delay must be allowed between powering up the ADC and starting the sampling of the signal. Sysconfig already handles this, but if ADC is powered up manually by using the API, then this power up delay must be added.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md1034"></a>
+<h1><a class="anchor" id="autotoc_md1069"></a>
 Example Usage</h1>
 <p>Include the below file to access the APIs </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="adc_8h.html">drivers/adc.h</a>&gt;</span></div>
-</div><!-- fragment --> <h1><a class="anchor" id="autotoc_md1035"></a>
+</div><!-- fragment --> <h1><a class="anchor" id="autotoc_md1070"></a>
 API</h1>
 <p><a class="el" href="group__DRV__ADC__MODULE.html">APIs for ADC</a> </p>
 </div></div><!-- contents -->
