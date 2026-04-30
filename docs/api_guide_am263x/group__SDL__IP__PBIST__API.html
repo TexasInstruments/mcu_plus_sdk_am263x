@@ -105,6 +105,9 @@ Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSDL__PBIST__configNeg.html">SDL_PBIST_configNeg</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This structure contains the different configuration used for PBIST for the failure insertion test to generate negative result.  <a href="structSDL__PBIST__configNeg.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSDL__PBIST__memCfg.html">SDL_PBIST_memCfg</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This structure contains the RAMT and CSR values of TCMB memory.  <a href="structSDL__PBIST__memCfg.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -126,11 +129,32 @@ Functions</h2></td></tr>
 <tr class="memitem:gabfa18a1845c66bbef09b6af6c6cd8e8f"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SDL__IP__PBIST__API.html#gabfa18a1845c66bbef09b6af6c6cd8e8f">SDL_PBIST_Instance</a> (<a class="el" href="group__SDL__PBIST__ENUM.html#ga7824294875e2e647d5b78ebabbd66b96">SDL_PBIST_inst</a> instance)</td></tr>
 <tr class="memdesc:gabfa18a1845c66bbef09b6af6c6cd8e8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">PBIST Instance.  <a href="group__SDL__IP__PBIST__API.html#gabfa18a1845c66bbef09b6af6c6cd8e8f">More...</a><br /></td></tr>
 <tr class="separator:gabfa18a1845c66bbef09b6af6c6cd8e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga56e08427fb1924340993da964d9fb2c0"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SDL__IP__PBIST__API.html#ga56e08427fb1924340993da964d9fb2c0">SDL_PBIST_R5ssCore_TCMB</a> (<a class="el" href="structSDL__pbistRegs.html">SDL_pbistRegs</a> *pPBISTRegs, const <a class="el" href="structSDL__PBIST__memCfg.html">SDL_PBIST_memCfg</a> *pMemRegVal)</td></tr>
+<tr class="memdesc:ga56e08427fb1924340993da964d9fb2c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">PBIST TCMB core test.  <a href="group__SDL__IP__PBIST__API.html#ga56e08427fb1924340993da964d9fb2c0">More...</a><br /></td></tr>
+<tr class="separator:ga56e08427fb1924340993da964d9fb2c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:gac024ccc9951ad354688fb1d868c43a53"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SDL__IP__PBIST__API.html#gac024ccc9951ad354688fb1d868c43a53">PBIST_MAX_NUM_RUNS</a>&#160;&#160;&#160;20U</td></tr>
+<tr class="memitem:gac024ccc9951ad354688fb1d868c43a53"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SDL__IP__PBIST__API.html#gac024ccc9951ad354688fb1d868c43a53">PBIST_MAX_NUM_RUNS</a>&#160;&#160;&#160;(18U)</td></tr>
 <tr class="separator:gac024ccc9951ad354688fb1d868c43a53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga07a47a734b58492a3e2b1b1882c9ddd2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SDL__IP__PBIST__API.html#ga07a47a734b58492a3e2b1b1882c9ddd2">SDL_PBIST_MEM_INS</a>&#160;&#160;&#160;(8U)</td></tr>
+<tr class="separator:ga07a47a734b58492a3e2b1b1882c9ddd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3fe0962a142b56c9718e5465e5246b79"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SDL__IP__PBIST__API.html#ga3fe0962a142b56c9718e5465e5246b79">SDL_PBIST_SELF_TEST_KEY</a>&#160;&#160;&#160;(0x05U)</td></tr>
+<tr class="separator:ga3fe0962a142b56c9718e5465e5246b79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gace997171f79ac98064e8fa4191cb0ad8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SDL__IP__PBIST__API.html#gace997171f79ac98064e8fa4191cb0ad8">SDL_PBIST_MDP_LOGIC_RESET</a>&#160;&#160;&#160;(0xA5U)</td></tr>
+<tr class="separator:gace997171f79ac98064e8fa4191cb0ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad1edea6410a3f6cb7cc6b05943e14370"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SDL__IP__PBIST__API.html#gad1edea6410a3f6cb7cc6b05943e14370">SDL_CTRL_KICK_LOCK_VAL</a>&#160;&#160;&#160;(0x00000000U)</td></tr>
+<tr class="separator:gad1edea6410a3f6cb7cc6b05943e14370"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4be8d6cb0156d831679c13cb8472c1fe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SDL__IP__PBIST__API.html#ga4be8d6cb0156d831679c13cb8472c1fe">SDL_CTRL_KICK0_UNLOCK_VAL</a>&#160;&#160;&#160;(0x01234567U)</td></tr>
+<tr class="separator:ga4be8d6cb0156d831679c13cb8472c1fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabd78585739e3d845379a3aff7b3313be"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SDL__IP__PBIST__API.html#gabd78585739e3d845379a3aff7b3313be">SDL_CTRL_KICK1_UNLOCK_VAL</a>&#160;&#160;&#160;(0x0FEDCBA8U)</td></tr>
+<tr class="separator:gabd78585739e3d845379a3aff7b3313be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaab601f0ad4f92a572dce020426d3c353"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SDL__IP__PBIST__API.html#gaab601f0ad4f92a572dce020426d3c353">SDL_TOP_CTRL_LOCK0_KICK0</a>&#160;&#160;&#160;(0x00001008U)</td></tr>
+<tr class="separator:gaab601f0ad4f92a572dce020426d3c353"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad377412b854cfef427068e55fea420e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SDL__IP__PBIST__API.html#gad377412b854cfef427068e55fea420e7">SDL_TOP_CTRL_LOCK0_KICK1</a>&#160;&#160;&#160;(0x0000100CU)</td></tr>
+<tr class="separator:gad377412b854cfef427068e55fea420e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9910fcdff934dce56cb0146e92153de4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SDL__IP__PBIST__API.html#ga9910fcdff934dce56cb0146e92153de4">SDL_PBIST_MEM_INSTANCE_MAX</a>&#160;&#160;&#160;(0x08U)</td></tr>
+<tr class="separator:ga9910fcdff934dce56cb0146e92153de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="gac024ccc9951ad354688fb1d868c43a53"></a>
@@ -140,7 +164,133 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define PBIST_MAX_NUM_RUNS&#160;&#160;&#160;20U</td>
+          <td class="memname">#define PBIST_MAX_NUM_RUNS&#160;&#160;&#160;(18U)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga07a47a734b58492a3e2b1b1882c9ddd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga07a47a734b58492a3e2b1b1882c9ddd2">&#9670;&nbsp;</a></span>SDL_PBIST_MEM_INS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SDL_PBIST_MEM_INS&#160;&#160;&#160;(8U)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga3fe0962a142b56c9718e5465e5246b79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3fe0962a142b56c9718e5465e5246b79">&#9670;&nbsp;</a></span>SDL_PBIST_SELF_TEST_KEY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SDL_PBIST_SELF_TEST_KEY&#160;&#160;&#160;(0x05U)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gace997171f79ac98064e8fa4191cb0ad8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gace997171f79ac98064e8fa4191cb0ad8">&#9670;&nbsp;</a></span>SDL_PBIST_MDP_LOGIC_RESET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SDL_PBIST_MDP_LOGIC_RESET&#160;&#160;&#160;(0xA5U)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gad1edea6410a3f6cb7cc6b05943e14370"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad1edea6410a3f6cb7cc6b05943e14370">&#9670;&nbsp;</a></span>SDL_CTRL_KICK_LOCK_VAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SDL_CTRL_KICK_LOCK_VAL&#160;&#160;&#160;(0x00000000U)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga4be8d6cb0156d831679c13cb8472c1fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4be8d6cb0156d831679c13cb8472c1fe">&#9670;&nbsp;</a></span>SDL_CTRL_KICK0_UNLOCK_VAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SDL_CTRL_KICK0_UNLOCK_VAL&#160;&#160;&#160;(0x01234567U)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gabd78585739e3d845379a3aff7b3313be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabd78585739e3d845379a3aff7b3313be">&#9670;&nbsp;</a></span>SDL_CTRL_KICK1_UNLOCK_VAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SDL_CTRL_KICK1_UNLOCK_VAL&#160;&#160;&#160;(0x0FEDCBA8U)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaab601f0ad4f92a572dce020426d3c353"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaab601f0ad4f92a572dce020426d3c353">&#9670;&nbsp;</a></span>SDL_TOP_CTRL_LOCK0_KICK0</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SDL_TOP_CTRL_LOCK0_KICK0&#160;&#160;&#160;(0x00001008U)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gad377412b854cfef427068e55fea420e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad377412b854cfef427068e55fea420e7">&#9670;&nbsp;</a></span>SDL_TOP_CTRL_LOCK0_KICK1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SDL_TOP_CTRL_LOCK0_KICK1&#160;&#160;&#160;(0x0000100CU)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga9910fcdff934dce56cb0146e92153de4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9910fcdff934dce56cb0146e92153de4">&#9670;&nbsp;</a></span>SDL_PBIST_MEM_INSTANCE_MAX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SDL_PBIST_MEM_INSTANCE_MAX&#160;&#160;&#160;(0x08U)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -342,6 +492,44 @@ Macros</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">instance</td><td>[IN] Value of PBIST instance </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga56e08427fb1924340993da964d9fb2c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga56e08427fb1924340993da964d9fb2c0">&#9670;&nbsp;</a></span>SDL_PBIST_R5ssCore_TCMB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t SDL_PBIST_R5ssCore_TCMB </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structSDL__pbistRegs.html">SDL_pbistRegs</a> *&#160;</td>
+          <td class="paramname"><em>pPBISTRegs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structSDL__PBIST__memCfg.html">SDL_PBIST_memCfg</a> *&#160;</td>
+          <td class="paramname"><em>pMemRegVal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>PBIST TCMB core test. </p>
+<p>This function executes TCMB memory for all R5 cores</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pPBISTRegs</td><td>[IN] Pointer to PBIST registers base</td></tr>
+    <tr><td class="paramname">pMemRegVal</td><td>[IN] Value of TCMB Memory instances </td></tr>
   </table>
   </dd>
 </dl>

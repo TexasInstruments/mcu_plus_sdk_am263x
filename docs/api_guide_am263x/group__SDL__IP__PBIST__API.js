@@ -23,11 +23,25 @@ var group__SDL__IP__PBIST__API =
       [ "I3", "structSDL__PBIST__configNeg.html#a51f4438c5ea2bbfdac41c5be02daedad", null ],
       [ "RAMT", "structSDL__PBIST__configNeg.html#a3da9e3889fc19c797d27b4fa1f15925c", null ]
     ] ],
+    [ "SDL_PBIST_memCfg", "structSDL__PBIST__memCfg.html", [
+      [ "regRamtValue", "structSDL__PBIST__memCfg.html#a9990f216e74d047daebfea9bd110466d", null ],
+      [ "reqCsrValue", "structSDL__PBIST__memCfg.html#a6616faef2eb942290d3fc088d0c866c0", null ]
+    ] ],
     [ "PBIST_MAX_NUM_RUNS", "group__SDL__IP__PBIST__API.html#gac024ccc9951ad354688fb1d868c43a53", null ],
+    [ "SDL_PBIST_MEM_INS", "group__SDL__IP__PBIST__API.html#ga07a47a734b58492a3e2b1b1882c9ddd2", null ],
+    [ "SDL_PBIST_SELF_TEST_KEY", "group__SDL__IP__PBIST__API.html#ga3fe0962a142b56c9718e5465e5246b79", null ],
+    [ "SDL_PBIST_MDP_LOGIC_RESET", "group__SDL__IP__PBIST__API.html#gace997171f79ac98064e8fa4191cb0ad8", null ],
+    [ "SDL_CTRL_KICK_LOCK_VAL", "group__SDL__IP__PBIST__API.html#gad1edea6410a3f6cb7cc6b05943e14370", null ],
+    [ "SDL_CTRL_KICK0_UNLOCK_VAL", "group__SDL__IP__PBIST__API.html#ga4be8d6cb0156d831679c13cb8472c1fe", null ],
+    [ "SDL_CTRL_KICK1_UNLOCK_VAL", "group__SDL__IP__PBIST__API.html#gabd78585739e3d845379a3aff7b3313be", null ],
+    [ "SDL_TOP_CTRL_LOCK0_KICK0", "group__SDL__IP__PBIST__API.html#gaab601f0ad4f92a572dce020426d3c353", null ],
+    [ "SDL_TOP_CTRL_LOCK0_KICK1", "group__SDL__IP__PBIST__API.html#gad377412b854cfef427068e55fea420e7", null ],
+    [ "SDL_PBIST_MEM_INSTANCE_MAX", "group__SDL__IP__PBIST__API.html#ga9910fcdff934dce56cb0146e92153de4", null ],
     [ "SDL_PBIST_softReset", "group__SDL__IP__PBIST__API.html#gaab53aa27c7681cf93a3e05113f283657", null ],
     [ "SDL_PBIST_start", "group__SDL__IP__PBIST__API.html#ga0e94f5c602c010da33432b4683914a8e", null ],
     [ "SDL_PBIST_startNeg", "group__SDL__IP__PBIST__API.html#ga7d435731e615afc074d8d483c9485938", null ],
     [ "SDL_PBIST_checkResult", "group__SDL__IP__PBIST__API.html#ga2a5a688a4ae719519c37608a222b276f", null ],
     [ "SDL_PBIST_releaseTestMode", "group__SDL__IP__PBIST__API.html#gad3f8ee365f39e083f8580a7a48e6bb91", null ],
-    [ "SDL_PBIST_Instance", "group__SDL__IP__PBIST__API.html#gabfa18a1845c66bbef09b6af6c6cd8e8f", null ]
+    [ "SDL_PBIST_Instance", "group__SDL__IP__PBIST__API.html#gabfa18a1845c66bbef09b6af6c6cd8e8f", null ],
+    [ "SDL_PBIST_R5ssCore_TCMB", "group__SDL__IP__PBIST__API.html#ga56e08427fb1924340993da964d9fb2c0", null ]
 ];

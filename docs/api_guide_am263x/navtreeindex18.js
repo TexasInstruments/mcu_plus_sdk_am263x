@@ -246,8 +246,8 @@ var NAVTREEINDEX18 =
 "SDK_DOWNLOAD_PAGE.html#autotoc_md15":[1,1,2,6],
 "SDK_DOWNLOAD_PAGE.html#autotoc_md16":[1,1,3],
 "SDL_CCM_PAGE.html":[15,8],
-"SDL_CCM_PAGE.html#autotoc_md1793":[15,8,0],
-"SDL_CCM_PAGE.html#autotoc_md1794":[15,8,1],
-"SDL_CCM_PAGE.html#autotoc_md1795":[15,8,2],
-"SDL_CCM_PAGE.html#autotoc_md1796":[15,8,3]
+"SDL_CCM_PAGE.html#autotoc_md1794":[15,8,0],
+"SDL_CCM_PAGE.html#autotoc_md1795":[15,8,1],
+"SDL_CCM_PAGE.html#autotoc_md1796":[15,8,2],
+"SDL_CCM_PAGE.html#autotoc_md1797":[15,8,3]
 };

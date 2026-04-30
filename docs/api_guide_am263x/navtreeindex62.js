@@ -1,5 +1,15 @@
 var NAVTREEINDEX62 =
 {
+"structFlash__DevConfig.html#a58fcf27c6c42c987fc0f7ccdbf766aa9":[17,1,1,1,7],
+"structFlash__DevConfig.html#a64568ae2281c278d4e88401d2bb4a874":[17,1,1,1,13],
+"structFlash__DevConfig.html#a7cd4f1646878a255c5f42f94fb5f1dce":[17,1,1,1,27],
+"structFlash__DevConfig.html#a80726f5736774c6f94ae2985fe7f37f5":[17,1,1,1,6],
+"structFlash__DevConfig.html#a98f44573a23b6366b4f5911fe930e52b":[17,1,1,1,30],
+"structFlash__DevConfig.html#aa34b6b36b967b4d9f0d6a6f67d90296d":[17,1,1,1,19],
+"structFlash__DevConfig.html#aa7a680fe04d589f1c8191cd822b8a305":[17,1,1,1,21],
+"structFlash__DevConfig.html#ab283ed5ac28888b6d2f4ece2a2697e44":[17,1,1,1,20],
+"structFlash__DevConfig.html#ab2acdfad5f7e49651aff07b71fd31310":[17,1,1,1,10],
+"structFlash__DevConfig.html#aceece3d92326136df48c08aad0b56109":[17,1,1,1,2],
 "structFlash__DevConfig.html#aec4d61cd7bbcd19ee93805ec6ebd4203":[17,1,1,1,28],
 "structFlash__DevConfig.html#aeea07d11c4e7bdafaeb17d5d07f56ea6":[17,1,1,1,4],
 "structFlash__DevConfig.html#af26d4f2cc7406d7d47b233d74813c859":[17,1,1,1,24],
@@ -239,15 +249,5 @@ var NAVTREEINDEX62 =
 "structI2C__HwAttrs.html#ad42e910323c9064afdb343cd54774e5c":[17,7,16,0,2],
 "structI2C__HwAttrs.html#ae400990b8899a899af56b671a7a98b9f":[17,7,16,0,3],
 "structI2C__HwAttrs.html#af151f33358d75a3425952786e76e214d":[17,7,16,0,5],
-"structI2C__Mem__Transaction.html":[17,7,16,1],
-"structI2C__Mem__Transaction.html#a6ee1e80f3a00fc03e6b947a7da35fa80":[17,7,16,1,3],
-"structI2C__Mem__Transaction.html#a93ca12ab573bf98cd3400714b2be50d2":[17,7,16,1,2],
-"structI2C__Mem__Transaction.html#abffc3b346ffc221d4424b72a972dec24":[17,7,16,1,4],
-"structI2C__Mem__Transaction.html#ae221f896d08b063919e461d4ba752574":[17,7,16,1,1],
-"structI2C__Mem__Transaction.html#af2454cf7119bd9a966577cb2145a79a9":[17,7,16,1,0],
-"structI2C__Memory__ExtendedParams.html":[17,7,17,4],
-"structI2C__Memory__ExtendedParams.html#a50692bdab4669cfad7e5743d9f7890ff":[17,7,17,4,2],
-"structI2C__Memory__ExtendedParams.html#a513ca096238418a4172df9678f51d30b":[17,7,17,4,1],
-"structI2C__Memory__ExtendedParams.html#adf6e2f48b386682818525f715f0e62e0":[17,7,17,4,0],
-"structI2C__Object.html":[17,7,16,4]
+"structI2C__Mem__Transaction.html":[17,7,16,1]
 };

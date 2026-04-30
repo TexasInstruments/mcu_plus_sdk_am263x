@@ -1,5 +1,15 @@
 var NAVTREEINDEX60 =
 {
+"structEDMA__Attrs.html#a85ccd7732000baa064d9c131991e2e24":[17,7,6,10,9],
+"structEDMA__Attrs.html#aa988fb8e1c6211ea89b595455cc6a665":[17,7,6,10,8],
+"structEDMA__Attrs.html#ab13d1c6a7882a9d89afd5dc0043bd893":[17,7,6,10,3],
+"structEDMA__Attrs.html#acd76d31ff34ebae83641a9a8fd584d93":[17,7,6,10,1],
+"structEDMA__Attrs.html#ad785af10627181ac450ddab72caae961":[17,7,6,10,13],
+"structEDMA__Attrs.html#ae0b34479fc22f835c19d6517d2ae1771":[17,7,6,10,6],
+"structEDMA__CcErrorInfo.html":[17,7,6,4],
+"structEDMA__CcErrorInfo.html#a01333712a60686e094e0f593d9e0208f":[17,7,6,4,3],
+"structEDMA__CcErrorInfo.html#a369b5e4d1807e4aba70994b840b28572":[17,7,6,4,4],
+"structEDMA__CcErrorInfo.html#a6dcc132bb7e4f67117fa0260373b671b":[17,7,6,4,1],
 "structEDMA__CcErrorInfo.html#ab9c3e0ba098c811121e2a6b497ff2c1e":[17,7,6,4,2],
 "structEDMA__CcErrorInfo.html#ad217fa49d2f005f51e41e3df6dd6bdd2":[17,7,6,4,0],
 "structEDMA__Config.html":[17,7,6,11],
@@ -239,15 +249,5 @@ var NAVTREEINDEX60 =
 "structEnetPhy__Cfg.html#a0fbd51a9e60e0b019a8d7c96f57464c7":[17,4,0,13,13,8],
 "structEnetPhy__Cfg.html#a13e073030c36adfcfb2578f3e6aab261":[17,4,0,13,13,5],
 "structEnetPhy__Cfg.html#a2fec6f917edb406803098dc9fa8f0cfb":[17,4,0,13,13,10],
-"structEnetPhy__Cfg.html#a326170d15fbd5660cd42f4058afca30b":[17,4,0,13,13,2],
-"structEnetPhy__Cfg.html#a38afa8b7ff5c0444448080633a042762":[17,4,0,13,13,11],
-"structEnetPhy__Cfg.html#a546102a2223d30e56cac6efc5b1f95fd":[17,4,0,13,13,0],
-"structEnetPhy__Cfg.html#a85bbc546f6fc38ede1e120db880eb27b":[17,4,0,13,13,6],
-"structEnetPhy__Cfg.html#a8ddec0dca674469bd9ff7c9d4aeb6aba":[17,4,0,13,13,1],
-"structEnetPhy__Cfg.html#ab3c6228827b13bc92c726e17f95db41e":[17,4,0,13,13,7],
-"structEnetPhy__Cfg.html#ae3048f34b725dbeec14676249aa3ddb7":[17,4,0,13,13,12],
-"structEnetPhy__Cfg.html#aef3400ed350c5e78510e7ea6536b49ca":[17,4,0,13,13,4],
-"structEnetPhy__Cfg.html#af6ab0be3244688975ba5b1da98f9af54":[17,4,0,13,13,3],
-"structEnetPhy__Cfg.html#afc86bd0c45ca1f4bd9fea2e8f37d2718":[17,4,0,13,13,9],
-"structEnetPhy__FsmTimeoutCfg.html":[17,4,0,13,12]
+"structEnetPhy__Cfg.html#a326170d15fbd5660cd42f4058afca30b":[17,4,0,13,13,2]
 };
