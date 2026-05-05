@@ -1,5 +1,14 @@
 var NAVTREEINDEX64 =
 {
+"structIcssgStats__MacPort.html#a2059911a00edc3228ba2e424f34034d8":[17,4,0,9,1,0,35],
+"structIcssgStats__MacPort.html#a2229e5f2e0b9ca0ca0d6317d45b027d5":[17,4,0,9,1,0,21],
+"structIcssgStats__MacPort.html#a26713546b8ccba4718c334c63cce5581":[17,4,0,9,1,0,27],
+"structIcssgStats__MacPort.html#a2d317a1ef86035963845926171cc3c60":[17,4,0,9,1,0,3],
+"structIcssgStats__MacPort.html#a2d7e234e8ad6bc19a9d8faf72dfab62d":[17,4,0,9,1,0,36],
+"structIcssgStats__MacPort.html#a335011454d28125252bd533fa40f58d0":[17,4,0,9,1,0,54],
+"structIcssgStats__MacPort.html#a37b3ec0b05e3961fa3c57f1917e5fa60":[17,4,0,9,1,0,34],
+"structIcssgStats__MacPort.html#a3866a56ed954c1860ed231414e348e67":[17,4,0,9,1,0,28],
+"structIcssgStats__MacPort.html#a3b10530bb7491e5bd647d157b8609ffc":[17,4,0,9,1,0,51],
 "structIcssgStats__MacPort.html#a45a44a6b35737b467371a6e0d75f7fba":[17,4,0,9,1,0,0],
 "structIcssgStats__MacPort.html#a48db9552f0b95754309b70f8a877baca":[17,4,0,9,1,0,4],
 "structIcssgStats__MacPort.html#a4fe57345a6732ad5d9d119eee1932963":[17,4,0,9,1,0,17],
@@ -240,14 +249,5 @@ var NAVTREEINDEX64 =
 "structIcssg__SetAcceptFrameCheckInArgs.html#a320303f81219152cf07c053aad2c8c14":[17,4,0,6,1,4,0],
 "structIcssg__SetAcceptFrameCheckInArgs.html#a92da51dc0ad7c5f3234dd32b6787542f":[17,4,0,6,1,4,1],
 "structIcssg__TxTsEvtCbInfo.html":[17,4,0,6,1,0],
-"structIcssg__TxTsEvtCbInfo.html#a1c95499fdd4cce8689d240913e5daac5":[17,4,0,6,1,0,0],
-"structIcssg__TxTsEvtCbInfo.html#a316c8b536be033d6fed7763726192271":[17,4,0,6,1,0,1],
-"structIcssg__VlanFidEntry.html":[17,4,0,6,1,8],
-"structIcssg__VlanFidEntry.html#a445f3d4a577c185ac7a9ef1c54b35ff0":[17,4,0,6,1,8,1],
-"structIcssg__VlanFidEntry.html#ada403ab05fef610b66c061389bfb5650":[17,4,0,6,1,8,0],
-"structIcssg__VlanFidParams.html":[17,4,0,6,1,7],
-"structIcssg__VlanFidParams.html#a029cdf4e398b0bcdaf3db64f402c5518":[17,4,0,6,1,7,5],
-"structIcssg__VlanFidParams.html#a089f734f205824ddacf1c38bb2d3ce0d":[17,4,0,6,1,7,4],
-"structIcssg__VlanFidParams.html#a13a214c127e02f7c70f8bc1e9a35f400":[17,4,0,6,1,7,8],
-"structIcssg__VlanFidParams.html#a2d86f26428763dd7215e02832240d03b":[17,4,0,6,1,7,3]
+"structIcssg__TxTsEvtCbInfo.html#a1c95499fdd4cce8689d240913e5daac5":[17,4,0,6,1,0,0]
 };

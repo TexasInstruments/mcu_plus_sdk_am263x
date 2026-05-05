@@ -1,5 +1,14 @@
 var NAVTREEINDEX62 =
 {
+"structFlash__DevConfig.html#a1e640a1a108f1648e1d72cc6910bb19c":[17,1,1,1,12],
+"structFlash__DevConfig.html#a29a81dca04a0df2eee089f7b1f2d9353":[17,1,1,1,15],
+"structFlash__DevConfig.html#a2b291686297c41f37b2c0a1f5fefff52":[17,1,1,1,11],
+"structFlash__DevConfig.html#a3b7e99b80e5237d2b0bbf5c9d82b5a69":[17,1,1,1,3],
+"structFlash__DevConfig.html#a3c1371c0b80f704be04ca418c1eb5bab":[17,1,1,1,22],
+"structFlash__DevConfig.html#a47bc6a8e8e5de5fd6368cbca3331885a":[17,1,1,1,29],
+"structFlash__DevConfig.html#a4b9a8b5f73b7208bc365d78539c7c6d5":[17,1,1,1,18],
+"structFlash__DevConfig.html#a506fa24d7ae2fc51c2bedd573f08bacc":[17,1,1,1,8],
+"structFlash__DevConfig.html#a54c68798c25edf92571b16f19c6435f5":[17,1,1,1,9],
 "structFlash__DevConfig.html#a58fcf27c6c42c987fc0f7ccdbf766aa9":[17,1,1,1,7],
 "structFlash__DevConfig.html#a64568ae2281c278d4e88401d2bb4a874":[17,1,1,1,13],
 "structFlash__DevConfig.html#a7cd4f1646878a255c5f42f94fb5f1dce":[17,1,1,1,27],
@@ -240,14 +249,5 @@ var NAVTREEINDEX62 =
 "structI2C__ExtendedParams.html":[17,7,17,3],
 "structI2C__ExtendedParams.html#a4d52e99da12649ab559757d32fea5e0d":[17,7,17,3,1],
 "structI2C__ExtendedParams.html#a853d1764b3e806286ee97eeac3a1db5c":[17,7,17,3,0],
-"structI2C__ExtendedParams.html#aa3c4d5480e289a405d30ca1d1bc237d4":[17,7,17,3,2],
-"structI2C__ExtendedParams.html#aaa29aac7d78df16c4d82f53af71a1d3a":[17,7,17,3,3],
-"structI2C__HwAttrs.html":[17,7,16,0],
-"structI2C__HwAttrs.html#a170785636c4238bef72b0092b9316d13":[17,7,16,0,0],
-"structI2C__HwAttrs.html#a26e51dabcfc03d1d3f322d9b31adb892":[17,7,16,0,1],
-"structI2C__HwAttrs.html#a9b5cd4f1e9a11365b4fbde7b3409c9ee":[17,7,16,0,4],
-"structI2C__HwAttrs.html#ad42e910323c9064afdb343cd54774e5c":[17,7,16,0,2],
-"structI2C__HwAttrs.html#ae400990b8899a899af56b671a7a98b9f":[17,7,16,0,3],
-"structI2C__HwAttrs.html#af151f33358d75a3425952786e76e214d":[17,7,16,0,5],
-"structI2C__Mem__Transaction.html":[17,7,16,1]
+"structI2C__ExtendedParams.html#aa3c4d5480e289a405d30ca1d1bc237d4":[17,7,17,3,2]
 };

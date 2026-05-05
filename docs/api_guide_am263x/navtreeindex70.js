@@ -1,5 +1,14 @@
 var NAVTREEINDEX70 =
 {
+"structSDL__ecc__aggrStatusCtrl.html#a466fbcaed3aa5455573c89a6b404135f":[17,5,0,0,6,2],
+"structSDL__ecc__aggrStatusCtrl.html#a466fbcaed3aa5455573c89a6b404135f":[17,6,4,0,6,2],
+"structSDL__ecc__aggrStatusCtrl.html#a92c7b339d96d3174b3ecc20b43ec80de":[17,5,0,0,6,4],
+"structSDL__ecc__aggrStatusCtrl.html#a92c7b339d96d3174b3ecc20b43ec80de":[17,6,4,0,6,4],
+"structSDL__ecc__aggrStatusCtrl.html#aa7f383b73d8500d3724496c01bfc1da5":[17,6,4,0,6,1],
+"structSDL__ecc__aggrStatusCtrl.html#aa7f383b73d8500d3724496c01bfc1da5":[17,5,0,0,6,1],
+"structSDL__ecc__aggrStatusCtrl.html#aea8803868dd7c7c6f1fbbf7709c0d3f0":[17,5,0,0,6,3],
+"structSDL__ecc__aggrStatusCtrl.html#aea8803868dd7c7c6f1fbbf7709c0d3f0":[17,6,4,0,6,3],
+"structSDL__vimStaticRegs.html":[17,6,0,0,4],
 "structSDL__vimStaticRegs.html#a08f0b07a3f9fb95b5d58a5d05ed4aafd":[17,6,0,0,4,2],
 "structSDL__vimStaticRegs.html#a5ef684e41278f02214e98a57d692e67a":[17,6,0,0,4,7],
 "structSDL__vimStaticRegs.html#a618a427ab0090c6587485f8c7b834c13":[17,6,0,0,4,5],
@@ -240,14 +249,5 @@ var NAVTREEINDEX70 =
 "structUScaledNs.html#adcbf28b8574a2a597f8827aaff15caf9":[17,9,0,9,0],
 "structWatchdog__Config.html":[17,7,44,3],
 "structWatchdog__Config.html#a96131766bd4da7bc2239eed02f15bed0":[17,7,44,3,1],
-"structWatchdog__Config.html#aa8602245e364f7f910255dbcb14f51d1":[17,7,44,3,0],
-"structWatchdog__HwAttrs.html":[17,7,44,1],
-"structWatchdog__HwAttrs.html#a5e5b737b3657f1f79ed5ae7d5f8c56dd":[17,7,44,1,0],
-"structWatchdog__HwAttrs.html#aa2d2e632dc6e8144901d9d9c44c94d04":[17,7,44,1,1],
-"structWatchdog__HwAttrs.html#ae161d5d9bfc7e99f85512fbdbaa5e138":[17,7,44,1,2],
-"structWatchdog__MCB.html":[17,7,44,4],
-"structWatchdog__MCB.html#ac33fbe6685d976591aebe555112ae7a8":[17,7,44,4,1],
-"structWatchdog__MCB.html#ac5fba2d61181c91d0f79dd999ddb4b68":[17,7,44,4,0],
-"structWatchdog__MCB.html#ad5144368c77f6ce5e18e9403b0c40214":[17,7,44,4,3],
-"structWatchdog__MCB.html#af7097f79feb5df0c332ebf7f35b6132e":[17,7,44,4,2]
+"structWatchdog__Config.html#aa8602245e364f7f910255dbcb14f51d1":[17,7,44,3,0]
 };

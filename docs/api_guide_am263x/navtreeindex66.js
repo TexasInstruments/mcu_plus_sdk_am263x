@@ -1,5 +1,14 @@
 var NAVTREEINDEX66 =
 {
+"structMCAN__InitParams.html#a028cb401be75c57bc8d080fc772a6c90":[17,7,24,4,1],
+"structMCAN__InitParams.html#a1ca04c68b7798d457e3afed5bdc726fe":[17,7,24,4,10],
+"structMCAN__InitParams.html#a25c9cb93e2e7bb4fc8463e51196dcc8a":[17,7,24,4,0],
+"structMCAN__InitParams.html#a4e0b2bf2faccfe23f86072a09213985f":[17,7,24,4,2],
+"structMCAN__InitParams.html#a6990b455aab00f392216ede0002b1978":[17,7,24,4,4],
+"structMCAN__InitParams.html#a754bd480c8018ae08dcb12aee5dd0e0d":[17,7,24,4,8],
+"structMCAN__InitParams.html#a7d529d08da7d4e7690c8c57cfd4fdc08":[17,7,24,4,9],
+"structMCAN__InitParams.html#ab0951344b70d75e49632a2f344f9c38f":[17,7,24,4,6],
+"structMCAN__InitParams.html#abccc56386f5ed729b0b2b6b0ca7571a3":[17,7,24,4,7],
 "structMCAN__InitParams.html#aca8353bc5d93cad6170fa45a29d3aca0":[17,7,24,4,11],
 "structMCAN__InitParams.html#ad3f6d2768c9ecc44a07eebff8ad1edd3":[17,7,24,4,3],
 "structMCAN__InitParams.html#aee4c56f9333bbb46904dcf1d02a261d9":[17,7,24,4,13],
@@ -240,14 +249,5 @@ var NAVTREEINDEX66 =
 "structMCSPI__Object.html#aec7ad9f6ff0ef1a083ae6f338ffee66f":[17,7,25,3,13],
 "structMCSPI__OpenParams.html":[17,7,25,1],
 "structMCSPI__OpenParams.html#a0b4ecaba7263bd18bc7e40924d8d6c97":[17,7,25,1,0],
-"structMCSPI__OpenParams.html#a1a61eb9a3dafb53eb367e31b41a7116b":[17,7,25,1,1],
-"structMCSPI__OpenParams.html#a2ac3a45a175414a578667947ef548d18":[17,7,25,1,4],
-"structMCSPI__OpenParams.html#a43a61b1bdcb52eebaf0d756f5e5500d8":[17,7,25,1,2],
-"structMCSPI__OpenParams.html#ad539f2b8771de73167b55763b7dc984f":[17,7,25,1,3],
-"structMCSPI__Transaction.html":[17,7,26,2],
-"structMCSPI__Transaction.html#a03649a1e749d0661e4a78fbe615ce412":[17,7,26,2,3],
-"structMCSPI__Transaction.html#a13379551362963f30946a9ef45d9efc9":[17,7,26,2,5],
-"structMCSPI__Transaction.html#a1344bb4f68f64e6841a25884de818f7b":[17,7,26,2,4],
-"structMCSPI__Transaction.html#a145ceab9ccb5279a3b0994feb10a6444":[17,7,26,2,2],
-"structMCSPI__Transaction.html#a5bd291f7ca72200e01074457999d9ef9":[17,7,26,2,8]
+"structMCSPI__OpenParams.html#a1a61eb9a3dafb53eb367e31b41a7116b":[17,7,25,1,1]
 };

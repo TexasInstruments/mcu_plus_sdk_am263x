@@ -1,5 +1,14 @@
 var NAVTREEINDEX67 =
 {
+"structMCSPI__OpenParams.html#a2ac3a45a175414a578667947ef548d18":[17,7,25,1,4],
+"structMCSPI__OpenParams.html#a43a61b1bdcb52eebaf0d756f5e5500d8":[17,7,25,1,2],
+"structMCSPI__OpenParams.html#ad539f2b8771de73167b55763b7dc984f":[17,7,25,1,3],
+"structMCSPI__Transaction.html":[17,7,26,2],
+"structMCSPI__Transaction.html#a03649a1e749d0661e4a78fbe615ce412":[17,7,26,2,3],
+"structMCSPI__Transaction.html#a13379551362963f30946a9ef45d9efc9":[17,7,26,2,5],
+"structMCSPI__Transaction.html#a1344bb4f68f64e6841a25884de818f7b":[17,7,26,2,4],
+"structMCSPI__Transaction.html#a145ceab9ccb5279a3b0994feb10a6444":[17,7,26,2,2],
+"structMCSPI__Transaction.html#a5bd291f7ca72200e01074457999d9ef9":[17,7,26,2,8],
 "structMCSPI__Transaction.html#a69dc47581d6f116db83f816065866748":[17,7,26,2,0],
 "structMCSPI__Transaction.html#a7789f4810d4b1818b3cd2a1cdd4a01cd":[17,7,26,2,6],
 "structMCSPI__Transaction.html#ab991c294e300719d3395dc4757124563":[17,7,26,2,7],
@@ -240,14 +249,5 @@ var NAVTREEINDEX67 =
 "structPRUICSS__IrqFunMap.html#ae4b8089802c8d64336ce356082ac5a26":[17,7,33,3,2],
 "structPRUICSS__IrqFunMap.html#af7fe49357209c3b3d547ab399bd416c3":[17,7,33,3,0],
 "structPRUICSS__Object.html":[17,7,33,4],
-"structPRUICSS__Object.html#a0fd7ff6fd8c35488000960f164e77812":[17,7,33,4,0],
-"structPRUICSS__Object.html#a92f3def7e88f0820c7beb3217a9143d9":[17,7,33,4,1],
-"structPRUICSS__SysevtToChannelMap.html":[17,7,33,0],
-"structPRUICSS__SysevtToChannelMap.html#a129beadbc2e4ced9ee4fc67ef55539f4":[17,7,33,0,2],
-"structPRUICSS__SysevtToChannelMap.html#a5736b5cea19105694b49b2266fee18d6":[17,7,33,0,0],
-"structPRUICSS__SysevtToChannelMap.html#ac574f95a04cc123475d2efee1cd20929":[17,7,33,0,1],
-"structPRUICSS__SysevtToChannelMap.html#af06d1d833cd80d37f13cd90022fcea74":[17,7,33,0,3],
-"structPhy__DrvObj__t.html":[17,4,0,13,8,2],
-"structPhy__DrvObj__t.html#a0222e90947468d268a73459eb38361a4":[17,4,0,13,8,2,23],
-"structPhy__DrvObj__t.html#a0435e37b6ae17a6578b277952cdc702e":[17,4,0,13,8,2,30]
+"structPRUICSS__Object.html#a0fd7ff6fd8c35488000960f164e77812":[17,7,33,4,0]
 };

@@ -1,5 +1,14 @@
 var NAVTREEINDEX68 =
 {
+"structPRUICSS__Object.html#a92f3def7e88f0820c7beb3217a9143d9":[17,7,33,4,1],
+"structPRUICSS__SysevtToChannelMap.html":[17,7,33,0],
+"structPRUICSS__SysevtToChannelMap.html#a129beadbc2e4ced9ee4fc67ef55539f4":[17,7,33,0,2],
+"structPRUICSS__SysevtToChannelMap.html#a5736b5cea19105694b49b2266fee18d6":[17,7,33,0,0],
+"structPRUICSS__SysevtToChannelMap.html#ac574f95a04cc123475d2efee1cd20929":[17,7,33,0,1],
+"structPRUICSS__SysevtToChannelMap.html#af06d1d833cd80d37f13cd90022fcea74":[17,7,33,0,3],
+"structPhy__DrvObj__t.html":[17,4,0,13,8,2],
+"structPhy__DrvObj__t.html#a0222e90947468d268a73459eb38361a4":[17,4,0,13,8,2,23],
+"structPhy__DrvObj__t.html#a0435e37b6ae17a6578b277952cdc702e":[17,4,0,13,8,2,30],
 "structPhy__DrvObj__t.html#a0a7f3bc91330cfa0544e01f451f4b258":[17,4,0,13,8,2,22],
 "structPhy__DrvObj__t.html#a0bc78eb65b9034f9bdbc065b7b8a7973":[17,4,0,13,8,2,9],
 "structPhy__DrvObj__t.html#a0dc8d0c84ebf095f09c14181fdb6b3d8":[17,4,0,13,8,2,39],
@@ -240,14 +249,5 @@ var NAVTREEINDEX68 =
 "structSDL__DCC__Status.html#ae06fe9158c3de23b394c0bf3a90dc3e5":[17,6,3,0,0,1,1],
 "structSDL__DCC__config.html":[17,6,3,0,0,0],
 "structSDL__DCC__config.html#a0a8a7d246a229fc94311c87e6ee45191":[17,6,3,0,0,0,3],
-"structSDL__DCC__config.html#a1b997dffc6dd3e2db40e3fb2e441960a":[17,6,3,0,0,0,4],
-"structSDL__DCC__config.html#a335c382fe52147cd3562044fa4da43b0":[17,6,3,0,0,0,2],
-"structSDL__DCC__config.html#a56d8fbedd045389f51d2676363f117da":[17,6,3,0,0,0,5],
-"structSDL__DCC__config.html#a8fbeb1e93da8fa6fa572739f9ceee7c4":[17,6,3,0,0,0,1],
-"structSDL__DCC__config.html#aa75d781f96b105d72f41e3009238aac7":[17,6,3,0,0,0,0],
-"structSDL__DCC__staticRegs.html":[17,6,3,0,0,2],
-"structSDL__DCC__staticRegs.html#a2b1e0725b945fe8be302ea3947b1beb8":[17,6,3,0,0,2,4],
-"structSDL__DCC__staticRegs.html#a58f5b1429a4ec12a1d5cb5aa3e3a9d5b":[17,6,3,0,0,2,3],
-"structSDL__DCC__staticRegs.html#a9c8bbcef4dbfda7884d408095afbf49a":[17,6,3,0,0,2,0],
-"structSDL__DCC__staticRegs.html#aad9d58605ae3fc910dc838e34e3f0714":[17,6,3,0,0,2,5]
+"structSDL__DCC__config.html#a1b997dffc6dd3e2db40e3fb2e441960a":[17,6,3,0,0,0,4]
 };

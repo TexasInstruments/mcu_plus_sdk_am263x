@@ -1,5 +1,14 @@
 var NAVTREEINDEX60 =
 {
+"structEDMA__Attrs.html#a0f5f01a7a422896cd502f0930e57036d":[17,7,6,10,0],
+"structEDMA__Attrs.html#a119a18ace897a78f1e6d2d5aa416d54b":[17,7,6,10,14],
+"structEDMA__Attrs.html#a1262e71d66a30ff1c8dcd90d91ab2269":[17,7,6,10,11],
+"structEDMA__Attrs.html#a172e6d21d500ca3133846578c8c672c3":[17,7,6,10,12],
+"structEDMA__Attrs.html#a22743ff984409c05ba63540748d259fe":[17,7,6,10,7],
+"structEDMA__Attrs.html#a239bfff034046eb16dd8c277999f01ac":[17,7,6,10,4],
+"structEDMA__Attrs.html#a4514814c34248ed82f67508981c89e94":[17,7,6,10,15],
+"structEDMA__Attrs.html#a51b72bfe6e9e3ec895c564ec9eec95f0":[17,7,6,10,2],
+"structEDMA__Attrs.html#a7d0b7fb8e82f2dd7861226292841c4cb":[17,7,6,10,10],
 "structEDMA__Attrs.html#a85ccd7732000baa064d9c131991e2e24":[17,7,6,10,9],
 "structEDMA__Attrs.html#aa988fb8e1c6211ea89b595455cc6a665":[17,7,6,10,8],
 "structEDMA__Attrs.html#ab13d1c6a7882a9d89afd5dc0043bd893":[17,7,6,10,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX60 =
 "structEnetMdio__C45ReadInArgs.html#ab67e4fc272b462b7b79631446c3f069d":[17,4,0,5,2,2],
 "structEnetMdio__C45ReadInArgs.html#abadfb5fa848c448197ccc615021d6b27":[17,4,0,5,2,0],
 "structEnetMdio__C45WriteInArgs.html":[17,4,0,5,4],
-"structEnetMdio__C45WriteInArgs.html#a4b6a647b00786bc110a2a8743468e275":[17,4,0,5,4,0],
-"structEnetMdio__C45WriteInArgs.html#a73612a14f4179a32c400e37712927ace":[17,4,0,5,4,4],
-"structEnetMdio__C45WriteInArgs.html#a818a7a18364eb6c637436854f6f6c3e3":[17,4,0,5,4,3],
-"structEnetMdio__C45WriteInArgs.html#aabef509b787d7a887ffbbb4990b11d42":[17,4,0,5,4,1],
-"structEnetMdio__C45WriteInArgs.html#aec8c03081263a840eb2b7b727aee7e06":[17,4,0,5,4,2],
-"structEnetPhy__Cfg.html":[17,4,0,13,13],
-"structEnetPhy__Cfg.html#a0fbd51a9e60e0b019a8d7c96f57464c7":[17,4,0,13,13,8],
-"structEnetPhy__Cfg.html#a13e073030c36adfcfb2578f3e6aab261":[17,4,0,13,13,5],
-"structEnetPhy__Cfg.html#a2fec6f917edb406803098dc9fa8f0cfb":[17,4,0,13,13,10],
-"structEnetPhy__Cfg.html#a326170d15fbd5660cd42f4058afca30b":[17,4,0,13,13,2]
+"structEnetMdio__C45WriteInArgs.html#a4b6a647b00786bc110a2a8743468e275":[17,4,0,5,4,0]
 };

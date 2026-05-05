@@ -1,5 +1,14 @@
 var NAVTREEINDEX42 =
 {
+"group__DRV__SOC__MODULE.html#ga6cbf7be7554c4a0726a493d42c6dd702":[17,7,38,51],
+"group__DRV__SOC__MODULE.html#ga7398c49f0744a33b47a3b9a867ba21ca":[17,7,38,59],
+"group__DRV__SOC__MODULE.html#ga7475d97945d6a78df0e06815cc857a5c":[17,7,38,14],
+"group__DRV__SOC__MODULE.html#ga762484341c146867c564e342653e286f":[17,7,38,7],
+"group__DRV__SOC__MODULE.html#ga7a76047e9f8b34de51fe73cac27c7bc4":[17,7,38,47],
+"group__DRV__SOC__MODULE.html#ga7b97815ae150f58089c2f44502710dec":[17,7,38,21],
+"group__DRV__SOC__MODULE.html#ga7da339db6729ef5b169741ef36e7441d":[17,7,38,58],
+"group__DRV__SOC__MODULE.html#ga8249acac8761896816e84f78130dfb2d":[17,7,38,39],
+"group__DRV__SOC__MODULE.html#ga8563a79ebe04e6b8fa678b18d65cf03b":[17,7,38,40],
 "group__DRV__SOC__MODULE.html#ga8d4e609bf319d11a408ef078fc1df0f7":[17,7,38,68],
 "group__DRV__SOC__MODULE.html#ga91e92e9398edf29e171ad3974ca8ef1d":[17,7,38,72],
 "group__DRV__SOC__MODULE.html#ga93f7842c591a1dcb99a4a134878939ce":[17,7,38,53],
@@ -240,14 +249,5 @@ var NAVTREEINDEX42 =
 "group__DRV__TMU__MODULE.html":[17,7,41],
 "group__DRV__TMU__MODULE.html#ga14cb72829804e4cf783a4a90f94c1440":[17,7,41,16],
 "group__DRV__TMU__MODULE.html#ga17bd16502558a5526fe55763dd4d5e33":[17,7,41,12],
-"group__DRV__TMU__MODULE.html#ga183c84c63b0444e6188b8aab6b4da080":[17,7,41,19],
-"group__DRV__TMU__MODULE.html#ga435a84146191f34f2778d6e3400491ab":[17,7,41,1],
-"group__DRV__TMU__MODULE.html#ga6ac9ec880394e97bab74b633f2d79005":[17,7,41,8],
-"group__DRV__TMU__MODULE.html#ga7f5528b3c5613a4a47a20b5288bb7c1b":[17,7,41,18],
-"group__DRV__TMU__MODULE.html#ga87edaefd374b2272981603d7d4820620":[17,7,41,7],
-"group__DRV__TMU__MODULE.html#ga8918285b6397745dbe335e87d35a0677":[17,7,41,2],
-"group__DRV__TMU__MODULE.html#ga94dc66eaa7d9cdfdfe15791b2a2cfefb":[17,7,41,6],
-"group__DRV__TMU__MODULE.html#ga953fc4121184187f71e8004c8a79462e":[17,7,41,11],
-"group__DRV__TMU__MODULE.html#ga97c981e665d5783d5552db78b2ea1012":[17,7,41,14],
-"group__DRV__TMU__MODULE.html#ga98faac82606dcc61829f46d30d3ddcc6":[17,7,41,10]
+"group__DRV__TMU__MODULE.html#ga183c84c63b0444e6188b8aab6b4da080":[17,7,41,19]
 };

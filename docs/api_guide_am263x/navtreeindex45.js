@@ -1,5 +1,14 @@
 var NAVTREEINDEX45 =
 {
+"group__ENET__DMA__API.html#ga26f269fc2ec5d6d37b72b03142e3cec4":[17,4,0,0,39],
+"group__ENET__DMA__API.html#ga2d78904e70f7108340843a0d062fc06e":[17,4,0,0,60],
+"group__ENET__DMA__API.html#ga2f65dad4b34303b99549cf82aad640cc":[17,4,0,0,48],
+"group__ENET__DMA__API.html#ga2fc5a9f25e8af03bfb53cd483612b3b7":[17,4,0,0,16],
+"group__ENET__DMA__API.html#ga31c851441669160ce10094c9f5681cf3":[17,4,0,0,5],
+"group__ENET__DMA__API.html#ga3c9c30f7d62c03b3216a45b2c5859b04":[17,4,0,0,13],
+"group__ENET__DMA__API.html#ga3f882bd4053e2b760c472df24981daea":[17,4,0,0,8],
+"group__ENET__DMA__API.html#ga41d32b0e8a603fb5d9d07d3a18bb34ec":[17,4,0,0,42],
+"group__ENET__DMA__API.html#ga455db13c836fa5c33a359c4e19d0f5c1":[17,4,0,0,58],
 "group__ENET__DMA__API.html#ga505a57c83f69a69877cd50da4a64aac3":[17,4,0,0,20],
 "group__ENET__DMA__API.html#ga5167ef84b46cf4bb88791fe562af2628":[17,4,0,0,57],
 "group__ENET__DMA__API.html#ga5326ab94b7a1e0b5b36410252bbeb8d4":[17,4,0,0,52],
@@ -240,14 +249,5 @@ var NAVTREEINDEX45 =
 "group__ENET__MOD__MACPORT.html":[17,4,0,3],
 "group__ENET__MOD__MACPORT.html#ga046d087375dda93eb619534f98d934d1":[17,4,0,3,16],
 "group__ENET__MOD__MACPORT.html#ga1996df3f264a152ea46418d2d590e76e":[17,4,0,3,27],
-"group__ENET__MOD__MACPORT.html#ga3aa222757bb1b44f13b751afd0d0da60":[17,4,0,3,29],
-"group__ENET__MOD__MACPORT.html#ga5a81feaa5abbc6036945cc7329e0142b":[17,4,0,3,19],
-"group__ENET__MOD__MACPORT.html#ga7a84ce4364666bc0909466f7c3b4f266":[17,4,0,3,14],
-"group__ENET__MOD__MACPORT.html#ga981bcf8753e342205045043f9f7d1205":[17,4,0,3,22],
-"group__ENET__MOD__MACPORT.html#ga9beb034867b25a50ce4966dde72dcbb8":[17,4,0,3,23],
-"group__ENET__MOD__MACPORT.html#gaae019ccdc5a774caa8ffdb35123ca59d":[17,4,0,3,15],
-"group__ENET__MOD__MACPORT.html#gab152ef6c56c6e2ae46bff9a98b370d12":[17,4,0,3,17],
-"group__ENET__MOD__MACPORT.html#gab15d91e6ad4108256fab9aaab800ea87":[17,4,0,3,24],
-"group__ENET__MOD__MACPORT.html#gab6f138cfe638b879d98100f4338271a2":[17,4,0,3,20],
-"group__ENET__MOD__MACPORT.html#gab825a20bf166189f14693363149ee53e":[17,4,0,3,28]
+"group__ENET__MOD__MACPORT.html#ga3aa222757bb1b44f13b751afd0d0da60":[17,4,0,3,29]
 };

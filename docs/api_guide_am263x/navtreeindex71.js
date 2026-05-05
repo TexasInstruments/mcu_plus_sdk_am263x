@@ -1,5 +1,14 @@
 var NAVTREEINDEX71 =
 {
+"structWatchdog__HwAttrs.html":[17,7,44,1],
+"structWatchdog__HwAttrs.html#a5e5b737b3657f1f79ed5ae7d5f8c56dd":[17,7,44,1,0],
+"structWatchdog__HwAttrs.html#aa2d2e632dc6e8144901d9d9c44c94d04":[17,7,44,1,1],
+"structWatchdog__HwAttrs.html#ae161d5d9bfc7e99f85512fbdbaa5e138":[17,7,44,1,2],
+"structWatchdog__MCB.html":[17,7,44,4],
+"structWatchdog__MCB.html#ac33fbe6685d976591aebe555112ae7a8":[17,7,44,4,1],
+"structWatchdog__MCB.html#ac5fba2d61181c91d0f79dd999ddb4b68":[17,7,44,4,0],
+"structWatchdog__MCB.html#ad5144368c77f6ce5e18e9403b0c40214":[17,7,44,4,3],
+"structWatchdog__MCB.html#af7097f79feb5df0c332ebf7f35b6132e":[17,7,44,4,2],
 "structWatchdog__Params.html":[17,7,44,2],
 "structWatchdog__Params.html#a271a705e14c41b87186e565a17c6d702":[17,7,44,2,5],
 "structWatchdog__Params.html#a66cc94bb1c0ad34072ce8446f4a5aeb9":[17,7,44,2,4],

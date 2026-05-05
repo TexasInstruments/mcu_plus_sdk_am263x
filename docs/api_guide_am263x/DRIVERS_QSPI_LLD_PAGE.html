@@ -92,18 +92,18 @@ $(document).ready(function(){initNavTree('DRIVERS_QSPI_LLD_PAGE.html',''); initR
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md1302">Features Supported</a></li>
-<li class="level1"><a href="#autotoc_md1303">SysConfig Features</a></li>
-<li class="level1"><a href="#autotoc_md1304">Features NOT Supported</a></li>
-<li class="level1"><a href="#autotoc_md1305">Usage Overview</a><ul><li class="level2"><a href="#autotoc_md1306">API Sequence</a></li>
+<ul><li class="level1"><a href="#autotoc_md1310">Features Supported</a></li>
+<li class="level1"><a href="#autotoc_md1311">SysConfig Features</a></li>
+<li class="level1"><a href="#autotoc_md1312">Features NOT Supported</a></li>
+<li class="level1"><a href="#autotoc_md1313">Usage Overview</a><ul><li class="level2"><a href="#autotoc_md1314">API Sequence</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md1307">Example Usage</a></li>
-<li class="level1"><a href="#autotoc_md1308">API</a></li>
+<li class="level1"><a href="#autotoc_md1315">Example Usage</a></li>
+<li class="level1"><a href="#autotoc_md1316">API</a></li>
 </ul>
 </div>
 <div class="textblock"><p><a class="anchor" id="md_components_drivers_qspi_lld"></a></p>
-<h1><a class="anchor" id="autotoc_md1302"></a>
+<h1><a class="anchor" id="autotoc_md1310"></a>
 Features Supported</h1>
 <ul>
 <li>Support for Single, Dual or Quad read operation.</li>
@@ -113,7 +113,7 @@ Features Supported</h1>
 <li>Programmable Active Clock Edge</li>
 <li>Programmable Delay between chip select activation and output data from 0 to 3 QSPI clock cycles</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md1303"></a>
+<h1><a class="anchor" id="autotoc_md1311"></a>
 SysConfig Features</h1>
 <dl class="section note"><dt>Note</dt><dd>It is strongly recommend to use SysConfig where it is available instead of using direct SW API calls. This will help simplify the SW application and also catch common mistakes early in the development cycle.</dd></dl>
 <ul>
@@ -124,14 +124,14 @@ SysConfig Features</h1>
 <li>Enabling DMA mode</li>
 <li>In advanced config, you can choose various parameters like frame format, decoder chip select polarity, read dummy cycles, SDK Infra and QSPI Interrupt.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md1304"></a>
+<h1><a class="anchor" id="autotoc_md1312"></a>
 Features NOT Supported</h1>
 <ul>
 <li>Dual and Quad writes are not supported.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md1305"></a>
+<h1><a class="anchor" id="autotoc_md1313"></a>
 Usage Overview</h1>
-<h2><a class="anchor" id="autotoc_md1306"></a>
+<h2><a class="anchor" id="autotoc_md1314"></a>
 API Sequence</h2>
 <p>To use the QSPI driver to send data over the SPI bus, the application calls the following APIs:</p>
 <ul>
@@ -140,7 +140,7 @@ API Sequence</h2>
 <li><a class="el" href="group__DRV__QSPI__LLD__MODULE.html#gae5060483a4ea5a15f7e6235ed974439e" title="Function to send specific commands and write data into flash in configuration mode.">QSPI_lld_writeCmd</a> / <a class="el" href="group__DRV__QSPI__LLD__MODULE.html#ga8982b3c70f5d5c674e3c5c5c6d123fd0" title="Function to send specific commands and write data into flash in interrupt mode.">QSPI_lld_writeCmdIntr()</a>: Write data in Config mode and Interrupt mode.</li>
 <li><a class="el" href="group__DRV__QSPI__LLD__MODULE.html#ga5f0c95924bb2df8f1642a8dbbc6cba8d" title="This function de-initializes the QSPI module.">QSPI_lld_deInit()</a>: De-initialize the QSPI instance.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md1307"></a>
+<h1><a class="anchor" id="autotoc_md1315"></a>
 Example Usage</h1>
 <p>Include the below file to access the APIs </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;string.h&gt;</span></div>
@@ -261,7 +261,7 @@ Example Usage</h1>
 <div class="line">{</div>
 <div class="line">    unlock_mutex(&amp;transferMutex);</div>
 <div class="line">}</div>
-</div><!-- fragment --> <h1><a class="anchor" id="autotoc_md1308"></a>
+</div><!-- fragment --> <h1><a class="anchor" id="autotoc_md1316"></a>
 API</h1>
 <p><a class="el" href="group__DRV__QSPI__LLD__MODULE.html">APIs for QSPI LLD</a> </p>
 </div></div><!-- contents -->

@@ -1,6 +1,6 @@
 var RELEASE_NOTES_PAGE =
 [
-    [ "Release Notes 26.00.00", "RELEASE_NOTES_26_00_00_PAGE.html", [
+    [ "Release Notes 26.00.00.STS", "RELEASE_NOTES_26_00_00_PAGE.html", [
       [ "New in this Release", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md502", null ],
       [ "Device and Validation Information", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md503", null ],
       [ "Dependent Tools and Compiler Information", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md504", null ],
@@ -20,26 +20,35 @@ var RELEASE_NOTES_PAGE =
       [ "Known Issues", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md517", null ],
       [ "Errata", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md518", null ],
       [ "Limitations", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md519", null ],
-      [ "Upgrade and Compatibility Information", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md520", [
-        [ "Compiling examples in MacOS machines", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md521", null ],
-        [ "RPRC Image format is Deprecated and Corresponding SBL's are also removed from SDK", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md522", null ],
-        [ "Module clock configuration through Clock Tree", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md523", null ],
-        [ "Migrating back from CCS Theia to CCS Eclipse", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md524", [
-          [ "Importing and Building in Eclipse", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md525", null ],
-          [ "CCS SBL Loading", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md526", null ]
+      [ "Release Types", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md520", [
+        [ "How to Identify Release Type", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md521", null ],
+        [ "EA (Early Adopter)", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md522", null ],
+        [ "STS (Short Term Support)", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md523", null ],
+        [ "LTS (Long Term Support)", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md524", null ],
+        [ "Release Type Comparison", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md525", null ]
+      ] ],
+      [ "CI/CD Strategy", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md526", null ],
+      [ "Software Bill of Materials", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md527", null ],
+      [ "Upgrade and Compatibility Information", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md528", [
+        [ "Compiling examples in MacOS machines", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md529", null ],
+        [ "RPRC Image format is Deprecated and Corresponding SBL's are also removed from SDK", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md530", null ],
+        [ "Module clock configuration through Clock Tree", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md531", null ],
+        [ "Migrating back from CCS Theia to CCS Eclipse", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md532", [
+          [ "Importing and Building in Eclipse", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md533", null ],
+          [ "CCS SBL Loading", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md534", null ]
         ] ],
-        [ "Migrating examples to 11.00.00 from older versions", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md527", [
-          [ "Makefile Changes", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md528", [
-            [ "Library Name change on makefile and CCS projects", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md529", null ],
-            [ "OS define on makefile and CCS projects", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md530", null ]
+        [ "Migrating examples to 11.00.00 from older versions", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md535", [
+          [ "Makefile Changes", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md536", [
+            [ "Library Name change on makefile and CCS projects", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md537", null ],
+            [ "OS define on makefile and CCS projects", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md538", null ]
           ] ]
         ] ],
-        [ "SDL PBIST Self test", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md531", null ],
-        [ "SDL STC Configuration", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md532", null ],
-        [ "SDL Handler API name update", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md533", null ],
-        [ "Compiler Options", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md534", null ],
-        [ "SOC Device Drivers", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md535", null ],
-        [ "Ethernet and Networking", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md536", null ]
+        [ "SDL PBIST Self test", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md539", null ],
+        [ "SDL STC Configuration", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md540", null ],
+        [ "SDL Handler API name update", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md541", null ],
+        [ "Compiler Options", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md542", null ],
+        [ "SOC Device Drivers", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md543", null ],
+        [ "Ethernet and Networking", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md544", null ]
       ] ]
     ] ],
     [ "Release Notes 11.01.00", "RELEASE_NOTES_11_01_00_PAGE.html", [

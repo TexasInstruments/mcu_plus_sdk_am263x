@@ -1,5 +1,14 @@
 var NAVTREEINDEX47 =
 {
+"group__ENET__RM__API.html#ggaaa28c4ad45ad638459173dc608ddc906ae36938fdcf0d0953c26108b18ba25a90":[17,4,0,8,22,5],
+"group__ENET__RM__API.html#ggaaa28c4ad45ad638459173dc608ddc906affade21e0cbc9bfdc8e5590bf7ce74b5":[17,4,0,8,22,1],
+"group__ENET__TRACE__API.html":[17,4,0,12],
+"group__ENET__TRACE__API.html#ga1143d63c994f9dbaf9e65f565939b1fc":[17,4,0,12,11],
+"group__ENET__TRACE__API.html#ga6b495539922c6e4ff133e0991d75b82b":[17,4,0,12,10],
+"group__ENET__TRACE__API.html#ga6d6f9ce78be8c92817e6747eeff81e3c":[17,4,0,12,6],
+"group__ENET__TRACE__API.html#ga71cdb195d83e1ba5887bd578e10b09ca":[17,4,0,12,3],
+"group__ENET__TRACE__API.html#ga77768eee07e45d3af69068f35c584d58":[17,4,0,12,0],
+"group__ENET__TRACE__API.html#gaa61d7835204fc49a138eae7c36517c9b":[17,4,0,12,2],
 "group__ENET__TRACE__API.html#gab6d06550a51b66a2d9e12009fe4e33d7":[17,4,0,12,8],
 "group__ENET__TRACE__API.html#gac7b6bf0161a3e3aff05633d3b2b993ca":[17,4,0,12,1],
 "group__ENET__TRACE__API.html#gacd9bc285dde9f775d33438f68bc01d99":[17,4,0,12,5],
@@ -240,14 +249,5 @@ var NAVTREEINDEX47 =
 "group__KERNEL__DPL__MPU__ARMV7.html#ga01af312bebfe3071ddf63584825e1e65":[17,2,8,12],
 "group__KERNEL__DPL__MPU__ARMV7.html#ga0f7663d0bbaef4c0b3ca9e492fefb3ab":[17,2,8,11],
 "group__KERNEL__DPL__MPU__ARMV7.html#ga3fb88c46ac821cf49a7797547896ff12":[17,2,8,4],
-"group__KERNEL__DPL__MPU__ARMV7.html#ga4191bfc73e949c59a90b5d93fc99a879":[17,2,8,10],
-"group__KERNEL__DPL__MPU__ARMV7.html#ga58c5b873dc0e607a908d5c4ebb2c350c":[17,2,8,7],
-"group__KERNEL__DPL__MPU__ARMV7.html#ga790280b05b7fffb83965667041ce2650":[17,2,8,5],
-"group__KERNEL__DPL__MPU__ARMV7.html#ga7d5c8f75b6ae60721f6f8955425fa605":[17,2,8,8],
-"group__KERNEL__DPL__MPU__ARMV7.html#ga9c95163de7e4f43f3ba8db701a4174d2":[17,2,8,3],
-"group__KERNEL__DPL__MPU__ARMV7.html#gac2c2f6cd940af3f098c962997db9f6ff":[17,2,8,9],
-"group__KERNEL__DPL__MPU__ARMV7.html#gaff3a5c8e3e4091eb8c3d6058df0327cc":[17,2,8,6],
-"group__KERNEL__DPL__MPU__ARMV7.html#gga3fb88c46ac821cf49a7797547896ff12aa4ef7fee7571b7543107ee59929b9609":[17,2,8,4,1],
-"group__KERNEL__DPL__MPU__ARMV7.html#gga3fb88c46ac821cf49a7797547896ff12abbbbe1cc9c9a66e776ba5170a280ae34":[17,2,8,4,0],
-"group__KERNEL__DPL__MPU__ARMV7.html#gga790280b05b7fffb83965667041ce2650a0ed77c6741dc34db277c3f2b355f9dcb":[17,2,8,5,27]
+"group__KERNEL__DPL__MPU__ARMV7.html#ga4191bfc73e949c59a90b5d93fc99a879":[17,2,8,10]
 };
