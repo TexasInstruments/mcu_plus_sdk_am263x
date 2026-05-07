@@ -499,6 +499,12 @@ Known Issues</h1>
 <tr>
 <td>PROC_SDL-9131 </td><td>CLK-T1 MSS_DCCC and DCCA diag failure </td><td>SDL </td><td>10.02.00 onwards </td><td>None  </td></tr>
 <tr>
+<td>PROC_SDL-9670 </td><td>ECC injection addresses for different banks in TCMB memory are not correct </td><td>SDL </td><td>11.00.00 onwards </td><td>None  </td></tr>
+<tr>
+<td>PROC_SDL-9700 </td><td>The ESM callback is happening even before ECC injection for ATCM and BTCM memories </td><td>SDL </td><td>11.00.00 onwards </td><td>None  </td></tr>
+<tr>
+<td>PROC_SDL-9896 </td><td>Removal of incorrect DCC examples </td><td>SDL </td><td>11.01.00 onwards </td><td>None  </td></tr>
+<tr>
 <td>MCUSDK-14898 </td><td>SDL apps fails on other than RFSS0-0 with SBL </td><td>SBL, SDL </td><td>11.00.00 onwards </td><td>This because SBL brings the RFSS1-0 out of reset before the SBL UART prints gets flushed. This will be fixed in next release. As a workaround the application in R5FSS1-0 can delay the start of application till SBL UART prints gets completed.  </td></tr>
 <tr>
 <td>MCUSDK-13652 </td><td>Readelf throws warning while parsing RS note </td><td>SBL, QSPI </td><td>Readelf command throws error when trying to read the RS note segment from an mcelf file. </td><td>-  </td></tr>
