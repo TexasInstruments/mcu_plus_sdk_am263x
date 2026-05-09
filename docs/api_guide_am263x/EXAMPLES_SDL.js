@@ -46,13 +46,13 @@ var EXAMPLES_SDL =
       [ "Sample Output", "EXAMPLES_SDL_DCC.html#autotoc_md3712", null ]
     ] ],
     [ "SDL RTI", "EXAMPLES_SDL_RTI.html", [
-      [ "Introduction", "EXAMPLES_SDL_RTI.html#autotoc_md3780", [
-        [ "Use Cases", "EXAMPLES_SDL_RTI.html#autotoc_md3781", null ]
+      [ "Introduction", "EXAMPLES_SDL_RTI.html#autotoc_md3785", [
+        [ "Use Cases", "EXAMPLES_SDL_RTI.html#autotoc_md3786", null ]
       ] ],
       [ "Supported Combinations", "EXAMPLES_SDL_RTI.html#EXAMPLES_SDL_RTI_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_SDL_RTI.html#autotoc_md3782", null ],
-      [ "See Also", "EXAMPLES_SDL_RTI.html#autotoc_md3783", null ],
-      [ "Sample Output", "EXAMPLES_SDL_RTI.html#autotoc_md3784", null ]
+      [ "Steps to Run the Example", "EXAMPLES_SDL_RTI.html#autotoc_md3787", null ],
+      [ "See Also", "EXAMPLES_SDL_RTI.html#autotoc_md3788", null ],
+      [ "Sample Output", "EXAMPLES_SDL_RTI.html#autotoc_md3789", null ]
     ] ],
     [ "SDL MCRC Auto CPU", "EXAMPLES_SDL_MCRC_AUTO_CPU.html", [
       [ "Introduction", "EXAMPLES_SDL_MCRC_AUTO_CPU.html#autotoc_md3713", [
@@ -118,93 +118,93 @@ var EXAMPLES_SDL =
       [ "Sample Output", "EXAMPLES_SDL_ECC_MCAN.html#autotoc_md3767", null ]
     ] ],
     [ "SDL ECC ICSSM", "EXAMPLES_SDL_ECC_ICSSM.html", [
-      [ "Introduction", "EXAMPLES_SDL_ECC_ICSSM.html#autotoc_md3768", [
-        [ "Use Cases", "EXAMPLES_SDL_ECC_ICSSM.html#autotoc_md3769", null ]
+      [ "Introduction", "EXAMPLES_SDL_ECC_ICSSM.html#autotoc_md3773", [
+        [ "Use Cases", "EXAMPLES_SDL_ECC_ICSSM.html#autotoc_md3774", null ]
       ] ],
       [ "Supported Combinations", "EXAMPLES_SDL_ECC_ICSSM.html#EXAMPLES_SDL_ECC_ICSSM_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_SDL_ECC_ICSSM.html#autotoc_md3770", null ],
-      [ "See Also", "EXAMPLES_SDL_ECC_ICSSM.html#autotoc_md3771", null ],
-      [ "Sample Output", "EXAMPLES_SDL_ECC_ICSSM.html#autotoc_md3772", null ]
+      [ "Steps to Run the Example", "EXAMPLES_SDL_ECC_ICSSM.html#autotoc_md3775", null ],
+      [ "See Also", "EXAMPLES_SDL_ECC_ICSSM.html#autotoc_md3776", null ],
+      [ "Sample Output", "EXAMPLES_SDL_ECC_ICSSM.html#autotoc_md3777", null ]
     ] ],
     [ "SDL ECC MSS TPTC", "EXAMPLES_SDL_ECC_MSS_TPTC.html", [
-      [ "Introduction", "EXAMPLES_SDL_ECC_MSS_TPTC.html#autotoc_md3773", [
-        [ "Use Cases", "EXAMPLES_SDL_ECC_MSS_TPTC.html#autotoc_md3774", null ]
+      [ "Introduction", "EXAMPLES_SDL_ECC_MSS_TPTC.html#autotoc_md3778", [
+        [ "Use Cases", "EXAMPLES_SDL_ECC_MSS_TPTC.html#autotoc_md3779", null ]
       ] ],
       [ "Supported Combinations", "EXAMPLES_SDL_ECC_MSS_TPTC.html#EXAMPLES_SDL_ECC_MSS_TPTC_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_SDL_ECC_MSS_TPTC.html#autotoc_md3775", null ],
-      [ "See Also", "EXAMPLES_SDL_ECC_MSS_TPTC.html#autotoc_md3776", null ],
-      [ "Sample Output", "EXAMPLES_SDL_ECC_MSS_TPTC.html#autotoc_md3777", null ]
+      [ "Steps to Run the Example", "EXAMPLES_SDL_ECC_MSS_TPTC.html#autotoc_md3780", null ],
+      [ "See Also", "EXAMPLES_SDL_ECC_MSS_TPTC.html#autotoc_md3781", null ],
+      [ "Sample Output", "EXAMPLES_SDL_ECC_MSS_TPTC.html#autotoc_md3782", null ]
     ] ],
     [ "SDL PBIST", "EXAMPLES_SDL_PBIST.html", [
-      [ "Introduction", "EXAMPLES_SDL_PBIST.html#autotoc_md3785", [
-        [ "Use Cases", "EXAMPLES_SDL_PBIST.html#autotoc_md3786", null ]
+      [ "Introduction", "EXAMPLES_SDL_PBIST.html#autotoc_md3790", [
+        [ "Use Cases", "EXAMPLES_SDL_PBIST.html#autotoc_md3791", null ]
       ] ],
       [ "Supported Combinations", "EXAMPLES_SDL_PBIST.html#EXAMPLES_SDL_PBIST_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_SDL_PBIST.html#autotoc_md3787", null ],
-      [ "See Also", "EXAMPLES_SDL_PBIST.html#autotoc_md3788", null ],
-      [ "Sample Output", "EXAMPLES_SDL_PBIST.html#autotoc_md3789", null ]
+      [ "Steps to Run the Example", "EXAMPLES_SDL_PBIST.html#autotoc_md3792", null ],
+      [ "See Also", "EXAMPLES_SDL_PBIST.html#autotoc_md3793", null ],
+      [ "Sample Output", "EXAMPLES_SDL_PBIST.html#autotoc_md3794", null ]
     ] ],
     [ "SDL CCM", "EXAMPLES_SDL_CCM.html", [
-      [ "Introduction", "EXAMPLES_SDL_CCM.html#autotoc_md3790", [
-        [ "Use Cases", "EXAMPLES_SDL_CCM.html#autotoc_md3791", null ]
+      [ "Introduction", "EXAMPLES_SDL_CCM.html#autotoc_md3795", [
+        [ "Use Cases", "EXAMPLES_SDL_CCM.html#autotoc_md3796", null ]
       ] ],
       [ "Supported Combinations", "EXAMPLES_SDL_CCM.html#EXAMPLES_SDL_CCM_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_SDL_CCM.html#autotoc_md3792", null ],
-      [ "Steps to Test the Example", "EXAMPLES_SDL_CCM.html#autotoc_md3793", null ],
-      [ "See Also", "EXAMPLES_SDL_CCM.html#autotoc_md3794", null ],
-      [ "Sample Output", "EXAMPLES_SDL_CCM.html#autotoc_md3795", null ]
+      [ "Steps to Run the Example", "EXAMPLES_SDL_CCM.html#autotoc_md3797", null ],
+      [ "Steps to Test the Example", "EXAMPLES_SDL_CCM.html#autotoc_md3798", null ],
+      [ "See Also", "EXAMPLES_SDL_CCM.html#autotoc_md3799", null ],
+      [ "Sample Output", "EXAMPLES_SDL_CCM.html#autotoc_md3800", null ]
     ] ],
     [ "SDL STC Example", "EXAMPLES_SDL_STC.html", [
-      [ "Introduction", "EXAMPLES_SDL_STC.html#autotoc_md3796", [
-        [ "Use Cases", "EXAMPLES_SDL_STC.html#autotoc_md3797", null ]
+      [ "Introduction", "EXAMPLES_SDL_STC.html#autotoc_md3801", [
+        [ "Use Cases", "EXAMPLES_SDL_STC.html#autotoc_md3802", null ]
       ] ],
       [ "Supported Combinations", "EXAMPLES_SDL_STC.html#EXAMPLES_SDL_STC_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_SDL_STC.html#autotoc_md3798", null ],
-      [ "See Also", "EXAMPLES_SDL_STC.html#autotoc_md3799", null ],
-      [ "Sample Output", "EXAMPLES_SDL_STC.html#autotoc_md3800", null ]
+      [ "Steps to Run the Example", "EXAMPLES_SDL_STC.html#autotoc_md3803", null ],
+      [ "See Also", "EXAMPLES_SDL_STC.html#autotoc_md3804", null ],
+      [ "Sample Output", "EXAMPLES_SDL_STC.html#autotoc_md3805", null ]
     ] ],
     [ "SDL ECC BUS SAFETY", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html", [
-      [ "Introduction", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html#autotoc_md3801", null ],
-      [ "Note", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html#autotoc_md3802", [
-        [ "Use Cases On AM263X in R5 Core", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html#autotoc_md3803", null ],
-        [ "Use Cases On AM263PX in R5 Core", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html#autotoc_md3804", null ],
-        [ "Use Cases On AM273X in R5 Core", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html#autotoc_md3805", null ],
-        [ "Use Cases On AWR294X in R5 Core", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html#autotoc_md3806", null ],
-        [ "Use Cases On AWR294X in C66 Core", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html#autotoc_md3807", null ],
-        [ "Use Cases On AM273X in C66 Core", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html#autotoc_md3808", null ]
+      [ "Introduction", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html#autotoc_md3806", null ],
+      [ "Note", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html#autotoc_md3807", [
+        [ "Use Cases On AM263X in R5 Core", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html#autotoc_md3808", null ],
+        [ "Use Cases On AM263PX in R5 Core", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html#autotoc_md3809", null ],
+        [ "Use Cases On AM273X in R5 Core", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html#autotoc_md3810", null ],
+        [ "Use Cases On AWR294X in R5 Core", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html#autotoc_md3811", null ],
+        [ "Use Cases On AWR294X in C66 Core", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html#autotoc_md3812", null ],
+        [ "Use Cases On AM273X in C66 Core", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html#autotoc_md3813", null ]
       ] ],
       [ "Supported Combinations", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html#EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html#autotoc_md3809", null ],
-      [ "See Also", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html#autotoc_md3810", null ],
-      [ "Sample Output", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html#autotoc_md3811", null ]
+      [ "Steps to Run the Example", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html#autotoc_md3814", null ],
+      [ "See Also", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html#autotoc_md3815", null ],
+      [ "Sample Output", "EXAMPLES_SDL_ECC_BUS_SAFETY_MAIN.html#autotoc_md3816", null ]
     ] ],
     [ "SDL ECC TCM", "EXAMPLES_SDL_TCM_PARITY.html", [
-      [ "Introduction", "EXAMPLES_SDL_TCM_PARITY.html#autotoc_md3812", null ],
+      [ "Introduction", "EXAMPLES_SDL_TCM_PARITY.html#autotoc_md3817", null ],
       [ "Supported Combinations", "EXAMPLES_SDL_TCM_PARITY.html#EXAMPLES_SDL_TCM_PARITY_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_SDL_TCM_PARITY.html#autotoc_md3813", null ],
-      [ "See Also", "EXAMPLES_SDL_TCM_PARITY.html#autotoc_md3814", null ],
-      [ "Sample Output", "EXAMPLES_SDL_TCM_PARITY.html#autotoc_md3815", null ]
+      [ "Steps to Run the Example", "EXAMPLES_SDL_TCM_PARITY.html#autotoc_md3818", null ],
+      [ "See Also", "EXAMPLES_SDL_TCM_PARITY.html#autotoc_md3819", null ],
+      [ "Sample Output", "EXAMPLES_SDL_TCM_PARITY.html#autotoc_md3820", null ]
     ] ],
     [ "SDL ECC DMA", "EXAMPLES_SDL_DMA_PARITY.html", [
-      [ "Introduction", "EXAMPLES_SDL_DMA_PARITY.html#autotoc_md3816", null ],
+      [ "Introduction", "EXAMPLES_SDL_DMA_PARITY.html#autotoc_md3821", null ],
       [ "Supported Combinations", "EXAMPLES_SDL_DMA_PARITY.html#EXAMPLES_SDL_DMA_PARITY_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_SDL_DMA_PARITY.html#autotoc_md3817", null ],
-      [ "See Also", "EXAMPLES_SDL_DMA_PARITY.html#autotoc_md3818", null ],
-      [ "Sample Output", "EXAMPLES_SDL_DMA_PARITY.html#autotoc_md3819", null ]
+      [ "Steps to Run the Example", "EXAMPLES_SDL_DMA_PARITY.html#autotoc_md3822", null ],
+      [ "See Also", "EXAMPLES_SDL_DMA_PARITY.html#autotoc_md3823", null ],
+      [ "Sample Output", "EXAMPLES_SDL_DMA_PARITY.html#autotoc_md3824", null ]
     ] ],
     [ "SDL R5FCPU_UTILS Example", "EXAMPLES_SDL_R5F_CPU_STATIC_REGISTER.html", [
-      [ "Introduction", "EXAMPLES_SDL_R5F_CPU_STATIC_REGISTER.html#autotoc_md3820", [
-        [ "Use Cases", "EXAMPLES_SDL_R5F_CPU_STATIC_REGISTER.html#autotoc_md3821", null ]
+      [ "Introduction", "EXAMPLES_SDL_R5F_CPU_STATIC_REGISTER.html#autotoc_md3825", [
+        [ "Use Cases", "EXAMPLES_SDL_R5F_CPU_STATIC_REGISTER.html#autotoc_md3826", null ]
       ] ],
       [ "Supported Combinations", "EXAMPLES_SDL_R5F_CPU_STATIC_REGISTER.html#EXAMPLES_SDL_RESET_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_SDL_R5F_CPU_STATIC_REGISTER.html#autotoc_md3822", null ],
-      [ "See Also", "EXAMPLES_SDL_R5F_CPU_STATIC_REGISTER.html#autotoc_md3823", null ],
-      [ "Sample Output", "EXAMPLES_SDL_R5F_CPU_STATIC_REGISTER.html#autotoc_md3824", null ]
+      [ "Steps to Run the Example", "EXAMPLES_SDL_R5F_CPU_STATIC_REGISTER.html#autotoc_md3827", null ],
+      [ "See Also", "EXAMPLES_SDL_R5F_CPU_STATIC_REGISTER.html#autotoc_md3828", null ],
+      [ "Sample Output", "EXAMPLES_SDL_R5F_CPU_STATIC_REGISTER.html#autotoc_md3829", null ]
     ] ],
     [ "SDL INTEGRATED MCAN EXAMPLE", "EXAMPLES_SDL_INTEGRATED_MCAN.html", [
       [ "Introduction", "EXAMPLES_SDL_INTEGRATED_MCAN.html#EXAMPLES_SDL_MCAN_INTRO", null ],
       [ "Overview", "EXAMPLES_SDL_INTEGRATED_MCAN.html#EXAMPLES_SDL_MCAN_OVERVIEW", null ],
-      [ "SDL Diagnostics", "EXAMPLES_SDL_INTEGRATED_MCAN.html#autotoc_md3778", [
+      [ "SDL Diagnostics", "EXAMPLES_SDL_INTEGRATED_MCAN.html#autotoc_md3783", [
         [ "Common ESM", "EXAMPLES_SDL_INTEGRATED_MCAN.html#EXAMPLES_SDL_MCAN_COMMONESM", null ]
       ] ],
       [ "FreeRTOS Tasks", "EXAMPLES_SDL_INTEGRATED_MCAN.html#EXAMPLES_SDL_MCAN_FREERTOSTASKS", null ],
@@ -217,8 +217,17 @@ var EXAMPLES_SDL =
       ] ],
       [ "Supported Combinations", "EXAMPLES_SDL_INTEGRATED_MCAN.html#EXAMPLES_SDL_MCAN_COMBOS", null ],
       [ "Steps to Run the Example", "EXAMPLES_SDL_INTEGRATED_MCAN.html#EXAMPLES_SDL_MCAN_STEPSTORUN", null ],
-      [ "Steps to Test the Example", "EXAMPLES_SDL_INTEGRATED_MCAN.html#autotoc_md3779", null ],
+      [ "Steps to Test the Example", "EXAMPLES_SDL_INTEGRATED_MCAN.html#autotoc_md3784", null ],
       [ "See Also", "EXAMPLES_SDL_INTEGRATED_MCAN.html#EXAMPLES_SDL_MCAN_SEEALSO", null ],
       [ "Sample Output", "EXAMPLES_SDL_INTEGRATED_MCAN.html#EXAMPLES_SDL_MCAN_SAMPLEOUT", null ]
+    ] ],
+    [ "SDL ECC EDMA SRAM Scrub", "EXAMPLES_SDL_ECC_EDMA_SRAM_SCRUB.html", [
+      [ "Introduction", "EXAMPLES_SDL_ECC_EDMA_SRAM_SCRUB.html#autotoc_md3768", [
+        [ "Use Cases", "EXAMPLES_SDL_ECC_EDMA_SRAM_SCRUB.html#autotoc_md3769", null ]
+      ] ],
+      [ "Supported Combinations", "EXAMPLES_SDL_ECC_EDMA_SRAM_SCRUB.html#EXAMPLES_SDL_ECC_EDMA_SRAM_SCRUB_COMBOS", null ],
+      [ "Steps to Run the Example", "EXAMPLES_SDL_ECC_EDMA_SRAM_SCRUB.html#autotoc_md3770", null ],
+      [ "See Also", "EXAMPLES_SDL_ECC_EDMA_SRAM_SCRUB.html#autotoc_md3771", null ],
+      [ "Sample Output", "EXAMPLES_SDL_ECC_EDMA_SRAM_SCRUB.html#autotoc_md3772", null ]
     ] ]
 ];

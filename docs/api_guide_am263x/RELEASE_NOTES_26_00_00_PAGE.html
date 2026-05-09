@@ -163,18 +163,20 @@ New in this Release</h1>
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Feature  </th><th class="markdownTableHeadNone">Module   </th></tr>
 <tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://www.ti.com/lit/fs/sffs714b/sffs714b.pdf?ts=1778236283450&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526nr%253D233%2526searchTerm%253DTUV+Certificate+AM263x+SDL">TUV Functional Safety certification received for SDL</a>  </td><td class="markdownTableBodyNone">SDL   </td></tr>
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">I2C DMA transfer support with driver and example  </td><td class="markdownTableBodyNone">I2C   </td></tr>
-<tr class="markdownTableRowEven">
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">Configurable SBL restricted memory region  </td><td class="markdownTableBodyNone">SBL   </td></tr>
-<tr class="markdownTableRowOdd">
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">Feature Extraction library for AI applications  </td><td class="markdownTableBodyNone">AI   </td></tr>
-<tr class="markdownTableRowEven">
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">AI Examples: Arc fault detection, Motor fault detection, Time series classification/regression  </td><td class="markdownTableBodyNone">AI   </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Sensor BoosterPack integration for Edge AI  </td><td class="markdownTableBodyNone">AI   </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">Device Agent Protocol (DAP) for Edge AI Studio communication  </td><td class="markdownTableBodyNone">AI   </td></tr>
+<td class="markdownTableBodyNone">Sensor BoosterPack integration for Edge AI  </td><td class="markdownTableBodyNone">AI   </td></tr>
 <tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Device Agent Protocol (DAP) for Edge AI Studio communication  </td><td class="markdownTableBodyNone">AI   </td></tr>
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">Baremetal Layer-2 packet transfer and reception example  </td><td class="markdownTableBodyNone">Networking   </td></tr>
 </table>
 <h1><a class="anchor" id="autotoc_md503"></a>
@@ -563,9 +565,9 @@ Errata</h1>
 <tr>
 <td>i2405 </td><td>CONTROLSS: Race condition OUTPUT_XBAR and PWM_XBAR resulting in event miss </td><td>XBAR </td><td>Open  </td></tr>
 <tr>
-<td>i2427 </td><td>SDL: RAM SEC can cause spurious RAM writes resulting in L2 and MBOX memory corruption </td><td>ECC </td><td>Workaround added as an example in examples/sdl/ecc/  </td></tr>
+<td>i2427 </td><td>SDL: RAM SEC can cause spurious RAM writes resulting in L2 and MBOX memory corruption </td><td>ECC </td><td>Workaround added as an example in examples/sdl/ecc/ (EDMA case only; PRU fix is ongoing)  </td></tr>
 <tr>
-<td>i2499 </td><td>SDL: Incorrect data returned to master on single error detection during burst read </td><td>ECC </td><td>Workaround added as an example in examples/sdl/ecc/  </td></tr>
+<td>i2499 </td><td>SDL: Incorrect data returned to master on single error detection during burst read </td><td>ECC </td><td>Workaround added as an example in examples/sdl/ecc/ (EDMA case only; PRU fix is ongoing)  </td></tr>
 </table>
 <h1><a class="anchor" id="autotoc_md519"></a>
 Limitations</h1>
