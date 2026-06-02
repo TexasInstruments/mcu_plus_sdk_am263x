@@ -1,5 +1,15 @@
 var NAVTREEINDEX55 =
 {
+"group__timer.html#ga2826f4864b932c694d45d64fff5102c6":[17,11,6,1],
+"group__timer.html#ga42ce80dead4deeb356394368066d1227":[17,11,6,2],
+"group__timer.html#ga5033f179ace7eacd191754d878aa6c84":[17,11,6,4],
+"group__timer.html#ga5aad065cd95eab1e7c7068e2ab71b31f":[17,11,6,7],
+"group__timer.html#ga5cebb700978485aa9967e949d3957df8":[17,11,6,9],
+"group__timer.html#ga7e3e5c8b972b0324b077b3772fb4b22c":[17,11,6,6],
+"group__timer.html#gaabc1fbd82ba55d3392bd2bf00e2ee4b4":[17,11,6,3],
+"group__timer.html#gadeb4934af856a779b604dadda61a35aa":[17,11,6,8],
+"group__timer.html#gafb4ddbfe676f1235b47994ce18951199":[17,11,6,10],
+"group__timer.html#gga0a4ba5c04c09fd739d06e31b447c2ce3a788aabc9cb13df9f358d0de0201821aa":[17,11,6,5,0],
 "group__timer.html#gga0a4ba5c04c09fd739d06e31b447c2ce3a85a011c4aa157d832729103aa6429be4":[17,11,6,5,1],
 "group__timer.html#gga0a4ba5c04c09fd739d06e31b447c2ce3adffa1f2d764d43c26eccc96a89aeab11":[17,11,6,5,2],
 "group__unibase.html":[17,10,5],
@@ -119,8 +129,8 @@ var NAVTREEINDEX55 =
 "group__xtimer.html#gabc716d68e28b749deb531c1a4bd49742":[17,11,7,3],
 "group__xtimer.html#gad69eb8f53037632c4cdefb4ba1c19e3b":[17,11,7,17],
 "group__xtimer.html#gae4233d0f78b7d372c7802ef76ad4784a":[17,11,7,15],
-"index.html":[],
 "index.html":[0],
+"index.html":[],
 "index.html#MIGRATION_INFORMATION":[0,1],
 "index.html#autotoc_md0":[0,0],
 "index.html#autotoc_md1":[0,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX55 =
 "structCANFD__MCANECCErrStatus.html#a729e5627dfc52769ebe002cff8f3278f":[17,7,2,10,2],
 "structCANFD__MCANECCErrStatus.html#a7451364795c4285a74b08e1131e6759f":[17,7,2,10,4],
 "structCANFD__MCANErrCntStatus.html":[17,7,2,7],
-"structCANFD__MCANErrCntStatus.html#a4beb72be3c246c1a255125309560fd33":[17,7,2,7,3],
-"structCANFD__MCANErrCntStatus.html#aa639651ffa923561145cf62c758dd732":[17,7,2,7,2],
-"structCANFD__MCANErrCntStatus.html#ad70e9c89629fa729773948e6d961925e":[17,7,2,7,1],
-"structCANFD__MCANErrCntStatus.html#af75a35934d11912843413da722aa1195":[17,7,2,7,0],
-"structCANFD__MCANGlobalFiltConfig.html":[17,7,2,4],
-"structCANFD__MCANGlobalFiltConfig.html#a2618c87d68d9f84bfe749ce039c67e19":[17,7,2,4,0],
-"structCANFD__MCANGlobalFiltConfig.html#a94bf5cd05656f477485d026a54eeb5d7":[17,7,2,4,1],
-"structCANFD__MCANGlobalFiltConfig.html#aa4eac76fe0647642bee44cf159592c2d":[17,7,2,4,3],
-"structCANFD__MCANGlobalFiltConfig.html#aa6c15be4c28519c7b04377c2ee569fd1":[17,7,2,4,2],
-"structCANFD__MCANLoopbackCfgParams.html":[17,7,2,1],
-"structCANFD__MCANLoopbackCfgParams.html#a6adc0def361017e514d3141f8f13fd30":[17,7,2,1,0]
+"structCANFD__MCANErrCntStatus.html#a4beb72be3c246c1a255125309560fd33":[17,7,2,7,3]
 };

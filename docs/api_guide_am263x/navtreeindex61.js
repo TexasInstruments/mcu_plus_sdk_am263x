@@ -1,5 +1,15 @@
 var NAVTREEINDEX61 =
 {
+"structEnetMacPort__SetPreemptMinFragSizeInArgs.html#a22db3b452689ae92acea45e88430dc7f":[17,4,0,3,10,1],
+"structEnetMacPort__SetPreemptMinFragSizeInArgs.html#ab59cc41e23dae9952670b35417a555ff":[17,4,0,3,10,0],
+"structEnetMacPort__SetPreemptQueueInArgs.html":[17,4,0,3,12],
+"structEnetMacPort__SetPreemptQueueInArgs.html#a11eb77230bea6b3df95eac0fea70fbb0":[17,4,0,3,12,1],
+"structEnetMacPort__SetPreemptQueueInArgs.html#a3de150e85834178fa587963ba460aded":[17,4,0,3,12,0],
+"structEnetMacPort__SetPriorityRegenMapInArgs.html":[17,4,0,3,5],
+"structEnetMacPort__SetPriorityRegenMapInArgs.html#ad0199e6e73b37d0279b9fdc3276fbe66":[17,4,0,3,5,0],
+"structEnetMacPort__SetPriorityRegenMapInArgs.html#ae2b540beda1c8b05f867919c3ee1b39f":[17,4,0,3,5,1],
+"structEnetMdio__C22ReadInArgs.html":[17,4,0,5,1],
+"structEnetMdio__C22ReadInArgs.html#a6d9e4501c562910f16e7f3530150f45a":[17,4,0,5,1,2],
 "structEnetMdio__C22ReadInArgs.html#a93ebffc525b608376b1be1a26c8438f0":[17,4,0,5,1,1],
 "structEnetMdio__C22ReadInArgs.html#ada320e4bdcfe4eebb176e7222f106701":[17,4,0,5,1,0],
 "structEnetMdio__C22WriteInArgs.html":[17,4,0,5,3],
@@ -239,15 +249,5 @@ var NAVTREEINDEX61 =
 "structFlash__Attrs.html#a0739ae1cced960468b78744a35959098":[17,1,1,4,11],
 "structFlash__Attrs.html#a36c227118f5cc35e681ab38b5c59e3b9":[17,1,1,4,0],
 "structFlash__Attrs.html#a488a47053e290feeda9e97c34f67953a":[17,1,1,4,2],
-"structFlash__Attrs.html#a5a30388ace38b4558c3f6a4e97bd6f47":[17,1,1,4,9],
-"structFlash__Attrs.html#a5cfc97971673e73d889b25eafb805392":[17,1,1,4,10],
-"structFlash__Attrs.html#a62a68cd8a1a760ac5aedfe3d63333c8f":[17,1,1,4,5],
-"structFlash__Attrs.html#a6368a95e532743116b74afe277349046":[17,1,1,4,6],
-"structFlash__Attrs.html#a7e718278a35ca3fd2cdcf3c2949ad20a":[17,1,1,4,12],
-"structFlash__Attrs.html#acf6f50dad133fc501c253b82cfca767e":[17,1,1,4,4],
-"structFlash__Attrs.html#ae34fe8eae89a35ae61efc0d411762fa2":[17,1,1,4,1],
-"structFlash__Attrs.html#ae7e54e4ecf4cf409e3bdc469f8066f93":[17,1,1,4,7],
-"structFlash__Attrs.html#afb39b0edffaea99a900530066d6bb2f9":[17,1,1,4,8],
-"structFlash__Attrs.html#afbf10107b2ef425512e4cfa7125aafdb":[17,1,1,4,3],
-"structFlash__Attrs.html#aff4d7214894937b329a7a36a24fcabce":[17,1,1,4,13]
+"structFlash__Attrs.html#a5a30388ace38b4558c3f6a4e97bd6f47":[17,1,1,4,9]
 };

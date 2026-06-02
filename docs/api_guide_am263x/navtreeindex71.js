@@ -1,5 +1,15 @@
 var NAVTREEINDEX71 =
 {
+"structUInteger112.html#a0900508237d30197786c7eb9c529e5ac":[17,9,0,6,5],
+"structUInteger112.html#a17e155f5d1874237b7473e33fd69c78e":[17,9,0,6,4],
+"structUInteger112.html#a36df15a58cf9a36458f1a3e85afc2956":[17,9,0,6,3],
+"structUInteger112.html#a478744e20bb0edfce2d0a34280a20598":[17,9,0,6,0],
+"structUInteger112.html#aa41ba127337f874a86fe2120c9ea91d4":[17,9,0,6,1],
+"structUInteger112.html#aead42242112e44c252c1ffe05086b37d":[17,9,0,6,2],
+"structUInteger224.html":[17,9,0,7],
+"structUInteger224.html#a29f985e953bfe511343f32d6e819ca67":[17,9,0,7,3],
+"structUInteger224.html#a3d4787e8fe8f2e2a3ffd072478a6420c":[17,9,0,7,0],
+"structUInteger224.html#acb8afac970714b4b1e61c1053b2fcc43":[17,9,0,7,1],
 "structUInteger224.html#afc8219b259fe642945e76ea5012deeff":[17,9,0,7,2],
 "structUInteger48.html":[17,9,0,4],
 "structUInteger48.html#aa2f9cde14011edbceae4daf5189eafa1":[17,9,0,4,1],

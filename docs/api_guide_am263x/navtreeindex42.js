@@ -1,5 +1,15 @@
 var NAVTREEINDEX42 =
 {
+"group__DRV__SOC__MODULE.html#ga246b6267989d9184ef3abf683cb305fa":[17,7,38,52],
+"group__DRV__SOC__MODULE.html#ga26e5e1387a89275151cbba9489b24452":[17,7,38,6],
+"group__DRV__SOC__MODULE.html#ga27ea1589a062cf65281e0854f5f706d1":[17,7,38,73],
+"group__DRV__SOC__MODULE.html#ga2830abb64f4f9a91ef77032e063b9418":[17,7,38,75],
+"group__DRV__SOC__MODULE.html#ga2e5a8330d09a41e70141dc4784f5c191":[17,7,38,31],
+"group__DRV__SOC__MODULE.html#ga33bb19e70642cf4aa8bfab89b52b49d6":[17,7,38,19],
+"group__DRV__SOC__MODULE.html#ga384a33b7bb9706de609f378fa259423a":[17,7,38,29],
+"group__DRV__SOC__MODULE.html#ga38a189038389b315104384f5d591cae8":[17,7,38,20],
+"group__DRV__SOC__MODULE.html#ga3d169293015dbfab92d8147d889c76c3":[17,7,38,74],
+"group__DRV__SOC__MODULE.html#ga40bb8a42552512d33f1908a67ba79840":[17,7,38,34],
 "group__DRV__SOC__MODULE.html#ga4bf51ee5eeab943f16b4243041534e52":[17,7,38,50],
 "group__DRV__SOC__MODULE.html#ga505aad31b6ceebd83d53e9968243c890":[17,7,38,25],
 "group__DRV__SOC__MODULE.html#ga52b1cc633a86a2bb7c96cd6f16b8e6d6":[17,7,38,65],
@@ -239,15 +249,5 @@ var NAVTREEINDEX42 =
 "group__DRV__SOC__XBAR__MODULE.html#ga6a993dc0972c86300332e34fa32611ef":[17,7,38,1,18],
 "group__DRV__SOC__XBAR__MODULE.html#ga6bde975d1147b13376a3efaf39939b97":[17,7,38,1,10],
 "group__DRV__SOC__XBAR__MODULE.html#ga6e7735b186a6b301b99602df45af4c05":[17,7,38,1,26],
-"group__DRV__SOC__XBAR__MODULE.html#ga8caf027a7bbf2e4ac0e3c1000f7ac60c":[17,7,38,1,31],
-"group__DRV__SOC__XBAR__MODULE.html#ga8def982ecb02197965f213aa6525f649":[17,7,38,1,2],
-"group__DRV__SOC__XBAR__MODULE.html#ga928f7f449cec7957860aee0e885a47cd":[17,7,38,1,11],
-"group__DRV__SOC__XBAR__MODULE.html#ga97628484ae59e2f091cb9c8645db2f02":[17,7,38,1,29],
-"group__DRV__SOC__XBAR__MODULE.html#ga9c6736ada92f140400100cb02ab22af8":[17,7,38,1,30],
-"group__DRV__SOC__XBAR__MODULE.html#ga9dea5941de85094c9889bc1df241b67e":[17,7,38,1,22],
-"group__DRV__SOC__XBAR__MODULE.html#gaa57e28a7153f30e811a2fc1340a0bf61":[17,7,38,1,20],
-"group__DRV__SOC__XBAR__MODULE.html#gaace488983821bcee0e8d41f6c6b659e3":[17,7,38,1,12],
-"group__DRV__SOC__XBAR__MODULE.html#gaad753677ce1bb768961fedd511c5a834":[17,7,38,1,8],
-"group__DRV__SOC__XBAR__MODULE.html#gabac0e46886c495bf63cfc7bfaea5b6c3":[17,7,38,1,16],
-"group__DRV__SOC__XBAR__MODULE.html#gabb1432ac16e6db1b519e7bc94dce2798":[17,7,38,1,19]
+"group__DRV__SOC__XBAR__MODULE.html#ga8caf027a7bbf2e4ac0e3c1000f7ac60c":[17,7,38,1,31]
 };

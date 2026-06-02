@@ -173,12 +173,12 @@ var DRIVERS_PAGE =
       [ "API", "DRIVERS_SIPC_NOTIFY_PAGE.html#autotoc_md1184", null ]
     ] ],
     [ "SOC", "DRIVERS_SOC_PAGE.html", [
-      [ "Features Supported", "DRIVERS_SOC_PAGE.html#autotoc_md1361", null ],
-      [ "SysConfig Features", "DRIVERS_SOC_PAGE.html#autotoc_md1362", null ],
-      [ "Features NOT Supported", "DRIVERS_SOC_PAGE.html#autotoc_md1363", null ],
-      [ "Important Usage Guidelines", "DRIVERS_SOC_PAGE.html#autotoc_md1364", null ],
-      [ "Example Usage", "DRIVERS_SOC_PAGE.html#autotoc_md1365", null ],
-      [ "API", "DRIVERS_SOC_PAGE.html#autotoc_md1366", null ]
+      [ "Features Supported", "DRIVERS_SOC_PAGE.html#autotoc_md1369", null ],
+      [ "SysConfig Features", "DRIVERS_SOC_PAGE.html#autotoc_md1370", null ],
+      [ "Features NOT Supported", "DRIVERS_SOC_PAGE.html#autotoc_md1371", null ],
+      [ "Important Usage Guidelines", "DRIVERS_SOC_PAGE.html#autotoc_md1372", null ],
+      [ "Example Usage", "DRIVERS_SOC_PAGE.html#autotoc_md1373", null ],
+      [ "API", "DRIVERS_SOC_PAGE.html#autotoc_md1374", null ]
     ] ],
     [ "SPINLOCK", "DRIVERS_SPINLOCK_PAGE.html", [
       [ "Features Supported", "DRIVERS_SPINLOCK_PAGE.html#autotoc_md1328", null ],
@@ -190,11 +190,11 @@ var DRIVERS_PAGE =
     ] ],
     [ "UART", "DRIVERS_UART_PAGE.html", "DRIVERS_UART_PAGE" ],
     [ "WATCHDOG", "DRIVERS_WATCHDOG_PAGE.html", [
-      [ "Features Supported", "DRIVERS_WATCHDOG_PAGE.html#autotoc_md1355", null ],
-      [ "SysConfig Features", "DRIVERS_WATCHDOG_PAGE.html#autotoc_md1356", null ],
-      [ "Features NOT Supported", "DRIVERS_WATCHDOG_PAGE.html#autotoc_md1357", null ],
-      [ "Important Usage Guidelines", "DRIVERS_WATCHDOG_PAGE.html#autotoc_md1358", null ],
-      [ "Example Usage", "DRIVERS_WATCHDOG_PAGE.html#autotoc_md1359", null ],
-      [ "API", "DRIVERS_WATCHDOG_PAGE.html#autotoc_md1360", null ]
+      [ "Features Supported", "DRIVERS_WATCHDOG_PAGE.html#autotoc_md1363", null ],
+      [ "SysConfig Features", "DRIVERS_WATCHDOG_PAGE.html#autotoc_md1364", null ],
+      [ "Features NOT Supported", "DRIVERS_WATCHDOG_PAGE.html#autotoc_md1365", null ],
+      [ "Important Usage Guidelines", "DRIVERS_WATCHDOG_PAGE.html#autotoc_md1366", null ],
+      [ "Example Usage", "DRIVERS_WATCHDOG_PAGE.html#autotoc_md1367", null ],
+      [ "API", "DRIVERS_WATCHDOG_PAGE.html#autotoc_md1368", null ]
     ] ]
 ];

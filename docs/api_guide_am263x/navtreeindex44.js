@@ -1,5 +1,15 @@
 var NAVTREEINDEX44 =
 {
+"group__ENETPHY__DP83822.html#gae63a612953994cedc75ad79766669963":[17,4,0,13,1,1],
+"group__ENETPHY__DP83826.html":[17,4,0,13,2],
+"group__ENETPHY__DP83826.html#ga56c3b33812b542a7a9733368d4497b28":[17,4,0,13,2,3],
+"group__ENETPHY__DP83826.html#ga59b91d618e0adfe95a67d4ac70fc8c8a":[17,4,0,13,2,2],
+"group__ENETPHY__DP83826.html#ga78387c2b2975f3e7219cfc11395a7b98":[17,4,0,13,2,4],
+"group__ENETPHY__DP83826.html#gae2bbff63556e7284a15155eccaaf41bd":[17,4,0,13,2,6],
+"group__ENETPHY__DP83826.html#gae39a4e6492e1da2eeba4eb9edd981496":[17,4,0,13,2,5],
+"group__ENETPHY__DP83826.html#gaeea41c39889777db5927a4fc3afbc2bf":[17,4,0,13,2,1],
+"group__ENETPHY__DP83867.html":[17,4,0,13,3],
+"group__ENETPHY__DP83867.html#ga25861afdc22d78df216771a6f9cb3538":[17,4,0,13,3,8],
 "group__ENETPHY__DP83867.html#ga304aac6fd8cf554d7c01fd8e8a659e66":[17,4,0,13,3,5],
 "group__ENETPHY__DP83867.html#ga468c40996e9ce12162624c563e87b0da":[17,4,0,13,3,2],
 "group__ENETPHY__DP83867.html#ga640d9279e9396845779aec388d54994a":[17,4,0,13,3,6],
@@ -239,15 +249,5 @@ var NAVTREEINDEX44 =
 "group__ENET__CPDMA__API.html#ga6a35e23def97939896888e2a607ad83f":[17,4,0,0,0,15],
 "group__ENET__CPDMA__API.html#ga6dafefe8d28e0aa4c1fc8bde1adcc671":[17,4,0,0,0,24],
 "group__ENET__CPDMA__API.html#ga6e2e6f72183fd659241736babdb16f88":[17,4,0,0,0,10],
-"group__ENET__CPDMA__API.html#ga7026df431ba3b46de694861ed05b5fc3":[17,4,0,0,0,5],
-"group__ENET__CPDMA__API.html#ga7b59f40adb12038d1048c730c7511cb6":[17,4,0,0,0,25],
-"group__ENET__CPDMA__API.html#ga9bc151e9a28f27eee8885a1a5dfe40e3":[17,4,0,0,0,19],
-"group__ENET__CPDMA__API.html#gaab7b04d374e407b5625d598bf8b51814":[17,4,0,0,0,7],
-"group__ENET__CPDMA__API.html#gab2c3c8aeec9462225f72f16f4442a08b":[17,4,0,0,0,11],
-"group__ENET__CPDMA__API.html#gaba6c000019a0221ba4f46ce030c15663":[17,4,0,0,0,13],
-"group__ENET__CPDMA__API.html#gac08045040149b7605ae86a618c7f8889":[17,4,0,0,0,28],
-"group__ENET__CPDMA__API.html#gacb42d82f70cbee0e019d6a49e9dded8e":[17,4,0,0,0,9],
-"group__ENET__CPDMA__API.html#gacc9aa8af2dffe665c06df5b01d11f841":[17,4,0,0,0,26],
-"group__ENET__CPDMA__API.html#gacdb136fa24c2c62608132dca6d52dad3":[17,4,0,0,0,2],
-"group__ENET__CPDMA__API.html#gad0677edcfeda4493259234023cd74d92":[17,4,0,0,0,27]
+"group__ENET__CPDMA__API.html#ga7026df431ba3b46de694861ed05b5fc3":[17,4,0,0,0,5]
 };

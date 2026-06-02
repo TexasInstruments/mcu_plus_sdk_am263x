@@ -1,5 +1,14 @@
 var NAVTREEINDEX27 =
 {
+"group__DRV__EDMA__MODULE.html#gae2e37ea055fcd1f01d3922eb941e5a06":[17,7,6,111],
+"group__DRV__EDMA__MODULE.html#gae5e357650420c74e42bdc9d5a6d7374e":[17,7,6,115],
+"group__DRV__EDMA__MODULE.html#gae68dd5f1fa91049f7bd94971ee0c5b29":[17,7,6,92],
+"group__DRV__EDMA__MODULE.html#gae84b089a648532d026c3158c8b18f4de":[17,7,6,85],
+"group__DRV__EDMA__MODULE.html#gae9a020b1d3ab24ba2519faeb303b0be1":[17,7,6,44],
+"group__DRV__EDMA__MODULE.html#gaec579b9c0f4e15413e7335e241f1ce25":[17,7,6,52],
+"group__DRV__EDMA__MODULE.html#gaed925f0e27ce17d32c26b78191644dc2":[17,7,6,89],
+"group__DRV__EDMA__MODULE.html#gaf1c709d18d2331b1bd4f1f9b729e190b":[17,7,6,67],
+"group__DRV__EDMA__MODULE.html#gaf2b2f116e7d307057023720a4231697f":[17,7,6,152],
 "group__DRV__EDMA__MODULE.html#gaf51dc3f1625a8c9ca1374b96256b3dbc":[17,7,6,144],
 "group__DRV__EDMA__MODULE.html#gaf5f04878bbcfb29b84ebec850d9f2de0":[17,7,6,63],
 "group__DRV__EDMA__MODULE.html#gafb4a94e2fdf94ba73de9c2bb78b180c9":[17,7,6,51],
@@ -240,14 +249,5 @@ var NAVTREEINDEX27 =
 "group__DRV__ENET__ICSSG.html#gae181a5246e3648c0dff95cdd90ed8878":[17,4,0,6,1,108],
 "group__DRV__ENET__ICSSG.html#gae20d3b1b66ffd7b75acb7481b7a797f8":[17,4,0,6,1,26],
 "group__DRV__ENET__ICSSG.html#gae4d73398f23eb6dd6e84c45438fde7fc":[17,4,0,6,1,73],
-"group__DRV__ENET__ICSSG.html#gae51cfb5d8c9ea2a007916997e2dc9cc7":[17,4,0,6,1,39],
-"group__DRV__ENET__ICSSG.html#gae566f71c8b17f1f8bd0a99c2805edf98":[17,4,0,6,1,128],
-"group__DRV__ENET__ICSSG.html#gae74fa9b9ca9208e02fcf606e98a53f98":[17,4,0,6,1,123],
-"group__DRV__ENET__ICSSG.html#gae965be7af131d1fe1faec833e09b5588":[17,4,0,6,1,117],
-"group__DRV__ENET__ICSSG.html#gaebe7a112026e8cec2af9c91f0f6db876":[17,4,0,6,1,63],
-"group__DRV__ENET__ICSSG.html#gaec4c673d652747a072a8358d94198e3f":[17,4,0,6,1,55],
-"group__DRV__ENET__ICSSG.html#gaed11c002a4031954b3446ef15fad9aaf":[17,4,0,6,1,80],
-"group__DRV__ENET__ICSSG.html#gaf70332779a14ad506288283116114709":[17,4,0,6,1,144],
-"group__DRV__ENET__ICSSG.html#gaf7c590dc17e36de981bb712b10e7948a":[17,4,0,6,1,124],
-"group__DRV__ENET__ICSSG.html#gaf8c26a72c4f15fc8776297ad1eca1e89":[17,4,0,6,1,141]
+"group__DRV__ENET__ICSSG.html#gae51cfb5d8c9ea2a007916997e2dc9cc7":[17,4,0,6,1,39]
 };
