@@ -92,29 +92,29 @@ $(document).ready(function(){initNavTree('enetlld_performance.html',''); initRes
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md1558">Introduction</a></li>
-<li class="level1"><a href="#autotoc_md1559">Setup Details</a></li>
-<li class="level1"><a href="#autotoc_md1560">Layer 2 Performance</a><ul><li class="level2"><a href="#autotoc_md1561">Configuration Details</a></li>
-<li class="level2"><a href="#autotoc_md1562">Layer 2 Latency</a></li>
-<li class="level2"><a href="#autotoc_md1563">Layer 2 Throughput</a></li>
+<ul><li class="level1"><a href="#autotoc_md1601">Introduction</a></li>
+<li class="level1"><a href="#autotoc_md1602">Setup Details</a></li>
+<li class="level1"><a href="#autotoc_md1603">Layer 2 Performance</a><ul><li class="level2"><a href="#autotoc_md1604">Configuration Details</a></li>
+<li class="level2"><a href="#autotoc_md1605">Layer 2 Latency</a></li>
+<li class="level2"><a href="#autotoc_md1606">Layer 2 Throughput</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md1564">TCP/IP Performance</a><ul><li class="level2"><a href="#autotoc_md1565">Configuration Details</a><ul><li class="level3"><a href="#autotoc_md1566">TCP Throughput</a></li>
-<li class="level3"><a href="#autotoc_md1567">UDP Throughput</a></li>
+<li class="level1"><a href="#autotoc_md1607">TCP/IP Performance</a><ul><li class="level2"><a href="#autotoc_md1608">Configuration Details</a><ul><li class="level3"><a href="#autotoc_md1609">TCP Throughput</a></li>
+<li class="level3"><a href="#autotoc_md1610">UDP Throughput</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md1568">Ether-Ring Performance</a></li>
-<li class="level1"><a href="#autotoc_md1569">Ether-Ring Round Trip Latency with CAN(Vehicle) traffic</a></li>
-<li class="level1"><a href="#autotoc_md1570">See Also</a></li>
+<li class="level1"><a href="#autotoc_md1611">Ether-Ring Performance</a></li>
+<li class="level1"><a href="#autotoc_md1612">Ether-Ring Round Trip Latency with CAN(Vehicle) traffic</a></li>
+<li class="level1"><a href="#autotoc_md1613">See Also</a></li>
 </ul>
 </div>
 <div class="textblock"><p><a class="anchor" id="md_components_networking_enet_lld_enet_cpsw_performance_am263x"></a> </p>
-<h1><a class="anchor" id="autotoc_md1558"></a>
+<h1><a class="anchor" id="autotoc_md1601"></a>
 Introduction</h1>
 <p>This section provides the performance numbers of Ethernet drivers using CPSW peripheral in MCU+ SDK</p>
-<h1><a class="anchor" id="autotoc_md1559"></a>
+<h1><a class="anchor" id="autotoc_md1602"></a>
 Setup Details</h1>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -128,13 +128,13 @@ Setup Details</h1>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">Cache status  </td><td class="markdownTableBodyNone">Enabled   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md1560"></a>
+<h1><a class="anchor" id="autotoc_md1603"></a>
 Layer 2 Performance</h1>
 <p> <style>div.image img[src="CPSW_latency_measurement_diagram.bmp"]{width:30%}</style> </p><div class="image">
 <img src="CPSW_latency_measurement_diagram.bmp" alt=""/>
 <div class="caption">
 Latency defination</div></div>
-<h2><a class="anchor" id="autotoc_md1561"></a>
+<h2><a class="anchor" id="autotoc_md1604"></a>
 Configuration Details</h2>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -167,7 +167,7 @@ Configuration Details</h2>
 </table>
 <p><br  />
  </p>
-<h2><a class="anchor" id="autotoc_md1562"></a>
+<h2><a class="anchor" id="autotoc_md1605"></a>
 Layer 2 Latency</h2>
 <table class="doxtable">
 <tr>
@@ -180,7 +180,7 @@ Layer 2 Latency</h2>
 <tr>
 <td>TX Latency </td><td>13000 </td><td>384 </td><td>13384  </td></tr>
 </table>
-<h2><a class="anchor" id="autotoc_md1563"></a>
+<h2><a class="anchor" id="autotoc_md1606"></a>
 Layer 2 Throughput</h2>
 <table class="doxtable">
 <tr>
@@ -191,9 +191,9 @@ Layer 2 Throughput</h2>
 <tr>
 <td>Layer 2 Transmission</td><td>950</td><td>24</td><td>1500  </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md1564"></a>
+<h1><a class="anchor" id="autotoc_md1607"></a>
 TCP/IP Performance</h1>
-<h2><a class="anchor" id="autotoc_md1565"></a>
+<h2><a class="anchor" id="autotoc_md1608"></a>
 Configuration Details</h2>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -230,7 +230,7 @@ Configuration Details</h2>
 </table>
 <p><br  />
 </p>
-<h3><a class="anchor" id="autotoc_md1566"></a>
+<h3><a class="anchor" id="autotoc_md1609"></a>
 TCP Throughput</h3>
 <table class="doxtable">
 <tr>
@@ -253,7 +253,7 @@ TCP Throughput</h3>
  $<code>iperf -c &lt;evm_ip&gt; -d</code><br  />
  </li>
 </ul>
-<h3><a class="anchor" id="autotoc_md1567"></a>
+<h3><a class="anchor" id="autotoc_md1610"></a>
 UDP Throughput</h3>
 <table class="doxtable">
 <tr>
@@ -289,7 +289,7 @@ where &lt;bw&gt; is 25M, 50M, 100M, etc<br  />
 where &lt;bw&gt; is 25M, 50M, 100M, etc<br  />
  </li>
 </ul>
-<h1><a class="anchor" id="autotoc_md1568"></a>
+<h1><a class="anchor" id="autotoc_md1611"></a>
 Ether-Ring Performance</h1>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -301,7 +301,7 @@ Ether-Ring Performance</h1>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">Profile-C(Symmetric Traffic)  </td><td class="markdownTableBodyNone">27  </td><td class="markdownTableBodyNone">80   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md1569"></a>
+<h1><a class="anchor" id="autotoc_md1612"></a>
 Ether-Ring Round Trip Latency with CAN(Vehicle) traffic</h1>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -309,7 +309,7 @@ Ether-Ring Round Trip Latency with CAN(Vehicle) traffic</h1>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">2000  </td><td class="markdownTableBodyNone">561  </td><td class="markdownTableBodyNone">569   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md1570"></a>
+<h1><a class="anchor" id="autotoc_md1613"></a>
 See Also</h1>
 <p><a class="el" href="NETWORKING.html">Ethernet And Networking</a> <a class="el" href="EXAMPLES_ENET_LWIP_CPSW.html">Enet Lwip CPSW Example</a> <a class="el" href="EXAMPLES_ENET_CPSW_ETHERRING_CAN.html">Enet CPSW Ether-Ring CAN Example</a> <a class="el" href="EXAMPLES_ENET_CPSW_ETHERRING_TRAFFICGEN.html">Enet CPSW Ether-Ring Real-time and LWIP Traffic Generator Application</a> <a class="el" href="EXAMPLES_ENET_CPSW_ETHERRING.html">Enet CPSW Ether-Ring TSN Example</a> </p>
 </div></div><!-- contents -->

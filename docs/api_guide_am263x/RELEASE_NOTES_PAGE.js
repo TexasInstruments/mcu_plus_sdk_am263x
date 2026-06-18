@@ -1,5 +1,56 @@
 var RELEASE_NOTES_PAGE =
 [
+    [ "Release Notes 26.01.00.LTS", "RELEASE_NOTES_26_01_00_PAGE.html", [
+      [ "New in this Release", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md577", null ],
+      [ "Device and Validation Information", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md578", null ],
+      [ "Dependent Tools and Compiler Information", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md579", null ],
+      [ "Key Features", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md580", [
+        [ "Experimental Features", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md581", null ],
+        [ "OS Kernel", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md582", null ],
+        [ "Driver Porting Layer (DPL)", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md583", null ],
+        [ "Secondary Bootloader (SBL)", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md584", null ],
+        [ "SOC Device Drivers", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md585", null ],
+        [ "Board Device Drivers", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md586", null ],
+        [ "CMSIS", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md587", null ],
+        [ "Ethernet and Networking", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md588", null ],
+        [ "Demos", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md589", null ],
+        [ "Safety Diagnostic Library", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md590", null ]
+      ] ],
+      [ "Fixed Issues", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md591", null ],
+      [ "Known Issues", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md592", null ],
+      [ "Errata", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md593", null ],
+      [ "Limitations", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md594", null ],
+      [ "Release Types", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md595", [
+        [ "How to Identify Release Type", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md596", null ],
+        [ "EA (Early Adopter)", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md597", null ],
+        [ "STS (Short Term Support)", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md598", null ],
+        [ "LTS (Long Term Support)", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md599", null ],
+        [ "Release Type Comparison", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md600", null ]
+      ] ],
+      [ "CI/CD Strategy", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md601", null ],
+      [ "Software Bill of Materials", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md602", null ],
+      [ "Upgrade and Compatibility Information", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md603", [
+        [ "Compiling examples in MacOS machines", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md604", null ],
+        [ "RPRC Image format is Deprecated and Corresponding SBL's are also removed from SDK", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md605", null ],
+        [ "Module clock configuration through Clock Tree", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md606", null ],
+        [ "Migrating back from CCS Theia to CCS Eclipse", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md607", [
+          [ "Importing and Building in Eclipse", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md608", null ],
+          [ "CCS SBL Loading", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md609", null ]
+        ] ],
+        [ "Migrating examples to 11.00.00 from older versions", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md610", [
+          [ "Makefile Changes", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md611", [
+            [ "Library Name change on makefile and CCS projects", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md612", null ],
+            [ "OS define on makefile and CCS projects", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md613", null ]
+          ] ]
+        ] ],
+        [ "SDL PBIST Self test", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md614", null ],
+        [ "SDL STC Configuration", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md615", null ],
+        [ "SDL Handler API name update", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md616", null ],
+        [ "Compiler Options", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md617", null ],
+        [ "SOC Device Drivers", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md618", null ],
+        [ "Ethernet and Networking", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md619", null ]
+      ] ]
+    ] ],
     [ "Release Notes 26.00.00.STS", "RELEASE_NOTES_26_00_00_PAGE.html", [
       [ "New in this Release", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md502", null ],
       [ "Device and Validation Information", "RELEASE_NOTES_26_00_00_PAGE.html#autotoc_md503", null ],

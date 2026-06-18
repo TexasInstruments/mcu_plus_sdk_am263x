@@ -3,17 +3,17 @@ var PERFORMANCE_OPTIMIZATIONS_GUIDE =
     [ "Optimizing applications with MCU SDK", "OPTIMIZING_APPLICATIONS_WITH_MCU_SDK.html", [
       [ "Optimizations", "OPTIMIZING_APPLICATIONS_WITH_MCU_SDK.html#CHAPTER_OPTIMIZATION", [
         [ "Optimize Interrupt handling (IRQ/FIQ)", "OPTIMIZING_APPLICATIONS_WITH_MCU_SDK.html#CHAPTER_OPTIMIZATION_SECTION_1", [
-          [ "Understand interrupt and exception handling of the ARM Cortex-R5 processor", "OPTIMIZING_APPLICATIONS_WITH_MCU_SDK.html#autotoc_md833", null ],
-          [ "Understanding NORTOS IRQ handler in MCU PLUS SDK DPL", "OPTIMIZING_APPLICATIONS_WITH_MCU_SDK.html#autotoc_md834", null ],
-          [ "Step by step guide for optimizations", "OPTIMIZING_APPLICATIONS_WITH_MCU_SDK.html#autotoc_md835", null ]
+          [ "Understand interrupt and exception handling of the ARM Cortex-R5 processor", "OPTIMIZING_APPLICATIONS_WITH_MCU_SDK.html#autotoc_md876", null ],
+          [ "Understanding NORTOS IRQ handler in MCU PLUS SDK DPL", "OPTIMIZING_APPLICATIONS_WITH_MCU_SDK.html#autotoc_md877", null ],
+          [ "Step by step guide for optimizations", "OPTIMIZING_APPLICATIONS_WITH_MCU_SDK.html#autotoc_md878", null ]
         ] ],
         [ "Optimize memory placement", "OPTIMIZING_APPLICATIONS_WITH_MCU_SDK.html#CHAPTER_OPTIMIZATION_SECTION_2", null ],
         [ "Optimize R5F MPU settings", "OPTIMIZING_APPLICATIONS_WITH_MCU_SDK.html#CHAPTER_OPTIMIZATION_SECTION_3", [
-          [ "Background info on MPU and Cache settings", "OPTIMIZING_APPLICATIONS_WITH_MCU_SDK.html#autotoc_md836", null ]
+          [ "Background info on MPU and Cache settings", "OPTIMIZING_APPLICATIONS_WITH_MCU_SDK.html#autotoc_md879", null ]
         ] ],
         [ "Optimize compiler settings", "OPTIMIZING_APPLICATIONS_WITH_MCU_SDK.html#CHAPTER_OPTIMIZATION_SECTION_4", null ],
         [ "Optimize application code", "OPTIMIZING_APPLICATIONS_WITH_MCU_SDK.html#CHAPTER_OPTIMIZATION_SECTION_5", [
-          [ "Peripheral Bus Architecture & Mapping", "OPTIMIZING_APPLICATIONS_WITH_MCU_SDK.html#autotoc_md837", null ]
+          [ "Peripheral Bus Architecture & Mapping", "OPTIMIZING_APPLICATIONS_WITH_MCU_SDK.html#autotoc_md880", null ]
         ] ],
         [ "Memory optimization", "OPTIMIZING_APPLICATIONS_WITH_MCU_SDK.html#CHAPTER_OPTIMIZATION_SECTION_6", null ]
       ] ]

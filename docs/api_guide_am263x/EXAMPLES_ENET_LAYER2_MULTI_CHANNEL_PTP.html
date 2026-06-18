@@ -92,23 +92,23 @@ $(document).ready(function(){initNavTree('EXAMPLES_ENET_LAYER2_MULTI_CHANNEL_PTP
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md3166">Terms and Abbreviations</a></li>
-<li class="level1"><a href="#autotoc_md3167">Introduction</a></li>
-<li class="level1"><a href="#autotoc_md3168">Supported Combinations</a></li>
-<li class="level1"><a href="#autotoc_md3169">Packet pool configuration</a></li>
-<li class="level1"><a href="#autotoc_md3170">Steps to Run the Demo</a><ul><li class="level2"><a href="#autotoc_md3171">Build the example</a></li>
-<li class="level2"><a href="#autotoc_md3172">HW Setup</a></li>
-<li class="level2"><a href="#autotoc_md3173">PC setup</a></li>
-<li class="level2"><a href="#autotoc_md3174">Run the example</a></li>
-<li class="level2"><a href="#autotoc_md3175">Sample UART Output</a></li>
+<ul><li class="level1"><a href="#autotoc_md3209">Terms and Abbreviations</a></li>
+<li class="level1"><a href="#autotoc_md3210">Introduction</a></li>
+<li class="level1"><a href="#autotoc_md3211">Supported Combinations</a></li>
+<li class="level1"><a href="#autotoc_md3212">Packet pool configuration</a></li>
+<li class="level1"><a href="#autotoc_md3213">Steps to Run the Demo</a><ul><li class="level2"><a href="#autotoc_md3214">Build the example</a></li>
+<li class="level2"><a href="#autotoc_md3215">HW Setup</a></li>
+<li class="level2"><a href="#autotoc_md3216">PC setup</a></li>
+<li class="level2"><a href="#autotoc_md3217">Run the example</a></li>
+<li class="level2"><a href="#autotoc_md3218">Sample UART Output</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md3176">See Also</a></li>
+<li class="level1"><a href="#autotoc_md3219">See Also</a></li>
 </ul>
 </div>
 <div class="textblock"><p><a class="anchor" id="md_examples_networking_enet_cpsw_timesync_demo"></a></p>
 <dl class="section warning"><dt>Warning</dt><dd>This example is obsolete and will be removed in future releases. Please refer to <a class="el" href="EXAMPLES_ENET_CPSW_TSN_GPTP.html">Ethernet TSN gPTP Examples</a> for time synchonization demos.</dd></dl>
-<h1><a class="anchor" id="autotoc_md3166"></a>
+<h1><a class="anchor" id="autotoc_md3209"></a>
 Terms and Abbreviations</h1>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -136,7 +136,7 @@ Terms and Abbreviations</h1>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">IEC 61558  </td><td class="markdownTableBodyNone">PTP profile for network control systems   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md3167"></a>
+<h1><a class="anchor" id="autotoc_md3210"></a>
 Introduction</h1>
 <p>This is extended documentation for ENET CPSW Layer2 Multichannel example that gives details on TimeSync (PTP) demo. The demo is setup with EVM as PTP listener The broadcaster capability added to the TimeSync driver is currently limitted to sending Sync and Announce frames. The BMCA/Management part of PTP broadcaster is not implemented. *** note Please note that the stack code provided here is only a Reference stack. This stack is not tested for any performance benchmarking.</p>
 <hr  />
@@ -148,7 +148,7 @@ Introduction</h1>
 <li>Calculating peer and line delay</li>
 <li>Sending Delay Request and Delay Response frames (includes Pdelay Req and Pdelay Res)</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md3168"></a>
+<h1><a class="anchor" id="autotoc_md3211"></a>
 Supported Combinations</h1>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -164,25 +164,25 @@ Supported Combinations</h1>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">PTP Stack  </td><td class="markdownTableBodyNone">source/networking/enet/core/examples/enet_layer2_multi_channel/ptp_stack   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md3169"></a>
+<h1><a class="anchor" id="autotoc_md3212"></a>
 Packet pool configuration</h1>
 <p>To change packet pool configuration from syscfg, please refer to <a class="el" href="PACKETPOOL_CONFIG_TOP.html">Ethernet Packet Pool Allocation Guidelines</a></p>
-<h1><a class="anchor" id="autotoc_md3170"></a>
+<h1><a class="anchor" id="autotoc_md3213"></a>
 Steps to Run the Demo</h1>
-<h2><a class="anchor" id="autotoc_md3171"></a>
+<h2><a class="anchor" id="autotoc_md3214"></a>
 Build the example</h2>
 <ul>
 <li>When using CCS projects to build, import the CCS project <a class="el" href="EXAMPLES_ENET_LAYER2_MULTI_CHANNEL.html">Enet Layer 2 Multi-Channel Example</a> for the required combination and build it using the CCS project menu (see <a class="el" href="CCS_PROJECTS_PAGE.html">Using SDK with CCS Projects</a>).</li>
 <li>When using makefiles to build, note the required combination and build using make command (see <a class="el" href="MAKEFILE_BUILD_PAGE.html">Using SDK with Makefiles</a>)</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md3172"></a>
+<h2><a class="anchor" id="autotoc_md3215"></a>
 HW Setup</h2>
 <ul>
 <li><dl class="section note"><dt>Note</dt><dd>Make sure you have setup the EVM with cable connections as shown here, <a class="el" href="EVM_SETUP_PAGE.html">EVM Setup</a>.</dd></dl>
 </li>
 <li>Connect EVM and PC usaing Cat5/6 LAN cable.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md3173"></a>
+<h2><a class="anchor" id="autotoc_md3216"></a>
 PC setup</h2>
 <p>Need a linux machine for 'ptp4l' tool to run PTP broadcaster on the Linux PC. Below steps have been tried with a Linux Ubuntu 18.04 host PC running bash shell and with HW timestamp supported NIC.</p>
 <ul>
@@ -210,14 +210,14 @@ PC setup</h2>
 <div class="line">ptp4l[331860.608]: assuming the grand broadcaster role</div>
 </div><!-- fragment --></li>
 </ul>
-<h2><a class="anchor" id="autotoc_md3174"></a>
+<h2><a class="anchor" id="autotoc_md3217"></a>
 Run the example</h2>
 <dl class="section attention"><dt>Attention</dt><dd>If you need to reload and run again, a CPU power-cycle is MUST</dd></dl>
 <ul>
 <li>Launch a CCS debug session and run the example <a class="el" href="EXAMPLES_ENET_LAYER2_MULTI_CHANNEL.html">Enet Layer 2 Multi-Channel Example</a> executable, see <a class="el" href="CCS_LAUNCH_PAGE.html">CCS Launch, Load and Run</a></li>
 <li>You will see logs in the UART terminal as shown in the below section.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md3175"></a>
+<h2><a class="anchor" id="autotoc_md3218"></a>
 Sample UART Output</h2>
 <div class="fragment"><div class="line">==========================</div>
 <div class="line">      L2 Multi-channel Test</div>
@@ -486,7 +486,7 @@ Sample UART Output</h2>
 <div class="line">-461ns&lt;----&gt;-216ns</div>
 <div class="line">Avg=114</div>
 <div class="line">-189ns&lt;----&gt;-30ns</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md3176"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md3219"></a>
 See Also</h1>
 <p><a class="el" href="NETWORKING.html">Ethernet And Networking</a> | <a class="el" href="EXAMPLES_ENET_LAYER2_MULTI_CHANNEL.html">Enet Layer 2 Multi-Channel Example</a> |</p>
 <p><a class="el" href="EXAMPLES_ENET_CPSW_TSN_GPTP_BRIDGE.html">Ethernet TSN CPSW gPTP Bridge Example</a> | <a class="el" href="EXAMPLES_ENET_CPSW_TSN_GPTP_TR.html">Ethernet TSN CPSW gPTP TimeReceiver (gPTP Slave) Example</a> | <a class="el" href="EXAMPLES_ENET_CPSW_TSN_GPTP_TT.html">Ethernet TSN CPSW gPTP TimeTransmitter (gPTP Master) Example</a> | <a class="el" href="ENET_CPSW_TSN_GPTP.html">Ethernet TSN and gPTP Stack - API and Integration Guide</a> </p>
