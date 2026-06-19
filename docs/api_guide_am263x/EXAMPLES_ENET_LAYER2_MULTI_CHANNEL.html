@@ -92,26 +92,26 @@ $(document).ready(function(){initNavTree('EXAMPLES_ENET_LAYER2_MULTI_CHANNEL.htm
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md3195">Introduction</a></li>
-<li class="level1"><a href="#autotoc_md3196">Configuration Parameters</a><ul><li class="level2"><a href="#autotoc_md3197">Configuring the Packeth tool to send vlan tagged packets</a></li>
+<ul><li class="level1"><a href="#autotoc_md3199">Introduction</a></li>
+<li class="level1"><a href="#autotoc_md3200">Configuration Parameters</a><ul><li class="level2"><a href="#autotoc_md3201">Configuring the Packeth tool to send vlan tagged packets</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md3198">Application Functionality</a></li>
-<li class="level1"><a href="#autotoc_md3199">Application Flow</a></li>
-<li class="level1"><a href="#autotoc_md3200">Channel Overriding</a></li>
-<li class="level1"><a href="#autotoc_md3201">Supported Combinations</a></li>
-<li class="level1"><a href="#autotoc_md3202">Packet pool configuration</a></li>
-<li class="level1"><a href="#autotoc_md3203">Steps to Run the Example</a><ul><li class="level2"><a href="#autotoc_md3204">Build the example</a></li>
-<li class="level2"><a href="#autotoc_md3205">HW Setup</a></li>
-<li class="level2"><a href="#autotoc_md3206">Run the example</a></li>
-<li class="level2"><a href="#autotoc_md3207">Sample output for Multi-Channel example</a></li>
+<li class="level1"><a href="#autotoc_md3202">Application Functionality</a></li>
+<li class="level1"><a href="#autotoc_md3203">Application Flow</a></li>
+<li class="level1"><a href="#autotoc_md3204">Channel Overriding</a></li>
+<li class="level1"><a href="#autotoc_md3205">Supported Combinations</a></li>
+<li class="level1"><a href="#autotoc_md3206">Packet pool configuration</a></li>
+<li class="level1"><a href="#autotoc_md3207">Steps to Run the Example</a><ul><li class="level2"><a href="#autotoc_md3208">Build the example</a></li>
+<li class="level2"><a href="#autotoc_md3209">HW Setup</a></li>
+<li class="level2"><a href="#autotoc_md3210">Run the example</a></li>
+<li class="level2"><a href="#autotoc_md3211">Sample output for Multi-Channel example</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md3208">See Also</a></li>
+<li class="level1"><a href="#autotoc_md3212">See Also</a></li>
 </ul>
 </div>
 <div class="textblock"><p><a class="anchor" id="md_examples_networking_enet_layer2_multi_channel"></a></p>
-<h1><a class="anchor" id="autotoc_md3195"></a>
+<h1><a class="anchor" id="autotoc_md3199"></a>
 Introduction</h1>
 <p>The Multi-channel example illustrates the usage of multiple channels of CPDMA. The application creates two independent TX and RX channels each, one for L2 echo server and the second for TimeSync PTP stack.</p>
 <p>This example illustrates the usage of multiple CPDMA channels to carry two types of traffic: echo test and PTP. The segregation of Ethernet packets into separate CPDMA channel is based on the priority field (PCP) of the 802.1Q VLAN tagged packets. PTP packets are expected to have a priority of 1, and echo test packets a priority of 0. The source generator for packets must send packets with 802.1Q VLAN tag enabled to the application.</p>
@@ -135,7 +135,7 @@ CPDMA Channels Control Flow</div></div>
 <li>CPSW is a standard ethernet switch + port HW</li>
 <li>It uses ethernet driver underneath with LwIP TCP/IP networking stack</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md3196"></a>
+<h1><a class="anchor" id="autotoc_md3200"></a>
 Configuration Parameters</h1>
 <ol type="1">
 <li>Opening TX 0 and TX 1 channels using EnetAppUtils_openTxCh () API by passing channel number as a parameter to this API.</li>
@@ -144,21 +144,21 @@ Configuration Parameters</h1>
 <li>Set the vlanLType1 field of macport stats in EnetApp_setPortTsEventPrms () API to 0x8100, to make CPTS aware of VLAN tagging enabled for packets.</li>
 <li>CPDMA supports upto 8 TX/RX channels. By default, applications has only 3 TX/RX channels and this can be changed by modifying the macros ENET_CFG_CPDMA_CPSW_MAX_TX_CH/ENET_CFG_CPDMA_CPSW_MAX_RX_CH in <a class="el" href="enet__cfg_8h.html" title="This file contains the Enet configuration parameters.">enet_cfg.h</a> file.</li>
 </ol>
-<h2><a class="anchor" id="autotoc_md3197"></a>
+<h2><a class="anchor" id="autotoc_md3201"></a>
 Configuring the Packeth tool to send vlan tagged packets</h2>
 <p>In packETH tool, select the 802.1q field to configure vlan parameters(priority).</p>
 <p> <style>div.image img[src="packeth_setup.png"]{width:40%}</style> </p><div class="image">
 <img src="packeth_setup.png" alt=""/>
 <div class="caption">
 Packeth tool configuration for 802.1q vlan tag</div></div>
-<h1><a class="anchor" id="autotoc_md3198"></a>
+<h1><a class="anchor" id="autotoc_md3202"></a>
 Application Functionality</h1>
 <p> <style>div.image img[src="multi_channel_app_functionality.png"]{width:40%}</style> </p><div class="image">
 <img src="multi_channel_app_functionality.png" alt=""/>
 <div class="caption">
 Application Functionality</div></div>
 <p>Packeth tool is configured with the 802.1Q (PCP) field set to either 0 or 1 to send either L2 packets or PTP packets. CPSW peripheral maps the value of the PCP field to appropriate DMA channel queue for the receiving packets.</p>
-<h1><a class="anchor" id="autotoc_md3199"></a>
+<h1><a class="anchor" id="autotoc_md3203"></a>
 Application Flow</h1>
 <p> <style>div.image img[src="multi_channel_app_flow.png"]{width:40%}</style> </p><div class="image">
 <img src="multi_channel_app_flow.png" alt=""/>
@@ -169,7 +169,7 @@ Application Flow</div></div>
 <li>PTP Timestamping</li>
 </ol>
 <p>Each RX channel will have a separate OS task to process each traffic type separately. Additionally, the test enables timestamping of PTP packets. The Multi-channel App continues to run until user decides to terminate the app by pressing ‘x’ from the App menu.</p>
-<h1><a class="anchor" id="autotoc_md3200"></a>
+<h1><a class="anchor" id="autotoc_md3204"></a>
 Channel Overriding</h1>
 <p>To override the channel mapping, we can use ALE classifier along with CPDMA_CONTROL.</p><ul>
 <li>The example shows the usage of ALE classifier where we create a classifier based on Ethertype and route the matched traffic to the corresponding RX channel.</li>
@@ -178,7 +178,7 @@ Channel Overriding</h1>
 <li>We need to set the default channel when we are overriding, this will handle the unclassified traffic and is passed as a parameter to EnetApp_setCpswAleClassifier() API. The application sets RX channel 0 to be the default channel for handling unclassified traffic.</li>
 <li>We need to set the enChOverrideFlag Flag in the application if we want to use the channel overriding feature. This is done in EnetApp_open() API.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md3201"></a>
+<h1><a class="anchor" id="autotoc_md3205"></a>
 Supported Combinations</h1>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -192,21 +192,21 @@ Supported Combinations</h1>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">Example folder  </td><td class="markdownTableBodyNone">source/networking/enet/core/examples/enet_layer2_multi_channel/V1   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md3202"></a>
+<h1><a class="anchor" id="autotoc_md3206"></a>
 Packet pool configuration</h1>
 <p>To change packet pool configuration from syscfg, please refer to <a class="el" href="PACKETPOOL_CONFIG_TOP.html">Ethernet Packet Pool Allocation Guidelines</a></p>
-<h1><a class="anchor" id="autotoc_md3203"></a>
+<h1><a class="anchor" id="autotoc_md3207"></a>
 Steps to Run the Example</h1>
-<h2><a class="anchor" id="autotoc_md3204"></a>
+<h2><a class="anchor" id="autotoc_md3208"></a>
 Build the example</h2>
 <ul>
 <li>When using CCS projects to build, import the CCS project for the required combination and build it using the CCS project menu (see <a class="el" href="CCS_PROJECTS_PAGE.html">Using SDK with CCS Projects</a>).</li>
 <li>When using makefiles to build, note the required combination and build using make command (see <a class="el" href="MAKEFILE_BUILD_PAGE.html">Using SDK with Makefiles</a>)</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md3205"></a>
+<h2><a class="anchor" id="autotoc_md3209"></a>
 HW Setup</h2>
 <dl class="section note"><dt>Note</dt><dd>Make sure you have setup the EVM with cable connections as shown here, <a class="el" href="EVM_SETUP_PAGE.html">EVM Setup</a>. In addition do below steps.</dd></dl>
-<h2><a class="anchor" id="autotoc_md3206"></a>
+<h2><a class="anchor" id="autotoc_md3210"></a>
 Run the example</h2>
 <dl class="section attention"><dt>Attention</dt><dd>If you need to reload and run again, a CPU power-cycle is MUST</dd></dl>
 <ul>
@@ -215,7 +215,7 @@ Run the example</h2>
 <li>We can start sending packets with Multicast addresses (01:80:C2:00:00:0E) PTP frames (Ethertype 0x88F7U) from Colasoft Pkt Builder or packETH tool and capture the packets in Wireshark. Packets must be sent with 802.1Q VLAN tag enabled to the application.</li>
 <li>By selecting 't' option from the menu we can toggle the timestamp printing on the Terminal.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md3207"></a>
+<h2><a class="anchor" id="autotoc_md3211"></a>
 Sample output for Multi-Channel example</h2>
 <div class="fragment"><div class="line">==========================</div>
 <div class="line">   L2 Multi-channel Test</div>
@@ -272,7 +272,7 @@ Sample output for Multi-Channel example</h2>
 <div class="line">TX Timestamp: 20672934936</div>
 <div class="line">TX Timestamp: 20882934951</div>
 <div class="line">TX Timestamp: 21092935541</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md3208"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md3212"></a>
 See Also</h1>
 <p><a class="el" href="NETWORKING.html">Ethernet And Networking</a> |</p>
 <p><a class="el" href="EXAMPLES_ENET_CPSW_TSN_GPTP_BRIDGE.html">Ethernet TSN CPSW gPTP Bridge Example</a> | <a class="el" href="EXAMPLES_ENET_CPSW_TSN_GPTP_TR.html">Ethernet TSN CPSW gPTP TimeReceiver (gPTP Slave) Example</a> | <a class="el" href="EXAMPLES_ENET_CPSW_TSN_GPTP_TT.html">Ethernet TSN CPSW gPTP TimeTransmitter (gPTP Master) Example</a> | <a class="el" href="ENET_CPSW_TSN_GPTP.html">Ethernet TSN and gPTP Stack - API and Integration Guide</a> </p>

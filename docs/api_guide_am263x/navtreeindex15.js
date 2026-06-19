@@ -1,5 +1,11 @@
 var NAVTREEINDEX15 =
 {
+"FAST_SECURE_BOOT.html#autotoc_md785":[3,9,0,1],
+"FAST_SECURE_BOOT.html#autotoc_md786":[3,9,1],
+"FAST_SECURE_BOOT.html#autotoc_md787":[3,9,2],
+"GETTING_STARTED.html":[1],
+"GETTING_STARTED.html#autotoc_md10":[1,0,3],
+"GETTING_STARTED.html#autotoc_md6":[1,0],
 "GETTING_STARTED.html#autotoc_md7":[1,0,0],
 "GETTING_STARTED.html#autotoc_md8":[1,0,1],
 "GETTING_STARTED.html#autotoc_md9":[1,0,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX15 =
 "KERNEL_DPL_HWI_PAGE.html#autotoc_md1073":[8,1,4],
 "KERNEL_DPL_MPU_ARMV7_PAGE.html":[8,9],
 "KERNEL_DPL_MPU_ARMV7_PAGE.html#autotoc_md1110":[8,9,0],
-"KERNEL_DPL_MPU_ARMV7_PAGE.html#autotoc_md1111":[8,9,1],
-"KERNEL_DPL_MPU_ARMV7_PAGE.html#autotoc_md1112":[8,9,2],
-"KERNEL_DPL_MPU_ARMV7_PAGE.html#autotoc_md1113":[8,9,3],
-"KERNEL_DPL_MPU_ARMV7_PAGE.html#autotoc_md1114":[8,9,4],
-"KERNEL_DPL_PAGE.html":[8],
-"KERNEL_DPL_PAGE.html#autotoc_md1109":[8,0],
-"KERNEL_DPL_QUEUE_PAGE.html":[8,6]
+"KERNEL_DPL_MPU_ARMV7_PAGE.html#autotoc_md1111":[8,9,1]
 };

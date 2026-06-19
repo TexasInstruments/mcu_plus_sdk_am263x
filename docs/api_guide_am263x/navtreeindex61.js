@@ -1,5 +1,11 @@
 var NAVTREEINDEX61 =
 {
+"structETHPHY__Params.html":[17,1,0,0],
+"structETHPHY__Params.html#af389ecbf2f1215df555b87137f75b3e6":[17,1,0,0,0],
+"structETHPHY__SpeedDuplexConfig.html":[17,1,0,4],
+"structETHPHY__SpeedDuplexConfig.html#a790b1cb3380ad6003d299028b0f64d7e":[17,1,0,4,0],
+"structEdma__IntrObject.html":[17,7,6,8],
+"structEdma__IntrObject.html#a269367fdadf3a52ed34c40def1d18d96":[17,7,6,8,4],
 "structEdma__IntrObject.html#a8ab3ef0a6376c449aaec1e1e548ddfff":[17,7,6,8,1],
 "structEdma__IntrObject.html#aa4dfd3ed797444486f8e40624d635e1c":[17,7,6,8,0],
 "structEdma__IntrObject.html#ac5490e8a31870a8fd5dc7e6b64b4a31c":[17,7,6,8,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX61 =
 "structEnetRm__IoctlPermissionTable.html#a08071053bd1c71ea3e32d8a2eee43206":[17,4,0,8,3,1],
 "structEnetRm__IoctlPermissionTable.html#a959d5d4388d3ccb68067878eba580cd5":[17,4,0,8,3,0],
 "structEnetRm__MacAddressPool.html":[17,4,0,8,4],
-"structEnetRm__MacAddressPool.html#a07bcf0aacbdea04bef6324c9eff70109":[17,4,0,8,4,1],
-"structEnetRm__MacAddressPool.html#ad5c5b9ceccab4d022fea1a478df30689":[17,4,0,8,4,0],
-"structEnetRm__ResCfg.html":[17,4,0,8,11],
-"structEnetRm__ResCfg.html#a060249de4994fa4b50e85b9233937ca9":[17,4,0,8,11,2],
-"structEnetRm__ResCfg.html#a2ef2471c706c266c660b6739d3d50645":[17,4,0,8,11,0],
-"structEnetRm__ResCfg.html#adddefa12afa409bab36d2b975fd5288f":[17,4,0,8,11,1],
-"structEnetRm__ResCfg.html#ae54273010da9be21a4d88cc5068c6a5d":[17,4,0,8,11,3]
+"structEnetRm__MacAddressPool.html#a07bcf0aacbdea04bef6324c9eff70109":[17,4,0,8,4,1]
 };

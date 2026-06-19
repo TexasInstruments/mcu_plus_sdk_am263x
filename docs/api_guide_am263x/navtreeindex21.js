@@ -1,5 +1,11 @@
 var NAVTREEINDEX21 =
 {
+"enet_migration_guide_top.html#EnetIoctlChange":[5,1,11,5],
+"enet_migration_guide_top.html#ExternalPhyManagement":[5,1,11,8],
+"enet_migration_guide_top.html#MemoryTuningLwip":[5,1,11,10],
+"enet_migration_guide_top.html#MemoryTuningNonLwip":[5,1,11,9],
+"enet_migration_guide_top.html#NeedForSysconfig":[5,1,11,1],
+"enet_migration_guide_top.html#PacketTxRxChange":[5,1,11,6],
 "enet_migration_guide_top.html#autotoc_md1592":[0],
 "enet_migration_guide_top.html#autotoc_md1593":[1],
 "enet_migration_guide_top.html#autotoc_md1594":[2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX21 =
 "group__CPSW__ALE__MOD.html#gaecf4f07c3b13df0444862688bbaef934":[17,4,0,1,0,66],
 "group__CPSW__ALE__MOD.html#gaf3bf2f1cea23dbfd1861b20830a603a0":[17,4,0,1,0,93],
 "group__CPSW__ALE__MOD.html#gaf4d7d88528267793951fa37af332eaf3":[17,4,0,1,0,82],
-"group__CPSW__ALE__MOD.html#gaf4dfc753e552337d1715e4875fb0cc30":[17,4,0,1,0,70],
-"group__CPSW__ALE__MOD.html#gafc5c4ff1a83171b07710a8822c5e8b09":[17,4,0,1,0,77],
-"group__CPSW__ALE__MOD.html#gga1317db4ad7425bacb0394d3f20ed8fcda2066a7314ce33ed11f77292601982673":[17,4,0,1,0,98,0],
-"group__CPSW__ALE__MOD.html#gga1317db4ad7425bacb0394d3f20ed8fcda20abecb30a55db8f396cab4eb5da0989":[17,4,0,1,0,98,1],
-"group__CPSW__ALE__MOD.html#gga1afba9d2f3169da33e51ebf37df8af85a141acbcb2e4651d0b927ef66a862d98b":[17,4,0,1,0,97,3],
-"group__CPSW__ALE__MOD.html#gga1afba9d2f3169da33e51ebf37df8af85a2966d95ca260998c03c311181d477d53":[17,4,0,1,0,97,2],
-"group__CPSW__ALE__MOD.html#gga1afba9d2f3169da33e51ebf37df8af85a2bdf49ba97915b887659b08729bd6ecd":[17,4,0,1,0,97,0]
+"group__CPSW__ALE__MOD.html#gaf4dfc753e552337d1715e4875fb0cc30":[17,4,0,1,0,70]
 };

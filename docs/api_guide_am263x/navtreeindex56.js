@@ -1,5 +1,11 @@
 var NAVTREEINDEX56 =
 {
+"index.html#autotoc_md2":[0,3],
+"index.html#autotoc_md3":[0,4],
+"index.html#autotoc_md4":[0,5],
+"index.html#autotoc_md5":[0,6],
+"modules.html":[17],
+"pages.html":[],
 "phy_integration_guide_top.html":[5,1,3],
 "structADFSR.html":[17,2,6,5],
 "structADFSR.html#a01037c87b44a228cc6c35c69859d496f":[17,2,6,5,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX56 =
 "structCMACArgs__t.html#a357c11d508a9bc72727f234ce8907549":[17,7,14,21,0],
 "structCMACArgs__t.html#ac5d24d39baa181184775edb3adb07c75":[17,7,14,21,1],
 "structCMACArgs__t.html#afe13e09091fb834532d9438c05f32651":[17,7,14,21,2],
-"structCSL__ArmR5CPUInfo.html":[17,2,0,0],
-"structCSL__ArmR5CPUInfo.html#aa1632ed76b18974e7d5bef84ea28031c":[17,2,0,0,1],
-"structCSL__ArmR5CPUInfo.html#ab61fb01301da2a638345c5cb8be309ca":[17,2,0,0,0],
-"structCacheP__Config.html":[17,2,1,0],
-"structCacheP__Config.html#abb29240aa814f3a0b8b8a901ebf53f64":[17,2,1,0,1],
-"structCacheP__Config.html#abe3f1be9e71411c0abcfadc30f35d230":[17,2,1,0,0],
-"structClockP__Config.html":[17,2,2,0]
+"structCSL__ArmR5CPUInfo.html":[17,2,0,0]
 };

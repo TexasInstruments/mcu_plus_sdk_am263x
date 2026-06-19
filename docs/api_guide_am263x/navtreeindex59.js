@@ -1,5 +1,11 @@
 var NAVTREEINDEX59 =
 {
+"structCpswStats__HostPort__Ng.html#a509ea1206731afe2f4902b8184122fc6":[17,4,0,9,0,2,41],
+"structCpswStats__HostPort__Ng.html#a52e576af92e28245583685864b18689c":[17,4,0,9,0,2,39],
+"structCpswStats__HostPort__Ng.html#a561e4a93a505f196f7343c3f6f139f27":[17,4,0,9,0,2,24],
+"structCpswStats__HostPort__Ng.html#a5d6bd992da59634b03bd94a84277bdd8":[17,4,0,9,0,2,12],
+"structCpswStats__HostPort__Ng.html#a62845fcb9baff5e364451798e7595141":[17,4,0,9,0,2,30],
+"structCpswStats__HostPort__Ng.html#a66499db1cdb45ebcda70d0640bfa7fba":[17,4,0,9,0,2,52],
 "structCpswStats__HostPort__Ng.html#a67b3c94af8386ce482396fbfb3dff329":[17,4,0,9,0,2,45],
 "structCpswStats__HostPort__Ng.html#a71f9a20a2c20af782a8c9c3279d0288c":[17,4,0,9,0,2,47],
 "structCpswStats__HostPort__Ng.html#a74c90ccbc22a52bcb9526234e527f02f":[17,4,0,9,0,2,7],
@@ -243,11 +249,5 @@ var NAVTREEINDEX59 =
 "structCpsw__SetTxShortIpgCfgInArgs.html#a6f4e41c1d6434bc139138fd25ff43664":[17,4,0,6,0,8,1],
 "structCpsw__SetTxShortIpgCfgInArgs.html#abaadc51c5091f8b752409b96ddaec24a":[17,4,0,6,0,8,0],
 "structCpsw__TxShortIpgCfg.html":[17,4,0,6,0,9],
-"structCpsw__TxShortIpgCfg.html#a557ac66e8d1f860da37f2ebd9c62f023":[17,4,0,6,0,9,2],
-"structCpsw__TxShortIpgCfg.html#a7aba8f44ba12f1e88aae6136efacff21":[17,4,0,6,0,9,1],
-"structCpsw__TxShortIpgCfg.html#ac347a3578c3e2d7c5644b6d6219264dc":[17,4,0,6,0,9,0],
-"structCpsw__VlanCfg.html":[17,4,0,6,0,10],
-"structCpsw__VlanCfg.html#a05f3575e74cc1845106b17920a5c668f":[17,4,0,6,0,10,3],
-"structCpsw__VlanCfg.html#a3b16a2f401ac70853cc8ce3cc4ab576c":[17,4,0,6,0,10,1],
-"structCpsw__VlanCfg.html#a41938176da7d35d22f36d0521f278183":[17,4,0,6,0,10,2]
+"structCpsw__TxShortIpgCfg.html#a557ac66e8d1f860da37f2ebd9c62f023":[17,4,0,6,0,9,2]
 };

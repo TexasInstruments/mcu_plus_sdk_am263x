@@ -1,5 +1,11 @@
 var NAVTREEINDEX60 =
 {
+"structCpsw__TxShortIpgCfg.html#a7aba8f44ba12f1e88aae6136efacff21":[17,4,0,6,0,9,1],
+"structCpsw__TxShortIpgCfg.html#ac347a3578c3e2d7c5644b6d6219264dc":[17,4,0,6,0,9,0],
+"structCpsw__VlanCfg.html":[17,4,0,6,0,10],
+"structCpsw__VlanCfg.html#a05f3575e74cc1845106b17920a5c668f":[17,4,0,6,0,10,3],
+"structCpsw__VlanCfg.html#a3b16a2f401ac70853cc8ce3cc4ab576c":[17,4,0,6,0,10,1],
+"structCpsw__VlanCfg.html#a41938176da7d35d22f36d0521f278183":[17,4,0,6,0,10,2],
 "structCpsw__VlanCfg.html#ae2ef52fca4ea370f754a01f1547716a3":[17,4,0,6,0,10,0],
 "structCryptoServiceReq__t.html":[17,7,14,20],
 "structCryptoServiceReq__t.html#a1759a5306fdcc869d4dd8fe983d03733":[17,7,14,20,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX60 =
 "structETHPHY__Fxns.html":[17,1,0,1],
 "structETHPHY__Fxns.html#a081058741e0d5cda91a68a291308b7f4":[17,1,0,1,1],
 "structETHPHY__Fxns.html#a43255508d3a6a6039b2d57a16365a467":[17,1,0,1,2],
-"structETHPHY__Fxns.html#a64cea306569fa24722ed1c86d4e9e9c2":[17,1,0,1,0],
-"structETHPHY__Params.html":[17,1,0,0],
-"structETHPHY__Params.html#af389ecbf2f1215df555b87137f75b3e6":[17,1,0,0,0],
-"structETHPHY__SpeedDuplexConfig.html":[17,1,0,4],
-"structETHPHY__SpeedDuplexConfig.html#a790b1cb3380ad6003d299028b0f64d7e":[17,1,0,4,0],
-"structEdma__IntrObject.html":[17,7,6,8],
-"structEdma__IntrObject.html#a269367fdadf3a52ed34c40def1d18d96":[17,7,6,8,4]
+"structETHPHY__Fxns.html#a64cea306569fa24722ed1c86d4e9e9c2":[17,1,0,1,0]
 };

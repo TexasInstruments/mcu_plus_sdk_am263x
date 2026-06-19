@@ -1,5 +1,11 @@
 var NAVTREEINDEX18 =
 {
+"RELEASE_NOTES_08_04_00_PAGE.html#autotoc_md240":[2,12,3,5],
+"RELEASE_NOTES_08_04_00_PAGE.html#autotoc_md241":[2,12,3,6],
+"RELEASE_NOTES_08_04_00_PAGE.html#autotoc_md242":[2,12,3,7],
+"RELEASE_NOTES_08_04_00_PAGE.html#autotoc_md243":[2,12,3,8],
+"RELEASE_NOTES_08_04_00_PAGE.html#autotoc_md244":[2,12,3,9],
+"RELEASE_NOTES_08_04_00_PAGE.html#autotoc_md245":[2,12,3,10],
 "RELEASE_NOTES_08_04_00_PAGE.html#autotoc_md246":[2,12,4],
 "RELEASE_NOTES_08_04_00_PAGE.html#autotoc_md247":[2,12,5],
 "RELEASE_NOTES_08_04_00_PAGE.html#autotoc_md248":[2,12,6],
@@ -243,11 +249,5 @@ var NAVTREEINDEX18 =
 "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md476":[2,2,3,5],
 "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md477":[2,2,3,6],
 "RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md478":[2,2,3,7],
-"RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md479":[2,2,3,8],
-"RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md480":[2,2,3,9],
-"RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md481":[2,2,4],
-"RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md482":[2,2,5],
-"RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md483":[2,2,6],
-"RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md484":[2,2,7],
-"RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md485":[2,2,8]
+"RELEASE_NOTES_11_01_00_PAGE.html#autotoc_md479":[2,2,3,8]
 };

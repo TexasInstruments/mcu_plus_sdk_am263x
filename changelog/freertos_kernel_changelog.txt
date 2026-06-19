@@ -1,1 +1,7 @@
 First commit tracked for freertos_kernel: 30ede57ceadd99459800a3b7c8d8cc5f7738a927
+
+Recent commit history (last 20 commits):
+
+30ede57 mpu_wrappers_v2.c: fix cpp build warnings
+
+Note: Detailed file changes will be shown in subsequent builds when comparing commits

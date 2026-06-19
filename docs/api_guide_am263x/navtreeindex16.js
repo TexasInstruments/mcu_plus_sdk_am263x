@@ -1,5 +1,11 @@
 var NAVTREEINDEX16 =
 {
+"KERNEL_DPL_MPU_ARMV7_PAGE.html#autotoc_md1112":[8,9,2],
+"KERNEL_DPL_MPU_ARMV7_PAGE.html#autotoc_md1113":[8,9,3],
+"KERNEL_DPL_MPU_ARMV7_PAGE.html#autotoc_md1114":[8,9,4],
+"KERNEL_DPL_PAGE.html":[8],
+"KERNEL_DPL_PAGE.html#autotoc_md1109":[8,0],
+"KERNEL_DPL_QUEUE_PAGE.html":[8,6],
 "KERNEL_DPL_QUEUE_PAGE.html#autotoc_md1094":[8,6,0],
 "KERNEL_DPL_QUEUE_PAGE.html#autotoc_md1095":[8,6,1],
 "KERNEL_DPL_QUEUE_PAGE.html#autotoc_md1096":[8,6,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX16 =
 "RELEASE_NOTES_07_03_05_PAGE.html#autotoc_md93":[2,20,3],
 "RELEASE_NOTES_07_03_05_PAGE.html#autotoc_md94":[2,20,4],
 "RELEASE_NOTES_07_03_05_PAGE.html#autotoc_md95":[2,20,5],
-"RELEASE_NOTES_07_03_05_PAGE.html#autotoc_md96":[2,20,6],
-"RELEASE_NOTES_07_03_05_PAGE.html#autotoc_md97":[2,20,6,0],
-"RELEASE_NOTES_08_00_02_PAGE.html":[2,19],
-"RELEASE_NOTES_08_00_02_PAGE.html#autotoc_md100":[2,19,2],
-"RELEASE_NOTES_08_00_02_PAGE.html#autotoc_md101":[2,19,2,0],
-"RELEASE_NOTES_08_00_02_PAGE.html#autotoc_md102":[2,19,2,1],
-"RELEASE_NOTES_08_00_02_PAGE.html#autotoc_md103":[2,19,2,2]
+"RELEASE_NOTES_07_03_05_PAGE.html#autotoc_md96":[2,20,6]
 };
