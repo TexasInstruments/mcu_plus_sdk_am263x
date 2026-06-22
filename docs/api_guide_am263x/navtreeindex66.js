@@ -1,6 +1,5 @@
 var NAVTREEINDEX66 =
 {
-"structLIN__Object.html#a80e15c7dab47ddf6584b6e71f335d530":[17,7,20,7,15],
 "structLIN__Object.html#a81748a9ee624cec7d6cdb0a56f7abc50":[17,7,20,7,0],
 "structLIN__Object.html#a98574535b3437733a295fae0fd314f3e":[17,7,20,7,11],
 "structLIN__Object.html#a9bf8ef34ca9092f22287155463d57359":[17,7,20,7,13],
@@ -249,5 +248,6 @@ var NAVTREEINDEX66 =
 "structMCAN__TDCConfig.html#a66a3f13a3dc513d32325bb91c20afb5b":[17,7,24,2,1],
 "structMCAN__TDCConfig.html#aadeab20c96e14356e36bf8eaa142f24f":[17,7,24,2,0],
 "structMCAN__TxBufElement.html":[17,7,24,20],
-"structMCAN__TxBufElement.html#a16ab6d944c3606c7001af8614f20ce8d":[17,7,24,20,2]
+"structMCAN__TxBufElement.html#a16ab6d944c3606c7001af8614f20ce8d":[17,7,24,20,2],
+"structMCAN__TxBufElement.html#a1a09aea55a081878f79be58687d73ac3":[17,7,24,20,5]
 };

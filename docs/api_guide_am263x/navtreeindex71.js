@@ -1,6 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"structTimerP__Params.html#ac54f87471f7517bfcabbb99943414df1":[17,2,14,0,6],
 "structTimerP__Params.html#ac5fc583068588c5024af5fb3dc1a0916":[17,2,14,0,1],
 "structTimerP__Params.html#ad47d9ed7988152c0dc9fe5244130d011":[17,2,14,0,5],
 "structTimerP__Params.html#ad531015e99a91308f6c6ff7ed128cd62":[17,2,14,0,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX71 =
 "structunibase__init__para__t.html#ab4c458849c9e45453b478265968f2b7a":[17,10,5,2,1],
 "structunibase__init__para__t.html#ab97cd6393b7425f0978573ca1acd353f":[17,10,5,2,0],
 "unionCANFD__ErrStatusResp.html":[17,7,2,11],
-"unionCANFD__ErrStatusResp.html#a5a0b77eee54c806a348584237f52d6d5":[17,7,2,11,1]
+"unionCANFD__ErrStatusResp.html#a5a0b77eee54c806a348584237f52d6d5":[17,7,2,11,1],
+"unionCANFD__ErrStatusResp.html#aed55085cc1131ac20252ca08520fdc64":[17,7,2,11,0]
 };

@@ -245,8 +245,8 @@ var NAVTREEINDEX55 =
 "group__xtimer.html#gabc716d68e28b749deb531c1a4bd49742":[17,11,7,3],
 "group__xtimer.html#gad69eb8f53037632c4cdefb4ba1c19e3b":[17,11,7,17],
 "group__xtimer.html#gae4233d0f78b7d372c7802ef76ad4784a":[17,11,7,15],
-"index.html":[],
 "index.html":[0],
+"index.html":[],
 "index.html#MIGRATION_INFORMATION":[0,1],
 "index.html#autotoc_md0":[0,0],
 "index.html#autotoc_md1":[0,2]

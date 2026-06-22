@@ -1,6 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"structMCAN__TxBufElement.html#a1a09aea55a081878f79be58687d73ac3":[17,7,24,20,5],
 "structMCAN__TxBufElement.html#a2ba679095ae9a3f3a80fe67d6e6ac976":[17,7,24,20,0],
 "structMCAN__TxBufElement.html#a37463dcdaeefad5c664a77c715770461":[17,7,24,20,9],
 "structMCAN__TxBufElement.html#a3fcc0f7ff296a10df9e019b27a155200":[17,7,24,20,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX67 =
 "structMMCSD__SdDeviceData.html#aa6cbf62c6c47d4321d4e1640502f247a":[17,7,29,2,3],
 "structMMCSD__SdDeviceData.html#ac151e6810020d09b53682ac54216c256":[17,7,29,2,8],
 "structMMCSD__SdDeviceData.html#ad577d5ce560c0b23a21863bb6df36f5c":[17,7,29,2,12],
-"structMMCSD__SdDeviceData.html#ad88123b837ed0b3a3eca0278dbd802b1":[17,7,29,2,4]
+"structMMCSD__SdDeviceData.html#ad88123b837ed0b3a3eca0278dbd802b1":[17,7,29,2,4],
+"structMMCSD__SdDeviceData.html#af5ed97017a98c25886489caca735d33c":[17,7,29,2,5]
 };
