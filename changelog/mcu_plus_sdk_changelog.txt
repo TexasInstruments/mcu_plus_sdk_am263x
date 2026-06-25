@@ -106321,3 +106321,380 @@ Date:   Thu Jun 18 11:14:40 2026 +0530
  .../usb_test_scripts/usb_vendor_bulk_echo_test.py  |   221 +
  53135 files changed, 9194349 insertions(+)
 
+========================================
+Changes from build on 2026-06-25 19:40:54
+Previous commit: 835a234951f780aedb044ecc5f14b0c86ac06b9f
+Current commit: 909204f80b036c48bb7ec268c938c1de44897c4c
+========================================
+
+commit 909204f80b036c48bb7ec268c938c1de44897c4c
+Author: Abhishek Tiwari <abhishek.tiwari@ti.com>
+Date:   Wed Jun 24 16:49:13 2026 +0530
+
+    am273x: docs: fix release notes date
+    
+    - update release notes date for 12.00
+    
+    Fixes: SITSW-7292
+    
+    Signed-off-by: Abhishek Tiwari <abhishek.tiwari@ti.com>
+
+ docs_src/docs/api_guide/device/am273x_awr294x/release_notes_12_00_00.md | 6 +-----
+ 1 file changed, 1 insertion(+), 5 deletions(-)
+
+commit 6ed735bd00c384daf10c1415bcbc01fef0ae15ca
+Author: Sparsh Kumar <sparsh-kumar@ti.com>
+Date:   Wed Jun 24 11:29:44 2026 +0530
+
+    allsocs: sciclient: Add missing secure‑message IDs to secure context
+    
+    The function Sciclient_getCurrentContext only
+    listed a subset of the messages that must be
+    handled in a secure context. Those omitted
+    messages were therefore classified as non‑secure,
+    which led to SYSFW returning NACK when those
+    messages were called.
+    
+    Extend the if condition to include the remaining
+    secure messages to fix this issue.
+    
+    Fixes: SITSW-10544
+    
+    Signed-off-by: Sparsh Kumar <sparsh-kumar@ti.com>
+
+ source/drivers/sciclient/sciclient.c | 18 ++++++++++++++++--
+ 1 file changed, 16 insertions(+), 2 deletions(-)
+
+commit 75f96cd1806ca5b45f7e9c7793bf59d4fd7a7019
+Author: Venkatesan Krishnamoorthy <v-krishnamoorthy@ti.com>
+Date:   Wed May 13 13:50:48 2026 +0530
+
+    am64x: docs: fix A53 lowest usable interrupt priority from 15 to 14
+    
+    ICC_PMR_EL1 (GIC Priority Mask Register) is initialized to 15 in
+    HwiP_init, which masks all interrupts at priority >= 15. Priority 15
+    is therefore never triggered on A53 cores. Update HwiP documentation
+    to show 14 as the lowest usable priority for A53 and add a note
+    explaining the ICC_PMR_EL1 behaviour.
+    
+    Fixes: SITSW-6012
+    
+    Signed-off-by: Venkatesan Krishnamoorthy <v-krishnamoorthy@ti.com>
+
+ docs_src/docs/api_guide/components/kernel/dpl/HwiP.md | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+commit 3f2f15171706591893dddefd77988f4dfbef6fad
+Author: Venkatesan Krishnamoorthy <v-krishnamoorthy@ti.com>
+Date:   Tue May 12 13:34:30 2026 +0530
+
+    am64x/am243x: gpmc: fix incorrect MPU attribute for GPMC memory region
+    
+    Change MPU attribute for GPMC external memory region (0x50000000) from
+    Device (Strongly Ordered) to NonCached in gpmc_flash_io and gpmc_psram_io
+    examples. Strongly Ordered causes performance degradation as PSRAM/NOR
+    flash have no side effects and are plain storage memory.
+    
+    Fixes: SITSW-11796
+    
+    Signed-off-by: Venkatesan Krishnamoorthy <v-krishnamoorthy@ti.com>
+
+ examples/drivers/gpmc/gpmc_flash_io/am243x-evm/r5fss0-0_nortos/example.syscfg | 2 +-
+ examples/drivers/gpmc/gpmc_flash_io/am64x-evm/r5fss0-0_nortos/example.syscfg  | 2 +-
+ examples/drivers/gpmc/gpmc_psram_io/am243x-evm/r5fss0-0_nortos/example.syscfg | 2 +-
+ examples/drivers/gpmc/gpmc_psram_io/am64x-evm/r5fss0-0_nortos/example.syscfg  | 2 +-
+ 4 files changed, 4 insertions(+), 4 deletions(-)
+
+commit 691ed4265059465d688fd4f4a6fb66b3649b4c1a
+Author: Venkatesan Krishnamoorthy <v-krishnamoorthy@ti.com>
+Date:   Mon May 11 19:00:00 2026 +0530
+
+    am64x/am243x: sbl: jtag_uniflash: add CCS Theia scripting instructions
+    
+    Add CCS Theia compatible scripting commands (session.memory.loadBinary)
+    alongside the existing CCS Eclipse loadRaw command in sbl_jtag_uniflash
+    example. Newer CCS versions (20.x.x) use Theia which does not support
+    loadRaw and loadJSFile commands.
+    
+    Fixes: SITSW-10422
+    
+    Signed-off-by: Venkatesan Krishnamoorthy <v-krishnamoorthy@ti.com>
+
+ examples/drivers/boot/sbl_jtag_uniflash/am243x-evm/r5fss0-0_nortos/main.c | 10 ++++++++--
+ examples/drivers/boot/sbl_jtag_uniflash/am243x-lp/r5fss0-0_nortos/main.c  | 10 ++++++++--
+ examples/drivers/boot/sbl_jtag_uniflash/am64x-evm/r5fss0-0_nortos/main.c  | 10 ++++++++--
+ 3 files changed, 24 insertions(+), 6 deletions(-)
+
+commit 10292c560cae7d1d6da222263f8cf97354978847
+Author: Venkatesan Krishnamoorthy <v-krishnamoorthy@ti.com>
+Date:   Mon May 11 18:56:43 2026 +0530
+
+    am64x/am243x: pcie: fix wrong MPU attribute in pcie_benchmark_rc example
+    
+    Change CONFIG_MPU_REGION0 attributes from NonCached to StronglyOrdered
+    in pcie_benchmark_rc example for am243x-evm and am64x-evm.
+    
+    Fixes: SITSW-11373
+    
+    Signed-off-by: Venkatesan Krishnamoorthy <v-krishnamoorthy@ti.com>
+
+ .../pcie_benchmark/pcie_benchmark_rc/am243x-evm/r5fss0-0_nortos/example.syscfg   | 2 +-
+ .../pcie_benchmark/pcie_benchmark_rc/am64x-evm/r5fss0-0_nortos/example.syscfg    | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 6f1aae1c9b1445423ab5425a95c55dc217cc15be
+Author: Venkatesan Krishnamoorthy <v-krishnamoorthy@ti.com>
+Date:   Mon May 11 18:54:25 2026 +0530
+
+    am64x/am243x: docs: remove SOC Device Drivers table; add 12.01.00 RN
+    
+    - Replace SOC Device Drivers table with BUILDSHEET reference in
+      release_notes_12_00_00.md as the table is covered by the build sheet
+    - Create release_notes_12_01_00.md with empty Features, Fixed Issues
+      and Known Issues tables; SOC Device Drivers also references BUILDSHEET
+    - Update release_notes.md and release_notes.cfg for am64x and am243x
+      to include 12.01.00 page
+    
+    Fixes: SITSW-11773
+    
+    Signed-off-by: Venkatesan Krishnamoorthy <v-krishnamoorthy@ti.com>
+
+ docs_src/docs/api_guide/device/am64x_am243x/release_notes_12_00_00.md | 29 +----------------------------
+ docs_src/docs/api_guide/device/am64x_am243x/release_notes_12_01_00.md | 29 +----------------------------
+ 2 files changed, 2 insertions(+), 56 deletions(-)
+
+commit c46ea60d4bb4c5a2f31913b3a6b192fc04118151
+Author: Venkatesan Krishnamoorthy <v-krishnamoorthy@ti.com>
+Date:   Mon May 11 18:46:18 2026 +0530
+
+    am64x/am243x: usb: tinyusb: add NO_SYS=1 to nortos NCM/RNDIS libs
+    
+    Add missing -DNO_SYS=1 to DEFINES_common in TinyUSB nortos NCM and
+    RNDIS library builds for am243x and am64x. Fix is applied in the
+    .project JS files and regenerated makefiles.
+    
+    Fixes: SITSW-11946
+    
+    Signed-off-by: Venkatesan Krishnamoorthy <v-krishnamoorthy@ti.com>
+
+ source/usb/tinyusb/.project/.ncm/project_nortos_am243x.js        | 1 +
+ source/usb/tinyusb/.project/.ncm/project_nortos_am64x.js         | 1 +
+ source/usb/tinyusb/.project/.rndis/project_nortos_am243x.js      | 1 +
+ source/usb/tinyusb/.project/.rndis/project_nortos_am64x.js       | 1 +
+ source/usb/tinyusb/makefile.ncm_nortos.am243x.r5f.gcc-armv7      | 1 +
+ source/usb/tinyusb/makefile.ncm_nortos.am243x.r5f.ti-arm-clang   | 1 +
+ source/usb/tinyusb/makefile.ncm_nortos.am64x.r5f.ti-arm-clang    | 1 +
+ source/usb/tinyusb/makefile.rndis_nortos.am243x.r5f.gcc-armv7    | 1 +
+ source/usb/tinyusb/makefile.rndis_nortos.am243x.r5f.ti-arm-clang | 1 +
+ source/usb/tinyusb/makefile.rndis_nortos.am64x.r5f.ti-arm-clang  | 1 +
+ 10 files changed, 10 insertions(+)
+
+commit afc529ef6e515eb5c0258c4514e5ac8a278cbf97
+Author: Venkatesan Krishnamoorthy <v-krishnamoorthy@ti.com>
+Date:   Mon May 11 18:43:04 2026 +0530
+
+    am64x/am243x: freertos: add stream_buffer.c to library build
+    
+    Add missing stream_buffer.c from FreeRTOS-Kernel to FILES_common
+    in the FreeRTOS library build for am243x and am64x (all CPU variants).
+    The fix is made in the .project JS files and regenerated makefiles.
+    
+    Fixes: SITSW-11947
+    
+    Signed-off-by: Venkatesan Krishnamoorthy <v-krishnamoorthy@ti.com>
+
+ source/kernel/freertos/.project/project_am243x.js         | 2 ++
+ source/kernel/freertos/.project/project_am64x.js          | 4 ++++
+ source/kernel/freertos/makefile.am243x.m4f.ti-arm-clang   | 1 +
+ source/kernel/freertos/makefile.am243x.r5f.gcc-armv7      | 1 +
+ source/kernel/freertos/makefile.am243x.r5f.ti-arm-clang   | 1 +
+ source/kernel/freertos/makefile.am64x.a53-smp.gcc-aarch64 | 1 +
+ source/kernel/freertos/makefile.am64x.a53.gcc-aarch64     | 1 +
+ source/kernel/freertos/makefile.am64x.m4f.ti-arm-clang    | 1 +
+ source/kernel/freertos/makefile.am64x.r5f.gcc-armv7       | 1 +
+ source/kernel/freertos/makefile.am64x.r5f.ti-arm-clang    | 1 +
+ 10 files changed, 14 insertions(+)
+
+commit 98d414eb8d29f966517591cc4684d7fe265ef2e9
+Author: Venkatesan Krishnamoorthy <v-krishnamoorthy@ti.com>
+Date:   Sat May 9 14:13:26 2026 +0530
+
+    am64x/am243x: docs: remove Boot Time Calculator tool from security docs
+    
+     - The Boot Time Calculator tool is only available for ASM devices
+       (AM261x, AM263x, AM273x, AWR294x), not for AM64x/AM243x
+     - Wrap the section with \cond to exclude it from AM64x/AM243x docs
+    
+    Fixes: SITSW-10569
+    
+    Signed-off-by: Venkatesan Krishnamoorthy <v-krishnamoorthy@ti.com>
+
+ docs_src/docs/api_guide/components/tools/tools_security.md | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit e91f2d0854e5c3d5c5d96429a976806e0a416c47
+Author: Venkatesan Krishnamoorthy <v-krishnamoorthy@ti.com>
+Date:   Sat May 9 14:12:59 2026 +0530
+
+    all: sbl: add SBL_SWREV variable and disable SBL encryption OOB
+    
+     - Add SBL_SWREV variable (default=1) to devconfig.mak as single global
+       control for both SBL (--swrv) and BOARDCFG (--sw-rev) software revision
+     - Replace hardcoded --swrv 1 with $(SBL_SWREV) in makefile_executable.xdt
+     - Replace hardcoded --sw-rev 1 with $(SBL_SWREV) in boardcfg/makefile
+     - Change ENC_SBL_ENABLED default from yes to no; enabling OOB on HSSE
+       devices without programmed keys causes boot failures
+     - Regenerated makefiles for am64x and am243x
+    
+    Fixes: SITSW-8160
+    Fixes: SITSW-8161
+    Fixes: SITSW-11651
+    
+    Signed-off-by: Venkatesan Krishnamoorthy <v-krishnamoorthy@ti.com>
+
+ .metadata/product.json                                                           |  1 -
+ .project/templates/makefile_executable.xdt                                       | 26 +++++++++++++-------------
+ devconfig/devconfig.mak                                                          |  8 +++++++-
+ .../boot/sbl_can_multicore_elf/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile   | 10 +++++-----
+ .../boot/sbl_can_multicore_elf/am261x-som/r5fss0-0_nortos/ti-arm-clang/makefile  | 10 +++++-----
+ .../boot/sbl_can_multicore_elf/am263px-cc/r5fss0-0_nortos/ti-arm-clang/makefile  | 10 +++++-----
+ .../boot/sbl_can_multicore_elf/am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile  | 10 +++++-----
+ .../boot/sbl_can_multicore_elf/am263x-cc/r5fss0-0_nortos/ti-arm-clang/makefile   | 10 +++++-----
+ .../boot/sbl_can_multicore_elf/am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile   | 10 +++++-----
+ .../boot/sbl_can_uniflash/am273x-evm/r5fss0-0_nortos/ti-arm-clang/makefile       | 10 +++++-----
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile                              | 10 +++++-----
+ .../am261x-som/r5fss0-0_nortos/ti-arm-clang/makefile                             | 10 +++++-----
+ .../am263px-cc/r5fss0-0_nortos/ti-arm-clang/makefile                             | 10 +++++-----
+ .../am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile                             | 10 +++++-----
+ .../am263x-cc/r5fss0-0_nortos/ti-arm-clang/makefile                              | 10 +++++-----
+ .../am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile                              | 10 +++++-----
+ examples/drivers/boot/sbl_dfu/am243x-evm/r5fss0-0_nortos/gcc-armv7/makefile      |  6 +++---
+ examples/drivers/boot/sbl_dfu/am243x-evm/r5fss0-0_nortos/ti-arm-clang/makefile   |  6 +++---
+ examples/drivers/boot/sbl_dfu/am243x-lp/r5fss0-0_nortos/gcc-armv7/makefile       |  6 +++---
+ examples/drivers/boot/sbl_dfu/am243x-lp/r5fss0-0_nortos/ti-arm-clang/makefile    |  6 +++---
+ examples/drivers/boot/sbl_dfu/am64x-evm/r5fss0-0_nortos/ti-arm-clang/makefile    |  6 +++---
+ .../boot/sbl_dfu_multicore_elf/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile   | 10 +++++-----
+ .../boot/sbl_dfu_multicore_elf/am261x-som/r5fss0-0_nortos/ti-arm-clang/makefile  | 10 +++++-----
+ .../drivers/boot/sbl_dfu_uniflash/am243x-evm/r5fss0-0_nortos/gcc-armv7/makefile  |  6 +++---
+ .../boot/sbl_dfu_uniflash/am243x-evm/r5fss0-0_nortos/ti-arm-clang/makefile       |  6 +++---
+ .../drivers/boot/sbl_dfu_uniflash/am243x-lp/r5fss0-0_nortos/gcc-armv7/makefile   |  6 +++---
+ .../boot/sbl_dfu_uniflash/am243x-lp/r5fss0-0_nortos/ti-arm-clang/makefile        |  6 +++---
+ .../boot/sbl_dfu_uniflash/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile        | 10 +++++-----
+ .../boot/sbl_dfu_uniflash/am261x-som/r5fss0-0_nortos/ti-arm-clang/makefile       | 10 +++++-----
+ .../boot/sbl_dfu_uniflash/am64x-evm/r5fss0-0_nortos/ti-arm-clang/makefile        |  6 +++---
+ examples/drivers/boot/sbl_emmc/am243x-evm/r5fss0-0_nortos/gcc-armv7/makefile     |  6 +++---
+ examples/drivers/boot/sbl_emmc/am243x-evm/r5fss0-0_nortos/ti-arm-clang/makefile  |  6 +++---
+ examples/drivers/boot/sbl_emmc/am64x-evm/r5fss0-0_nortos/ti-arm-clang/makefile   |  6 +++---
+ .../drivers/boot/sbl_emmc_linux/am64x-evm/r5fss0-0_nortos/ti-arm-clang/makefile  |  6 +++---
+ .../drivers/boot/sbl_jtag_uniflash/am243x-evm/r5fss0-0_nortos/gcc-armv7/makefile |  6 +++---
+ .../boot/sbl_jtag_uniflash/am243x-evm/r5fss0-0_nortos/ti-arm-clang/makefile      |  6 +++---
+ .../drivers/boot/sbl_jtag_uniflash/am243x-lp/r5fss0-0_nortos/gcc-armv7/makefile  |  6 +++---
+ .../boot/sbl_jtag_uniflash/am243x-lp/r5fss0-0_nortos/ti-arm-clang/makefile       |  6 +++---
+ .../boot/sbl_jtag_uniflash/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile       | 10 +++++-----
+ .../boot/sbl_jtag_uniflash/am261x-som/r5fss0-0_nortos/ti-arm-clang/makefile      | 10 +++++-----
+ .../boot/sbl_jtag_uniflash/am263px-cc/r5fss0-0_nortos/ti-arm-clang/makefile      | 10 +++++-----
+ .../boot/sbl_jtag_uniflash/am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile      | 10 +++++-----
+ .../boot/sbl_jtag_uniflash/am263x-cc/r5fss0-0_nortos/ti-arm-clang/makefile       | 10 +++++-----
+ .../boot/sbl_jtag_uniflash/am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile       | 10 +++++-----
+ .../boot/sbl_jtag_uniflash/am64x-evm/r5fss0-0_nortos/ti-arm-clang/makefile       |  6 +++---
+ examples/drivers/boot/sbl_null/am243x-evm/r5fss0-0_nortos/gcc-armv7/makefile     |  6 +++---
+ examples/drivers/boot/sbl_null/am243x-evm/r5fss0-0_nortos/ti-arm-clang/makefile  |  6 +++---
+ examples/drivers/boot/sbl_null/am243x-lp/r5fss0-0_nortos/gcc-armv7/makefile      |  6 +++---
+ examples/drivers/boot/sbl_null/am243x-lp/r5fss0-0_nortos/ti-arm-clang/makefile   |  6 +++---
+ examples/drivers/boot/sbl_null/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile   | 10 +++++-----
+ examples/drivers/boot/sbl_null/am261x-som/r5fss0-0_nortos/ti-arm-clang/makefile  | 10 +++++-----
+ examples/drivers/boot/sbl_null/am263px-cc/r5fss0-0_nortos/ti-arm-clang/makefile  | 10 +++++-----
+ examples/drivers/boot/sbl_null/am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile  | 10 +++++-----
+ examples/drivers/boot/sbl_null/am263x-cc/r5fss0-0_nortos/ti-arm-clang/makefile   | 10 +++++-----
+ examples/drivers/boot/sbl_null/am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile   | 10 +++++-----
+ examples/drivers/boot/sbl_null/am273x-evm/r5fss0-0_nortos/ti-arm-clang/makefile  | 10 +++++-----
+ examples/drivers/boot/sbl_null/am64x-evm/r5fss0-0_nortos/ti-arm-clang/makefile   |  6 +++---
+ examples/drivers/boot/sbl_null/am64x-sk/r5fss0-0_nortos/ti-arm-clang/makefile    |  6 +++---
+ examples/drivers/boot/sbl_ospi/am243x-evm/r5fss0-0_nortos/gcc-armv7/makefile     |  6 +++---
+ examples/drivers/boot/sbl_ospi/am243x-evm/r5fss0-0_nortos/ti-arm-clang/makefile  |  6 +++---
+ examples/drivers/boot/sbl_ospi/am243x-lp/r5fss0-0_nortos/gcc-armv7/makefile      |  6 +++---
+ examples/drivers/boot/sbl_ospi/am243x-lp/r5fss0-0_nortos/ti-arm-clang/makefile   |  6 +++---
+ examples/drivers/boot/sbl_ospi/am64x-evm/r5fss0-0_nortos/ti-arm-clang/makefile   |  6 +++---
+ examples/drivers/boot/sbl_ospi/am64x-sk/r5fss0-0_nortos/ti-arm-clang/makefile    |  6 +++---
+ .../drivers/boot/sbl_ospi_enet/am263px-cc/r5fss0-0_nortos/ti-arm-clang/makefile  | 10 +++++-----
+ .../boot/sbl_ospi_fastboot/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile       | 10 +++++-----
+ .../boot/sbl_ospi_fastboot/am261x-som/r5fss0-0_nortos/ti-arm-clang/makefile      | 10 +++++-----
+ .../boot/sbl_ospi_fastboot/am263px-cc/r5fss0-0_nortos/ti-arm-clang/makefile      | 10 +++++-----
+ .../boot/sbl_ospi_fastboot/am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile      | 10 +++++-----
+ .../drivers/boot/sbl_ospi_linux/am64x-evm/r5fss0-0_nortos/ti-arm-clang/makefile  |  6 +++---
+ .../boot/sbl_ospi_multi_partition/am243x-evm/r5fss0-0_nortos/gcc-armv7/makefile  |  6 +++---
+ .../sbl_ospi_multi_partition/am243x-evm/r5fss0-0_nortos/ti-arm-clang/makefile    |  6 +++---
+ .../boot/sbl_ospi_multi_partition/am243x-lp/r5fss0-0_nortos/gcc-armv7/makefile   |  6 +++---
+ .../sbl_ospi_multi_partition/am243x-lp/r5fss0-0_nortos/ti-arm-clang/makefile     |  6 +++---
+ .../sbl_ospi_multi_partition/am64x-evm/r5fss0-0_nortos/ti-arm-clang/makefile     |  6 +++---
+ .../boot/sbl_ospi_multi_partition/am64x-sk/r5fss0-0_nortos/ti-arm-clang/makefile |  6 +++---
+ .../boot/sbl_ospi_multicore_elf/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile  | 10 +++++-----
+ .../boot/sbl_ospi_multicore_elf/am261x-som/r5fss0-0_nortos/ti-arm-clang/makefile | 10 +++++-----
+ .../boot/sbl_ospi_multicore_elf/am263px-cc/r5fss0-0_nortos/ti-arm-clang/makefile | 10 +++++-----
+ .../boot/sbl_ospi_multicore_elf/am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile | 10 +++++-----
+ .../sbl_ospi_nand_multicore_elf/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile  | 10 +++++-----
+ .../drivers/boot/sbl_ospi_swap/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile   | 10 +++++-----
+ .../drivers/boot/sbl_ospi_swap/am261x-som/r5fss0-0_nortos/ti-arm-clang/makefile  | 10 +++++-----
+ .../drivers/boot/sbl_ospi_swap/am263px-cc/r5fss0-0_nortos/ti-arm-clang/makefile  | 10 +++++-----
+ .../drivers/boot/sbl_ospi_swap/am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile  | 10 +++++-----
+ examples/drivers/boot/sbl_pcie/am243x-evm/r5fss0-0_nortos/ti-arm-clang/makefile  |  6 +++---
+ examples/drivers/boot/sbl_pcie/am64x-evm/r5fss0-0_nortos/ti-arm-clang/makefile   |  6 +++---
+ examples/drivers/boot/sbl_qspi/am273x-evm/r5fss0-0_nortos/ti-arm-clang/makefile  | 10 +++++-----
+ .../drivers/boot/sbl_qspi_enet/am263x-cc/r5fss0-0_nortos/ti-arm-clang/makefile   | 10 +++++-----
+ .../boot/sbl_qspi_fastboot/am263x-cc/r5fss0-0_nortos/ti-arm-clang/makefile       | 10 +++++-----
+ .../boot/sbl_qspi_fastboot/am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile       | 10 +++++-----
+ .../boot/sbl_qspi_multicore_elf/am263x-cc/r5fss0-0_nortos/ti-arm-clang/makefile  | 10 +++++-----
+ .../boot/sbl_qspi_multicore_elf/am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile  | 10 +++++-----
+ examples/drivers/boot/sbl_sd/am243x-evm/r5fss0-0_nortos/gcc-armv7/makefile       |  6 +++---
+ examples/drivers/boot/sbl_sd/am243x-evm/r5fss0-0_nortos/ti-arm-clang/makefile    |  6 +++---
+ examples/drivers/boot/sbl_sd/am64x-evm/r5fss0-0_nortos/ti-arm-clang/makefile     |  6 +++---
+ examples/drivers/boot/sbl_sd/am64x-sk/r5fss0-0_nortos/ti-arm-clang/makefile      |  6 +++---
+ .../boot/sbl_sd_multicore_elf/am263px-cc/r5fss0-0_nortos/ti-arm-clang/makefile   | 10 +++++-----
+ .../boot/sbl_sd_multicore_elf/am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile   | 10 +++++-----
+ .../boot/sbl_sd_multicore_elf/am263x-cc/r5fss0-0_nortos/ti-arm-clang/makefile    | 10 +++++-----
+ .../boot/sbl_sd_multicore_elf/am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile    | 10 +++++-----
+ examples/drivers/boot/sbl_uart/am243x-evm/r5fss0-0_nortos/gcc-armv7/makefile     |  6 +++---
+ examples/drivers/boot/sbl_uart/am243x-evm/r5fss0-0_nortos/ti-arm-clang/makefile  |  6 +++---
+ examples/drivers/boot/sbl_uart/am243x-lp/r5fss0-0_nortos/gcc-armv7/makefile      |  6 +++---
+ examples/drivers/boot/sbl_uart/am243x-lp/r5fss0-0_nortos/ti-arm-clang/makefile   |  6 +++---
+ examples/drivers/boot/sbl_uart/am273x-evm/r5fss0-0_nortos/ti-arm-clang/makefile  | 10 +++++-----
+ examples/drivers/boot/sbl_uart/am64x-evm/r5fss0-0_nortos/ti-arm-clang/makefile   |  6 +++---
+ examples/drivers/boot/sbl_uart/am64x-sk/r5fss0-0_nortos/ti-arm-clang/makefile    |  6 +++---
+ .../boot/sbl_uart_multicore_elf/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile  | 10 +++++-----
+ .../boot/sbl_uart_multicore_elf/am261x-som/r5fss0-0_nortos/ti-arm-clang/makefile | 10 +++++-----
+ .../boot/sbl_uart_multicore_elf/am263px-cc/r5fss0-0_nortos/ti-arm-clang/makefile | 10 +++++-----
+ .../boot/sbl_uart_multicore_elf/am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile | 10 +++++-----
+ .../boot/sbl_uart_multicore_elf/am263x-cc/r5fss0-0_nortos/ti-arm-clang/makefile  | 10 +++++-----
+ .../boot/sbl_uart_multicore_elf/am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile  | 10 +++++-----
+ .../drivers/boot/sbl_uart_uniflash/am243x-evm/r5fss0-0_nortos/gcc-armv7/makefile |  6 +++---
+ .../boot/sbl_uart_uniflash/am243x-evm/r5fss0-0_nortos/ti-arm-clang/makefile      |  6 +++---
+ .../drivers/boot/sbl_uart_uniflash/am243x-lp/r5fss0-0_nortos/gcc-armv7/makefile  |  6 +++---
+ .../boot/sbl_uart_uniflash/am243x-lp/r5fss0-0_nortos/ti-arm-clang/makefile       |  6 +++---
+ .../boot/sbl_uart_uniflash/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile       | 10 +++++-----
+ .../boot/sbl_uart_uniflash/am261x-som/r5fss0-0_nortos/ti-arm-clang/makefile      | 10 +++++-----
+ .../boot/sbl_uart_uniflash/am263px-cc/r5fss0-0_nortos/ti-arm-clang/makefile      | 10 +++++-----
+ .../boot/sbl_uart_uniflash/am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile      | 10 +++++-----
+ .../boot/sbl_uart_uniflash/am263x-cc/r5fss0-0_nortos/ti-arm-clang/makefile       | 10 +++++-----
+ .../boot/sbl_uart_uniflash/am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile       | 10 +++++-----
+ .../boot/sbl_uart_uniflash/am273x-evm/r5fss0-0_nortos/ti-arm-clang/makefile      | 10 +++++-----
+ .../boot/sbl_uart_uniflash/am64x-evm/r5fss0-0_nortos/ti-arm-clang/makefile       |  6 +++---
+ .../boot/sbl_uart_uniflash/am64x-sk/r5fss0-0_nortos/ti-arm-clang/makefile        |  6 +++---
+ .../boot/sbl_uart_uniflash_nand/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile  | 10 +++++-----
+ examples/drivers/mcasp/mcasp_playback/mcasp_playback.c                           |  2 +-
+ examples/hello_world/am273x-evm/r5fss0-1_nortos/example.syscfg                   | 11 ++++++-----
+ examples/otp/ext_otp/am64x-evm/r5fss0-0_nortos/ti-arm-clang/makefile             |  6 +++---
+ examples/otp/runtime_keyrev/am243x-evm/r5fss0-0_nortos/ti-arm-clang/makefile     |  6 +++---
+ examples/otp/runtime_keyrev/am64x-evm/r5fss0-0_nortos/ti-arm-clang/makefile      |  6 +++---
+ examples/otp/runtime_swrev/am64x-evm/r5fss0-0_nortos/ti-arm-clang/makefile       |  6 +++---
+ tools/flasher/jtag_uniflash/am243x-evm/r5fss0-0_nortos/ti-arm-clang/makefile     |  6 +++---
+ tools/flasher/jtag_uniflash/am243x-lp/r5fss0-0_nortos/ti-arm-clang/makefile      |  6 +++---
+ tools/flasher/jtag_uniflash/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile      | 10 +++++-----
+ tools/flasher/jtag_uniflash/am261x-som/r5fss0-0_nortos/ti-arm-clang/makefile     | 10 +++++-----
+ tools/flasher/jtag_uniflash/am263px-cc/r5fss0-0_nortos/ti-arm-clang/makefile     | 10 +++++-----
+ tools/flasher/jtag_uniflash/am263px-lp/r5fss0-0_nortos/ti-arm-clang/makefile     | 10 +++++-----
+ tools/flasher/jtag_uniflash/am263x-cc/r5fss0-0_nortos/ti-arm-clang/makefile      | 10 +++++-----
+ tools/flasher/jtag_uniflash/am263x-lp/r5fss0-0_nortos/ti-arm-clang/makefile      | 10 +++++-----
+ tools/flasher/jtag_uniflash/am273x-evm/r5fss0-0_nortos/ti-arm-clang/makefile     | 10 +++++-----
+ tools/sysfw/boardcfg/makefile                                                    |  4 ++--
+ 144 files changed, 595 insertions(+), 589 deletions(-)
+
