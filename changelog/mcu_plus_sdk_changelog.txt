@@ -106698,3 +106698,43 @@ Date:   Sat May 9 14:12:59 2026 +0530
  tools/sysfw/boardcfg/makefile                                                    |  4 ++--
  144 files changed, 595 insertions(+), 589 deletions(-)
 
+========================================
+Changes from build on 2026-06-26 19:41:00
+Previous commit: 909204f80b036c48bb7ec268c938c1de44897c4c
+Current commit: 14432b26016f3e5d9ba9edb59c7f369a93d6b5cc
+========================================
+
+commit 14432b26016f3e5d9ba9edb59c7f369a93d6b5cc
+Author: tushar thakur <tushar@ti.com>
+Date:   Thu Jun 18 15:54:07 2026 +0530
+
+    am64x/am243x: pcie/serdes: Fix PLL lock check for clock availability
+    
+     - Added the pll lock check for PCIE SERDES to ensure
+     - clock availability before proceeding with  any
+     - PCIE transaction.
+    
+    Fixes: SITSW-12222
+    
+    Signed-off-by: tushar thakur <tushar@ti.com>
+
+ source/drivers/hw_include/serdes_cd/V1/V1_1/csl_serdes3.c | 21 +++++++++++++++++++++
+ source/drivers/hw_include/serdes_cd/V1/csl_serdes3.h      |  1 +
+ 2 files changed, 22 insertions(+)
+
+commit adb6a6f9353b0f29ec83dcbb54a0d683f1654892
+Author: rohith <rohith.rajan@ti.com>
+Date:   Thu Jun 18 19:26:08 2026 +0530
+
+    am64x: ipc: update on Graceful shutdown
+    
+        * Update the IPC RPMsg echo example to handle the graceful shutdown
+          of the remote cores.
+    
+    Fixes: SITSW-12065
+    
+    Signed-off-by: rohith <rohith.rajan@ti.com>
+
+ examples/drivers/ipc/ipc_rpmsg_echo_linux/ipc_rpmsg_echo.c | 64 ++++++++++++++++++++++++++++++++++--------------------
+ 1 file changed, 40 insertions(+), 24 deletions(-)
+
