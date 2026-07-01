@@ -159895,3 +159895,26 @@ Date:   Mon Jun 29 18:21:34 2026 +0530
  tools/usb_test_scripts/usb_vendor_bulk_echo_test.py                         |   221 +
  53135 files changed, 9194917 insertions(+)
 
+========================================
+Changes from build on 2026-07-01 19:40:23
+Previous commit: 21a997330c2b0e50b6784d1e5b7ebaff1701c0b9
+Current commit: e9077cc4fd3526bdd704afc7d544921f774b33c8
+========================================
+
+commit e9077cc4fd3526bdd704afc7d544921f774b33c8
+Author: Ranga Rakesh Jonnalagadda <r-jonnalagadda@ti.com>
+Date:   Thu Oct 9 13:56:08 2025 +0530
+
+    am261x/am263x/am263px: enet: Enable intervlan support in enet driver
+    
+    - Enable inter-vlan support in enet driver and IOCTLs
+    
+    Fixes: MCUSDK-14952
+    
+    Signed-off-by: Ranga Rakesh Jonnalagadda <r-jonnalagadda@ti.com>
+
+ source/networking/enet/soc/am261x/enet_soc_cfg.h  | 4 ++--
+ source/networking/enet/soc/am263px/enet_soc_cfg.h | 4 ++--
+ source/networking/enet/soc/am263x/enet_soc_cfg.h  | 4 ++--
+ 3 files changed, 6 insertions(+), 6 deletions(-)
+
