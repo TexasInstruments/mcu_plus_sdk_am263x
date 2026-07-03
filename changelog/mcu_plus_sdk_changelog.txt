@@ -159918,3 +159918,385 @@ Date:   Thu Oct 9 13:56:08 2025 +0530
  source/networking/enet/soc/am263x/enet_soc_cfg.h  | 4 ++--
  3 files changed, 6 insertions(+), 6 deletions(-)
 
+========================================
+Changes from build on 2026-07-03 19:40:32
+Previous commit: e9077cc4fd3526bdd704afc7d544921f774b33c8
+Current commit: 1bd6bf142da965a50ba4a6af9da84bc4ad51dc87
+========================================
+
+commit 1bd6bf142da965a50ba4a6af9da84bc4ad51dc87
+Author: Fayaz Akthar <f-akthar@ti.com>
+Date:   Wed Jul 1 15:55:35 2026 +0530
+
+    am64x_am243x: sysfw: Update TIFS to v12.01.00
+    
+    Update tifs binary and the headers to tag v12.01.00 from
+    v12.00.02 for am64x_am243x.
+    
+    Major changes:
+    Common:
+    1. Added keyring-based AES key support in CSP module
+    2. Added eFuse autoload error checking on boot initialization
+    
+    Fixes: SITSW-12505
+    
+    Signed-off-by: Fayaz Akthar <f-akthar@ti.com>
+
+ source/drivers/sciclient/include/tisci/tisci_boardcfg.h            |  21 ++++++++++++++++++++-
+ source/drivers/sciclient/soc/am64x_am243x/sysfw-hs-enc-cert.bin    | Bin 1684 -> 1684 bytes
+ source/drivers/sciclient/soc/am64x_am243x/sysfw-hs-enc.bin         | Bin 225280 -> 225280 bytes
+ source/drivers/sciclient/soc/am64x_am243x/sysfw-hs-fs-enc-cert.bin | Bin 1684 -> 1684 bytes
+ source/drivers/sciclient/soc/am64x_am243x/sysfw-hs-fs-enc.bin      | Bin 225280 -> 225280 bytes
+ 5 files changed, 20 insertions(+), 1 deletion(-)
+
+commit a4e38768d8cac08dd575801446deaf5bc5f316b5
+Author: Archit Dev <a-dev@ti.com>
+Date:   Tue Jun 30 12:07:52 2026 +0530
+
+    allsoc: icss_emac: add icss_emac_lld dependency declaration
+    
+    Fixes: PINDSW-11228
+    
+    Signed-off-by: Archit Dev <a-dev@ti.com>
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit e6c5548494af05cf1830c5e64b6d0939e3c3b4dc
+Author: Archit Dev <a-dev@ti.com>
+Date:   Tue Jun 30 11:55:05 2026 +0530
+
+    am26xx/am243x/am64x: icss_emac: rename doxygen files to lowercase
+    
+    - rename Icss_emac_sample.c and Icss_timesync_sample.c to lowercase
+    
+    Fixes: PINDSW-11228
+    
+    Signed-off-by: Archit Dev <a-dev@ti.com>
+
+ docs_src/docs/api_guide/components/networking/icss_emac/icss_emac.md             | 10 +++++-----
+ docs_src/docs/api_guide/components/networking/icss_timesync.md                   |  4 ++--
+ .../api_guide/doxy_samples/networking/{Icss_emac_sample.c => icss_emac_sample.c} |  0
+ .../doxy_samples/networking/{Icss_timesync_sample.c => icss_timesync_sample.c}   |  0
+ 4 files changed, 7 insertions(+), 7 deletions(-)
+
+commit 9b341443137284683bc6f2a6538b4b1889a0e618
+Author: Archit Dev <a-dev@ti.com>
+Date:   Mon Jun 29 11:45:59 2026 +0530
+
+    am26xx/am243x/am64x: icss_emac: update the project.js
+    
+    - The icss_emac and icss_timesync sources are being tracked
+    via the newly created icss_emac_lld repository
+    
+    - This commit updates the path of the project.js files for
+    icss_emac / icss_timesync / icss_emac_lwipif to ensure
+    proper makefile generation
+    
+    - Runs gen-buildfiles command to re-generate the makefiles
+    with the updated path
+    
+    - Also updates the documentation path to point to the latest
+    path
+    
+    Fixes: PINDSW-10865
+    
+    Signed-off-by: Archit Dev <a-dev@ti.com>
+
+ .project/device/project_am243x.js                                           |  6 ++--
+ .project/device/project_am261x.js                                           | 12 +++----
+ .project/device/project_am263px.js                                          | 12 +++----
+ .project/device/project_am263x.js                                           | 10 +++---
+ .project/device/project_am64x.js                                            |  6 ++--
+ .../docs/api_guide/components/networking/icss_emac/icss_emac_am243x.cfg     |  2 +-
+ .../docs/api_guide/components/networking/icss_emac/icss_emac_am261x.cfg     |  2 +-
+ .../docs/api_guide/components/networking/icss_emac/icss_emac_am263px.cfg    |  2 +-
+ .../docs/api_guide/components/networking/icss_emac/icss_emac_am263x.cfg     |  2 +-
+ docs_src/docs/api_guide/components/networking/icss_emac/icss_emac_am64x.cfg |  2 +-
+ docs_src/docs/api_guide/components/networking/icss_emac/icss_emac_design.md |  2 +-
+ docs_src/docs/api_guide/components/networking/icss_timesync.cfg             |  8 ++---
+ docs_src/docs/api_guide/doxy_samples/networking/Icss_timesync_sample.c      |  2 +-
+ docs_src/docs/api_guide/migration_guides/icss_emac_migration_guide.md       |  2 +-
+ examples/networking/lwip/icss_emac_lwip/.project/project_am261x.js          | 18 +++++------
+ examples/networking/lwip/icss_emac_lwip/.project/project_am263px.js         | 18 +++++------
+ examples/networking/lwip/icss_emac_lwip/.project/project_am263x.js          | 18 +++++------
+ .../am261x-lp/r5fss0-0_freertos/ti-arm-clang/example.projectspec            | 18 +++++------
+ .../lwip/icss_emac_lwip/am261x-lp/r5fss0-0_freertos/ti-arm-clang/makefile   | 22 ++++++-------
+ .../am263px-cc/r5fss0-0_freertos/ti-arm-clang/example.projectspec           | 18 +++++------
+ .../lwip/icss_emac_lwip/am263px-cc/r5fss0-0_freertos/ti-arm-clang/makefile  | 22 ++++++-------
+ .../am263px-lp/r5fss0-0_freertos/ti-arm-clang/example.projectspec           | 18 +++++------
+ .../lwip/icss_emac_lwip/am263px-lp/r5fss0-0_freertos/ti-arm-clang/makefile  | 22 ++++++-------
+ .../am263x-cc/r5fss0-0_freertos/ti-arm-clang/example.projectspec            | 18 +++++------
+ .../lwip/icss_emac_lwip/am263x-cc/r5fss0-0_freertos/ti-arm-clang/makefile   | 22 ++++++-------
+ .../am263x-lp/r5fss0-0_freertos/ti-arm-clang/example.projectspec            | 18 +++++------
+ .../lwip/icss_emac_lwip/am263x-lp/r5fss0-0_freertos/ti-arm-clang/makefile   | 22 ++++++-------
+ makefile.am243x                                                             | 18 +++++------
+ makefile.am261x                                                             | 24 +++++++-------
+ makefile.am263px                                                            | 24 +++++++-------
+ makefile.am263x                                                             | 18 +++++------
+ makefile.am64x                                                              | 18 +++++------
+ test/makefile.am261x                                                        | 32 +++++++++----------
+ test/makefile.am263px                                                       | 64 ++++++++++++++++++-------------------
+ test/makefile.am263x                                                        | 64 ++++++++++++++++++-------------------
+ test/makefile_projectspec.am261x                                            | 32 +++++++++----------
+ test/makefile_projectspec.am263px                                           | 64 ++++++++++++++++++-------------------
+ test/makefile_projectspec.am263x                                            | 64 ++++++++++++++++++-------------------
+ 38 files changed, 373 insertions(+), 373 deletions(-)
+
+commit 31500a09a7eeee1a15053ac5a04221cd6dadeed0
+Author: Archit Dev <a-dev@ti.com>
+Date:   Fri Jun 26 11:33:10 2026 +0530
+
+    am26xx/am243x/am64x: icss emac/timesync: remove sources from the MCU+ SDK
+    
+    - The icss_emac and icss_timesync sources are being tracked
+    via the newly created icss_emac_lld repository
+    
+    - This commit removes the sources present directly in the
+    MCU+ SDK repo
+    
+    - This commit needs to run along with the changes in the scripts
+    repo to ensure the icss_emac and timesync sources are cloned
+    
+    - For more details, refer to the attached Jira issue
+    
+    Fixes: PINDSW-10865
+    
+    Signed-off-by: Archit Dev <a-dev@ti.com>
+
+ source/networking/icss_emac/.project/project.js                             |   14 -
+ source/networking/icss_emac/.project/project_am243x.js                      |   56 -
+ source/networking/icss_emac/.project/project_am261x.js                      |   56 -
+ .../networking/icss_emac/.project/project_am261x_hsr_prp_icss_emac_mii.js   |   64 -
+ source/networking/icss_emac/.project/project_am263px.js                     |   56 -
+ .../networking/icss_emac/.project/project_am263px_hsr_prp_icss_emac_mii.js  |   64 -
+ source/networking/icss_emac/.project/project_am263x.js                      |   56 -
+ source/networking/icss_emac/.project/project_am64x.js                       |   56 -
+ source/networking/icss_emac/.project/project_hsr_prp_icss_emac_mii.js       |   14 -
+ source/networking/icss_emac/firmware/README.md                              |   99 --
+ .../networking/icss_emac/firmware/icss_dual_emac/am261x-lp/pruicss_pinmux.h |  242 ---
+ .../icss_emac/firmware/icss_dual_emac/am261x-som/pruicss_pinmux.h           |  220 ---
+ .../icss_emac/firmware/icss_dual_emac/am263px-cc/pruicss_pinmux.h           |  220 ---
+ .../icss_emac/firmware/icss_dual_emac/am263px-lp/pruicss_pinmux.h           |  215 ---
+ .../networking/icss_emac/firmware/icss_dual_emac/am263x-cc/pruicss_pinmux.h |  220 ---
+ .../networking/icss_emac/firmware/icss_dual_emac/am263x-lp/pruicss_pinmux.h |  215 ---
+ source/networking/icss_emac/firmware/icss_dual_emac/icss_emac_mmap.h        |  445 ------
+ source/networking/icss_emac/firmware/icss_dual_emac/mii/.project/project.js |   14 -
+ .../icss_emac/firmware/icss_dual_emac/mii/.project/project_am261x.js        |  180 ---
+ .../icss_emac/firmware/icss_dual_emac/mii/.project/project_am263px.js       |  180 ---
+ .../icss_emac/firmware/icss_dual_emac/mii/.project/project_am263x.js        |  180 ---
+ source/networking/icss_emac/firmware/icss_dual_emac/mii/PRU0_bin.h          | 1358 -----------------
+ source/networking/icss_emac/firmware/icss_dual_emac/mii/PRU1_bin.h          | 1365 -----------------
+ .../mii/am261x-lp/icss_m0_pru0_fw/ti-pru-cgt/example.projectspec            |  124 --
+ .../icss_dual_emac/mii/am261x-lp/icss_m0_pru0_fw/ti-pru-cgt/makefile        |  102 --
+ .../icss_dual_emac/mii/am261x-lp/icss_m0_pru0_fw/ti-pru-cgt/makefile.defs   |   14 -
+ .../mii/am261x-lp/icss_m0_pru0_fw/ti-pru-cgt/makefile_projectspec           |   17 -
+ .../mii/am261x-lp/icss_m0_pru1_fw/ti-pru-cgt/example.projectspec            |  124 --
+ .../icss_dual_emac/mii/am261x-lp/icss_m0_pru1_fw/ti-pru-cgt/makefile        |  102 --
+ .../icss_dual_emac/mii/am261x-lp/icss_m0_pru1_fw/ti-pru-cgt/makefile.defs   |   14 -
+ .../mii/am261x-lp/icss_m0_pru1_fw/ti-pru-cgt/makefile_projectspec           |   17 -
+ .../mii/am263px-cc/icss_m0_pru0_fw/ti-pru-cgt/example.projectspec           |  124 --
+ .../icss_dual_emac/mii/am263px-cc/icss_m0_pru0_fw/ti-pru-cgt/makefile       |  102 --
+ .../icss_dual_emac/mii/am263px-cc/icss_m0_pru0_fw/ti-pru-cgt/makefile.defs  |   14 -
+ .../mii/am263px-cc/icss_m0_pru0_fw/ti-pru-cgt/makefile_projectspec          |   17 -
+ .../mii/am263px-cc/icss_m0_pru1_fw/ti-pru-cgt/example.projectspec           |  124 --
+ .../icss_dual_emac/mii/am263px-cc/icss_m0_pru1_fw/ti-pru-cgt/makefile       |  102 --
+ .../icss_dual_emac/mii/am263px-cc/icss_m0_pru1_fw/ti-pru-cgt/makefile.defs  |   14 -
+ .../mii/am263px-cc/icss_m0_pru1_fw/ti-pru-cgt/makefile_projectspec          |   17 -
+ .../mii/am263px-lp/icss_m0_pru0_fw/ti-pru-cgt/example.projectspec           |  124 --
+ .../icss_dual_emac/mii/am263px-lp/icss_m0_pru0_fw/ti-pru-cgt/makefile       |  102 --
+ .../icss_dual_emac/mii/am263px-lp/icss_m0_pru0_fw/ti-pru-cgt/makefile.defs  |   14 -
+ .../mii/am263px-lp/icss_m0_pru0_fw/ti-pru-cgt/makefile_projectspec          |   17 -
+ .../mii/am263px-lp/icss_m0_pru1_fw/ti-pru-cgt/example.projectspec           |  124 --
+ .../icss_dual_emac/mii/am263px-lp/icss_m0_pru1_fw/ti-pru-cgt/makefile       |  102 --
+ .../icss_dual_emac/mii/am263px-lp/icss_m0_pru1_fw/ti-pru-cgt/makefile.defs  |   14 -
+ .../mii/am263px-lp/icss_m0_pru1_fw/ti-pru-cgt/makefile_projectspec          |   17 -
+ .../mii/am263x-cc/icss_m0_pru0_fw/ti-pru-cgt/example.projectspec            |  124 --
+ .../icss_dual_emac/mii/am263x-cc/icss_m0_pru0_fw/ti-pru-cgt/makefile        |  102 --
+ .../icss_dual_emac/mii/am263x-cc/icss_m0_pru0_fw/ti-pru-cgt/makefile.defs   |   14 -
+ .../mii/am263x-cc/icss_m0_pru0_fw/ti-pru-cgt/makefile_projectspec           |   17 -
+ .../mii/am263x-cc/icss_m0_pru1_fw/ti-pru-cgt/example.projectspec            |  124 --
+ .../icss_dual_emac/mii/am263x-cc/icss_m0_pru1_fw/ti-pru-cgt/makefile        |  102 --
+ .../icss_dual_emac/mii/am263x-cc/icss_m0_pru1_fw/ti-pru-cgt/makefile.defs   |   14 -
+ .../mii/am263x-cc/icss_m0_pru1_fw/ti-pru-cgt/makefile_projectspec           |   17 -
+ .../mii/am263x-lp/icss_m0_pru0_fw/ti-pru-cgt/example.projectspec            |  124 --
+ .../icss_dual_emac/mii/am263x-lp/icss_m0_pru0_fw/ti-pru-cgt/makefile        |  102 --
+ .../icss_dual_emac/mii/am263x-lp/icss_m0_pru0_fw/ti-pru-cgt/makefile.defs   |   14 -
+ .../mii/am263x-lp/icss_m0_pru0_fw/ti-pru-cgt/makefile_projectspec           |   17 -
+ .../mii/am263x-lp/icss_m0_pru1_fw/ti-pru-cgt/example.projectspec            |  124 --
+ .../icss_dual_emac/mii/am263x-lp/icss_m0_pru1_fw/ti-pru-cgt/makefile        |  102 --
+ .../icss_dual_emac/mii/am263x-lp/icss_m0_pru1_fw/ti-pru-cgt/makefile.defs   |   14 -
+ .../mii/am263x-lp/icss_m0_pru1_fw/ti-pru-cgt/makefile_projectspec           |   17 -
+ .../networking/icss_emac/firmware/icss_dual_emac/mii/icss_emac_hexpru.cmd   |    7 -
+ .../icss_emac/firmware/icss_dual_emac/tiemac_pruicss_intc_mapping.h         |  128 --
+ .../networking/icss_emac/firmware/icss_switch/config/icss_emacFwVersion.h   |   99 --
+ .../firmware/icss_switch/docs/ICSS_SWITCH_Firmware_Design_Guide.pdf         |  Bin 1550715 -> 0 bytes
+ source/networking/icss_emac/firmware/icss_switch/mii/.project/project.js    |   14 -
+ .../icss_emac/firmware/icss_switch/mii/.project/project_am261x.js           |  181 ---
+ .../icss_emac/firmware/icss_switch/mii/.project/project_am263px.js          |  181 ---
+ .../icss_emac/firmware/icss_switch/mii/.project/project_am263x.js           |  181 ---
+ source/networking/icss_emac/firmware/icss_switch/mii/PRU0_bin.h             | 1465 ------------------
+ source/networking/icss_emac/firmware/icss_switch/mii/PRU1_bin.h             | 1455 ------------------
+ .../mii/am261x-lp/icss_m0_pru0_fw/ti-pru-cgt/example.projectspec            |  124 --
+ .../firmware/icss_switch/mii/am261x-lp/icss_m0_pru0_fw/ti-pru-cgt/makefile  |  102 --
+ .../icss_switch/mii/am261x-lp/icss_m0_pru0_fw/ti-pru-cgt/makefile.defs      |   14 -
+ .../mii/am261x-lp/icss_m0_pru0_fw/ti-pru-cgt/makefile_projectspec           |   17 -
+ .../mii/am261x-lp/icss_m0_pru1_fw/ti-pru-cgt/example.projectspec            |  124 --
+ .../firmware/icss_switch/mii/am261x-lp/icss_m0_pru1_fw/ti-pru-cgt/makefile  |  102 --
+ .../icss_switch/mii/am261x-lp/icss_m0_pru1_fw/ti-pru-cgt/makefile.defs      |   14 -
+ .../mii/am261x-lp/icss_m0_pru1_fw/ti-pru-cgt/makefile_projectspec           |   17 -
+ .../mii/am263px-cc/icss_m0_pru0_fw/ti-pru-cgt/example.projectspec           |  124 --
+ .../firmware/icss_switch/mii/am263px-cc/icss_m0_pru0_fw/ti-pru-cgt/makefile |  102 --
+ .../icss_switch/mii/am263px-cc/icss_m0_pru0_fw/ti-pru-cgt/makefile.defs     |   14 -
+ .../mii/am263px-cc/icss_m0_pru0_fw/ti-pru-cgt/makefile_projectspec          |   17 -
+ .../mii/am263px-cc/icss_m0_pru1_fw/ti-pru-cgt/example.projectspec           |  124 --
+ .../firmware/icss_switch/mii/am263px-cc/icss_m0_pru1_fw/ti-pru-cgt/makefile |  102 --
+ .../icss_switch/mii/am263px-cc/icss_m0_pru1_fw/ti-pru-cgt/makefile.defs     |   14 -
+ .../mii/am263px-cc/icss_m0_pru1_fw/ti-pru-cgt/makefile_projectspec          |   17 -
+ .../mii/am263px-lp/icss_m0_pru0_fw/ti-pru-cgt/example.projectspec           |  124 --
+ .../firmware/icss_switch/mii/am263px-lp/icss_m0_pru0_fw/ti-pru-cgt/makefile |  102 --
+ .../icss_switch/mii/am263px-lp/icss_m0_pru0_fw/ti-pru-cgt/makefile.defs     |   14 -
+ .../mii/am263px-lp/icss_m0_pru0_fw/ti-pru-cgt/makefile_projectspec          |   17 -
+ .../mii/am263px-lp/icss_m0_pru1_fw/ti-pru-cgt/example.projectspec           |  124 --
+ .../firmware/icss_switch/mii/am263px-lp/icss_m0_pru1_fw/ti-pru-cgt/makefile |  102 --
+ .../icss_switch/mii/am263px-lp/icss_m0_pru1_fw/ti-pru-cgt/makefile.defs     |   14 -
+ .../mii/am263px-lp/icss_m0_pru1_fw/ti-pru-cgt/makefile_projectspec          |   17 -
+ .../mii/am263x-cc/icss_m0_pru0_fw/ti-pru-cgt/example.projectspec            |  124 --
+ .../firmware/icss_switch/mii/am263x-cc/icss_m0_pru0_fw/ti-pru-cgt/makefile  |  102 --
+ .../icss_switch/mii/am263x-cc/icss_m0_pru0_fw/ti-pru-cgt/makefile.defs      |   14 -
+ .../mii/am263x-cc/icss_m0_pru0_fw/ti-pru-cgt/makefile_projectspec           |   17 -
+ .../mii/am263x-cc/icss_m0_pru1_fw/ti-pru-cgt/example.projectspec            |  124 --
+ .../firmware/icss_switch/mii/am263x-cc/icss_m0_pru1_fw/ti-pru-cgt/makefile  |  102 --
+ .../icss_switch/mii/am263x-cc/icss_m0_pru1_fw/ti-pru-cgt/makefile.defs      |   14 -
+ .../mii/am263x-cc/icss_m0_pru1_fw/ti-pru-cgt/makefile_projectspec           |   17 -
+ .../mii/am263x-lp/icss_m0_pru0_fw/ti-pru-cgt/example.projectspec            |  124 --
+ .../firmware/icss_switch/mii/am263x-lp/icss_m0_pru0_fw/ti-pru-cgt/makefile  |  102 --
+ .../icss_switch/mii/am263x-lp/icss_m0_pru0_fw/ti-pru-cgt/makefile.defs      |   14 -
+ .../mii/am263x-lp/icss_m0_pru0_fw/ti-pru-cgt/makefile_projectspec           |   17 -
+ .../mii/am263x-lp/icss_m0_pru1_fw/ti-pru-cgt/example.projectspec            |  124 --
+ .../firmware/icss_switch/mii/am263x-lp/icss_m0_pru1_fw/ti-pru-cgt/makefile  |  102 --
+ .../icss_switch/mii/am263x-lp/icss_m0_pru1_fw/ti-pru-cgt/makefile.defs      |   14 -
+ .../mii/am263x-lp/icss_m0_pru1_fw/ti-pru-cgt/makefile_projectspec           |   17 -
+ source/networking/icss_emac/firmware/icss_switch/mii/icss_emac_hexpru.cmd   |    7 -
+ .../networking/icss_emac/firmware/icss_switch/tiswitch_pruss_intc_mapping.h |  100 --
+ source/networking/icss_emac/firmware/source/README.txt                      |   63 -
+ source/networking/icss_emac/firmware/source/emac_MII_Rcv.asm                | 2242 ---------------------------
+ source/networking/icss_emac/firmware/source/emac_MII_Rcv.h                  |  663 --------
+ source/networking/icss_emac/firmware/source/emac_MII_Xmt.asm                | 1087 -------------
+ source/networking/icss_emac/firmware/source/emac_MII_Xmt.h                  |  321 ----
+ source/networking/icss_emac/firmware/source/emac_ptp.asm                    | 1183 --------------
+ source/networking/icss_emac/firmware/source/emac_statistics.asm             |  391 -----
+ source/networking/icss_emac/firmware/source/emac_tts.asm                    |  789 ----------
+ source/networking/icss_emac/firmware/source/emac_tts.h                      |  550 -------
+ source/networking/icss_emac/firmware/source/firmware_version.h              |  152 --
+ source/networking/icss_emac/firmware/source/icss_defines.h                  |  139 --
+ source/networking/icss_emac/firmware/source/icss_ecap_regs.h                |   62 -
+ source/networking/icss_emac/firmware/source/icss_emacSwitch.h               |  822 ----------
+ source/networking/icss_emac/firmware/source/icss_iep_regs.h                 |  164 --
+ source/networking/icss_emac/firmware/source/icss_intc_regs.h                |  132 --
+ source/networking/icss_emac/firmware/source/icss_macros.h                   |  396 -----
+ source/networking/icss_emac/firmware/source/icss_miirt_regs.h               |  212 ---
+ source/networking/icss_emac/firmware/source/icss_ptp.h                      |  154 --
+ source/networking/icss_emac/firmware/source/icss_ptp_macro.h                |  355 -----
+ source/networking/icss_emac/firmware/source/icss_rx_int_pacing_mmap.h       |   94 --
+ source/networking/icss_emac/firmware/source/icss_stp_switch.h               |  211 ---
+ source/networking/icss_emac/firmware/source/icss_stp_switch_macros.h        |  502 ------
+ source/networking/icss_emac/firmware/source/icss_switch.h                   |  786 ----------
+ source/networking/icss_emac/firmware/source/icss_switch_macros.h            |  155 --
+ source/networking/icss_emac/firmware/source/icss_timeSync_memory_map.h      |  120 --
+ source/networking/icss_emac/firmware/source/icss_vlan_mcast_filter_mmap.h   |  136 --
+ source/networking/icss_emac/firmware/source/micro_scheduler.asm             |  457 ------
+ source/networking/icss_emac/firmware/source/micro_scheduler.h               |  320 ----
+ source/networking/icss_emac/firmware/source/pru.cmd                         |   48 -
+ source/networking/icss_emac/firmware/source/pru_types.h                     |   83 -
+ source/networking/icss_emac/firmware/source/resource_table.c                |  105 --
+ source/networking/icss_emac/firmware/source/rsc_types.h                     |  347 -----
+ source/networking/icss_emac/firmware/source/switch_collision_task.asm       |  349 -----
+ source/networking/icss_emac/icss_emac.h                                     | 1053 -------------
+ source/networking/icss_emac/lwipif/.project/project.js                      |   14 -
+ source/networking/icss_emac/lwipif/.project/project_am243x.js               |   79 -
+ source/networking/icss_emac/lwipif/.project/project_am261x.js               |   79 -
+ source/networking/icss_emac/lwipif/.project/project_am263px.js              |   79 -
+ source/networking/icss_emac/lwipif/.project/project_am263x.js               |   79 -
+ source/networking/icss_emac/lwipif/.project/project_am64x.js                |   78 -
+ source/networking/icss_emac/lwipif/inc/default_netif.h                      |   58 -
+ source/networking/icss_emac/lwipif/inc/lwip2icss_emac.h                     |  175 ---
+ source/networking/icss_emac/lwipif/inc/lwip2lwipif.h                        |   93 --
+ source/networking/icss_emac/lwipif/inc/lwipif2icss_emac_AppIf.h             |   91 --
+ .../networking/icss_emac/lwipif/makefile.am243x.r5f.ti-arm-clang.freertos   |  133 --
+ source/networking/icss_emac/lwipif/makefile.am243x.r5f.ti-arm-clang.nortos  |  133 --
+ .../networking/icss_emac/lwipif/makefile.am261x.r5f.ti-arm-clang.freertos   |  133 --
+ .../icss_emac/lwipif/makefile.am261x.r5f.ti-arm-clang.freertos_mpu          |  135 --
+ source/networking/icss_emac/lwipif/makefile.am261x.r5f.ti-arm-clang.nortos  |  133 --
+ .../networking/icss_emac/lwipif/makefile.am263px.r5f.ti-arm-clang.freertos  |  133 --
+ .../icss_emac/lwipif/makefile.am263px.r5f.ti-arm-clang.freertos_mpu         |  135 --
+ source/networking/icss_emac/lwipif/makefile.am263px.r5f.ti-arm-clang.nortos |  133 --
+ .../networking/icss_emac/lwipif/makefile.am263x.r5f.ti-arm-clang.freertos   |  133 --
+ .../icss_emac/lwipif/makefile.am263x.r5f.ti-arm-clang.freertos_mpu          |  135 --
+ source/networking/icss_emac/lwipif/makefile.am263x.r5f.ti-arm-clang.nortos  |  133 --
+ source/networking/icss_emac/lwipif/makefile.am64x.r5f.ti-arm-clang.freertos |  132 --
+ source/networking/icss_emac/lwipif/makefile.am64x.r5f.ti-arm-clang.nortos   |  132 --
+ source/networking/icss_emac/lwipif/src/default_netif.c                      |   57 -
+ source/networking/icss_emac/lwipif/src/lwip2icss_emac.c                     |  536 -------
+ source/networking/icss_emac/lwipif/src/lwip2lwipif.c                        |  455 ------
+ source/networking/icss_emac/lwipif/src/lwip2lwipif_priv.h                   |   94 --
+ source/networking/icss_emac/makefile.am243x.r5f.ti-arm-clang.freertos       |  127 --
+ source/networking/icss_emac/makefile.am243x.r5f.ti-arm-clang.nortos         |  124 --
+ source/networking/icss_emac/makefile.am261x.r5f.ti-arm-clang.freertos       |  127 --
+ source/networking/icss_emac/makefile.am261x.r5f.ti-arm-clang.freertos_mpu   |  127 --
+ source/networking/icss_emac/makefile.am261x.r5f.ti-arm-clang.nortos         |  124 --
+ source/networking/icss_emac/makefile.am263px.r5f.ti-arm-clang.freertos      |  127 --
+ source/networking/icss_emac/makefile.am263px.r5f.ti-arm-clang.freertos_mpu  |  127 --
+ source/networking/icss_emac/makefile.am263px.r5f.ti-arm-clang.nortos        |  124 --
+ source/networking/icss_emac/makefile.am263x.r5f.ti-arm-clang.freertos       |  127 --
+ source/networking/icss_emac/makefile.am263x.r5f.ti-arm-clang.freertos_mpu   |  127 --
+ source/networking/icss_emac/makefile.am263x.r5f.ti-arm-clang.nortos         |  124 --
+ source/networking/icss_emac/makefile.am64x.r5f.ti-arm-clang.freertos        |  127 --
+ source/networking/icss_emac/makefile.am64x.r5f.ti-arm-clang.nortos          |  124 --
+ .../icss_emac/makefile.hsr_prp_icss_emac.am261x.r5f.ti-arm-clang.freertos   |  128 --
+ .../makefile.hsr_prp_icss_emac.am261x.r5f.ti-arm-clang.freertos_mpu         |  128 --
+ .../icss_emac/makefile.hsr_prp_icss_emac.am261x.r5f.ti-arm-clang.nortos     |  125 --
+ .../icss_emac/makefile.hsr_prp_icss_emac.am263px.r5f.ti-arm-clang.freertos  |  128 --
+ .../makefile.hsr_prp_icss_emac.am263px.r5f.ti-arm-clang.freertos_mpu        |  128 --
+ .../icss_emac/makefile.hsr_prp_icss_emac.am263px.r5f.ti-arm-clang.nortos    |  125 --
+ source/networking/icss_emac/source/icss_emac.c                              | 2879 -----------------------------------
+ source/networking/icss_emac/source/icss_emac_learning.c                     |  491 ------
+ source/networking/icss_emac/source/icss_emac_learning.h                     |  239 ---
+ source/networking/icss_emac/source/icss_emac_local.c                        | 2253 ---------------------------
+ source/networking/icss_emac/source/icss_emac_local.h                        |  506 ------
+ source/networking/icss_emac/source/icss_emac_statistics.c                   |  274 ----
+ source/networking/icss_emac/source/icss_emac_statistics.h                   |  146 --
+ source/networking/icss_emac/source/icss_emac_stormControl.c                 |  327 ----
+ source/networking/icss_emac/source/icss_emac_stormControl.h                 |  196 ---
+ source/networking/icss_timesync/.project/project.js                         |   14 -
+ source/networking/icss_timesync/.project/project_am243x.js                  |   56 -
+ source/networking/icss_timesync/.project/project_am261x.js                  |   56 -
+ source/networking/icss_timesync/.project/project_am263px.js                 |   56 -
+ source/networking/icss_timesync/.project/project_am263x.js                  |   56 -
+ source/networking/icss_timesync/.project/project_am64x.js                   |   56 -
+ source/networking/icss_timesync/icss_timeSync.c                             | 2124 --------------------------
+ source/networking/icss_timesync/icss_timeSync.h                             |  821 ----------
+ source/networking/icss_timesync/icss_timeSyncApi.c                          |  437 ------
+ source/networking/icss_timesync/icss_timeSyncApi.h                          | 1152 --------------
+ source/networking/icss_timesync/icss_timeSync_init.c                        | 1188 ---------------
+ source/networking/icss_timesync/icss_timeSync_init.h                        |  341 -----
+ source/networking/icss_timesync/icss_timeSync_memory_map.h                  |   98 --
+ source/networking/icss_timesync/icss_timeSync_osal.c                        |  921 -----------
+ source/networking/icss_timesync/icss_timeSync_osal.h                        |  156 --
+ source/networking/icss_timesync/icss_timeSync_utils.c                       |  220 ---
+ source/networking/icss_timesync/icss_timeSync_utils.h                       |  134 --
+ source/networking/icss_timesync/makefile.am243x.r5f.ti-arm-clang.freertos   |  127 --
+ source/networking/icss_timesync/makefile.am243x.r5f.ti-arm-clang.nortos     |  124 --
+ source/networking/icss_timesync/makefile.am261x.r5f.ti-arm-clang.freertos   |  127 --
+ .../networking/icss_timesync/makefile.am261x.r5f.ti-arm-clang.freertos_mpu  |  127 --
+ source/networking/icss_timesync/makefile.am261x.r5f.ti-arm-clang.nortos     |  124 --
+ source/networking/icss_timesync/makefile.am263px.r5f.ti-arm-clang.freertos  |  127 --
+ .../networking/icss_timesync/makefile.am263px.r5f.ti-arm-clang.freertos_mpu |  127 --
+ source/networking/icss_timesync/makefile.am263px.r5f.ti-arm-clang.nortos    |  124 --
+ source/networking/icss_timesync/makefile.am263x.r5f.ti-arm-clang.freertos   |  127 --
+ .../networking/icss_timesync/makefile.am263x.r5f.ti-arm-clang.freertos_mpu  |  127 --
+ source/networking/icss_timesync/makefile.am263x.r5f.ti-arm-clang.nortos     |  124 --
+ source/networking/icss_timesync/makefile.am64x.r5f.ti-arm-clang.freertos    |  127 --
+ source/networking/icss_timesync/makefile.am64x.r5f.ti-arm-clang.nortos      |  124 --
+ 234 files changed, 52121 deletions(-)
+
