@@ -160300,3 +160300,47 @@ Date:   Fri Jun 26 11:33:10 2026 +0530
  source/networking/icss_timesync/makefile.am64x.r5f.ti-arm-clang.nortos      |  124 --
  234 files changed, 52121 deletions(-)
 
+========================================
+Changes from build on 2026-07-07 19:40:55
+Previous commit: 1bd6bf142da965a50ba4a6af9da84bc4ad51dc87
+Current commit: b505bc0cb46d1bd645ae312e9916772afe311155
+========================================
+
+commit b505bc0cb46d1bd645ae312e9916772afe311155
+Author: Nikhil M Jain <n-jain1@ti.com>
+Date:   Mon Jul 6 12:48:27 2026 +0530
+
+    am64x/am243x: docs: Add MPU configuration note
+    
+    Add documentation about required MPU ARMv7 settings for the 0x60000000
+    region on AM243x and AM64x devices. This region must be configured as
+    Cached with supervisor read and write permissions to enable proper
+    flash write operations. Incorrect MPU settings (e.g., read-only
+    permission) result in flash write errors.
+    
+    Fixes SITSW-11786
+    
+    Signed-off-by: Nikhil M Jain <n-jain1@ti.com>
+
+ docs_src/docs/api_guide/components/board/flash.md | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit 29c90dd61afdae8c453e0adaa84aa47ed28a2e57
+Author: Nikhil M Jain <n-jain1@ti.com>
+Date:   Mon Jul 6 12:47:35 2026 +0530
+
+    am64x/am243x: docs: Add note on system projects build
+    
+    For system projects on AM243x, AM64x, AM273x, and AWR294x devices,
+    it is recommended to build the system project as a whole rather than
+    individual CPU projects separately. This ensures all CPUs are
+    synchronized and dependencies between CPU-specific binaries are
+    properly managed.
+    
+    Fixes SITSW-6251
+    
+    Signed-off-by: Nikhil M Jain <n-jain1@ti.com>
+
+ docs_src/docs/api_guide/developer_guides/ccs_projects.md | 1 +
+ 1 file changed, 1 insertion(+)
+
