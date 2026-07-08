@@ -160344,3 +160344,27 @@ Date:   Mon Jul 6 12:47:35 2026 +0530
  docs_src/docs/api_guide/developer_guides/ccs_projects.md | 1 +
  1 file changed, 1 insertion(+)
 
+========================================
+Changes from build on 2026-07-08 19:40:40
+Previous commit: b505bc0cb46d1bd645ae312e9916772afe311155
+Current commit: a853dc000e15596c6f2f4d9c9fbde7083d813236
+========================================
+
+commit a853dc000e15596c6f2f4d9c9fbde7083d813236
+Author: Archit Dev <a-dev@ti.com>
+Date:   Wed Jul 8 09:30:27 2026 +0530
+
+    allsoc: icss_emac: add icss_emac_lld in gitignore
+    
+    Since the icss_emac_lld is not added to the gitignore, the MCU+ SDK CI Jobs
+    are throwing an error related to uncommitted changes being present.
+    
+    Adding to gitignore ensures that it is ignored by the main repo from tracking.
+    
+    Fixes: PINDSW-11228
+    
+    Signed-off-by: Archit Dev <a-dev@ti.com>
+
+ .gitignore | 1 +
+ 1 file changed, 1 insertion(+)
+
