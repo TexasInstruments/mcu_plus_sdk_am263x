@@ -160368,3 +160368,139 @@ Date:   Wed Jul 8 09:30:27 2026 +0530
  .gitignore | 1 +
  1 file changed, 1 insertion(+)
 
+========================================
+Changes from build on 2026-07-10 19:40:30
+Previous commit: a853dc000e15596c6f2f4d9c9fbde7083d813236
+Current commit: e48af1cc211806982ffca30ab711af4ab0a4cda1
+========================================
+
+commit e48af1cc211806982ffca30ab711af4ab0a4cda1
+Author: BensenBernard <b-bernard@ti.com>
+Date:   Tue Jul 7 10:49:48 2026 +0530
+
+    am261x: uart: enable UART 4 & 5 support
+    
+    - Enabled the UART 4 and UART 5 support in the soc_rcm
+    
+    Fixes: MCUSDK-15731
+    
+    Signed-off-by: Bensen Bernard <b-bernard@ti.com>
+
+ source/drivers/soc/am261x/soc_rcm.c | 40 ++++++++++++++++++++++++++++++++++++++++
+ source/drivers/soc/am261x/soc_rcm.h |  8 ++++++++
+ 2 files changed, 48 insertions(+)
+
+commit 528cedc6d20cd051f1ce0e1942a161ef6fcc09a1
+Author: BensenBernard <b-bernard@ti.com>
+Date:   Thu Jul 2 14:21:10 2026 +0530
+
+    am261x: usb: migrate TinyUSB to v0.20.0
+    
+    - Migrate TinyUSB to v0.20.0 for am261x
+    - Create seperate TinyUSB folder for am261x at v0.20.0
+    
+    Fixes: MCUSDK-15730
+    
+    Signed-off-by: Bensen Bernard <b-bernard@ti.com>
+
+ .gitignore                                                                       |  1 +
+ examples/drivers/boot/sbl_dfu_multicore_elf/.project/project_am261x.js           |  4 ++--
+ .../am261x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec                   |  4 ++--
+ .../boot/sbl_dfu_multicore_elf/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile   |  4 ++--
+ .../am261x-som/r5fss0-0_nortos/ti-arm-clang/example.projectspec                  |  4 ++--
+ .../boot/sbl_dfu_multicore_elf/am261x-som/r5fss0-0_nortos/ti-arm-clang/makefile  |  4 ++--
+ examples/drivers/boot/sbl_dfu_uniflash/.project/project_am261x.js                |  4 ++--
+ .../sbl_dfu_uniflash/am261x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec  |  4 ++--
+ .../boot/sbl_dfu_uniflash/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile        |  4 ++--
+ .../sbl_dfu_uniflash/am261x-som/r5fss0-0_nortos/ti-arm-clang/example.projectspec |  4 ++--
+ .../boot/sbl_dfu_uniflash/am261x-som/r5fss0-0_nortos/ti-arm-clang/makefile       |  4 ++--
+ examples/usb/device/cdc_echo/.project/project_am261x.js                          |  4 ++--
+ .../r5fss0-0_freertos/iar-arm/cdc_echo_am261x-lp_r5fss0-0_freertos.ipcf          |  2 +-
+ examples/usb/device/cdc_echo/am261x-lp/r5fss0-0_freertos/iar-arm/makefile        |  2 +-
+ .../device/cdc_echo/am261x-lp/r5fss0-0_freertos/ti-arm-clang/example.projectspec |  2 +-
+ examples/usb/device/cdc_echo/am261x-lp/r5fss0-0_freertos/ti-arm-clang/makefile   |  2 +-
+ .../am261x-lp/r5fss0-0_nortos/iar-arm/cdc_echo_am261x-lp_r5fss0-0_nortos.ipcf    |  2 +-
+ examples/usb/device/cdc_echo/am261x-lp/r5fss0-0_nortos/iar-arm/makefile          |  2 +-
+ .../device/cdc_echo/am261x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec   |  2 +-
+ examples/usb/device/cdc_echo/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile     |  2 +-
+ .../cdc_echo/am261x-som/r5fss0-0_freertos/ti-arm-clang/example.projectspec       |  2 +-
+ examples/usb/device/cdc_echo/am261x-som/r5fss0-0_freertos/ti-arm-clang/makefile  |  2 +-
+ .../device/cdc_echo/am261x-som/r5fss0-0_nortos/ti-arm-clang/example.projectspec  |  2 +-
+ examples/usb/device/cdc_echo/am261x-som/r5fss0-0_nortos/ti-arm-clang/makefile    |  2 +-
+ examples/usb/device/dfu/.project/project_am261x.js                               |  4 ++--
+ examples/usb/device/dfu/am261x-lp/r5fss0-0_freertos/iar-arm/makefile             |  2 +-
+ .../am261x-lp/r5fss0-0_freertos/iar-arm/usb_dfu_am261x-lp_r5fss0-0_freertos.ipcf |  2 +-
+ .../usb/device/dfu/am261x-lp/r5fss0-0_freertos/ti-arm-clang/example.projectspec  |  2 +-
+ examples/usb/device/dfu/am261x-lp/r5fss0-0_freertos/ti-arm-clang/makefile        |  2 +-
+ examples/usb/device/dfu/am261x-lp/r5fss0-0_nortos/iar-arm/makefile               |  2 +-
+ .../dfu/am261x-lp/r5fss0-0_nortos/iar-arm/usb_dfu_am261x-lp_r5fss0-0_nortos.ipcf |  2 +-
+ .../usb/device/dfu/am261x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec    |  2 +-
+ examples/usb/device/dfu/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile          |  2 +-
+ .../usb/device/dfu/am261x-som/r5fss0-0_freertos/ti-arm-clang/example.projectspec |  2 +-
+ examples/usb/device/dfu/am261x-som/r5fss0-0_freertos/ti-arm-clang/makefile       |  2 +-
+ .../usb/device/dfu/am261x-som/r5fss0-0_nortos/ti-arm-clang/example.projectspec   |  2 +-
+ examples/usb/device/dfu/am261x-som/r5fss0-0_nortos/ti-arm-clang/makefile         |  2 +-
+ examples/usb/device/ncm/.project/project_am261x.js                               |  8 ++++----
+ examples/usb/device/ncm/am261x-lp/r5fss0-0_freertos/iar-arm/makefile             |  4 ++--
+ .../am261x-lp/r5fss0-0_freertos/iar-arm/usb_ncm_am261x-lp_r5fss0-0_freertos.ipcf |  4 ++--
+ .../usb/device/ncm/am261x-lp/r5fss0-0_freertos/ti-arm-clang/example.projectspec  |  4 ++--
+ examples/usb/device/ncm/am261x-lp/r5fss0-0_freertos/ti-arm-clang/makefile        |  4 ++--
+ examples/usb/device/ncm/am261x-lp/r5fss0-0_nortos/iar-arm/makefile               |  4 ++--
+ .../ncm/am261x-lp/r5fss0-0_nortos/iar-arm/usb_ncm_am261x-lp_r5fss0-0_nortos.ipcf |  4 ++--
+ .../usb/device/ncm/am261x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec    |  4 ++--
+ examples/usb/device/ncm/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile          |  4 ++--
+ .../usb/device/ncm/am261x-som/r5fss0-0_freertos/ti-arm-clang/example.projectspec |  4 ++--
+ examples/usb/device/ncm/am261x-som/r5fss0-0_freertos/ti-arm-clang/makefile       |  4 ++--
+ .../usb/device/ncm/am261x-som/r5fss0-0_nortos/ti-arm-clang/example.projectspec   |  4 ++--
+ examples/usb/device/ncm/am261x-som/r5fss0-0_nortos/ti-arm-clang/makefile         |  4 ++--
+ examples/usb/device/vendor_bulk_echo/.project/project_am261x.js                  |  4 ++--
+ .../am261x-lp/r5fss0-0_freertos/ti-arm-clang/example.projectspec                 |  2 +-
+ .../device/vendor_bulk_echo/am261x-lp/r5fss0-0_freertos/ti-arm-clang/makefile    |  2 +-
+ .../vendor_bulk_echo/am261x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec  |  2 +-
+ .../usb/device/vendor_bulk_echo/am261x-lp/r5fss0-0_nortos/ti-arm-clang/makefile  |  2 +-
+ source/usb/tinyusb/.project/.cdc/project_freertos_am261x.js                      | 25 +++++++++++++++++--------
+ source/usb/tinyusb/.project/.cdc/project_nortos_am261x.js                        | 24 ++++++++++++++++--------
+ source/usb/tinyusb/.project/.dfu/project_freertos_am261x.js                      | 26 ++++++++++++++++++--------
+ source/usb/tinyusb/.project/.dfu/project_nortos_am261x.js                        | 27 ++++++++++++++++++---------
+ source/usb/tinyusb/.project/.ncm/project_freertos_am261x.js                      | 23 ++++++++++++-----------
+ source/usb/tinyusb/.project/.ncm/project_nortos_am261x.js                        | 23 ++++++++++++-----------
+ source/usb/tinyusb/.project/.vendor/project_freertos_am261x.js                   | 16 ++++++++--------
+ source/usb/tinyusb/.project/.vendor/project_nortos_am261x.js                     | 16 ++++++++--------
+ source/usb/tinyusb/makefile.cdc_freertos.am261x.r5f.iar-arm                      | 25 ++++++++++++++++---------
+ source/usb/tinyusb/makefile.cdc_freertos.am261x.r5f.ti-arm-clang                 | 16 ++++++++--------
+ source/usb/tinyusb/makefile.cdc_nortos.am261x.r5f.iar-arm                        | 24 +++++++++++++++---------
+ source/usb/tinyusb/makefile.cdc_nortos.am261x.r5f.ti-arm-clang                   | 16 ++++++++--------
+ source/usb/tinyusb/makefile.dfu_freertos.am261x.r5f.iar-arm                      | 28 ++++++++++++++++------------
+ source/usb/tinyusb/makefile.dfu_freertos.am261x.r5f.ti-arm-clang                 | 19 ++++++++-----------
+ source/usb/tinyusb/makefile.dfu_nortos.am261x.r5f.iar-arm                        | 27 +++++++++++++++------------
+ source/usb/tinyusb/makefile.dfu_nortos.am261x.r5f.ti-arm-clang                   | 19 ++++++++-----------
+ source/usb/tinyusb/makefile.ncm_freertos.am261x.r5f.iar-arm                      | 23 ++++++++++++-----------
+ source/usb/tinyusb/makefile.ncm_freertos.am261x.r5f.ti-arm-clang                 | 20 ++++++++++----------
+ source/usb/tinyusb/makefile.ncm_nortos.am261x.r5f.iar-arm                        | 23 ++++++++++++-----------
+ source/usb/tinyusb/makefile.ncm_nortos.am261x.r5f.ti-arm-clang                   | 20 ++++++++++----------
+ source/usb/tinyusb/makefile.vendor_freertos.am261x.r5f.ti-arm-clang              | 16 ++++++++--------
+ source/usb/tinyusb/makefile.vendor_nortos.am261x.r5f.ti-arm-clang                | 16 ++++++++--------
+ source/usb/tinyusb/portable/am261x/dcd.c                                         |  4 ++--
+ 78 files changed, 348 insertions(+), 293 deletions(-)
+
+commit e614c53ea36b255ad25c0d12a47284564e20c6b9
+Author: Dave Joseph <d-joseph@ti.com>
+Date:   Thu Jul 9 15:10:25 2026 +0530
+
+    am243x/am64x: pinmux: Correct drive strength fix
+    
+    Previous drive strength fix updates DS1 instead of DS2
+    Correct drive strength fix to update DS2
+    DS0 - Nominal
+    DS1 - Slow
+    DS2 - Fast
+    DS3 - Reserved
+    
+    Fixes: SITSW-7933
+    
+    Signed-off-by: Dave Joseph <d-joseph@ti.com>
+
+ source/drivers/soc/am64x_am243x/soc.c | 8 ++++----
+ source/drivers/soc/am64x_am243x/soc.h | 4 ++--
+ 2 files changed, 6 insertions(+), 6 deletions(-)
+
