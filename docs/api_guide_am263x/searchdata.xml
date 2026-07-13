@@ -85020,7 +85020,7 @@
     <field name="name">sdl_pbist_priv.h</field>
     <field name="url">sdl__pbist__priv_8h_source.html#l00061</field>
     <field name="keywords"></field>
-    <field name="text">SDL_PBIST_eventHandler uint32_t coreIndex</field>
+    <field name="text">SDL_PBIST_eventHandler uint32_t instanceId</field>
   </doc>
   <doc>
     <field name="type">source</field>
@@ -168523,8 +168523,8 @@
   <doc>
     <field name="type">function</field>
     <field name="name">SDL_PBIST_eventHandler</field>
-    <field name="args">(uint32_t coreIndex)</field>
-    <field name="url">sdl__pbist__priv_8h.html#aaa654dd366e91aa93d2b019ba0a82dca</field>
+    <field name="args">(uint32_t instanceId)</field>
+    <field name="url">sdl__pbist__priv_8h.html#a092a1f7e3d8ca0186007b831d3679b7e</field>
     <field name="keywords">SDL_PBIST_eventHandler</field>
     <field name="text"></field>
   </doc>
