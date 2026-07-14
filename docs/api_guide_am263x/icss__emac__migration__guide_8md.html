@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.20"/>
-<title>AM263x MCU+ SDK: MCSPI Loopback Multi Instances Multi channels LLD</title>
+<title>AM263x MCU+ SDK: icss_emac_migration_guide.md File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -82,67 +82,22 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('EXAMPLES_DRIVERS_MCSPI_LOOPBACK_MULTIPLE_INSTANCES_MULTIPLE_CHANNELS_LLD.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('icss__emac__migration__guide_8md.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
-<div class="PageDoc"><div class="header">
+<div class="header">
   <div class="headertitle">
-<div class="title">MCSPI Loopback Multi Instances Multi channels LLD </div>  </div>
+<div class="title">icss_emac_migration_guide.md File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md2866">Introduction</a></li>
-<li class="level1"><a href="#EXAMPLES_DRIVERS_MCSPI_LOOPBACK_MULTIPLE_INSTANCES_MULTIPLE_CHANNELS_LLD_COMBO">Supported Combinations</a></li>
-<li class="level1"><a href="#autotoc_md2867">Steps to Run the Example</a></li>
-<li class="level1"><a href="#autotoc_md2868">See Also</a></li>
-<li class="level1"><a href="#autotoc_md2869">Sample Output</a></li>
-</ul>
-</div>
-<div class="textblock"><p><a class="anchor" id="md_examples_drivers_mcspi_loopback_multi_instances_multi_channels_lld"></a></p>
-<h1><a class="anchor" id="autotoc_md2866"></a>
-Introduction</h1>
-<p>This example demonstrates the McSPI RX and TX operation configured in interrupt, polling and DMA mode of operation using LLD API's and each mode is using different channels.</p>
-<p>This example sends a known data in the TX mode of length APP_MCSPI_MSGSIZE and then receives the same in RX mode. Internal pad level loopback mode is enabled to receive data. To enable internal pad level loopback mode, D0 pin is configured to both TX Enable as well as RX input pin in the SYSCFG.</p>
-<p>When transfer is completed, TX and RX buffer data are compared. If data is matched, test result is passed otherwise failed.</p>
-<h1><a class="anchor" id="EXAMPLES_DRIVERS_MCSPI_LOOPBACK_MULTIPLE_INSTANCES_MULTIPLE_CHANNELS_LLD_COMBO"></a>
-Supported Combinations</h1>
-<table class="markdownTable">
-<tr class="markdownTableHead">
-<th class="markdownTableHeadNone">Parameter  </th><th class="markdownTableHeadNone">Value   </th></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone" rowspan="2">CPU + OS  </td><td class="markdownTableBodyNone">r5fss0-0 freertos   </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">r5fss0-0 nortos   </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Toolchain  </td><td class="markdownTableBodyNone">ti-arm-clang   </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">Boards  </td><td class="markdownTableBodyNone">am263x-cc, am263x-lp   </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Example folder  </td><td class="markdownTableBodyNone">examples/drivers/mcspi/mcspi_loopback_multi_instances_multi_channels_lld   </td></tr>
-</table>
-<h1><a class="anchor" id="autotoc_md2867"></a>
-Steps to Run the Example</h1>
-<ul>
-<li><b>When using CCS projects to build</b>, import the CCS project for the required combination and build it using the CCS project menu (see <a class="el" href="CCS_PROJECTS_PAGE.html">Using SDK with CCS Projects</a>).</li>
-<li><b>When using makefiles to build</b>, note the required combination and build using make command (see <a class="el" href="MAKEFILE_BUILD_PAGE.html">Using SDK with Makefiles</a>)</li>
-<li>Launch a CCS debug session and run the executable, see <a class="el" href="CCS_LAUNCH_PAGE.html">CCS Launch, Load and Run</a></li>
-</ul>
-<h1><a class="anchor" id="autotoc_md2868"></a>
-See Also</h1>
-<p><a class="el" href="DRIVERS_MCSPI_PAGE.html">MCSPI</a></p>
-<h1><a class="anchor" id="autotoc_md2869"></a>
-Sample Output</h1>
-<p>Shown below is a sample output when the application is run,</p>
-<div class="fragment"><div class="line">[MCSPI] Loopback example started ...</div>
-<div class="line">All tests have passed!!</div>
-</div><!-- fragment --> </div></div><!-- contents -->
-</div><!-- PageDoc -->
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="icss__emac__migration__guide_8md.html">icss_emac_migration_guide.md</a></li>
     <li class="footer">generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.20 </li>

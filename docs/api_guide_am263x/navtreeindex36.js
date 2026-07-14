@@ -1,5 +1,11 @@
 var NAVTREEINDEX36 =
 {
+"group__DRV__I2C__HLD__MODULE.html#ga9ff51ddf1d325776fef90cce0223772b":[17,7,16,13],
+"group__DRV__I2C__HLD__MODULE.html#gaa0ce3ff0ccb835a777c7bc230751608b":[17,7,16,18],
+"group__DRV__I2C__HLD__MODULE.html#gab11636302074d67180207ab81ceb323c":[17,7,16,15],
+"group__DRV__I2C__HLD__MODULE.html#gad78db5aecccd790b4e9b5b45cbb05f5b":[17,7,16,23],
+"group__DRV__I2C__HLD__MODULE.html#gadd13e093bc1d2316a49225f98503da43":[17,7,16,7],
+"group__DRV__I2C__HLD__MODULE.html#gadd75c22230842b00010efe1d992b8979":[17,7,16,11],
 "group__DRV__I2C__HLD__MODULE.html#gae72fbbef5977e287d18c7fb842464c6e":[17,7,16,24],
 "group__DRV__I2C__HLD__MODULE.html#gafc60312fcfdb1b14d3e7206cadebdaf1":[17,7,16,21],
 "group__DRV__I2C__HLD__MODULE.html#gafe22f70145aaecfcb33d7f574bd51756":[17,7,16,9],
@@ -243,11 +249,5 @@ var NAVTREEINDEX36 =
 "group__DRV__LIN__HLD__MODULE.html#ggafc048b1cc238ef7ac721bac6287c4a46a8b6ee6b4ee34998b6be7b191bd5b475c":[17,7,20,14,2],
 "group__DRV__LIN__HLD__MODULE.html#ggafc048b1cc238ef7ac721bac6287c4a46a9eb940150b1b986abc70fcf6d774447b":[17,7,20,14,0],
 "group__DRV__LIN__HLD__MODULE.html#ggafc048b1cc238ef7ac721bac6287c4a46ad066434ce06ea84455c42c7ba2e44991":[17,7,20,14,1],
-"group__DRV__LIN__MODULE.html":[17,7,21],
-"group__DRV__LIN__MODULE.html#ga00f7c81015052d13323a35303a70fe86":[17,7,21,13],
-"group__DRV__LIN__MODULE.html#ga01396a3e564b1b473f8381865cc9add7":[17,7,21,102],
-"group__DRV__LIN__MODULE.html#ga020d1db0d720401d3f0fde594e0c6a2b":[17,7,21,47],
-"group__DRV__LIN__MODULE.html#ga0303d59c20d5cbc18544f30b78abfbb0":[17,7,21,125],
-"group__DRV__LIN__MODULE.html#ga04ac78af05ad1bf6b68f478d7459257e":[17,7,21,119],
-"group__DRV__LIN__MODULE.html#ga04e20fc9284ac037b887b73399440a7c":[17,7,21,118]
+"group__DRV__LIN__MODULE.html":[17,7,21]
 };

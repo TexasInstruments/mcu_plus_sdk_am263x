@@ -1,5 +1,11 @@
 var NAVTREEINDEX54 =
 {
+"group__UART__DMA__LLD.html#ga634361ab3fafc443c3763841c15d7006":[17,7,42,0,0],
+"group__UART__DMA__LLD.html#gaa404a2d76a01a8930d265e70700a5056":[17,7,42,0,1],
+"group__UART__DMA__LLD.html#gaae0cc37844a2b77521cb062264e61a04":[17,7,42,0,3],
+"group__UART__DMA__LLD.html#gaed904bc1c38618954968aaab44fc383e":[17,7,42,0,2],
+"group__combase.html":[17,11,0],
+"group__combase.html#ga022a3989c5d71021741107bc02881307":[17,11,0,1],
 "group__confutils.html":[17,10,1],
 "group__confutils.html#ga5d025a12037d6aefb6c4ae40372e7ae8":[17,10,1,2],
 "group__confutils.html#gac0920b54aa81a1650ea2da5c24ddcfc9":[17,10,1,1],
@@ -99,7 +105,6 @@ var NAVTREEINDEX54 =
 "group__lld__ethernet.html#ga85704504b60d512c73c0b078e4999931":[17,11,3,54],
 "group__lld__ethernet.html#ga881c9892a61bf473ce9ae7039d2a826c":[17,11,3,35],
 "group__lld__ethernet.html#ga886606a2a04d5cac22e6eb141ee83e0e":[17,11,3,55],
-"group__lld__ethernet.html#ga8c1dfc1ccf00a08192611433ee7f17b4":[17,11,3,59],
 "group__lld__ethernet.html#ga8ccaf14cd78369a17f4458ae24bc41c8":[17,11,3,53],
 "group__lld__ethernet.html#ga906f6ed4a12f6bfd0fec5fc546e35f45":[17,11,3,23],
 "group__lld__ethernet.html#ga921531c2825068ff5f4bd5e39ca412b9":[17,11,3,29],
@@ -117,6 +122,7 @@ var NAVTREEINDEX54 =
 "group__lld__ethernet.html#gad06742f3a689081e41f7311ab7de5061":[17,11,3,51],
 "group__lld__ethernet.html#gad5b349cfffa571d981f0e73a164c01d3":[17,11,3,50],
 "group__lld__ethernet.html#gad68715ce9102bfd47a90926568e5f065":[17,11,3,11],
+"group__lld__ethernet.html#gadea7c881f4c0cb2f214a494076f67cca":[17,11,3,59],
 "group__lld__ethernet.html#gadec6db76cf213beb1c4ad4e7bf4d466d":[17,11,3,26],
 "group__lld__ethernet.html#gaefe0657c658c5289aeeb0b29cba0f3c4":[17,11,3,18],
 "group__lld__ethernet.html#gaf37171e4883cbe8796e824468283a7a5":[17,11,3,44],
@@ -243,11 +249,5 @@ var NAVTREEINDEX54 =
 "group__logging.html#gad6fc0dea4ab82a1d0a5f214e003d3b1f":[17,10,2,3],
 "group__logging.html#gad9eb826f8f91c0d5621f6f47f8f1e458":[17,10,2,41],
 "group__logging.html#gadea65199d41dcae9447a1640c4165c76":[17,10,2,10],
-"group__logging.html#gae0e36850107aef24ffc0855d7dc2021a":[17,10,2,24],
-"group__logging.html#gaef0b69475b0b78b4672ccd42c7834f18":[17,10,2,9],
-"group__logging.html#gaeffcb36f7e62e04021bb38300c5eabcd":[17,10,2,15],
-"group__logging.html#gaf5ed69d0379fe93374eb2478821a5651":[17,10,2,17],
-"group__logging.html#gafa0e1496f2773c1aa8ae9d69f5953a5a":[17,10,2,11],
-"group__logging.html#gafb830319e5301028624eddbda5e04879":[17,10,2,26],
-"group__network.html":[17,11,1]
+"group__logging.html#gae0e36850107aef24ffc0855d7dc2021a":[17,10,2,24]
 };

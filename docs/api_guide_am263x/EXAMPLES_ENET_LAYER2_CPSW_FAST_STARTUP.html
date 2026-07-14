@@ -92,28 +92,28 @@ $(document).ready(function(){initNavTree('EXAMPLES_ENET_LAYER2_CPSW_FAST_STARTUP
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md3173">Introduction</a></li>
-<li class="level1"><a href="#autotoc_md3174">Supported Combinations</a></li>
-<li class="level1"><a href="#autotoc_md3175">Packet pool configuration</a></li>
-<li class="level1"><a href="#autotoc_md3176">Modifications needed before running the example:</a><ul><li class="level2"><a href="#autotoc_md3177">EVM Board modification</a><ul><li class="level3"><a href="#autotoc_md3178">Modifications for CPSW RGMII1:</a></li>
-<li class="level3"><a href="#autotoc_md3179">Modifications for CPSW RGMII2:</a></li>
+<ul><li class="level1"><a href="#autotoc_md3177">Introduction</a></li>
+<li class="level1"><a href="#autotoc_md3178">Supported Combinations</a></li>
+<li class="level1"><a href="#autotoc_md3179">Packet pool configuration</a></li>
+<li class="level1"><a href="#autotoc_md3180">Modifications needed before running the example:</a><ul><li class="level2"><a href="#autotoc_md3181">EVM Board modification</a><ul><li class="level3"><a href="#autotoc_md3182">Modifications for CPSW RGMII1:</a></li>
+<li class="level3"><a href="#autotoc_md3183">Modifications for CPSW RGMII2:</a></li>
 </ul>
 </li>
-<li class="level2"><a href="#autotoc_md3180">SW modifications</a></li>
+<li class="level2"><a href="#autotoc_md3184">SW modifications</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md3181">Media Dependent Interface(MDI configuration)</a></li>
-<li class="level1"><a href="#autotoc_md3182">Tips to minimize link up time for Ethernet applications</a></li>
-<li class="level1"><a href="#autotoc_md3183">Steps to Run the Example</a><ul><li class="level2"><a href="#autotoc_md3184">Build the example</a></li>
-<li class="level2"><a href="#autotoc_md3185">Run the example</a></li>
-<li class="level2"><a href="#autotoc_md3186">Sample output for L2 CPSW Boot example</a></li>
+<li class="level1"><a href="#autotoc_md3185">Media Dependent Interface(MDI configuration)</a></li>
+<li class="level1"><a href="#autotoc_md3186">Tips to minimize link up time for Ethernet applications</a></li>
+<li class="level1"><a href="#autotoc_md3187">Steps to Run the Example</a><ul><li class="level2"><a href="#autotoc_md3188">Build the example</a></li>
+<li class="level2"><a href="#autotoc_md3189">Run the example</a></li>
+<li class="level2"><a href="#autotoc_md3190">Sample output for L2 CPSW Boot example</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md3187">See Also</a></li>
+<li class="level1"><a href="#autotoc_md3191">See Also</a></li>
 </ul>
 </div>
 <div class="textblock"><p><a class="anchor" id="md_examples_networking_enet_layer2_cpsw_fast_startup"></a></p>
-<h1><a class="anchor" id="autotoc_md3173"></a>
+<h1><a class="anchor" id="autotoc_md3177"></a>
 Introduction</h1>
 <p>The Enet CPSW fast startup example is dedicated to demonstrate the fast link up functionality of CPSW3G showing Strapped and forced mode configuration of PHY.</p>
 <p>On AM263X, we can do ethernet based communication using CPSW as HW mechanism</p><ul>
@@ -126,7 +126,7 @@ Introduction</h1>
 <li>The example enables both the ports of CPSW in MAC mode, creates a packet and sent it from port 1 to port 2.</li>
 <li>when the packet is received on port 2, the application prints out the profiling nodes and halts in a infinite loop.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md3174"></a>
+<h1><a class="anchor" id="autotoc_md3178"></a>
 Supported Combinations</h1>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -140,36 +140,36 @@ Supported Combinations</h1>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">Example folder  </td><td class="markdownTableBodyNone">source/networking/enet/core/examples/enet_cpsw_fast_startup   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md3175"></a>
+<h1><a class="anchor" id="autotoc_md3179"></a>
 Packet pool configuration</h1>
 <p>To change packet pool configuration from syscfg, please refer to <a class="el" href="PACKETPOOL_CONFIG_TOP.html">Ethernet Packet Pool Allocation Guidelines</a></p>
-<h1><a class="anchor" id="autotoc_md3176"></a>
+<h1><a class="anchor" id="autotoc_md3180"></a>
 Modifications needed before running the example:</h1>
-<h2><a class="anchor" id="autotoc_md3177"></a>
+<h2><a class="anchor" id="autotoc_md3181"></a>
 EVM Board modification</h2>
 <ul>
 <li>On AM263x-cc(PROC110E1), we need to disable Auto-negotiation in the PHY and force it to strapped mode with external starp resistors connected on PHY.</li>
 <li>To do that, modify below registers mentioned in below section for RGMII1 and RGMII2</li>
 <li>For other variants of AM263x, refer the schematics of board to modify the strap resistors for that specific EVM.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md3178"></a>
+<h3><a class="anchor" id="autotoc_md3182"></a>
 Modifications for CPSW RGMII1:</h3>
 <ul>
 <li>Remove Strapping resistors from R270, R115, R278 and add the same to R101, R104, R284. All resistors are of same value.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md3179"></a>
+<h3><a class="anchor" id="autotoc_md3183"></a>
 Modifications for CPSW RGMII2:</h3>
 <ul>
 <li>Remove Strapping resistors from R248, R240, R74 and add the same to R64, R60, R63. All resistors are of same value.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md3180"></a>
+<h2><a class="anchor" id="autotoc_md3184"></a>
 SW modifications</h2>
 <ul>
 <li>We need to disable Enet Logs and recompiler the enet-cpsw library.</li>
 <li>To do so, remove the ENABLE_ENET_LOG define from mcu_plus_sdk/source/networking/enet/makefile.cpsw.am263x.r5f.ti-arm-clang makefile.</li>
 <li>Recompile the enet-cpsw library.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md3181"></a>
+<h1><a class="anchor" id="autotoc_md3185"></a>
 Media Dependent Interface(MDI configuration)</h1>
 <ul>
 <li>With forced strapped mode, we don't have Auto-MDIX option in Phy, it can only be configured in manual MDI or MDIX mode, here in current configuration, we are setting both ports to manual MDIX mode.</li>
@@ -181,7 +181,7 @@ Media Dependent Interface(MDI configuration)</h1>
 <img src="crossover_cable.png" alt=""/>
 <div class="caption">
 Crossover cable wiring shceme</div></div>
- <h1><a class="anchor" id="autotoc_md3182"></a>
+ <h1><a class="anchor" id="autotoc_md3186"></a>
 Tips to minimize link up time for Ethernet applications</h1>
 <ul>
 <li>Auto-Negotiation on AM263X phy takes around 2-3 seconds, so to achieve quick link up, we cannot operate in Auto-Neg mode and have to use strapped and forced modes.</li>
@@ -189,22 +189,22 @@ Tips to minimize link up time for Ethernet applications</h1>
 <li>Typically Enet examples wait for 1 second after checking for link status.This is mainly considering auto-negotiation timing, but if forced and strapped mode, this delay can be significantly low, around 3ms(tested).</li>
 <li>HW strapped of PHY is needed to disble auto-negotiation when the phy is powered on.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md3183"></a>
+<h1><a class="anchor" id="autotoc_md3187"></a>
 Steps to Run the Example</h1>
-<h2><a class="anchor" id="autotoc_md3184"></a>
+<h2><a class="anchor" id="autotoc_md3188"></a>
 Build the example</h2>
 <ul>
 <li>When using CCS projects to build, import the CCS project for the required combination and build it using the CCS project menu (see <a class="el" href="CCS_PROJECTS_PAGE.html">Using SDK with CCS Projects</a>).</li>
 <li>When using makefiles to build, note the required combination and build using make command (see <a class="el" href="MAKEFILE_BUILD_PAGE.html">Using SDK with Makefiles</a>)</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md3185"></a>
+<h2><a class="anchor" id="autotoc_md3189"></a>
 Run the example</h2>
 <dl class="section attention"><dt>Attention</dt><dd>If you need to reload and run again, a CPU power-cycle is MUST</dd></dl>
 <ul>
 <li>Launch a CCS debug session and run the example executable, see <a class="el" href="CCS_LAUNCH_PAGE.html">CCS Launch, Load and Run</a></li>
 <li>You will see logs in the UART terminal as shown in the next section.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md3186"></a>
+<h2><a class="anchor" id="autotoc_md3190"></a>
 Sample output for L2 CPSW Boot example</h2>
 <div class="fragment"><div class="line">=====================================================</div>
 <div class="line">     Fast Srtartup Profiling logs in Microseconds(us)</div>
@@ -215,7 +215,7 @@ Sample output for L2 CPSW Boot example</h2>
 <div class="line">Time for First packet sent out from Port 1: 8057</div>
 <div class="line">Time for First packet received on Port 2: 8102</div>
 <div class="line">Application Terminating...</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md3187"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md3191"></a>
 See Also</h1>
 <p><a class="el" href="NETWORKING.html">Ethernet And Networking</a> </p>
 </div></div><!-- contents -->

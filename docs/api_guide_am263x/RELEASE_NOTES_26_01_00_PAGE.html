@@ -163,7 +163,9 @@ New in this Release</h1>
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Feature  </th><th class="markdownTableHeadNone">Module   </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">TBD  </td><td class="markdownTableBodyNone">TBD   </td></tr>
+<td class="markdownTableBodyNone">ICSS-EMAC and ICSS TimeSync driver sources are now at <code>source/networking/icss_emac_lld/</code> . Check <a class="el" href="ICSS_EMAC_MIGRATION_GUIDE.html#ICSS_EMAC_SOURCE_PATH_CHANGE">Source Path Change (MCU+ SDK &gt;= 26.01.00)</a> &zwj; for the migration guide  </td><td class="markdownTableBodyNone">Networking   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">ICSS-EMAC: Added <code>pruRstIsoStatusParams</code> field to <code><a class="el" href="structICSS__EMAC__Params.html" title="ICSS_EMAC Parameters.">ICSS_EMAC_Params</a></code> and <code><a class="el" href="group__NETWORKING__ICSS__EMAC__MODULE.html#gaa0ea20af82b6ded6ca9f595991930887" title="Gets the reset isolation status from the ICSS_EMAC handle.">ICSS_EMAC_getResetIsolationStatus()</a></code> API for PRU reset isolation support. Reset isolation requires firmware support — do not enable unless the PRU firmware explicitly supports it. Supported on AM243x and AM64x only.  </td><td class="markdownTableBodyNone">Networking   </td></tr>
 </table>
 <h1><a class="anchor" id="autotoc_md578"></a>
 Device and Validation Information</h1>
@@ -623,6 +625,14 @@ Software Bill of Materials</h1>
 </table>
 <h1><a class="anchor" id="autotoc_md603"></a>
 Upgrade and Compatibility Information</h1>
+<p>This section lists changes which could affect user applications developed using older SDK versions. Read this carefully to see if you need to do any changes in your existing application when migrating to this SDK version relative to previous SDK version. Also refer to older SDK version release notes to see changes in earlier SDKs.</p>
+<p>The below table captures the list of migration document sections when migrating from one version to another. The migration for a particular module will be applicable, if you are migrating from older version listed to newer version listed on the table below.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Module  </th><th class="markdownTableHeadNone">Migration guide  </th><th class="markdownTableHeadNone">Older version  </th><th class="markdownTableHeadNone">Newer version   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">ICSS-EMAC  </td><td class="markdownTableBodyNone"><a class="el" href="ICSS_EMAC_MIGRATION_GUIDE.html#ICSS_EMAC_SOURCE_PATH_CHANGE">Source Path Change (MCU+ SDK &gt;= 26.01.00)</a> &zwj;  </td><td class="markdownTableBodyNone">&lt;= 25.02.00  </td><td class="markdownTableBodyNone">&gt;= 26.01.00   </td></tr>
+</table>
 <h2><a class="anchor" id="autotoc_md604"></a>
 Compiling examples in MacOS machines</h2>
 <p>Currently the gmac library packaged within SDK is compiled using gcc darwin23.6.0 on Apple MAC. To build SDK examples on a different toolchain, recompile the gmac library by using these steps:</p>

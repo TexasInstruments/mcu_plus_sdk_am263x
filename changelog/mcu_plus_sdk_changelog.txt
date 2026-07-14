@@ -213426,3 +213426,127 @@ Date:   Mon Jul 13 11:55:01 2026 +0530
  tools/usb_test_scripts/usb_vendor_bulk_echo_test.py                         |   221 +
  52902 files changed, 9143046 insertions(+)
 
+========================================
+Changes from build on 2026-07-14 19:40:24
+Previous commit: d192f28a125a8c37bf132cc310dfa3c91741a578
+Current commit: c07c5319b2850621116a6e80f9bed16d3b517bad
+========================================
+
+commit c07c5319b2850621116a6e80f9bed16d3b517bad
+Author: Archit Dev <a-dev@ti.com>
+Date:   Tue Jul 14 13:57:21 2026 +0530
+
+    am243x/am64x/am26xx: docs: add reset isolation related i/f changes
+    
+    The ICSS EMAC Driver had the Reset Isolation support added recently,
+    which included some interface changes in the driver struct.
+    
+    Add a release note regarding this to ensure that customers are
+    aware of this change and ensure no back-ward compatability break.
+    
+    Also add a note stating that the Reset Isolation feature requires
+    explicit support in the PRU firmware and is only supported on the
+    AM243x/AM64x hardware.
+    
+    Fixes: PINDSW-10938
+    
+    Signed-off-by: Archit Dev <a-dev@ti.com>
+
+ docs_src/docs/api_guide/device/am261x/release_notes_26_01_00_LTS.md   | 3 ++-
+ docs_src/docs/api_guide/device/am263px/release_notes_26_01_00_LTS.md  | 1 +
+ docs_src/docs/api_guide/device/am263x/release_notes_26_01_00_LTS.md   | 1 +
+ docs_src/docs/api_guide/device/am64x_am243x/release_notes_12_01_00.md | 2 ++
+ 4 files changed, 6 insertions(+), 1 deletion(-)
+
+commit c8c03f16335f6bafeb615ebe987fab6d4ad3c530
+Author: Archit Dev <a-dev@ti.com>
+Date:   Mon Jul 6 16:46:37 2026 +0530
+
+    allsoc: docs: add information about path changes to icss_emac
+    
+    - As part of PINDSW-10865, the icss_emac / icss_timesync driver
+    sources were moved to a new repo : icss_emac_lld
+    
+    - This commit updates the release notes and the migration guide
+    to notify the user about the changes
+    
+    - Includes the migration guide as an input parameter to doxygen
+    and also makes the migration guide a subpage in the icss_emac
+    section of the docummentation
+    
+    Fixes: PINDSW-11252
+    
+    Signed-off-by: Archit Dev <a-dev@ti.com>
+
+ docs_src/docs/api_guide/components/networking/icss_emac/icss_emac.md             |  4 ++++
+ docs_src/docs/api_guide/components/networking/icss_emac/icss_emac_am243x.cfg     |  3 ++-
+ docs_src/docs/api_guide/components/networking/icss_emac/icss_emac_am261x.cfg     |  3 ++-
+ docs_src/docs/api_guide/components/networking/icss_emac/icss_emac_am263px.cfg    |  3 ++-
+ docs_src/docs/api_guide/components/networking/icss_emac/icss_emac_am263x.cfg     |  3 ++-
+ docs_src/docs/api_guide/components/networking/icss_emac/icss_emac_am64x.cfg      |  3 ++-
+ .../networking/icss_emac}/icss_emac_migration_guide.md                           | 24 ++++++++++++++++++++++++
+ docs_src/docs/api_guide/device/am261x/release_notes_26_01_00_LTS.md              | 14 +++++++++++++-
+ docs_src/docs/api_guide/device/am263px/release_notes_26_01_00_LTS.md             | 15 ++++++++++++++-
+ docs_src/docs/api_guide/device/am263x/release_notes_26_01_00_LTS.md              | 15 ++++++++++++++-
+ docs_src/docs/api_guide/device/am64x_am243x/release_notes_12_01_00.md            |  3 +++
+ docs_src/docs/api_guide/migration_guides/migration_guide.cfg                     |  1 +
+ 12 files changed, 83 insertions(+), 8 deletions(-)
+
+commit 7f75b333530d81d3fa02e570dd93968ade1cdcdf
+Author: BensenBernard <b-bernard@ti.com>
+Date:   Mon Jul 13 11:32:53 2026 +0530
+
+    am263x: mmcsd:  Fix the register parsing issue
+    
+    - Fix parsing of CSD register and CID register in mmcsd_parse.c.
+      The previous implementation was shifting the response registers
+      and parsing from the shifted values, which was incorrect.
+    
+    Fixes: MCUSDK-15221
+    
+    Signed-off-by: Bensen Bernard <b-bernard@ti.com>
+
+ source/drivers/mmcsd/v1/lld/internal/mmcsd_parse.c | 40 +++++++++++++---------------------------
+ 1 file changed, 13 insertions(+), 27 deletions(-)
+
+commit 0990c7ab0ce7b0fb7d466c3a7a723b4b2cca1d2b
+Author: Ashutosh Nayak <a-nayak2@ti.com>
+Date:   Mon Jul 13 12:01:12 2026 +0530
+
+    am64x/am243x: sdl: Klocwork fixes for ESM
+    
+    - Renamed some local scope variables
+    
+    - Changed definition/declaration to match
+    
+    Fixes: PROC_SDL-10003
+    
+    Signed-off-by: Ashutosh <a-nayak2@ti.com>
+
+ source/sdl/esm/v0/esm.h                      |  6 +++---
+ source/sdl/esm/v0/sdl_ip_esm.c               | 12 ++++++------
+ source/sdl/esm/v2/sdl_esm.h                  | 12 ++++++------
+ source/sdl/sdl_esm.h                         | 12 ++++++------
+ test/sdl/esm/esm_func_test/esm_config_test.c |  4 ++--
+ test/sdl/esm/esm_unit_test/esm_test_api.c    |  4 ++--
+ 6 files changed, 25 insertions(+), 25 deletions(-)
+
+commit a80a0b4c7aadc358d66c12dd89757e3ce0515523
+Author: Ashutosh Nayak <a-nayak2@ti.com>
+Date:   Mon Jul 13 12:31:52 2026 +0530
+
+    am64x/am243x: sdl: Misc Klocwork fixes
+    
+    - Remove duplicate declarations
+    
+    - Edit declarations to match definitions
+    
+    Fixes: PROC_SDL-10003
+    
+    Signed-off-by: Ashutosh <a-nayak2@ti.com>
+
+ source/sdl/r5/v0/sdl_exception.c          |  7 -------
+ source/sdl/r5/v0/sdl_interrupt.h          |  2 +-
+ source/sdl/r5/v0/sdl_interrupt_handlers.c | 10 +++++-----
+ 3 files changed, 6 insertions(+), 13 deletions(-)
+

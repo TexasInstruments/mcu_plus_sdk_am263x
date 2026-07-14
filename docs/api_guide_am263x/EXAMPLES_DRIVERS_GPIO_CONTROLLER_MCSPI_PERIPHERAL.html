@@ -92,22 +92,22 @@ $(document).ready(function(){initNavTree('EXAMPLES_DRIVERS_GPIO_CONTROLLER_MCSPI
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md2002">Introduction</a></li>
-<li class="level1"><a href="#autotoc_md2003">External Connections</a></li>
-<li class="level1"><a href="#autotoc_md2004">Supported Combinations</a></li>
-<li class="level1"><a href="#autotoc_md2005">Steps to Run the Example</a></li>
-<li class="level1"><a href="#autotoc_md2006">See Also</a></li>
-<li class="level1"><a href="#autotoc_md2007">Sample Output</a></li>
+<ul><li class="level1"><a href="#autotoc_md2006">Introduction</a></li>
+<li class="level1"><a href="#autotoc_md2007">External Connections</a></li>
+<li class="level1"><a href="#autotoc_md2008">Supported Combinations</a></li>
+<li class="level1"><a href="#autotoc_md2009">Steps to Run the Example</a></li>
+<li class="level1"><a href="#autotoc_md2010">See Also</a></li>
+<li class="level1"><a href="#autotoc_md2011">Sample Output</a></li>
 </ul>
 </div>
 <div class="textblock"><p><a class="anchor" id="md_examples_drivers_gpio_controller_mcspi_peripheral"></a></p>
-<h1><a class="anchor" id="autotoc_md2002"></a>
+<h1><a class="anchor" id="autotoc_md2006"></a>
 Introduction</h1>
 <p>This example demonstrates the usage of GPIO module to emulate the SPI controller on R5FSS0_0. MCSPI module is configured as a peripheral on R5FSS0_1 to simulate a real controller-peripheral environment.</p>
 <p>4 different GPIO pins are configured to emulate SPI controller by bitbanging the data. GPIO43 as SPIPICO, GPIO44 as SPIPOCI, GPIO45 as SPICLK &amp; GPIO46 as Chip Select(CS) It demonstrates 8-bit and 32-bit full-duplex transfers, with configurable word and message sizes.</p>
 <p>The transfer is done in the worst case scenario at a mean frequency of 6.25MHz, the controller SPICLK frequency can be fixed by using appropriate delays.</p>
 <p>When transfer is completed, TX and RX buffer data are compared. If data is matched, test result is passed otherwise failed.</p>
-<h1><a class="anchor" id="autotoc_md2003"></a>
+<h1><a class="anchor" id="autotoc_md2007"></a>
 External Connections</h1>
 <ul>
 <li>Connect GPIO43 -&gt; SPI1_D1 (HSEC 49 -&gt; HSEC 77)</li>
@@ -116,7 +116,7 @@ External Connections</h1>
 <li>Connect GPIO46 -&gt; SPI1_CS0 (HSEC 55 -&gt; HSEC 81)</li>
 <li>The above pins can be connected with an oscilloscope to view the transfer waveforms</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md2004"></a>
+<h1><a class="anchor" id="autotoc_md2008"></a>
 Supported Combinations</h1>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -132,17 +132,17 @@ Supported Combinations</h1>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">Example folder  </td><td class="markdownTableBodyNone">examples/drivers/gpio/gpio_spi_master   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md2005"></a>
+<h1><a class="anchor" id="autotoc_md2009"></a>
 Steps to Run the Example</h1>
 <ul>
 <li><b>When using CCS projects to build</b>, import the CCS project for the required combination and build it using the CCS project menu (see <a class="el" href="CCS_PROJECTS_PAGE.html">Using SDK with CCS Projects</a>).</li>
 <li><b>When using makefiles to build</b>, note the required combination and build using make command (see <a class="el" href="MAKEFILE_BUILD_PAGE.html">Using SDK with Makefiles</a>)</li>
 <li>Launch a CCS debug session and run the executable, see <a class="el" href="CCS_LAUNCH_PAGE.html">CCS Launch, Load and Run</a></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md2006"></a>
+<h1><a class="anchor" id="autotoc_md2010"></a>
 See Also</h1>
 <p><a class="el" href="DRIVERS_MCSPI_PAGE.html">MCSPI</a> <a class="el" href="DRIVERS_GPIO_PAGE.html">GPIO</a></p>
-<h1><a class="anchor" id="autotoc_md2007"></a>
+<h1><a class="anchor" id="autotoc_md2011"></a>
 Sample Output</h1>
 <p>Shown below is a sample output when the application is run,</p>
 <div class="fragment"><div class="line">[Cortex_R5_0] GPIO controller operation started...</div>

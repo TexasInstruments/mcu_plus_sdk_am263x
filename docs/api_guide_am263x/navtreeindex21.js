@@ -1,5 +1,11 @@
 var NAVTREEINDEX21 =
 {
+"enet_mdio_clause45_support.html#autotoc_md1565":[5,1,7,8],
+"enet_migration_guide_top.html":[5,1,11],
+"enet_migration_guide_top.html#CustomBoardSupport":[5,1,11,7],
+"enet_migration_guide_top.html#EnetDmaChOpenChange":[5,1,11,3],
+"enet_migration_guide_top.html#EnetDmaChOverrideChange":[5,1,11,4],
+"enet_migration_guide_top.html#EnetInitSeqChange":[5,1,11,2],
 "enet_migration_guide_top.html#EnetIoctlChange":[5,1,11,5],
 "enet_migration_guide_top.html#ExternalPhyManagement":[5,1,11,8],
 "enet_migration_guide_top.html#MemoryTuningLwip":[5,1,11,10],
@@ -243,11 +249,5 @@ var NAVTREEINDEX21 =
 "group__CPSW__ALE__MOD.html#gadeaab3342ddac42b4daeb8238e5a462b":[17,4,0,1,0,61],
 "group__CPSW__ALE__MOD.html#gadee9f7b7204708e1c35e0509b1b1d622":[17,4,0,1,0,99],
 "group__CPSW__ALE__MOD.html#gae1cb30eb4f55e2efd3d32f48563e61ee":[17,4,0,1,0,96],
-"group__CPSW__ALE__MOD.html#gae2f62253c686f18d0c21450ff98203b5":[17,4,0,1,0,60],
-"group__CPSW__ALE__MOD.html#gae526c69e0428a9bd08c1ef832ea23c1c":[17,4,0,1,0,79],
-"group__CPSW__ALE__MOD.html#gae60a4b7d133be085518596e9c585e86a":[17,4,0,1,0,87],
-"group__CPSW__ALE__MOD.html#gaecf4f07c3b13df0444862688bbaef934":[17,4,0,1,0,66],
-"group__CPSW__ALE__MOD.html#gaf3bf2f1cea23dbfd1861b20830a603a0":[17,4,0,1,0,93],
-"group__CPSW__ALE__MOD.html#gaf4d7d88528267793951fa37af332eaf3":[17,4,0,1,0,82],
-"group__CPSW__ALE__MOD.html#gaf4dfc753e552337d1715e4875fb0cc30":[17,4,0,1,0,70]
+"group__CPSW__ALE__MOD.html#gae2f62253c686f18d0c21450ff98203b5":[17,4,0,1,0,60]
 };

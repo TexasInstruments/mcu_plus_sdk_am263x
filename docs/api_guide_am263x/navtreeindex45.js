@@ -1,5 +1,11 @@
 var NAVTREEINDEX45 =
 {
+"group__ENETPHY__DP83TC812.html#ga785f86f37394c31ff0a3819aa78aa2b7":[17,4,0,13,5,3],
+"group__ENETPHY__DP83TC812.html#gabde753c7197877822d4c914276d8fc32":[17,4,0,13,5,9],
+"group__ENETPHY__DP83TC812.html#gac11ef5aba00ad0831c6b6c959c2bc933":[17,4,0,13,5,7],
+"group__ENETPHY__DP83TC812.html#gaf2bafb2f641e7c114ab763bce42a12a8":[17,4,0,13,5,6],
+"group__ENETPHY__DP83TC812.html#gga593ccc6f6c1b5bccecfdde1f1c805064a77b38eff9641dc38bef5ecd8ffac079a":[17,4,0,13,5,1,0],
+"group__ENETPHY__DP83TC812.html#gga593ccc6f6c1b5bccecfdde1f1c805064a9fa8c1ba1e0c1055a4c35e722b7e7cdb":[17,4,0,13,5,1,2],
 "group__ENETPHY__DP83TC812.html#gga593ccc6f6c1b5bccecfdde1f1c805064ad425583d1a13e5928b65f013c117cbbc":[17,4,0,13,5,1,1],
 "group__ENETPHY__DP83TG720.html":[17,4,0,13,6],
 "group__ENETPHY__DP83TG720.html#ga0a91fef5d713e39788daaa55c5e08bc3":[17,4,0,13,6,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX45 =
 "group__ENET__MAIN__API.html#ga4445d8da956049a363acc5200dac130d":[17,4,0,4,11],
 "group__ENET__MAIN__API.html#ga44d743e293f05540f6b993bfc0cc3429":[17,4,0,4,7],
 "group__ENET__MAIN__API.html#ga4710f1318cbf2089a92a50609a403c39":[17,4,0,4,106],
-"group__ENET__MAIN__API.html#ga4c9e2621d4205535ba983b354f58913f":[17,4,0,4,49],
-"group__ENET__MAIN__API.html#ga4cc5ea0b4f2f2000fe99d278312d3baa":[17,4,0,4,25],
-"group__ENET__MAIN__API.html#ga50430ec5b7d235b47c43a871408eb0b7":[17,4,0,4,15],
-"group__ENET__MAIN__API.html#ga52edc6a95643685e1f9452a3e5d03081":[17,4,0,4,100],
-"group__ENET__MAIN__API.html#ga5364c7a2830b3e9212bdad45dce26457":[17,4,0,4,70],
-"group__ENET__MAIN__API.html#ga5d457ce93b8fcfe2cd6552ec7f516fd8":[17,4,0,4,87],
-"group__ENET__MAIN__API.html#ga5dbf8fa512441fbed9aa3308bd3a42c5":[17,4,0,4,41]
+"group__ENET__MAIN__API.html#ga4c9e2621d4205535ba983b354f58913f":[17,4,0,4,49]
 };

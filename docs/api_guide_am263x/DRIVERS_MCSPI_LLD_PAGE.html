@@ -242,7 +242,7 @@ Example Usage</h1>
 <div class="line">{</div>
 <div class="line">    unlock_mutex(gMcspiObject[CONFIG_MCSPI0].transferMutex);</div>
 <div class="line">}</div>
-</div><!-- fragment --><p> Non-Blocking Example ISR CALL callback </p><div class="fragment"><div class="line"><span class="keyword">static</span> <a class="code" href="group__lld__ethernet.html#ga8c1dfc1ccf00a08192611433ee7f17b4">__attribute__</a>((__section__(<span class="stringliteral">&quot;.text.hwi&quot;</span>), noinline, naked, target(<span class="stringliteral">&quot;arm&quot;</span>), aligned(4))) void App_MCSPI_ISR(<span class="keywordtype">void</span>)</div>
+</div><!-- fragment --><p> Non-Blocking Example ISR CALL callback </p><div class="fragment"><div class="line"><span class="keyword">static</span> <a class="code" href="group__lld__ethernet.html#gadea7c881f4c0cb2f214a494076f67cca">__attribute__</a>((__section__(<span class="stringliteral">&quot;.text.hwi&quot;</span>), noinline, naked, target(<span class="stringliteral">&quot;arm&quot;</span>), aligned(4))) void App_MCSPI_ISR(<span class="keywordtype">void</span>)</div>
 <div class="line">{</div>
 <div class="line">    ISR_CALL_LEVEL_NONFLOAT_REENTRANT(<a class="code" href="group__DRV__MCSPI__LLD__MODULE.html#ga4dfee07f911b5fe9c459309906e50ee9">MCSPI_lld_controllerIsr</a>, \</div>
 <div class="line">                                      gMcspiHandle0, \</div>
@@ -257,6 +257,7 @@ API</h1>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
+<div class="ttc" id="agroup__lld__ethernet_html_gadea7c881f4c0cb2f214a494076f67cca"><div class="ttname"><a href="group__lld__ethernet.html#gadea7c881f4c0cb2f214a494076f67cca">__attribute__</a></div><div class="ttdeci">struct lld_sockaddr __attribute__</div><div class="ttdoc">This is the SecureBoot Stream type which holds the data for a specific bootloader to HSM call....</div></div>
 <div class="ttc" id="ahsmclient__msg_8h_html_add0eb34e0cef9e763462cf9080f9be0a"><div class="ttname"><a href="hsmclient__msg_8h.html#add0eb34e0cef9e763462cf9080f9be0a">args</a></div><div class="ttdeci">void * args</div><div class="ttdef"><b>Definition:</b> hsmclient_msg.h:4</div></div>
 <div class="ttc" id="agroup__DRV__MCSPI__LLD__MODULE_html_gabaa888ef531c9dda317b001044627a41"><div class="ttname"><a href="group__DRV__MCSPI__LLD__MODULE.html#gabaa888ef531c9dda317b001044627a41">MCSPI_WAIT_FOREVER</a></div><div class="ttdeci">#define MCSPI_WAIT_FOREVER</div><div class="ttdoc">Value to use when needing a timeout of infinity or wait forver until resource is available.</div><div class="ttdef"><b>Definition:</b> mcspi_lld.h:122</div></div>
 <div class="ttc" id="aSystemP_8h_html"><div class="ttname"><a href="SystemP_8h.html">SystemP.h</a></div></div>
@@ -266,7 +267,6 @@ API</h1>
 <div class="ttc" id="aSemaphoreP_8h_html"><div class="ttname"><a href="SemaphoreP_8h.html">SemaphoreP.h</a></div></div>
 <div class="ttc" id="agroup__DRV__MCSPI__LLD__MODULE_html_gaeb7c93069850e87483265149069539d1"><div class="ttname"><a href="group__DRV__MCSPI__LLD__MODULE.html#gaeb7c93069850e87483265149069539d1">MCSPI_TRANSFER_COMPLETED</a></div><div class="ttdeci">#define MCSPI_TRANSFER_COMPLETED</div><div class="ttdef"><b>Definition:</b> mcspi_lld.h:188</div></div>
 <div class="ttc" id="agroup__KERNEL__DPL__DEBUG_html_gafe348ab5badd2c15118f95e21bb192c6"><div class="ttname"><a href="group__KERNEL__DPL__DEBUG.html#gafe348ab5badd2c15118f95e21bb192c6">DebugP_log</a></div><div class="ttdeci">#define DebugP_log(format,...)</div><div class="ttdoc">Function to log a string to the enabled console.</div><div class="ttdef"><b>Definition:</b> DebugP.h:235</div></div>
-<div class="ttc" id="agroup__lld__ethernet_html_ga8c1dfc1ccf00a08192611433ee7f17b4"><div class="ttname"><a href="group__lld__ethernet.html#ga8c1dfc1ccf00a08192611433ee7f17b4">__attribute__</a></div><div class="ttdeci">struct lld_sockaddr __attribute__</div><div class="ttdoc">This is the SecureBoot Stream type which holds the data for a specific bootloader to HSM call....</div></div>
 <div class="ttc" id="agroup__DRV__MCSPI__LLD__MODULE_html_gabfecd1b6519b00bd0a6fff7e88bdf6aa"><div class="ttname"><a href="group__DRV__MCSPI__LLD__MODULE.html#gabfecd1b6519b00bd0a6fff7e88bdf6aa">MCSPI_lld_init</a></div><div class="ttdeci">int32_t MCSPI_lld_init(MCSPILLD_Handle hMcspi)</div><div class="ttdoc">This API Initializes the McSPI instance.</div></div>
 <div class="ttc" id="aHwiP_8h_html"><div class="ttname"><a href="HwiP_8h.html">HwiP.h</a></div></div>
 <div class="ttc" id="agroup__KERNEL__DPL__HWI_html_gaccf47c6fb95111f0fbba1b86705d5907"><div class="ttname"><a href="group__KERNEL__DPL__HWI.html#gaccf47c6fb95111f0fbba1b86705d5907">HwiP_enableInt</a></div><div class="ttdeci">void HwiP_enableInt(uint32_t intNum)</div><div class="ttdoc">Enable a specific interrupt.</div></div>
