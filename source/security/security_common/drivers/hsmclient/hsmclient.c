@@ -2215,6 +2215,76 @@ int32_t HsmClient_UpdateKeyRevsion(HsmClient_t *HsmClient, uint32_t timeout) {
     return status;
 }
 
+int32_t HsmClient_EnableFATransition(HsmClient_t *HsmClient,
+                                     uint8_t *cert,
+                                     uint32_t cert_size,
+                                     uint32_t timeout)
+{
+    /* make the message */
+    int32_t status;
+    uint16_t crcArgs;
+
+    /* populate the send message structure */
+    HsmClient->ReqMsg.destClientId = HSM_CLIENT_ID_1;
+    HsmClient->ReqMsg.srcClientId = HsmClient->ClientId;
+
+    /* Always expect acknowledgement from HSM server */
+    HsmClient->ReqMsg.flags = HSM_FLAG_AOP;
+    HsmClient->ReqMsg.serType = HSM_MSG_ENABLE_FA;
+    HsmClient->ReqMsg.args = (void *)cert;
+
+    /* Add arg crc */
+    HsmClient->ReqMsg.crcArgs = crc16_ccit((uint8_t *)cert, cert_size);
+
+    /* Change the Arguments Address in Physical Address */
+    HsmClient->ReqMsg.args = (void *)(uintptr_t)SOC_virtToPhy(cert);
+
+    /*
+    Write back the FA transition cert and
+    invalidate the cache before passing it to HSM
+    */
+    CacheP_wbInv(cert, GET_CACHE_ALIGNED_SIZE(cert_size), CacheP_TYPE_ALL);
+
+    status = HsmClient_SendAndRecv(HsmClient, timeout);
+    if (SystemP_SUCCESS == status) {
+        /* the FA Transition has been processed by HSM server
+         * if this request has been processed correctly */
+        if (HSM_FLAG_NACK == HsmClient->RespFlag)
+        {
+            DebugP_log("\r\n [HSM_CLIENT] FA Transition request NACKed by HSM server\r\n");
+            status = SystemP_FAILURE;
+        }
+        else
+        {
+            /* Change the Arguments Address in Physical Address */
+            HsmClient->RespMsg.args = (void *)SOC_phyToVirt((uint64_t)HsmClient->RespMsg.args);
+
+            /* check the integrity of args */
+            crcArgs = crc16_ccit((uint8_t *)HsmClient->RespMsg.args, 0U);
+
+            if (crcArgs == HsmClient->RespMsg.crcArgs)
+            {
+                status = SystemP_SUCCESS;
+            }
+            else
+            {
+                DebugP_log("\r\n [HSM_CLIENT] CRC check for FA Transition response failed\r\n");
+                status = SystemP_FAILURE;
+            }
+        }
+    }
+    /* If failure occur due to some reason */
+    else if (SystemP_FAILURE == status) {
+        status = SystemP_FAILURE;
+    }
+    /* Indicate timeout error */
+    else
+    {
+        status = SystemP_TIMEOUT;
+    }
+    return status;
+}
+
 
 int32_t HsmClient_configOTFARegions(HsmClient_t* HsmClient,OTFA_Config_t* OTFA_ConfigInfo,uint32_t timeout)
 {

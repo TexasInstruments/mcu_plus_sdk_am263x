@@ -298,6 +298,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga530b1603d591126ac346c31f30414f7d"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DRV__HSMCLIENT__MODULE.html#ga530b1603d591126ac346c31f30414f7d">HsmClient_UpdateKeyRevsion</a> (<a class="el" href="structHsmClient__t.html">HsmClient_t</a> *HsmClient, uint32_t timeout)</td></tr>
 <tr class="memdesc:ga530b1603d591126ac346c31f30414f7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">service request issued to HSM server to update key revision to 0x2 which changes the root of trust key from secondary keys to back up keys.  <a href="group__DRV__HSMCLIENT__MODULE.html#ga530b1603d591126ac346c31f30414f7d">More...</a><br /></td></tr>
 <tr class="separator:ga530b1603d591126ac346c31f30414f7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadd40318bdbd516da054ce2bc690c9f7f"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DRV__HSMCLIENT__MODULE.html#gadd40318bdbd516da054ce2bc690c9f7f">HsmClient_EnableFATransition</a> (<a class="el" href="structHsmClient__t.html">HsmClient_t</a> *HsmClient, uint8_t *cert, uint32_t cert_size, uint32_t timeout)</td></tr>
+<tr class="memdesc:gadd40318bdbd516da054ce2bc690c9f7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send FA transition certificate to HSM to permanently enable FA mode. IRREVERSIBLE — writes FA_EN to OTP. Only valid on HS-SE/HS-KP devices.  <a href="group__DRV__HSMCLIENT__MODULE.html#gadd40318bdbd516da054ce2bc690c9f7f">More...</a><br /></td></tr>
+<tr class="separator:gadd40318bdbd516da054ce2bc690c9f7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5ea570bc441bb6c6a9dff879b0600e27"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DRV__HSMCLIENT__MODULE.html#ga5ea570bc441bb6c6a9dff879b0600e27">HsmClient_configOTFARegions</a> (<a class="el" href="structHsmClient__t.html">HsmClient_t</a> *HsmClient, <a class="el" href="structOTFA__Config__t.html">OTFA_Config_t</a> *OTFA_ConfigInfo, uint32_t timeout)</td></tr>
 <tr class="memdesc:ga5ea570bc441bb6c6a9dff879b0600e27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Client request to configure the OTFA regions.  <a href="group__DRV__HSMCLIENT__MODULE.html#ga5ea570bc441bb6c6a9dff879b0600e27">More...</a><br /></td></tr>
 <tr class="separator:ga5ea570bc441bb6c6a9dff879b0600e27"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -493,6 +496,9 @@ Macros</h2></td></tr>
 <tr class="memitem:ga51f48b5ecad8c29c9ed06e2a5bdfab59"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DRV__HSMCLIENT__MODULE.html#ga51f48b5ecad8c29c9ed06e2a5bdfab59">HSM_MSG_BANK_SWAP</a>&#160;&#160;&#160;(0x905BU)</td></tr>
 <tr class="memdesc:ga51f48b5ecad8c29c9ed06e2a5bdfab59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swap C29 CPU-1/3 flash banks.  <a href="group__DRV__HSMCLIENT__MODULE.html#ga51f48b5ecad8c29c9ed06e2a5bdfab59">More...</a><br /></td></tr>
 <tr class="separator:ga51f48b5ecad8c29c9ed06e2a5bdfab59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaac2e7a5e4462d3ae02133255e9e9a801"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DRV__HSMCLIENT__MODULE.html#gaac2e7a5e4462d3ae02133255e9e9a801">HSM_MSG_ENABLE_FA</a>&#160;&#160;&#160;(0x905CU)</td></tr>
+<tr class="memdesc:gaac2e7a5e4462d3ae02133255e9e9a801"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Failure Analysis Transition service ID.  <a href="group__DRV__HSMCLIENT__MODULE.html#gaac2e7a5e4462d3ae02133255e9e9a801">More...</a><br /></td></tr>
+<tr class="separator:gaac2e7a5e4462d3ae02133255e9e9a801"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga53441a5d8285223de54f3ae2729a94e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DRV__HSMCLIENT__MODULE.html#ga53441a5d8285223de54f3ae2729a94e7">HSM_MSG_CRYPTO_SERVICE</a>&#160;&#160;&#160;(0xA001U)</td></tr>
 <tr class="memdesc:ga53441a5d8285223de54f3ae2729a94e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic Crypto service ID.  <a href="group__DRV__HSMCLIENT__MODULE.html#ga53441a5d8285223de54f3ae2729a94e7">More...</a><br /></td></tr>
 <tr class="separator:ga53441a5d8285223de54f3ae2729a94e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1373,6 +1379,22 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Swap C29 CPU-1/3 flash banks. </p>
+
+</div>
+</div>
+<a id="gaac2e7a5e4462d3ae02133255e9e9a801"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaac2e7a5e4462d3ae02133255e9e9a801">&#9670;&nbsp;</a></span>HSM_MSG_ENABLE_FA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HSM_MSG_ENABLE_FA&#160;&#160;&#160;(0x905CU)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable Failure Analysis Transition service ID. </p>
 
 </div>
 </div>
@@ -3134,6 +3156,63 @@ Macros</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">timeout</td><td>[IN] amount of time to block waiting for semaphore to be available, in units of system ticks (see KERNEL_DPL_CLOCK_PAGE) </td></tr>
     <tr><td class="paramname">HsmClient</td><td>[IN] Client object which is using this RoT Switching API.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><ol type="1">
+<li>SystemP_SUCCESS if returns successfully</li>
+<li>SystemP_FAILURE if NACK message is received or client id not registered.</li>
+<li>SystemP_TIMEOUT if timeout exception occours. </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<a id="gadd40318bdbd516da054ce2bc690c9f7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadd40318bdbd516da054ce2bc690c9f7f">&#9670;&nbsp;</a></span>HsmClient_EnableFATransition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t HsmClient_EnableFATransition </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structHsmClient__t.html">HsmClient_t</a> *&#160;</td>
+          <td class="paramname"><em>HsmClient</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>cert</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>cert_size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send FA transition certificate to HSM to permanently enable FA mode. IRREVERSIBLE — writes FA_EN to OTP. Only valid on HS-SE/HS-KP devices. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">timeout</td><td>[IN] amount of time to block waiting for semaphore to be available, in units of system ticks (see KERNEL_DPL_CLOCK_PAGE) </td></tr>
+    <tr><td class="paramname">HsmClient</td><td>[IN] Client object which is using this FA Transition API. </td></tr>
+    <tr><td class="paramname">cert</td><td>[IN] point to the location of FA transition certificate in the device memory. </td></tr>
+    <tr><td class="paramname">cert_size</td><td>[IN] size of certificate.</td></tr>
   </table>
   </dd>
 </dl>

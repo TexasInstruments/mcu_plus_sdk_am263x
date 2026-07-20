@@ -1191,6 +1191,27 @@ int32_t HsmClient_getVersion(HsmClient_t *HsmClient ,
     int32_t HsmClient_UpdateKeyRevsion(HsmClient_t *HsmClient,
                                        uint32_t timeout);
 
+    /**
+     * @brief
+     *  Send FA transition certificate to HSM to permanently enable FA mode.
+     *  IRREVERSIBLE — writes FA_EN to OTP. Only valid on HS-SE/HS-KP devices.
+     *
+     * @param timeout           [IN] amount of time to block waiting for
+     * semaphore to be available, in units of system ticks (see KERNEL_DPL_CLOCK_PAGE)
+     * @param HsmClient         [IN] Client object which is using this FA Transition API.
+     * @param cert              [IN] point to the location of FA transition certificate in the device memory.
+     * @param cert_size         [IN] size of certificate.
+     *
+     * @return
+     * 1. SystemP_SUCCESS if returns successfully
+     * 2. SystemP_FAILURE if NACK message is received or client id not registered.
+     * 3. SystemP_TIMEOUT if timeout exception occours.
+     */
+    int32_t HsmClient_EnableFATransition(HsmClient_t *HsmClient,
+                                         uint8_t *cert,
+                                         uint32_t cert_size,
+                                         uint32_t timeout);
+
 /**
  *  @brief  Client request to configure the OTFA regions
  *

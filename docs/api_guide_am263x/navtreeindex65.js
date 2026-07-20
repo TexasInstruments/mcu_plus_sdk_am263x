@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"structIcssgStats__Pa.html#a180a73c57f827cbf7efe387263d2419e":[17,4,0,9,1,1,76],
+"structIcssgStats__Pa.html#a19b0a805899f54dd41334b75fcab2083":[17,4,0,9,1,1,34],
 "structIcssgStats__Pa.html#a19f351d435884c8bf573c3d1f1948c68":[17,4,0,9,1,1,72],
 "structIcssgStats__Pa.html#a1d504cd56cd9c7c8b8064b4d1e2541a2":[17,4,0,9,1,1,16],
 "structIcssgStats__Pa.html#a26c644c0dc2e9a5a3dc6b95d9d4bcce4":[17,4,0,9,1,1,51],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "structLED__Params__s.html#aa36d1bead3cc25e4bb53585a56300c45":[17,1,3,0,3],
 "structLED__Params__s.html#ad462ab0d6d16f741a2fc07118d1513ca":[17,1,3,0,2],
 "structLIN__BaudConfigParams.html":[17,7,20,2],
-"structLIN__BaudConfigParams.html#abaf30b0a91b1b5f193773ae57d82fcb3":[17,7,20,2,0],
-"structLIN__BaudConfigParams.html#add27a1a753fda95e68c408833e37ba42":[17,7,20,2,1],
-"structLIN__BaudConfigParams.html#af2a231e8f4e34697809295bc11c6af90":[17,7,20,2,2]
+"structLIN__BaudConfigParams.html#abaf30b0a91b1b5f193773ae57d82fcb3":[17,7,20,2,0]
 };

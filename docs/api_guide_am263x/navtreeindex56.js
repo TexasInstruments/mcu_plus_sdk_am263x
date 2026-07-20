@@ -1,5 +1,7 @@
 var NAVTREEINDEX56 =
 {
+"group__unibase__macros.html#gac39981641e59b1dc6a97073fc50dfdc7":[17,10,7,47],
+"group__unibase__macros.html#gacf9a04d6aa3370592d09d0c81bd59f23":[17,10,7,17],
 "group__unibase__macros.html#gad052b9e1f7458a222840f9bae5706c12":[17,10,7,10],
 "group__unibase__macros.html#gad903fac8be9cc3549b3c367bc905a9fa":[17,10,7,33],
 "group__unibase__macros.html#gadf419dd59fd41a7600ea89f27929a059":[17,10,7,40],
@@ -28,8 +30,8 @@ var NAVTREEINDEX56 =
 "group__xtimer.html#gabc716d68e28b749deb531c1a4bd49742":[17,11,7,3],
 "group__xtimer.html#gad69eb8f53037632c4cdefb4ba1c19e3b":[17,11,7,17],
 "group__xtimer.html#gae4233d0f78b7d372c7802ef76ad4784a":[17,11,7,15],
-"index.html":[],
 "index.html":[0],
+"index.html":[],
 "index.html#MIGRATION_INFORMATION":[0,1],
 "index.html#autotoc_md0":[0,0],
 "index.html#autotoc_md1":[0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX56 =
 "structCANFD__OpenParams.html":[17,7,2,14],
 "structCANFD__OpenParams.html#a1011c8e1639f8a9c8749e1ae75f67755":[17,7,2,14,8],
 "structCANFD__OpenParams.html#a11f6be3368d8a69262ec4ffe5d9c0b0b":[17,7,2,14,10],
-"structCANFD__OpenParams.html#a1e08ee7fb8d56817d2f761a8e6e01d44":[17,7,2,14,23],
-"structCANFD__OpenParams.html#a1f87c17632ff5a5b383a4692f2444a83":[17,7,2,14,9],
-"structCANFD__OpenParams.html#a25b6bfd6771e972b0c8f283bd5898461":[17,7,2,14,4]
+"structCANFD__OpenParams.html#a1e08ee7fb8d56817d2f761a8e6e01d44":[17,7,2,14,23]
 };

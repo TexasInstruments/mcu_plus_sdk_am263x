@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"structEEPROM__Fxns.html#a8b49c618fccd93f4a131d19f62779519":[17,1,2,1,0],
+"structEEPROM__Object.html":[17,1,2,4],
 "structEEPROM__Object.html#a648518ecd521d973da0597593c92c449":[17,1,2,4,2],
 "structEEPROM__Object.html#a8f76e10120ddf201289d110e6bf0f40c":[17,1,2,4,5],
 "structEEPROM__Object.html#a94bba1e10bab6c922ab5450a0ed8cce1":[17,1,2,4,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "structEnetQ.html":[17,4,0,7,1],
 "structEnetQ.html#a161c7fb022c75decb8ec4f5ca5f7ee57":[17,4,0,7,1,1],
 "structEnetQ.html#a9bcf5ec887e25424c14fa9e537e4bb20":[17,4,0,7,1,2],
-"structEnetQ.html#ad7175db4dec96f857742561e585fd70a":[17,4,0,7,1,3],
-"structEnetQ.html#ae652e20f61360d94c329713de4406231":[17,4,0,7,1,0],
-"structEnetQ__Node.html":[17,4,0,7,0]
+"structEnetQ.html#ad7175db4dec96f857742561e585fd70a":[17,4,0,7,1,3]
 };

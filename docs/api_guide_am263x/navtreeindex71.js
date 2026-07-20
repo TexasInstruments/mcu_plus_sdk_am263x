@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"structStaticHeap__t.html#a7e4c48291153da21fa86627150adec02":[17,2,7,2,7],
+"structStaticHeap__t.html#a94eda3ac4d09bb6f6b5d6fc288a73476":[17,2,7,2,1],
 "structStaticHeap__t.html#aad2d44f52f70a1e67c88beddd75a2f6d":[17,2,7,2,5],
 "structStaticHeap__t.html#af75a0bfb7dcf0037d3bc899f30e7b21f":[17,2,7,2,3],
 "structStaticHeap__t.html#afd820264e5c40fa4e06b74cef7b00149":[17,2,7,2,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "structcb__waitpoint__t.html#a25d270632a7188dcd56aeeee0327f9ff":[17,11,5,2,0],
 "structcb__waitpoint__t.html#acd5af18c6ae061f2c93b5b874b728f82":[17,11,5,2,2],
 "structcb__waitpoint__t.html#ad320fb07f2f38f0651643877538fa5f5":[17,11,5,2,3],
-"structlld__ethdev__t.html":[17,11,3,3],
-"structlld__ethdev__t.html#a57d558648b35618001a4469c6eb93400":[17,11,3,3,1],
-"structlld__ethdev__t.html#aae5fce9958d7730c559e058f909883fc":[17,11,3,3,2]
+"structlld__ethdev__t.html":[17,11,3,3]
 };

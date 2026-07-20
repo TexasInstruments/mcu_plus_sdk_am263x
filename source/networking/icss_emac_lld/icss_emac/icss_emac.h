@@ -53,6 +53,7 @@
 #include <drivers/pruicss.h>
 #include <board/ethphy.h>
 #include <drivers/hw_include/csl_types.h>
+#include "icss_emac_ver.h"
 
 #ifdef __cplusplus
 extern "C" {

@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"structMCAN__RxBufElement.html#a64d77443d3d0209bfae744e72f31ddf4":[17,7,24,22,1],
+"structMCAN__RxBufElement.html#a67eae427878afe8d599402372f59705e":[17,7,24,22,2],
 "structMCAN__RxBufElement.html#ad503be04598fa84204da03530a09ebac":[17,7,24,22,5],
 "structMCAN__RxBufElementNoCpy.html":[17,7,24,23],
 "structMCAN__RxBufElementNoCpy.html#a4efa2e1f65e69f428afd9fc22f50521b":[17,7,24,23,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "structMMCSD__EmmcDeviceData.html#a16a35402857a996652e97ff46f941106":[17,7,29,1,9],
 "structMMCSD__EmmcDeviceData.html#a44c38c7c4d84f123dcb4c7481cf32c00":[17,7,29,1,4],
 "structMMCSD__EmmcDeviceData.html#a4f868b260454664a00226af9017a5178":[17,7,29,1,13],
-"structMMCSD__EmmcDeviceData.html#a53ddd659472a100866919af19f4f8171":[17,7,29,1,2],
-"structMMCSD__EmmcDeviceData.html#a87a4014ab6b68358c352a11de59a7601":[17,7,29,1,11],
-"structMMCSD__EmmcDeviceData.html#a9c0193473d5b3a04afd17a0829cd4ee2":[17,7,29,1,7]
+"structMMCSD__EmmcDeviceData.html#a53ddd659472a100866919af19f4f8171":[17,7,29,1,2]
 };

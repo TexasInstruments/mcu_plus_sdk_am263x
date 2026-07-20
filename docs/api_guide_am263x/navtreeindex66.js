@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structLIN__BaudConfigParams.html#add27a1a753fda95e68c408833e37ba42":[17,7,20,2,1],
+"structLIN__BaudConfigParams.html#af2a231e8f4e34697809295bc11c6af90":[17,7,20,2,2],
 "structLIN__Config.html":[17,7,20,8],
 "structLIN__Config.html#a77ace6906c5402155b3675e1bc3a5d01":[17,7,20,8,0],
 "structLIN__Config.html#ad04200eabd60c596feac0779aae07ced":[17,7,20,8,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMCAN__RxBufElement.html#a2ce0a218529dd2a212fcde6cbf751b65":[17,7,24,22,10],
 "structMCAN__RxBufElement.html#a375c7408618a861437d4bad050e67d19":[17,7,24,22,0],
 "structMCAN__RxBufElement.html#a42c3eafe8608da2382c599d44dc80f6f":[17,7,24,22,8],
-"structMCAN__RxBufElement.html#a4eba70e3d090533cecf152342a1720d3":[17,7,24,22,6],
-"structMCAN__RxBufElement.html#a64d77443d3d0209bfae744e72f31ddf4":[17,7,24,22,1],
-"structMCAN__RxBufElement.html#a67eae427878afe8d599402372f59705e":[17,7,24,22,2]
+"structMCAN__RxBufElement.html#a4eba70e3d090533cecf152342a1720d3":[17,7,24,22,6]
 };

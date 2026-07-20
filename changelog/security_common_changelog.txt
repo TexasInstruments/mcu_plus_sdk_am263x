@@ -121,3 +121,41 @@ Date:   Thu Jul 2 21:08:23 2026 +0530
  drivers/crypto/pka/pka.c | 217 ++++++++++++++++++++++++++++++++++++++++++++-------------------------------------------
  1 file changed, 109 insertions(+), 108 deletions(-)
 
+========================================
+Changes from build on 2026-07-20 19:38:56
+Previous commit: b9b57cce8a245945366ab9a55fd974a6629ef7b6
+Current commit: 9d79aef2b16c73042a799be3dbde3e3d75b4f1e3
+========================================
+
+commit 9d79aef2b16c73042a799be3dbde3e3d75b4f1e3
+Author: Gurvir Singh <gurvir@ti.com>
+Date:   Mon Jun 29 18:11:47 2026 +0530
+
+    f29h85x: hsm_client: add new service
+    
+    add new service to enable Failure Analysis Transition
+    
+    Fixes: TIFSMCU-5573
+    
+    Signed-off-by: Gurvir Singh <gurvir@ti.com>
+
+ drivers/hsmclient/hsmclient.c     | 70 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ drivers/hsmclient/hsmclient.h     | 21 +++++++++++++++++++++
+ drivers/hsmclient/hsmclient_msg.h |  2 ++
+ 3 files changed, 93 insertions(+)
+
+commit 0503c69d02cc904c39545a9fa07e173a8e4d5db0
+Author: Shashank B <s-b1@ti.com>
+Date:   Thu Jul 16 15:42:55 2026 +0530
+
+    f29h85x: script: modify destination
+    
+    -change destination of signing scripts
+    
+    Fixes: TIFSMCU-5696
+    
+    Signed-off-by: Shashankb <s-b1@ti.com>
+
+ updateC29SDK.py | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+

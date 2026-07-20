@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"structlld__ethdev__t.html#a57d558648b35618001a4469c6eb93400":[17,11,3,3,1],
+"structlld__ethdev__t.html#aae5fce9958d7730c559e058f909883fc":[17,11,3,3,2],
 "structlld__ethdev__t.html#ab9f64b8ef50dc51b63be9a11b7d199d1":[17,11,3,3,0],
 "structlld__ethhdr.html":[17,11,3,1],
 "structlld__ethhdr.html#a6b3191f3fc8d257434ca0aa2a59b30c9":[17,11,3,1,0],

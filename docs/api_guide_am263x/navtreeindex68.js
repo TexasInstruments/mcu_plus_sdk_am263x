@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"structMMCSD__EmmcDeviceData.html#a87a4014ab6b68358c352a11de59a7601":[17,7,29,1,11],
+"structMMCSD__EmmcDeviceData.html#a9c0193473d5b3a04afd17a0829cd4ee2":[17,7,29,1,7],
 "structMMCSD__EmmcDeviceData.html#aa4b8692b1f554a2a16b7452c31fcd701":[17,7,29,1,0],
 "structMMCSD__EmmcDeviceData.html#aaeab6278f19b679e4c76878f440b10c9":[17,7,29,1,8],
 "structMMCSD__EmmcDeviceData.html#aef277c71f4c3a12077c1b4e398e16144":[17,7,29,1,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structPhy__Version.html#aa25294b819c941c17bd6eee4749b0d59":[17,4,0,13,8,0,0],
 "structPinmux__PerCfg__t.html":[17,7,31,1],
 "structPinmux__PerCfg__t.html#a4014c43b27129ad273c2704b8385620e":[17,7,31,1,1],
-"structPinmux__PerCfg__t.html#a85f5d3b43285880a7dd488b1d0ff301f":[17,7,31,1,0],
-"structPortIdentity.html":[17,9,0,2],
-"structPortIdentity.html#a70ba7f193de5505a094076c354bf5fcc":[17,9,0,2,1]
+"structPinmux__PerCfg__t.html#a85f5d3b43285880a7dd488b1d0ff301f":[17,7,31,1,0]
 };
