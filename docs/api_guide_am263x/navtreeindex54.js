@@ -1,5 +1,7 @@
 var NAVTREEINDEX54 =
 {
+"group__TSN__GPTP.html":[17,9],
+"group__TSN__UNIBASE__MODULE.html":[17,10],
 "group__UART__DMA__LLD.html":[17,7,42,0],
 "group__UART__DMA__LLD.html#ga481c7cb06a03ccd3428ee27063597911":[17,7,42,0,4],
 "group__UART__DMA__LLD.html#ga634361ab3fafc443c3763841c15d7006":[17,7,42,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX54 =
 "group__logging.html#gac37934f8ba136976b570152e9db1b1a8":[17,10,2,12],
 "group__logging.html#gac74ce98ae3191f0ecae12173238bff7f":[17,10,2,5],
 "group__logging.html#gac9a541681280e7523bba2f2e88b0ac48":[17,10,2,28],
-"group__logging.html#gacc89d8ff61c8913e220937a1b2932899":[17,10,2,37],
-"group__logging.html#gad6fc0dea4ab82a1d0a5f214e003d3b1f":[17,10,2,3],
-"group__logging.html#gad9eb826f8f91c0d5621f6f47f8f1e458":[17,10,2,41]
+"group__logging.html#gacc89d8ff61c8913e220937a1b2932899":[17,10,2,37]
 };

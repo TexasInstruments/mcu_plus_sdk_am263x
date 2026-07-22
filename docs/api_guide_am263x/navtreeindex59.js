@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"structCpswStats__HostPort__2g.html#ab36e79e0ea89cfbe6ebd7c680e992999":[17,4,0,9,0,0,51],
+"structCpswStats__HostPort__2g.html#abf1d78a7031d47ebca1d9e16bc634d99":[17,4,0,9,0,0,19],
 "structCpswStats__HostPort__2g.html#acbe6c8d6c57ddb7aad4ac3508e1afeca":[17,4,0,9,0,0,56],
 "structCpswStats__HostPort__2g.html#acdae80cc5625143efeab23f994c550b3":[17,4,0,9,0,0,52],
 "structCpswStats__HostPort__2g.html#acf81dbf9b4c7c6ec1a7e986b986da9ad":[17,4,0,9,0,0,42],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "structCpsw__ClearInterVlanRouteUniEgressInArgs.html#ac1e6b3cfd47b9ad40b8a7055050efd29":[17,4,0,6,0,4,1],
 "structCpsw__ClearInterVlanRouteUniEgressInArgs.html#ae9b33d97a49ac05811e5d167bbd64b44":[17,4,0,6,0,4,0],
 "structCpsw__InterVlanEgressPortCfg.html":[17,4,0,6,0,1],
-"structCpsw__InterVlanEgressPortCfg.html#a278f9b6899111a3e5d488db2c3838385":[17,4,0,6,0,1,0],
-"structCpsw__InterVlanEgressPortCfg.html#a90f6ba29e0c0f93b6f2a74e4c4b953ee":[17,4,0,6,0,1,1],
-"structCpsw__InterVlanRouteIngressPktMatchCfg.html":[17,4,0,6,0,0]
+"structCpsw__InterVlanEgressPortCfg.html#a278f9b6899111a3e5d488db2c3838385":[17,4,0,6,0,1,0]
 };

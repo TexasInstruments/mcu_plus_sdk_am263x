@@ -122,6 +122,9 @@ extern "C"
 /** @brief Debug configuration (TBD) */
 #define DEVICE_CONFIG_TYPE_DEBUG        (2U)
 
+/** @brief Keyring configuration (auxiliary key import status) */
+#define DEVICE_CONFIG_TYPE_KEYRING      (3U)
+
 /** @brief All configuration types */
 #define DEVICE_CONFIG_TYPE_ALL          (0xFFU)
 
@@ -133,6 +136,9 @@ extern "C"
 
 /** @brief Size of Debug configuration data in bytes (4 uint32_t values) */
 #define SIZE_OF_DEBUG_DEVICE_CONFIG        (16U)
+
+/** @brief Size of Keyring configuration data in bytes (3 uint32_t values) */
+#define SIZE_OF_KEYRING_DEVICE_CONFIG      (12U)
 
     /**
      * @brief
@@ -645,6 +651,18 @@ typedef struct DeviceConfigDebug_t_
     uint32_t secureDebugStatus;             /** Secure debug port open/close status */
     uint32_t secureRegisterAccessStatus;    /** Secure debug register access status */
 } DeviceConfigDebug_t;
+
+/**
+ * @brief
+ * Keyring configuration structure containing keyring-related device information.
+ * Total size: SIZE_OF_KEYRING_DEVICE_CONFIG (12 bytes)
+ */
+typedef struct DeviceConfigKeyring_t_
+{
+    uint32_t numAsymmKeysImported;  /** Number of asymmetric auxiliary keys imported */
+    uint32_t numSymmKeysImported;   /** Number of symmetric auxiliary keys imported */
+    uint32_t keyringStatus;         /** Overall keyring status/flags */
+} DeviceConfigKeyring_t;
 
 /**
  * @brief

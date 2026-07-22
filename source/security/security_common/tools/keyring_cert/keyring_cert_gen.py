@@ -209,21 +209,33 @@ Returns:
 
     for iter in range(keys_data["num_of_symm_keys"]):
         temp_keys = ''
-        # Populate index of auxiliary symmetric key (Starts from idx = 32)
-        temp_keys += (iter + index_start_symm).to_bytes(4,
-                                                        byteorder='little').hex()
-        # Populate key rights of auxiliary symmetric key
+
+        # Print individual symmetric key attributes
+        print(f"\n[ symm_key{iter} ]")
+        key_id = int(keys_data['keyring_symm'][iter]['key_id'])
+        print(f"key_id=INTEGER:{key_id}")
+
         key_rights = keys_data['keyring_symm'][iter]['key_rights']
+        print(f"key_rights=FORMAT:HEX,OCT:{key_rights}")
+
+        key_length_bits = keys_data['keyring_symm'][iter]['key_length']
+        key_length_bytes = int(key_length_bits/8)
+        print(f"key_length={key_length_bits} bits ({key_length_bytes} bytes)")
+
+        aes_key_hex = utils_hex_from_file(keys_data['keyring_symm'][iter]['aes_key']).ljust(64, '0')
+        print(f"aes_key=FORMAT:HEX,OCT:{aes_key_hex}")
+
+        # Populate index of auxiliary symmetric key from JSON data
+        temp_keys += key_id.to_bytes(4, byteorder='little').hex()
+        # Populate key rights of auxiliary symmetric key
         # Change key rights to little endian (00 00 00 0A) -> (0A 00 00 00)
         temp_keys += "".join(map(str.__add__,
                              key_rights[-2::-2], key_rights[-1::-2]))
         # Append key length in bytes
-        temp_keys += int(keys_data['keyring_symm'][iter]['key_length']/8).to_bytes(
-            4, byteorder='little').hex()
+        temp_keys += key_length_bytes.to_bytes(4, byteorder='little').hex()
         # Append AES KEY
         # Fill the key with 0s for key sizes 16B and 24B
-        temp_keys += utils_hex_from_file(
-            keys_data['keyring_symm'][iter]['aes_key']).ljust(64, '0')
+        temp_keys += aes_key_hex
         # Append the key blob with the current key in iteration
         symm_keys += temp_keys
     symm_keys += v_KEYRING_ENC_RS
@@ -288,7 +300,7 @@ public_key=FORMAT:HEX,OCT:public_key_val
                   keys_data['keyring_asymm'][iter]['hash_algo'])
 
         asymm_keys += temp_comp.replace('1', str(iter))\
-            .replace('key_id_val', str(iter + index_start_asymm))\
+            .replace('key_id_val', str(keys_data['keyring_asymm'][iter]['key_id']))\
             .replace('key_rights_val', keys_data['keyring_asymm'][iter]['key_rights'])\
             .replace('public_key_val', utils_hex_from_file(os.path.join('tmpdir', 'pub_key_hash')))\
             .replace('hash_algo_val', str(hash_algo[keys_data['keyring_asymm'][iter]['hash_algo']]))
@@ -399,8 +411,7 @@ if __name__ == "__main__":
     if os.name == 'nt':
         python_exe = 'python'
 
-    BIN2C = f"{python_exe} {os.path.join(
-        '..', '..', '..', '..', '..', '..', '..', 'tools', 'bin2c', 'bin2c.py')}"
+    BIN2C = f"{python_exe} {os.path.join('..', '..', '..', '..', '..', '..', '..', 'tools', 'bin2c', 'bin2c.py')}"
     my_parser = argparse.ArgumentParser(
         description="Creates a Public Key Certificate for (non-K3) HS-SE devices")
 

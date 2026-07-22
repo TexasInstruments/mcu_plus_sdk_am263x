@@ -1,5 +1,7 @@
 var NAVTREEINDEX48 =
 {
+"group__KERNEL__DPL__ADDR__TRANSLATE.html":[17,2,10],
+"group__KERNEL__DPL__ADDR__TRANSLATE.html#ga1222985aa01dacd64b461a6d60b2d69c":[17,2,10,3],
 "group__KERNEL__DPL__ADDR__TRANSLATE.html#ga1769ebed3fd7df26bb09d95a3149ba78":[17,2,10,6],
 "group__KERNEL__DPL__ADDR__TRANSLATE.html#ga575bd73e328e4b8dfac136e1ec40b7d5":[17,2,10,5],
 "group__KERNEL__DPL__ADDR__TRANSLATE.html#gad5ff4e9c9d48a0059a588a91022a615e":[17,2,10,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX48 =
 "group__KERNEL__DPL__TASK.html#gaf6661bf5750d130d995d58cd8bdea6ed":[17,2,12,3],
 "group__KERNEL__DPL__TIMER.html":[17,2,14],
 "group__KERNEL__DPL__TIMER.html#ga0c3aa4924c4313976a28561e6257a747":[17,2,14,11],
-"group__KERNEL__DPL__TIMER.html#ga144b00cda54abe52966a18626ac0ffdc":[17,2,14,8],
-"group__KERNEL__DPL__TIMER.html#ga3659046c5644cefb330dd4221726cf05":[17,2,14,13],
-"group__KERNEL__DPL__TIMER.html#ga38db4b4262459712f29cca50f17d4038":[17,2,14,2]
+"group__KERNEL__DPL__TIMER.html#ga144b00cda54abe52966a18626ac0ffdc":[17,2,14,8]
 };

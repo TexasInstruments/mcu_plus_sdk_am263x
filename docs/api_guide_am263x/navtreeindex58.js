@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"structCpswAle__SetBcastMcastRateLimitInArgs.html":[17,4,0,1,0,23],
+"structCpswAle__SetBcastMcastRateLimitInArgs.html#a26d222935ad3682e7d18ca75d3d84125":[17,4,0,1,0,23,1],
 "structCpswAle__SetBcastMcastRateLimitInArgs.html#a332739eaacb35d04487247e9fe3e8b99":[17,4,0,1,0,23,0],
 "structCpswAle__SetBcastMcastRateLimitInArgs.html#a4a5fa7fd8bb293644a15a685b176d86d":[17,4,0,1,0,23,2],
 "structCpswAle__SetInterVlanCfgInArgs.html":[17,4,0,1,0,37],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "structCpswStats__HostPort__2g.html#aa5633868e79abf1ba4fe602ee591e2f5":[17,4,0,9,0,0,41],
 "structCpswStats__HostPort__2g.html#aa58b116fc9f3972792449d8a4afa5397":[17,4,0,9,0,0,18],
 "structCpswStats__HostPort__2g.html#aaf672cdf5918525a98706722a61324d6":[17,4,0,9,0,0,55],
-"structCpswStats__HostPort__2g.html#ab169f83e453951f034d5333a0bae5f69":[17,4,0,9,0,0,9],
-"structCpswStats__HostPort__2g.html#ab36e79e0ea89cfbe6ebd7c680e992999":[17,4,0,9,0,0,51],
-"structCpswStats__HostPort__2g.html#abf1d78a7031d47ebca1d9e16bc634d99":[17,4,0,9,0,0,19]
+"structCpswStats__HostPort__2g.html#ab169f83e453951f034d5333a0bae5f69":[17,4,0,9,0,0,9]
 };

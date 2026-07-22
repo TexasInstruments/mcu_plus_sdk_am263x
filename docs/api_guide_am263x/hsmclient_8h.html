@@ -184,6 +184,9 @@ Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structDeviceConfigDebug__t.html">DeviceConfigDebug_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debug status structure containing debug access information. Total size: SIZE_OF_DEBUG_DEVICE_CONFIG (16 bytes)  <a href="structDeviceConfigDebug__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structDeviceConfigKeyring__t.html">DeviceConfigKeyring_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Keyring configuration structure containing keyring-related device information. Total size: SIZE_OF_KEYRING_DEVICE_CONFIG (12 bytes)  <a href="structDeviceConfigKeyring__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structDeviceConfigRead__t.html">DeviceConfigRead_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is device configuration read request structure passed to HSM core via SIPC as argument, these parameters are required by the service handler.  <a href="structDeviceConfigRead__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -234,6 +237,9 @@ Macros</h2></td></tr>
 <tr class="memitem:ga1beee330807cd054fc7adeabb1f09921"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DRV__HSMCLIENT__MODULE.html#ga1beee330807cd054fc7adeabb1f09921">DEVICE_CONFIG_TYPE_DEBUG</a>&#160;&#160;&#160;(2U)</td></tr>
 <tr class="memdesc:ga1beee330807cd054fc7adeabb1f09921"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debug configuration (TBD)  <a href="group__DRV__HSMCLIENT__MODULE.html#ga1beee330807cd054fc7adeabb1f09921">More...</a><br /></td></tr>
 <tr class="separator:ga1beee330807cd054fc7adeabb1f09921"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0bde17ce9e8212e97aa24f224b55d265"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DRV__HSMCLIENT__MODULE.html#ga0bde17ce9e8212e97aa24f224b55d265">DEVICE_CONFIG_TYPE_KEYRING</a>&#160;&#160;&#160;(3U)</td></tr>
+<tr class="memdesc:ga0bde17ce9e8212e97aa24f224b55d265"><td class="mdescLeft">&#160;</td><td class="mdescRight">Keyring configuration (auxiliary key import status)  <a href="group__DRV__HSMCLIENT__MODULE.html#ga0bde17ce9e8212e97aa24f224b55d265">More...</a><br /></td></tr>
+<tr class="separator:ga0bde17ce9e8212e97aa24f224b55d265"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga18810511dc8421fbd24c634df97f7f0c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DRV__HSMCLIENT__MODULE.html#ga18810511dc8421fbd24c634df97f7f0c">DEVICE_CONFIG_TYPE_ALL</a>&#160;&#160;&#160;(0xFFU)</td></tr>
 <tr class="memdesc:ga18810511dc8421fbd24c634df97f7f0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">All configuration types.  <a href="group__DRV__HSMCLIENT__MODULE.html#ga18810511dc8421fbd24c634df97f7f0c">More...</a><br /></td></tr>
 <tr class="separator:ga18810511dc8421fbd24c634df97f7f0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,6 +252,9 @@ Macros</h2></td></tr>
 <tr class="memitem:gac49c5318ff69dc65adedd4d2de8fa2fe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DRV__HSMCLIENT__MODULE.html#gac49c5318ff69dc65adedd4d2de8fa2fe">SIZE_OF_DEBUG_DEVICE_CONFIG</a>&#160;&#160;&#160;(16U)</td></tr>
 <tr class="memdesc:gac49c5318ff69dc65adedd4d2de8fa2fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of Debug configuration data in bytes (4 uint32_t values)  <a href="group__DRV__HSMCLIENT__MODULE.html#gac49c5318ff69dc65adedd4d2de8fa2fe">More...</a><br /></td></tr>
 <tr class="separator:gac49c5318ff69dc65adedd4d2de8fa2fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3216eaa401804d6578d7f3fe85033f68"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DRV__HSMCLIENT__MODULE.html#ga3216eaa401804d6578d7f3fe85033f68">SIZE_OF_KEYRING_DEVICE_CONFIG</a>&#160;&#160;&#160;(12U)</td></tr>
+<tr class="memdesc:ga3216eaa401804d6578d7f3fe85033f68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of Keyring configuration data in bytes (3 uint32_t values)  <a href="group__DRV__HSMCLIENT__MODULE.html#ga3216eaa401804d6578d7f3fe85033f68">More...</a><br /></td></tr>
+<tr class="separator:ga3216eaa401804d6578d7f3fe85033f68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>

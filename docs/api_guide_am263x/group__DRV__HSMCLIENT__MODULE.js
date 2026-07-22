@@ -187,6 +187,11 @@ var group__DRV__HSMCLIENT__MODULE =
       [ "secureDebugStatus", "structDeviceConfigDebug__t.html#afafbd5e2704f2d36ac1e0afc883101d9", null ],
       [ "secureRegisterAccessStatus", "structDeviceConfigDebug__t.html#a00fdb92089cceabd4815e6c06ce7bf50", null ]
     ] ],
+    [ "DeviceConfigKeyring_t", "structDeviceConfigKeyring__t.html", [
+      [ "numAsymmKeysImported", "structDeviceConfigKeyring__t.html#a4039f88761f96ad38fc7972043c3bd6a", null ],
+      [ "numSymmKeysImported", "structDeviceConfigKeyring__t.html#aa9bcfc8dc408b01b4eb1d0f4cae20392", null ],
+      [ "keyringStatus", "structDeviceConfigKeyring__t.html#a042d3738acf60b6ba0800f40f8b7784d", null ]
+    ] ],
     [ "DeviceConfigRead_t", "structDeviceConfigRead__t.html", [
       [ "configType", "structDeviceConfigRead__t.html#a7e05796eb66be7f126bb6ddd9561106a", null ],
       [ "configData", "structDeviceConfigRead__t.html#ae0d95f7ff3c9a793d669e5705992bdb4", null ],
@@ -217,10 +222,12 @@ var group__DRV__HSMCLIENT__MODULE =
     [ "DEVICE_CONFIG_TYPE_SAFETY", "group__DRV__HSMCLIENT__MODULE.html#gaff7606fa68f0489756c927e5cfcdbf02", null ],
     [ "DEVICE_CONFIG_TYPE_SECURITY", "group__DRV__HSMCLIENT__MODULE.html#ga127f66460806144504d3b2a2ea3ad2cd", null ],
     [ "DEVICE_CONFIG_TYPE_DEBUG", "group__DRV__HSMCLIENT__MODULE.html#ga1beee330807cd054fc7adeabb1f09921", null ],
+    [ "DEVICE_CONFIG_TYPE_KEYRING", "group__DRV__HSMCLIENT__MODULE.html#ga0bde17ce9e8212e97aa24f224b55d265", null ],
     [ "DEVICE_CONFIG_TYPE_ALL", "group__DRV__HSMCLIENT__MODULE.html#ga18810511dc8421fbd24c634df97f7f0c", null ],
     [ "SIZE_OF_SAFETY_DEVICE_CONFIG", "group__DRV__HSMCLIENT__MODULE.html#ga0342b7b772b43474a2b05fa9209edc96", null ],
     [ "SIZE_OF_SECURITY_DEVICE_CONFIG", "group__DRV__HSMCLIENT__MODULE.html#ga6d3d50ffcb8e21556e33c4e0743ec349", null ],
     [ "SIZE_OF_DEBUG_DEVICE_CONFIG", "group__DRV__HSMCLIENT__MODULE.html#gac49c5318ff69dc65adedd4d2de8fa2fe", null ],
+    [ "SIZE_OF_KEYRING_DEVICE_CONFIG", "group__DRV__HSMCLIENT__MODULE.html#ga3216eaa401804d6578d7f3fe85033f68", null ],
     [ "HSM_MSG_GET_VERSION", "group__DRV__HSMCLIENT__MODULE.html#gadf3a90c05d8c1565e696412e009e54d5", null ],
     [ "HSM_MSG_BOOT_NOTIFY", "group__DRV__HSMCLIENT__MODULE.html#ga65e1efbec7ecc3f8a2c27e8a26b9ead0", null ],
     [ "HSM_MSG_GET_DEVICE_CONFIG", "group__DRV__HSMCLIENT__MODULE.html#ga87249521592344da697dfa65f684f460", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"group__ENET__MOD__MDIO.html#gaf835c71a85928731b24f23cb3e37a3fd":[17,4,0,5,17],
+"group__ENET__MOD__MDIO.html#gga3d1296252044e355873ecdb16dd19baba02b717c5172b5fc5e2ec589a67e34933":[17,4,0,5,14,8],
 "group__ENET__MOD__MDIO.html#gga3d1296252044e355873ecdb16dd19baba02bd9f761b2fdfadea609984c9d415bb":[17,4,0,5,14,14],
 "group__ENET__MOD__MDIO.html#gga3d1296252044e355873ecdb16dd19baba110f12d7de3d46bc21b58ca90a521829":[17,4,0,5,14,17],
 "group__ENET__MOD__MDIO.html#gga3d1296252044e355873ecdb16dd19baba132d801731a8342144a3f05aed88b9c1":[17,4,0,5,14,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "group__IPC__shm.html":[17,11,2],
 "group__IPC__shm.html#ga0f128462193271e8f69112b8d3dd17fe":[17,11,2,1],
 "group__IPC__shm.html#ga88de678fce5025e00701bcaa5052094d":[17,11,2,2],
-"group__KERNEL__DPL.html":[17,2],
-"group__KERNEL__DPL__ADDR__TRANSLATE.html":[17,2,10],
-"group__KERNEL__DPL__ADDR__TRANSLATE.html#ga1222985aa01dacd64b461a6d60b2d69c":[17,2,10,3]
+"group__KERNEL__DPL.html":[17,2]
 };

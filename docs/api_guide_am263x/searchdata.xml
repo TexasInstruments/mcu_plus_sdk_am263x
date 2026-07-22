@@ -46385,1162 +46385,1204 @@
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00142</field>
+    <field name="url">hsmclient_8h_source.html#l00138</field>
     <field name="keywords"></field>
-    <field name="text">HsmVer_t_</field>
+    <field name="text"></field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00144</field>
+    <field name="url">hsmclient_8h_source.html#l00141</field>
     <field name="keywords"></field>
-    <field name="text">uint64_t HsmrtVer</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00147</field>
-    <field name="keywords"></field>
-    <field name="text">uint8_t PatchVer</field>
+    <field name="text"></field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
     <field name="url">hsmclient_8h_source.html#l00148</field>
     <field name="keywords"></field>
-    <field name="text">uint8_t MinorVer</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00149</field>
-    <field name="keywords"></field>
-    <field name="text">uint8_t MajorVer</field>
+    <field name="text">HsmVer_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
     <field name="url">hsmclient_8h_source.html#l00150</field>
     <field name="keywords"></field>
-    <field name="text">uint8_t ApiVer</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00151</field>
-    <field name="keywords"></field>
-    <field name="text">uint8_t SocType</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00152</field>
-    <field name="keywords"></field>
-    <field name="text">uint8_t BinType</field>
+    <field name="text">uint64_t HsmrtVer</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
     <field name="url">hsmclient_8h_source.html#l00153</field>
     <field name="keywords"></field>
-    <field name="text">uint8_t HsmType</field>
+    <field name="text">uint8_t PatchVer</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
     <field name="url">hsmclient_8h_source.html#l00154</field>
     <field name="keywords"></field>
-    <field name="text">uint8_t DevType</field>
+    <field name="text">uint8_t MinorVer</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00155</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t MajorVer</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
     <field name="url">hsmclient_8h_source.html#l00156</field>
     <field name="keywords"></field>
+    <field name="text">uint8_t ApiVer</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00157</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t SocType</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00158</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t BinType</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00159</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t HsmType</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00160</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t DevType</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00162</field>
+    <field name="keywords"></field>
     <field name="text">VerStruct __attribute__ packed HsmVer_t_ __attribute__ packed HsmVer_t</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00168</field>
-    <field name="keywords"></field>
-    <field name="text">HsmClient_t_</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00170</field>
-    <field name="keywords"></field>
-    <field name="text">SemaphoreP_Object Semaphore</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00172</field>
-    <field name="keywords"></field>
-    <field name="text">HsmMsg_t ReqMsg</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00173</field>
-    <field name="keywords"></field>
-    <field name="text">HsmMsg_t RespMsg</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
     <field name="url">hsmclient_8h_source.html#l00174</field>
     <field name="keywords"></field>
+    <field name="text">HsmClient_t_</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00176</field>
+    <field name="keywords"></field>
+    <field name="text">SemaphoreP_Object Semaphore</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00178</field>
+    <field name="keywords"></field>
+    <field name="text">HsmMsg_t ReqMsg</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00179</field>
+    <field name="keywords"></field>
+    <field name="text">HsmMsg_t RespMsg</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00180</field>
+    <field name="keywords"></field>
     <field name="text">uint8_t RespFlag</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00175</field>
+    <field name="url">hsmclient_8h_source.html#l00181</field>
     <field name="keywords"></field>
     <field name="text">uint8_t ClientId HsmClient_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00186</field>
+    <field name="url">hsmclient_8h_source.html#l00192</field>
     <field name="keywords"></field>
     <field name="text">NvmOtpRead_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00188</field>
+    <field name="url">hsmclient_8h_source.html#l00194</field>
     <field name="keywords"></field>
     <field name="text">uint32_t rowData</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00189</field>
+    <field name="url">hsmclient_8h_source.html#l00195</field>
     <field name="keywords"></field>
     <field name="text">uint16_t rowIdx</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00190</field>
+    <field name="url">hsmclient_8h_source.html#l00196</field>
     <field name="keywords"></field>
     <field name="text">uint8_t rsvd NvmOtpRead_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00200</field>
+    <field name="url">hsmclient_8h_source.html#l00206</field>
     <field name="keywords"></field>
     <field name="text">NvmOtpRowWrite_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00202</field>
+    <field name="url">hsmclient_8h_source.html#l00208</field>
     <field name="keywords"></field>
     <field name="text">uint32_t rowData</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00203</field>
+    <field name="url">hsmclient_8h_source.html#l00209</field>
     <field name="keywords"></field>
     <field name="text">uint32_t rowBitMask</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00204</field>
+    <field name="url">hsmclient_8h_source.html#l00210</field>
     <field name="keywords"></field>
     <field name="text">uint16_t rowIdx</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00205</field>
+    <field name="url">hsmclient_8h_source.html#l00211</field>
     <field name="keywords"></field>
     <field name="text">uint8_t rsvd NvmOtpRowWrite_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00213</field>
+    <field name="url">hsmclient_8h_source.html#l00219</field>
     <field name="keywords"></field>
     <field name="text">NvmOtpRowCount_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00215</field>
+    <field name="url">hsmclient_8h_source.html#l00221</field>
     <field name="keywords"></field>
     <field name="text">uint32_t rowCount</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00216</field>
+    <field name="url">hsmclient_8h_source.html#l00222</field>
     <field name="keywords"></field>
     <field name="text">uint8_t rowSize</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00217</field>
+    <field name="url">hsmclient_8h_source.html#l00223</field>
     <field name="keywords"></field>
     <field name="text">uint8_t rsvd NvmOtpRowCount_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00227</field>
+    <field name="url">hsmclient_8h_source.html#l00233</field>
     <field name="keywords"></field>
     <field name="text">NvmOtpRowProt_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00229</field>
+    <field name="url">hsmclient_8h_source.html#l00235</field>
     <field name="keywords"></field>
     <field name="text">uint16_t rowidx</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00230</field>
+    <field name="url">hsmclient_8h_source.html#l00236</field>
     <field name="keywords"></field>
     <field name="text">uint8_t readProt</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00231</field>
+    <field name="url">hsmclient_8h_source.html#l00237</field>
     <field name="keywords"></field>
     <field name="text">uint8_t writeProt NvmOtpRowProt_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00239</field>
+    <field name="url">hsmclient_8h_source.html#l00245</field>
     <field name="keywords"></field>
     <field name="text">keywriter_cert_header_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00241</field>
+    <field name="url">hsmclient_8h_source.html#l00247</field>
     <field name="keywords"></field>
     <field name="text">uint8_t certAddress</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00242</field>
+    <field name="url">hsmclient_8h_source.html#l00248</field>
     <field name="keywords"></field>
     <field name="text">uint32_t certSize</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00243</field>
+    <field name="url">hsmclient_8h_source.html#l00249</field>
     <field name="keywords"></field>
     <field name="text">uint32_t debugResponse</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00244</field>
+    <field name="url">hsmclient_8h_source.html#l00250</field>
     <field name="keywords"></field>
     <field name="text">uint32_t reserved KeyWriterCertHeader_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00252</field>
+    <field name="url">hsmclient_8h_source.html#l00258</field>
     <field name="keywords"></field>
     <field name="text">FirewallRegionReq_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00254</field>
+    <field name="url">hsmclient_8h_source.html#l00260</field>
     <field name="keywords"></field>
     <field name="text">uint16_t firewallId</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00255</field>
+    <field name="url">hsmclient_8h_source.html#l00261</field>
     <field name="keywords"></field>
     <field name="text">uint16_t region</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00256</field>
+    <field name="url">hsmclient_8h_source.html#l00262</field>
     <field name="keywords"></field>
     <field name="text">uint32_t permissionAttributes</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00257</field>
+    <field name="url">hsmclient_8h_source.html#l00263</field>
     <field name="keywords"></field>
     <field name="text">uint32_t startAddress</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00258</field>
+    <field name="url">hsmclient_8h_source.html#l00264</field>
     <field name="keywords"></field>
     <field name="text">uint32_t endAddress FirewallRegionReq_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00266</field>
+    <field name="url">hsmclient_8h_source.html#l00272</field>
     <field name="keywords"></field>
     <field name="text">FirewallReq_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00268</field>
+    <field name="url">hsmclient_8h_source.html#l00274</field>
     <field name="keywords"></field>
     <field name="text">uint16_t regionCount</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00269</field>
+    <field name="url">hsmclient_8h_source.html#l00275</field>
     <field name="keywords"></field>
     <field name="text">uint16_t crcArr</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00270</field>
+    <field name="url">hsmclient_8h_source.html#l00276</field>
     <field name="keywords"></field>
     <field name="text">FirewallRegionReq_t FirewallRegionArr</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00271</field>
+    <field name="url">hsmclient_8h_source.html#l00277</field>
     <field name="keywords"></field>
     <field name="text">uint16_t statusFirewallRegionArr FirewallReq_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00280</field>
+    <field name="url">hsmclient_8h_source.html#l00286</field>
     <field name="keywords"></field>
     <field name="text">FirewallIntrReq_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00282</field>
+    <field name="url">hsmclient_8h_source.html#l00288</field>
     <field name="keywords"></field>
     <field name="text">uint16_t firewallId</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00283</field>
+    <field name="url">hsmclient_8h_source.html#l00289</field>
     <field name="keywords"></field>
     <field name="text">uint8_t interruptEnable</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00284</field>
+    <field name="url">hsmclient_8h_source.html#l00290</field>
     <field name="keywords"></field>
     <field name="text">uint8_t interruptEnableClear</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00285</field>
+    <field name="url">hsmclient_8h_source.html#l00291</field>
     <field name="keywords"></field>
     <field name="text">uint8_t interruptEnableStatusClear</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00286</field>
+    <field name="url">hsmclient_8h_source.html#l00292</field>
     <field name="keywords"></field>
     <field name="text">uint8_t faultClear FirewallIntrReq_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00298</field>
+    <field name="url">hsmclient_8h_source.html#l00304</field>
     <field name="keywords"></field>
     <field name="text">SWRev_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00300</field>
+    <field name="url">hsmclient_8h_source.html#l00306</field>
     <field name="keywords"></field>
     <field name="text">uint32_t revValue</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00301</field>
+    <field name="url">hsmclient_8h_source.html#l00307</field>
     <field name="keywords"></field>
     <field name="text">uint8_t revId</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00302</field>
+    <field name="url">hsmclient_8h_source.html#l00308</field>
     <field name="keywords"></field>
     <field name="text">uint8_t rsvd SWRev_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00315</field>
+    <field name="url">hsmclient_8h_source.html#l00321</field>
     <field name="keywords"></field>
     <field name="text">DKEK_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00317</field>
+    <field name="url">hsmclient_8h_source.html#l00323</field>
     <field name="keywords"></field>
     <field name="text">uint8_t label_length</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00318</field>
+    <field name="url">hsmclient_8h_source.html#l00324</field>
     <field name="keywords"></field>
     <field name="text">uint8_t context_length</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00319</field>
+    <field name="url">hsmclient_8h_source.html#l00325</field>
     <field name="keywords"></field>
     <field name="text">uint8_t label_and_context LABEL_AND_CONTEXT_LEN_MAX</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00320</field>
+    <field name="url">hsmclient_8h_source.html#l00326</field>
     <field name="keywords"></field>
     <field name="text">uint32_t dkek DKEK_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00334</field>
+    <field name="url">hsmclient_8h_source.html#l00340</field>
     <field name="keywords"></field>
     <field name="text">RNGReq_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00336</field>
+    <field name="url">hsmclient_8h_source.html#l00342</field>
     <field name="keywords"></field>
     <field name="text">uint8_t resultPtr</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00337</field>
+    <field name="url">hsmclient_8h_source.html#l00343</field>
     <field name="keywords"></field>
     <field name="text">uint32_t resultLength</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00338</field>
+    <field name="url">hsmclient_8h_source.html#l00344</field>
     <field name="keywords"></field>
     <field name="text">uint8_t DRBGMode</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00339</field>
+    <field name="url">hsmclient_8h_source.html#l00345</field>
     <field name="keywords"></field>
     <field name="text">uint32_t seedValue</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00340</field>
+    <field name="url">hsmclient_8h_source.html#l00346</field>
     <field name="keywords"></field>
     <field name="text">uint8_t seedSizeInDWords</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00341</field>
+    <field name="url">hsmclient_8h_source.html#l00347</field>
     <field name="keywords"></field>
     <field name="text">uint8_t reserved RNGReq_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00349</field>
+    <field name="url">hsmclient_8h_source.html#l00355</field>
     <field name="keywords"></field>
     <field name="text">SecureBoot_Stream_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00351</field>
+    <field name="url">hsmclient_8h_source.html#l00357</field>
     <field name="keywords"></field>
     <field name="text">uint8_t dataIn</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00352</field>
+    <field name="url">hsmclient_8h_source.html#l00358</field>
     <field name="keywords"></field>
     <field name="text">uint32_t dataLen</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00353</field>
+    <field name="url">hsmclient_8h_source.html#l00359</field>
     <field name="keywords"></field>
     <field name="text">uint8_t canBeEncrypted __attribute__ packed SecureBoot_Stream_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00368</field>
+    <field name="url">hsmclient_8h_source.html#l00374</field>
     <field name="keywords"></field>
     <field name="text">FirmwareUpdateReq_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00370</field>
+    <field name="url">hsmclient_8h_source.html#l00376</field>
     <field name="keywords"></field>
     <field name="text">uint8_t pStartAddress</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00371</field>
+    <field name="url">hsmclient_8h_source.html#l00377</field>
     <field name="keywords"></field>
     <field name="text">uint32_t dataLength</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00372</field>
+    <field name="url">hsmclient_8h_source.html#l00378</field>
     <field name="keywords"></field>
     <field name="text">pDecryptionBuffer</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00373</field>
+    <field name="url">hsmclient_8h_source.html#l00379</field>
     <field name="keywords"></field>
     <field name="text">uint32_t decryptionBufferLength FirmwareUpdateReq_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00382</field>
+    <field name="url">hsmclient_8h_source.html#l00388</field>
     <field name="keywords"></field>
     <field name="text">OTFA_Region_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00384</field>
-    <field name="keywords"></field>
-    <field name="text">uint8_t authMode</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00385</field>
-    <field name="keywords"></field>
-    <field name="text">uint8_t encMode</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00386</field>
-    <field name="keywords"></field>
-    <field name="text">uint16_t reservedArea</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00387</field>
-    <field name="keywords"></field>
-    <field name="text">uint32_t regionStAddr</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00388</field>
-    <field name="keywords"></field>
-    <field name="text">uint32_t regionSize</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00389</field>
-    <field name="keywords"></field>
-    <field name="text">uint8_t authKeyID</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
     <field name="url">hsmclient_8h_source.html#l00390</field>
     <field name="keywords"></field>
-    <field name="text">uint8_t encrKeyID</field>
+    <field name="text">uint8_t authMode</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
     <field name="url">hsmclient_8h_source.html#l00391</field>
     <field name="keywords"></field>
-    <field name="text">uint8_t encrKeyFetchMode</field>
+    <field name="text">uint8_t encMode</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
     <field name="url">hsmclient_8h_source.html#l00392</field>
     <field name="keywords"></field>
-    <field name="text">uint8_t authAesKey</field>
+    <field name="text">uint16_t reservedArea</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
     <field name="url">hsmclient_8h_source.html#l00393</field>
     <field name="keywords"></field>
-    <field name="text">uint8_t encrAesKey</field>
+    <field name="text">uint32_t regionStAddr</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
     <field name="url">hsmclient_8h_source.html#l00394</field>
     <field name="keywords"></field>
+    <field name="text">uint32_t regionSize</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00395</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t authKeyID</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00396</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t encrKeyID</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00397</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t encrKeyFetchMode</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00398</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t authAesKey</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00399</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t encrAesKey</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00400</field>
+    <field name="keywords"></field>
     <field name="text">uint8_t regionIV OTFA_Region_t</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00401</field>
-    <field name="keywords"></field>
-    <field name="text">OTFA_readRegion_t</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00403</field>
-    <field name="keywords"></field>
-    <field name="text">uint8_t regionNumber</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00404</field>
-    <field name="keywords"></field>
-    <field name="text">uint8_t authMode</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00405</field>
-    <field name="keywords"></field>
-    <field name="text">uint8_t encMode</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00406</field>
-    <field name="keywords"></field>
-    <field name="text">uint8_t authKeyHash</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
     <field name="url">hsmclient_8h_source.html#l00407</field>
     <field name="keywords"></field>
-    <field name="text">uint8_t encKeyHash</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00408</field>
-    <field name="keywords"></field>
-    <field name="text">uint32_t regionStAddr</field>
+    <field name="text">OTFA_readRegion_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
     <field name="url">hsmclient_8h_source.html#l00409</field>
     <field name="keywords"></field>
-    <field name="text">uint32_t regionSize</field>
+    <field name="text">uint8_t regionNumber</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
     <field name="url">hsmclient_8h_source.html#l00410</field>
     <field name="keywords"></field>
+    <field name="text">uint8_t authMode</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00411</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t encMode</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00412</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t authKeyHash</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00413</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t encKeyHash</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00414</field>
+    <field name="keywords"></field>
+    <field name="text">uint32_t regionStAddr</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00415</field>
+    <field name="keywords"></field>
+    <field name="text">uint32_t regionSize</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00416</field>
+    <field name="keywords"></field>
     <field name="text">uint16_t regionIV OTFA_readRegion_t</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00418</field>
-    <field name="keywords"></field>
-    <field name="text">OTFA_Config_t</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00420</field>
-    <field name="keywords"></field>
-    <field name="text">OTFA_Region_t OTFA_Reg</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00421</field>
-    <field name="keywords"></field>
-    <field name="text">uint8_t numRegions</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00422</field>
-    <field name="keywords"></field>
-    <field name="text">uint8_t keySize</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00423</field>
-    <field name="keywords"></field>
-    <field name="text">uint8_t macSize</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
     <field name="url">hsmclient_8h_source.html#l00424</field>
     <field name="keywords"></field>
+    <field name="text">OTFA_Config_t</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00426</field>
+    <field name="keywords"></field>
+    <field name="text">OTFA_Region_t OTFA_Reg</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00427</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t numRegions</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00428</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t keySize</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00429</field>
+    <field name="keywords"></field>
+    <field name="text">uint8_t macSize</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00430</field>
+    <field name="keywords"></field>
     <field name="text">uint8_t masterEnable OTFA_Config_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00436</field>
+    <field name="url">hsmclient_8h_source.html#l00442</field>
     <field name="keywords"></field>
     <field name="text">SecCfgValidate_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00438</field>
+    <field name="url">hsmclient_8h_source.html#l00444</field>
     <field name="keywords"></field>
     <field name="text">uint8_t pCertAddress</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00439</field>
+    <field name="url">hsmclient_8h_source.html#l00445</field>
     <field name="keywords"></field>
     <field name="text">uint32_t certType SecCfgValidate_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00454</field>
+    <field name="url">hsmclient_8h_source.html#l00460</field>
     <field name="keywords"></field>
     <field name="text">FlashBankCopy_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00456</field>
+    <field name="url">hsmclient_8h_source.html#l00462</field>
     <field name="keywords"></field>
     <field name="text">uint8_t cpuFlashBankType FlashBankCopy_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00470</field>
+    <field name="url">hsmclient_8h_source.html#l00476</field>
     <field name="keywords"></field>
     <field name="text">CryptoServiceReq_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00472</field>
+    <field name="url">hsmclient_8h_source.html#l00478</field>
     <field name="keywords"></field>
     <field name="text">uint32_t algoId</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00473</field>
+    <field name="url">hsmclient_8h_source.html#l00479</field>
     <field name="keywords"></field>
     <field name="text">uint32_t subSvcId</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00474</field>
+    <field name="url">hsmclient_8h_source.html#l00480</field>
     <field name="keywords"></field>
     <field name="text">uint32_t keyId</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00475</field>
+    <field name="url">hsmclient_8h_source.html#l00481</field>
     <field name="keywords"></field>
     <field name="text">uint32_t errCode</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00476</field>
+    <field name="url">hsmclient_8h_source.html#l00482</field>
     <field name="keywords"></field>
     <field name="text">ptrArgs CryptoServiceReq_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00493</field>
+    <field name="url">hsmclient_8h_source.html#l00499</field>
     <field name="keywords"></field>
     <field name="text">CMACArgs_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00495</field>
+    <field name="url">hsmclient_8h_source.html#l00501</field>
     <field name="keywords"></field>
     <field name="text">uint8_t ptrData</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00496</field>
+    <field name="url">hsmclient_8h_source.html#l00502</field>
     <field name="keywords"></field>
     <field name="text">uint32_t dataLen</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00497</field>
+    <field name="url">hsmclient_8h_source.html#l00503</field>
     <field name="keywords"></field>
     <field name="text">uint8_t ptrTag CMACArgs_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00515</field>
+    <field name="url">hsmclient_8h_source.html#l00521</field>
     <field name="keywords"></field>
     <field name="text">HMACArgs_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00517</field>
+    <field name="url">hsmclient_8h_source.html#l00523</field>
     <field name="keywords"></field>
     <field name="text">uint32_t hashMode</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00518</field>
+    <field name="url">hsmclient_8h_source.html#l00524</field>
     <field name="keywords"></field>
     <field name="text">uint8_t ptrData</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00519</field>
+    <field name="url">hsmclient_8h_source.html#l00525</field>
     <field name="keywords"></field>
     <field name="text">uint32_t dataLen</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00520</field>
+    <field name="url">hsmclient_8h_source.html#l00526</field>
     <field name="keywords"></field>
     <field name="text">uint8_t ptrTag HMACArgs_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00538</field>
+    <field name="url">hsmclient_8h_source.html#l00544</field>
     <field name="keywords"></field>
     <field name="text">GMACArgs_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00540</field>
+    <field name="url">hsmclient_8h_source.html#l00546</field>
     <field name="keywords"></field>
     <field name="text">uint8_t ptrData</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00541</field>
+    <field name="url">hsmclient_8h_source.html#l00547</field>
     <field name="keywords"></field>
     <field name="text">uint32_t dataLen</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00542</field>
+    <field name="url">hsmclient_8h_source.html#l00548</field>
     <field name="keywords"></field>
     <field name="text">uint8_t ptrTag</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00543</field>
+    <field name="url">hsmclient_8h_source.html#l00549</field>
     <field name="keywords"></field>
     <field name="text">uint8_t ptrIV</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00544</field>
+    <field name="url">hsmclient_8h_source.html#l00550</field>
     <field name="keywords"></field>
     <field name="text">uint32_t ivLen GMACArgs_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00561</field>
+    <field name="url">hsmclient_8h_source.html#l00567</field>
     <field name="keywords"></field>
     <field name="text">BankSwapReq_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00563</field>
+    <field name="url">hsmclient_8h_source.html#l00569</field>
     <field name="keywords"></field>
     <field name="text">uint8_t c29CpuId</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00564</field>
+    <field name="url">hsmclient_8h_source.html#l00570</field>
     <field name="keywords"></field>
     <field name="text">uint8_t syncFlag</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00565</field>
+    <field name="url">hsmclient_8h_source.html#l00571</field>
     <field name="keywords"></field>
     <field name="text">uint32_t timeout</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00567</field>
+    <field name="url">hsmclient_8h_source.html#l00573</field>
     <field name="keywords"></field>
     <field name="text">uint32_t c29CpuBankSwapVal BankSwapReq_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00575</field>
+    <field name="url">hsmclient_8h_source.html#l00581</field>
     <field name="keywords"></field>
     <field name="text">DeviceConfigSafety_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00577</field>
+    <field name="url">hsmclient_8h_source.html#l00583</field>
     <field name="keywords"></field>
     <field name="text">uint32_t dedFotaInfo</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00578</field>
+    <field name="url">hsmclient_8h_source.html#l00584</field>
     <field name="keywords"></field>
     <field name="text">uint32_t hsmPbistStatus DeviceConfigSafety_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00603</field>
+    <field name="url">hsmclient_8h_source.html#l00609</field>
     <field name="keywords"></field>
     <field name="text">DeviceConfigSecurity_t_ uint32_t c29Cpu2SecCfgValidationStatus uint32_t c29Cpu3SecCfgValidationStatus uint32_t certSwRevSSU uint32_t certSwRevR5SBL uint32_t certSwRevHSM uint32_t certSwRevApp uint32_t c29Cpu2SecCfgValidationStatus uint32_t reserved1 uint32_t certSwRevSSU uint32_t certSwRevR5SBL uint32_t certSwRevHSM uint32_t certSwRevApp</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00620</field>
+    <field name="url">hsmclient_8h_source.html#l00626</field>
     <field name="keywords"></field>
     <field name="text">uint32_t reserved1</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00621</field>
+    <field name="url">hsmclient_8h_source.html#l00627</field>
     <field name="keywords"></field>
     <field name="text">uint32_t reserved2</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00622</field>
+    <field name="url">hsmclient_8h_source.html#l00628</field>
     <field name="keywords"></field>
     <field name="text">uint32_t reserved3</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00623</field>
+    <field name="url">hsmclient_8h_source.html#l00629</field>
     <field name="keywords"></field>
     <field name="text">uint32_t reserved4</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00624</field>
+    <field name="url">hsmclient_8h_source.html#l00630</field>
     <field name="keywords"></field>
     <field name="text">uint32_t reserved5</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00625</field>
+    <field name="url">hsmclient_8h_source.html#l00631</field>
     <field name="keywords"></field>
     <field name="text">uint32_t reserved6</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00627</field>
+    <field name="url">hsmclient_8h_source.html#l00633</field>
     <field name="keywords"></field>
     <field name="text">uint32_t bootRetryCounts</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00630</field>
+    <field name="url">hsmclient_8h_source.html#l00636</field>
     <field name="keywords"></field>
     <field name="text">uint32_t hsmFirmwareUpdateStatus</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00631</field>
+    <field name="url">hsmclient_8h_source.html#l00637</field>
     <field name="keywords"></field>
     <field name="text">uint32_t sblFirmwareUpdateStatus</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00632</field>
+    <field name="url">hsmclient_8h_source.html#l00638</field>
     <field name="keywords"></field>
     <field name="text">uint32_t hostCpu1FirmwareUpdateStatus</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00633</field>
+    <field name="url">hsmclient_8h_source.html#l00639</field>
     <field name="keywords"></field>
     <field name="text">uint32_t hostCpu2FirmwareUpdateStatus DeviceConfigSecurity_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00641</field>
+    <field name="url">hsmclient_8h_source.html#l00647</field>
     <field name="keywords"></field>
     <field name="text">DeviceConfigDebug_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00643</field>
+    <field name="url">hsmclient_8h_source.html#l00649</field>
     <field name="keywords"></field>
     <field name="text">uint32_t publicDebugStatus</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00644</field>
+    <field name="url">hsmclient_8h_source.html#l00650</field>
     <field name="keywords"></field>
     <field name="text">uint32_t publicRegisterAccessStatus</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00645</field>
+    <field name="url">hsmclient_8h_source.html#l00651</field>
     <field name="keywords"></field>
     <field name="text">uint32_t secureDebugStatus</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00646</field>
+    <field name="url">hsmclient_8h_source.html#l00652</field>
     <field name="keywords"></field>
     <field name="text">uint32_t secureRegisterAccessStatus DeviceConfigDebug_t</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00659</field>
+    <field name="url">hsmclient_8h_source.html#l00660</field>
     <field name="keywords"></field>
-    <field name="text">DeviceConfigRead_t_</field>
-  </doc>
-  <doc>
-    <field name="type">source</field>
-    <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00661</field>
-    <field name="keywords"></field>
-    <field name="text">uint32_t configType</field>
+    <field name="text">DeviceConfigKeyring_t_</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
     <field name="url">hsmclient_8h_source.html#l00662</field>
     <field name="keywords"></field>
-    <field name="text">uint32_t configData</field>
+    <field name="text">uint32_t numAsymmKeysImported</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
     <field name="url">hsmclient_8h_source.html#l00663</field>
     <field name="keywords"></field>
-    <field name="text">uint32_t configSize</field>
+    <field name="text">uint32_t numSymmKeysImported</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
     <field name="url">hsmclient_8h_source.html#l00664</field>
     <field name="keywords"></field>
+    <field name="text">uint32_t keyringStatus DeviceConfigKeyring_t</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00677</field>
+    <field name="keywords"></field>
+    <field name="text">DeviceConfigRead_t_</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00679</field>
+    <field name="keywords"></field>
+    <field name="text">uint32_t configType</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00680</field>
+    <field name="keywords"></field>
+    <field name="text">uint32_t configData</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00681</field>
+    <field name="keywords"></field>
+    <field name="text">uint32_t configSize</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">hsmclient.h</field>
+    <field name="url">hsmclient_8h_source.html#l00682</field>
+    <field name="keywords"></field>
     <field name="text">uint16_t configDataCRC DeviceConfigRead_t int32_t HsmClient_checkAndWaitForBootNotification int32_t HsmClient_init SIPC_Params params</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l00696</field>
+    <field name="url">hsmclient_8h_source.html#l00714</field>
     <field name="keywords"></field>
     <field name="text">HsmClient_deInit HsmClient_SecureBootQueueInit uint32_t configured_hsm_client_msg_queue_size int32_t HsmClient_getVersion HsmClient_t HsmClient HsmVer_t verId uint32_t timeToWaitInTick int32_t HsmClient_getUID HsmClient_t HsmClient uint8_t uid uint32_t timeout int32_t HsmClient_openDbgFirewall HsmClient_t HsmClient uint8_t cert uint32_t cert_size uint32_t timeout int32_t HsmClient_importKeyring HsmClient_t HsmClient uint8_t cert uint32_t cert_size uint32_t timeout int32_t HsmClient_readOTPRow HsmClient_t HsmClient NvmOtpRead_t readRow int32_t HsmClient_writeOTPRow HsmClient_t HsmClient NvmOtpRowWrite_t writeRow int32_t HsmClient_lockOTPRow HsmClient_t HsmClient NvmOtpRowProt_t rowProt int32_t HsmClient_getOTPRowCount HsmClient_t HsmClient NvmOtpRowCount_t rowCount int32_t HsmClient_getOTPRowProtection HsmClient_t HsmClient NvmOtpRowProt_t rowProt int32_t HsmClient_procAuthBoot HsmClient_t HsmClient uint8_t cert uint32_t cert_size uint32_t timeout int32_t HsmClient_procAuthBootStart HsmClient_t HsmClient SecureBoot_Stream_t secureBootInfo int32_t HsmClient_procAuthBootUpdate HsmClient_t HsmClient SecureBoot_Stream_t secureBootInfo int32_t HsmClient_procAuthBootFinish HsmClient_t HsmClient SecureBoot_Stream_t secureBootInfo int32_t HsmClient_setFirewall HsmClient_t HsmClient FirewallReq_t FirewallReqObj uint32_t timeout int32_t HsmClient_FirewallIntr HsmClient_t HsmClient FirewallIntrReq_t FirewallIntrReqObj uint32_t timeout int32_t HsmClient_keyWriter HsmClient_t HsmClient KeyWriterCertHeader_t certHeader uint32_t timeout int32_t HsmClient_readSWRev HsmClient_t HsmClient SWRev_t readSWRev int32_t HsmClient_writeSWRev HsmClient_t HsmClient SWRev_t writeSWRev int32_t HsmClient_getDKEK HsmClient_t HsmClient DKEK_t getDKEK uint32_t timeout int32_t HsmClient_register HsmClient_t HsmClient uint8_t clientId HsmClient_unregister HsmClient_t HsmClient uint8_t clientId</field>
   </doc>
   <doc>
     <field name="type">source</field>
     <field name="name">hsmclient.h</field>
-    <field name="url">hsmclient_8h_source.html#l01068</field>
+    <field name="url">hsmclient_8h_source.html#l01086</field>
     <field name="keywords"></field>
     <field name="text">int32_t HsmClient_waitForBootNotify HsmClient_t HsmClient uint32_t timeToWaitInTicks int32_t Hsmclient_loadHSMRtFirmware HsmClient_t gHSMClient uint8_t pHSMRt_firmware int32_t Hsmclient_loadHSMRtFirmwareNonBlocking uint8_t pHSMRt_firmware int32_t HsmClient_getRandomNum HsmClient_t HsmClient RNGReq_t getRandomNum int32_t HsmClient_firmwareUpdate_CertProcess HsmClient_t HsmClient FirmwareUpdateReq_t pFirmwareUpdateObject int32_t HsmClient_firmwareUpdate_CodeProgram HsmClient_t HsmClient FirmwareUpdateReq_t pFirmwareUpdateObject int32_t HsmClient_firmwareUpdate_CodeVerify HsmClient_t HsmClient FirmwareUpdateReq_t pFirmwareUpdateObject int32_t HsmClient_VerifyROTSwitchingCertificate HsmClient_t HsmClient uint8_t cert uint32_t cert_size uint32_t timeout int32_t HsmClient_UpdateKeyRevsion HsmClient_t HsmClient uint32_t timeout int32_t HsmClient_EnableFATransition HsmClient_t HsmClient uint8_t cert uint32_t cert_size uint32_t timeout int32_t HsmClient_configOTFARegions HsmClient_t HsmClient OTFA_Config_t OTFA_ConfigInfo uint32_t timeout int32_t HsmClient_readOTFARegions HsmClient_t HsmClient OTFA_readRegion_t OTFA_readRegion uint32_t timeout int32_t HsmClient_secCfgValidate HsmClient_t HsmClient SecCfgValidate_t pSecCfgParams uint32_t timeout int32_t HsmClient_activeToDormantBankCopy HsmClient_t HsmClient FlashBankCopy_t pFlashBankCopyObject uint32_t timeout int32_t HsmClient_SecCfgUpdate HsmClient_t HsmClient FirmwareUpdateReq_t pFirmwareUpdateObject int32_t HsmClient_getDeviceConfig HsmClient_t HsmClient DeviceConfigRead_t pDeviceConfigObject uint32_t timeout int32_t HsmClient_CryptoService HsmClient_t HsmClient CryptoServiceReq_t svcReq uint32_t timeout int32_t HsmClient_runTimeBankSwap HsmClient_t HsmClient BankSwapReq_t pBankSwapObject</field>
   </doc>
@@ -141570,6 +141612,13 @@
   </doc>
   <doc>
     <field name="type">define</field>
+    <field name="name">DEVICE_CONFIG_TYPE_KEYRING</field>
+    <field name="url">group__DRV__HSMCLIENT__MODULE.html#ga0bde17ce9e8212e97aa24f224b55d265</field>
+    <field name="keywords">DEVICE_CONFIG_TYPE_KEYRING DEVICE_CONFIG_TYPE_KEYRING</field>
+    <field name="text">Keyring configuration auxiliary key import status Keyring configuration auxiliary key import status</field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
     <field name="name">DEVICE_CONFIG_TYPE_ALL</field>
     <field name="url">group__DRV__HSMCLIENT__MODULE.html#ga18810511dc8421fbd24c634df97f7f0c</field>
     <field name="keywords">DEVICE_CONFIG_TYPE_ALL DEVICE_CONFIG_TYPE_ALL</field>
@@ -141595,6 +141644,13 @@
     <field name="url">group__DRV__HSMCLIENT__MODULE.html#gac49c5318ff69dc65adedd4d2de8fa2fe</field>
     <field name="keywords">SIZE_OF_DEBUG_DEVICE_CONFIG SIZE_OF_DEBUG_DEVICE_CONFIG</field>
     <field name="text">Size of Debug configuration data in bytes 4 uint32_t values Size of Debug configuration data in bytes 4 uint32_t values</field>
+  </doc>
+  <doc>
+    <field name="type">define</field>
+    <field name="name">SIZE_OF_KEYRING_DEVICE_CONFIG</field>
+    <field name="url">group__DRV__HSMCLIENT__MODULE.html#ga3216eaa401804d6578d7f3fe85033f68</field>
+    <field name="keywords">SIZE_OF_KEYRING_DEVICE_CONFIG SIZE_OF_KEYRING_DEVICE_CONFIG</field>
+    <field name="text">Size of Keyring configuration data in bytes 3 uint32_t values Size of Keyring configuration data in bytes 3 uint32_t values</field>
   </doc>
   <doc>
     <field name="type">function</field>
@@ -196490,6 +196546,34 @@
     <field name="url">structDeviceConfigDebug__t.html#a00fdb92089cceabd4815e6c06ce7bf50</field>
     <field name="keywords">secureRegisterAccessStatus DeviceConfigDebug_t::secureRegisterAccessStatus DeviceConfigDebug_t</field>
     <field name="text">Secure debug port open/close status</field>
+  </doc>
+  <doc>
+    <field name="type">struct</field>
+    <field name="name">DeviceConfigKeyring_t</field>
+    <field name="url">structDeviceConfigKeyring__t.html</field>
+    <field name="keywords">DeviceConfigKeyring_t</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">DeviceConfigKeyring_t::numAsymmKeysImported</field>
+    <field name="url">structDeviceConfigKeyring__t.html#a4039f88761f96ad38fc7972043c3bd6a</field>
+    <field name="keywords">numAsymmKeysImported DeviceConfigKeyring_t::numAsymmKeysImported DeviceConfigKeyring_t</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">DeviceConfigKeyring_t::numSymmKeysImported</field>
+    <field name="url">structDeviceConfigKeyring__t.html#aa9bcfc8dc408b01b4eb1d0f4cae20392</field>
+    <field name="keywords">numSymmKeysImported DeviceConfigKeyring_t::numSymmKeysImported DeviceConfigKeyring_t</field>
+    <field name="text">Number of asymmetric auxiliary keys imported</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">DeviceConfigKeyring_t::keyringStatus</field>
+    <field name="url">structDeviceConfigKeyring__t.html#a042d3738acf60b6ba0800f40f8b7784d</field>
+    <field name="keywords">keyringStatus DeviceConfigKeyring_t::keyringStatus DeviceConfigKeyring_t</field>
+    <field name="text">Number of symmetric auxiliary keys imported</field>
   </doc>
   <doc>
     <field name="type">struct</field>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX41 =
 {
+"group__DRV__QSPI__LLD__MODULE.html#ga7e5d917102dce2750a0463ec72850b0d":[17,7,35,67],
+"group__DRV__QSPI__LLD__MODULE.html#ga7ecd3f4ab9b69dbbaeec3c6a8bc3945f":[17,7,35,53],
 "group__DRV__QSPI__LLD__MODULE.html#ga81afaa822cc1afa0947892f38bfae730":[17,7,35,27],
 "group__DRV__QSPI__LLD__MODULE.html#ga8312fe0cd7014a131f7fbeb36b713955":[17,7,35,72],
 "group__DRV__QSPI__LLD__MODULE.html#ga84c13b5d5ec5e56a2ef6f353055c1d3a":[17,7,35,32],
@@ -247,7 +249,5 @@ var NAVTREEINDEX41 =
 "group__DRV__SDFM__MODULE.html#ga8754df638865a9ed5ac7a20645bd46a2":[17,7,37,188],
 "group__DRV__SDFM__MODULE.html#ga8823e7db81ccb3f4da3d296026c64213":[17,7,37,204],
 "group__DRV__SDFM__MODULE.html#ga8928bc583079d210c7ae5a12113b3986":[17,7,37,29],
-"group__DRV__SDFM__MODULE.html#ga894da87d277e237c3d174fbf70266daa":[17,7,37,17],
-"group__DRV__SDFM__MODULE.html#ga8a5b2e25e7fd3be79fbabb4349534ce5":[17,7,37,52],
-"group__DRV__SDFM__MODULE.html#ga8ae77925db5a142e41fc2abb8d3ec6af":[17,7,37,198]
+"group__DRV__SDFM__MODULE.html#ga894da87d277e237c3d174fbf70266daa":[17,7,37,17]
 };
