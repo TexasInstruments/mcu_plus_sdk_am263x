@@ -25,6 +25,7 @@ Ram_Attrs gRamAttrs_`config.sramName` =
 {
     .ramName = "`config.sramName`",
     .ramSize = `config.sramSize`,
+    .pageSize = `config.sramPageSize`,
     .manufacturerId = `config.sramManfId`,
     .deviceId = `config.sramDevId`,
 };
@@ -35,6 +36,21 @@ Ram_Attrs gRamAttrs_`config.sramName` =
 % for (let i = 0; i < module.$instances.length; i++) {
     % let instance = module.$instances[i];
     % let config = module.getInstanceConfig(instance);
+    % const MR_MAX = 8;
+    % let enabledMrs = [];
+    % for (let j = 0; j < MR_MAX; j++) {
+    %   if (config["mrEn" + j]) {
+    %     enabledMrs.push({ addr: config["mrAddr" + j], val: config["mrVal" + j] });
+    %   }
+    % }
+    % if (enabledMrs.length > 0) {
+Ram_MrConfig gRamMrConfig_`config.sramName`[] =
+{
+    % for (let k = 0; k < enabledMrs.length; k++) {
+    { .address = `enabledMrs[k].addr`U, .value = `enabledMrs[k].val`U },
+    % }
+};
+    % }
 Ram_DevConfig gRamDevCfg_`config.sramName` =
 {
     .cmdRd = `config.sramCmdRd`,
@@ -45,5 +61,12 @@ Ram_DevConfig gRamDevCfg_`config.sramName` =
     .dummyClksRd = `config.sramDummyClksRd`,
     .dummyClksWr = `config.sramDummyClksWr`,
     .dummyClksCmd = `config.sramDummyClksCmd`,
+    % if (enabledMrs.length > 0) {
+    .mrCount = `enabledMrs.length`,
+    .mrConfig = gRamMrConfig_`config.sramName`,
+    % } else {
+    .mrCount = 0,
+    .mrConfig = NULL,
+    % }
 };
 % }

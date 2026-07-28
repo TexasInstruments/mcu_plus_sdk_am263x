@@ -7,12 +7,5 @@ var group__SDL__ESM__MODULE =
     [ "SDL_ESM_Inst", "group__SDL__ESM__MODULE.html#gae5a25ad63d3b6fb92538167520983d51", [
       [ "SDL_ESM_INST_MAIN_ESM0", "group__SDL__ESM__MODULE.html#ggae5a25ad63d3b6fb92538167520983d51a825e49e84662d961a375f14f9c9afc9d", null ],
       [ "SDL_ESM_INSTANCE_MAX", "group__SDL__ESM__MODULE.html#ggae5a25ad63d3b6fb92538167520983d51a89b5cf7a2bd16d93ec830b5557ce5027", null ]
-    ] ],
-    [ "SDL_ESM_getNErrorStatus", "group__SDL__ESM__MODULE.html#gae08d90f9d2f89c4f823e7c5cd2af28aa", null ],
-    [ "SDL_ESM_getStaticRegisters", "group__SDL__ESM__MODULE.html#gaa6038c780ee7ecdef27dcc9abe883712", null ],
-    [ "SDL_ESM_verifyConfig", "group__SDL__ESM__MODULE.html#gad1bf99d8a66ec79494c85e534621176f", null ],
-    [ "SDL_ESM_clrNError", "group__SDL__ESM__MODULE.html#ga41317554865b55363e55d8d0176a659b", null ],
-    [ "SDL_ESM_setNError", "group__SDL__ESM__MODULE.html#gafbc210ff75be933dad9c633d5a059ed4", null ],
-    [ "SDL_ESM_registerECCCallback", "group__SDL__ESM__MODULE.html#gacfb25a4d801393169e7149718c49d7b9", null ],
-    [ "SDL_ESM_init", "group__SDL__ESM__MODULE.html#ga9ce49362624d8bbb550a5a78198dff67", null ]
+    ] ]
 ];

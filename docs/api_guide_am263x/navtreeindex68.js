@@ -1,12 +1,5 @@
 var NAVTREEINDEX68 =
 {
-"structMMCSD__EmmcDeviceData.html#a0f2ad27e6017e9a9cda459bac4b2bee7":[17,7,29,1,14],
-"structMMCSD__EmmcDeviceData.html#a139a4b5c8bdb416e94ec439c32e99e17":[17,7,29,1,6],
-"structMMCSD__EmmcDeviceData.html#a16a35402857a996652e97ff46f941106":[17,7,29,1,9],
-"structMMCSD__EmmcDeviceData.html#a44c38c7c4d84f123dcb4c7481cf32c00":[17,7,29,1,4],
-"structMMCSD__EmmcDeviceData.html#a4f868b260454664a00226af9017a5178":[17,7,29,1,13],
-"structMMCSD__EmmcDeviceData.html#a53ddd659472a100866919af19f4f8171":[17,7,29,1,2],
-"structMMCSD__EmmcDeviceData.html#a87a4014ab6b68358c352a11de59a7601":[17,7,29,1,11],
 "structMMCSD__EmmcDeviceData.html#a9c0193473d5b3a04afd17a0829cd4ee2":[17,7,29,1,7],
 "structMMCSD__EmmcDeviceData.html#aa4b8692b1f554a2a16b7452c31fcd701":[17,7,29,1,0],
 "structMMCSD__EmmcDeviceData.html#aaeab6278f19b679e4c76878f440b10c9":[17,7,29,1,8],
@@ -249,5 +242,12 @@ var NAVTREEINDEX68 =
 "structPhy__RegAccessCb__t.html#ab1e00c27ffced836f250d5025cf486d6":[17,4,0,13,8,1,5],
 "structPhy__RegAccessCb__t.html#aca9454bd763d89d48056ec043dcded3c":[17,4,0,13,8,1,0],
 "structPhy__RegAccessCb__t.html#afad3e202d43b8d884188110beabb2161":[17,4,0,13,8,1,6],
-"structPhy__Version.html":[17,4,0,13,8,0]
+"structPhy__Version.html":[17,4,0,13,8,0],
+"structPhy__Version.html#a45f2f532b530d7a8b7f96ce0aabec587":[17,4,0,13,8,0,2],
+"structPhy__Version.html#a619631636eeecd7021608eed086915c1":[17,4,0,13,8,0,1],
+"structPhy__Version.html#aa25294b819c941c17bd6eee4749b0d59":[17,4,0,13,8,0,0],
+"structPinmux__PerCfg__t.html":[17,7,31,1],
+"structPinmux__PerCfg__t.html#a4014c43b27129ad273c2704b8385620e":[17,7,31,1,1],
+"structPinmux__PerCfg__t.html#a85f5d3b43285880a7dd488b1d0ff301f":[17,7,31,1,0],
+"structPortIdentity.html":[17,9,0,2]
 };

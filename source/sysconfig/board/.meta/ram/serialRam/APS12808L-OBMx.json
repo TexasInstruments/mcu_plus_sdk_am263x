@@ -12,5 +12,20 @@
     "cmdRegWr": "0xC0",
     "dummyClksRd": 7,
     "dummyClksWr": 3,
-    "dummyClksCmd": 5
+    "dummyClksCmd": 5,
+    "pageSize": 1024,
+    "mrConfig": [
+        {
+            "address": "0x00000000",
+            "value": "0x29"
+        },
+        {
+            "address": "0x00000004",
+            "value": "0x40"
+        },
+        {
+            "address": "0x00000008",
+            "value": "0x03"
+        }
+    ]
 }

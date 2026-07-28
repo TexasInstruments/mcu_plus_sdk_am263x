@@ -1,12 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"structCpsw__InterVlanEgressPortCfg.html#a90f6ba29e0c0f93b6f2a74e4c4b953ee":[17,4,0,6,0,1,1],
-"structCpsw__InterVlanRouteIngressPktMatchCfg.html":[17,4,0,6,0,0],
-"structCpsw__InterVlanRouteIngressPktMatchCfg.html#a0468a7844e8a6435a88f834058cee05a":[17,4,0,6,0,0,1],
-"structCpsw__InterVlanRouteIngressPktMatchCfg.html#a20bbd3b54c4578836bd34005543de44e":[17,4,0,6,0,0,2],
-"structCpsw__InterVlanRouteIngressPktMatchCfg.html#a2d519ad31ab5fd0a2670456fcf3688e6":[17,4,0,6,0,0,7],
-"structCpsw__InterVlanRouteIngressPktMatchCfg.html#a5b239ff24775937d9b41113af0a167db":[17,4,0,6,0,0,3],
-"structCpsw__InterVlanRouteIngressPktMatchCfg.html#a625fa95fcebcbcd186e1f651ee892447":[17,4,0,6,0,0,0],
 "structCpsw__InterVlanRouteIngressPktMatchCfg.html#a6c032d8eeef4d618e9a5f018285b55e7":[17,4,0,6,0,0,8],
 "structCpsw__InterVlanRouteIngressPktMatchCfg.html#a9b433df2ebbd6175a703cc0c97ceca81":[17,4,0,6,0,0,4],
 "structCpsw__InterVlanRouteIngressPktMatchCfg.html#ac2584609cf84f5f2c49d94a69230f519":[17,4,0,6,0,0,5],
@@ -249,5 +242,12 @@ var NAVTREEINDEX60 =
 "structEEPROM__Attrs.html#ab8d21b11713ce8bf7157f7a76d2cf7d1":[17,1,2,2,1],
 "structEEPROM__Attrs.html#ac6ffb051bb5551f2ab97c93278968d6f":[17,1,2,2,0],
 "structEEPROM__Config__s.html":[17,1,2,3],
-"structEEPROM__Config__s.html#a6ab9b742abfd9e214a098341d0178a0a":[17,1,2,3,0]
+"structEEPROM__Config__s.html#a6ab9b742abfd9e214a098341d0178a0a":[17,1,2,3,0],
+"structEEPROM__Config__s.html#acb9dae722b7badaa917cb1907f171b2a":[17,1,2,3,1],
+"structEEPROM__Config__s.html#ae7c4fc69b2b0489389b25852d7e24faa":[17,1,2,3,2],
+"structEEPROM__Fxns.html":[17,1,2,1],
+"structEEPROM__Fxns.html#a080878c59f5ecf14cbbe62a3b2cff65c":[17,1,2,1,2],
+"structEEPROM__Fxns.html#a1045db6d6717d6538363052e667e01c4":[17,1,2,1,1],
+"structEEPROM__Fxns.html#a2be49cda279b71221aa7298898d929dd":[17,1,2,1,3],
+"structEEPROM__Fxns.html#a8b49c618fccd93f4a131d19f62779519":[17,1,2,1,0]
 };

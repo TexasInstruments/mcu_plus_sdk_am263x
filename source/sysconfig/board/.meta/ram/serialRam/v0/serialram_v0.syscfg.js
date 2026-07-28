@@ -47,6 +47,12 @@ function getConfigurables(){
             displayFormat: "dec",
         },
         {
+            name: "sramPageSize",
+            displayName: defaultDevice + " Page Size In Bytes",
+            default: soc.getDefaultPsramConfig().pageSize,
+            displayFormat: "dec",
+        },
+        {
             name: "sramDevcfg",
             displayName: defaultDevice + " Configuration",
             collapsed: true,
@@ -105,6 +111,50 @@ function getConfigurables(){
         },
 
     );
+
+    let defaultMrConfig = soc.getDefaultPsramConfig().mrConfig || [];
+    const MR_MAX = 8;
+    let mrConfigurables = [];
+
+    for (let i = 0; i < MR_MAX; i++) {
+        let defEnabled = (i < defaultMrConfig.length);
+        let defAddr    = defEnabled ? parseInt(defaultMrConfig[i].address, 16) : 0;
+        let defVal     = defEnabled ? parseInt(defaultMrConfig[i].value,   16) : 0;
+        mrConfigurables.push(
+            {
+                name: `mr${i}`,
+                displayName: defaultDevice + ` Mode Register ${i}`,
+                collapsed: true,
+                config: [
+                    {
+                        name: `mrEn${i}`,
+                        displayName: "Enable",
+                        default: defEnabled,
+                    },
+                    {
+                        name: `mrAddr${i}`,
+                        displayName: "Address",
+                        default: defAddr,
+                        displayFormat: "hex",
+                    },
+                    {
+                        name: `mrVal${i}`,
+                        displayName: "Value",
+                        default: defVal,
+                        displayFormat: "hex",
+                    },
+                ],
+            }
+        );
+    }
+
+    config.push({
+        name: "mrConfig",
+        displayName: defaultDevice + " Mode Register Configuration",
+        collapsed: true,
+        config: mrConfigurables,
+    });
+
     return config;
 }
 

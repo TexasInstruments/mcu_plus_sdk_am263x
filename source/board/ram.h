@@ -66,7 +66,13 @@ typedef struct Ram_Config_s Ram_Config;
  */
 typedef struct Ram_Params_s Ram_Params;
 
-typedef struct Ram_Devconfig_s 
+typedef struct Ram_MrConfig_s
+{
+    uint32_t address;
+    uint8_t value;
+} Ram_MrConfig;
+
+typedef struct Ram_Devconfig_s
 {
     uint8_t cmdRd;
     uint8_t cmdWr;
@@ -76,6 +82,8 @@ typedef struct Ram_Devconfig_s
     uint8_t dummyClksRd;
     uint8_t dummyClksWr;
     uint8_t dummyClksCmd;
+    uint8_t mrCount;
+    const Ram_MrConfig *mrConfig;
 
 } Ram_DevConfig;
 
@@ -87,6 +95,7 @@ typedef struct Ram_Attrs_s {
     uint32_t manufacturerId; /**< Ram manufacturer ID as read form the Ram device */
     uint32_t driverInstance; /**< Underlying peripheral driver instance that is used by the Ram driver, e.g GPMC driver */
     uint32_t ramSize;      /**< Ram size, in bytes */
+    uint32_t pageSize;     /**< Ram page/column boundary size, in bytes */
 
 } Ram_Attrs;
 

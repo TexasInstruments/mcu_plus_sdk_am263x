@@ -1,12 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"structEEPROM__Config__s.html#acb9dae722b7badaa917cb1907f171b2a":[17,1,2,3,1],
-"structEEPROM__Config__s.html#ae7c4fc69b2b0489389b25852d7e24faa":[17,1,2,3,2],
-"structEEPROM__Fxns.html":[17,1,2,1],
-"structEEPROM__Fxns.html#a080878c59f5ecf14cbbe62a3b2cff65c":[17,1,2,1,2],
-"structEEPROM__Fxns.html#a1045db6d6717d6538363052e667e01c4":[17,1,2,1,1],
-"structEEPROM__Fxns.html#a2be49cda279b71221aa7298898d929dd":[17,1,2,1,3],
-"structEEPROM__Fxns.html#a8b49c618fccd93f4a131d19f62779519":[17,1,2,1,0],
 "structEEPROM__Object.html":[17,1,2,4],
 "structEEPROM__Object.html#a648518ecd521d973da0597593c92c449":[17,1,2,4,2],
 "structEEPROM__Object.html#a8f76e10120ddf201289d110e6bf0f40c":[17,1,2,4,5],
@@ -249,5 +242,12 @@ var NAVTREEINDEX61 =
 "structEnetPhy__State.html#ace82b4fdcdd6dff56479412c9f6323d3":[17,4,0,13,15,2],
 "structEnetPhy__State.html#affcdf8170795dd5e245eb28f1f31ba3c":[17,4,0,13,15,11],
 "structEnetPhy__Version.html":[17,4,0,13,10],
-"structEnetPhy__Version.html#a6761be25acfe02923d1569b74ce1a25d":[17,4,0,13,10,1]
+"structEnetPhy__Version.html#a6761be25acfe02923d1569b74ce1a25d":[17,4,0,13,10,1],
+"structEnetPhy__Version.html#ae4e18e89df0c29baae6eabcd87d89092":[17,4,0,13,10,2],
+"structEnetPhy__Version.html#ae508bfdc1dffd61a5dc5ac04fd9c52a1":[17,4,0,13,10,0],
+"structEnetQ.html":[17,4,0,7,1],
+"structEnetQ.html#a161c7fb022c75decb8ec4f5ca5f7ee57":[17,4,0,7,1,1],
+"structEnetQ.html#a9bcf5ec887e25424c14fa9e537e4bb20":[17,4,0,7,1,2],
+"structEnetQ.html#ad7175db4dec96f857742561e585fd70a":[17,4,0,7,1,3],
+"structEnetQ.html#ae652e20f61360d94c329713de4406231":[17,4,0,7,1,0]
 };

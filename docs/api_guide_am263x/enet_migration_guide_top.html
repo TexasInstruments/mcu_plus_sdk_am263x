@@ -391,10 +391,7 @@ Board config C file</h3>
 </li>
 <li><b>EnetBoard_getMacAddrList()</b>: This function should populate any board specific MAC addresses that are available on board eeprom. If the board does not have any board specific macAddresses this function should set argument <code>*pAvailMacEntries = 0</code></li>
 <li><b>EnetBoard_getId()</b>: This function should return the board id. This is not used anywhere outside this file so the board id returned will depend on the implementation of EnetBoard_setupPorts()/EnetBoard_getPhyCfg() for the custom board if it refers the boardId to determine PHY config/setup ports.</li>
-<li>Refer mcu_plus_sdk/source/networking/enet/core/examples/enet_layer2_multi_channel<ul>
-<li>enet_custom_board_config.c for example illustrating custom board integration</li>
-</ul>
-</li>
+<li>Refer to enet_custom_board_config.c (located at ${MCU_PLUS_SDK_PATH}/source/networking/enet/core/examples/examples/enet_layer2_cpsw/am263x-cc/r5fss0-0_freertos/) as an example of custom board integration.</li>
 </ul>
 <h3><a class="anchor" id="autotoc_md1596"></a>
 Ethernet MAC address Management</h3>
@@ -413,7 +410,6 @@ Ethernet MAC address Management</h3>
 <li>Keeping "MAC Address Assignment Method" to "Auto Assign", shall use the MAC address from EEPROM and EFUSE.</li>
 </ul>
 <p><img src="enet_mac_addr_config_auto.png" alt="" class="inline" title="MACAddressAuto Assign"/>   </p>
-<p>Please note that"Auto Assign" is not supported on AM273x and AWR294x due to EVM limitation.</p>
 <h3><a class="anchor" id="autotoc_md1598"></a>
 2. Using Custom Board Option</h3>
 <p>On your custom board EEPROM may not be available or it is not used to keep MAC address, then please follow below steps to set MAC address- <br  />

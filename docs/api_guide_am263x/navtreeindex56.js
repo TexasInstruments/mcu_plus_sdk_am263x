@@ -1,12 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"group__unibase__macros.html#gac11a1ecc33e77a90670fe7fd9feccce0":[17,10,7,29],
-"group__unibase__macros.html#gac11a34967d24748090381e7fa4b7cb6e":[17,10,7,44],
-"group__unibase__macros.html#gac39981641e59b1dc6a97073fc50dfdc7":[17,10,7,47],
-"group__unibase__macros.html#gacf9a04d6aa3370592d09d0c81bd59f23":[17,10,7,17],
-"group__unibase__macros.html#gad052b9e1f7458a222840f9bae5706c12":[17,10,7,10],
-"group__unibase__macros.html#gad903fac8be9cc3549b3c367bc905a9fa":[17,10,7,33],
-"group__unibase__macros.html#gadf419dd59fd41a7600ea89f27929a059":[17,10,7,40],
 "group__unibase__macros.html#gae1788071e1d319888f7418fe949d3c31":[17,10,7,52],
 "group__unibase__macros.html#gae7e40a4663459d8c189b5bf7a72fb15b":[17,10,7,4],
 "group__unibase__macros.html#gae8de01dee2ddb7e5d116f5b44e6f8a20":[17,10,7,36],
@@ -32,8 +25,8 @@ var NAVTREEINDEX56 =
 "group__xtimer.html#gabc716d68e28b749deb531c1a4bd49742":[17,11,7,3],
 "group__xtimer.html#gad69eb8f53037632c4cdefb4ba1c19e3b":[17,11,7,17],
 "group__xtimer.html#gae4233d0f78b7d372c7802ef76ad4784a":[17,11,7,15],
-"index.html":[],
 "index.html":[0],
+"index.html":[],
 "index.html#MIGRATION_INFORMATION":[0,1],
 "index.html#autotoc_md0":[0,0],
 "index.html#autotoc_md1":[0,2],
@@ -249,5 +242,12 @@ var NAVTREEINDEX56 =
 "structCANFD__Object.html#af9a8e076064289b00c73a449f43adf76":[17,7,2,15,4],
 "structCANFD__Object.html#afbda9a6053303b652fc07d163c041501":[17,7,2,15,15],
 "structCANFD__OpenParams.html":[17,7,2,14],
-"structCANFD__OpenParams.html#a1011c8e1639f8a9c8749e1ae75f67755":[17,7,2,14,8]
+"structCANFD__OpenParams.html#a1011c8e1639f8a9c8749e1ae75f67755":[17,7,2,14,8],
+"structCANFD__OpenParams.html#a11f6be3368d8a69262ec4ffe5d9c0b0b":[17,7,2,14,10],
+"structCANFD__OpenParams.html#a1e08ee7fb8d56817d2f761a8e6e01d44":[17,7,2,14,23],
+"structCANFD__OpenParams.html#a1f87c17632ff5a5b383a4692f2444a83":[17,7,2,14,9],
+"structCANFD__OpenParams.html#a25b6bfd6771e972b0c8f283bd5898461":[17,7,2,14,4],
+"structCANFD__OpenParams.html#a29deb6f83af1bc14236fdd6d472686b2":[17,7,2,14,21],
+"structCANFD__OpenParams.html#a31dab67e9194590591ca61a14d977dbb":[17,7,2,14,6],
+"structCANFD__OpenParams.html#a3b579e92204b6466211f708820957731":[17,7,2,14,24]
 };

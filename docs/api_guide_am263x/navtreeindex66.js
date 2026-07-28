@@ -1,12 +1,5 @@
 var NAVTREEINDEX66 =
 {
-"structLED__Params__s.html#a364d3a7b0bc2632f1c5d70663b4acf96":[17,1,3,0,1],
-"structLED__Params__s.html#aa2d32d839aab9e0b92b1fe7f61d2f99d":[17,1,3,0,0],
-"structLED__Params__s.html#aa36d1bead3cc25e4bb53585a56300c45":[17,1,3,0,3],
-"structLED__Params__s.html#ad462ab0d6d16f741a2fc07118d1513ca":[17,1,3,0,2],
-"structLIN__BaudConfigParams.html":[17,7,20,2],
-"structLIN__BaudConfigParams.html#abaf30b0a91b1b5f193773ae57d82fcb3":[17,7,20,2,0],
-"structLIN__BaudConfigParams.html#add27a1a753fda95e68c408833e37ba42":[17,7,20,2,1],
 "structLIN__BaudConfigParams.html#af2a231e8f4e34697809295bc11c6af90":[17,7,20,2,2],
 "structLIN__Config.html":[17,7,20,8],
 "structLIN__Config.html#a77ace6906c5402155b3675e1bc3a5d01":[17,7,20,8,0],
@@ -249,5 +242,12 @@ var NAVTREEINDEX66 =
 "structMCAN__RevisionId.html#af8cf9dd040cfe94dd86920d84f31fbdc":[17,7,24,16,3],
 "structMCAN__RxBufElement.html":[17,7,24,22],
 "structMCAN__RxBufElement.html#a034eee90e74d2b1479401b732e88cab7":[17,7,24,22,4],
-"structMCAN__RxBufElement.html#a061f5d4c3b912b9d72fd9257a09c3165":[17,7,24,22,3]
+"structMCAN__RxBufElement.html#a061f5d4c3b912b9d72fd9257a09c3165":[17,7,24,22,3],
+"structMCAN__RxBufElement.html#a10e310e176e9e487b4fc6c2a95dfdcef":[17,7,24,22,7],
+"structMCAN__RxBufElement.html#a14893d27cb94bb3db3e21fc08ddfddfd":[17,7,24,22,9],
+"structMCAN__RxBufElement.html#a2ce0a218529dd2a212fcde6cbf751b65":[17,7,24,22,10],
+"structMCAN__RxBufElement.html#a375c7408618a861437d4bad050e67d19":[17,7,24,22,0],
+"structMCAN__RxBufElement.html#a42c3eafe8608da2382c599d44dc80f6f":[17,7,24,22,8],
+"structMCAN__RxBufElement.html#a4eba70e3d090533cecf152342a1720d3":[17,7,24,22,6],
+"structMCAN__RxBufElement.html#a64d77443d3d0209bfae744e72f31ddf4":[17,7,24,22,1]
 };

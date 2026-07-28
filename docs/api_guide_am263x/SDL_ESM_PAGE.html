@@ -171,25 +171,25 @@ Example Usage</h1>
 <div class="line">    <span class="keywordflow">return</span> retVal;</div>
 <div class="line">}</div>
 </div><!-- fragment --><p>Now we can call the SDL_ESM_init API:</p>
-<div class="fragment"><div class="line">ret = <a class="code" href="group__SDL__ESM__MODULE.html#ga9ce49362624d8bbb550a5a78198dff67">SDL_ESM_init</a>(<a class="code" href="group__SDL__ESM__MODULE.html#ggae5a25ad63d3b6fb92538167520983d51a825e49e84662d961a375f14f9c9afc9d">SDL_ESM_INST_MAIN_ESM0</a>, &amp;esmInitConfig, SDL_ESM_applicationCallbackFunction,ptr);</div>
+<div class="fragment"><div class="line">ret = SDL_ESM_init(<a class="code" href="group__SDL__ESM__MODULE.html#ggae5a25ad63d3b6fb92538167520983d51a825e49e84662d961a375f14f9c9afc9d">SDL_ESM_INST_MAIN_ESM0</a>, &amp;esmInitConfig, SDL_ESM_applicationCallbackFunction,ptr);</div>
 <div class="line"><span class="keywordflow">if</span> (ret != SDL_PASS)</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// handle error</span></div>
 <div class="line">}</div>
 </div><!-- fragment --><p>When error events occur, the Application's registered callback will be invoked and the application can take action as needed.</p>
 <p>If an error pin is asserted due to an error event, the application can additionally decide to clear the error pin:</p>
-<div class="fragment"><div class="line"><a class="code" href="group__SDL__ESM__MODULE.html#ga41317554865b55363e55d8d0176a659b">SDL_ESM_clrNError</a>(<a class="code" href="group__SDL__ESM__MODULE.html#ggae5a25ad63d3b6fb92538167520983d51a825e49e84662d961a375f14f9c9afc9d">SDL_ESM_INST_MAIN_ESM0</a>);</div>
+<div class="fragment"><div class="line">SDL_ESM_clrNError(<a class="code" href="group__SDL__ESM__MODULE.html#ggae5a25ad63d3b6fb92538167520983d51a825e49e84662d961a375f14f9c9afc9d">SDL_ESM_INST_MAIN_ESM0</a>);</div>
 </div><!-- fragment --><p>Note that the pin will remain active for the minimum time interval even after being cleared. Once the minimum time interval expires, the clear will take affect.</p>
 <p>The application can also force the error pin active:</p>
-<div class="fragment"><div class="line"><a class="code" href="group__SDL__ESM__MODULE.html#gafbc210ff75be933dad9c633d5a059ed4">SDL_ESM_setNError</a>(<a class="code" href="group__SDL__ESM__MODULE.html#ggae5a25ad63d3b6fb92538167520983d51a825e49e84662d961a375f14f9c9afc9d">SDL_ESM_INST_MAIN_ESM0</a>);</div>
+<div class="fragment"><div class="line">SDL_ESM_setNError(<a class="code" href="group__SDL__ESM__MODULE.html#ggae5a25ad63d3b6fb92538167520983d51a825e49e84662d961a375f14f9c9afc9d">SDL_ESM_INST_MAIN_ESM0</a>);</div>
 </div><!-- fragment --><p>The SDL ESM also provides APIs to assist in implementing diagnostics related to static config register readback and readback of written config. In order to verify the written config, after calling SDL_ESM_init, SDL_ESM_verifyConfig may be called:</p>
-<div class="fragment"><div class="line">ret = <a class="code" href="group__SDL__ESM__MODULE.html#gad1bf99d8a66ec79494c85e534621176f">SDL_ESM_verifyConfig</a>(<a class="code" href="group__SDL__ESM__MODULE.html#ggae5a25ad63d3b6fb92538167520983d51a825e49e84662d961a375f14f9c9afc9d">SDL_ESM_INST_MAIN_ESM0</a>, esmInitConfig);</div>
+<div class="fragment"><div class="line">ret = SDL_ESM_verifyConfig(<a class="code" href="group__SDL__ESM__MODULE.html#ggae5a25ad63d3b6fb92538167520983d51a825e49e84662d961a375f14f9c9afc9d">SDL_ESM_INST_MAIN_ESM0</a>, esmInitConfig);</div>
 <div class="line"><span class="keywordflow">if</span> (ret != SDL_PASS)</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// verification failed</span></div>
 <div class="line">}</div>
 </div><!-- fragment --><p>In order to readback the static config:</p>
-<div class="fragment"><div class="line">ret = <a class="code" href="group__SDL__ESM__MODULE.html#gaa6038c780ee7ecdef27dcc9abe883712">SDL_ESM_getStaticRegisters</a>(<a class="code" href="group__SDL__ESM__MODULE.html#ggae5a25ad63d3b6fb92538167520983d51a825e49e84662d961a375f14f9c9afc9d">SDL_ESM_INST_MAIN_ESM0</a>, &amp;staticRegs);</div>
+<div class="fragment"><div class="line">ret = SDL_ESM_getStaticRegisters(<a class="code" href="group__SDL__ESM__MODULE.html#ggae5a25ad63d3b6fb92538167520983d51a825e49e84662d961a375f14f9c9afc9d">SDL_ESM_INST_MAIN_ESM0</a>, &amp;staticRegs);</div>
 </div><!-- fragment --><h1><a class="anchor" id="autotoc_md1774"></a>
 API</h1>
 <p><a class="el" href="group__SDL__ESM__MODULE.html">APIs for SDL ESM</a> </p>
@@ -197,13 +197,8 @@ API</h1>
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <div class="ttc" id="agroup__SDL__ESM__MODULE_html_ggae5a25ad63d3b6fb92538167520983d51a825e49e84662d961a375f14f9c9afc9d"><div class="ttname"><a href="group__SDL__ESM__MODULE.html#ggae5a25ad63d3b6fb92538167520983d51a825e49e84662d961a375f14f9c9afc9d">SDL_ESM_INST_MAIN_ESM0</a></div><div class="ttdeci">@ SDL_ESM_INST_MAIN_ESM0</div><div class="ttdef"><b>Definition:</b> sdl_esm_soc.h:66</div></div>
-<div class="ttc" id="agroup__SDL__ESM__MODULE_html_ga41317554865b55363e55d8d0176a659b"><div class="ttname"><a href="group__SDL__ESM__MODULE.html#ga41317554865b55363e55d8d0176a659b">SDL_ESM_clrNError</a></div><div class="ttdeci">int32_t SDL_ESM_clrNError(SDL_ESM_Inst esmInstType)</div><div class="ttdoc">SDL ESM API to clear the nError pin for the specified ESM instance.</div></div>
 <div class="ttc" id="agroup__KERNEL__DPL__DEBUG_html_gafe348ab5badd2c15118f95e21bb192c6"><div class="ttname"><a href="group__KERNEL__DPL__DEBUG.html#gafe348ab5badd2c15118f95e21bb192c6">DebugP_log</a></div><div class="ttdeci">#define DebugP_log(format,...)</div><div class="ttdoc">Function to log a string to the enabled console.</div><div class="ttdef"><b>Definition:</b> DebugP.h:235</div></div>
-<div class="ttc" id="agroup__SDL__ESM__MODULE_html_gaa6038c780ee7ecdef27dcc9abe883712"><div class="ttname"><a href="group__SDL__ESM__MODULE.html#gaa6038c780ee7ecdef27dcc9abe883712">SDL_ESM_getStaticRegisters</a></div><div class="ttdeci">int32_t SDL_ESM_getStaticRegisters(SDL_ESM_Inst instance, SDL_ESM_staticRegs *pStaticRegs)</div><div class="ttdoc">SDL ESM API to read the static registers. The API reads and returns the static register configuration...</div></div>
-<div class="ttc" id="agroup__SDL__ESM__MODULE_html_gad1bf99d8a66ec79494c85e534621176f"><div class="ttname"><a href="group__SDL__ESM__MODULE.html#gad1bf99d8a66ec79494c85e534621176f">SDL_ESM_verifyConfig</a></div><div class="ttdeci">int32_t SDL_ESM_verifyConfig(SDL_ESM_Inst instance, const SDL_ESM_config *pConfig)</div><div class="ttdoc">SDL ESM API to verify the written configuration of the ESM module. The API verifies the written confi...</div></div>
 <div class="ttc" id="agroup__SDL__ESM__MODULE_html_gae5a25ad63d3b6fb92538167520983d51"><div class="ttname"><a href="group__SDL__ESM__MODULE.html#gae5a25ad63d3b6fb92538167520983d51">SDL_ESM_Inst</a></div><div class="ttdeci">SDL_ESM_Inst</div><div class="ttdef"><b>Definition:</b> sdl_esm_soc.h:65</div></div>
-<div class="ttc" id="agroup__SDL__ESM__MODULE_html_ga9ce49362624d8bbb550a5a78198dff67"><div class="ttname"><a href="group__SDL__ESM__MODULE.html#ga9ce49362624d8bbb550a5a78198dff67">SDL_ESM_init</a></div><div class="ttdeci">int32_t SDL_ESM_init(SDL_ESM_Inst instance, const SDL_ESM_config *pConfig, SDL_ESM_applicationCallback applicationCallback, void *appArg)</div><div class="ttdoc">SDL ESM API to initialize an ESM instance. The API initializes the specified ESM instance with the pr...</div></div>
-<div class="ttc" id="agroup__SDL__ESM__MODULE_html_gafbc210ff75be933dad9c633d5a059ed4"><div class="ttname"><a href="group__SDL__ESM__MODULE.html#gafbc210ff75be933dad9c633d5a059ed4">SDL_ESM_setNError</a></div><div class="ttdeci">int32_t SDL_ESM_setNError(SDL_ESM_Inst esmInstType)</div><div class="ttdoc">SDL ESM API to set the nError pin for the specified ESM instance.</div></div>
 <!-- HTML footer for doxygen 1.8.11-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
