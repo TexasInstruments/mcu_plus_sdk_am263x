@@ -501,3 +501,26 @@ Date:   Tue Jul 28 20:25:52 2026 +0530
  updateC29SDK.py                                                    |  117 ++
  151 files changed, 68121 insertions(+)
 
+========================================
+Changes from build on 2026-07-30 19:40:43
+Previous commit: 3f5443787ed97b6cdbcf8d0ab33fac993682141d
+Current commit: e1d2b0287cfd2071b61c207140bfc48707b98cef
+========================================
+
+commit e1d2b0287cfd2071b61c207140bfc48707b98cef
+Author: Seema.Khatib <seema.khatib@ti.com>
+Date:   Tue Jul 28 19:43:23 2026 +0530
+
+    f29h85x: SC: misra
+    
+    -update crypto files to fix misra and cert c violations
+    
+    Fixes: TIFSMCU-5697
+    
+    Signed-off-by: Seema.Khatib <seema.khatib@ti.com>
+
+ drivers/crypto/crypto_util.c                | 1 +
+ drivers/crypto/dthe/dthe.c                  | 1 +
+ drivers/secure_ipc_notify/sipc_notify_src.c | 8 ++++----
+ 3 files changed, 6 insertions(+), 4 deletions(-)
+

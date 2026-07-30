@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"group__ENET__MOD__MDIO.html#gae9de7ed8ca4b59f8b46a7e06f0c0cf47":[17,4,0,5,11],
+"group__ENET__MOD__MDIO.html#gaf37cee8c06a4f8c58e982b8103d42337":[17,4,0,5,16],
 "group__ENET__MOD__MDIO.html#gaf835c71a85928731b24f23cb3e37a3fd":[17,4,0,5,17],
 "group__ENET__MOD__MDIO.html#gga3d1296252044e355873ecdb16dd19baba02b717c5172b5fc5e2ec589a67e34933":[17,4,0,5,14,8],
 "group__ENET__MOD__MDIO.html#gga3d1296252044e355873ecdb16dd19baba02bd9f761b2fdfadea609984c9d415bb":[17,4,0,5,14,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "group__ICCSG__TIMESYNC__MOD.html#gga6067c13abfe1f3923a4750d51d085305a8ac1c3fc7a8ea8e132f3760670d99d8c":[17,4,0,11,1,1,2],
 "group__ICCSG__TIMESYNC__MOD.html#gga6067c13abfe1f3923a4750d51d085305abd2874283a2c2fe68072df031321317c":[17,4,0,11,1,1,0],
 "group__IPC__shm.html":[17,11,2],
-"group__IPC__shm.html#ga0f128462193271e8f69112b8d3dd17fe":[17,11,2,1],
-"group__IPC__shm.html#ga88de678fce5025e00701bcaa5052094d":[17,11,2,2],
-"group__KERNEL__DPL.html":[17,2]
+"group__IPC__shm.html#ga0f128462193271e8f69112b8d3dd17fe":[17,11,2,1]
 };

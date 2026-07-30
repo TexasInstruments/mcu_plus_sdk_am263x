@@ -65,7 +65,7 @@ static inline void SIPC_setMboxConfig(SIPC_Params *params, uint32_t selfCoreId)
     if (selfCoreId == CORE_ID_HSM0_0 )
     {
         /* Define HSM->R5 tx and R5 -> HSM rx queues */
-        for( secMaster = 0 ; secMaster < (uint8_t)(MAX_SEC_CORES_WITH_HSM - 1U); secMaster ++)
+        for( secMaster = 0U ; secMaster < (MAX_SEC_CORES_WITH_HSM - 1U); secMaster ++)
         {
             /*****************************************************************************/
             /* HSM TX queue setup                                                        */
@@ -412,7 +412,7 @@ int32_t SIPC_init(SIPC_Params *params)
     /* check if current core who is doing sipc init is a secure host or not if not.
      * if not then return init failure */
 
-    for( secMaster = 0 ; secMaster < (uint8_t)(MAX_SEC_CORES_WITH_HSM - 1U) ; secMaster ++)
+    for( secMaster = 0U ; secMaster < (MAX_SEC_CORES_WITH_HSM - 1U) ; secMaster ++)
     {
         if((selfCoreId == params->secHostCoreId[secMaster]) || (selfCoreId == CORE_ID_HSM0_0))
         {
@@ -430,7 +430,7 @@ int32_t SIPC_init(SIPC_Params *params)
         }
         else
         {
-            assertFlag = 1;
+            assertFlag = 1U;
         }
     }
     /* Indicates that this core is not a secHost*/
@@ -468,7 +468,7 @@ int32_t SIPC_init(SIPC_Params *params)
                 if(params->coreIdList[core] < MAX_SEC_CORES_WITH_HSM)
                 {
                     /* Mark core as enabled for IPC */
-                    gSIPC_ctrl.isCoreEnabled[params->coreIdList[core]] = 1;
+                    gSIPC_ctrl.isCoreEnabled[params->coreIdList[core]] = 1U;
                 }
                 else
                 {

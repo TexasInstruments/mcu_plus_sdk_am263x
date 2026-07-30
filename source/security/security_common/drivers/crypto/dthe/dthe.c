@@ -109,6 +109,7 @@ DTHE_Handle DTHE_open(uint32_t index)
          * is set to TRUE)
          */
         status = DTHE_close(handle);
+        (void)status;
     }
     return (handle);
 }

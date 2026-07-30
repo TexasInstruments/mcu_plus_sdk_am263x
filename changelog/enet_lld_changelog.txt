@@ -21015,3 +21015,106 @@ Date:   Mon Jul 13 17:53:52 2026 +0530
  utils/include/enet_udmautils.h                                              |   202 +
  6855 files changed, 1220923 insertions(+)
 
+========================================
+Changes from build on 2026-07-30 19:40:50
+Previous commit: ebf42b81f229fe11c583b30b18e08c9b5f3cdca1
+Current commit: cfec580f41d0e515e44c1fe33f0f997d35ab2771
+========================================
+
+commit cfec580f41d0e515e44c1fe33f0f997d35ab2771
+Author: Souraduti Parui <s-parui@ti.com>
+Date:   Fri Jul 24 11:20:41 2026 +0530
+
+    am64x,am243x: enet: fix lldp
+    
+    - Fixing LLDP example related
+     issue
+    
+    Fixes: SITSW-12492
+    
+    Signed-off-by: Souraduti Parui <s-parui@ti.com>
+
+ examples/tsn/lldp_cpsw_app/.project/project_am243x.js                       |  2 +-
+ examples/tsn/lldp_cpsw_app/.project/project_am64x.js                        |  2 +-
+ examples/tsn/lldp_cpsw_app/am64x-evm/r5fss0-0_freertos/main.c               |  2 +-
+ .../am64x-evm/r5fss0-0_freertos/ti-arm-clang/example.projectspec            | 54 +++++++++++++-------
+ .../tsn/lldp_cpsw_app/am64x-evm/r5fss0-0_freertos/ti-arm-clang/makefile     | 98 +++++++++++++++++++++----------------
+ .../lldp_cpsw_app/am64x-evm/r5fss0-0_freertos/ti-arm-clang/makefile.defs    | 11 +++++
+ .../am64x-evm/r5fss0-0_freertos/ti-arm-clang/makefile_ccs_bootimage_gen     | 46 ++++++++++-------
+ .../am64x-evm/r5fss0-0_freertos/ti-arm-clang/makefile_projectspec           |  6 +--
+ .../lldp_cpsw_app/am64x-evm/r5fss0-0_freertos/ti-arm-clang/syscfg_c.rov.xs  |  3 ++
+ examples/tsn/lldp_cpsw_app/am64x-sk/r5fss0-0_freertos/main.c                |  2 +-
+ .../am64x-sk/r5fss0-0_freertos/ti-arm-clang/example.projectspec             | 54 +++++++++++++-------
+ examples/tsn/lldp_cpsw_app/am64x-sk/r5fss0-0_freertos/ti-arm-clang/makefile | 98 +++++++++++++++++++++----------------
+ .../tsn/lldp_cpsw_app/am64x-sk/r5fss0-0_freertos/ti-arm-clang/makefile.defs | 11 +++++
+ .../am64x-sk/r5fss0-0_freertos/ti-arm-clang/makefile_ccs_bootimage_gen      | 46 ++++++++++-------
+ .../am64x-sk/r5fss0-0_freertos/ti-arm-clang/makefile_projectspec            |  6 +--
+ .../lldp_cpsw_app/am64x-sk/r5fss0-0_freertos/ti-arm-clang/syscfg_c.rov.xs   |  3 ++
+ 16 files changed, 276 insertions(+), 168 deletions(-)
+
+commit 50572449a1cf6886750708c4f9120aad7d639873
+Author: Souraduti Parui <s-parui@ti.com>
+Date:   Wed Jul 22 23:23:15 2026 +0530
+
+    am243x,am64x: enet: make lldp example internal
+    
+    - Un-supported LLDP example is made internal
+      for am243x and am64x
+    
+    Fixes: SITSW-12492
+    
+    Signed-off-by: Souraduti Parui <s-parui@ti.com>
+
+ examples/tsn/lldp_cpsw_app/.project/project_am243x.js                       |  4 +-
+ examples/tsn/lldp_cpsw_app/.project/project_am64x.js                        |  4 +-
+ examples/tsn/lldp_cpsw_app/am243x-evm/r5fss0-0_freertos/main.c              |  2 +-
+ .../am243x-evm/r5fss0-0_freertos/ti-arm-clang/example.projectspec           | 54 ++++++++++++++-------
+ .../tsn/lldp_cpsw_app/am243x-evm/r5fss0-0_freertos/ti-arm-clang/makefile    | 97 +++++++++++++++++++++----------------
+ .../lldp_cpsw_app/am243x-evm/r5fss0-0_freertos/ti-arm-clang/makefile.defs   | 11 +++++
+ .../am243x-evm/r5fss0-0_freertos/ti-arm-clang/makefile_ccs_bootimage_gen    | 45 +++++++++--------
+ .../am243x-evm/r5fss0-0_freertos/ti-arm-clang/makefile_projectspec          |  6 +--
+ .../lldp_cpsw_app/am243x-evm/r5fss0-0_freertos/ti-arm-clang/syscfg_c.rov.xs |  3 ++
+ examples/tsn/lldp_cpsw_app/am243x-lp/r5fss0-0_freertos/main.c               |  2 +-
+ .../am243x-lp/r5fss0-0_freertos/ti-arm-clang/example.projectspec            | 54 ++++++++++++++-------
+ .../tsn/lldp_cpsw_app/am243x-lp/r5fss0-0_freertos/ti-arm-clang/makefile     | 97 +++++++++++++++++++++----------------
+ .../lldp_cpsw_app/am243x-lp/r5fss0-0_freertos/ti-arm-clang/makefile.defs    | 11 +++++
+ .../am243x-lp/r5fss0-0_freertos/ti-arm-clang/makefile_ccs_bootimage_gen     | 45 +++++++++--------
+ .../am243x-lp/r5fss0-0_freertos/ti-arm-clang/makefile_projectspec           |  6 +--
+ .../lldp_cpsw_app/am243x-lp/r5fss0-0_freertos/ti-arm-clang/syscfg_c.rov.xs  |  3 ++
+ 16 files changed, 274 insertions(+), 170 deletions(-)
+
+commit 8149fbfd02b1dc202840a72a58f583b0a7bad3c3
+Author: Souraduti Parui <s-parui@ti.com>
+Date:   Wed Jul 22 10:25:38 2026 +0530
+
+    am62dx: docs: remove lldp example
+    
+    - LLDP example is internal its docs
+      is removed
+    
+    Fixes: SITSW-12492
+    
+    Signed-off-by: Souraduti Parui <s-parui@ti.com>
+
+ examples/tsn/lldp_cpsw_app/.project/project_am62dx.js                            | 4 ++--
+ .../am62dx-evm/mcu-r5fss0-0_freertos/ti-arm-clang/example.projectspec            | 2 +-
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 8210b61a1d8aa9fb6ca5e52f1dce76b292418256
+Author: Souraduti Parui <s-parui@ti.com>
+Date:   Thu Jul 16 14:21:58 2026 +0530
+
+    allsoc: docs: remove check in header file
+    
+    - Removing the cut through feature check
+      on header file becuse doxygen is unable
+      build docs gaurded by Macro
+    
+    Fixes: SITSW-12492
+    
+    Signed-off-by: Souraduti Parui <s-parui@ti.com>
+
+ include/core/enet_mod_macport.h | 4 ----
+ include/core/enet_mod_port.h    | 2 --
+ 2 files changed, 6 deletions(-)
+

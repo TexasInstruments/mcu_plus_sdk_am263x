@@ -166,6 +166,7 @@ void Crypto_PKCSPaddingForSign(const uint8_t *shaHash, uint32_t keyLengthInBytes
             output[offset + i] = shaHash[i];
         }
         offset += shaLen;
+        (void)offset;
 
     }
 

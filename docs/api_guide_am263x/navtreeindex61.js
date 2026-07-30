@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"structEEPROM__Fxns.html#a2be49cda279b71221aa7298898d929dd":[17,1,2,1,3],
+"structEEPROM__Fxns.html#a8b49c618fccd93f4a131d19f62779519":[17,1,2,1,0],
 "structEEPROM__Object.html":[17,1,2,4],
 "structEEPROM__Object.html#a648518ecd521d973da0597593c92c449":[17,1,2,4,2],
 "structEEPROM__Object.html#a8f76e10120ddf201289d110e6bf0f40c":[17,1,2,4,5],
@@ -123,6 +125,9 @@ var NAVTREEINDEX61 =
 "structEnetDma__TxChStats.html#aaf6480dfc59f9ca6fc9a5a94933b8f14":[17,4,0,0,2,3,3],
 "structEnetDma__TxChStats.html#ac2b3c2d458d2a9111f60e5cd1b515179":[17,4,0,0,2,3,4],
 "structEnetDma__initCfg.html":[17,4,0,0,0,0,9],
+"structEnetMacPort__CutThruParams.html":[17,4,0,3,13],
+"structEnetMacPort__CutThruParams.html#abe65be3e49f10d45aaca10d8a8c562c5":[17,4,0,3,13,1],
+"structEnetMacPort__CutThruParams.html#af505d0953141c33562a1a9102941091c":[17,4,0,3,13,0],
 "structEnetMacPort__EnableEgressTrafficShapingInArgs.html":[17,4,0,3,7],
 "structEnetMacPort__EnableEgressTrafficShapingInArgs.html#a6792701096ffb3b44ac49a4d9ca80ea0":[17,4,0,3,7,0],
 "structEnetMacPort__EnableEgressTrafficShapingInArgs.html#acbebff8d0e78a070648a5266f5b63181":[17,4,0,3,7,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX61 =
 "structEnetPhy__Version.html":[17,4,0,13,10],
 "structEnetPhy__Version.html#a6761be25acfe02923d1569b74ce1a25d":[17,4,0,13,10,1],
 "structEnetPhy__Version.html#ae4e18e89df0c29baae6eabcd87d89092":[17,4,0,13,10,2],
-"structEnetPhy__Version.html#ae508bfdc1dffd61a5dc5ac04fd9c52a1":[17,4,0,13,10,0],
-"structEnetQ.html":[17,4,0,7,1],
-"structEnetQ.html#a161c7fb022c75decb8ec4f5ca5f7ee57":[17,4,0,7,1,1],
-"structEnetQ.html#a9bcf5ec887e25424c14fa9e537e4bb20":[17,4,0,7,1,2],
-"structEnetQ.html#ad7175db4dec96f857742561e585fd70a":[17,4,0,7,1,3],
-"structEnetQ.html#ae652e20f61360d94c329713de4406231":[17,4,0,7,1,0]
+"structEnetPhy__Version.html#ae508bfdc1dffd61a5dc5ac04fd9c52a1":[17,4,0,13,10,0]
 };
