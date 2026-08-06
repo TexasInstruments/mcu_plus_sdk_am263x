@@ -21118,3 +21118,59 @@ Date:   Thu Jul 16 14:21:58 2026 +0530
  include/core/enet_mod_port.h    | 2 --
  2 files changed, 6 deletions(-)
 
+========================================
+Changes from build on 2026-08-06 19:40:43
+Previous commit: cfec580f41d0e515e44c1fe33f0f997d35ab2771
+Current commit: 6100d566cb25bca4ed241b1b300d2684145a60ee
+========================================
+
+commit 6100d566cb25bca4ed241b1b300d2684145a60ee
+Author: Gouri Siva M <g-t1@ti.com>
+Date:   Thu Jul 9 20:11:43 2026 +0530
+
+    allsoc: enet: Zerocopy approach for cpswstats
+    
+    - Implemented Zero copy approach for getting cpsw stats
+    
+    Fixes: MCUSDK-15732
+    
+    Signed-off-by: Gouri Siva M <g-m1@ti.com>
+
+ examples/enet_cli_app/enet_cli_debug.c                                      |  6 +++---
+ examples/enet_cpsw_est/V0/enet_cpsw_est_cfg.c                               |  9 +++++----
+ examples/enet_cpsw_est/V0/enet_cpsw_est_common.h                            |  3 ---
+ examples/enet_cpsw_est/V1/enet_cpsw_est_cfg.c                               |  9 +++++----
+ examples/enet_cpsw_est/V1/enet_cpsw_est_common.h                            |  3 ---
+ examples/enet_layer2_cpsw/V0/l2_cpsw_cfg.c                                  | 22 ++++++++++++--------
+ examples/enet_layer2_cpsw/V0/l2_cpsw_common.h                               |  3 ---
+ examples/enet_layer2_cpsw/V1/l2_cpsw_cfg.c                                  |  9 +++++----
+ examples/enet_layer2_cpsw/V1/l2_cpsw_common.h                               |  3 ---
+ examples/enet_layer2_cpsw_switch/V0/l2_cpsw_cfg.c                           |  9 +++++----
+ examples/enet_layer2_cpsw_switch/V0/l2_cpsw_common.h                        |  3 ---
+ examples/enet_layer2_cpsw_switch/V1/l2_cpsw_cfg.c                           |  9 +++++----
+ examples/enet_layer2_cpsw_switch/V1/l2_cpsw_common.h                        |  3 ---
+ examples/enet_layer2_multi_channel/V0/multi_channel_cfg.c                   |  9 +++++----
+ examples/enet_layer2_multi_channel/V0/multi_channel_common.h                |  3 ---
+ examples/enet_layer2_multi_channel/V1/multi_channel_cfg.c                   | 13 ++++++------
+ examples/enet_layer2_multi_channel/V1/multi_channel_common.h                |  3 ---
+ examples/enet_loopback/enet_cpsw_loopback/loopback_test.c                   |  8 ++++----
+ examples/enet_rawudp/app_enethandler.c                                      |  6 +++---
+ examples/enet_tx_scatter_gather/txsg_test.c                                 |  6 +++---
+ examples/tsn/aafpcm_audio_etherring_demo/common_files/background_traffic.c  | 26 +++++++++++++-----------
+ src/mod/cpsw_stats.c                                                        |  4 ++--
+ src/mod/cpsw_stats_ioctl.c                                                  | 40 ++++++++++---------------------------
+ test/cpsw_intervlan/cpsw_intervlan_task.c                                   |  6 +++---
+ test/enet_cpsw_iet/iet_loopback_test.c                                      |  6 +++---
+ test/enet_layer2_cpsw/V0/l2_cpsw_cfg.c                                      |  9 +++++----
+ test/enet_layer2_cpsw/V0/l2_cpsw_common.h                                   |  3 ---
+ test/enet_unittest/testcase_singlepkt/testcase_common_cfg.c                 |  6 +++---
+ test/layer2_cpsw_switch_test/V0/l2_cpsw_cfg.c                               |  9 +++++----
+ test/layer2_cpsw_switch_test/V0/l2_cpsw_common.h                            |  3 ---
+ test/layer2_cpsw_switch_test/V1/l2_cpsw_cfg.c                               |  9 +++++----
+ test/layer2_cpsw_switch_test/V1/l2_cpsw_common.h                            |  3 ---
+ .../performance_benchmarks/ethernet_cpsw/layer2_performance/loopback_test.c |  6 +++---
+ test/qt_avip/enet_cpsw_pkt_injection/loopback_test.c                        |  6 +++---
+ utils/enet_apputils.c                                                       |  8 ++++----
+ utils/include/enet_apputils.h                                               |  8 ++++----
+ 36 files changed, 128 insertions(+), 163 deletions(-)
+

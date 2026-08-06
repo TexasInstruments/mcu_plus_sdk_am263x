@@ -40,10 +40,58 @@
 /*                             Include Files                                  */
 /* ========================================================================== */
 
-#include <stdlib.h>
-#include <time.h>
 #include <string.h>
 #include <security_common/drivers/crypto/crypto_util.h>
+
+/* ========================================================================== */
+/*                          Macros and Typedefs                               */
+/* ========================================================================== */
+
+/** \brief  Max supported EM length in bytes for the PSS functions below
+ *          (bounds their internal stack scratch buffers). Covers up to a
+ *          4096-bit RSA modulus, the largest key size used in this repo. */
+#define CRYPTO_UTIL_PSS_MAX_EM_LEN     (512U)
+
+/** \brief  Max supported digest length in bytes (SHA-512) */
+#define CRYPTO_UTIL_PSS_MAX_HASH_LEN   (64U)
+
+/* ========================================================================== */
+/*                          Global Variables                                  */
+/* ========================================================================== */
+
+/**
+ *  \brief  ASN.1 DER DigestInfo prefixes for EMSA-PKCS1-v1_5 encoding,
+ *          as per RFC 8017 Section 9.2 Note 1.
+ *  @{
+ */
+static const uint8_t gCryptoSha1DigestInfo[] =
+{
+    0x30U, 0x21U, 0x30U, 0x09U, 0x06U, 0x05U, 0x2bU, 0x0eU,
+    0x03U, 0x02U, 0x1aU, 0x05U, 0x00U, 0x04U, 0x14U
+};
+
+static const uint8_t gCryptoSha256DigestInfo[] =
+{
+    0x30U, 0x31U, 0x30U, 0x0dU, 0x06U, 0x09U, 0x60U, 0x86U,
+    0x48U, 0x01U, 0x65U, 0x03U, 0x04U, 0x02U, 0x01U, 0x05U,
+    0x00U, 0x04U, 0x20U
+};
+
+static const uint8_t gCryptoSha384DigestInfo[] =
+{
+    0x30U, 0x41U, 0x30U, 0x0dU, 0x06U, 0x09U, 0x60U, 0x86U,
+    0x48U, 0x01U, 0x65U, 0x03U, 0x04U, 0x02U, 0x02U, 0x05U,
+    0x00U, 0x04U, 0x30U
+};
+
+static const uint8_t gCryptoSha512DigestInfo[] =
+{
+    0x30U, 0x51U, 0x30U, 0x0dU, 0x06U, 0x09U, 0x60U, 0x86U,
+    0x48U, 0x01U, 0x65U, 0x03U, 0x04U, 0x02U, 0x03U, 0x05U,
+    0x00U, 0x04U, 0x40U
+};
+/** @} */
+
 /* ========================================================================== */
 /*                          Function Definitions                              */
 /* ========================================================================== */
@@ -124,26 +172,66 @@ void Crypto_bigIntToUint32(uint32_t *source, uint32_t sourceLengthInWords, uint3
     return;
 }
 
-void Crypto_PKCSPaddingForSign(const uint8_t *shaHash, uint32_t keyLengthInBytes, uint32_t typeOfAlgo, uint8_t *output)
+/**
+ *  \brief  Maps a \ref Crypto_AlgoTypes value to its digest length in bytes.
+ *
+ *  \return Digest length in bytes, or 0 for an unrecognized typeOfAlgo.
+ */
+static uint32_t Crypto_getHashLenBytes(uint32_t typeOfAlgo)
 {
-    uint32_t  i, shaLen = 0, psLen = 0, offset = 0;
+    uint32_t hashLen = 0U;
 
     switch(typeOfAlgo)
     {
-        case 0U:
-            shaLen = 20U;
+        case HASH_ALG_SHA1:
+            hashLen = 20U;
         break;
-        case 1U:
-            shaLen = 32U; 
+        case HASH_ALG_SHA2_256:
+            hashLen = 32U;
         break;
-        case 2U:
-            shaLen = 64U; 
+        case HASH_ALG_SHA2_512:
+            hashLen = 64U;
+        break;
+        case HASH_ALG_SHA2_384:
+            hashLen = 48U;
         break;
         default:
         break;
     }
 
-    psLen = keyLengthInBytes - 3U - shaLen;
+    return hashLen;
+}
+
+void Crypto_PKCSPaddingForSign(const uint8_t *shaHash, uint32_t keyLengthInBytes, uint32_t typeOfAlgo, uint8_t *output)
+{
+    uint32_t  i, psLen = 0, offset = 0;
+    uint32_t shaLen = Crypto_getHashLenBytes(typeOfAlgo);
+    const uint8_t *digestInfo = NULL;
+    uint32_t digestInfoLen = 0;
+
+    switch(typeOfAlgo)
+    {
+        case HASH_ALG_SHA1:
+            digestInfo = gCryptoSha1DigestInfo;
+            digestInfoLen = sizeof(gCryptoSha1DigestInfo);
+        break;
+        case HASH_ALG_SHA2_256:
+            digestInfo = gCryptoSha256DigestInfo;
+            digestInfoLen = sizeof(gCryptoSha256DigestInfo);
+        break;
+        case HASH_ALG_SHA2_512:
+            digestInfo = gCryptoSha512DigestInfo;
+            digestInfoLen = sizeof(gCryptoSha512DigestInfo);
+        break;
+        case HASH_ALG_SHA2_384:
+            digestInfo = gCryptoSha384DigestInfo;
+            digestInfoLen = sizeof(gCryptoSha384DigestInfo);
+        break;
+        default:
+        break;
+    }
+
+    psLen = keyLengthInBytes - 3U - digestInfoLen - shaLen;
 
     output[offset] = 0x00;
     offset++;
@@ -154,52 +242,205 @@ void Crypto_PKCSPaddingForSign(const uint8_t *shaHash, uint32_t keyLengthInBytes
     {
         output[offset+i] = 0xFFU;
     }
+    offset += psLen;
 
-    if (shaLen != 0U)
+    output[offset] = 0x00;
+    offset++;
+
+    for(i = 0; i < digestInfoLen; i++)
     {
-        offset = offset + psLen;
-        output[offset]= 0x00;
-        offset++;
-
-        for(i = 0; i < shaLen; i++)
-        {
-            output[offset + i] = shaHash[i];
-        }
-        offset += shaLen;
-        (void)offset;
-
+        output[offset + i] = digestInfo[i];
     }
+    offset += digestInfoLen;
+
+    for(i = 0; i < shaLen; i++)
+    {
+        output[offset + i] = shaHash[i];
+    }
+    offset += shaLen;
 
     return;
 }
 
-void Crypto_PKCSPaddingForMessage(const uint8_t *message, uint32_t msgLengthInBytes, uint32_t keyLengthInBytes, uint8_t *output)
+uint32_t Crypto_MGF1(Crypto_ShaCallback shaCbFxn, uint32_t hashLenInBytes,
+                      uint8_t *seedBuf, uint32_t seedLenInBytes,
+                      uint8_t *mask, uint32_t maskLenInBytes)
 {
-    uint32_t  i, psLen, offset = 0;
-    uint32_t upper = 99U, lower = 1U;
-    output[offset] = 0x00U;
-    offset++;
-    output[offset] = 0x02U;
-    offset++;
-    psLen = keyLengthInBytes - msgLengthInBytes - 3U;
+    uint8_t  digest[CRYPTO_UTIL_PSS_MAX_HASH_LEN];
+    uint32_t maskBytes = 0U, counter = 0U, toCopy;
+    uint32_t ret = 0U;
 
-    /* Initializes random number generator */
-       srand((uint32_t) time(NULL));
-
-       /* n random numbers from 0 to 99 */
-       for( i = 0 ; i < psLen ; i++ )
-       {
-        output[offset + i] = ((uint32_t)rand() %(upper-lower+1U))+lower;
-       }
-       offset = offset + psLen;
-
-    output[offset]= 0x00;
-    offset++;
-
-    for(i = 0; i<msgLengthInBytes; i++)
+    while (maskBytes < maskLenInBytes)
     {
-        output[offset + i] = message[i];
+        seedBuf[seedLenInBytes]      = (uint8_t)((counter >> 24U) & 0xFFU);
+        seedBuf[seedLenInBytes + 1U] = (uint8_t)((counter >> 16U) & 0xFFU);
+        seedBuf[seedLenInBytes + 2U] = (uint8_t)((counter >> 8U)  & 0xFFU);
+        seedBuf[seedLenInBytes + 3U] = (uint8_t)(counter & 0xFFU);
+
+        ret = shaCbFxn(seedBuf, seedLenInBytes + 4U, digest);
+        if (ret != 0U)
+        {
+            break;
+        }
+
+        toCopy = maskLenInBytes - maskBytes;
+        if (toCopy > hashLenInBytes)
+        {
+            toCopy = hashLenInBytes;
+        }
+        (void)memcpy(&mask[maskBytes], digest, toCopy);
+        maskBytes += toCopy;
+        counter++;
     }
 
-    return;
+    return ret;
+}
+
+uint32_t Crypto_PSSPaddingForSign(Crypto_ShaCallback shaCbFxn, uint32_t typeOfAlgo,
+                                   const uint8_t *msgHash, const uint8_t *salt, uint32_t saltLenInBytes,
+                                   uint32_t modBits, uint32_t emLenInBytes, uint8_t *output)
+{
+    uint32_t hashLenInBytes = Crypto_getHashLenBytes(typeOfAlgo);
+    uint32_t dbLen = 0U, psLen = 0U, i, topBits, lowMask;
+    uint8_t  mPrime[8U + CRYPTO_UTIL_PSS_MAX_HASH_LEN + CRYPTO_UTIL_PSS_MAX_HASH_LEN];
+    uint8_t  H[CRYPTO_UTIL_PSS_MAX_HASH_LEN + 4U];
+    uint8_t  dbMask[CRYPTO_UTIL_PSS_MAX_EM_LEN];
+    uint8_t  dbByte;
+    uint32_t ret = 1U;
+
+    if ((hashLenInBytes != 0U) &&
+        (emLenInBytes >= (hashLenInBytes + saltLenInBytes + 2U)) &&
+        (emLenInBytes <= CRYPTO_UTIL_PSS_MAX_EM_LEN))
+    {
+        ret = 0U;
+    }
+
+    if (ret == 0U)
+    {
+        dbLen = emLenInBytes - hashLenInBytes - 1U;
+        psLen = emLenInBytes - hashLenInBytes - saltLenInBytes - 2U;
+
+        (void)memset(mPrime, 0x00U, 8U);
+        (void)memcpy(&mPrime[8U], msgHash, hashLenInBytes);
+        (void)memcpy(&mPrime[8U + hashLenInBytes], salt, saltLenInBytes);
+
+        ret = shaCbFxn(mPrime, 8U + hashLenInBytes + saltLenInBytes, H);
+    }
+
+    if (ret == 0U)
+    {
+        ret = Crypto_MGF1(shaCbFxn, hashLenInBytes, H, hashLenInBytes, dbMask, dbLen);
+    }
+
+    if (ret == 0U)
+    {
+        for (i = 0U; i < dbLen; i++)
+        {
+            if (i < psLen)
+            {
+                dbByte = 0x00U;
+            }
+            else if (i == psLen)
+            {
+                dbByte = 0x01U;
+            }
+            else
+            {
+                dbByte = salt[i - psLen - 1U];
+            }
+            output[i] = dbByte ^ dbMask[i];
+        }
+
+        topBits = 8U - ((8U * emLenInBytes) - modBits + 1U);
+        lowMask = (uint32_t)((1U << topBits) - 1U);
+        output[0U] &= (uint8_t)lowMask;
+
+        (void)memcpy(&output[dbLen], H, hashLenInBytes);
+        output[emLenInBytes - 1U] = 0xBCU;
+    }
+
+    return ret;
+}
+
+uint32_t Crypto_PSSVerify(Crypto_ShaCallback shaCbFxn, uint32_t typeOfAlgo,
+                           const uint8_t *msgHash, uint32_t saltLenInBytes,
+                           uint32_t modBits, const uint8_t *EM, uint32_t emLenInBytes)
+{
+    uint32_t hashLenInBytes = Crypto_getHashLenBytes(typeOfAlgo);
+    uint32_t dbLen = 0U, psLen = 0U, i, topBits, lowMask, highMask;
+    uint8_t  H[CRYPTO_UTIL_PSS_MAX_HASH_LEN + 4U];
+    uint8_t  DB[CRYPTO_UTIL_PSS_MAX_EM_LEN];
+    uint8_t  mPrime[8U + CRYPTO_UTIL_PSS_MAX_HASH_LEN + CRYPTO_UTIL_PSS_MAX_HASH_LEN];
+    uint8_t  HPrime[CRYPTO_UTIL_PSS_MAX_HASH_LEN];
+    uint32_t ret = 1U;
+
+    if ((hashLenInBytes != 0U) &&
+        (emLenInBytes >= (hashLenInBytes + saltLenInBytes + 2U)) &&
+        (emLenInBytes <= CRYPTO_UTIL_PSS_MAX_EM_LEN) &&
+        (EM[emLenInBytes - 1U] == 0xBCU))
+    {
+        ret = 0U;
+    }
+
+    if (ret == 0U)
+    {
+        dbLen = emLenInBytes - hashLenInBytes - 1U;
+        psLen = emLenInBytes - hashLenInBytes - saltLenInBytes - 2U;
+
+        topBits  = 8U - ((8U * emLenInBytes) - modBits + 1U);
+        lowMask  = (uint32_t)((1U << topBits) - 1U);
+        highMask = ~lowMask;
+
+        if ((EM[0U] & (uint8_t)highMask) != 0U)
+        {
+            ret = 1U;
+        }
+    }
+
+    if (ret == 0U)
+    {
+        (void)memcpy(H, &EM[dbLen], hashLenInBytes);
+        ret = Crypto_MGF1(shaCbFxn, hashLenInBytes, H, hashLenInBytes, DB, dbLen);
+    }
+
+    if (ret == 0U)
+    {
+        for (i = 0U; i < dbLen; i++)
+        {
+            DB[i] ^= EM[i];
+        }
+        DB[0U] &= (uint8_t)lowMask;
+
+        for (i = 0U; i < psLen; i++)
+        {
+            if (DB[i] != 0x00U)
+            {
+                ret = 1U;
+            }
+        }
+
+        if ((ret == 0U) && (DB[psLen] != 0x01U))
+        {
+            ret = 1U;
+        }
+    }
+
+    if (ret == 0U)
+    {
+        (void)memset(mPrime, 0x00U, 8U);
+        (void)memcpy(&mPrime[8U], msgHash, hashLenInBytes);
+        (void)memcpy(&mPrime[8U + hashLenInBytes], &DB[psLen + 1U], saltLenInBytes);
+
+        ret = shaCbFxn(mPrime, 8U + hashLenInBytes + saltLenInBytes, HPrime);
+    }
+
+    if (ret == 0U)
+    {
+        if (memcmp(HPrime, &EM[dbLen], hashLenInBytes) != 0)
+        {
+            ret = 1U;
+        }
+    }
+
+    return ret;
 }

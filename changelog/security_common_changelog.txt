@@ -524,3 +524,36 @@ Date:   Tue Jul 28 19:43:23 2026 +0530
  drivers/secure_ipc_notify/sipc_notify_src.c | 8 ++++----
  3 files changed, 6 insertions(+), 4 deletions(-)
 
+========================================
+Changes from build on 2026-08-06 19:40:35
+Previous commit: e1d2b0287cfd2071b61c207140bfc48707b98cef
+Current commit: f09dfac235c9e10618533fca5e50848dc66421e0
+========================================
+
+commit f09dfac235c9e10618533fca5e50848dc66421e0
+Author: Aakash Kedia <a-kedia@ti.com>
+Date:   Thu Jul 30 23:36:23 2026 +0530
+
+    am26xx/f29xx: crypto/util: Add DigestInfo to PKCS#1 v1.5 sign padding
+    
+    Crypto_PKCSPaddingForSign built EM as 0x00||0x01||PS||0x00||Hash,
+    omitting the ASN.1 DER DigestInfo header required by EMSA-PKCS1-v1_5
+    (RFC 8017 Section 9.2). Cert_Auth_RSAVerify expects the DigestInfo
+    header, so signatures produced by this helper did not match the
+    format its callers rely on for verification.
+    
+    - Add DigestInfo tables for SHA-1/256/384/512
+    - Rewrite the function to emit the full RFC 8017 Section 9.2 encoding
+    - Add HASH_ALG_SHA2_384 to support SHA-384 padding
+    - Remove Crypto_PKCSPaddingForMessage: EME-PKCS1-v1_5 encryption
+      padding with zero callers in the codebase; RSA encryption examples
+      use raw/unpadded RSA instead
+    
+    Fixes: TIFSMCU-5721, TIFSMCU-5722
+    
+    Signed-off-by: Aakash Kedia <a-kedia@ti.com>
+
+ drivers/crypto/crypto_util.c | 321 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-----------
+ drivers/crypto/crypto_util.h | 109 ++++++++++++++++++++++++++--
+ 2 files changed, 384 insertions(+), 46 deletions(-)
+
