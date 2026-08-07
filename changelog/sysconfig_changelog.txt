@@ -4832,3 +4832,26 @@ Date:   Wed Jul 8 15:01:18 2026 +0530
  xbar/.meta/xbar.syscfg.js                                                   |    8 +
  1567 files changed, 160965 insertions(+)
 
+========================================
+Changes from build on 2026-08-07 19:39:01
+Previous commit: 57542a24b883d63e5a0e6d3e5bb2447b8230b813
+Current commit: 139457c5e9add536a0bc647b51353ed5caaef86f
+========================================
+
+commit 139457c5e9add536a0bc647b51353ed5caaef86f
+Author: BensenBernard <b-bernard@ti.com>
+Date:   Wed Jul 29 17:21:11 2026 +0530
+
+    am26xx: mcspi: add mcspi fifo enable/disable option
+    
+    - Added mcspi support to fifo enable/disable
+    
+    Fixes: MCUSDK-15679
+    
+    Signed-off-by: Bensen Bernard <b-bernard@ti.com>
+
+ drivers/.meta/mcspi/templates/mcspi_v1_config_lld.c.xdt        |  2 ++
+ drivers/.meta/mcspi/templates/mcspi_v1_open_close_config.c.xdt |  2 ++
+ drivers/.meta/mcspi/v1/mcspi_v1.syscfg.js                      | 92 ++++++++++++++++++++++++++++++++++++++++++++------
+ 3 files changed, 86 insertions(+), 10 deletions(-)
+

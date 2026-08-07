@@ -52,12 +52,12 @@
 #define RTDMA_SM3_TRANSFER_STEP_NEG     ((int16_t)-60)  /* Negative (SM3_blockSize-1)*wordSize = -(15*4) = -60 for SM3 transfer step reset */
 
 /* DTHE AES/SHA/SM3/SM4 DMA trigger sources for HSM RTDMA */
-#define RTDMA_TRIGGER_DTHE_AES_DATAIN   DMA_TRIGGER_DTHE_AES_DMA_S_DATAIN_REQ
-#define RTDMA_TRIGGER_DTHE_AES_DATAOUT  DMA_TRIGGER_DTHE_AES_DMA_S_DATAOUT_REQ
-#define RTDMA_TRIGGER_DTHE_SHA_DATAIN   DMA_TRIGGER_DTHE_SHA_DMA_S_DATAIN_REQ
-#define RTDMA_TRIGGER_DTHE_SM3_DATAIN   DMA_TRIGGER_DTHE_SM3_DATAIN_REQ
-#define RTDMA_TRIGGER_DTHE_SM4_DATAIN   DMA_TRIGGER_DTHE_SM4_DATAIN_REQ
-#define RTDMA_TRIGGER_DTHE_SM4_DATAOUT  DMA_TRIGGER_DTHE_SM4_DATAOUT_REQ
+#define RTDMA_TRIGGER_DTHE_AES_DATAIN   (DMA_TRIGGER_DTHE_AES_DMA_S_DATAIN_REQ)
+#define RTDMA_TRIGGER_DTHE_AES_DATAOUT  (DMA_TRIGGER_DTHE_AES_DMA_S_DATAOUT_REQ)
+#define RTDMA_TRIGGER_DTHE_SHA_DATAIN   (DMA_TRIGGER_DTHE_SHA_DMA_S_DATAIN_REQ)
+#define RTDMA_TRIGGER_DTHE_SM3_DATAIN   (DMA_TRIGGER_DTHE_SM3_DATAIN_REQ)
+#define RTDMA_TRIGGER_DTHE_SM4_DATAIN   (DMA_TRIGGER_DTHE_SM4_DATAIN_REQ)
+#define RTDMA_TRIGGER_DTHE_SM4_DATAOUT  (DMA_TRIGGER_DTHE_SM4_DATAOUT_REQ)
 
 /* RTDMA channel parameter indices */
 #define RTDMA_TX_CH_PARAMS_INDEX        (0U)
@@ -144,7 +144,7 @@ void RTDMA_init(void)
  *
  *  \return SystemP_SUCCESS on success, SystemP_FAILURE on error
  */
-int32_t RTDMA_Config_TxChannel(DMA_Handle handle, uint32_t *srcAddress, uint32_t *dstAddress, uint16_t numBlocks, uint16_t blockSize, int32_t operationType)
+int32_t RTDMA_Config_TxChannel(DMA_Handle handle, const uint32_t *srcAddress, const uint32_t *dstAddress, uint16_t numBlocks, uint16_t blockSize, int32_t operationType)
 {
     int32_t         status = SystemP_FAILURE;
     uint32_t        rtdmaChannelBase;
@@ -192,9 +192,9 @@ int32_t RTDMA_Config_TxChannel(DMA_Handle handle, uint32_t *srcAddress, uint32_t
             burstSize = blockSize*RTDMA_WORD_SIZE;
             transferSize = numBlocks;
             srcBurstStep = (int16_t)RTDMA_WORD_SIZE;       /* Increment source by 4 bytes per word */
-            destBurstStep = 0U;                              /* Destination stays at same location (peripheral register) */
+            destBurstStep = 0;                              /* Destination stays at same location (peripheral register) */
             srcTransferStep = (int16_t)(RTDMA_WORD_SIZE);  /* Move to next block */
-            destTransferStep = 0U;                           /* Destination doesn't change between transfers */
+            destTransferStep = 0;                           /* Destination doesn't change between transfers */
             status = SystemP_SUCCESS;
 
         }
@@ -325,7 +325,7 @@ int32_t RTDMA_WaitForTxTransfer(DMA_Handle handle)
     return (status);
 }
 
-int32_t RTDMA_Config_RxChannel(DMA_Handle handle, uint32_t *srcAddress, uint32_t *dstAddress, uint16_t numBlocks, int32_t operationType)
+int32_t RTDMA_Config_RxChannel(DMA_Handle handle, const uint32_t *srcAddress, const uint32_t *dstAddress, uint16_t numBlocks, int32_t operationType)
 {
     int32_t         status = SystemP_FAILURE;
     uint32_t        rtdmaChannelBase;
@@ -453,7 +453,7 @@ int32_t RTDMA_enableRxTransferRegion(DMA_Handle handle)
     return (status);
 }
 
-int32_t RTDMA_WaitForRxTransfer(DMA_Handle handle)
+int32_t RTDMA_WaitForRxTransfer(DMA_Handle  handle)
 {
     int32_t status = SystemP_FAILURE;
 

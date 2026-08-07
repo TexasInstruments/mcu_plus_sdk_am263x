@@ -428,7 +428,7 @@ AsymCrypt_Handle AsymCrypt_open(uint32_t index)
         config = &gPkaConfig[index];
         DebugP_assert(NULL != config->attrs);
         attrs = config->attrs;
-        if(TRUE == attrs->isOpen)
+        if(1U == attrs->isOpen)
         {
             /* Handle is already opened */
             status = ASYM_CRYPT_RETURN_FAILURE;
@@ -454,7 +454,7 @@ AsymCrypt_Handle AsymCrypt_open(uint32_t index)
 
     if(ASYM_CRYPT_RETURN_SUCCESS == status)
     {
-        attrs->isOpen = TRUE;
+        attrs->isOpen = 1U;
         handle = (AsymCrypt_Handle) config;
     }
 

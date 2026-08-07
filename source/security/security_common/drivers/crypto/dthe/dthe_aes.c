@@ -81,7 +81,7 @@ static uint8_t gStreamState = AES_STATE_NEW;
 /*                 Internal Function Declarations                             */
 /* ========================================================================== */
 static void DTHE_AES_CTRWidth(CSL_AesRegs *ptrAesRegs, uint32_t ctrWidth);
-static void DTHE_AES_updateXTSIv(CSL_AesRegs *ptrAesRegs, const DTHE_AES_Params* ptrParams, uint32_t *newIv, Bool isFirstBlock);
+static void DTHE_AES_updateXTSIv(CSL_AesRegs *ptrAesRegs, const DTHE_AES_Params* ptrParams, const uint32_t *newIv, Bool isFirstBlock);
 static void DTHE_AES_setDMAContextStatus(CSL_AesRegs *ptrAesRegs, uint8_t dmaStatus);
 static void DTHE_AES_setDMAOutputRequestStatus(CSL_AesRegs *ptrAesRegs, uint8_t dmaStatus);
 static void DTHE_AES_setDMAInputRequestStatus(CSL_AesRegs *ptrAesRegs, uint8_t dmaStatus);
@@ -89,7 +89,7 @@ static void DTHE_AES_setKeySize(CSL_AesRegs *ptrAesRegs, uint8_t size);
 static void DTHE_AES_set256BitKey1(CSL_AesRegs *ptrAesRegs, const uint32_t* ptrKey);
 static void DTHE_AES_clearIV(CSL_AesRegs *ptrAesRegs);
 static void DTHE_AES_setIV(CSL_AesRegs *ptrAesRegs, const uint32_t* ptrIV);
-static void DTHE_AES_readIV(CSL_AesRegs *ptrAesRegs, uint32_t* ivReg);
+static inline void DTHE_AES_readIV(const CSL_AesRegs *ptrAesRegs, uint32_t* ivReg);
 static void DTHE_AES_set128BitKey2Part1(CSL_AesRegs *ptrAesRegs, const uint32_t* ptrKey);
 static void DTHE_AES_set128BitKey2Part2(CSL_AesRegs *ptrAesRegs, const uint32_t* ptrKey);
 static void DTHE_AES_clearKey2Part1(CSL_AesRegs *ptrAesRegs);
@@ -102,12 +102,12 @@ static void DTHE_AES_readDataBlock(const CSL_AesRegs *ptrAesRegs, uint32_t* ptrD
 static void DTHE_AES_resetModule(CSL_AesRegs *ptrAesRegs);
 static void DTHE_AES_controlMode(CSL_AesRegs *ptrAesRegs, uint32_t algoType);
 static void DTHE_AES_setOpType(CSL_AesRegs *ptrAesRegs, uint32_t opType);
-static void DTHE_AES_setDataLengthBytes(CSL_AesRegs *ptrAesRegs, uint32_t dataLenBytes);
-static void DTHE_AES_setAADLengthBytes(CSL_AesRegs *ptrAesRegs, uint32_t aadLenBytes);
+static inline void DTHE_AES_setDataLengthBytes(CSL_AesRegs *ptrAesRegs, uint32_t dataLenBytes);
+static inline void DTHE_AES_setAADLengthBytes(CSL_AesRegs *ptrAesRegs, uint32_t aadLenBytes);
 static void DTHE_AES_readTag(const CSL_AesRegs *ptrAesRegs, uint32_t* ptrTag);
 static void DTHE_AES_clearAllInterrupts(CSL_AesRegs *ptrAesRegs);
-static void DTHE_AES_setCCM_L(CSL_AesRegs *ptrAesRegs, uint32_t ccmLenBytes);
-static void DTHE_AES_setCCM_M(CSL_AesRegs *ptrAesRegs, uint32_t ccmMLenBytes);
+static inline void DTHE_AES_setCCM_L(CSL_AesRegs *ptrAesRegs, uint32_t ccmLenBytes);
+static inline void DTHE_AES_setCCM_M(CSL_AesRegs *ptrAesRegs, uint32_t ccmMLenBytes);
 /* ========================================================================== */
 /*                          Function Definitions                              */
 /* ========================================================================== */
@@ -320,7 +320,7 @@ static inline void DTHE_AES_setCCM_M(CSL_AesRegs *ptrAesRegs, uint32_t ccmMLenBy
     CSL_REG32_FINS(&ptrAesRegs->CTRL, AES_S_CTRL_CCM_M, ccmMLenBytes);
 }
 
-static void DTHE_AES_updateXTSIv(CSL_AesRegs *ptrAesRegs, const DTHE_AES_Params* ptrParams, uint32_t *newIv, Bool isFirstBlock)
+static void DTHE_AES_updateXTSIv(CSL_AesRegs *ptrAesRegs, const DTHE_AES_Params* ptrParams, const uint32_t *newIv, Bool isFirstBlock)
 {
     if(isFirstBlock == TRUE)
     {
@@ -700,7 +700,7 @@ DTHE_AES_Return_t DTHE_AES_execute(DTHE_Handle handle, const DTHE_AES_Params* pt
 
                                 /* Enable AES DMA input request before arming RTDMA so the
                                  * trigger is already pending when DMA_startChannel is called. */
-                                DTHE_AES_setDMAInputRequestStatus(ptrAesRegs, 1);
+                                DTHE_AES_setDMAInputRequestStatus(ptrAesRegs, 1U);
                                 (void)DMA_startTxChannel(dmaHandle);
 
                                 /* Poll for completion */
@@ -837,12 +837,12 @@ DTHE_AES_Return_t DTHE_AES_execute(DTHE_Handle handle, const DTHE_AES_Params* pt
                     if((ptrParams->algoType != DTHE_AES_CBC_MAC_MODE)&&(ptrParams->algoType != DTHE_AES_CMAC_MODE)&&(ptrParams->algoType != DTHE_AES_GHASH_ONLY_MODE))
                     {
                         (void)DMA_enableRxTransferRegion(dmaHandle);
-                        DTHE_AES_setDMAOutputRequestStatus(ptrAesRegs, 1);
+                        DTHE_AES_setDMAOutputRequestStatus(ptrAesRegs, 1U);
                         (void)DMA_startRxChannel(dmaHandle);
                     }
 
                     (void)DMA_enableTxTransferRegion(dmaHandle);
-                    DTHE_AES_setDMAInputRequestStatus(ptrAesRegs, 1);
+                    DTHE_AES_setDMAInputRequestStatus(ptrAesRegs, 1U);
                     (void)DMA_startTxChannel(dmaHandle);
 
                     if((ptrParams->algoType != DTHE_AES_CBC_MAC_MODE)&&(ptrParams->algoType != DTHE_AES_CMAC_MODE)&&(ptrParams->algoType != DTHE_AES_GHASH_ONLY_MODE))
@@ -1164,7 +1164,7 @@ static void DTHE_AES_setDMAInputRequestStatus(CSL_AesRegs *ptrAesRegs, uint8_t d
  */
 static void DTHE_AES_setKeySize(CSL_AesRegs *ptrAesRegs, uint8_t size)
 {
-    uint8_t keySize;
+    uint32_t keySize;
 
     if (size == CSL_AES_S_CTRL_KEY_SIZE_KEY128)
     {
@@ -1335,7 +1335,7 @@ static void DTHE_AES_setIV(CSL_AesRegs *ptrAesRegs, const uint32_t* ptrIV)
  * \param   ivReg           Pointer to the IV buffer populated by the API
  *
  */
-static inline void DTHE_AES_readIV(CSL_AesRegs *ptrAesRegs, uint32_t* ivReg)
+static inline void DTHE_AES_readIV(const CSL_AesRegs *ptrAesRegs, uint32_t* ivReg)
 {
     ivReg[0U] = ptrAesRegs->IV_IN_0;
     ivReg[1U] = ptrAesRegs->IV_IN_1;

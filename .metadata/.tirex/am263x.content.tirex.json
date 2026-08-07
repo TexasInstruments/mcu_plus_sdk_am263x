@@ -7477,6 +7477,39 @@
         "resourceSubClass": [
             "example.general"
         ],
+        "description": "A Ipc Notify Echo Example. CPU is R5FSS0-0 running THREADX.",
+        "name": "ipc_notify_echo",
+        "location": "../../examples/drivers/ipc/ipc_notify_echo/am263x-cc/r5fss0-0_threadx/ti-arm-clang/example.projectspec",
+        "devtools": [
+            "TMDSCNCD263"
+        ],
+        "kernel": [
+            null
+        ],
+        "compiler": [
+            "ticlang"
+        ],
+        "subCategories": [
+            "drivers",
+            "ipc",
+            "ipc_notify_echo",
+            "r5fss0-0_threadx"
+        ],
+        "mainCategories": [
+            [
+                "Examples",
+                "Development Tools"
+            ]
+        ]
+    },
+    {
+        "resourceType": "project.ccs",
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ],
         "description": "A Ipc Notify Echo Example. CPU is R5FSS0-1 running NORTOS.",
         "name": "ipc_notify_echo",
         "location": "../../examples/drivers/ipc/ipc_notify_echo/am263x-cc/r5fss0-1_nortos/ti-arm-clang/example.projectspec",
@@ -7593,6 +7626,39 @@
             "ipc",
             "ipc_notify_echo",
             "r5fss0-0_freertos"
+        ],
+        "mainCategories": [
+            [
+                "Examples",
+                "Development Tools"
+            ]
+        ]
+    },
+    {
+        "resourceType": "project.ccs",
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ],
+        "description": "A Ipc Notify Echo Example. CPU is R5FSS0-0 running THREADX.",
+        "name": "ipc_notify_echo",
+        "location": "../../examples/drivers/ipc/ipc_notify_echo/am263x-lp/r5fss0-0_threadx/ti-arm-clang/example.projectspec",
+        "devtools": [
+            "LP-AM263"
+        ],
+        "kernel": [
+            null
+        ],
+        "compiler": [
+            "ticlang"
+        ],
+        "subCategories": [
+            "drivers",
+            "ipc",
+            "ipc_notify_echo",
+            "r5fss0-0_threadx"
         ],
         "mainCategories": [
             [
@@ -15530,6 +15596,254 @@
         "resourceSubClass": [
             "example.gettingstarted"
         ],
+        "description": "An Empty Example. This example is intended to be a starting point for new development CPU is R5FSS0-0 running THREADX.",
+        "name": "empty",
+        "location": "../../examples/empty/am263x-cc/r5fss0-0_threadx/ti-arm-clang/example.projectspec",
+        "devtools": [
+            "TMDSCNCD263"
+        ],
+        "kernel": [
+            null
+        ],
+        "compiler": [
+            "ticlang"
+        ],
+        "subCategories": [
+            "empty",
+            "r5fss0-0_threadx"
+        ],
+        "mainCategories": [
+            [
+                "Examples",
+                "Development Tools"
+            ]
+        ]
+    },
+    {
+        "resourceType": "project.ccs",
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.gettingstarted"
+        ],
+        "description": "An Empty Example. This example is intended to be a starting point for new development CPU is R5FSS0-1 running THREADX.",
+        "name": "empty",
+        "location": "../../examples/empty/am263x-cc/r5fss0-1_threadx/ti-arm-clang/example.projectspec",
+        "devtools": [
+            "TMDSCNCD263"
+        ],
+        "kernel": [
+            null
+        ],
+        "compiler": [
+            "ticlang"
+        ],
+        "subCategories": [
+            "empty",
+            "r5fss0-1_threadx"
+        ],
+        "mainCategories": [
+            [
+                "Examples",
+                "Development Tools"
+            ]
+        ]
+    },
+    {
+        "resourceType": "project.ccs",
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.gettingstarted"
+        ],
+        "description": "An Empty Example. This example is intended to be a starting point for new development CPU is R5FSS1-0 running THREADX.",
+        "name": "empty",
+        "location": "../../examples/empty/am263x-cc/r5fss1-0_threadx/ti-arm-clang/example.projectspec",
+        "devtools": [
+            "TMDSCNCD263"
+        ],
+        "kernel": [
+            null
+        ],
+        "compiler": [
+            "ticlang"
+        ],
+        "subCategories": [
+            "empty",
+            "r5fss1-0_threadx"
+        ],
+        "mainCategories": [
+            [
+                "Examples",
+                "Development Tools"
+            ]
+        ]
+    },
+    {
+        "resourceType": "project.ccs",
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.gettingstarted"
+        ],
+        "description": "An Empty Example. This example is intended to be a starting point for new development CPU is R5FSS1-1 running THREADX.",
+        "name": "empty",
+        "location": "../../examples/empty/am263x-cc/r5fss1-1_threadx/ti-arm-clang/example.projectspec",
+        "devtools": [
+            "TMDSCNCD263"
+        ],
+        "kernel": [
+            null
+        ],
+        "compiler": [
+            "ticlang"
+        ],
+        "subCategories": [
+            "empty",
+            "r5fss1-1_threadx"
+        ],
+        "mainCategories": [
+            [
+                "Examples",
+                "Development Tools"
+            ]
+        ]
+    },
+    {
+        "resourceType": "project.ccs",
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.gettingstarted"
+        ],
+        "description": "An Empty Example. This example is intended to be a starting point for new development CPU is R5FSS0-0 running THREADX.",
+        "name": "empty",
+        "location": "../../examples/empty/am263x-lp/r5fss0-0_threadx/ti-arm-clang/example.projectspec",
+        "devtools": [
+            "LP-AM263"
+        ],
+        "kernel": [
+            null
+        ],
+        "compiler": [
+            "ticlang"
+        ],
+        "subCategories": [
+            "empty",
+            "r5fss0-0_threadx"
+        ],
+        "mainCategories": [
+            [
+                "Examples",
+                "Development Tools"
+            ]
+        ]
+    },
+    {
+        "resourceType": "project.ccs",
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.gettingstarted"
+        ],
+        "description": "An Empty Example. This example is intended to be a starting point for new development CPU is R5FSS0-1 running THREADX.",
+        "name": "empty",
+        "location": "../../examples/empty/am263x-lp/r5fss0-1_threadx/ti-arm-clang/example.projectspec",
+        "devtools": [
+            "LP-AM263"
+        ],
+        "kernel": [
+            null
+        ],
+        "compiler": [
+            "ticlang"
+        ],
+        "subCategories": [
+            "empty",
+            "r5fss0-1_threadx"
+        ],
+        "mainCategories": [
+            [
+                "Examples",
+                "Development Tools"
+            ]
+        ]
+    },
+    {
+        "resourceType": "project.ccs",
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.gettingstarted"
+        ],
+        "description": "An Empty Example. This example is intended to be a starting point for new development CPU is R5FSS1-0 running THREADX.",
+        "name": "empty",
+        "location": "../../examples/empty/am263x-lp/r5fss1-0_threadx/ti-arm-clang/example.projectspec",
+        "devtools": [
+            "LP-AM263"
+        ],
+        "kernel": [
+            null
+        ],
+        "compiler": [
+            "ticlang"
+        ],
+        "subCategories": [
+            "empty",
+            "r5fss1-0_threadx"
+        ],
+        "mainCategories": [
+            [
+                "Examples",
+                "Development Tools"
+            ]
+        ]
+    },
+    {
+        "resourceType": "project.ccs",
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.gettingstarted"
+        ],
+        "description": "An Empty Example. This example is intended to be a starting point for new development CPU is R5FSS1-1 running THREADX.",
+        "name": "empty",
+        "location": "../../examples/empty/am263x-lp/r5fss1-1_threadx/ti-arm-clang/example.projectspec",
+        "devtools": [
+            "LP-AM263"
+        ],
+        "kernel": [
+            null
+        ],
+        "compiler": [
+            "ticlang"
+        ],
+        "subCategories": [
+            "empty",
+            "r5fss1-1_threadx"
+        ],
+        "mainCategories": [
+            [
+                "Examples",
+                "Development Tools"
+            ]
+        ]
+    },
+    {
+        "resourceType": "project.ccs",
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.gettingstarted"
+        ],
         "description": "A simple \"Hello, World\" Example.  CPU is R5FSS0-0 running NORTOS.",
         "name": "hello_world",
         "location": "../../examples/hello_world/am263x-cc/r5fss0-0_nortos/ti-arm-clang/example.projectspec",
@@ -15592,6 +15906,37 @@
         "resourceSubClass": [
             "example.gettingstarted"
         ],
+        "description": "A simple \"Hello, World\" Example.  CPU is R5FSS0-0 running THREADX.",
+        "name": "hello_world",
+        "location": "../../examples/hello_world/am263x-cc/r5fss0-0_threadx/ti-arm-clang/example.projectspec",
+        "devtools": [
+            "TMDSCNCD263"
+        ],
+        "kernel": [
+            null
+        ],
+        "compiler": [
+            "ticlang"
+        ],
+        "subCategories": [
+            "hello_world",
+            "r5fss0-0_threadx"
+        ],
+        "mainCategories": [
+            [
+                "Examples",
+                "Development Tools"
+            ]
+        ]
+    },
+    {
+        "resourceType": "project.ccs",
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.gettingstarted"
+        ],
         "description": "A simple \"Hello, World\" Example.  CPU is R5FSS0-0 running NORTOS.",
         "name": "hello_world",
         "location": "../../examples/hello_world/am263x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec",
@@ -15638,6 +15983,37 @@
         "subCategories": [
             "hello_world",
             "r5fss0-0_freertos"
+        ],
+        "mainCategories": [
+            [
+                "Examples",
+                "Development Tools"
+            ]
+        ]
+    },
+    {
+        "resourceType": "project.ccs",
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.gettingstarted"
+        ],
+        "description": "A simple \"Hello, World\" Example.  CPU is R5FSS0-0 running THREADX.",
+        "name": "hello_world",
+        "location": "../../examples/hello_world/am263x-lp/r5fss0-0_threadx/ti-arm-clang/example.projectspec",
+        "devtools": [
+            "LP-AM263"
+        ],
+        "kernel": [
+            null
+        ],
+        "compiler": [
+            "ticlang"
+        ],
+        "subCategories": [
+            "hello_world",
+            "r5fss0-0_threadx"
         ],
         "mainCategories": [
             [
@@ -16777,6 +17153,72 @@
             "freertos",
             "task_switch",
             "r5fss0-0_freertos"
+        ],
+        "mainCategories": [
+            [
+                "Examples",
+                "Development Tools"
+            ]
+        ]
+    },
+    {
+        "resourceType": "project.ccs",
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.gettingstarted"
+        ],
+        "description": "ThreadX task switching example.  CPU is R5FSS0-0 running THREADX.",
+        "name": "task_switch",
+        "location": "../../examples/kernel/threadx/task_switch/am263x-cc/r5fss0-0_threadx/ti-arm-clang/example.projectspec",
+        "devtools": [
+            "TMDSCNCD263"
+        ],
+        "kernel": [
+            null
+        ],
+        "compiler": [
+            "ticlang"
+        ],
+        "subCategories": [
+            "kernel",
+            "threadx",
+            "task_switch",
+            "r5fss0-0_threadx"
+        ],
+        "mainCategories": [
+            [
+                "Examples",
+                "Development Tools"
+            ]
+        ]
+    },
+    {
+        "resourceType": "project.ccs",
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.gettingstarted"
+        ],
+        "description": "ThreadX task switching example.  CPU is R5FSS0-0 running THREADX.",
+        "name": "task_switch",
+        "location": "../../examples/kernel/threadx/task_switch/am263x-lp/r5fss0-0_threadx/ti-arm-clang/example.projectspec",
+        "devtools": [
+            "LP-AM263"
+        ],
+        "kernel": [
+            null
+        ],
+        "compiler": [
+            "ticlang"
+        ],
+        "subCategories": [
+            "kernel",
+            "threadx",
+            "task_switch",
+            "r5fss0-0_threadx"
         ],
         "mainCategories": [
             [
@@ -22081,6 +22523,36 @@
         ],
         "description": "A Ipc Notify Echo System Example.",
         "name": "ipc_notify_echo",
+        "location": "../../examples/drivers/ipc/ipc_notify_echo/am263x-cc/system_threadx_nortos/system.projectspec",
+        "devtools": [
+            "TMDSCNCD263"
+        ],
+        "kernel": [
+            null
+        ],
+        "subCategories": [
+            "drivers",
+            "ipc",
+            "ipc_notify_echo",
+            "system_threadx_nortos"
+        ],
+        "mainCategories": [
+            [
+                "Examples",
+                "Development Tools"
+            ]
+        ]
+    },
+    {
+        "resourceType": "project.ccs",
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ],
+        "description": "A Ipc Notify Echo System Example.",
+        "name": "ipc_notify_echo",
         "location": "../../examples/drivers/ipc/ipc_notify_echo/am263x-lp/system_freertos_nortos/system.projectspec",
         "devtools": [
             "LP-AM263"
@@ -22093,6 +22565,36 @@
             "ipc",
             "ipc_notify_echo",
             "system_freertos_nortos"
+        ],
+        "mainCategories": [
+            [
+                "Examples",
+                "Development Tools"
+            ]
+        ]
+    },
+    {
+        "resourceType": "project.ccs",
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ],
+        "description": "A Ipc Notify Echo System Example.",
+        "name": "ipc_notify_echo",
+        "location": "../../examples/drivers/ipc/ipc_notify_echo/am263x-lp/system_threadx_nortos/system.projectspec",
+        "devtools": [
+            "LP-AM263"
+        ],
+        "kernel": [
+            null
+        ],
+        "subCategories": [
+            "drivers",
+            "ipc",
+            "ipc_notify_echo",
+            "system_threadx_nortos"
         ],
         "mainCategories": [
             [
@@ -22565,6 +23067,62 @@
         "subCategories": [
             "empty",
             "system_nortos"
+        ],
+        "mainCategories": [
+            [
+                "Examples",
+                "Development Tools"
+            ]
+        ]
+    },
+    {
+        "resourceType": "project.ccs",
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.gettingstarted"
+        ],
+        "description": "An Empty Example. This example is intended to be a starting point for new development System project.",
+        "name": "empty",
+        "location": "../../examples/empty/am263x-cc/system_threadx/system.projectspec",
+        "devtools": [
+            "TMDSCNCD263"
+        ],
+        "kernel": [
+            null
+        ],
+        "subCategories": [
+            "empty",
+            "system_threadx"
+        ],
+        "mainCategories": [
+            [
+                "Examples",
+                "Development Tools"
+            ]
+        ]
+    },
+    {
+        "resourceType": "project.ccs",
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.gettingstarted"
+        ],
+        "description": "An Empty Example. This example is intended to be a starting point for new development System project.",
+        "name": "empty",
+        "location": "../../examples/empty/am263x-lp/system_threadx/system.projectspec",
+        "devtools": [
+            "LP-AM263"
+        ],
+        "kernel": [
+            null
+        ],
+        "subCategories": [
+            "empty",
+            "system_threadx"
         ],
         "mainCategories": [
             [

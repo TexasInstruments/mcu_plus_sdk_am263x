@@ -119,16 +119,18 @@ void Crypto_Uint8ToUint32(const uint8_t *source, uint32_t sourceLengthInBytes, u
 void Crypto_Uint32ToUint8(const uint32_t *src, uint32_t sourceLengthInBytes, uint8_t *dest)
 {
     uint32_t i, t;
+    uint8_t *pDest = dest;
+    const uint32_t *pSrc = src;
 
     for (i=0; i< sourceLengthInBytes; i+=4U)
     {
-        t = *src;
-        src = src + 1U;
-        *dest = t >> 24U;
-        *(dest + 1U) = t >> 16U;
-        *(dest + 2U) = t >> 8U;
-        *(dest + 3U) = t;
-        dest = dest + 4U;
+        t = *pSrc;
+        pSrc = pSrc + 1U;
+        *pDest = (uint8_t)(t >> 24U);
+        *(pDest + 1U) = (uint8_t)(t >> 16U);
+        *(pDest + 2U) = (uint8_t)(t >> 8U);
+        *(pDest + 3U) = (uint8_t)t;
+        pDest = pDest + 4U;
     }
     return;
 }

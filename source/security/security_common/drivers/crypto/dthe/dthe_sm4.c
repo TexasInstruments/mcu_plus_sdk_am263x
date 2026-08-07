@@ -622,7 +622,7 @@ DTHE_SM4_Return_t DTHE_SM4_execute(DTHE_Handle handle, const DTHE_SM4_Params* pt
     uint32_t          *ptrWordOutputBuffer = (uint32_t *)NULL;
     uint32_t           dataLenWords;
     uint32_t           numBlocks;
-    uint32_t           remainingBlocks;
+    uint16_t           remainingBlocks;
     uint32_t           partialDataSize;
     uint32_t           index;
     uint32_t           numBytes = 0U;
@@ -799,7 +799,7 @@ DTHE_SM4_Return_t DTHE_SM4_execute(DTHE_Handle handle, const DTHE_SM4_Params* pt
         /* Remaining blocks (1..numBlocks-1): DMA if enabled, else CPU */
         if ((config->dmaEnable == DMA_ENABLE) && (numBlocks > 1U))
         {
-            remainingBlocks = (uint32_t)(numBlocks - 1U);
+            remainingBlocks = (uint16_t)(numBlocks - 1U);
 
             dmaHandle = DMA_open(0);
             
@@ -840,7 +840,7 @@ DTHE_SM4_Return_t DTHE_SM4_execute(DTHE_Handle handle, const DTHE_SM4_Params* pt
             (void)DMA_disableRxCh(dmaHandle);
             (void)DMA_close(dmaHandle);
 
-            numBytes = numBytes + ((uint32_t)remainingBlocks * DTHESM4_BLOCK_SIZE_WORDS * sizeof(uint32_t));
+            numBytes = numBytes + (((uint32_t)0 | remainingBlocks) * DTHESM4_BLOCK_SIZE_WORDS * sizeof(uint32_t));
             index = numBlocks;
         }
         else

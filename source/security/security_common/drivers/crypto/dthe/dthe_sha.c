@@ -80,7 +80,7 @@ uint32_t                gDTHESHAdigestCount;
 /* ========================================================================== */
 static void DTHE_SHA_setInterruptStatus(CSL_EIP57T_SHARegs* ptrSHARegs, uint8_t intStatus);
 static void DTHE_SHA_setDMA(CSL_EIP57T_SHARegs* ptrSHARegs, uint8_t dmaStatus);
-static void DTHE_SHA_pollContextReady(CSL_EIP57T_SHARegs* ptrSHARegs);
+static void DTHE_SHA_pollContextReady(const CSL_EIP57T_SHARegs* ptrSHARegs);
 static uint32_t DTHE_SHA_isContextReadyIRQ(const CSL_EIP57T_SHARegs* ptrSHARegs);
 static void DTHE_SHA_setUseAlgoConstants(CSL_EIP57T_SHARegs* ptrSHARegs, uint8_t useAlgConstants);
 static void DTHE_SHA_setCloseHash(CSL_EIP57T_SHARegs* ptrSHARegs, uint8_t closeHashFlag);
@@ -92,9 +92,9 @@ static void DTHE_SHA512_setHMACKeyProcessing(CSL_EIP57T_SHARegs* ptrSHARegs, uin
 static void DTHE_SHA512_setHMACOuterHash(CSL_EIP57T_SHARegs* ptrSHARegs, uint8_t hmacOuterHash);
 static void DTHE_SHA_setHashLength(CSL_EIP57T_SHARegs* ptrSHARegs, uint32_t length);
 static void DTHE_SHA512_setHashLength(CSL_EIP57T_SHARegs* ptrSHARegs, uint32_t length);
-static void DTHE_SHA_pollInputReady(CSL_EIP57T_SHARegs* ptrSHARegs);
+static void DTHE_SHA_pollInputReady(const CSL_EIP57T_SHARegs* ptrSHARegs);
 static void DTHE_SHA_writeDataBlock(CSL_EIP57T_SHARegs* ptrSHARegs, const uint32_t* ptrDataBlock, uint8_t blockSize);
-static void DTHE_SHA_pollOutputReady (CSL_EIP57T_SHARegs* ptrSHARegs);
+static void DTHE_SHA_pollOutputReady (const CSL_EIP57T_SHARegs* ptrSHARegs);
 static void DTHE_SHA_getHashDigest(const CSL_EIP57T_SHARegs* ptrSHARegs, uint32_t* ptrDigest);
 static void DTHE_SHA512_getHashDigest(const CSL_EIP57T_SHARegs* ptrSHARegs, uint32_t* ptrDigest);
 static void DTHE_SHA_setAlgorithm(CSL_EIP57T_SHARegs* ptrSHARegs, uint32_t algorithm);
@@ -336,7 +336,7 @@ DTHE_SHA_Return_t DTHE_SHA_compute(DTHE_Handle handle, DTHE_SHA_Params* ptrShaPa
         {
             /* Compute the number of full blocks which need to be processed: */
             (void)DMA_enableTxTransferRegion(dmaHandle);
-            DTHE_SHA_setDMA(ptrShaRegs, 1);
+            DTHE_SHA_setDMA(ptrShaRegs, 1U);
             (void)DMA_startTxChannel(dmaHandle);
 
             (void)DMA_WaitForTxTransfer(dmaHandle);
@@ -545,12 +545,12 @@ DTHE_SHA_Return_t DTHE_HMACSHA_compute(DTHE_Handle handle, DTHE_SHA_Params* ptrS
             {
                 /* Compute the number of full blocks which need to be processed: */
                 (void)DMA_enableTxTransferRegion(dmaHandle);
-                DTHE_SHA_setDMA(ptrShaRegs, 1);
+                DTHE_SHA_setDMA(ptrShaRegs, 1U);
                 (void)DMA_startTxChannel(dmaHandle);
 
                 (void)DMA_WaitForTxTransfer(dmaHandle);
 
-                DTHE_SHA_setDMA(ptrShaRegs, 0);
+                DTHE_SHA_setDMA(ptrShaRegs, 0U);
 
                 (void)DMA_disableTxCh(dmaHandle);
 
@@ -667,7 +667,7 @@ static void DTHE_SHA_setDMA(CSL_EIP57T_SHARegs* ptrSHARegs, uint8_t dmaStatus)
  *  \param  ptrSHARegs      Pointer to the SHA Driver Context Object
  *
  */
-static void DTHE_SHA_pollContextReady(CSL_EIP57T_SHARegs* ptrSHARegs)
+static void DTHE_SHA_pollContextReady(const CSL_EIP57T_SHARegs* ptrSHARegs)
 {
     uint32_t     done = 0U;
 
@@ -835,7 +835,7 @@ static void DTHE_SHA512_setHashLength(CSL_EIP57T_SHARegs* ptrSHARegs, uint32_t l
  *  \param ptrSHARegs       Pointer to the SHA Driver Context Object
  *
  */
-static void DTHE_SHA_pollInputReady(CSL_EIP57T_SHARegs* ptrSHARegs)
+static void DTHE_SHA_pollInputReady(const CSL_EIP57T_SHARegs* ptrSHARegs)
 {
     uint32_t     done = 0U;
 
@@ -873,7 +873,7 @@ static void DTHE_SHA_writeDataBlock(CSL_EIP57T_SHARegs* ptrSHARegs, const uint32
  *  \param ptrSHARegs       Pointer to the SHA Driver Context Object
  *
  */
-static void DTHE_SHA_pollOutputReady (CSL_EIP57T_SHARegs* ptrSHARegs)
+static void DTHE_SHA_pollOutputReady (const CSL_EIP57T_SHARegs* ptrSHARegs)
 {
     uint32_t     done = 0U;
 
@@ -930,7 +930,7 @@ static void DTHE_SHA512_getHashDigest(const CSL_EIP57T_SHARegs* ptrSHARegs, uint
  */
 static void DTHE_SHA_setAlgorithm(CSL_EIP57T_SHARegs* ptrSHARegs, uint32_t algorithm)
 {
-    uint8_t     value;
+    uint32_t     value;
 
     switch (algorithm)
     {

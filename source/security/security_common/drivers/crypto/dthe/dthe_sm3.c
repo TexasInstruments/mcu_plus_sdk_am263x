@@ -476,8 +476,6 @@ DTHE_SM3_Return_t DTHE_SM3_compute(DTHE_Handle handle, DTHE_SM3_Params* ptrSm3Pa
         /* Determine the data length in words: */
         dataLenWords = dataLenBytes/4ULL;
         
-        /* Compute the number of blocks: */
-        blockSize = DTHE_SM3_BLOCK_SIZE;
         numBlocks = dataLenWords / DTHE_SM3_BLOCK_SIZE;
 
         if((dataLenBytes % 64ULL) != 0ULL)
@@ -519,7 +517,8 @@ DTHE_SM3_Return_t DTHE_SM3_compute(DTHE_Handle handle, DTHE_SM3_Params* ptrSm3Pa
             DTHE_SM3_set_data_available(ptrSm3Regs, 0x126U);
 
             /*intermediate blocks*/
-            if ((config->dmaEnable == DMA_ENABLE) && ((numBlocks - 1ULL) > 1ULL))
+            /* numBlocks >= 2 is guaranteed here since dataLenWords > DTHE_SM3_BLOCK_SIZE */
+            if ((config->dmaEnable == DMA_ENABLE) && (numBlocks >= 2ULL) && ((numBlocks - 1ULL) > 1ULL))
             {
                  uint16_t dmaNumBlocks = (uint16_t)(numBlocks - 2ULL);
 
@@ -551,21 +550,29 @@ DTHE_SM3_Return_t DTHE_SM3_compute(DTHE_Handle handle, DTHE_SM3_Params* ptrSm3Pa
                 (void)DMA_disableTxCh(dmaHandle);
 
                 /* Update index to skip DMA processed blocks */
-                index = numBlocks - 1ULL;
+                /* numBlocks >= 2 is guaranteed here since dataLenWords > DTHE_SM3_BLOCK_SIZE */
+                if (numBlocks >= 1ULL)
+                {
+                    index = numBlocks - 1ULL;
+                }
             }
             else
             {
                 /* DMA not available or source address not aligned: use CPU path. */
-                for (index = 1ULL; index < (numBlocks-1ULL); index++)
+                /* numBlocks >= 2 is guaranteed here since dataLenWords > DTHE_SM3_BLOCK_SIZE */
+                if (numBlocks >= 1ULL)
                 {
-                    /* wait until input buffer available for writing by host */
-                    DTHE_SM3_pollInput_buff_available(ptrSm3Regs);
-                    /* write the input data */
-                    DTHE_SM3_writeDataBlock(ptrSm3Regs, &ptrSm3Params->ptrDataBuffer[index << shiftSize], blockSize);
-                    /* set only teh data in and in ava bit */
-                    DTHE_SM3_set_data_available(ptrSm3Regs, 0x006U);
+                    for (index = 1ULL; index < (numBlocks-1ULL); index++)
+                    {
+                        /* wait until input buffer available for writing by host */
+                        DTHE_SM3_pollInput_buff_available(ptrSm3Regs);
+                        /* write the input data */
+                        DTHE_SM3_writeDataBlock(ptrSm3Regs, &ptrSm3Params->ptrDataBuffer[index << shiftSize], blockSize);
+                        /* set only teh data in and in ava bit */
+                        DTHE_SM3_set_data_available(ptrSm3Regs, 0x006U);
+                    }
+                    index = numBlocks - 1ULL;
                 }
-                index = numBlocks - 1ULL;
             }
 
             /*check for the partial data blocks*/

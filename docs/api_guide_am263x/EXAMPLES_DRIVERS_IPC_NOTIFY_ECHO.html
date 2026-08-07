@@ -131,6 +131,7 @@ Supported Combinations</h1>
 <h1><a class="anchor" id="autotoc_md2039"></a>
 Steps to Run the Example</h1>
 <dl class="section note"><dt>Note</dt><dd>This is a <code>system</code> or multi-core project, so refer to system project build instructions for CCS project or makefiles when building the example.</dd></dl>
+<dl class="section attention"><dt>Attention</dt><dd>To run or debug multicore RTOS projects, flash SBL_NULL, use QSPI boot mode, and ensure the target configuration has no initialization script</dd></dl>
 <ul>
 <li><b>When using CCS projects to build</b>, import the system CCS project and build it using the CCS project menu (see <a class="el" href="CCS_PROJECTS_PAGE.html">Using SDK with CCS Projects</a>). This will build all the dependant CPU projects as well</li>
 <li><b>When using makefiles to build</b>, build the system makefile using make command (see <a class="el" href="MAKEFILE_BUILD_PAGE.html">Using SDK with Makefiles</a>). This will build all the dependant CPU makefiles as well.</li>
