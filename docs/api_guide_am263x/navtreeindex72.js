@@ -1,5 +1,11 @@
 var NAVTREEINDEX72 =
 {
+"structcb__tsn__thread__attr__t.html#a2edec41292af8f344ecb856be5aac77e":[17,11,5,1,0],
+"structcb__tsn__thread__attr__t.html#a78e05e5686745ecbcf67f4fd9644d2ab":[17,11,5,1,1],
+"structcb__tsn__thread__attr__t.html#a933cb0fb7f3490bc96db6a5a5da50180":[17,11,5,1,3],
+"structcb__tsn__thread__attr__t.html#ab859a17727fec43d7cb8914063292e24":[17,11,5,1,2],
+"structcb__waitpoint__t.html":[17,11,5,2],
+"structcb__waitpoint__t.html#a0e1e3d138a9cb71abd68f2edb2472851":[17,11,5,2,1],
 "structcb__waitpoint__t.html#a25d270632a7188dcd56aeeee0327f9ff":[17,11,5,2,0],
 "structcb__waitpoint__t.html#acd5af18c6ae061f2c93b5b874b728f82":[17,11,5,2,2],
 "structcb__waitpoint__t.html#ad320fb07f2f38f0651643877538fa5f5":[17,11,5,2,3],

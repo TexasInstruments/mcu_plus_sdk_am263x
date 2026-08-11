@@ -22,11 +22,11 @@ var EXAMPLES_KERNEL =
       [ "Sample Output", "EXAMPLES_KERNEL_DPL_LOW_LATENCY_INTERRUPT.html#autotoc_md1917", null ]
     ] ],
     [ "FreeRTOS POSIX", "EXAMPLES_KERNEL_FREERTOS_POSIX.html", [
-      [ "Introduction", "EXAMPLES_KERNEL_FREERTOS_POSIX.html#autotoc_md1933", null ],
-      [ "Supported Combinations", "EXAMPLES_KERNEL_FREERTOS_POSIX.html#autotoc_md1934", null ],
-      [ "Steps to Run the Example", "EXAMPLES_KERNEL_FREERTOS_POSIX.html#autotoc_md1935", null ],
-      [ "See Also", "EXAMPLES_KERNEL_FREERTOS_POSIX.html#autotoc_md1936", null ],
-      [ "Sample Output", "EXAMPLES_KERNEL_FREERTOS_POSIX.html#autotoc_md1937", null ]
+      [ "Introduction", "EXAMPLES_KERNEL_FREERTOS_POSIX.html#autotoc_md1938", null ],
+      [ "Supported Combinations", "EXAMPLES_KERNEL_FREERTOS_POSIX.html#autotoc_md1939", null ],
+      [ "Steps to Run the Example", "EXAMPLES_KERNEL_FREERTOS_POSIX.html#autotoc_md1940", null ],
+      [ "See Also", "EXAMPLES_KERNEL_FREERTOS_POSIX.html#autotoc_md1941", null ],
+      [ "Sample Output", "EXAMPLES_KERNEL_FREERTOS_POSIX.html#autotoc_md1942", null ]
     ] ],
     [ "FreeRTOS Task Switch Example", "EXAMPLES_KERNEL_FREERTOS_TASK_SWITCH.html", [
       [ "Introduction", "EXAMPLES_KERNEL_FREERTOS_TASK_SWITCH.html#autotoc_md1918", null ],
@@ -36,42 +36,49 @@ var EXAMPLES_KERNEL =
       [ "Sample Output", "EXAMPLES_KERNEL_FREERTOS_TASK_SWITCH.html#autotoc_md1922", null ]
     ] ],
     [ "FreeRTOS Interrupt Profiling Example", "EXAMPLES_KERNEL_FREERTOS_INTERRUPT_PROFILING.html", [
-      [ "Introduction", "EXAMPLES_KERNEL_FREERTOS_INTERRUPT_PROFILING.html#autotoc_md1928", null ],
-      [ "Supported Combinations", "EXAMPLES_KERNEL_FREERTOS_INTERRUPT_PROFILING.html#autotoc_md1929", null ],
-      [ "Steps to Run the Example", "EXAMPLES_KERNEL_FREERTOS_INTERRUPT_PROFILING.html#autotoc_md1930", null ],
-      [ "See Also", "EXAMPLES_KERNEL_FREERTOS_INTERRUPT_PROFILING.html#autotoc_md1931", null ],
-      [ "Sample Output", "EXAMPLES_KERNEL_FREERTOS_INTERRUPT_PROFILING.html#autotoc_md1932", null ]
+      [ "Introduction", "EXAMPLES_KERNEL_FREERTOS_INTERRUPT_PROFILING.html#autotoc_md1933", null ],
+      [ "Supported Combinations", "EXAMPLES_KERNEL_FREERTOS_INTERRUPT_PROFILING.html#autotoc_md1934", null ],
+      [ "Steps to Run the Example", "EXAMPLES_KERNEL_FREERTOS_INTERRUPT_PROFILING.html#autotoc_md1935", null ],
+      [ "See Also", "EXAMPLES_KERNEL_FREERTOS_INTERRUPT_PROFILING.html#autotoc_md1936", null ],
+      [ "Sample Output", "EXAMPLES_KERNEL_FREERTOS_INTERRUPT_PROFILING.html#autotoc_md1937", null ]
+    ] ],
+    [ "ThreadX Task Switch Example", "EXAMPLES_KERNEL_THREADX_TASK_SWITCH.html", [
+      [ "Introduction", "EXAMPLES_KERNEL_THREADX_TASK_SWITCH.html#autotoc_md1923", null ],
+      [ "Supported Combinations", "EXAMPLES_KERNEL_THREADX_TASK_SWITCH.html#autotoc_md1924", null ],
+      [ "Steps to Run the Example", "EXAMPLES_KERNEL_THREADX_TASK_SWITCH.html#autotoc_md1925", null ],
+      [ "See Also", "EXAMPLES_KERNEL_THREADX_TASK_SWITCH.html#autotoc_md1926", null ],
+      [ "Sample Output", "EXAMPLES_KERNEL_THREADX_TASK_SWITCH.html#autotoc_md1927", null ]
     ] ],
     [ "WFI - Standby mode demo", "EXAMPLES_KERNEL_NORTOS_WFI_DEMO.html", [
-      [ "Introduction", "EXAMPLES_KERNEL_NORTOS_WFI_DEMO.html#autotoc_md1938", null ],
-      [ "Supported Combinations", "EXAMPLES_KERNEL_NORTOS_WFI_DEMO.html#autotoc_md1939", null ],
-      [ "Steps to Run the Example", "EXAMPLES_KERNEL_NORTOS_WFI_DEMO.html#autotoc_md1940", null ],
-      [ "See Also", "EXAMPLES_KERNEL_NORTOS_WFI_DEMO.html#autotoc_md1941", null ],
-      [ "Sample Output", "EXAMPLES_KERNEL_NORTOS_WFI_DEMO.html#autotoc_md1942", null ]
+      [ "Introduction", "EXAMPLES_KERNEL_NORTOS_WFI_DEMO.html#autotoc_md1943", null ],
+      [ "Supported Combinations", "EXAMPLES_KERNEL_NORTOS_WFI_DEMO.html#autotoc_md1944", null ],
+      [ "Steps to Run the Example", "EXAMPLES_KERNEL_NORTOS_WFI_DEMO.html#autotoc_md1945", null ],
+      [ "See Also", "EXAMPLES_KERNEL_NORTOS_WFI_DEMO.html#autotoc_md1946", null ],
+      [ "Sample Output", "EXAMPLES_KERNEL_NORTOS_WFI_DEMO.html#autotoc_md1947", null ]
     ] ],
     [ "Data Abort Test", "EXAMPLES_KERNEL_DATA_ABORT.html", [
-      [ "Introduction", "EXAMPLES_KERNEL_DATA_ABORT.html#autotoc_md1943", null ],
-      [ "Supported Combinations", "EXAMPLES_KERNEL_DATA_ABORT.html#autotoc_md1944", null ],
-      [ "Steps to Run the Example", "EXAMPLES_KERNEL_DATA_ABORT.html#autotoc_md1945", null ],
-      [ "Sample Output", "EXAMPLES_KERNEL_DATA_ABORT.html#autotoc_md1946", null ]
+      [ "Introduction", "EXAMPLES_KERNEL_DATA_ABORT.html#autotoc_md1948", null ],
+      [ "Supported Combinations", "EXAMPLES_KERNEL_DATA_ABORT.html#autotoc_md1949", null ],
+      [ "Steps to Run the Example", "EXAMPLES_KERNEL_DATA_ABORT.html#autotoc_md1950", null ],
+      [ "Sample Output", "EXAMPLES_KERNEL_DATA_ABORT.html#autotoc_md1951", null ]
     ] ],
     [ "Prefetch Abort Test", "EXAMPLES_KERNEL_PREFETCH_ABORT.html", [
-      [ "Introduction", "EXAMPLES_KERNEL_PREFETCH_ABORT.html#autotoc_md1947", null ],
-      [ "Supported Combinations", "EXAMPLES_KERNEL_PREFETCH_ABORT.html#autotoc_md1948", null ],
-      [ "Steps to Run the Example", "EXAMPLES_KERNEL_PREFETCH_ABORT.html#autotoc_md1949", null ],
-      [ "Sample Output", "EXAMPLES_KERNEL_PREFETCH_ABORT.html#autotoc_md1950", null ]
+      [ "Introduction", "EXAMPLES_KERNEL_PREFETCH_ABORT.html#autotoc_md1952", null ],
+      [ "Supported Combinations", "EXAMPLES_KERNEL_PREFETCH_ABORT.html#autotoc_md1953", null ],
+      [ "Steps to Run the Example", "EXAMPLES_KERNEL_PREFETCH_ABORT.html#autotoc_md1954", null ],
+      [ "Sample Output", "EXAMPLES_KERNEL_PREFETCH_ABORT.html#autotoc_md1955", null ]
     ] ],
     [ "Undefined Abort Test", "EXAMPLES_KERNEL_UNDEFINED_ABORT.html", [
-      [ "Introduction", "EXAMPLES_KERNEL_UNDEFINED_ABORT.html#autotoc_md1951", null ],
-      [ "Supported Combinations", "EXAMPLES_KERNEL_UNDEFINED_ABORT.html#autotoc_md1952", null ],
-      [ "Steps to Run the Example", "EXAMPLES_KERNEL_UNDEFINED_ABORT.html#autotoc_md1953", null ],
-      [ "Sample Output", "EXAMPLES_KERNEL_UNDEFINED_ABORT.html#autotoc_md1954", null ]
+      [ "Introduction", "EXAMPLES_KERNEL_UNDEFINED_ABORT.html#autotoc_md1956", null ],
+      [ "Supported Combinations", "EXAMPLES_KERNEL_UNDEFINED_ABORT.html#autotoc_md1957", null ],
+      [ "Steps to Run the Example", "EXAMPLES_KERNEL_UNDEFINED_ABORT.html#autotoc_md1958", null ],
+      [ "Sample Output", "EXAMPLES_KERNEL_UNDEFINED_ABORT.html#autotoc_md1959", null ]
     ] ],
     [ "FreeRTOS MPU Task Switch Example", "EXAMPLES_KERNEL_FREERTOS_TASK_SWITCH_MPU.html", [
-      [ "Introduction", "EXAMPLES_KERNEL_FREERTOS_TASK_SWITCH_MPU.html#autotoc_md1923", null ],
-      [ "Supported Combinations", "EXAMPLES_KERNEL_FREERTOS_TASK_SWITCH_MPU.html#autotoc_md1924", null ],
-      [ "Steps to Run the Example", "EXAMPLES_KERNEL_FREERTOS_TASK_SWITCH_MPU.html#autotoc_md1925", null ],
-      [ "See Also", "EXAMPLES_KERNEL_FREERTOS_TASK_SWITCH_MPU.html#autotoc_md1926", null ],
-      [ "Sample Output", "EXAMPLES_KERNEL_FREERTOS_TASK_SWITCH_MPU.html#autotoc_md1927", null ]
+      [ "Introduction", "EXAMPLES_KERNEL_FREERTOS_TASK_SWITCH_MPU.html#autotoc_md1928", null ],
+      [ "Supported Combinations", "EXAMPLES_KERNEL_FREERTOS_TASK_SWITCH_MPU.html#autotoc_md1929", null ],
+      [ "Steps to Run the Example", "EXAMPLES_KERNEL_FREERTOS_TASK_SWITCH_MPU.html#autotoc_md1930", null ],
+      [ "See Also", "EXAMPLES_KERNEL_FREERTOS_TASK_SWITCH_MPU.html#autotoc_md1931", null ],
+      [ "Sample Output", "EXAMPLES_KERNEL_FREERTOS_TASK_SWITCH_MPU.html#autotoc_md1932", null ]
     ] ]
 ];

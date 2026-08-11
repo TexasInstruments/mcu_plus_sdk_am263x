@@ -7484,7 +7484,7 @@
             "TMDSCNCD263"
         ],
         "kernel": [
-            null
+            "threadx"
         ],
         "compiler": [
             "ticlang"
@@ -7649,7 +7649,7 @@
             "LP-AM263"
         ],
         "kernel": [
-            null
+            "threadx"
         ],
         "compiler": [
             "ticlang"
@@ -15603,7 +15603,7 @@
             "TMDSCNCD263"
         ],
         "kernel": [
-            null
+            "threadx"
         ],
         "compiler": [
             "ticlang"
@@ -15634,7 +15634,7 @@
             "TMDSCNCD263"
         ],
         "kernel": [
-            null
+            "threadx"
         ],
         "compiler": [
             "ticlang"
@@ -15665,7 +15665,7 @@
             "TMDSCNCD263"
         ],
         "kernel": [
-            null
+            "threadx"
         ],
         "compiler": [
             "ticlang"
@@ -15696,7 +15696,7 @@
             "TMDSCNCD263"
         ],
         "kernel": [
-            null
+            "threadx"
         ],
         "compiler": [
             "ticlang"
@@ -15727,7 +15727,7 @@
             "LP-AM263"
         ],
         "kernel": [
-            null
+            "threadx"
         ],
         "compiler": [
             "ticlang"
@@ -15758,7 +15758,7 @@
             "LP-AM263"
         ],
         "kernel": [
-            null
+            "threadx"
         ],
         "compiler": [
             "ticlang"
@@ -15789,7 +15789,7 @@
             "LP-AM263"
         ],
         "kernel": [
-            null
+            "threadx"
         ],
         "compiler": [
             "ticlang"
@@ -15820,7 +15820,7 @@
             "LP-AM263"
         ],
         "kernel": [
-            null
+            "threadx"
         ],
         "compiler": [
             "ticlang"
@@ -15913,7 +15913,7 @@
             "TMDSCNCD263"
         ],
         "kernel": [
-            null
+            "threadx"
         ],
         "compiler": [
             "ticlang"
@@ -16006,7 +16006,7 @@
             "LP-AM263"
         ],
         "kernel": [
-            null
+            "threadx"
         ],
         "compiler": [
             "ticlang"
@@ -17176,7 +17176,7 @@
             "TMDSCNCD263"
         ],
         "kernel": [
-            null
+            "threadx"
         ],
         "compiler": [
             "ticlang"
@@ -17209,7 +17209,7 @@
             "LP-AM263"
         ],
         "kernel": [
-            null
+            "threadx"
         ],
         "compiler": [
             "ticlang"
@@ -22523,36 +22523,6 @@
         ],
         "description": "A Ipc Notify Echo System Example.",
         "name": "ipc_notify_echo",
-        "location": "../../examples/drivers/ipc/ipc_notify_echo/am263x-cc/system_threadx_nortos/system.projectspec",
-        "devtools": [
-            "TMDSCNCD263"
-        ],
-        "kernel": [
-            null
-        ],
-        "subCategories": [
-            "drivers",
-            "ipc",
-            "ipc_notify_echo",
-            "system_threadx_nortos"
-        ],
-        "mainCategories": [
-            [
-                "Examples",
-                "Development Tools"
-            ]
-        ]
-    },
-    {
-        "resourceType": "project.ccs",
-        "resourceClass": [
-            "example"
-        ],
-        "resourceSubClass": [
-            "example.general"
-        ],
-        "description": "A Ipc Notify Echo System Example.",
-        "name": "ipc_notify_echo",
         "location": "../../examples/drivers/ipc/ipc_notify_echo/am263x-lp/system_freertos_nortos/system.projectspec",
         "devtools": [
             "LP-AM263"
@@ -22583,12 +22553,42 @@
         ],
         "description": "A Ipc Notify Echo System Example.",
         "name": "ipc_notify_echo",
+        "location": "../../examples/drivers/ipc/ipc_notify_echo/am263x-cc/system_threadx_nortos/system.projectspec",
+        "devtools": [
+            "TMDSCNCD263"
+        ],
+        "kernel": [
+            "threadx"
+        ],
+        "subCategories": [
+            "drivers",
+            "ipc",
+            "ipc_notify_echo",
+            "system_threadx_nortos"
+        ],
+        "mainCategories": [
+            [
+                "Examples",
+                "Development Tools"
+            ]
+        ]
+    },
+    {
+        "resourceType": "project.ccs",
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ],
+        "description": "A Ipc Notify Echo System Example.",
+        "name": "ipc_notify_echo",
         "location": "../../examples/drivers/ipc/ipc_notify_echo/am263x-lp/system_threadx_nortos/system.projectspec",
         "devtools": [
             "LP-AM263"
         ],
         "kernel": [
-            null
+            "threadx"
         ],
         "subCategories": [
             "drivers",
@@ -23090,7 +23090,7 @@
             "TMDSCNCD263"
         ],
         "kernel": [
-            null
+            "threadx"
         ],
         "subCategories": [
             "empty",
@@ -23118,7 +23118,7 @@
             "LP-AM263"
         ],
         "kernel": [
-            null
+            "threadx"
         ],
         "subCategories": [
             "empty",

@@ -1,5 +1,11 @@
 var NAVTREEINDEX67 =
 {
+"structMCAN__RevisionId.html#af8cf9dd040cfe94dd86920d84f31fbdc":[17,7,24,16,3],
+"structMCAN__RxBufElement.html":[17,7,24,22],
+"structMCAN__RxBufElement.html#a034eee90e74d2b1479401b732e88cab7":[17,7,24,22,4],
+"structMCAN__RxBufElement.html#a061f5d4c3b912b9d72fd9257a09c3165":[17,7,24,22,3],
+"structMCAN__RxBufElement.html#a10e310e176e9e487b4fc6c2a95dfdcef":[17,7,24,22,7],
+"structMCAN__RxBufElement.html#a14893d27cb94bb3db3e21fc08ddfddfd":[17,7,24,22,9],
 "structMCAN__RxBufElement.html#a2ce0a218529dd2a212fcde6cbf751b65":[17,7,24,22,10],
 "structMCAN__RxBufElement.html#a375c7408618a861437d4bad050e67d19":[17,7,24,22,0],
 "structMCAN__RxBufElement.html#a42c3eafe8608da2382c599d44dc80f6f":[17,7,24,22,8],
@@ -243,11 +249,5 @@ var NAVTREEINDEX67 =
 "structMMCSD__Attrs.html#ae889fa72d4c58b3cc7f3dc8ae10fff38":[17,7,28,2,5],
 "structMMCSD__Attrs.html#af5b7c806682a401336a40c06c09238d4":[17,7,28,2,1],
 "structMMCSD__Config.html":[17,7,28,4],
-"structMMCSD__Config.html#a04c6979e6db65bbed57e3b930881c784":[17,7,28,4,0],
-"structMMCSD__Config.html#ad48569ab424f83942b0b1cea16a28bc3":[17,7,28,4,1],
-"structMMCSD__EmmcDeviceData.html":[17,7,29,1],
-"structMMCSD__EmmcDeviceData.html#a01fe4f22792706cabcaf95f572a82d5f":[17,7,29,1,1],
-"structMMCSD__EmmcDeviceData.html#a0774e342c516a9fcabe34ea88e81e22e":[17,7,29,1,5],
-"structMMCSD__EmmcDeviceData.html#a0f2ad27e6017e9a9cda459bac4b2bee7":[17,7,29,1,14],
-"structMMCSD__EmmcDeviceData.html#a139a4b5c8bdb416e94ec439c32e99e17":[17,7,29,1,6]
+"structMMCSD__Config.html#a04c6979e6db65bbed57e3b930881c784":[17,7,28,4,0]
 };

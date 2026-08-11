@@ -2574,6 +2574,8 @@ static inline void ICSS_EMAC_pollLink(ICSS_EMAC_Handle icssEmacHandle, uint32_t 
     bool                        linkStatusChange = FALSE;
     PRUICSS_Handle              pruicssHandle = ((ICSS_EMAC_Object *)icssEmacHandle->object)->pruicssHandle;
     PRUICSS_HwAttrs const       *pruicssHwAttrs = (PRUICSS_HwAttrs const *)(pruicssHandle->hwAttrs);
+    ICSS_EMAC_Object            *object = (ICSS_EMAC_Object *)icssEmacHandle->object;
+    ICSS_EMAC_Attrs const       *attrs = (ICSS_EMAC_Attrs const *)icssEmacHandle->attrs;
 
     temp_addr = (pruicssHwAttrs->intcRegBase + CSL_ICSS_PR1_ICSS_INTC_INTC_SLV_ENA_STATUS_REG1);
     /*Find out which port it is*/
@@ -2624,6 +2626,10 @@ static inline void ICSS_EMAC_pollLink(ICSS_EMAC_Handle icssEmacHandle, uint32_t 
             ICSS_EMAC_ioctl(icssEmacHandle, ICSS_EMAC_IOCTL_PORT_CTRL, (uint8_t)ICSS_EMAC_PORT_1, (void*)&ioctlParams);
             ICSS_EMAC_portFlush(icssEmacHandle, (uint8_t)ICSS_EMAC_PORT_1);
             ICSS_EMAC_resetTxQueues(icssEmacHandle, (uint8_t)ICSS_EMAC_PORT_1);
+            if(attrs->portMask == (uint8_t)ICSS_EMAC_MODE_SWITCH)
+            {
+                retVal = ICSS_EMAC_purgeTable((uint8_t)ICSS_EMAC_PORT_1, &object->macTable[ICSS_EMAC_PORT_1 - 1U]);
+            }
         }
 
         if(portStatusPtr != NULL)
@@ -2699,6 +2705,10 @@ static inline void ICSS_EMAC_pollLink(ICSS_EMAC_Handle icssEmacHandle, uint32_t 
             ICSS_EMAC_ioctl(icssEmacHandle, ICSS_EMAC_IOCTL_PORT_CTRL, (uint8_t)ICSS_EMAC_PORT_2, (void*)&ioctlParams);
             ICSS_EMAC_portFlush(icssEmacHandle, (uint8_t)ICSS_EMAC_PORT_2);
             ICSS_EMAC_resetTxQueues(icssEmacHandle, (uint8_t)ICSS_EMAC_PORT_2);
+            if(attrs->portMask == (uint8_t)ICSS_EMAC_MODE_SWITCH)
+            {
+                retVal = ICSS_EMAC_purgeTable((uint8_t)ICSS_EMAC_PORT_2, &object->macTable[ICSS_EMAC_PORT_2 - 1U]);
+            }
         }
 
         if(portStatusPtr != NULL)

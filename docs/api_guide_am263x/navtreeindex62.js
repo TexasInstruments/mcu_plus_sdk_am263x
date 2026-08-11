@@ -1,5 +1,11 @@
 var NAVTREEINDEX62 =
 {
+"structEnetPhy__State.html#ace82b4fdcdd6dff56479412c9f6323d3":[17,4,0,13,15,2],
+"structEnetPhy__State.html#affcdf8170795dd5e245eb28f1f31ba3c":[17,4,0,13,15,11],
+"structEnetPhy__Version.html":[17,4,0,13,10],
+"structEnetPhy__Version.html#a6761be25acfe02923d1569b74ce1a25d":[17,4,0,13,10,1],
+"structEnetPhy__Version.html#ae4e18e89df0c29baae6eabcd87d89092":[17,4,0,13,10,2],
+"structEnetPhy__Version.html#ae508bfdc1dffd61a5dc5ac04fd9c52a1":[17,4,0,13,10,0],
 "structEnetQ.html":[17,4,0,7,1],
 "structEnetQ.html#a161c7fb022c75decb8ec4f5ca5f7ee57":[17,4,0,7,1,1],
 "structEnetQ.html#a9bcf5ec887e25424c14fa9e537e4bb20":[17,4,0,7,1,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX62 =
 "structGPMC__AddrRegion.html":[17,7,13,3],
 "structGPMC__AddrRegion.html#a81c14c90e58a2d8d26f49b509d960e8c":[17,7,13,3,1],
 "structGPMC__AddrRegion.html#a9579b8114d54e636427cb2ba1b1867f1":[17,7,13,3,0],
-"structGPMC__Config.html":[17,7,13,7],
-"structGPMC__Config.html#a2f011c3a9c7936c508ba2d731231bc91":[17,7,13,7,0],
-"structGPMC__Config.html#aaf1a4cc0a3debf6d1044f197bef86171":[17,7,13,7,1],
-"structGPMC__HwAttrs.html":[17,7,13,6],
-"structGPMC__HwAttrs.html#a1f7fd5933bb6f1755615d3c919c5bebb":[17,7,13,6,17],
-"structGPMC__HwAttrs.html#a2f8a8fcf2b68520dfbd35461a4b39c70":[17,7,13,6,4],
-"structGPMC__HwAttrs.html#a326510add02f7eb030df17fd4c17fea3":[17,7,13,6,2]
+"structGPMC__Config.html":[17,7,13,7]
 };

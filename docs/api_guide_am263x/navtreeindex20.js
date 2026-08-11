@@ -1,5 +1,11 @@
 var NAVTREEINDEX20 =
 {
+"SECURE_BOOT.html#autotoc_md775":[3,8,3,1],
+"SECURE_BOOT.html#autotoc_md776":[3,8,3,2],
+"SECURE_BOOT.html#autotoc_md777":[3,8,3,2,0],
+"SECURE_BOOT.html#autotoc_md778":[3,8,3,2,2,66],
+"SECURE_BOOT.html#autotoc_md779":[3,8,3,2,2,67],
+"SECURE_BOOT.html#autotoc_md780":[3,8,3,3],
 "SECURE_BOOT.html#autotoc_md781":[3,8,3,3,0],
 "SECURE_BOOT.html#autotoc_md782":[3,8,4],
 "SECURITY_PAGE.html":[10],
@@ -243,11 +249,5 @@ var NAVTREEINDEX20 =
 "enet_mdio_clause45_support.html#autotoc_md1555":[5,1,7,3,0],
 "enet_mdio_clause45_support.html#autotoc_md1556":[5,1,7,3,1],
 "enet_mdio_clause45_support.html#autotoc_md1557":[5,1,7,3,2],
-"enet_mdio_clause45_support.html#autotoc_md1558":[5,1,7,4],
-"enet_mdio_clause45_support.html#autotoc_md1559":[5,1,7,4,0],
-"enet_mdio_clause45_support.html#autotoc_md1560":[5,1,7,4,1],
-"enet_mdio_clause45_support.html#autotoc_md1561":[5,1,7,4,2],
-"enet_mdio_clause45_support.html#autotoc_md1562":[5,1,7,5],
-"enet_mdio_clause45_support.html#autotoc_md1563":[5,1,7,6],
-"enet_mdio_clause45_support.html#autotoc_md1564":[5,1,7,7]
+"enet_mdio_clause45_support.html#autotoc_md1558":[5,1,7,4]
 };

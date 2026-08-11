@@ -43,12 +43,12 @@ help:
 	@echo  $(MAKE) -s -f makefile.am263x freertos_r5f.ti-arm-clang freertos_r5f-mpu.ti-arm-clang
 	@echo  $(MAKE) -s -f makefile.am263x threadx_r5f.ti-arm-clang
 	@echo  $(MAKE) -s -f makefile.am263x mathlib_r5f.ti-arm-clang.nortos mathlib_r5f.ti-arm-clang.freertos mathlib_r5f.ti-arm-clang.freertos_mpu mathlib_r5f.ti-arm-clang.threadx
-	@echo  $(MAKE) -s -f makefile.am263x icss_emac_r5f.ti-arm-clang.nortos icss_emac_r5f.ti-arm-clang.freertos icss_emac_r5f.ti-arm-clang.freertos_mpu icss_emac_r5f.ti-arm-clang.threadx
-	@echo  $(MAKE) -s -f makefile.am263x icss_emac_lwip_if_r5f.ti-arm-clang.nortos icss_emac_lwip_if_r5f.ti-arm-clang.freertos icss_emac_lwip_if_r5f.ti-arm-clang.freertos_mpu icss_emac_lwip_if_r5f.ti-arm-clang.threadx
+	@echo  $(MAKE) -s -f makefile.am263x icss_emac_r5f.ti-arm-clang.nortos icss_emac_r5f.ti-arm-clang.freertos icss_emac_r5f.ti-arm-clang.freertos_mpu
+	@echo  $(MAKE) -s -f makefile.am263x icss_emac_lwip_if_r5f.ti-arm-clang.nortos icss_emac_lwip_if_r5f.ti-arm-clang.freertos icss_emac_lwip_if_r5f.ti-arm-clang.freertos_mpu
 	@echo  $(MAKE) -s -f makefile.am263x enet-cpsw_r5f.ti-arm-clang.nortos enet-cpsw_r5f.ti-arm-clang.freertos enet-cpsw_r5f.ti-arm-clang.freertos_mpu enet-cpsw_r5f.ti-arm-clang.threadx
 	@echo  $(MAKE) -s -f makefile.am263x lwipif-cpsw-freertos_r5f.ti-arm-clang
 	@echo  $(MAKE) -s -f makefile.am263x lwipif-cpsw-nortos_r5f.ti-arm-clang
-	@echo  $(MAKE) -s -f makefile.am263x icss_timesync_r5f.ti-arm-clang.nortos icss_timesync_r5f.ti-arm-clang.freertos icss_timesync_r5f.ti-arm-clang.freertos_mpu icss_timesync_r5f.ti-arm-clang.threadx
+	@echo  $(MAKE) -s -f makefile.am263x icss_timesync_r5f.ti-arm-clang.nortos icss_timesync_r5f.ti-arm-clang.freertos icss_timesync_r5f.ti-arm-clang.freertos_mpu
 	@echo  $(MAKE) -s -f makefile.am263x lwip-freertos_r5f.ti-arm-clang
 	@echo  $(MAKE) -s -f makefile.am263x lwip-freertos-icss_emac_r5f.ti-arm-clang
 	@echo  $(MAKE) -s -f makefile.am263x lwip-nortos_r5f.ti-arm-clang
@@ -77,12 +77,12 @@ help:
 	@echo  $(MAKE) -s -f makefile.am263x freertos_r5f.ti-arm-clang_clean freertos_r5f-mpu.ti-arm-clang_clean
 	@echo  $(MAKE) -s -f makefile.am263x threadx_r5f.ti-arm-clang_clean
 	@echo  $(MAKE) -s -f makefile.am263x mathlib_r5f.ti-arm-clang.nortos_clean mathlib_r5f.ti-arm-clang.freertos_clean mathlib_r5f.ti-arm-clang.freertos_mpu_clean mathlib_r5f.ti-arm-clang.threadx_clean
-	@echo  $(MAKE) -s -f makefile.am263x icss_emac_r5f.ti-arm-clang.nortos_clean icss_emac_r5f.ti-arm-clang.freertos_clean icss_emac_r5f.ti-arm-clang.freertos_mpu_clean icss_emac_r5f.ti-arm-clang.threadx_clean
-	@echo  $(MAKE) -s -f makefile.am263x icss_emac_lwip_if_r5f.ti-arm-clang.nortos_clean icss_emac_lwip_if_r5f.ti-arm-clang.freertos_clean icss_emac_lwip_if_r5f.ti-arm-clang.freertos_mpu_clean icss_emac_lwip_if_r5f.ti-arm-clang.threadx_clean
+	@echo  $(MAKE) -s -f makefile.am263x icss_emac_r5f.ti-arm-clang.nortos_clean icss_emac_r5f.ti-arm-clang.freertos_clean icss_emac_r5f.ti-arm-clang.freertos_mpu_clean
+	@echo  $(MAKE) -s -f makefile.am263x icss_emac_lwip_if_r5f.ti-arm-clang.nortos_clean icss_emac_lwip_if_r5f.ti-arm-clang.freertos_clean icss_emac_lwip_if_r5f.ti-arm-clang.freertos_mpu_clean
 	@echo  $(MAKE) -s -f makefile.am263x enet-cpsw_r5f.ti-arm-clang.nortos_clean enet-cpsw_r5f.ti-arm-clang.freertos_clean enet-cpsw_r5f.ti-arm-clang.freertos_mpu_clean enet-cpsw_r5f.ti-arm-clang.threadx_clean
 	@echo  $(MAKE) -s -f makefile.am263x lwipif-cpsw-freertos_r5f.ti-arm-clang_clean
 	@echo  $(MAKE) -s -f makefile.am263x lwipif-cpsw-nortos_r5f.ti-arm-clang_clean
-	@echo  $(MAKE) -s -f makefile.am263x icss_timesync_r5f.ti-arm-clang.nortos_clean icss_timesync_r5f.ti-arm-clang.freertos_clean icss_timesync_r5f.ti-arm-clang.freertos_mpu_clean icss_timesync_r5f.ti-arm-clang.threadx_clean
+	@echo  $(MAKE) -s -f makefile.am263x icss_timesync_r5f.ti-arm-clang.nortos_clean icss_timesync_r5f.ti-arm-clang.freertos_clean icss_timesync_r5f.ti-arm-clang.freertos_mpu_clean
 	@echo  $(MAKE) -s -f makefile.am263x lwip-freertos_r5f.ti-arm-clang_clean
 	@echo  $(MAKE) -s -f makefile.am263x lwip-freertos-icss_emac_r5f.ti-arm-clang_clean
 	@echo  $(MAKE) -s -f makefile.am263x lwip-nortos_r5f.ti-arm-clang_clean
@@ -705,8 +705,8 @@ help:
 	@echo  $(MAKE) -s -C examples/drivers/i2c/i2c_dma_read_write/am263x-lp/system_nortos [all clean syscfg-gui syscfg]
 	@echo  $(MAKE) -s -C examples/drivers/i2c/i2c_peripheral_transfer/am263x-lp/system_freertos_nortos [all clean syscfg-gui syscfg]
 	@echo  $(MAKE) -s -C examples/drivers/ipc/ipc_notify_echo/am263x-cc/system_freertos_nortos [all clean syscfg-gui syscfg]
-	@echo  $(MAKE) -s -C examples/drivers/ipc/ipc_notify_echo/am263x-cc/system_threadx_nortos [all clean syscfg-gui syscfg]
 	@echo  $(MAKE) -s -C examples/drivers/ipc/ipc_notify_echo/am263x-lp/system_freertos_nortos [all clean syscfg-gui syscfg]
+	@echo  $(MAKE) -s -C examples/drivers/ipc/ipc_notify_echo/am263x-cc/system_threadx_nortos [all clean syscfg-gui syscfg]
 	@echo  $(MAKE) -s -C examples/drivers/ipc/ipc_notify_echo/am263x-lp/system_threadx_nortos [all clean syscfg-gui syscfg]
 	@echo  $(MAKE) -s -C examples/drivers/ipc/ipc_rpmsg_echo/am263x-cc/system_freertos_nortos [all clean syscfg-gui syscfg]
 	@echo  $(MAKE) -s -C examples/drivers/ipc/ipc_rpmsg_echo/am263x-lp/system_freertos_nortos [all clean syscfg-gui syscfg]
@@ -743,12 +743,12 @@ BUILD_COMBO_nortos = nortos_r5f.ti-arm-clang
 BUILD_COMBO_freertos = freertos_r5f.ti-arm-clang freertos_r5f-mpu.ti-arm-clang
 BUILD_COMBO_threadx = threadx_r5f.ti-arm-clang
 BUILD_COMBO_mathlib = mathlib_r5f.ti-arm-clang.nortos mathlib_r5f.ti-arm-clang.freertos mathlib_r5f.ti-arm-clang.freertos_mpu mathlib_r5f.ti-arm-clang.threadx
-BUILD_COMBO_icss_emac = icss_emac_r5f.ti-arm-clang.nortos icss_emac_r5f.ti-arm-clang.freertos icss_emac_r5f.ti-arm-clang.freertos_mpu icss_emac_r5f.ti-arm-clang.threadx
-BUILD_COMBO_icss_emac_lwip_if = icss_emac_lwip_if_r5f.ti-arm-clang.nortos icss_emac_lwip_if_r5f.ti-arm-clang.freertos icss_emac_lwip_if_r5f.ti-arm-clang.freertos_mpu icss_emac_lwip_if_r5f.ti-arm-clang.threadx
+BUILD_COMBO_icss_emac = icss_emac_r5f.ti-arm-clang.nortos icss_emac_r5f.ti-arm-clang.freertos icss_emac_r5f.ti-arm-clang.freertos_mpu
+BUILD_COMBO_icss_emac_lwip_if = icss_emac_lwip_if_r5f.ti-arm-clang.nortos icss_emac_lwip_if_r5f.ti-arm-clang.freertos icss_emac_lwip_if_r5f.ti-arm-clang.freertos_mpu
 BUILD_COMBO_enet-cpsw = enet-cpsw_r5f.ti-arm-clang.nortos enet-cpsw_r5f.ti-arm-clang.freertos enet-cpsw_r5f.ti-arm-clang.freertos_mpu enet-cpsw_r5f.ti-arm-clang.threadx
 BUILD_COMBO_lwipif-cpsw-freertos = lwipif-cpsw-freertos_r5f.ti-arm-clang
 BUILD_COMBO_lwipif-cpsw-nortos = lwipif-cpsw-nortos_r5f.ti-arm-clang
-BUILD_COMBO_icss_timesync = icss_timesync_r5f.ti-arm-clang.nortos icss_timesync_r5f.ti-arm-clang.freertos icss_timesync_r5f.ti-arm-clang.freertos_mpu icss_timesync_r5f.ti-arm-clang.threadx
+BUILD_COMBO_icss_timesync = icss_timesync_r5f.ti-arm-clang.nortos icss_timesync_r5f.ti-arm-clang.freertos icss_timesync_r5f.ti-arm-clang.freertos_mpu
 BUILD_COMBO_lwip-freertos = lwip-freertos_r5f.ti-arm-clang
 BUILD_COMBO_lwip-freertos-icss_emac = lwip-freertos-icss_emac_r5f.ti-arm-clang
 BUILD_COMBO_lwip-nortos = lwip-nortos_r5f.ti-arm-clang
@@ -890,12 +890,12 @@ BUILD_COMBO_CLEAN_nortos = nortos_r5f.ti-arm-clang_clean
 BUILD_COMBO_CLEAN_freertos = freertos_r5f.ti-arm-clang_clean freertos_r5f-mpu.ti-arm-clang_clean
 BUILD_COMBO_CLEAN_threadx = threadx_r5f.ti-arm-clang_clean
 BUILD_COMBO_CLEAN_mathlib = mathlib_r5f.ti-arm-clang.nortos_clean mathlib_r5f.ti-arm-clang.freertos_clean mathlib_r5f.ti-arm-clang.freertos_mpu_clean mathlib_r5f.ti-arm-clang.threadx_clean
-BUILD_COMBO_CLEAN_icss_emac = icss_emac_r5f.ti-arm-clang.nortos_clean icss_emac_r5f.ti-arm-clang.freertos_clean icss_emac_r5f.ti-arm-clang.freertos_mpu_clean icss_emac_r5f.ti-arm-clang.threadx_clean
-BUILD_COMBO_CLEAN_icss_emac_lwip_if = icss_emac_lwip_if_r5f.ti-arm-clang.nortos_clean icss_emac_lwip_if_r5f.ti-arm-clang.freertos_clean icss_emac_lwip_if_r5f.ti-arm-clang.freertos_mpu_clean icss_emac_lwip_if_r5f.ti-arm-clang.threadx_clean
+BUILD_COMBO_CLEAN_icss_emac = icss_emac_r5f.ti-arm-clang.nortos_clean icss_emac_r5f.ti-arm-clang.freertos_clean icss_emac_r5f.ti-arm-clang.freertos_mpu_clean
+BUILD_COMBO_CLEAN_icss_emac_lwip_if = icss_emac_lwip_if_r5f.ti-arm-clang.nortos_clean icss_emac_lwip_if_r5f.ti-arm-clang.freertos_clean icss_emac_lwip_if_r5f.ti-arm-clang.freertos_mpu_clean
 BUILD_COMBO_CLEAN_enet-cpsw = enet-cpsw_r5f.ti-arm-clang.nortos_clean enet-cpsw_r5f.ti-arm-clang.freertos_clean enet-cpsw_r5f.ti-arm-clang.freertos_mpu_clean enet-cpsw_r5f.ti-arm-clang.threadx_clean
 BUILD_COMBO_CLEAN_lwipif-cpsw-freertos = lwipif-cpsw-freertos_r5f.ti-arm-clang_clean
 BUILD_COMBO_CLEAN_lwipif-cpsw-nortos = lwipif-cpsw-nortos_r5f.ti-arm-clang_clean
-BUILD_COMBO_CLEAN_icss_timesync = icss_timesync_r5f.ti-arm-clang.nortos_clean icss_timesync_r5f.ti-arm-clang.freertos_clean icss_timesync_r5f.ti-arm-clang.freertos_mpu_clean icss_timesync_r5f.ti-arm-clang.threadx_clean
+BUILD_COMBO_CLEAN_icss_timesync = icss_timesync_r5f.ti-arm-clang.nortos_clean icss_timesync_r5f.ti-arm-clang.freertos_clean icss_timesync_r5f.ti-arm-clang.freertos_mpu_clean
 BUILD_COMBO_CLEAN_lwip-freertos = lwip-freertos_r5f.ti-arm-clang_clean
 BUILD_COMBO_CLEAN_lwip-freertos-icss_emac = lwip-freertos-icss_emac_r5f.ti-arm-clang_clean
 BUILD_COMBO_CLEAN_lwip-nortos = lwip-nortos_r5f.ti-arm-clang_clean
@@ -1031,12 +1031,12 @@ BUILD_COMBO_SCRUB_nortos = nortos_r5f.ti-arm-clang_scrub
 BUILD_COMBO_SCRUB_freertos = freertos_r5f.ti-arm-clang_scrub freertos_r5f-mpu.ti-arm-clang_scrub
 BUILD_COMBO_SCRUB_threadx = threadx_r5f.ti-arm-clang_scrub
 BUILD_COMBO_SCRUB_mathlib = mathlib_r5f.ti-arm-clang.nortos_scrub mathlib_r5f.ti-arm-clang.freertos_scrub mathlib_r5f.ti-arm-clang.freertos_mpu_scrub mathlib_r5f.ti-arm-clang.threadx_scrub
-BUILD_COMBO_SCRUB_icss_emac = icss_emac_r5f.ti-arm-clang.nortos_scrub icss_emac_r5f.ti-arm-clang.freertos_scrub icss_emac_r5f.ti-arm-clang.freertos_mpu_scrub icss_emac_r5f.ti-arm-clang.threadx_scrub
-BUILD_COMBO_SCRUB_icss_emac_lwip_if = icss_emac_lwip_if_r5f.ti-arm-clang.nortos_scrub icss_emac_lwip_if_r5f.ti-arm-clang.freertos_scrub icss_emac_lwip_if_r5f.ti-arm-clang.freertos_mpu_scrub icss_emac_lwip_if_r5f.ti-arm-clang.threadx_scrub
+BUILD_COMBO_SCRUB_icss_emac = icss_emac_r5f.ti-arm-clang.nortos_scrub icss_emac_r5f.ti-arm-clang.freertos_scrub icss_emac_r5f.ti-arm-clang.freertos_mpu_scrub
+BUILD_COMBO_SCRUB_icss_emac_lwip_if = icss_emac_lwip_if_r5f.ti-arm-clang.nortos_scrub icss_emac_lwip_if_r5f.ti-arm-clang.freertos_scrub icss_emac_lwip_if_r5f.ti-arm-clang.freertos_mpu_scrub
 BUILD_COMBO_SCRUB_enet-cpsw = enet-cpsw_r5f.ti-arm-clang.nortos_scrub enet-cpsw_r5f.ti-arm-clang.freertos_scrub enet-cpsw_r5f.ti-arm-clang.freertos_mpu_scrub enet-cpsw_r5f.ti-arm-clang.threadx_scrub
 BUILD_COMBO_SCRUB_lwipif-cpsw-freertos = lwipif-cpsw-freertos_r5f.ti-arm-clang_scrub
 BUILD_COMBO_SCRUB_lwipif-cpsw-nortos = lwipif-cpsw-nortos_r5f.ti-arm-clang_scrub
-BUILD_COMBO_SCRUB_icss_timesync = icss_timesync_r5f.ti-arm-clang.nortos_scrub icss_timesync_r5f.ti-arm-clang.freertos_scrub icss_timesync_r5f.ti-arm-clang.freertos_mpu_scrub icss_timesync_r5f.ti-arm-clang.threadx_scrub
+BUILD_COMBO_SCRUB_icss_timesync = icss_timesync_r5f.ti-arm-clang.nortos_scrub icss_timesync_r5f.ti-arm-clang.freertos_scrub icss_timesync_r5f.ti-arm-clang.freertos_mpu_scrub
 BUILD_COMBO_SCRUB_lwip-freertos = lwip-freertos_r5f.ti-arm-clang_scrub
 BUILD_COMBO_SCRUB_lwip-freertos-icss_emac = lwip-freertos-icss_emac_r5f.ti-arm-clang_scrub
 BUILD_COMBO_SCRUB_lwip-nortos = lwip-nortos_r5f.ti-arm-clang_scrub
@@ -1732,8 +1732,8 @@ BUILD_COMBO_EXAMPLE_ALL += i2c_repeated_start_dma_am263x-lp_system_nortos
 BUILD_COMBO_EXAMPLE_ALL += i2c_dma_read_write_am263x-lp_system_nortos
 BUILD_COMBO_EXAMPLE_ALL += i2c_peripheral_transfer_am263x-lp_system_freertos_nortos
 BUILD_COMBO_EXAMPLE_ALL += ipc_notify_echo_am263x-cc_system_freertos_nortos
-BUILD_COMBO_EXAMPLE_ALL += ipc_notify_echo_am263x-cc_system_threadx_nortos
 BUILD_COMBO_EXAMPLE_ALL += ipc_notify_echo_am263x-lp_system_freertos_nortos
+BUILD_COMBO_EXAMPLE_ALL += ipc_notify_echo_am263x-cc_system_threadx_nortos
 BUILD_COMBO_EXAMPLE_ALL += ipc_notify_echo_am263x-lp_system_threadx_nortos
 BUILD_COMBO_EXAMPLE_ALL += ipc_rpmsg_echo_am263x-cc_system_freertos_nortos
 BUILD_COMBO_EXAMPLE_ALL += ipc_rpmsg_echo_am263x-lp_system_freertos_nortos
@@ -3591,11 +3591,11 @@ examples-private: $(BUILD_COMBO_EXAMPLE_PRIVATE_ALL)
  ipc_notify_echo_am263x-cc_system_freertos_nortos:
 	$(MAKE) -C examples/drivers/ipc/ipc_notify_echo/am263x-cc/system_freertos_nortos -f makefile all
 
- ipc_notify_echo_am263x-cc_system_threadx_nortos:
-	$(MAKE) -C examples/drivers/ipc/ipc_notify_echo/am263x-cc/system_threadx_nortos -f makefile all
-
  ipc_notify_echo_am263x-lp_system_freertos_nortos:
 	$(MAKE) -C examples/drivers/ipc/ipc_notify_echo/am263x-lp/system_freertos_nortos -f makefile all
+
+ ipc_notify_echo_am263x-cc_system_threadx_nortos:
+	$(MAKE) -C examples/drivers/ipc/ipc_notify_echo/am263x-cc/system_threadx_nortos -f makefile all
 
  ipc_notify_echo_am263x-lp_system_threadx_nortos:
 	$(MAKE) -C examples/drivers/ipc/ipc_notify_echo/am263x-lp/system_threadx_nortos -f makefile all
@@ -4235,8 +4235,8 @@ BUILD_COMBO_EXAMPLE_CLEAN_ALL += i2c_repeated_start_dma_am263x-lp_system_nortos_
 BUILD_COMBO_EXAMPLE_CLEAN_ALL += i2c_dma_read_write_am263x-lp_system_nortos_clean
 BUILD_COMBO_EXAMPLE_CLEAN_ALL += i2c_peripheral_transfer_am263x-lp_system_freertos_nortos_clean
 BUILD_COMBO_EXAMPLE_CLEAN_ALL += ipc_notify_echo_am263x-cc_system_freertos_nortos_clean
-BUILD_COMBO_EXAMPLE_CLEAN_ALL += ipc_notify_echo_am263x-cc_system_threadx_nortos_clean
 BUILD_COMBO_EXAMPLE_CLEAN_ALL += ipc_notify_echo_am263x-lp_system_freertos_nortos_clean
+BUILD_COMBO_EXAMPLE_CLEAN_ALL += ipc_notify_echo_am263x-cc_system_threadx_nortos_clean
 BUILD_COMBO_EXAMPLE_CLEAN_ALL += ipc_notify_echo_am263x-lp_system_threadx_nortos_clean
 BUILD_COMBO_EXAMPLE_CLEAN_ALL += ipc_rpmsg_echo_am263x-cc_system_freertos_nortos_clean
 BUILD_COMBO_EXAMPLE_CLEAN_ALL += ipc_rpmsg_echo_am263x-lp_system_freertos_nortos_clean
@@ -6090,11 +6090,11 @@ examples-private-clean: $(BUILD_COMBO_EXAMPLE_PRIVATE_CLEAN_ALL)
  ipc_notify_echo_am263x-cc_system_freertos_nortos_clean:
 	$(MAKE) -C examples/drivers/ipc/ipc_notify_echo/am263x-cc/system_freertos_nortos -f makefile clean
 
- ipc_notify_echo_am263x-cc_system_threadx_nortos_clean:
-	$(MAKE) -C examples/drivers/ipc/ipc_notify_echo/am263x-cc/system_threadx_nortos -f makefile clean
-
  ipc_notify_echo_am263x-lp_system_freertos_nortos_clean:
 	$(MAKE) -C examples/drivers/ipc/ipc_notify_echo/am263x-lp/system_freertos_nortos -f makefile clean
+
+ ipc_notify_echo_am263x-cc_system_threadx_nortos_clean:
+	$(MAKE) -C examples/drivers/ipc/ipc_notify_echo/am263x-cc/system_threadx_nortos -f makefile clean
 
  ipc_notify_echo_am263x-lp_system_threadx_nortos_clean:
 	$(MAKE) -C examples/drivers/ipc/ipc_notify_echo/am263x-lp/system_threadx_nortos -f makefile clean
@@ -6734,8 +6734,8 @@ BUILD_COMBO_EXAMPLE_SCRUB_ALL += i2c_repeated_start_dma_am263x-lp_system_nortos_
 BUILD_COMBO_EXAMPLE_SCRUB_ALL += i2c_dma_read_write_am263x-lp_system_nortos_scrub
 BUILD_COMBO_EXAMPLE_SCRUB_ALL += i2c_peripheral_transfer_am263x-lp_system_freertos_nortos_scrub
 BUILD_COMBO_EXAMPLE_SCRUB_ALL += ipc_notify_echo_am263x-cc_system_freertos_nortos_scrub
-BUILD_COMBO_EXAMPLE_SCRUB_ALL += ipc_notify_echo_am263x-cc_system_threadx_nortos_scrub
 BUILD_COMBO_EXAMPLE_SCRUB_ALL += ipc_notify_echo_am263x-lp_system_freertos_nortos_scrub
+BUILD_COMBO_EXAMPLE_SCRUB_ALL += ipc_notify_echo_am263x-cc_system_threadx_nortos_scrub
 BUILD_COMBO_EXAMPLE_SCRUB_ALL += ipc_notify_echo_am263x-lp_system_threadx_nortos_scrub
 BUILD_COMBO_EXAMPLE_SCRUB_ALL += ipc_rpmsg_echo_am263x-cc_system_freertos_nortos_scrub
 BUILD_COMBO_EXAMPLE_SCRUB_ALL += ipc_rpmsg_echo_am263x-lp_system_freertos_nortos_scrub
@@ -8589,11 +8589,11 @@ examples-scrub-private: $(BUILD_COMBO_EXAMPLE_PRIVATE_SCRUB_ALL)
  ipc_notify_echo_am263x-cc_system_freertos_nortos_scrub:
 	$(MAKE) -C examples/drivers/ipc/ipc_notify_echo/am263x-cc/system_freertos_nortos -f makefile scrub
 
- ipc_notify_echo_am263x-cc_system_threadx_nortos_scrub:
-	$(MAKE) -C examples/drivers/ipc/ipc_notify_echo/am263x-cc/system_threadx_nortos -f makefile scrub
-
  ipc_notify_echo_am263x-lp_system_freertos_nortos_scrub:
 	$(MAKE) -C examples/drivers/ipc/ipc_notify_echo/am263x-lp/system_freertos_nortos -f makefile scrub
+
+ ipc_notify_echo_am263x-cc_system_threadx_nortos_scrub:
+	$(MAKE) -C examples/drivers/ipc/ipc_notify_echo/am263x-cc/system_threadx_nortos -f makefile scrub
 
  ipc_notify_echo_am263x-lp_system_threadx_nortos_scrub:
 	$(MAKE) -C examples/drivers/ipc/ipc_notify_echo/am263x-lp/system_threadx_nortos -f makefile scrub

@@ -1,5 +1,11 @@
 var NAVTREEINDEX15 =
 {
+"EXAMPLE_SPINLOCK.html#autotoc_md2990":[16,7,151,0],
+"EXAMPLE_SPINLOCK.html#autotoc_md2991":[16,7,151,2],
+"EXAMPLE_SPINLOCK.html#autotoc_md2992":[16,7,151,3],
+"FAST_SECURE_BOOT.html":[3,9],
+"FAST_SECURE_BOOT.html#autotoc_md783":[3,9,0],
+"FAST_SECURE_BOOT.html#autotoc_md784":[3,9,0,0],
 "FAST_SECURE_BOOT.html#autotoc_md785":[3,9,0,1],
 "FAST_SECURE_BOOT.html#autotoc_md786":[3,9,1],
 "FAST_SECURE_BOOT.html#autotoc_md787":[3,9,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX15 =
 "KERNEL_DPL_EVENT_PAGE.html#autotoc_md1108":[8,13,4],
 "KERNEL_DPL_HEAP_PAGE.html":[8,11],
 "KERNEL_DPL_HEAP_PAGE.html#autotoc_md1074":[8,11,0],
-"KERNEL_DPL_HEAP_PAGE.html#autotoc_md1075":[8,11,1],
-"KERNEL_DPL_HEAP_PAGE.html#autotoc_md1076":[8,11,2],
-"KERNEL_DPL_HEAP_PAGE.html#autotoc_md1077":[8,11,3],
-"KERNEL_DPL_HEAP_PAGE.html#autotoc_md1078":[8,11,4],
-"KERNEL_DPL_HWI_PAGE.html":[8,1],
-"KERNEL_DPL_HWI_PAGE.html#autotoc_md1069":[8,1,0],
-"KERNEL_DPL_HWI_PAGE.html#autotoc_md1070":[8,1,1]
+"KERNEL_DPL_HEAP_PAGE.html#autotoc_md1075":[8,11,1]
 };
