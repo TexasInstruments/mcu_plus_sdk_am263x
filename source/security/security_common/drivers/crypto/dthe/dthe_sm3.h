@@ -122,10 +122,10 @@ typedef uint32_t DTHE_SM3_CryptoStateMachine_t;
  */
 typedef struct DTHE_SM3_Params_t
 {
-    /** \brief Pointer to the Plain Text data buffer */
-    uint32_t            *ptrDataBuffer;
     /** \brief Size of the data in bytes */
     uint64_t            dataLenBytes;
+    /** \brief Pointer to the Plain Text data buffer */
+    uint32_t            *ptrDataBuffer;
     /** \brief output buffer for storing SM3 degest */
     uint32_t            digest[DTHE_SM3_MAX_DIGEST_SIZE_BYTES/4U];
 }DTHE_SM3_Params;

@@ -18525,6 +18525,158 @@
         "resourceSubClass": [
             "example.general"
         ],
+        "description": "A Tsn Demo Listener Example. CPU is R5FSS0-0 running FREERTOS.",
+        "name": "tsn_demo_listener",
+        "location": "../../source/networking/enet/core/examples/tsn_demo/listener/am263x-lp/r5fss0-0_freertos/ti-arm-clang/example.projectspec",
+        "devtools": [
+            "LP-AM263"
+        ],
+        "kernel": [
+            "freertos"
+        ],
+        "compiler": [
+            "ticlang"
+        ],
+        "subCategories": [
+            "..",
+            "source",
+            "networking",
+            "enet",
+            "core",
+            "examples",
+            "tsn_demo",
+            "listener",
+            "r5fss0-0_freertos"
+        ],
+        "mainCategories": [
+            [
+                "Examples",
+                "Development Tools"
+            ]
+        ]
+    },
+    {
+        "resourceType": "project.ccs",
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ],
+        "description": "A Tsn Demo Listener Example. CPU is R5FSS0-0 running FREERTOS.",
+        "name": "tsn_demo_listener",
+        "location": "../../source/networking/enet/core/examples/tsn_demo/listener/am263x-cc/r5fss0-0_freertos/ti-arm-clang/example.projectspec",
+        "devtools": [
+            "TMDSCNCD263"
+        ],
+        "kernel": [
+            "freertos"
+        ],
+        "compiler": [
+            "ticlang"
+        ],
+        "subCategories": [
+            "..",
+            "source",
+            "networking",
+            "enet",
+            "core",
+            "examples",
+            "tsn_demo",
+            "listener",
+            "r5fss0-0_freertos"
+        ],
+        "mainCategories": [
+            [
+                "Examples",
+                "Development Tools"
+            ]
+        ]
+    },
+    {
+        "resourceType": "project.ccs",
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ],
+        "description": "A Tsn Demo Talker Example. CPU is R5FSS0-0 running FREERTOS.",
+        "name": "tsn_demo_talker",
+        "location": "../../source/networking/enet/core/examples/tsn_demo/talker/am263x-lp/r5fss0-0_freertos/ti-arm-clang/example.projectspec",
+        "devtools": [
+            "LP-AM263"
+        ],
+        "kernel": [
+            "freertos"
+        ],
+        "compiler": [
+            "ticlang"
+        ],
+        "subCategories": [
+            "..",
+            "source",
+            "networking",
+            "enet",
+            "core",
+            "examples",
+            "tsn_demo",
+            "talker",
+            "r5fss0-0_freertos"
+        ],
+        "mainCategories": [
+            [
+                "Examples",
+                "Development Tools"
+            ]
+        ]
+    },
+    {
+        "resourceType": "project.ccs",
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ],
+        "description": "A Tsn Demo Talker Example. CPU is R5FSS0-0 running FREERTOS.",
+        "name": "tsn_demo_talker",
+        "location": "../../source/networking/enet/core/examples/tsn_demo/talker/am263x-cc/r5fss0-0_freertos/ti-arm-clang/example.projectspec",
+        "devtools": [
+            "TMDSCNCD263"
+        ],
+        "kernel": [
+            "freertos"
+        ],
+        "compiler": [
+            "ticlang"
+        ],
+        "subCategories": [
+            "..",
+            "source",
+            "networking",
+            "enet",
+            "core",
+            "examples",
+            "tsn_demo",
+            "talker",
+            "r5fss0-0_freertos"
+        ],
+        "mainCategories": [
+            [
+                "Examples",
+                "Development Tools"
+            ]
+        ]
+    },
+    {
+        "resourceType": "project.ccs",
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ],
         "description": "A Icss Emac Lwip Example. CPU is R5FSS0-0 running FREERTOS.",
         "name": "icss_emac_lwip",
         "location": "../../examples/networking/lwip/icss_emac_lwip/am263x-cc/r5fss0-0_freertos/ti-arm-clang/example.projectspec",

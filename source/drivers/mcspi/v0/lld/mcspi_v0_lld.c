@@ -1657,7 +1657,7 @@ static uint32_t MCSPI_continueTxRx(MCSPILLD_Handle hMcspi,
             {
                 uint32_t timeout = transaction->timeout;
                 uint32_t startTicks = hMcspi->hMcspiInit->clockP_get();
-                uint32_t elapsedTicks;
+                uint32_t elapsedTicks = 0U;
 
                 /* Wait for EOT with timeout to prevent ISR hang */
                 while ((0U == (CSL_REG32_RD(baseAddr + MCSPI_CHSTAT(chNum)) &

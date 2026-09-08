@@ -69,7 +69,7 @@ typedef struct Ram_Params_s Ram_Params;
 typedef struct Ram_MrConfig_s
 {
     uint32_t address;
-    uint8_t value;
+    uint32_t value;     /**< Register value. Width used by the driver is governed by Ram_DevConfig::mrValWidth */
 } Ram_MrConfig;
 
 typedef struct Ram_Devconfig_s
@@ -82,7 +82,9 @@ typedef struct Ram_Devconfig_s
     uint8_t dummyClksRd;
     uint8_t dummyClksWr;
     uint8_t dummyClksCmd;
+    uint8_t cmdExtType;         /**< Command extension type: OSPI_CMD_EXT_TYPE_REPEAT / INVERSE / NONE */
     uint8_t mrCount;
+    uint8_t mrValWidth;         /**< Width in bytes for each MR value write: 1 (8-bit), 2 (16-bit), or 4 (32-bit) */
     const Ram_MrConfig *mrConfig;
 
 } Ram_DevConfig;

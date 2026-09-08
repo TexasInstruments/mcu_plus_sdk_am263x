@@ -1440,6 +1440,9 @@ static uint32_t SOC_rcmGetModuleClkDivVal(uint32_t inFreq, uint32_t outFreq)
 {
     uint32_t moduleClkDivVal;
 
+    DebugP_assert(outFreq > 0);
+    DebugP_assert(inFreq >= outFreq);
+    
     DebugP_assert((inFreq % outFreq) == 0);
     moduleClkDivVal = inFreq / outFreq;
     moduleClkDivVal--;

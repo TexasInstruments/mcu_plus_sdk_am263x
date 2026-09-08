@@ -55,6 +55,39 @@ extern "C"
  */
 #define LABEL_AND_CONTEXT_LEN_MAX 48U
 
+#if defined(SOC_AM263X)|| defined(SOC_AM263PX)|| defined(SOC_AM261X)
+/**
+ * @brief
+ *        Enable or disable staging of HSM IPC structs through the
+ *        driver-owned host buffer (gHsmClientHostBuff) inside
+ *        HsmClient_getIPCBuffPtr() / HsmClient_syncIPCBuffPtr().
+ */
+#define HSMCLIENT_HOST_BUFF_ENABLE
+
+/**
+ * @brief
+ *        Enable or disable cache writeback/invalidate operations for HSM IPC
+ *        buffers.  Set to 1 (default) to enable cache maintenance; set to 0
+ *        to disable all CacheP_wbInv / CacheP_inv calls in the HSM client
+ *        driver.  Disabling is useful when HSM IPC buffers are placed in
+ *        non-cacheable memory by the application linker script.
+ *
+ *        To disable, define HSMCLIENT_CACHE_ENABLE=0 in the compiler flags
+ *        before including this header, or override it in a project-level
+ *        config header.
+ */
+#define HSMCLIENT_CACHE_ENABLE  (1U)
+#endif
+
+/**
+ * @brief
+ *        Size in bytes of the driver-owned host buffer used by
+ *        HsmClient_prepareHostBuff().  Sized to accommodate the largest
+ *        HSM IPC struct (OTFA_Config_t ~228 bytes), rounded up to a
+ *        multiple of the cache line size.
+ */
+#define HSMCLIENT_HOST_BUFF_SIZE  (512U)
+
 /**
  * @brief
  *        HSMRT load has not been requested
@@ -137,8 +170,8 @@ extern "C"
 /** @brief Size of Debug configuration data in bytes (4 uint32_t values) */
 #define SIZE_OF_DEBUG_DEVICE_CONFIG        (16U)
 
-/** @brief Size of Keyring configuration data in bytes (3 uint32_t values) */
-#define SIZE_OF_KEYRING_DEVICE_CONFIG      (12U)
+/** @brief Size of Keyring configuration data in bytes (5 uint32_t values) */
+#define SIZE_OF_KEYRING_DEVICE_CONFIG      (20U)
 
     /**
      * @brief
@@ -398,7 +431,7 @@ typedef struct OTFA_Region_t
     uint8_t   authAesKey [16] ;  /* actual key value to be written to the register for authentication ; fetched from keyring */
     uint8_t   encrAesKey [16] ;  /* actual key value to be written to the register for decryption ; fetched from keyring */
     uint8_t   regionIV[16] ;     /* IV to be used for encryption */
-}OTFA_Region_t ;
+} OTFA_Region_t;
 
 /**
  * @brief
@@ -414,7 +447,7 @@ typedef struct OTFA_readRegion_t
     uint32_t  regionStAddr ;    /* start address of the flash region for which the configuration should apply */
     uint32_t  regionSize ;      /* size of the flash region in kB for which the configuration should apply */
     uint16_t  regionIV[16] ;    /* IV to be used for encryption */
-}OTFA_readRegion_t ;
+} OTFA_readRegion_t;
 
 /**
  * @brief
@@ -428,7 +461,7 @@ typedef struct OTFA_Config_t
     uint8_t        keySize   ;      /* options - 128/256 */
     uint8_t        macSize   ;      /* options - 4/8/12/16 */
     uint8_t        masterEnable ;   /* specifies whether OTFA IP has to be enabled/disabled ; 0 or 1 */
-}OTFA_Config_t ;
+} OTFA_Config_t;
 
 /**
 * @brief
@@ -655,13 +688,15 @@ typedef struct DeviceConfigDebug_t_
 /**
  * @brief
  * Keyring configuration structure containing keyring-related device information.
- * Total size: SIZE_OF_KEYRING_DEVICE_CONFIG (12 bytes)
+ * Total size: SIZE_OF_KEYRING_DEVICE_CONFIG (20 bytes)
  */
 typedef struct DeviceConfigKeyring_t_
 {
-    uint32_t numAsymmKeysImported;  /** Number of asymmetric auxiliary keys imported */
-    uint32_t numSymmKeysImported;   /** Number of symmetric auxiliary keys imported */
-    uint32_t keyringStatus;         /** Overall keyring status/flags */
+    uint32_t keyringImportCounter;          /** Overall keyring status/flags */
+    uint32_t numAsymmKeysImported;          /** Number of asymmetric auxiliary keys imported */
+    uint32_t numSymmKeysImported;           /** Number of symmetric auxiliary keys imported */
+    uint32_t numAsymmPrivateKeysImported;   /** Number of Asymmetric auxiliary private keys imported */
+    uint32_t customKeyDataPresent;          /** Custom data imported */
 } DeviceConfigKeyring_t;
 
 /**
@@ -728,7 +763,7 @@ void HsmClient_SecureBootQueueInit(uint32_t configured_hsm_client_msg_queue_size
  * @param timeToWaitInTick  [IN] amount of time to block waiting for
  * semaphore to be available, in units of system ticks (see KERNEL_DPL_CLOCK_PAGE)
  * @param HsmClient         [IN] Client object which is using this getversion API.
- * @param verId             [OUT] populates HsmVer_t struct which describes current version. This object's memory address needs to be cache aligned.
+ * @param verId             [OUT] populates HsmVer_t struct which describes current version. Pass the pointer returned by HsmClient_prepareHostBuff() to ensure cache-line alignment.
  *
  * @return
  * 1. SystemP_SUCCESS if returns successfully
@@ -986,7 +1021,7 @@ int32_t HsmClient_getVersion(HsmClient_t *HsmClient ,
      * @brief
      * The service issued to HSM Server verifies the certificate and process the keywriter operations,
      * @param HsmClient         [IN] Client object which is using this API.
-     * @param certHeader        [IN] point to the location of certificate in the device memory.  This object's memory address needs to be cache aligned.
+     * @param certHeader        [IN] point to the location of certificate in the device memory. Pass the pointer returned by HsmClient_prepareHostBuff() to ensure cache-line alignment.
      * @param timeout           [IN] amount of time to block waiting for
      * semaphore to be available, in units of system ticks (see KERNEL_DPL_CLOCK_PAGE)
      * @return
@@ -1335,12 +1370,15 @@ int32_t HsmClient_getDeviceConfig(HsmClient_t *HsmClient,
  * @param HsmClient  [IN]     HsmClient object
  * @param svcReq     [IN/OUT] Pointer to CryptoServiceReq_t; for generate
  *                            operations, output is written to ptrTag on success
+ * @param respReq    [IN/OUT] Pointer to CryptoServiceReq_t; the errCode is written
+ *                            to this pointer
  * @param timeout    [IN]     Timeout in ticks (SystemP_WAIT_FOREVER to block)
  *
  * @return SystemP_SUCCESS on ACK, SystemP_FAILURE on NACK or error.
  */
 int32_t HsmClient_CryptoService(HsmClient_t *HsmClient,
                                  CryptoServiceReq_t *svcReq,
+                                 CryptoServiceReq_t *respReq,
                                  uint32_t timeout);
 
 /**

@@ -141,7 +141,9 @@ void Crypto_bigIntToUint32(uint32_t *source, uint32_t sourceLengthInWords, uint3
  *
  *  \param  shaHash             Calculated Hash of the message for padding
  *
- *  \param  keyLengthInBytes    Used while padding to match key and padded mesage size
+ *  \param  keyLengthInBytes    Used while padding to match key and padded mesage size.
+ *                              Must be >= 3 + digestInfoLen + hash length for typeOfAlgo,
+ *                              otherwise output is left untouched.
  *
  *  \param  typeOfAlgo          Used while padding to check sha length, refer \ref Crypto_AlgoTypes
  *
@@ -170,6 +172,25 @@ void Crypto_PKCSPaddingForSign(const uint8_t *shaHash, uint32_t keyLengthInBytes
  *  \return 0 on success, non-zero on failure
  */
 typedef uint32_t (*Crypto_ShaCallback)(uint8_t *inputBuf, uint32_t inputLenBytes, uint8_t *digestBuf);
+
+/**
+ *  \brief  Message hash and salt inputs to \ref Crypto_PSSPaddingForSign,
+ *          bundled to keep the function's parameter count down.
+ *
+ *  \param  msgHash         mHash, precomputed hash of the message, hashLenInBytes long
+ *
+ *  \param  salt            Random salt, saltLenInBytes long
+ *
+ *  \param  saltLenInBytes  Salt length (RFC 8017 recommends saltLen == hashLen)
+ */
+struct Crypto_PSSSaltInfo {
+    /** mHash, precomputed hash of the message, hashLenInBytes long */
+    const uint8_t *msgHash;
+    /** Random salt, saltLenInBytes long */
+    const uint8_t *salt;
+    /** Salt length (RFC 8017 recommends saltLen == hashLen) */
+    uint32_t       saltLenInBytes;
+};
 
 /**
  *  \brief  MGF1 mask generation function, refer to RFC 8017 Appendix B.2.1
@@ -208,11 +229,7 @@ uint32_t Crypto_MGF1(Crypto_ShaCallback shaCbFxn, uint32_t hashLenInBytes,
  *
  *  \param  typeOfAlgo      Hash algorithm used for mHash/H/MGF1, refer \ref Crypto_AlgoTypes
  *
- *  \param  msgHash         mHash, precomputed hash of the message, hashLenInBytes long
- *
- *  \param  salt            Random salt, saltLenInBytes long
- *
- *  \param  saltLenInBytes  Salt length (RFC 8017 recommends saltLen == hashLen)
+ *  \param  saltInfo        Message hash and salt, refer \ref Crypto_PSSSaltInfo
  *
  *  \param  modBits         Bit length of the RSA modulus n
  *
@@ -223,7 +240,7 @@ uint32_t Crypto_MGF1(Crypto_ShaCallback shaCbFxn, uint32_t hashLenInBytes,
  *  \return 0 on success, non-zero on failure (shaCbFxn failure or emLenInBytes too small)
  */
 uint32_t Crypto_PSSPaddingForSign(Crypto_ShaCallback shaCbFxn, uint32_t typeOfAlgo,
-                                   const uint8_t *msgHash, const uint8_t *salt, uint32_t saltLenInBytes,
+                                   const struct Crypto_PSSSaltInfo *saltInfo,
                                    uint32_t modBits, uint32_t emLenInBytes, uint8_t *output);
 
 /**

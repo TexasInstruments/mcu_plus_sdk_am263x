@@ -13,19 +13,23 @@
     "dummyClksRd": 7,
     "dummyClksWr": 3,
     "dummyClksCmd": 5,
+    "cmdExtType": "REPEAT",
     "pageSize": 1024,
     "mrConfig": [
         {
             "address": "0x00000000",
-            "value": "0x29"
+            "value": "0x29",
+            "valWidth": "1"
         },
         {
             "address": "0x00000004",
-            "value": "0x40"
+            "value": "0x40",
+            "valWidth": "1"
         },
         {
             "address": "0x00000008",
-            "value": "0x03"
+            "value": "0x03",
+            "valWidth": "1"
         }
     ]
 }

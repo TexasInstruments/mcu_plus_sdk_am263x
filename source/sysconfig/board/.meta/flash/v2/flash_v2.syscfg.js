@@ -266,6 +266,7 @@ function getNorFlashOptions() {
         "S25FL128SA_ospi",
         "S25HL512T",
         "S28HS512T",
+        "CUSTOM_FLASH_TEMPLATE",
     ];
     let options = [];
     for (let name of norFlashJsonNames) {

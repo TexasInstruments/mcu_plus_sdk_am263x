@@ -94,18 +94,36 @@ $(document).ready(function(){initNavTree('structDeviceConfigKeyring__t.html','')
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Keyring configuration structure containing keyring-related device information. Total size: SIZE_OF_KEYRING_DEVICE_CONFIG (12 bytes) </p>
+<div class="textblock"><p>Keyring configuration structure containing keyring-related device information. Total size: SIZE_OF_KEYRING_DEVICE_CONFIG (20 bytes) </p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
+<tr class="memitem:addb2e20153fd2849c273787b1d2700b3"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structDeviceConfigKeyring__t.html#addb2e20153fd2849c273787b1d2700b3">keyringImportCounter</a></td></tr>
+<tr class="separator:addb2e20153fd2849c273787b1d2700b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4039f88761f96ad38fc7972043c3bd6a"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structDeviceConfigKeyring__t.html#a4039f88761f96ad38fc7972043c3bd6a">numAsymmKeysImported</a></td></tr>
 <tr class="separator:a4039f88761f96ad38fc7972043c3bd6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9bcfc8dc408b01b4eb1d0f4cae20392"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structDeviceConfigKeyring__t.html#aa9bcfc8dc408b01b4eb1d0f4cae20392">numSymmKeysImported</a></td></tr>
 <tr class="separator:aa9bcfc8dc408b01b4eb1d0f4cae20392"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a042d3738acf60b6ba0800f40f8b7784d"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structDeviceConfigKeyring__t.html#a042d3738acf60b6ba0800f40f8b7784d">keyringStatus</a></td></tr>
-<tr class="separator:a042d3738acf60b6ba0800f40f8b7784d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aa47ab5ed3b086423c3449fd878a316"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structDeviceConfigKeyring__t.html#a2aa47ab5ed3b086423c3449fd878a316">numAsymmPrivateKeysImported</a></td></tr>
+<tr class="separator:a2aa47ab5ed3b086423c3449fd878a316"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af97a61ba198812f7a9b1ad401f8a3e45"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structDeviceConfigKeyring__t.html#af97a61ba198812f7a9b1ad401f8a3e45">customKeyDataPresent</a></td></tr>
+<tr class="separator:af97a61ba198812f7a9b1ad401f8a3e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Field Documentation</h2>
+<a id="addb2e20153fd2849c273787b1d2700b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addb2e20153fd2849c273787b1d2700b3">&#9670;&nbsp;</a></span>keyringImportCounter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t DeviceConfigKeyring_t::keyringImportCounter</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4039f88761f96ad38fc7972043c3bd6a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4039f88761f96ad38fc7972043c3bd6a">&#9670;&nbsp;</a></span>numAsymmKeysImported</h2>
 
@@ -117,6 +135,7 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Overall keyring status/flags </p>
 
 </div>
 </div>
@@ -135,18 +154,33 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="a042d3738acf60b6ba0800f40f8b7784d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a042d3738acf60b6ba0800f40f8b7784d">&#9670;&nbsp;</a></span>keyringStatus</h2>
+<a id="a2aa47ab5ed3b086423c3449fd878a316"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2aa47ab5ed3b086423c3449fd878a316">&#9670;&nbsp;</a></span>numAsymmPrivateKeysImported</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t DeviceConfigKeyring_t::keyringStatus</td>
+          <td class="memname">uint32_t DeviceConfigKeyring_t::numAsymmPrivateKeysImported</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>Number of symmetric auxiliary keys imported </p>
+
+</div>
+</div>
+<a id="af97a61ba198812f7a9b1ad401f8a3e45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af97a61ba198812f7a9b1ad401f8a3e45">&#9670;&nbsp;</a></span>customKeyDataPresent</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t DeviceConfigKeyring_t::customKeyDataPresent</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Number of Asymmetric auxiliary private keys imported </p>
 
 </div>
 </div>

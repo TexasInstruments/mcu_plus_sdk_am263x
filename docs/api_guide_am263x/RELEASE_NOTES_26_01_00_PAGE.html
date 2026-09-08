@@ -419,9 +419,25 @@ Fixed Issues</h1>
 <tr>
 <th>ID </th><th>Head Line </th><th>Module </th><th>Applicable Releases </th><th>Applicable Devices </th><th>Resolution/Comments  </th></tr>
 <tr>
+<td>MCUSDK-15751 </td><td>SBL should enable TCM ECC after TCM init and before loading the APPlication reset vectors </td><td>SDL </td><td>26.00.00 onwards </td><td>AM263x, AM263Px, AM261x </td><td>Fixed in SBL  </td></tr>
+<tr>
+<td>MCUSDK-15741 </td><td>MMR Unlock not used in ICSS and RTI </td><td>SDL </td><td>26.00.00 onwards </td><td>AM263x, AM263Px, AM261x </td><td>Fixed in Syscfg and test  </td></tr>
+<tr>
+<td>MCUSDK-15706 </td><td>CacheP_CACHELINE_ALIGNMENT is incorrectly set to 128 </td><td>SDL </td><td>26.00.00 onwards </td><td>AM263x, AM263Px, AM261x </td><td>Fixed in library  </td></tr>
+<tr>
 <td>PROC_SDL-10008 </td><td>AM263Px: Broken out-of-box SBL OSPI in v26.00.00.06 </td><td>SDL </td><td>26.00.00 onwards </td><td>AM263x, AM263Px, AM261x </td><td>Fixed in example  </td></tr>
 <tr>
+<td>PROC_SDL-10014 </td><td>PBIST Example fails due to unlock MMR </td><td>SDL </td><td>26.00.00 onwards </td><td>AM263x, AM263Px, AM261x </td><td>Fixed in examples  </td></tr>
+<tr>
+<td>PROC_SDL-9960 </td><td>Register offsets were wrong in AM263x for ESM group </td><td>SDL </td><td>10.00.00 onwards </td><td>AM263x </td><td>Fixed in library  </td></tr>
+<tr>
+<td>PROC_SDL-9986 </td><td>[AM263Px]: SDL_SOC_ECC_AGGR_MAILBOX_ECC_RAM_SIZE incorrectly defined as 524288U (512KB) — correct value is 16384U (16KB) per TRM SPRUJ55D </td><td>SDL </td><td>10.02.00 onwards </td><td>AM263x </td><td>Fixed in header file  </td></tr>
+<tr>
+<td>PROC_SDL-9896 </td><td>Removal of incorrect DCC examples </td><td>SDL </td><td>11.01.00 onwards </td><td>None  </td></tr>
+<tr>
 <td>MCUSDK-15576 </td><td>I2C Target doesn't work with 0 write size interaction </td><td>I2C </td><td>26.00.00 onwards </td><td>AM263x, AM263Px, AM261x </td><td>Updated code and added example  </td></tr>
+<tr>
+<td>PSIRT-276 </td><td>Buffer overflow in MCELF Program Header Table parsing due to unvalidated e_phentsize field </td><td>SBL </td><td>10.00.00 onwards </td><td>AM263x, AM263Px, AM261x </td><td>Added validation of the ELF Program Header entry size (e_phentsize) in Bootloader_parseAndLoadMultiCoreELF to prevent an out-of-bounds write into the PHT buffer  </td></tr>
 </table>
 <h1><a class="anchor" id="autotoc_md592"></a>
 Known Issues</h1>
@@ -455,6 +471,8 @@ Known Issues</h1>
 <tr>
 <td>MCUSDK-13202 </td><td>Frame drops are seen in PRU GPIO based SENT decoder example while sending frames in burst format </td><td>PRU-IO </td><td>09.00.00 onwards </td><td>None  </td></tr>
 <tr>
+<td>PROC_SDL-10004 </td><td>ECC Injection example for TPTC memory is not working on latest released MCU PLUS SDK </td><td>SDL </td><td>26.00.00 onwards </td><td>Example not working in SBL and Use CCS testing.  </td></tr>
+<tr>
 <td>PROC_SDL-8857 </td><td>SDL integrated example does not support ECC Bus Safety. </td><td>SDL </td><td>10.01.00 onwards </td><td>Use standalone example.  </td></tr>
 <tr>
 <td>PROC_SDL-9596 </td><td>SEC and DED failure in ecc_bus_safety example </td><td>SDL </td><td>11.01.00 onwards </td><td>For AXI_RD_SEC nodes can test in specific core.  </td></tr>
@@ -468,8 +486,6 @@ Known Issues</h1>
 <td>PROC_SDL-9670 </td><td>ECC injection addresses for different banks in TCMB memory are not correct </td><td>SDL </td><td>11.00.00 onwards </td><td>None  </td></tr>
 <tr>
 <td>PROC_SDL-9700 </td><td>The ESM callback is happening even before ECC injection for ATCM and BTCM memories </td><td>SDL </td><td>11.00.00 onwards </td><td>None  </td></tr>
-<tr>
-<td>PROC_SDL-9896 </td><td>Removal of incorrect DCC examples </td><td>SDL </td><td>11.01.00 onwards </td><td>None  </td></tr>
 <tr>
 <td>MCUSDK-14898 </td><td>SDL apps fails on other than RFSS0-0 with SBL </td><td>SBL, SDL </td><td>11.00.00 onwards </td><td>This because SBL brings the RFSS1-0 out of reset before the SBL UART prints gets flushed. This will be fixed in next release. As a workaround the application in R5FSS1-0 can delay the start of application till SBL UART prints gets completed.  </td></tr>
 <tr>

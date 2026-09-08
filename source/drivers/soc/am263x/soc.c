@@ -49,7 +49,7 @@ typedef struct
 }SOC_VirtToPhyMap;
 
 SOC_VirtToPhyMap virtToPhymap;
-uint8_t isMapAvailable = 0u;
+uint8_t isMapAvailable;
 
 int32_t SOC_moduleClockEnable(uint32_t moduleId, uint32_t enable)
 {

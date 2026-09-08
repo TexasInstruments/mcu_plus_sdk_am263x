@@ -79,20 +79,27 @@ RNG_Handle RNG_open(uint32_t index)
     if(index < gRngConfigNum)
     {
         config = &gRngConfig[index];
-        DebugP_assert((int32_t)(NULL_PTR != config->attrs));
         attrs = config->attrs;
-        if(1U == attrs->isOpen)
+        if(NULL_PTR != attrs)
         {
-            /* Handle is already opened */
-            (void)RNG_close((RNG_Handle) config);
-            status = RNG_RETURN_FAILURE;
-            attrs->faultStatus = status;
+            if(1U == attrs->isOpen)
+            {
+                /* Handle is already opened */
+                (void)RNG_close((RNG_Handle) config);
+                status = RNG_RETURN_FAILURE;
+                attrs->faultStatus = status;
+            }
+            else
+            {
+                attrs->isOpen = 1U;
+                handle = (RNG_Handle) config;
+                attrs->faultStatus = status;
+            }
         }
         else
         {
-            attrs->isOpen = 1U;
-            handle = (RNG_Handle) config;
-            attrs->faultStatus = status;
+            status = RNG_RETURN_FAILURE;
+            (void)status;
         }
     }
     else
@@ -113,7 +120,6 @@ RNG_Return_t RNG_close(RNG_Handle handle)
     if((NULL_PTR != config) && (0U != config->attrs->isOpen))
     {
         attrs = config->attrs;
-        DebugP_assert((int32_t)(NULL_PTR != attrs));
         attrs->isOpen = 0U;
         status  = RNG_RETURN_SUCCESS;
     }
@@ -242,7 +248,6 @@ RNG_Return_t RNG_read(RNG_Handle handle, uint32_t *out)
     else
     {
         retVal = RNG_RETURN_FAILURE;
-        DebugP_assert((int32_t)(RNG_RETURN_SUCCESS == retVal));
     }
 
     if(RNG_RETURN_SUCCESS == retVal)
@@ -262,7 +267,7 @@ RNG_Return_t RNG_read(RNG_Handle handle, uint32_t *out)
         out[3U]  = CSL_REG_RD(&pTrngRegs->TRNG_INPUT_3);
 
         /*Set the INTACK and go back*/
-        CSL_REG_WR(&pTrngRegs->TRNG_STATUS, (uint32_t)(CSL_CP_ACE_TRNG_INTACK_READY_ACK_MASK << CSL_CP_ACE_TRNG_INTACK_READY_ACK_SHIFT));
+        CSL_REG_WR(&pTrngRegs->TRNG_STATUS, (((uint32_t) CSL_CP_ACE_TRNG_INTACK_READY_ACK_MASK) << CSL_CP_ACE_TRNG_INTACK_READY_ACK_SHIFT));
     }
     return (retVal);
 }

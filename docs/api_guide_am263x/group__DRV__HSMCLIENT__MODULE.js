@@ -188,9 +188,11 @@ var group__DRV__HSMCLIENT__MODULE =
       [ "secureRegisterAccessStatus", "structDeviceConfigDebug__t.html#a00fdb92089cceabd4815e6c06ce7bf50", null ]
     ] ],
     [ "DeviceConfigKeyring_t", "structDeviceConfigKeyring__t.html", [
+      [ "keyringImportCounter", "structDeviceConfigKeyring__t.html#addb2e20153fd2849c273787b1d2700b3", null ],
       [ "numAsymmKeysImported", "structDeviceConfigKeyring__t.html#a4039f88761f96ad38fc7972043c3bd6a", null ],
       [ "numSymmKeysImported", "structDeviceConfigKeyring__t.html#aa9bcfc8dc408b01b4eb1d0f4cae20392", null ],
-      [ "keyringStatus", "structDeviceConfigKeyring__t.html#a042d3738acf60b6ba0800f40f8b7784d", null ]
+      [ "numAsymmPrivateKeysImported", "structDeviceConfigKeyring__t.html#a2aa47ab5ed3b086423c3449fd878a316", null ],
+      [ "customKeyDataPresent", "structDeviceConfigKeyring__t.html#af97a61ba198812f7a9b1ad401f8a3e45", null ]
     ] ],
     [ "DeviceConfigRead_t", "structDeviceConfigRead__t.html", [
       [ "configType", "structDeviceConfigRead__t.html#a7e05796eb66be7f126bb6ddd9561106a", null ],
@@ -208,6 +210,7 @@ var group__DRV__HSMCLIENT__MODULE =
       [ "crcMsg", "structHsmMsg__t__.html#a3991bf21542bf41141ca53488830a87c", null ]
     ] ],
     [ "LABEL_AND_CONTEXT_LEN_MAX", "group__DRV__HSMCLIENT__MODULE.html#ga2cbcf82afe6a7d15348511aba221038e", null ],
+    [ "HSMCLIENT_HOST_BUFF_SIZE", "group__DRV__HSMCLIENT__MODULE.html#gab9ee39542de58322586ba87ac8b0264f", null ],
     [ "HSMRT_LOAD_NOT_REQUESTED", "group__DRV__HSMCLIENT__MODULE.html#gae70b88f1db290b0e6c2a39af4b08bac5", null ],
     [ "HSMRT_LOAD_REQUESTED", "group__DRV__HSMCLIENT__MODULE.html#ga638efa23dd93c2e8e4363f18346bef8d", null ],
     [ "HSMRT_LOAD_FAILED", "group__DRV__HSMCLIENT__MODULE.html#ga92d3271387e20dd0d7a19a1b75fd03a3", null ],
@@ -328,6 +331,6 @@ var group__DRV__HSMCLIENT__MODULE =
     [ "HsmClient_activeToDormantBankCopy", "group__DRV__HSMCLIENT__MODULE.html#ga2a4fabce99d63a311aab8352a9fe890b", null ],
     [ "HsmClient_SecCfgUpdate", "group__DRV__HSMCLIENT__MODULE.html#gabe2810b39dc269a55fcca419c65eb87c", null ],
     [ "HsmClient_getDeviceConfig", "group__DRV__HSMCLIENT__MODULE.html#gab86209b718b0ffd17871e0d1c5354a75", null ],
-    [ "HsmClient_CryptoService", "group__DRV__HSMCLIENT__MODULE.html#gaad4edba07fb1e870a576a281a48d1472", null ],
+    [ "HsmClient_CryptoService", "group__DRV__HSMCLIENT__MODULE.html#ga5d455e29e9539fbd6b0ceb3eaead24cd", null ],
     [ "HsmClient_runTimeBankSwap", "group__DRV__HSMCLIENT__MODULE.html#gaaa5ee846577c5404a103d3ee391c4fb6", null ]
 ];

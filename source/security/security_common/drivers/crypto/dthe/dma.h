@@ -286,7 +286,7 @@ struct DMA_Config_s
 };
 
 /** Global dma configuration */
-extern DMA_Config gDmaConfig[];
+extern DMA_Config gDmaConfig[1];
 /** Number of global dma configurations */
 extern uint32_t gDmaConfigNum;
 

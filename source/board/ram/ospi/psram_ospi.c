@@ -113,17 +113,21 @@ static int32_t Psram_ospiOpen(Ram_Config *config)
 
         OSPI_setCmdDummyCycles(obj->ospiHandle,config->devConfig->dummyClksCmd);
 
+        OSPI_setCmdExtType(obj->ospiHandle, config->devConfig->cmdExtType);
+
         Psram_ospiDisxipEnable();
 
         /* Configure mode registers from syscfg */
         if((config->devConfig->mrCount > 0) && (config->devConfig->mrConfig != NULL))
         {
+            uint8_t valWidth = (config->devConfig->mrValWidth > 0U) ? config->devConfig->mrValWidth : 1U;
             for(uint8_t i = 0; (i < config->devConfig->mrCount) && (status == SystemP_SUCCESS); i++)
             {
-                uint8_t mrValue = config->devConfig->mrConfig[i].value;
+                /* Value is stored as uint32_t; send only mrValWidth bytes (little-endian) */
+                uint32_t mrValue = config->devConfig->mrConfig[i].value;
                 status += Psram_ospiWriteCmd(config, config->devConfig->cmdRegWr,
                                               config->devConfig->mrConfig[i].address,
-                                              &mrValue, 1);
+                                              (uint8_t *)&mrValue, valWidth);
             }
         }
 

@@ -3,7 +3,7 @@
  * via the GUI or CLI. Run CLI with '--help' for additional information on how to override these arguments.
  * @cliArgs --device "AM263x_beta" --part "AM263x" --package "ZCZ" --context "r5fss0-0" --product "MCU_PLUS_SDK_AM263x@26.01.00"
  * @v2CliArgs --device "AM2631-Q1" --package "NFBGA (ZCZ)" --context "r5fss0-0" --product "MCU_PLUS_SDK_AM263x@26.01.00"
- * @versions {"tool":"1.26.0+4407"}
+ * @versions {"tool":"1.27.0+4565"}
  */
 
 /**
@@ -47,6 +47,7 @@ const section7        = section.addInstance();
 const section8        = section.addInstance();
 const section9        = section.addInstance();
 const section10       = section.addInstance();
+const section11       = section.addInstance();
 const enet_cpsw       = scripting.addModule("/networking/enet_cpsw/enet_cpsw", {}, false);
 const enet_cpsw1      = enet_cpsw.addInstance();
 
@@ -119,8 +120,8 @@ mpu_armv74.attributes        = "Cached+Sharable";
 mpu_armv75.$name        = "CONFIG_MPU_REGION4";
 mpu_armv75.allowExecute = false;
 mpu_armv75.attributes   = "NonCached";
-mpu_armv75.baseAddr     = 0x70000000;
 mpu_armv75.size         = 11;
+mpu_armv75.baseAddr     = 0x70000000;
 
 mpu_armv76.$name        = "CONFIG_MPU_REGION5";
 mpu_armv76.allowExecute = false;
@@ -137,7 +138,7 @@ general1.heap_size      = 8192;
 general1.linker.$name   = "TIARMCLANG0";
 
 region1.$name                                = "MEMORY_REGION_CONFIGURATION";
-region1.memory_region.create(11);
+region1.memory_region.create(12);
 region1.memory_region[0].type                = "TCMA";
 region1.memory_region[0].$name               = "R5F_VECS";
 region1.memory_region[0].auto                = false;
@@ -159,16 +160,17 @@ region1.memory_region[4].$name               = "CPPI_DESC";
 region1.memory_region[4].auto                = false;
 region1.memory_region[4].size                = 0x2000;
 region1.memory_region[5].$name               = "MSRAM_0";
-region1.memory_region[5].manualStartAddress  = 0x70002100;
 region1.memory_region[5].auto                = false;
-region1.memory_region[5].size                = 0x872E8;
+region1.memory_region[5].manualStartAddress  = 0x70022100;
+region1.memory_region[5].size                = 0x5DF00;
 region1.memory_region[6].$name               = "MSRAM_HSMRT";
-region1.memory_region[6].manualStartAddress  = 0x70090000;
-region1.memory_region[6].size                = 0x40000;
+region1.memory_region[6].auto                = false;
+region1.memory_region[6].manualStartAddress  = 0x70002100;
+region1.memory_region[6].size                = 0x20000;
 region1.memory_region[7].$name               = "MSRAM_1";
 region1.memory_region[7].auto                = false;
-region1.memory_region[7].manualStartAddress  = 0x700D0000;
-region1.memory_region[7].size                = 0x128000;
+region1.memory_region[7].size                = 0x40000;
+region1.memory_region[7].manualStartAddress  = 0x701B8000;
 region1.memory_region[8].$name               = "MSRAM_2";
 region1.memory_region[8].auto                = false;
 region1.memory_region[8].manualStartAddress  = 0x701F8000;
@@ -183,6 +185,10 @@ region1.memory_region[10].$name              = "MAILBOX_R5F";
 region1.memory_region[10].auto               = false;
 region1.memory_region[10].manualStartAddress = 0x44000400;
 region1.memory_region[10].size               = 0x3CE;
+region1.memory_region[11].$name              = "MSRAM_ENET";
+region1.memory_region[11].auto               = false;
+region1.memory_region[11].manualStartAddress = 0x70080000;
+region1.memory_region[11].size               = 0x80000;
 
 section1.load_memory                              = "MSRAM_VECS";
 section1.group                                    = false;
@@ -297,6 +303,16 @@ section10.$name                       = "SIPC R5F Queue Memory";
 section10.output_section.create(1);
 section10.output_section[0].alignment = 0;
 section10.output_section[0].$name     = ".bss.sipc_r5f_queue_mem";
+
+section11.load_memory                             = "MSRAM_ENET";
+section11.$name                                   = "ENET Library Code";
+section11.output_section.create(2);
+section11.output_section[0].$name                 = ".text:enet";
+section11.output_section[0].input_section.create(1);
+section11.output_section[0].input_section[0].$name = "*enet*.lib<*>(.text)";
+section11.output_section[1].$name                 = ".rodata:enet";
+section11.output_section[1].input_section.create(1);
+section11.output_section[1].input_section[0].$name = "*enet*.lib<*>(.rodata)";
 
 enet_cpsw1.$name                        = "CONFIG_ENET_CPSW0";
 enet_cpsw1.RtosVariant                  = "NoRTOS";

@@ -55,124 +55,43 @@
 /** \brief  Max supported digest length in bytes (SHA-512) */
 #define CRYPTO_UTIL_PSS_MAX_HASH_LEN   (64U)
 
-/* ========================================================================== */
-/*                          Global Variables                                  */
-/* ========================================================================== */
-
 /**
- *  \brief  ASN.1 DER DigestInfo prefixes for EMSA-PKCS1-v1_5 encoding,
- *          as per RFC 8017 Section 9.2 Note 1.
- *  @{
+ *  \brief  PSS verification state shared across the Crypto_PSSVerify_*
+ *          helper functions below (kept in one struct to keep each
+ *          helper's parameter count down).
  */
-static const uint8_t gCryptoSha1DigestInfo[] =
-{
-    0x30U, 0x21U, 0x30U, 0x09U, 0x06U, 0x05U, 0x2bU, 0x0eU,
-    0x03U, 0x02U, 0x1aU, 0x05U, 0x00U, 0x04U, 0x14U
+struct Crypto_PSSVerifyCtx {
+    /** Digest length for typeOfAlgo, in bytes */
+    uint32_t hashLenInBytes;
+    /** Expected salt length, in bytes */
+    uint32_t saltLenInBytes;
+    /** Length of the maskedDB field of EM, in bytes */
+    uint32_t dbLen;
+    /** Length of the zero padding at the start of DB, in bytes */
+    uint32_t psLen;
+    /** Mask clearing the bits above emBits in DB[0]/EM[0] */
+    uint32_t lowMask;
 };
-
-static const uint8_t gCryptoSha256DigestInfo[] =
-{
-    0x30U, 0x31U, 0x30U, 0x0dU, 0x06U, 0x09U, 0x60U, 0x86U,
-    0x48U, 0x01U, 0x65U, 0x03U, 0x04U, 0x02U, 0x01U, 0x05U,
-    0x00U, 0x04U, 0x20U
-};
-
-static const uint8_t gCryptoSha384DigestInfo[] =
-{
-    0x30U, 0x41U, 0x30U, 0x0dU, 0x06U, 0x09U, 0x60U, 0x86U,
-    0x48U, 0x01U, 0x65U, 0x03U, 0x04U, 0x02U, 0x02U, 0x05U,
-    0x00U, 0x04U, 0x30U
-};
-
-static const uint8_t gCryptoSha512DigestInfo[] =
-{
-    0x30U, 0x51U, 0x30U, 0x0dU, 0x06U, 0x09U, 0x60U, 0x86U,
-    0x48U, 0x01U, 0x65U, 0x03U, 0x04U, 0x02U, 0x03U, 0x05U,
-    0x00U, 0x04U, 0x40U
-};
-/** @} */
 
 /* ========================================================================== */
-/*                          Function Definitions                              */
+/*                     Static Function Declarations                           */
 /* ========================================================================== */
 
-void Crypto_Uint8ToUint32(const uint8_t *source, uint32_t sourceLengthInBytes, uint32_t *dest)
-{
-    uint32_t i, t = 0;
+static uint32_t Crypto_getHashLenBytes(uint32_t typeOfAlgo);
 
-    for (i=0; i< sourceLengthInBytes; i++)
-    {
-        t = (t << 8U) | source[i];
-        if ((i & 3U) == 3U) {
-            *dest = t;
-            dest = dest + 1U;
-            t = 0;
-        }
-    }
-    if ((i & 3U) != 0U)
-    {
-        *dest = t << ((4U-(i&3U)) << 3U);
-    }
-    return;
-}
+static uint32_t Crypto_PSSVerify_Validate(uint32_t modBits, const uint8_t *EM, uint32_t emLenInBytes,
+                                           struct Crypto_PSSVerifyCtx *ctx);
 
-void Crypto_Uint32ToUint8(const uint32_t *src, uint32_t sourceLengthInBytes, uint8_t *dest)
-{
-    uint32_t i, t;
-    uint8_t *pDest = dest;
-    const uint32_t *pSrc = src;
+static uint32_t Crypto_PSSVerify_RecoverDB(Crypto_ShaCallback shaCbFxn, const uint8_t *EM,
+                                            const struct Crypto_PSSVerifyCtx *ctx, uint8_t *H, uint8_t *DB);
 
-    for (i=0; i< sourceLengthInBytes; i+=4U)
-    {
-        t = *pSrc;
-        pSrc = pSrc + 1U;
-        *pDest = (uint8_t)(t >> 24U);
-        *(pDest + 1U) = (uint8_t)(t >> 16U);
-        *(pDest + 2U) = (uint8_t)(t >> 8U);
-        *(pDest + 3U) = (uint8_t)t;
-        pDest = pDest + 4U;
-    }
-    return;
-}
+static uint32_t Crypto_PSSVerify_CheckHash(Crypto_ShaCallback shaCbFxn, const uint8_t *msgHash,
+                                            const uint8_t *salt, const struct Crypto_PSSVerifyCtx *ctx,
+                                            const uint8_t *expectedH);
 
-void Crypto_Uint32ToBigInt(uint32_t *source, uint32_t sourceLengthInWords, uint32_t *dest)
-{
-    uint32_t i, t = 0, t2 = 0;
-    t2 = sourceLengthInWords / 2U;
-
-    for(i=0;i<t2;i++)
-    {
-        t = source[i];
-        source[i] = source[sourceLengthInWords - 1U - i];
-        source[sourceLengthInWords - 1U - i] = t;
-    }
-    dest[0] = sourceLengthInWords;
-    for(i=0; i < sourceLengthInWords; i++)
-    {
-        dest[1U + i] = source[i];
-    }
-
-    return;
-}
-
-void Crypto_bigIntToUint32(uint32_t *source, uint32_t sourceLengthInWords, uint32_t *dest)
-{
-    uint32_t i, t = 0, t2 = 0;
-    t2 = (sourceLengthInWords / 2U)+1U;
-
-    for(i=1; i<t2; i++)
-    {
-        t = source[i];
-        source[i] = source[sourceLengthInWords-(i-1U)];
-        source[sourceLengthInWords-(i-1U)] = t;
-    }
-    for(i=0; i < sourceLengthInWords; i++)
-    {
-        dest[i] = source[i+1U];
-    }
-
-    return;
-}
+/* ========================================================================== */
+/*                      Static Function Definitions                          */
+/* ========================================================================== */
 
 /**
  *  \brief  Maps a \ref Crypto_AlgoTypes value to its digest length in bytes.
@@ -204,8 +123,248 @@ static uint32_t Crypto_getHashLenBytes(uint32_t typeOfAlgo)
     return hashLen;
 }
 
+/**
+ *  \brief  Validates EM's length/trailer and unmasks the leftmost bits
+ *          allowed by modBits. Populates ctx->dbLen/psLen/lowMask.
+ *
+ *  \param  modBits  Bit length of the RSA modulus n
+ *  \param  EM       Encoded message recovered from the signature
+ *  \param  emLenInBytes  Length of EM in bytes
+ *  \param  ctx      In: hashLenInBytes/saltLenInBytes. Out: dbLen/psLen/lowMask.
+ *
+ *  \return 0 if EM is well-formed so far, non-zero otherwise
+ */
+static uint32_t Crypto_PSSVerify_Validate(uint32_t modBits, const uint8_t *EM, uint32_t emLenInBytes,
+                                           struct Crypto_PSSVerifyCtx *ctx)
+{
+    uint32_t topBits, highMask;
+    uint32_t ret = 1U;
+
+    if ((ctx->hashLenInBytes != 0U) &&
+        (emLenInBytes >= (ctx->hashLenInBytes + ctx->saltLenInBytes + 2U)) &&
+        (emLenInBytes <= CRYPTO_UTIL_PSS_MAX_EM_LEN) &&
+        (EM[emLenInBytes - 1U] == 0xBCU))
+    {
+        ret = 0U;
+    }
+
+    if (ret == 0U)
+    {
+        ctx->dbLen = emLenInBytes - ctx->hashLenInBytes - 1U;
+        ctx->psLen = emLenInBytes - ctx->hashLenInBytes - ctx->saltLenInBytes - 2U;
+
+        topBits      = 8U - ((8U * emLenInBytes) - modBits + 1U);
+        ctx->lowMask = ((uint32_t)1U << (topBits & 0x1FU)) - 1U;
+        highMask     = ~ctx->lowMask;
+
+        if ((EM[0U] & (uint8_t)(highMask & 0xFFU)) != 0U)
+        {
+            ret = 1U;
+        }
+    }
+
+    return ret;
+}
+
+/**
+ *  \brief  Recovers maskedDB via MGF1, then checks its zero-padding/0x01
+ *          separator, per RFC 8017 Section 9.1.2 steps 9-12.
+ *
+ *  \param  shaCbFxn  Hash callback, refer \ref Crypto_ShaCallback
+ *  \param  EM        Encoded message recovered from the signature
+ *  \param  ctx       Populated by \ref Crypto_PSSVerify_Validate
+ *  \param  H         Scratch buffer, at least ctx->hashLenInBytes long
+ *  \param  DB        Recovered DB, caller-allocated, at least ctx->dbLen long
+ *
+ *  \return 0 if DB's padding is well-formed, non-zero otherwise
+ */
+static uint32_t Crypto_PSSVerify_RecoverDB(Crypto_ShaCallback shaCbFxn, const uint8_t *EM,
+                                            const struct Crypto_PSSVerifyCtx *ctx, uint8_t *H, uint8_t *DB)
+{
+    uint32_t i;
+    uint32_t ret;
+
+    (void)memcpy(H, &EM[ctx->dbLen], ctx->hashLenInBytes);
+    ret = Crypto_MGF1(shaCbFxn, ctx->hashLenInBytes, H, ctx->hashLenInBytes, DB, ctx->dbLen);
+
+    if (ret == 0U)
+    {
+        for (i = 0U; i < ctx->dbLen; i++)
+        {
+            DB[i] ^= EM[i];
+        }
+        DB[0U] &= (uint8_t)(ctx->lowMask & 0xFFU);
+
+        for (i = 0U; i < ctx->psLen; i++)
+        {
+            if (DB[i] != 0x00U)
+            {
+                ret = 1U;
+            }
+        }
+
+        if ((ret == 0U) && (DB[ctx->psLen] != 0x01U))
+        {
+            ret = 1U;
+        }
+    }
+
+    return ret;
+}
+
+/**
+ *  \brief  Recomputes H' = Hash(0x00^8 || mHash || salt) and compares it
+ *          against the H recovered from EM, per RFC 8017 Section 9.1.2
+ *          steps 13-14.
+ *
+ *  \param  shaCbFxn  Hash callback, refer \ref Crypto_ShaCallback
+ *  \param  msgHash   mHash, precomputed hash of the message
+ *  \param  salt      Salt recovered from DB, ctx->saltLenInBytes long
+ *  \param  ctx       Populated by \ref Crypto_PSSVerify_Validate
+ *  \param  expectedH H recovered from EM, ctx->hashLenInBytes long
+ *
+ *  \return 0 if H' matches expectedH, non-zero otherwise
+ */
+static uint32_t Crypto_PSSVerify_CheckHash(Crypto_ShaCallback shaCbFxn, const uint8_t *msgHash,
+                                            const uint8_t *salt, const struct Crypto_PSSVerifyCtx *ctx,
+                                            const uint8_t *expectedH)
+{
+    uint8_t  mPrime[8U + CRYPTO_UTIL_PSS_MAX_HASH_LEN + CRYPTO_UTIL_PSS_MAX_HASH_LEN];
+    uint8_t  HPrime[CRYPTO_UTIL_PSS_MAX_HASH_LEN];
+    uint32_t ret;
+
+    (void)memset(mPrime, 0x00, 8U);
+    (void)memcpy(&mPrime[8U], msgHash, ctx->hashLenInBytes);
+    (void)memcpy(&mPrime[8U + ctx->hashLenInBytes], salt, ctx->saltLenInBytes);
+
+    ret = shaCbFxn(mPrime, 8U + ctx->hashLenInBytes + ctx->saltLenInBytes, HPrime);
+
+    if (ret == 0U)
+    {
+        if (memcmp(HPrime, expectedH, ctx->hashLenInBytes) != 0)
+        {
+            ret = 1U;
+        }
+    }
+
+    return ret;
+}
+
+/* ========================================================================== */
+/*                          Function Definitions                              */
+/* ========================================================================== */
+
+void Crypto_Uint8ToUint32(const uint8_t *source, uint32_t sourceLengthInBytes, uint32_t *dest)
+{
+    uint32_t i, t = 0;
+    uint32_t *destPtr = dest;
+
+    for (i=0; i< sourceLengthInBytes; i++)
+    {
+        t = (t << 8U) | source[i];
+        if ((i & 3U) == 3U) {
+            *destPtr = t;
+            destPtr = destPtr + 1U;
+            t = 0;
+        }
+    }
+    if ((i & 3U) != 0U)
+    {
+        *destPtr = t << ((4U-(i&3U)) << 3U);
+    }
+    return;
+}
+
+void Crypto_Uint32ToUint8(const uint32_t *src, uint32_t sourceLengthInBytes, uint8_t *dest)
+{
+    uint32_t i, t;
+    uint32_t numWords = sourceLengthInBytes / 4U;
+
+    for (i=0U; i< numWords; i++)
+    {
+        t = src[i];
+        dest[(i * 4U)]        = (uint8_t)((t >> 24U) & 0xFFU);
+        dest[(i * 4U) + 1U]   = (uint8_t)((t >> 16U) & 0xFFU);
+        dest[(i * 4U) + 2U]   = (uint8_t)((t >> 8U) & 0xFFU);
+        dest[(i * 4U) + 3U]   = (uint8_t)(t & 0xFFU);
+    }
+    return;
+}
+
+void Crypto_Uint32ToBigInt(uint32_t *source, uint32_t sourceLengthInWords, uint32_t *dest)
+{
+    uint32_t i, t = 0, t2 = 0;
+    t2 = sourceLengthInWords / 2U;
+
+    for(i=0;i<t2;i++)
+    {
+        t = source[i];
+        source[i] = source[sourceLengthInWords - 1U - i];
+        source[sourceLengthInWords - 1U - i] = t;
+    }
+    dest[0] = sourceLengthInWords;
+    for(i=0; i < sourceLengthInWords; i++)
+    {
+        dest[1U + i] = source[i];
+    }
+
+    return;
+}
+
+void Crypto_bigIntToUint32(uint32_t *source, uint32_t sourceLengthInWords, uint32_t *dest)
+{
+    uint32_t i, t = 0, t2 = 0;
+    t2 = (sourceLengthInWords / 2U)+1U;
+
+    for(i=1U; i<t2; i++)
+    {
+        t = source[i];
+        source[i] = source[sourceLengthInWords-(i-1U)];
+        source[sourceLengthInWords-(i-1U)] = t;
+    }
+    for(i=0; i < sourceLengthInWords; i++)
+    {
+        dest[i] = source[i+1U];
+    }
+
+    return;
+}
+
 void Crypto_PKCSPaddingForSign(const uint8_t *shaHash, uint32_t keyLengthInBytes, uint32_t typeOfAlgo, uint8_t *output)
 {
+    /**
+     *  \brief  ASN.1 DER DigestInfo prefixes for EMSA-PKCS1-v1_5 encoding,
+     *          as per RFC 8017 Section 9.2 Note 1.
+     *  @{
+     */
+    static const uint8_t gCryptoSha1DigestInfo[] =
+    {
+        0x30U, 0x21U, 0x30U, 0x09U, 0x06U, 0x05U, 0x2bU, 0x0eU,
+        0x03U, 0x02U, 0x1aU, 0x05U, 0x00U, 0x04U, 0x14U
+    };
+
+    static const uint8_t gCryptoSha256DigestInfo[] =
+    {
+        0x30U, 0x31U, 0x30U, 0x0dU, 0x06U, 0x09U, 0x60U, 0x86U,
+        0x48U, 0x01U, 0x65U, 0x03U, 0x04U, 0x02U, 0x01U, 0x05U,
+        0x00U, 0x04U, 0x20U
+    };
+
+    static const uint8_t gCryptoSha384DigestInfo[] =
+    {
+        0x30U, 0x41U, 0x30U, 0x0dU, 0x06U, 0x09U, 0x60U, 0x86U,
+        0x48U, 0x01U, 0x65U, 0x03U, 0x04U, 0x02U, 0x02U, 0x05U,
+        0x00U, 0x04U, 0x30U
+    };
+
+    static const uint8_t gCryptoSha512DigestInfo[] =
+    {
+        0x30U, 0x51U, 0x30U, 0x0dU, 0x06U, 0x09U, 0x60U, 0x86U,
+        0x48U, 0x01U, 0x65U, 0x03U, 0x04U, 0x02U, 0x03U, 0x05U,
+        0x00U, 0x04U, 0x40U
+    };
+    /** @} */
+
     uint32_t  i, psLen = 0, offset = 0;
     uint32_t shaLen = Crypto_getHashLenBytes(typeOfAlgo);
     const uint8_t *digestInfo = NULL;
@@ -233,33 +392,35 @@ void Crypto_PKCSPaddingForSign(const uint8_t *shaHash, uint32_t keyLengthInBytes
         break;
     }
 
-    psLen = keyLengthInBytes - 3U - digestInfoLen - shaLen;
-
-    output[offset] = 0x00;
-    offset++;
-    output[offset] = 0x01;
-    offset++;
-
-    for(i = 0; i< psLen; i++)
+    if (keyLengthInBytes >= (3U + digestInfoLen + shaLen))
     {
-        output[offset+i] = 0xFFU;
-    }
-    offset += psLen;
+        psLen = keyLengthInBytes - 3U - digestInfoLen - shaLen;
 
-    output[offset] = 0x00;
-    offset++;
+        output[offset] = 0x00U;
+        offset++;
+        output[offset] = 0x01U;
+        offset++;
 
-    for(i = 0; i < digestInfoLen; i++)
-    {
-        output[offset + i] = digestInfo[i];
-    }
-    offset += digestInfoLen;
+        for(i = 0; i< psLen; i++)
+        {
+            output[offset+i] = 0xFFU;
+        }
+        offset += psLen;
 
-    for(i = 0; i < shaLen; i++)
-    {
-        output[offset + i] = shaHash[i];
+        output[offset] = 0x00U;
+        offset++;
+
+        for(i = 0; i < digestInfoLen; i++)
+        {
+            output[offset + i] = digestInfo[i];
+        }
+        offset += digestInfoLen;
+
+        for(i = 0; i < shaLen; i++)
+        {
+            output[offset + i] = shaHash[i];
+        }
     }
-    offset += shaLen;
 
     return;
 }
@@ -299,9 +460,12 @@ uint32_t Crypto_MGF1(Crypto_ShaCallback shaCbFxn, uint32_t hashLenInBytes,
 }
 
 uint32_t Crypto_PSSPaddingForSign(Crypto_ShaCallback shaCbFxn, uint32_t typeOfAlgo,
-                                   const uint8_t *msgHash, const uint8_t *salt, uint32_t saltLenInBytes,
+                                   const struct Crypto_PSSSaltInfo *saltInfo,
                                    uint32_t modBits, uint32_t emLenInBytes, uint8_t *output)
 {
+    const uint8_t *msgHash = saltInfo->msgHash;
+    const uint8_t *salt = saltInfo->salt;
+    uint32_t saltLenInBytes = saltInfo->saltLenInBytes;
     uint32_t hashLenInBytes = Crypto_getHashLenBytes(typeOfAlgo);
     uint32_t dbLen = 0U, psLen = 0U, i, topBits, lowMask;
     uint8_t  mPrime[8U + CRYPTO_UTIL_PSS_MAX_HASH_LEN + CRYPTO_UTIL_PSS_MAX_HASH_LEN];
@@ -322,7 +486,7 @@ uint32_t Crypto_PSSPaddingForSign(Crypto_ShaCallback shaCbFxn, uint32_t typeOfAl
         dbLen = emLenInBytes - hashLenInBytes - 1U;
         psLen = emLenInBytes - hashLenInBytes - saltLenInBytes - 2U;
 
-        (void)memset(mPrime, 0x00U, 8U);
+        (void)memset(mPrime, 0x00, 8U);
         (void)memcpy(&mPrime[8U], msgHash, hashLenInBytes);
         (void)memcpy(&mPrime[8U + hashLenInBytes], salt, saltLenInBytes);
 
@@ -354,8 +518,8 @@ uint32_t Crypto_PSSPaddingForSign(Crypto_ShaCallback shaCbFxn, uint32_t typeOfAl
         }
 
         topBits = 8U - ((8U * emLenInBytes) - modBits + 1U);
-        lowMask = (uint32_t)((1U << topBits) - 1U);
-        output[0U] &= (uint8_t)lowMask;
+        lowMask = ((uint32_t)1U << (topBits & 0x1FU)) - 1U;
+        output[0U] &= (uint8_t)(lowMask & 0xFFU);
 
         (void)memcpy(&output[dbLen], H, hashLenInBytes);
         output[emLenInBytes - 1U] = 0xBCU;
@@ -368,80 +532,24 @@ uint32_t Crypto_PSSVerify(Crypto_ShaCallback shaCbFxn, uint32_t typeOfAlgo,
                            const uint8_t *msgHash, uint32_t saltLenInBytes,
                            uint32_t modBits, const uint8_t *EM, uint32_t emLenInBytes)
 {
-    uint32_t hashLenInBytes = Crypto_getHashLenBytes(typeOfAlgo);
-    uint32_t dbLen = 0U, psLen = 0U, i, topBits, lowMask, highMask;
+    struct Crypto_PSSVerifyCtx ctx = { 0 };
     uint8_t  H[CRYPTO_UTIL_PSS_MAX_HASH_LEN + 4U];
     uint8_t  DB[CRYPTO_UTIL_PSS_MAX_EM_LEN];
-    uint8_t  mPrime[8U + CRYPTO_UTIL_PSS_MAX_HASH_LEN + CRYPTO_UTIL_PSS_MAX_HASH_LEN];
-    uint8_t  HPrime[CRYPTO_UTIL_PSS_MAX_HASH_LEN];
-    uint32_t ret = 1U;
+    uint32_t ret;
 
-    if ((hashLenInBytes != 0U) &&
-        (emLenInBytes >= (hashLenInBytes + saltLenInBytes + 2U)) &&
-        (emLenInBytes <= CRYPTO_UTIL_PSS_MAX_EM_LEN) &&
-        (EM[emLenInBytes - 1U] == 0xBCU))
+    ctx.hashLenInBytes = Crypto_getHashLenBytes(typeOfAlgo);
+    ctx.saltLenInBytes = saltLenInBytes;
+
+    ret = Crypto_PSSVerify_Validate(modBits, EM, emLenInBytes, &ctx);
+
+    if (ret == 0U)
     {
-        ret = 0U;
+        ret = Crypto_PSSVerify_RecoverDB(shaCbFxn, EM, &ctx, H, DB);
     }
 
     if (ret == 0U)
     {
-        dbLen = emLenInBytes - hashLenInBytes - 1U;
-        psLen = emLenInBytes - hashLenInBytes - saltLenInBytes - 2U;
-
-        topBits  = 8U - ((8U * emLenInBytes) - modBits + 1U);
-        lowMask  = (uint32_t)((1U << topBits) - 1U);
-        highMask = ~lowMask;
-
-        if ((EM[0U] & (uint8_t)highMask) != 0U)
-        {
-            ret = 1U;
-        }
-    }
-
-    if (ret == 0U)
-    {
-        (void)memcpy(H, &EM[dbLen], hashLenInBytes);
-        ret = Crypto_MGF1(shaCbFxn, hashLenInBytes, H, hashLenInBytes, DB, dbLen);
-    }
-
-    if (ret == 0U)
-    {
-        for (i = 0U; i < dbLen; i++)
-        {
-            DB[i] ^= EM[i];
-        }
-        DB[0U] &= (uint8_t)lowMask;
-
-        for (i = 0U; i < psLen; i++)
-        {
-            if (DB[i] != 0x00U)
-            {
-                ret = 1U;
-            }
-        }
-
-        if ((ret == 0U) && (DB[psLen] != 0x01U))
-        {
-            ret = 1U;
-        }
-    }
-
-    if (ret == 0U)
-    {
-        (void)memset(mPrime, 0x00U, 8U);
-        (void)memcpy(&mPrime[8U], msgHash, hashLenInBytes);
-        (void)memcpy(&mPrime[8U + hashLenInBytes], &DB[psLen + 1U], saltLenInBytes);
-
-        ret = shaCbFxn(mPrime, 8U + hashLenInBytes + saltLenInBytes, HPrime);
-    }
-
-    if (ret == 0U)
-    {
-        if (memcmp(HPrime, &EM[dbLen], hashLenInBytes) != 0)
-        {
-            ret = 1U;
-        }
+        ret = Crypto_PSSVerify_CheckHash(shaCbFxn, msgHash, &DB[ctx.psLen + 1U], &ctx, &EM[ctx.dbLen]);
     }
 
     return ret;

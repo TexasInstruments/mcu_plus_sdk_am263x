@@ -1,15 +1,15 @@
 var phy_integration_guide_top =
 [
     [ "Using Ethphy Devices Supported Out-of-Box", "enet_supported_phy_guide.html", [
-      [ "Introduction", "enet_supported_phy_guide.html#autotoc_md1622", null ],
+      [ "Introduction", "enet_supported_phy_guide.html#autotoc_md1628", null ],
       [ "Using Sysconfig GUI", "enet_supported_phy_guide.html#enetphy_syscfg_intro", null ],
-      [ "Using Ethphy Devices not Supported Out-of-Box", "enet_supported_phy_guide.html#autotoc_md1623", null ],
-      [ "MAC2MAC Feature (NO-PHY mode)", "enet_supported_phy_guide.html#autotoc_md1624", null ]
+      [ "Using Ethphy Devices not Supported Out-of-Box", "enet_supported_phy_guide.html#autotoc_md1629", null ],
+      [ "MAC2MAC Feature (NO-PHY mode)", "enet_supported_phy_guide.html#autotoc_md1630", null ]
     ] ],
     [ "Custom Ethernet PHY Integration Guide", "custom_enetphy_guide.html", [
       [ "New PHY Driver implemetation", "custom_enetphy_guide.html#CustomPhySupport", null ],
-      [ "Build the project with new PHY driver", "custom_enetphy_guide.html#autotoc_md1620", null ],
-      [ "API", "custom_enetphy_guide.html#autotoc_md1621", null ]
+      [ "Build the project with new PHY driver", "custom_enetphy_guide.html#autotoc_md1626", null ],
+      [ "API", "custom_enetphy_guide.html#autotoc_md1627", null ]
     ] ],
     [ "Ethernet PHY Driver User Guide", "enetphy_guide_top.html", [
       [ "Introduction", "enetphy_guide_top.html#enetphy_guide_intro", null ],
