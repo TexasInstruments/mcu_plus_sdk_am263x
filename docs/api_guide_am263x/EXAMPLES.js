@@ -50,22 +50,22 @@ var EXAMPLES =
     [ "SECURITY", "EXAMPLES_SECURITY.html", "EXAMPLES_SECURITY" ],
     [ "Software Diagnostics Library (SDL)", "EXAMPLES_SDL.html", "EXAMPLES_SDL" ],
     [ "Basic Smart Placement", "EXAMPLES_BASIC_SMART_PLACEMENT.html", [
-      [ "Introduction", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md3980", null ],
+      [ "Introduction", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4032", null ],
       [ "Supported Combinations", "EXAMPLES_BASIC_SMART_PLACEMENT.html#EXAMPLES_BASIC_SMART_PLACEMENT_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md3982", null ],
-      [ "Sample Output", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md3983", null ],
-      [ "Description", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md3984", [
-        [ "Process of smart placement", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md3985", [
-          [ "Building benchmark application", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md3981", null ],
-          [ "Critical Function Identification", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md3986", null ],
-          [ "Priority Assignment", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md3987", null ],
-          [ "Annotating functions", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md3988", null ],
-          [ "Linker change", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md3989", null ]
+      [ "Steps to Run the Example", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4034", null ],
+      [ "Sample Output", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4035", null ],
+      [ "Description", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4036", [
+        [ "Process of smart placement", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4037", [
+          [ "Building benchmark application", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4033", null ],
+          [ "Critical Function Identification", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4038", null ],
+          [ "Priority Assignment", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4039", null ],
+          [ "Annotating functions", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4040", null ],
+          [ "Linker change", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4041", null ]
         ] ],
-        [ "How Smart Placement improves code performance?", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md3990", null ],
-        [ "How Cache Miss ratio is also improved?", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md3991", null ]
+        [ "How Smart Placement improves code performance?", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4042", null ],
+        [ "How Cache Miss ratio is also improved?", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4043", null ]
       ] ],
-      [ "Conclusion", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md3992", null ]
+      [ "Conclusion", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4044", null ]
     ] ],
     [ "AI Examples", "EXAMPLES_AI.html", "EXAMPLES_AI" ],
     [ "Software Diagnostics Library (SDL)", "EXAMPLES_SDL.html", "EXAMPLES_SDL" ]

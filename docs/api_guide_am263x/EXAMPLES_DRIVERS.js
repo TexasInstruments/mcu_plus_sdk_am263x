@@ -92,9 +92,9 @@ var EXAMPLES_DRIVERS =
     [ "ADC PPB Delay", "EXAMPLES_DRIVERS_ADC_PPB_DELAY.html", [
       [ "Introduction", "EXAMPLES_DRIVERS_ADC_PPB_DELAY.html#autotoc_md2203", [
         [ "Example Description", "EXAMPLES_DRIVERS_ADC_PPB_DELAY.html#autotoc_md2204", [
-          [ "Sample Output", "EXAMPLES_SENT_DECODER.html#autotoc_md3522", null ],
-          [ "Sample Output", "EXAMPLES_SENT_ENCODER.html#autotoc_md3529", null ],
-          [ "Sample Output", "EXAMPLES_SENT_DECODER_PRUICSS_IEP_ECAP.html#autotoc_md3536", null ],
+          [ "Sample Output", "EXAMPLES_SENT_DECODER.html#autotoc_md3523", null ],
+          [ "Sample Output", "EXAMPLES_SENT_ENCODER.html#autotoc_md3530", null ],
+          [ "Sample Output", "EXAMPLES_SENT_DECODER_PRUICSS_IEP_ECAP.html#autotoc_md3537", null ],
           [ "Note", "EXAMPLES_DRIVERS_ADC_PPB_DELAY.html#autotoc_md2205", null ]
         ] ],
         [ "SOC Configurations", "EXAMPLES_DRIVERS_ADC_PPB_DELAY.html#autotoc_md2206", null ],

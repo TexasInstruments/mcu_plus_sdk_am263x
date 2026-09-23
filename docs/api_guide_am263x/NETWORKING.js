@@ -102,14 +102,14 @@ var NETWORKING =
       ] ]
     ] ],
     [ "Enet CLI Example", "EXAMPLES_ENET_CLI_APP.html", [
-      [ "Introduction", "EXAMPLES_ENET_CLI_APP.html#autotoc_md3507", null ],
-      [ "Supported Combinations", "EXAMPLES_ENET_CLI_APP.html#autotoc_md3508", null ],
-      [ "Packet pool configuration", "EXAMPLES_ENET_CLI_APP.html#autotoc_md3509", null ],
-      [ "Steps to Run the Example", "EXAMPLES_ENET_CLI_APP.html#autotoc_md3510", [
-        [ "Build the Example", "EXAMPLES_ENET_CLI_APP.html#autotoc_md3511", null ],
-        [ "Sample Outputs", "EXAMPLES_ENET_CLI_APP.html#autotoc_md3512", null ],
-        [ "Accessing the LwIP Shell", "EXAMPLES_ENET_CLI_APP.html#autotoc_md3513", null ]
+      [ "Introduction", "EXAMPLES_ENET_CLI_APP.html#autotoc_md3508", null ],
+      [ "Supported Combinations", "EXAMPLES_ENET_CLI_APP.html#autotoc_md3509", null ],
+      [ "Packet pool configuration", "EXAMPLES_ENET_CLI_APP.html#autotoc_md3510", null ],
+      [ "Steps to Run the Example", "EXAMPLES_ENET_CLI_APP.html#autotoc_md3511", [
+        [ "Build the Example", "EXAMPLES_ENET_CLI_APP.html#autotoc_md3512", null ],
+        [ "Sample Outputs", "EXAMPLES_ENET_CLI_APP.html#autotoc_md3513", null ],
+        [ "Accessing the LwIP Shell", "EXAMPLES_ENET_CLI_APP.html#autotoc_md3514", null ]
       ] ],
-      [ "See Also", "EXAMPLES_ENET_CLI_APP.html#autotoc_md3514", null ]
+      [ "See Also", "EXAMPLES_ENET_CLI_APP.html#autotoc_md3515", null ]
     ] ]
 ];

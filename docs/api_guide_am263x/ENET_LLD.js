@@ -119,25 +119,25 @@ var ENET_LLD =
     [ "Ethernet Performance on AM263x", "enetlld_performance.html", [
       [ "Introduction", "enetlld_performance.html#autotoc_md1602", null ],
       [ "Setup Details", "enetlld_performance.html#autotoc_md1603", null ],
-      [ "Layer 2 Performance", "enetlld_performance.html#autotoc_md1604", [
-        [ "Configuration Details", "enetlld_performance.html#autotoc_md1605", null ],
-        [ "Layer 2 Latency", "enetlld_performance.html#autotoc_md1606", null ],
-        [ "Layer 2 Throughput", "enetlld_performance.html#autotoc_md1607", null ]
+      [ "Library Memory Footprint - Cpsw, Lwip, Gptp", "enetlld_performance.html#autotoc_md1604", [
+        [ "Library Sizes - Feature-rich (Without LTO)", "enetlld_performance.html#autotoc_md1605", null ],
+        [ "Library Sizes - Per usecase (Without LTO)", "enetlld_performance.html#autotoc_md1606", null ]
       ] ],
-      [ "TCP/IP Performance", "enetlld_performance.html#autotoc_md1608", [
-        [ "Configuration Details", "enetlld_performance.html#autotoc_md1609", [
-          [ "TCP Throughput", "enetlld_performance.html#autotoc_md1610", null ],
-          [ "UDP Throughput", "enetlld_performance.html#autotoc_md1611", null ]
+      [ "Layer 2 Performance", "enetlld_performance.html#autotoc_md1607", [
+        [ "Configuration Details", "enetlld_performance.html#autotoc_md1608", null ],
+        [ "Layer 2 Latency", "enetlld_performance.html#autotoc_md1609", null ],
+        [ "Layer 2 Throughput", "enetlld_performance.html#autotoc_md1610", null ],
+        [ "Forwarding Latency", "enetlld_performance.html#autotoc_md1611", null ]
+      ] ],
+      [ "gPTP Performance", "enetlld_performance.html#autotoc_md1612", null ],
+      [ "TCP/IP Performance", "enetlld_performance.html#autotoc_md1613", [
+        [ "Configuration Details", "enetlld_performance.html#autotoc_md1614", [
+          [ "TCP Throughput", "enetlld_performance.html#autotoc_md1615", null ],
+          [ "UDP Throughput", "enetlld_performance.html#autotoc_md1616", null ]
         ] ]
       ] ],
-      [ "Ether-Ring Performance", "enetlld_performance.html#autotoc_md1612", null ],
-      [ "Ether-Ring Round Trip Latency with CAN(Vehicle) traffic", "enetlld_performance.html#autotoc_md1613", null ],
-      [ "Daisy Chain KPI performance with TSN Features(EST,Gptp)", "enetlld_performance.html#autotoc_md1614", [
-        [ "Test Setup", "enetlld_performance.html#autotoc_md1615", null ],
-        [ "Test Configuration", "enetlld_performance.html#autotoc_md1616", null ],
-        [ "Round Trip Latencies with 3 nodes(1 talker, 2listener)", "enetlld_performance.html#autotoc_md1617", null ],
-        [ "KPI Summary", "enetlld_performance.html#autotoc_md1618", null ]
-      ] ],
+      [ "Ether-Ring Performance", "enetlld_performance.html#autotoc_md1617", null ],
+      [ "Ether-Ring Round Trip Latency with CAN(Vehicle) traffic", "enetlld_performance.html#autotoc_md1618", null ],
       [ "See Also", "enetlld_performance.html#autotoc_md1619", null ]
     ] ],
     [ "Enet EST/TAS Support", "enet_tas_top.html", [

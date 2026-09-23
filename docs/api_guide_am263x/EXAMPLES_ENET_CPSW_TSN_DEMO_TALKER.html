@@ -112,10 +112,11 @@ $(document).ready(function(){initNavTree('EXAMPLES_ENET_CPSW_TSN_DEMO_TALKER.htm
 <li class="level2"><a href="#autotoc_md3502">UART Menu</a></li>
 <li class="level2"><a href="#autotoc_md3503">Sample output</a></li>
 <li class="level2"><a href="#autotoc_md3504">Interpreting the report</a></li>
+<li class="level2"><a href="#autotoc_md3505">KPI (measured)</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md3505">Troubleshooting issues</a></li>
-<li class="level1"><a href="#autotoc_md3506">See Also</a></li>
+<li class="level1"><a href="#autotoc_md3506">Troubleshooting issues</a></li>
+<li class="level1"><a href="#autotoc_md3507">See Also</a></li>
 </ul>
 </div>
 <div class="textblock"><p><a class="anchor" id="md_examples_networking_enet_cpsw_tsn_demo_talker"></a></p>
@@ -416,7 +417,18 @@ Interpreting the report</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">bulk offered load (Mbit/s)  </td><td class="markdownTableBodyNone">How much background traffic was actually pushed during the window   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md3505"></a>
+<h2><a class="anchor" id="autotoc_md3505"></a>
+KPI (measured)</h2>
+<p>Test Parameters: 1 talker + 2 listeners (3 nodes), 125 µs express period, ~900 Mbit/s PC-driven bulk on the talker's MAC port 1, 10000 samples/run per configuration. Values are the mean min/max/avg round-trip latency (T4-T1) across repeated runs of the CONTENTION-TSN-ON run mode.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Feature configuration  </th><th class="markdownTableHeadNone">Listener 1 round-trip latency  </th><th class="markdownTableHeadNone">Listener 2 round-trip latency   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Baseline (TSN off)  </td><td class="markdownTableBodyNone">Min: 29.10 µs, Max: 61.93 µs, Avg: 43.01 µs  </td><td class="markdownTableBodyNone">Min: 37.14 µs, Max: 97.46 µs, Avg: 67.70 µs   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><b>EST only</b>  </td><td class="markdownTableBodyNone"><b>Min: 29.37 µs, Max: 59.21 µs, Avg: 39.05 µs</b>  </td><td class="markdownTableBodyNone"><b>Min: 39.81 µs, Max: 91.92 µs, Avg: 72.00 µs</b>   </td></tr>
+</table>
+<h1><a class="anchor" id="autotoc_md3506"></a>
 Troubleshooting issues</h1>
 <ul>
 <li><b>Link not at 1 Gbit</b>: the EST schedule's per-hop timing math assumes 1 Gbit links throughout the chain; a lower-speed link will make the express window mistimed relative to real transit time.</li>
@@ -426,7 +438,7 @@ Troubleshooting issues</h1>
   NOT gate-locked" when EST is on and you expected GENF locking, check that the correct <code>TSNDEMO_BOARD_AM261X_LP</code>/<code>_SOM</code> macro is defined for your board - using the wrong one applies the wrong CPTS tick rate and the schedule will look correct in software but be wrong on the wire.</li>
 <li><b>Round-trip report always shows "no samples"</b>: if <code>tx</code>/<code>rx</code> counts in the report look healthy (loss near 0%) but round-trip latency still shows no samples, hardware RX timestamping on the host port has somehow ended up disabled (<code>enet_cpsw1.cptsHostRxTsEn</code> in <code>example.syscfg</code>) - it needs to be <code>true</code>, since the round-trip measurement depends on a hardware RX timestamp of the returning echo.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md3506"></a>
+<h1><a class="anchor" id="autotoc_md3507"></a>
 See Also</h1>
 <p><a class="el" href="EXAMPLES_ENET_CPSW_TSN_DEMO_LISTENER.html">Enet CPSW TSN Integrated Demo - Listener</a>, <a class="el" href="NETWORKING.html">Ethernet And Networking</a> </p>
 </div></div><!-- contents -->
