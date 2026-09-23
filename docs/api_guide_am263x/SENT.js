@@ -1,10 +1,10 @@
 var SENT =
 [
-    [ "Introduction", "SENT.html#autotoc_md883", null ],
-    [ "Feature Supported", "SENT.html#autotoc_md884", [
-      [ "SysConfig Features", "SENT.html#autotoc_md885", null ],
-      [ "SENT Design", "SENT.html#autotoc_md886", null ],
-      [ "Example", "SENT.html#autotoc_md887", null ]
+    [ "Introduction", "SENT.html#autotoc_md884", null ],
+    [ "Feature Supported", "SENT.html#autotoc_md885", [
+      [ "SysConfig Features", "SENT.html#autotoc_md886", null ],
+      [ "SENT Design", "SENT.html#autotoc_md887", null ],
+      [ "Example", "SENT.html#autotoc_md888", null ]
     ] ],
     [ "SENT Decoder Design", "SENT_DESIGN.html", [
       [ "Introduction", "SENT_DESIGN.html#autotoc_md1757", null ],

@@ -2,8 +2,8 @@ var NAVTREEINDEX54 =
 {
 "group__SDL__RTI__FUNCTION.html#gaa7603e25174a8b3c5ed120f49edc3d9d":[17,5,1,2,1],
 "group__SDL__RTI__FUNCTION.html#gaa7603e25174a8b3c5ed120f49edc3d9d":[17,6,8,2,1],
-"group__SDL__RTI__FUNCTION.html#gaeb97a10085312dea93779234f57e789c":[17,6,8,2,0],
 "group__SDL__RTI__FUNCTION.html#gaeb97a10085312dea93779234f57e789c":[17,5,1,2,0],
+"group__SDL__RTI__FUNCTION.html#gaeb97a10085312dea93779234f57e789c":[17,6,8,2,0],
 "group__SDL__STC__API.html":[17,6,9,0],
 "group__SDL__STC__DATASTRUCT.html":[17,6,9,0,0],
 "group__SDL__STC__ENUM.html":[17,6,9,0,1],

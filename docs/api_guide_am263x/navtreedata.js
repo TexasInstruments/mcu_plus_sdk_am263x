@@ -38,46 +38,46 @@ var NAVTREE =
     [ "Release Notes", "RELEASE_NOTES_PAGE.html", "RELEASE_NOTES_PAGE" ],
     [ "Developer Guides", "DEVELOPER_GUIDES.html", "DEVELOPER_GUIDES" ],
     [ "Datasheet", "DATASHEET_AM263X_EVM.html", [
-      [ "Introduction", "DATASHEET_AM263X_EVM.html#autotoc_md620", null ],
-      [ "Generic Setup details", "DATASHEET_AM263X_EVM.html#autotoc_md621", null ],
-      [ "Performance Numbers", "DATASHEET_AM263X_EVM.html#autotoc_md622", [
-        [ "SBL QSPI MULTICORE ELF performance", "DATASHEET_AM263X_EVM.html#autotoc_md623", null ],
-        [ "SBL QSPI Fastboot performance", "DATASHEET_AM263X_EVM.html#autotoc_md624", null ],
-        [ "SBL SD MULTICORE ELF performance", "DATASHEET_AM263X_EVM.html#autotoc_md625", null ],
-        [ "EDMA", "DATASHEET_AM263X_EVM.html#autotoc_md626", null ],
-        [ "EDMA MEMORY COPY BENCHMARK", "DATASHEET_AM263X_EVM.html#autotoc_md627", null ],
-        [ "MCAN performance", "DATASHEET_AM263X_EVM.html#autotoc_md628", [
-          [ "Theoretical Rate Calculation", "DATASHEET_AM263X_EVM.html#autotoc_md629", null ],
-          [ "Actual Numbers", "DATASHEET_AM263X_EVM.html#autotoc_md630", null ]
+      [ "Introduction", "DATASHEET_AM263X_EVM.html#autotoc_md621", null ],
+      [ "Generic Setup details", "DATASHEET_AM263X_EVM.html#autotoc_md622", null ],
+      [ "Performance Numbers", "DATASHEET_AM263X_EVM.html#autotoc_md623", [
+        [ "SBL QSPI MULTICORE ELF performance", "DATASHEET_AM263X_EVM.html#autotoc_md624", null ],
+        [ "SBL QSPI Fastboot performance", "DATASHEET_AM263X_EVM.html#autotoc_md625", null ],
+        [ "SBL SD MULTICORE ELF performance", "DATASHEET_AM263X_EVM.html#autotoc_md626", null ],
+        [ "EDMA", "DATASHEET_AM263X_EVM.html#autotoc_md627", null ],
+        [ "EDMA MEMORY COPY BENCHMARK", "DATASHEET_AM263X_EVM.html#autotoc_md628", null ],
+        [ "MCAN performance", "DATASHEET_AM263X_EVM.html#autotoc_md629", [
+          [ "Theoretical Rate Calculation", "DATASHEET_AM263X_EVM.html#autotoc_md630", null ],
+          [ "Actual Numbers", "DATASHEET_AM263X_EVM.html#autotoc_md631", null ]
         ] ],
-        [ "IPC performance", "DATASHEET_AM263X_EVM.html#autotoc_md631", [
-          [ "IPC NOTIFY", "DATASHEET_AM263X_EVM.html#autotoc_md632", null ],
-          [ "IPC RPMSG", "DATASHEET_AM263X_EVM.html#autotoc_md633", null ]
+        [ "IPC performance", "DATASHEET_AM263X_EVM.html#autotoc_md632", [
+          [ "IPC NOTIFY", "DATASHEET_AM263X_EVM.html#autotoc_md633", null ],
+          [ "IPC RPMSG", "DATASHEET_AM263X_EVM.html#autotoc_md634", null ]
         ] ],
-        [ "MCSPI performance", "DATASHEET_AM263X_EVM.html#autotoc_md634", null ],
-        [ "MCSPI driver performance in different modes", "DATASHEET_AM263X_EVM.html#autotoc_md635", null ],
-        [ "DPL Low latency interrupt performance", "DATASHEET_AM263X_EVM.html#autotoc_md636", null ],
-        [ "ARM R5F", "DATASHEET_AM263X_EVM.html#autotoc_md637", null ],
-        [ "COREMARK", "DATASHEET_AM263X_EVM.html#autotoc_md638", null ],
-        [ "DHRYSTONE", "DATASHEET_AM263X_EVM.html#autotoc_md639", null ],
-        [ "DTHE", "DATASHEET_AM263X_EVM.html#autotoc_md640", null ],
-        [ "AES CMAC", "DATASHEET_AM263X_EVM.html#autotoc_md641", null ],
-        [ "AES ECB", "DATASHEET_AM263X_EVM.html#autotoc_md642", null ],
+        [ "MCSPI performance", "DATASHEET_AM263X_EVM.html#autotoc_md635", null ],
+        [ "MCSPI driver performance in different modes", "DATASHEET_AM263X_EVM.html#autotoc_md636", null ],
+        [ "DPL Low latency interrupt performance", "DATASHEET_AM263X_EVM.html#autotoc_md637", null ],
+        [ "ARM R5F", "DATASHEET_AM263X_EVM.html#autotoc_md638", null ],
+        [ "COREMARK", "DATASHEET_AM263X_EVM.html#autotoc_md639", null ],
+        [ "DHRYSTONE", "DATASHEET_AM263X_EVM.html#autotoc_md640", null ],
+        [ "DTHE", "DATASHEET_AM263X_EVM.html#autotoc_md641", null ],
+        [ "AES CMAC", "DATASHEET_AM263X_EVM.html#autotoc_md642", null ],
         [ "AES ECB", "DATASHEET_AM263X_EVM.html#autotoc_md643", null ],
-        [ "AES CBC", "DATASHEET_AM263X_EVM.html#autotoc_md644", null ],
+        [ "AES ECB", "DATASHEET_AM263X_EVM.html#autotoc_md644", null ],
         [ "AES CBC", "DATASHEET_AM263X_EVM.html#autotoc_md645", null ],
-        [ "SHA", "DATASHEET_AM263X_EVM.html#autotoc_md646", null ],
-        [ "AES CTR", "DATASHEET_AM263X_EVM.html#autotoc_md647", null ],
+        [ "AES CBC", "DATASHEET_AM263X_EVM.html#autotoc_md646", null ],
+        [ "SHA", "DATASHEET_AM263X_EVM.html#autotoc_md647", null ],
         [ "AES CTR", "DATASHEET_AM263X_EVM.html#autotoc_md648", null ],
-        [ "HMAC SHA", "DATASHEET_AM263X_EVM.html#autotoc_md649", null ],
-        [ "AES CMAC", "DATASHEET_AM263X_EVM.html#autotoc_md650", null ],
+        [ "AES CTR", "DATASHEET_AM263X_EVM.html#autotoc_md649", null ],
+        [ "HMAC SHA", "DATASHEET_AM263X_EVM.html#autotoc_md650", null ],
         [ "AES CMAC", "DATASHEET_AM263X_EVM.html#autotoc_md651", null ],
-        [ "MATHLIB", "DATASHEET_AM263X_EVM.html#autotoc_md652", null ],
-        [ "MATHLIB BENCHMARK", "DATASHEET_AM263X_EVM.html#autotoc_md653", null ],
-        [ "Ethernet Performance", "DATASHEET_AM263X_EVM.html#autotoc_md654", null ],
-        [ "Flash performance Benchmark", "DATASHEET_AM263X_EVM.html#autotoc_md655", [
-          [ "CPU Read", "DATASHEET_AM263X_EVM.html#autotoc_md656", null ],
-          [ "DMA Read", "DATASHEET_AM263X_EVM.html#autotoc_md657", null ]
+        [ "AES CMAC", "DATASHEET_AM263X_EVM.html#autotoc_md652", null ],
+        [ "MATHLIB", "DATASHEET_AM263X_EVM.html#autotoc_md653", null ],
+        [ "MATHLIB BENCHMARK", "DATASHEET_AM263X_EVM.html#autotoc_md654", null ],
+        [ "Ethernet Performance", "DATASHEET_AM263X_EVM.html#autotoc_md655", null ],
+        [ "Flash performance Benchmark", "DATASHEET_AM263X_EVM.html#autotoc_md656", [
+          [ "CPU Read", "DATASHEET_AM263X_EVM.html#autotoc_md657", null ],
+          [ "DMA Read", "DATASHEET_AM263X_EVM.html#autotoc_md658", null ]
         ] ]
       ] ]
     ] ],
@@ -113,8 +113,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "ADDITIONAL_DETAILS_PAGE.html",
-"DRIVERS_DTHE_AES_PAGE.html#autotoc_md1437",
-"DRIVERS_PMU_PAGE.html#autotoc_md1342",
+"DRIVERS_DTHE_AES_PAGE.html#autotoc_md1438",
+"DRIVERS_PMU_PAGE.html#autotoc_md1343",
 "EXAMPLES_AI_DAP_DEFAULT.html#autotoc_md4189",
 "EXAMPLES_DRIVERS_ADC_DIFFERENTIAL_MODE.html#autotoc_md2165",
 "EXAMPLES_DRIVERS_CANFD_LOOPBACK_POLLING.html#EXAMPLES_DRIVERS_CANFD_LOOPBACK_POLLING_COMBOS",
@@ -132,8 +132,8 @@ var NAVTREEINDEX =
 "MATHLIB_DRIVER.html#autotoc_md1746",
 "RELEASE_NOTES_08_03_00_EVM_REV_E2_SUPPORT_PAGE.html#autotoc_md557",
 "RELEASE_NOTES_10_00_00_PAGE.html#autotoc_md372",
-"SDK_DOWNLOAD_PAGE.html#autotoc_md13",
-"TOOLS_SECURITY.html#KEYRING_CERT_GEN_PYTHON_SCRIPT",
+"SDK_DOWNLOAD_PAGE.html#autotoc_md12",
+"TOOLS_SECURITY.html",
 "group__BOARD__ETHPHY__MODULE.html#gaf3051e618069fad2c94570cb618812e7",
 "group__CPSW__CPTS__MOD.html#gga56e0d94edce09eac7239037c2c548028acc1735765926e075a03651c5f33d7dcb",
 "group__DRV__ADC__MODULE.html#gga7973b7d12fc7bfb96bd276b0a5926834aadf263d17646b6f332b0bb64e61df668",

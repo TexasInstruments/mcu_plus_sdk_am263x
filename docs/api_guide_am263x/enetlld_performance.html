@@ -92,10 +92,9 @@ $(document).ready(function(){initNavTree('enetlld_performance.html',''); initRes
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md1602">Introduction</a></li>
-<li class="level1"><a href="#autotoc_md1603">Setup Details</a></li>
-<li class="level1"><a href="#autotoc_md1604">Library Memory Footprint - Cpsw, Lwip, Gptp</a><ul><li class="level2"><a href="#autotoc_md1605">Library Sizes - Feature-rich (Without LTO)</a></li>
-<li class="level2"><a href="#autotoc_md1606">Library Sizes - Per usecase (Without LTO)</a></li>
+<ul><li class="level1"><a href="#autotoc_md1603">Introduction</a></li>
+<li class="level1"><a href="#autotoc_md1604">Setup Details</a></li>
+<li class="level1"><a href="#autotoc_md1605">Library Memory Footprint - Cpsw, Lwip, Gptp</a><ul><li class="level2"><a href="#autotoc_md1606">Library Sizes - Per usecase (Without LTO)</a></li>
 </ul>
 </li>
 <li class="level1"><a href="#autotoc_md1607">Layer 2 Performance</a><ul><li class="level2"><a href="#autotoc_md1608">Configuration Details</a></li>
@@ -117,10 +116,10 @@ $(document).ready(function(){initNavTree('enetlld_performance.html',''); initRes
 </ul>
 </div>
 <div class="textblock"><p><a class="anchor" id="md_components_networking_enet_lld_enet_cpsw_performance_am263x"></a> </p>
-<h1><a class="anchor" id="autotoc_md1602"></a>
+<h1><a class="anchor" id="autotoc_md1603"></a>
 Introduction</h1>
 <p>This section provides the performance numbers and memory footprint of Ethernet drivers using CPSW peripheral in MCU+ SDK</p>
-<h1><a class="anchor" id="autotoc_md1603"></a>
+<h1><a class="anchor" id="autotoc_md1604"></a>
 Setup Details</h1>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -134,33 +133,11 @@ Setup Details</h1>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">Cache status  </td><td class="markdownTableBodyNone">Enabled   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md1604"></a>
+<h1><a class="anchor" id="autotoc_md1605"></a>
 Library Memory Footprint - Cpsw, Lwip, Gptp</h1>
-<p>The two tables below capture:</p><ul>
-<li><b>Library Sizes - Feature-rich</b> is the raw, as-built size of each <code>.lib</code> this ethernet driver ships (<code>enet-cpsw</code>, <code>lwip</code>, <code>tsn</code> - 167.67 KB, 152.26 KB and 455.03 KB respectively), before it is ever linked into an application. This is a <b>superset</b> library size: every function and object in the library.</li>
+<p>The table below capture:</p><ul>
 <li><b>Library Sizes - Per usecase</b>, by contrast, comes from the linker's <code>.map</code> file for a fully linked application image - which reflects actual library content used by application/usecase. Enabling LTO would shrink the <code>code</code>/<code>.text</code> figures in the Example Sizes table further by removing unused/inlined functions across translation units at link time.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md1605"></a>
-Library Sizes - Feature-rich (Without LTO)</h2>
-<p>Each row is one prebuilt static ethernet library; the columns are the standard linker output sections contributed by that library on its own (i.e. before it is linked into any particular application).</p>
-<ul>
-<li>**.text** - executable code.</li>
-<li>**.data** - initialized global/static variables (occupies both flash and RAM).</li>
-<li>**.bss** - zero-initialized global/static variables (RAM only, not stored in the binary).</li>
-<li><b>Total</b> - <code>.text + .data + .bss</code>, i.e. the library's full static footprint.</li>
-</ul>
-<table class="doxtable">
-<tr>
-<th rowspan="2">Library (FreeRTOS) </th><th colspan="4">Section Sizes (KB)  </th></tr>
-<tr>
-<th>.text</th><th>.data</th><th>.bss</th><th>Total  </th></tr>
-<tr>
-<td>enet-cpsw</td><td class="num">147.97</td><td class="num">14.32</td><td class="num">5.38</td><td class="num">167.67 </td></tr>
-<tr>
-<td>lwip </td><td class="num">139.85</td><td class="num">3.77</td><td class="num">8.64</td><td class="num">152.26 </td></tr>
-<tr>
-<td>tsn </td><td class="num">289.71</td><td class="num">4.38</td><td class="num">160.94</td><td class="num">455.03 </td></tr>
-</table>
 <h2><a class="anchor" id="autotoc_md1606"></a>
 Library Sizes - Per usecase (Without LTO)</h2>
 <p>Each row is a complete, linked application image, so unused library code has already been stripped by the compiler</p>
@@ -172,19 +149,19 @@ Library Sizes - Per usecase (Without LTO)</h2>
 </ul>
 <table class="doxtable">
 <tr>
-<th rowspan="2">Use Case </th><th colspan="3">enet-cpsw </th><th colspan="3">lwip (freertos) </th><th colspan="3">tsn (freertos) </th><th rowspan="2">Total (KB)  </th></tr>
+<th rowspan="2">Use Case </th><th colspan="3">enet-cpsw </th><th colspan="3">lwip (freertos) </th><th colspan="3">tsn (freertos) </th><th colspan="3">FreeRTOS and other libraries </th><th colspan="3">Packet Buffers </th><th rowspan="2">Total (KB)  </th></tr>
 <tr>
-<th>code</th><th>ro_data</th><th>rw_data </th><th>code</th><th>ro_data</th><th>rw_data </th><th>code</th><th>ro_data</th><th>rw_data  </th></tr>
+<th>code</th><th>ro_data</th><th>rw_data </th><th>code</th><th>ro_data</th><th>rw_data </th><th>code</th><th>ro_data</th><th>rw_data </th><th>code</th><th>ro_data</th><th>rw_data </th><th>code</th><th>ro_data</th><th>rw_data  </th></tr>
 <tr>
-<td>Basic Layer2 TX/RX</td><td class="num">69.37</td><td class="num">16.58</td><td class="num">3.86</td><td class="na">&mdash;</td><td class="na">&mdash;</td><td class="na">&mdash;</td><td class="na">&mdash;</td><td class="na">&mdash;</td><td class="na">&mdash;</td><td class="num">89.81 </td></tr>
+<td>Basic Layer2 TX/RX</td><td class="num">69.37</td><td class="num">16.58</td><td class="num">3.86</td><td class="na">&mdash;</td><td class="na">&mdash;</td><td class="na">&mdash;</td><td class="na">&mdash;</td><td class="na">&mdash;</td><td class="na">&mdash; </td><td class="na">40.3</td><td class="na">6.76</td><td class="na">9.82 </td><td class="na">&mdash;</td><td class="na">&mdash;</td><td class="na">12.2 </td><td class="num">146.69 </td></tr>
 <tr>
-<td>LwIP - TCP Server</td><td class="num">69.55</td><td class="num">15.81</td><td class="num">5.16</td><td class="num">56.55</td><td class="num">17.56</td><td class="num">140.16</td><td class="na">&mdash;</td><td class="na">&mdash;</td><td class="na">&mdash;</td><td class="num">304.79 </td></tr>
+<td>LwIP - TCP Server</td><td class="num">69.55</td><td class="num">15.81</td><td class="num">5.16</td><td class="num">56.55</td><td class="num">17.56</td><td class="num">140.16</td><td class="na">&mdash;</td><td class="na">&mdash;</td><td class="na">&mdash; </td><td class="na">40.1</td><td class="na">6.82</td><td class="na">9.42 </td><td class="na">&mdash;</td><td class="na">&mdash;</td><td class="na">15.61 </td><td class="num">361.13 </td></tr>
 <tr>
-<td>LwIP - UDP/IGMP Multicast</td><td class="num">69.77</td><td class="num">15.91</td><td class="num">5.16</td><td class="num">60.60</td><td class="num">18.18</td><td class="num">140.44</td><td class="na">&mdash;</td><td class="na">&mdash;</td><td class="na">&mdash;</td><td class="num">310.06 </td></tr>
+<td>LwIP - UDP/IGMP Multicast</td><td class="num">69.77</td><td class="num">15.91</td><td class="num">5.16</td><td class="num">60.60</td><td class="num">18.18</td><td class="num">140.44</td><td class="na">&mdash;</td><td class="na">&mdash;</td><td class="na">&mdash; </td><td class="na">45.1</td><td class="na">7.85</td><td class="na">10.21 </td><td class="na">&mdash;</td><td class="na">&mdash;</td><td class="na">15.6 </td><td class="num">373.22 </td></tr>
 <tr>
-<td>Gptp (master/slave)</td><td class="num">80.95</td><td class="num">15.47</td><td class="num">3.86</td><td class="na">&mdash;</td><td class="na">&mdash;</td><td class="na">&mdash;</td><td class="num">157.93</td><td class="num">39.23</td><td class="num">156.25</td><td class="num">453.69 </td></tr>
+<td>Gptp (master/slave)</td><td class="num">80.95</td><td class="num">15.47</td><td class="num">3.86</td><td class="na">&mdash;</td><td class="na">&mdash;</td><td class="na">&mdash;</td><td class="num">157.93</td><td class="num">39.23</td><td class="num">156.25 </td><td class="na">48.2</td><td class="na">6.01</td><td class="na">7.91 </td><td class="na">&mdash;</td><td class="na">&mdash;</td><td class="na">12 </td><td class="num">515.81 </td></tr>
 </table>
-<p><b>Analysis:</b> Adding <code>lwip</code> to a bare Layer2 example costs roughly +215 to +220 KB, almost entirely <code>rw_data</code> (~140 KB) for socket/PCB state and packet buffer pools. The Gptp use case is the largest at ~454 KB total.</p>
+<p><b>Analysis:</b> Adding <code>lwip</code> to a bare Layer2 example costs roughly +155 to +160 KB. The Gptp use case is the largest at ~515.81 KB total.</p>
 <h1><a class="anchor" id="autotoc_md1607"></a>
 Layer 2 Performance</h1>
 <p> <style>div.image img[src="CPSW_latency_measurement_diagram.bmp"]{width:30%}</style> </p><div class="image">

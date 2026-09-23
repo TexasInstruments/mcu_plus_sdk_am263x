@@ -46,9 +46,10 @@ var RELEASE_NOTES_PAGE =
         [ "SDL PBIST Self test", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md614", null ],
         [ "SDL STC Configuration", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md615", null ],
         [ "SDL Handler API name update", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md616", null ],
-        [ "Compiler Options", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md617", null ],
-        [ "SOC Device Drivers", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md618", null ],
-        [ "Ethernet and Networking", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md619", null ]
+        [ "SDL MMR Control", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md617", null ],
+        [ "Compiler Options", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md618", null ],
+        [ "SOC Device Drivers", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md619", null ],
+        [ "Ethernet and Networking", "RELEASE_NOTES_26_01_00_PAGE.html#autotoc_md620", null ]
       ] ]
     ] ],
     [ "Release Notes 26.00.00.STS", "RELEASE_NOTES_26_00_00_PAGE.html", [

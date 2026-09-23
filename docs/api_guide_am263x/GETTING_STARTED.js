@@ -75,51 +75,51 @@ var GETTING_STARTED =
       [ "Running an application", "BUILD_LOAD_RUN_EXAMPLE.html#autotoc_md43", null ]
     ] ],
     [ "Building an Application", "BUILDING_APPLICATION.html", [
-      [ "Tools", "BUILDING_APPLICATION.html#autotoc_md949", null ],
-      [ "Creation of application binary", "BUILDING_APPLICATION.html#autotoc_md950", [
-        [ "Generating .out binary", "BUILDING_APPLICATION.html#autotoc_md951", null ],
-        [ "Generating .mcelf binary", "BUILDING_APPLICATION.html#autotoc_md952", null ],
-        [ "Generating HEX binary", "BUILDING_APPLICATION.html#autotoc_md953", [
-          [ "Installing SRecord on Windows", "BUILDING_APPLICATION.html#autotoc_md954", null ],
-          [ "Installing SRecord on Linux", "BUILDING_APPLICATION.html#autotoc_md955", null ],
-          [ "Converting .mcelf to Intel hex:", "BUILDING_APPLICATION.html#autotoc_md956", null ]
+      [ "Tools", "BUILDING_APPLICATION.html#autotoc_md950", null ],
+      [ "Creation of application binary", "BUILDING_APPLICATION.html#autotoc_md951", [
+        [ "Generating .out binary", "BUILDING_APPLICATION.html#autotoc_md952", null ],
+        [ "Generating .mcelf binary", "BUILDING_APPLICATION.html#autotoc_md953", null ],
+        [ "Generating HEX binary", "BUILDING_APPLICATION.html#autotoc_md954", [
+          [ "Installing SRecord on Windows", "BUILDING_APPLICATION.html#autotoc_md955", null ],
+          [ "Installing SRecord on Linux", "BUILDING_APPLICATION.html#autotoc_md956", null ],
+          [ "Converting .mcelf to Intel hex:", "BUILDING_APPLICATION.html#autotoc_md957", null ]
         ] ],
-        [ "Signing the binary", "BUILDING_APPLICATION.html#autotoc_md957", [
+        [ "Signing the binary", "BUILDING_APPLICATION.html#autotoc_md958", [
           [ "SBL Signing", "BUILDING_APPLICATION.html#SBL_SIGNING", null ],
-          [ "Application signing", "BUILDING_APPLICATION.html#autotoc_md958", null ]
+          [ "Application signing", "BUILDING_APPLICATION.html#autotoc_md959", null ]
         ] ]
       ] ],
-      [ "Building a Hello world example", "BUILDING_APPLICATION.html#autotoc_md959", null ],
-      [ "Next step - Loading the application", "BUILDING_APPLICATION.html#autotoc_md960", null ]
+      [ "Building a Hello world example", "BUILDING_APPLICATION.html#autotoc_md960", null ],
+      [ "Next step - Loading the application", "BUILDING_APPLICATION.html#autotoc_md961", null ]
     ] ],
     [ "Loading an Application", "LOADING_APPLICATION.html", [
-      [ "Tools", "LOADING_APPLICATION.html#autotoc_md961", null ],
-      [ "Loading via CCS", "LOADING_APPLICATION.html#autotoc_md962", [
-        [ "Loading an executable in CCS", "LOADING_APPLICATION.html#autotoc_md963", null ],
-        [ "Build and load using 1 click", "LOADING_APPLICATION.html#autotoc_md964", null ],
-        [ "Loading applicaction via SBL JTAG UNIFLASH", "LOADING_APPLICATION.html#autotoc_md965", null ]
+      [ "Tools", "LOADING_APPLICATION.html#autotoc_md962", null ],
+      [ "Loading via CCS", "LOADING_APPLICATION.html#autotoc_md963", [
+        [ "Loading an executable in CCS", "LOADING_APPLICATION.html#autotoc_md964", null ],
+        [ "Build and load using 1 click", "LOADING_APPLICATION.html#autotoc_md965", null ],
+        [ "Loading applicaction via SBL JTAG UNIFLASH", "LOADING_APPLICATION.html#autotoc_md966", null ]
       ] ],
-      [ "Loading via TI Uniflash tool", "LOADING_APPLICATION.html#autotoc_md966", null ],
-      [ "Script based loaders/flashwriters", "LOADING_APPLICATION.html#autotoc_md967", [
-        [ "UART_BOOTLOADER", "LOADING_APPLICATION.html#autotoc_md968", null ],
-        [ "UART_UNIFLASH Flashwriter", "LOADING_APPLICATION.html#autotoc_md969", null ],
-        [ "CAN_BOOTLOADER", "LOADING_APPLICATION.html#autotoc_md970", null ],
-        [ "CAN_UNIFLASH Flashwriter", "LOADING_APPLICATION.html#autotoc_md971", null ]
+      [ "Loading via TI Uniflash tool", "LOADING_APPLICATION.html#autotoc_md967", null ],
+      [ "Script based loaders/flashwriters", "LOADING_APPLICATION.html#autotoc_md968", [
+        [ "UART_BOOTLOADER", "LOADING_APPLICATION.html#autotoc_md969", null ],
+        [ "UART_UNIFLASH Flashwriter", "LOADING_APPLICATION.html#autotoc_md970", null ],
+        [ "CAN_BOOTLOADER", "LOADING_APPLICATION.html#autotoc_md971", null ],
+        [ "CAN_UNIFLASH Flashwriter", "LOADING_APPLICATION.html#autotoc_md972", null ]
       ] ],
-      [ "Flashing a hello world application", "LOADING_APPLICATION.html#autotoc_md972", null ],
-      [ "Next step - Running the application", "LOADING_APPLICATION.html#autotoc_md973", null ]
+      [ "Flashing a hello world application", "LOADING_APPLICATION.html#autotoc_md973", null ],
+      [ "Next step - Running the application", "LOADING_APPLICATION.html#autotoc_md974", null ]
     ] ],
     [ "Running an Application", "RUNNING_APPLICATION.html", [
-      [ "SBLs in SDK", "RUNNING_APPLICATION.html#autotoc_md974", [
-        [ "SBL NULL", "RUNNING_APPLICATION.html#autotoc_md975", null ],
-        [ "SBL QSPI", "RUNNING_APPLICATION.html#autotoc_md976", null ],
-        [ "SBL UART", "RUNNING_APPLICATION.html#autotoc_md977", null ],
-        [ "SBL CAN", "RUNNING_APPLICATION.html#autotoc_md978", null ],
-        [ "SBL SD", "RUNNING_APPLICATION.html#autotoc_md979", null ]
+      [ "SBLs in SDK", "RUNNING_APPLICATION.html#autotoc_md975", [
+        [ "SBL NULL", "RUNNING_APPLICATION.html#autotoc_md976", null ],
+        [ "SBL QSPI", "RUNNING_APPLICATION.html#autotoc_md977", null ],
+        [ "SBL UART", "RUNNING_APPLICATION.html#autotoc_md978", null ],
+        [ "SBL CAN", "RUNNING_APPLICATION.html#autotoc_md979", null ],
+        [ "SBL SD", "RUNNING_APPLICATION.html#autotoc_md980", null ]
       ] ],
-      [ "SBL Based bootflow on HSFS device", "RUNNING_APPLICATION.html#autotoc_md980", null ],
-      [ "SBL Based bootflow on HSSE device", "RUNNING_APPLICATION.html#autotoc_md981", null ],
-      [ "Debugging support", "RUNNING_APPLICATION.html#autotoc_md982", null ]
+      [ "SBL Based bootflow on HSFS device", "RUNNING_APPLICATION.html#autotoc_md981", null ],
+      [ "SBL Based bootflow on HSSE device", "RUNNING_APPLICATION.html#autotoc_md982", null ],
+      [ "Debugging support", "RUNNING_APPLICATION.html#autotoc_md983", null ]
     ] ],
     [ "Additional Details", "ADDITIONAL_DETAILS_PAGE.html", "ADDITIONAL_DETAILS_PAGE" ],
     [ "Getting Started With Smart Placement", "SMART_PLACEMENT_GETTING_STARTED.html", [
