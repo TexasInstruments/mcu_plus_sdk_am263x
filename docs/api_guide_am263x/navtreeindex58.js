@@ -1,5 +1,8 @@
 var NAVTREEINDEX58 =
 {
+"structCpswAle__InitVlanCfg.html":[17,4,0,1,0,39],
+"structCpswAle__InitVlanCfg.html#a438b5c7e8d54ae24ec0f0acb4c5d9b11":[17,4,0,1,0,39,3],
+"structCpswAle__InitVlanCfg.html#a779ee27510eccfbf8bbee2383ada36bc":[17,4,0,1,0,39,1],
 "structCpswAle__InitVlanCfg.html#aa501d7b5afa14e9fe6bb9e1660ff237e":[17,4,0,1,0,39,4],
 "structCpswAle__InitVlanCfg.html#aa9135bb7ee9b343553f3adf1cb846d38":[17,4,0,1,0,39,5],
 "structCpswAle__InitVlanCfg.html#aaf2bbfb3b8a45b20241547c03bc6a3ea":[17,4,0,1,0,39,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX58 =
 "structCpswHostPort__Cfg.html#a133a44cbc5ae8526aef13c18ab6ebbc7":[17,4,0,2,0,1,0],
 "structCpswHostPort__Cfg.html#a2a673bff734bc24d5e2a3fc3a00187c9":[17,4,0,2,0,1,4],
 "structCpswHostPort__Cfg.html#a3a6d258f198538cc31c53223207f77d5":[17,4,0,2,0,1,13],
-"structCpswHostPort__Cfg.html#a5117a49a475108aa91881871bc0f4153":[17,4,0,2,0,1,6],
-"structCpswHostPort__Cfg.html#a588b52c1fcb903ce68e3fbe7c1614793":[17,4,0,2,0,1,8],
-"structCpswHostPort__Cfg.html#a5eda64dedb5115116fb42d3f68a76910":[17,4,0,2,0,1,11],
-"structCpswHostPort__Cfg.html#a6067b66427451c39cbb567f2961013ec":[17,4,0,2,0,1,12]
+"structCpswHostPort__Cfg.html#a5117a49a475108aa91881871bc0f4153":[17,4,0,2,0,1,6]
 };

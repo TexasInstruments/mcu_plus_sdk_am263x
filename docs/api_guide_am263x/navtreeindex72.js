@@ -1,5 +1,8 @@
 var NAVTREEINDEX72 =
 {
+"structUART__Object.html#aeed454017a0f240768376b3697fd2a66":[17,7,43,3,0],
+"structUART__Object.html#af59e000505eda2681f02cd28f9741f62":[17,7,43,3,22],
+"structUART__Params.html":[17,7,43,1],
 "structUART__Params.html#a0498c2628245d5a64740a0dcc4ca1e19":[17,7,43,1,7],
 "structUART__Params.html#a15336e3a0e2aa0446609fb660539ef96":[17,7,43,1,18],
 "structUART__Params.html#a1850d733c08f9bd92a45c8289d88a830":[17,7,43,1,5],

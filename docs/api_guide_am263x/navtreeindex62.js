@@ -1,5 +1,8 @@
 var NAVTREEINDEX62 =
 {
+"structEnetDma__initCfg.html":[17,4,0,0,0,0,9],
+"structEnetMacPort__CutThruParams.html":[17,4,0,3,13],
+"structEnetMacPort__CutThruParams.html#abe65be3e49f10d45aaca10d8a8c562c5":[17,4,0,3,13,1],
 "structEnetMacPort__CutThruParams.html#af505d0953141c33562a1a9102941091c":[17,4,0,3,13,0],
 "structEnetMacPort__EnableEgressTrafficShapingInArgs.html":[17,4,0,3,7],
 "structEnetMacPort__EnableEgressTrafficShapingInArgs.html#a6792701096ffb3b44ac49a4d9ca80ea0":[17,4,0,3,7,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX62 =
 "structExtendedTimestamp.html#a47c64ad839b8ea5b4e1982194a3750c1":[17,9,0,12,1],
 "structExtendedTimestamp.html#a6f4a830a17b1cf9288210f23afd22463":[17,9,0,12,2],
 "structExtendedTimestamp.html#ab289477f5516f20cb54a8c817914e2e6":[17,9,0,12,3],
-"structFirewallIntrReq__t.html":[17,7,14,9],
-"structFirewallIntrReq__t.html#abd0ff8cb914f32f07e8d8769691754b3":[17,7,14,9,0],
-"structFirewallIntrReq__t.html#acf477d8e7189537db3350332c7f95917":[17,7,14,9,1],
-"structFirewallIntrReq__t.html#ad931a180ebba4369b293985f9462ea11":[17,7,14,9,2]
+"structFirewallIntrReq__t.html":[17,7,14,9]
 };

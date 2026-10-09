@@ -1,5 +1,8 @@
 var NAVTREEINDEX61 =
 {
+"structDeviceConfigSecurity__t.html#aad03f8a14f9674125a5ad4bd6622f222":[17,7,14,26,1],
+"structDeviceConfigSecurity__t.html#ab03bf304d0e4c5d5375494ae47c3c41f":[17,7,14,26,8],
+"structDeviceConfigSecurity__t.html#ad692fc1e33cfd72c186e475335d36714":[17,7,14,26,2],
 "structDeviceConfigSecurity__t.html#ad76ba4a1fcc0d6d77e8c56241c8dea30":[17,7,14,26,6],
 "structDp83822__Cfg.html":[17,4,0,13,1,0],
 "structDp83826__Cfg.html":[17,4,0,13,2,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX61 =
 "structEnetDma__TxChStats.html#a3b72f1962f3b1f7d7937c32fdd72baa1":[17,4,0,0,2,3,5],
 "structEnetDma__TxChStats.html#aa9d8e1888f37db65f23b92ce9aa57fb9":[17,4,0,0,2,3,0],
 "structEnetDma__TxChStats.html#aaf6480dfc59f9ca6fc9a5a94933b8f14":[17,4,0,0,2,3,3],
-"structEnetDma__TxChStats.html#ac2b3c2d458d2a9111f60e5cd1b515179":[17,4,0,0,2,3,4],
-"structEnetDma__initCfg.html":[17,4,0,0,0,0,9],
-"structEnetMacPort__CutThruParams.html":[17,4,0,3,13],
-"structEnetMacPort__CutThruParams.html#abe65be3e49f10d45aaca10d8a8c562c5":[17,4,0,3,13,1]
+"structEnetDma__TxChStats.html#ac2b3c2d458d2a9111f60e5cd1b515179":[17,4,0,0,2,3,4]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX65 =
 {
+"structICSS__EMAC__PruStatistics.html#aba245fc827eedecc97f1540a34c79c04":[17,4,2,13,33],
+"structICSS__EMAC__PruStatistics.html#abc536eac4d65d28049fb1c4e9cd58643":[17,4,2,13,1],
+"structICSS__EMAC__PruStatistics.html#ad3aa32f512c420500e04bcd16652a395":[17,4,2,13,24],
 "structICSS__EMAC__PruStatistics.html#ad4c9bae41e23d9ccd41ee518049d1612":[17,4,2,13,32],
 "structICSS__EMAC__PruStatistics.html#ad506d95d30c9baba8487bb1067f75f20":[17,4,2,13,8],
 "structICSS__EMAC__PruStatistics.html#adea15c47df330cd745b3343af09e150e":[17,4,2,13,9],
@@ -246,8 +249,5 @@ var NAVTREEINDEX65 =
 "structIcssg__FwPoolMem.html#aa11e0a0624d22e1b61560012f3d4f8b7":[17,4,0,6,1,17,1],
 "structIcssg__FwPoolMem.html#aba41ffd1cea434a0143b3a9e77bc3eea":[17,4,0,6,1,17,2],
 "structIcssg__FwPoolMem.html#ac6689dc78eb494eb839eceeeca123985":[17,4,0,6,1,17,3],
-"structIcssg__FwPoolMem.html#af632723464ef420cc5eff1e46cd22b27":[17,4,0,6,1,17,7],
-"structIcssg__FwPoolMem.html#afd6f6ceb7b34a83392c2771568178d64":[17,4,0,6,1,17,11],
-"structIcssg__HwFdbEntry.html":[17,4,0,6,1,10],
-"structIcssg__HwFdbEntry.html#a6e9199e343f859cf24a664901dd8bed8":[17,4,0,6,1,10,1]
+"structIcssg__FwPoolMem.html#af632723464ef420cc5eff1e46cd22b27":[17,4,0,6,1,17,7]
 };

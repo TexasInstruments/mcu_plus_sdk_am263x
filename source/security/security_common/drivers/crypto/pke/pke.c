@@ -838,6 +838,7 @@ AsymCrypt_Return_t AsymCrypt_EddsaVerify(AsymCrypt_Handle handle,
     int32_t pkeStatus = PKE_FAULT_STATUS;
     uint32_t hash_len;
     uint32_t key_len;
+    uint32_t i = 0U;
 
     if (ASYM_CRYPT_CURVE_TYPE_EDDSA_25519 == input_curve) {
         hash_len = EDDSA_ED25519_HASH_LEN;
@@ -872,13 +873,13 @@ AsymCrypt_Return_t AsymCrypt_EddsaVerify(AsymCrypt_Handle handle,
             pkeStatus = cri_pke_eddsa_verify(gPKE, curve, pubKey, hash, curvelen, sig->R, sig->s, signatureRPrime);
 
             if (pkeStatus == PKE_NO_ERROR_STATUS) {
-                if (memcmp(sig->R, signatureRPrime, key_len) == 0) {
-                    /* PKE Eddsa Verification Signature matches*/
-                    status = ASYM_CRYPT_RETURN_SUCCESS;
-                } else {
-                    /* PKE Eddsa Verification Signature does not matches*/
-                    status = ASYM_CRYPT_RETURN_FAILURE;
-                }
+                    for(i = 0U; i < key_len; i++) {
+                        if (sig->R[i] != signatureRPrime[i]) {
+                            /* PKE Eddsa Verification Signature does not matches*/
+                            status = ASYM_CRYPT_RETURN_FAILURE;
+                            break;
+                        }
+                    }
             } else {
                 status  = ASYM_CRYPT_RETURN_FAILURE;
             }

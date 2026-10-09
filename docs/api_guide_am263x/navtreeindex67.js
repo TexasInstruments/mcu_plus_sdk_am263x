@@ -1,5 +1,8 @@
 var NAVTREEINDEX67 =
 {
+"structMCAN__ConfigParams.html#aa71a272b799ae99516e701e5b2841513":[17,7,24,5,2],
+"structMCAN__ConfigParams.html#ab08b69f417cd03c4d0ae485d6b3163cb":[17,7,24,5,4],
+"structMCAN__ConfigParams.html#ada3c844f969d8ddf7ba915f477ffc3c4":[17,7,24,5,7],
 "structMCAN__ECCAggrRevisionId.html":[17,7,24,17],
 "structMCAN__ECCAggrRevisionId.html#a1f0e9600b02447714cea9e2f84609fbc":[17,7,24,17,5],
 "structMCAN__ECCAggrRevisionId.html#a8969e2c178cca997524cec2f38da8701":[17,7,24,17,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX67 =
 "structMCSPI__ChConfig.html#a1328026003816caff44f4c89872c2455":[17,7,26,4,8],
 "structMCSPI__ChConfig.html#a2428feb2d85e3aa8cc4d4652470a0aef":[17,7,26,4,6],
 "structMCSPI__ChConfig.html#a264fec454cd27fe5d4aafc86cd866d05":[17,7,26,4,11],
-"structMCSPI__ChConfig.html#a4125623379be93f37deb729dd5b333c7":[17,7,26,4,15],
-"structMCSPI__ChConfig.html#a4a6549cd630c209437341c9c518e02aa":[17,7,26,4,1],
-"structMCSPI__ChConfig.html#a5617086b54dd1ff46d0baae70e988ee2":[17,7,26,4,2],
-"structMCSPI__ChConfig.html#a719acb3bbed9cc559f278257d3866761":[17,7,26,4,13]
+"structMCSPI__ChConfig.html#a4125623379be93f37deb729dd5b333c7":[17,7,26,4,15]
 };

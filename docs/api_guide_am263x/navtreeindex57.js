@@ -1,5 +1,8 @@
 var NAVTREEINDEX57 =
 {
+"structCANFD__MCANBitTimingParams.html#acc79c90487e2ea92cfb84224350df9f2":[17,7,2,2,7],
+"structCANFD__MCANBitTimingParams.html#adf835543299fdcc208b3f641d8f946c0":[17,7,2,2,6],
+"structCANFD__MCANBitTimingParams.html#af4fb0adf7aa1d6e100ef49db1d1e8a4c":[17,7,2,2,9],
 "structCANFD__MCANECCConfigParams.html":[17,7,2,6],
 "structCANFD__MCANECCConfigParams.html#a5504c54e4e46f68edd38d12a2dbd7bbf":[17,7,2,6,1],
 "structCANFD__MCANECCConfigParams.html#a5b4d146cd246814154823cee3893dc64":[17,7,2,6,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX57 =
 "structCpswAle__IPv4EntryInfo.html#ad55210897debfdad590cbcab24f8f6ae":[17,4,0,1,0,12,0],
 "structCpswAle__IPv6EntryInfo.html":[17,4,0,1,0,13],
 "structCpswAle__IPv6EntryInfo.html#a681f9721bd2be536f1791eca9a25ce98":[17,4,0,1,0,13,0],
-"structCpswAle__IPv6EntryInfo.html#af3f7231cffac54827a78ac4e1038fec5":[17,4,0,1,0,13,1],
-"structCpswAle__InitVlanCfg.html":[17,4,0,1,0,39],
-"structCpswAle__InitVlanCfg.html#a438b5c7e8d54ae24ec0f0acb4c5d9b11":[17,4,0,1,0,39,3],
-"structCpswAle__InitVlanCfg.html#a779ee27510eccfbf8bbee2383ada36bc":[17,4,0,1,0,39,1]
+"structCpswAle__IPv6EntryInfo.html#af3f7231cffac54827a78ac4e1038fec5":[17,4,0,1,0,13,1]
 };

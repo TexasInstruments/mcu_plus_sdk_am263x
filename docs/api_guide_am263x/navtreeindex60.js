@@ -1,5 +1,8 @@
 var NAVTREEINDEX60 =
 {
+"structCpswStats__MacPort__2g.html#ad964324c1de7fc1d153381aa1d08ac70":[17,4,0,9,0,1,9],
+"structCpswStats__MacPort__2g.html#adb05253c151d04818dbce9697073ecf7":[17,4,0,9,0,1,59],
+"structCpswStats__MacPort__2g.html#ae026869ecd1abe3979f3a32ab8a7bf4d":[17,4,0,9,0,1,55],
 "structCpswStats__MacPort__2g.html#ae0a82e659ed216705467ef62b97372bf":[17,4,0,9,0,1,38],
 "structCpswStats__MacPort__2g.html#aee04cdb175ce5852755e5e70c8bf013a":[17,4,0,9,0,1,37],
 "structCpswStats__MacPort__2g.html#aefafe12ed0ec36e887e68559319dbebc":[17,4,0,9,0,1,43],
@@ -246,8 +249,5 @@ var NAVTREEINDEX60 =
 "structDeviceConfigSecurity__t.html#a7b433170190a4f86b878bd475dd66517":[17,7,14,26,3],
 "structDeviceConfigSecurity__t.html#a89fc06cb03b97f26a8ddd11dab696f9a":[17,7,14,26,7],
 "structDeviceConfigSecurity__t.html#a9d07ee1a4375abcf9bf5505693aea4e9":[17,7,14,26,4],
-"structDeviceConfigSecurity__t.html#aa851e637d68fed00cd8dd771c6253c45":[17,7,14,26,5],
-"structDeviceConfigSecurity__t.html#aad03f8a14f9674125a5ad4bd6622f222":[17,7,14,26,1],
-"structDeviceConfigSecurity__t.html#ab03bf304d0e4c5d5375494ae47c3c41f":[17,7,14,26,8],
-"structDeviceConfigSecurity__t.html#ad692fc1e33cfd72c186e475335d36714":[17,7,14,26,2]
+"structDeviceConfigSecurity__t.html#aa851e637d68fed00cd8dd771c6253c45":[17,7,14,26,5]
 };
