@@ -36785,3 +36785,33 @@ Date:   Mon Sep 7 16:47:16 2026 +0530
  .../networking/.meta/enet_cpsw/templates/am64x_am243x/enet_soc_cfg.c.xdt    |  2 +-
  13 files changed, 71 insertions(+), 33 deletions(-)
 
+========================================
+Changes from build on 2026-10-09 19:40:12
+Previous commit: 689cf0f96fce94306396f6cff5dbb1e43eff0289
+Current commit: bdefb871d725434aecad5a32ad10d704e797e796
+========================================
+
+commit bdefb871d725434aecad5a32ad10d704e797e796
+Author: harini <harini.c@ti.com>
+Date:   Fri Oct 9 13:36:37 2026 +0530
+
+    am283x: makefile: Rebase changes
+    
+    - Rebase mcu_plus_sdk am283 branch
+    with main branch
+    - Commit makefile changes
+    
+    Fixes: SITSW-11000
+    
+    Signed-off-by: harini <harini.c@ti.com>
+
+ .../am283x-evm/r5fss0-0_freertos/ti-arm-clang/example.projectspec                |  2 +-
+ .../am283x-evm-dp83867/am283x-evm/r5fss0-0_freertos/ti-arm-clang/makefile        | 10 ++--------
+ .../am283x-evm/r5fss0-0_freertos/ti-arm-clang/example.projectspec                |  2 +-
+ .../am283x-evm-dp83867/am283x-evm/r5fss0-0_freertos/ti-arm-clang/makefile        | 10 ++--------
+ .../am283x-evm/r5fss0-0_freertos/ti-arm-clang/example.projectspec                |  2 +-
+ .../am283x-evm-dp83867/am283x-evm/r5fss0-0_freertos/ti-arm-clang/makefile        | 10 ++--------
+ .../am283x-evm/r5fss0-0_freertos/ti-arm-clang/example.projectspec                |  2 +-
+ .../am283x-evm-dp83867/am283x-evm/r5fss0-0_freertos/ti-arm-clang/makefile        | 10 ++--------
+ 8 files changed, 12 insertions(+), 36 deletions(-)
+

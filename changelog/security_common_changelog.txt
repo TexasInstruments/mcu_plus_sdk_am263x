@@ -1741,3 +1741,24 @@ Date:   Thu Sep 17 11:23:14 2026 +0530
  drivers/hsmclient/hsmclient_msg.h |  2 ++
  3 files changed, 73 insertions(+), 1 deletion(-)
 
+========================================
+Changes from build on 2026-10-09 19:39:58
+Previous commit: fb5ce8eeb3d6781abd4e85b5e4324c6e714fb927
+Current commit: 80de5e9d29ac6bb1935e5b150a2fd00637f2e1a6
+========================================
+
+commit 80de5e9d29ac6bb1935e5b150a2fd00637f2e1a6
+Author: Rohith Kumar V <r-v3@ti.com>
+Date:   Fri Oct 9 12:31:41 2026 +0530
+
+    am261x: PKE: Fix kw issue
+    
+    - Add a NULL check for the curve
+    
+    Fixes: TIFSMCU-6057
+    
+    Signed-off-by: Rohith Kumar V <r-v3@ti.com>
+
+ drivers/crypto/pke/pke.c | 48 ++++++++++++++++++++++++++++++++----------------
+ 1 file changed, 32 insertions(+), 16 deletions(-)
+
