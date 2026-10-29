@@ -63,11 +63,11 @@ var DEVELOPER_GUIDES =
       [ "Additional References", "BOOTFLOW_GUIDE.html#autotoc_md755", null ]
     ] ],
     [ "Understanding Multicore ELF image format", "MCELF_LANDING.html", [
-      [ "Introduction", "MCELF_LANDING.html#autotoc_md945", null ],
-      [ "RPRC vs MCELF", "MCELF_LANDING.html#autotoc_md946", null ],
-      [ "Generation of MCELF images", "MCELF_LANDING.html#autotoc_md947", null ],
-      [ "Booting MCELF images", "MCELF_LANDING.html#autotoc_md948", null ],
-      [ "Limitations", "MCELF_LANDING.html#autotoc_md949", null ]
+      [ "Introduction", "MCELF_LANDING.html#autotoc_md946", null ],
+      [ "RPRC vs MCELF", "MCELF_LANDING.html#autotoc_md947", null ],
+      [ "Generation of MCELF images", "MCELF_LANDING.html#autotoc_md948", null ],
+      [ "Booting MCELF images", "MCELF_LANDING.html#autotoc_md949", null ],
+      [ "Limitations", "MCELF_LANDING.html#autotoc_md950", null ]
     ] ],
     [ "Using SDK with CCS Projects", "CCS_PROJECTS_PAGE.html", [
       [ "Introduction", "CCS_PROJECTS_PAGE.html#autotoc_md756", null ],

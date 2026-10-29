@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"structCpswAle__IPv6EntryInfo.html#af3f7231cffac54827a78ac4e1038fec5":[17,4,0,1,0,13,1],
 "structCpswAle__InitVlanCfg.html":[17,4,0,1,0,39],
 "structCpswAle__InitVlanCfg.html#a438b5c7e8d54ae24ec0f0acb4c5d9b11":[17,4,0,1,0,39,3],
 "structCpswAle__InitVlanCfg.html#a779ee27510eccfbf8bbee2383ada36bc":[17,4,0,1,0,39,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "structCpswHostPort__Cfg.html":[17,4,0,2,0,1],
 "structCpswHostPort__Cfg.html#a133a44cbc5ae8526aef13c18ab6ebbc7":[17,4,0,2,0,1,0],
 "structCpswHostPort__Cfg.html#a2a673bff734bc24d5e2a3fc3a00187c9":[17,4,0,2,0,1,4],
-"structCpswHostPort__Cfg.html#a3a6d258f198538cc31c53223207f77d5":[17,4,0,2,0,1,13],
-"structCpswHostPort__Cfg.html#a5117a49a475108aa91881871bc0f4153":[17,4,0,2,0,1,6]
+"structCpswHostPort__Cfg.html#a3a6d258f198538cc31c53223207f77d5":[17,4,0,2,0,1,13]
 };

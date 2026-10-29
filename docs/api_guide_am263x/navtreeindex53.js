@@ -1,5 +1,6 @@
 var NAVTREEINDEX53 =
 {
+"group__SDL__MCRC__API.html#gab5ea04c139cea73db735fe78336972e3":[17,6,7,0,20],
 "group__SDL__MCRC__API.html#gab88b74b382f3c6ef988fea7e70da1b98":[17,6,7,0,62],
 "group__SDL__MCRC__API.html#gabe8b4966265a8991917204c696ce489b":[17,6,7,0,7],
 "group__SDL__MCRC__API.html#gac32a5645ca79818c98bef95f9a9f25b5":[17,6,7,0,22],
@@ -225,8 +226,8 @@ var NAVTREEINDEX53 =
 "group__SDL__R5FCPU__StaticRegisterRead__FUNCTIONS.html":[17,6,10,1],
 "group__SDL__R5FCPU__StaticRegisterRead__FUNCTIONS.html#ga4766f5a79a2412f3a3227a7b3f2b1c3a":[17,6,10,1,0],
 "group__SDL__R5FCPU__StaticRegisterRead__FUNCTIONS.html#gac91a37140f8629d474fba9d6f6054a8e":[17,6,10,1,1],
-"group__SDL__RTI__API.html":[17,5,1],
 "group__SDL__RTI__API.html":[17,6,8],
+"group__SDL__RTI__API.html":[17,5,1],
 "group__SDL__RTI__ENUM.html":[17,5,1,1],
 "group__SDL__RTI__ENUM.html":[17,6,8,1],
 "group__SDL__RTI__ENUM.html#gaf3c380f1a6387bbf83e41fa59e03d307":[17,5,1,1,0],
@@ -237,17 +238,16 @@ var NAVTREEINDEX53 =
 "group__SDL__RTI__ENUM.html#ggaf3c380f1a6387bbf83e41fa59e03d307a999089a8840d39d140f30b5b27dc8259":[17,6,8,1,0,0],
 "group__SDL__RTI__ENUM.html#ggaf3c380f1a6387bbf83e41fa59e03d307aca8bfa0a480ef2fc67358a5005853ba1":[17,5,1,1,0,1],
 "group__SDL__RTI__ENUM.html#ggaf3c380f1a6387bbf83e41fa59e03d307aca8bfa0a480ef2fc67358a5005853ba1":[17,6,8,1,0,1],
-"group__SDL__RTI__ENUM.html#ggaf3c380f1a6387bbf83e41fa59e03d307ad452405ece2229088a848f0b57dd45f5":[17,5,1,1,0,3],
 "group__SDL__RTI__ENUM.html#ggaf3c380f1a6387bbf83e41fa59e03d307ad452405ece2229088a848f0b57dd45f5":[17,6,8,1,0,3],
+"group__SDL__RTI__ENUM.html#ggaf3c380f1a6387bbf83e41fa59e03d307ad452405ece2229088a848f0b57dd45f5":[17,5,1,1,0,3],
 "group__SDL__RTI__ENUM.html#ggaf3c380f1a6387bbf83e41fa59e03d307af173796baf62c5ae33a94e8a43e861e9":[17,5,1,1,0,2],
 "group__SDL__RTI__ENUM.html#ggaf3c380f1a6387bbf83e41fa59e03d307af173796baf62c5ae33a94e8a43e861e9":[17,6,8,1,0,2],
 "group__SDL__RTI__FUNCTION.html":[17,5,1,2],
 "group__SDL__RTI__FUNCTION.html":[17,6,8,2],
-"group__SDL__RTI__FUNCTION.html#ga0e3f1dc0d83e79da9d5d91f1e213f6e0":[17,6,8,2,3],
 "group__SDL__RTI__FUNCTION.html#ga0e3f1dc0d83e79da9d5d91f1e213f6e0":[17,5,1,2,3],
+"group__SDL__RTI__FUNCTION.html#ga0e3f1dc0d83e79da9d5d91f1e213f6e0":[17,6,8,2,3],
 "group__SDL__RTI__FUNCTION.html#ga52ddabc9295827c36f8945c977779f13":[17,5,1,2,5],
 "group__SDL__RTI__FUNCTION.html#ga52ddabc9295827c36f8945c977779f13":[17,6,8,2,5],
-"group__SDL__RTI__FUNCTION.html#ga60126dc79ffab968059a4d4b408dc820":[17,5,1,2,4],
 "group__SDL__RTI__FUNCTION.html#ga60126dc79ffab968059a4d4b408dc820":[17,6,8,2,4],
-"group__SDL__RTI__FUNCTION.html#ga740da1af29276038e1cfd264f61f002f":[17,5,1,2,6]
+"group__SDL__RTI__FUNCTION.html#ga60126dc79ffab968059a4d4b408dc820":[17,5,1,2,4]
 };

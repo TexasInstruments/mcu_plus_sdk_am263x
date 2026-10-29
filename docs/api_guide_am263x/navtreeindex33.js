@@ -1,5 +1,6 @@
 var NAVTREEINDEX33 =
 {
+"group__DRV__EPWM__MODULE.html#ggaabfba465ebc5eb3cee724be8a20e960ba26529515c9ac8419516a27ca20c78327":[17,7,7,271,3],
 "group__DRV__EPWM__MODULE.html#ggaabfba465ebc5eb3cee724be8a20e960baf294946213b31aeefa0ca33666eaa45b":[17,7,7,271,2],
 "group__DRV__EPWM__MODULE.html#ggaabfba465ebc5eb3cee724be8a20e960baf8fc6e950f78d4853c014192727e5c5f":[17,7,7,271,0],
 "group__DRV__EPWM__MODULE.html#ggab0dfab3b66f34fbd88bd82fc963ade99a110e6612c88d86111052e9197012674c":[17,7,7,258,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX33 =
 "group__DRV__EQEP__MODULE.html#ga978db2221b196b54f478c553981ad442":[17,7,8,99],
 "group__DRV__EQEP__MODULE.html#ga9833bd1d1984b2d23f88ad718c360a34":[17,7,8,79],
 "group__DRV__EQEP__MODULE.html#ga983a1a813a61375efa9f8dc25ff54c3f":[17,7,8,64],
-"group__DRV__EQEP__MODULE.html#ga9841365ddb3ce855aeb6781e55f10d4f":[17,7,8,26],
-"group__DRV__EQEP__MODULE.html#ga98a073f90226a6dbc9624bc3779471f4":[17,7,8,13]
+"group__DRV__EQEP__MODULE.html#ga9841365ddb3ce855aeb6781e55f10d4f":[17,7,8,26]
 };

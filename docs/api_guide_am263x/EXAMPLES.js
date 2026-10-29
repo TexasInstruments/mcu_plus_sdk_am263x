@@ -3,69 +3,69 @@ var EXAMPLES =
     [ "PRU IO", "EXAMPLES_PRU_IO.html", "EXAMPLES_PRU_IO" ],
     [ "Benchmarks", "EXAMPLES_BENCHMARKS.html", "EXAMPLES_BENCHMARKS" ],
     [ "Empty Project", "EXAMPLES_EMPTY.html", [
-      [ "Introduction", "EXAMPLES_EMPTY.html#autotoc_md1892", null ],
+      [ "Introduction", "EXAMPLES_EMPTY.html#autotoc_md1893", null ],
       [ "Supported Combinations", "EXAMPLES_EMPTY.html#EXAMPLES_EMPTY_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_EMPTY.html#autotoc_md1893", null ],
-      [ "Sample Output", "EXAMPLES_EMPTY.html#autotoc_md1894", null ]
+      [ "Steps to Run the Example", "EXAMPLES_EMPTY.html#autotoc_md1894", null ],
+      [ "Sample Output", "EXAMPLES_EMPTY.html#autotoc_md1895", null ]
     ] ],
     [ "Hello World Project", "EXAMPLES_HELLO_WORLD.html", [
-      [ "Introduction", "EXAMPLES_HELLO_WORLD.html#autotoc_md1895", null ],
+      [ "Introduction", "EXAMPLES_HELLO_WORLD.html#autotoc_md1896", null ],
       [ "Supported Combinations", "EXAMPLES_HELLO_WORLD.html#EXAMPLES_HELLO_WORLD_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_HELLO_WORLD.html#autotoc_md1896", null ],
-      [ "Sample Output", "EXAMPLES_HELLO_WORLD.html#autotoc_md1897", null ]
+      [ "Steps to Run the Example", "EXAMPLES_HELLO_WORLD.html#autotoc_md1897", null ],
+      [ "Sample Output", "EXAMPLES_HELLO_WORLD.html#autotoc_md1898", null ]
     ] ],
     [ "Hello World Board Sysconfig Project", "EXAMPLES_HELLO_WORLD_BOARD_SYSCFG.html", [
-      [ "Introduction", "EXAMPLES_HELLO_WORLD_BOARD_SYSCFG.html#autotoc_md1898", null ],
-      [ "Supported Combinations", "EXAMPLES_HELLO_WORLD_BOARD_SYSCFG.html#autotoc_md1899", null ],
-      [ "Steps to Run the Example", "EXAMPLES_HELLO_WORLD_BOARD_SYSCFG.html#autotoc_md1900", null ],
-      [ "Sample Output", "EXAMPLES_HELLO_WORLD_BOARD_SYSCFG.html#autotoc_md1901", null ]
+      [ "Introduction", "EXAMPLES_HELLO_WORLD_BOARD_SYSCFG.html#autotoc_md1899", null ],
+      [ "Supported Combinations", "EXAMPLES_HELLO_WORLD_BOARD_SYSCFG.html#autotoc_md1900", null ],
+      [ "Steps to Run the Example", "EXAMPLES_HELLO_WORLD_BOARD_SYSCFG.html#autotoc_md1901", null ],
+      [ "Sample Output", "EXAMPLES_HELLO_WORLD_BOARD_SYSCFG.html#autotoc_md1902", null ]
     ] ],
     [ "Hello World C++ Project", "EXAMPLES_HELLO_WORLD_CPP.html", [
-      [ "Introduction", "EXAMPLES_HELLO_WORLD_CPP.html#autotoc_md1902", null ],
+      [ "Introduction", "EXAMPLES_HELLO_WORLD_CPP.html#autotoc_md1903", null ],
       [ "Supported Combinations", "EXAMPLES_HELLO_WORLD_CPP.html#EXAMPLES_HELLO_WORLD_CPP_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_HELLO_WORLD_CPP.html#autotoc_md1903", null ],
-      [ "Sample Output", "EXAMPLES_HELLO_WORLD_CPP.html#autotoc_md1904", null ],
-      [ "C++ Build Details", "EXAMPLES_HELLO_WORLD_CPP.html#autotoc_md1905", [
-        [ "Flags used for C++ build", "EXAMPLES_HELLO_WORLD_CPP.html#autotoc_md1906", null ],
-        [ "Building the mcu sdk libs with C++ flsgs.", "EXAMPLES_HELLO_WORLD_CPP.html#autotoc_md1907", null ],
-        [ "Building an application using c++ flags", "EXAMPLES_HELLO_WORLD_CPP.html#autotoc_md1908", null ]
+      [ "Steps to Run the Example", "EXAMPLES_HELLO_WORLD_CPP.html#autotoc_md1904", null ],
+      [ "Sample Output", "EXAMPLES_HELLO_WORLD_CPP.html#autotoc_md1905", null ],
+      [ "C++ Build Details", "EXAMPLES_HELLO_WORLD_CPP.html#autotoc_md1906", [
+        [ "Flags used for C++ build", "EXAMPLES_HELLO_WORLD_CPP.html#autotoc_md1907", null ],
+        [ "Building the mcu sdk libs with C++ flsgs.", "EXAMPLES_HELLO_WORLD_CPP.html#autotoc_md1908", null ],
+        [ "Building an application using c++ flags", "EXAMPLES_HELLO_WORLD_CPP.html#autotoc_md1909", null ]
       ] ]
     ] ],
     [ "OS Kernel and Driver Porting Layer (DPL)", "EXAMPLES_KERNEL.html", "EXAMPLES_KERNEL" ],
     [ "SOC and Board Peripheral Drivers", "EXAMPLES_DRIVERS.html", "EXAMPLES_DRIVERS" ],
     [ "Secondary Bootloader (SBL)", "EXAMPLES_DRIVERS_SBL.html", "EXAMPLES_DRIVERS_SBL" ],
     [ "Real Time Debug", "EXAMPLES_REAL_TIME_DEBUG.html", [
-      [ "Introduction", "EXAMPLES_REAL_TIME_DEBUG.html#autotoc_md1889", null ],
-      [ "Supported Combinations", "EXAMPLES_REAL_TIME_DEBUG.html#autotoc_md1890", null ],
-      [ "Steps to Run the Example", "EXAMPLES_REAL_TIME_DEBUG.html#autotoc_md1891", null ]
+      [ "Introduction", "EXAMPLES_REAL_TIME_DEBUG.html#autotoc_md1890", null ],
+      [ "Supported Combinations", "EXAMPLES_REAL_TIME_DEBUG.html#autotoc_md1891", null ],
+      [ "Steps to Run the Example", "EXAMPLES_REAL_TIME_DEBUG.html#autotoc_md1892", null ]
     ] ],
     [ "Ethernet and Networking", "EXAMPLES_NETWORKING.html", "EXAMPLES_NETWORKING" ],
     [ "MATHLIB Benchmark", "EXAMPLES_MATHLIB_BENCHMARK.html", [
-      [ "Introduction", "EXAMPLES_MATHLIB_BENCHMARK.html#autotoc_md3008", null ],
+      [ "Introduction", "EXAMPLES_MATHLIB_BENCHMARK.html#autotoc_md3009", null ],
       [ "Supported Combinations", "EXAMPLES_MATHLIB_BENCHMARK.html#EXAMPLES_MATHLIB_BENCHMARK_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_MATHLIB_BENCHMARK.html#autotoc_md3009", null ],
-      [ "See Also", "EXAMPLES_MATHLIB_BENCHMARK.html#autotoc_md3010", null ],
-      [ "Sample Output", "EXAMPLES_MATHLIB_BENCHMARK.html#autotoc_md3011", null ]
+      [ "Steps to Run the Example", "EXAMPLES_MATHLIB_BENCHMARK.html#autotoc_md3010", null ],
+      [ "See Also", "EXAMPLES_MATHLIB_BENCHMARK.html#autotoc_md3011", null ],
+      [ "Sample Output", "EXAMPLES_MATHLIB_BENCHMARK.html#autotoc_md3012", null ]
     ] ],
     [ "SECURITY", "EXAMPLES_SECURITY.html", "EXAMPLES_SECURITY" ],
     [ "Software Diagnostics Library (SDL)", "EXAMPLES_SDL.html", "EXAMPLES_SDL" ],
     [ "Basic Smart Placement", "EXAMPLES_BASIC_SMART_PLACEMENT.html", [
-      [ "Introduction", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4032", null ],
+      [ "Introduction", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4033", null ],
       [ "Supported Combinations", "EXAMPLES_BASIC_SMART_PLACEMENT.html#EXAMPLES_BASIC_SMART_PLACEMENT_COMBOS", null ],
-      [ "Steps to Run the Example", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4034", null ],
-      [ "Sample Output", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4035", null ],
-      [ "Description", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4036", [
-        [ "Process of smart placement", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4037", [
-          [ "Building benchmark application", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4033", null ],
-          [ "Critical Function Identification", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4038", null ],
-          [ "Priority Assignment", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4039", null ],
-          [ "Annotating functions", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4040", null ],
-          [ "Linker change", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4041", null ]
+      [ "Steps to Run the Example", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4035", null ],
+      [ "Sample Output", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4036", null ],
+      [ "Description", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4037", [
+        [ "Process of smart placement", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4038", [
+          [ "Building benchmark application", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4034", null ],
+          [ "Critical Function Identification", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4039", null ],
+          [ "Priority Assignment", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4040", null ],
+          [ "Annotating functions", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4041", null ],
+          [ "Linker change", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4042", null ]
         ] ],
-        [ "How Smart Placement improves code performance?", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4042", null ],
-        [ "How Cache Miss ratio is also improved?", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4043", null ]
+        [ "How Smart Placement improves code performance?", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4043", null ],
+        [ "How Cache Miss ratio is also improved?", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4044", null ]
       ] ],
-      [ "Conclusion", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4044", null ]
+      [ "Conclusion", "EXAMPLES_BASIC_SMART_PLACEMENT.html#autotoc_md4045", null ]
     ] ],
     [ "AI Examples", "EXAMPLES_AI.html", "EXAMPLES_AI" ],
     [ "Software Diagnostics Library (SDL)", "EXAMPLES_SDL.html", "EXAMPLES_SDL" ]
