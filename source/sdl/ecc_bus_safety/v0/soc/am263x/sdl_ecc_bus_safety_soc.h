@@ -46,7 +46,7 @@
 #include <sdl/include/am263x/sdlr_soc_baseaddress.h>
 #include <sdl/include/am263x/sdlr_mss_ctrl.h>
 
-#ifdef _cplusplus
+#ifdef __cplusplus
 extern "C" {
 #endif
 
@@ -252,7 +252,7 @@ extern "C" {
 #define SDL_ECC_BUS_SAFETY_DED_START_NODE      (SDL_ECC_BUS_SAFETY_MSS_CR5A_AXI_RD)
 #define SDL_ECC_BUS_SAFETY_DED_END_NODE        (SDL_ECC_BUS_SAFETY_MSS_GPMC)
 
-#ifdef _cplusplus
+#ifdef __cplusplus
 }
 
 #endif /*extern "C" */
