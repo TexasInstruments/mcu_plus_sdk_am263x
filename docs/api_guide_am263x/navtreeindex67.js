@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"structMCAN__ConfigParams.html#a3fc88ce579da88ea0009612f8f553f48":[17,7,24,5,0],
 "structMCAN__ConfigParams.html#a51874a6004307237da86f28776c11ed1":[17,7,24,5,6],
 "structMCAN__ConfigParams.html#aa71a272b799ae99516e701e5b2841513":[17,7,24,5,2],
 "structMCAN__ConfigParams.html#ab08b69f417cd03c4d0ae485d6b3163cb":[17,7,24,5,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "structMCSPI__Attrs.html#aed88676acb57223688f5bcf72cf6fd4a":[17,7,25,2,8],
 "structMCSPI__ChConfig.html":[17,7,26,4],
 "structMCSPI__ChConfig.html#a1328026003816caff44f4c89872c2455":[17,7,26,4,8],
-"structMCSPI__ChConfig.html#a2428feb2d85e3aa8cc4d4652470a0aef":[17,7,26,4,6],
-"structMCSPI__ChConfig.html#a264fec454cd27fe5d4aafc86cd866d05":[17,7,26,4,11]
+"structMCSPI__ChConfig.html#a2428feb2d85e3aa8cc4d4652470a0aef":[17,7,26,4,6]
 };

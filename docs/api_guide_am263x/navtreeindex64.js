@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structHwiP__Params.html#ad66bd98ae9d27e0196a4c3717f05a7fe":[17,2,6,1,5],
 "structI2CLLD__Message.html":[17,7,17,2],
 "structI2CLLD__Message.html#a3afe4b74bee2a0c6db897852a9f385a6":[17,7,17,2,6],
 "structI2CLLD__Message.html#a5078429e96166f51d30ef2f117fcf335":[17,7,17,2,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structICSS__EMAC__PruStatistics.html#ab007a5e7ad74b37b25ad0ad4e8aaf3ec":[17,4,2,13,35],
 "structICSS__EMAC__PruStatistics.html#ab0230bbf0504332eae7ca8ec4aba1a0b":[17,4,2,13,0],
 "structICSS__EMAC__PruStatistics.html#ab2b66aa3cefdad35877aaaff631f7f21":[17,4,2,13,17],
-"structICSS__EMAC__PruStatistics.html#ab4104d9777133a58becc021a8100f905":[17,4,2,13,25],
-"structICSS__EMAC__PruStatistics.html#ab920fd85429381306342db3dd69088fe":[17,4,2,13,18]
+"structICSS__EMAC__PruStatistics.html#ab4104d9777133a58becc021a8100f905":[17,4,2,13,25]
 };

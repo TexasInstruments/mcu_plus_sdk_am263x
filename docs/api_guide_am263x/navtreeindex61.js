@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"structDeviceConfigSecurity__t.html#a9d07ee1a4375abcf9bf5505693aea4e9":[17,7,14,26,4],
 "structDeviceConfigSecurity__t.html#aa851e637d68fed00cd8dd771c6253c45":[17,7,14,26,5],
 "structDeviceConfigSecurity__t.html#aad03f8a14f9674125a5ad4bd6622f222":[17,7,14,26,1],
 "structDeviceConfigSecurity__t.html#ab03bf304d0e4c5d5375494ae47c3c41f":[17,7,14,26,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "structEnetDma__TxChStats.html#a1096cde1642721f3c8a4794bb47c1085":[17,4,0,0,2,3,2],
 "structEnetDma__TxChStats.html#a31ad348b69ca1211af9ff94cddf054da":[17,4,0,0,2,3,1],
 "structEnetDma__TxChStats.html#a3b72f1962f3b1f7d7937c32fdd72baa1":[17,4,0,0,2,3,5],
-"structEnetDma__TxChStats.html#aa9d8e1888f37db65f23b92ce9aa57fb9":[17,4,0,0,2,3,0],
-"structEnetDma__TxChStats.html#aaf6480dfc59f9ca6fc9a5a94933b8f14":[17,4,0,0,2,3,3]
+"structEnetDma__TxChStats.html#aa9d8e1888f37db65f23b92ce9aa57fb9":[17,4,0,0,2,3,0]
 };
