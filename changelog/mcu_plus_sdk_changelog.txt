@@ -915175,3 +915175,62 @@ Date:   Wed Nov 25 14:00:50 2026 +0530
  examples/sdl/r5f_cpu_utils/utils.c | 80 +++++++++++++++++++++++++++++++++++++++---------------------------------------
  1 file changed, 40 insertions(+), 40 deletions(-)
 
+========================================
+Changes from build on 2026-11-26 19:41:43
+Previous commit: b4aa9698336222df176e2508e3f20ecd4a6d9652
+Current commit: 915a256fe59512ed74ed409d5f4cfe3a0ffd0df7
+========================================
+
+commit 915a256fe59512ed74ed409d5f4cfe3a0ffd0df7
+Author: Manoj Koppolu <manoj_koppolu@ti.com>
+Date:   Wed Nov 25 16:21:26 2026 +0530
+
+    am243x: sciclient: add RM boardcfg grant for ICSS GPIOMUX outputs
+    
+    - Add two resasg_entries for TISCI_DEV_MAIN_GPIOMUX_INTROUTER0
+    TISCI_RESASG_SUBTYPE_IR_OUTPUT: output 18 to 23
+    
+    - Bump resasg_entries_size by 2 match the new array length.
+    
+    Fixes: SITREQ-7146
+    
+    Signed-off-by: Manoj Koppolu <manoj_koppolu@ti.com>
+
+ source/drivers/sciclient/sciclient_default_boardcfg/am243x/boardcfg_blob.bin     | Bin 3660 -> 3660 bytes
+ .../sciclient/sciclient_default_boardcfg/am243x/sciclient_defaultBoardcfg_hex.h  |   2 +-
+ .../sciclient_default_boardcfg/am243x/sciclient_defaultBoardcfg_pm_hex.h         |   2 +-
+ .../sciclient_default_boardcfg/am243x/sciclient_defaultBoardcfg_pm_linux_hex.h   |   2 +-
+ .../sciclient/sciclient_default_boardcfg/am243x/sciclient_defaultBoardcfg_rm.c   |  22 +++++++++++++++++++++-
+ .../sciclient_default_boardcfg/am243x/sciclient_defaultBoardcfg_rm_hex.h         |  12 ++++++------
+ .../sciclient_default_boardcfg/am243x/sciclient_defaultBoardcfg_rm_linux_hex.h   |   2 +-
+ .../sciclient_default_boardcfg/am243x/sciclient_defaultBoardcfg_security_hex.h   |   2 +-
+ .../am243x/sciclient_defaultBoardcfg_security_linux_hex.h                        |   2 +-
+ tools/sysfw/boardcfg/makefile                                                    |   2 +-
+ tools/sysfw/boardcfg/respart/am243x/k3-respart-tool-0.5/out/am243x-evm.syscfg    |  21 ++++++++++++++++-----
+ 11 files changed, 50 insertions(+), 19 deletions(-)
+
+commit 16d76b306be311b57defe2cf90f872968f68d79b
+Author: Souraduti Parui <s-parui@ti.com>
+Date:   Wed Nov 25 14:47:34 2026 +0530
+
+    am243x,am64x: sbl: add docs for enet sbl
+    
+    - Added Documentation for Ethernet SBL
+      example
+    
+    Fixes: SITSW-13673
+    
+    Signed-off-by: Souraduti Parui <s-parui@ti.com>
+
+ docs_src/docs/api_guide/device/am243x/examples.cfg                          |   1 +
+ docs_src/docs/api_guide/device/am64x/examples.cfg                           |   1 +
+ docs_src/docs/api_guide/examples/drivers/sbl_enet_bootloader.md             | 249 ++++++++++++++++++++++++++++++++++++
+ docs_src/docs/api_guide/examples/examples_drivers_sbl.md                    |   1 +
+ docs_src/docs/api_guide/images/bootflow/enet_sbl_reception.png              | Bin 0 -> 332893 bytes
+ examples/drivers/boot/sbl_enet/.project/project_am243x.js                   |   2 +-
+ examples/drivers/boot/sbl_enet/.project/project_am64x.js                    |   2 +-
+ .../sbl_enet/am243x-evm/r5fss0-0_nortos/ti-arm-clang/example.projectspec    |   2 +-
+ .../sbl_enet/am243x-lp/r5fss0-0_nortos/ti-arm-clang/example.projectspec     |   2 +-
+ .../sbl_enet/am64x-evm/r5fss0-0_nortos/ti-arm-clang/example.projectspec     |   2 +-
+ 10 files changed, 257 insertions(+), 5 deletions(-)
+
